@@ -296,7 +296,7 @@
         "because",
         "so"
        ],
-       "at": 1,
+       "at": 0,
        "whys": [
         null,
         "Being small is not the reason it is bright.",
@@ -321,7 +321,7 @@
         "cooking",
         "cooks"
        ],
-       "at": 0,
+       "at": 2,
        "whys": [
         null,
         "We don't say 'use the big pot cooking soup'. Use 'to' + verb to say what it is for.",
@@ -443,7 +443,7 @@
           "quiet",
           "tiny"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "A quiet person does not talk much, but he says hello to everyone.",
@@ -486,7 +486,7 @@
           "quiet",
           "helpful"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Kites don't make much noise, but the sentence is about colours.",
@@ -556,7 +556,7 @@
           "carrying",
           "carried"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "We don't say 'uses his big basket carrying fruit'. Use 'to' + verb to say what it is for.",
@@ -599,7 +599,7 @@
           "what his grandma is like",
           "what his grandma does"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'She is kind and funny' tells us what she is like.",
@@ -678,7 +678,7 @@
           "what it is and where",
           "a special feature and its use"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'Our family's kite' and 'in the garage' tell us what it is and where.",
@@ -821,7 +821,7 @@
           "No, it is too short.",
           "No, it is too long."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Count again: there are 7 sentences.",
@@ -1411,7 +1411,7 @@
        "quiet",
        "tired"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "A quiet person does not say much. He makes everyone laugh.",
@@ -1429,7 +1429,7 @@
        "tiny",
        "funny"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "Three hundred rooms is a lot, so it can't be tiny.",
@@ -1455,7 +1455,7 @@
        "because",
        "so"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "Being old is not the reason he runs fast.",
@@ -1473,7 +1473,7 @@
        "but",
        "then"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "'But' joins two different ideas. Being bright is a reason to love it.",
@@ -1499,7 +1499,7 @@
        "takes",
        "taking"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "'Has a camera takes' is not a correct sentence.",
@@ -1543,7 +1543,7 @@
        "my uncle has a dog called Spot.",
        "My uncle has a dog called spot"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "The first word of a sentence needs a capital letter.",
@@ -1561,7 +1561,7 @@
        "in July we go to Ha Long Bay.",
        "In july we go to ha long bay"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "The first word of a sentence needs a capital letter.",
@@ -1605,7 +1605,7 @@
        "colorful",
        "colourfull"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "This is American spelling. British English adds a 'u'.",
@@ -1631,7 +1631,7 @@
        "why she is special to Rory",
        "what his sister is like"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "'She is special to me because ...' is his reason.",
@@ -1711,7 +1711,7 @@
        "what it looks like",
        "why Hieu likes it"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "'Black and silver, with a tiny blue light' tells us what it looks like.",
@@ -1787,7 +1787,7 @@
        "The lamp is small because it is very bright.",
        "The lamp is small, so it is very bright."
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Being bright is not the reason it is small.",
@@ -1831,7 +1831,7 @@
        "It is on Mars, far away from Earth.",
        "I like it because it is very clever."
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "This says where it is, not a special feature and its use.",
@@ -1849,7 +1849,7 @@
        "It is white and round, with a black lid.",
        "It is in the kitchen, next to the fridge."
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "This says what it looks like, not what a feature is for.",
@@ -2107,51 +2107,51 @@
     ]
    ],
    [
-    "How many sentences should you write?",
+    "My aunt has long, ___ hair.",
     [
-     "6 to 8",
-     "2 to 3",
-     "15 to 20"
+     "curly",
+     "kind",
+     "clever"
     ]
    ],
    [
-    "How many bullet points are there?",
+    "A place with lots of people is ___.",
     [
-     "four",
-     "two",
-     "six"
+     "busy",
+     "quiet",
+     "empty"
     ]
    ],
    [
-    "How many paragraphs do you write?",
+    "She wears ___ glasses.",
     [
-     "one",
-     "three",
-     "five"
+     "round",
+     "quiet",
+     "clever"
     ]
    ],
    [
-    "Task 1 describes a ___.",
+    "Grandpa is 80. He is ___.",
     [
-     "person",
-     "recipe",
-     "story"
+     "old",
+     "young",
+     "new"
     ]
    ],
    [
-    "Task 2 describes a place or ___.",
+    "The opposite of tall?",
     [
-     "thing",
-     "song",
-     "game"
+     "short",
+     "big",
+     "long"
     ]
    ],
    [
-    "Your last sentence gives your ___.",
+    "My uncle ___ a long beard.",
     [
-     "opinion",
-     "address",
-     "age"
+     "has",
+     "is",
+     "have"
     ]
    ],
    [

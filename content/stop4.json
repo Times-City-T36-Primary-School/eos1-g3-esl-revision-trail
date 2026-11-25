@@ -62,7 +62,7 @@
     "ex": "We have lunch at *half past* twelve."
    },
    "quarter past": {
-    "emoji": "🕒",
+    "emoji": "⏰",
     "vi": "hơn mười lăm phút",
     "def": "Fifteen minutes after the hour, like 9:15.",
     "ex": "The bus comes at *quarter past* eight."
@@ -382,7 +382,7 @@
          "tag": "park"
         }
        ],
-       "at": 2,
+       "at": 1,
        "whys": [
         null,
         "Grandpa guesses the library, but Amira says no.",
@@ -442,7 +442,7 @@
          "tag": "rice"
         }
        ],
-       "at": 0,
+       "at": 1,
        "whys": [
         null,
         "There aren't any noodles today.",
@@ -495,7 +495,7 @@
          "tag": "water"
         }
        ],
-       "at": 2,
+       "at": 0,
        "whys": [
         null,
         "Grace asks for juice, but there isn't any.",
@@ -608,7 +608,7 @@
          "tag": "7:30"
         }
        ],
-       "at": 1,
+       "at": 2,
        "whys": [
         null,
         "Seven o'clock is when they usually eat.",
@@ -663,7 +663,7 @@
          "tag": "farmer"
         }
        ],
-       "at": 0,
+       "at": 2,
        "whys": [
         null,
         "Mum guesses teacher, but Lucy says no.",
@@ -716,7 +716,7 @@
          "tag": "stars"
         }
        ],
-       "at": 1,
+       "at": 0,
        "whys": [
         null,
         "The rocket is on his brother's T-shirt.",
@@ -794,7 +794,7 @@
            "tag": "7:30"
           }
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Half past five is when Grandma should come.",
@@ -907,7 +907,7 @@
            "tag": "£1"
           }
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Two pounds is the price of the lemon cake.",
@@ -1073,7 +1073,7 @@
            "tag": "Fri"
           }
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Mum says not on Monday.",
@@ -1141,7 +1141,7 @@
            "tag": "mountains"
           }
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Grandpa guesses the city, but Jack says no.",
@@ -1194,7 +1194,7 @@
            "tag": "Earth"
           }
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Grace says Mars is nice, but it isn't her favourite.",
@@ -1254,7 +1254,7 @@
            "tag": "car"
           }
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Raj usually walks, but not today.",
@@ -1420,7 +1420,7 @@
            "tag": "strawberries"
           }
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "The pot is too small for carrots.",
@@ -1902,7 +1902,7 @@
            "tag": "park"
           }
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "The sports centre is closed this month.",
@@ -2015,7 +2015,7 @@
            "tag": "police officer"
           }
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Dad guesses teacher, but Lucy says no.",
@@ -2075,7 +2075,7 @@
            "tag": "stars"
           }
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "The moon poster was too big.",
@@ -2362,7 +2362,7 @@
            "tag": "10:00"
           }
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Nine o'clock is the usual opening time, not Sunday's.",
@@ -2422,7 +2422,7 @@
            "tag": "biscuits"
           }
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Raj doesn't need a sandwich because the camp gives them lunch.",
@@ -2475,7 +2475,7 @@
            "tag": "bed"
           }
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "The box was for last night.",
@@ -2529,7 +2529,7 @@
        "v": [
         {
          "type": "tfill",
-         "q": "1 Surname:",
+         "q": "Write the surname.",
          "lines": [
           "Surname: {0}"
          ],
@@ -2615,7 +2615,7 @@
         },
         {
          "type": "tfill",
-         "q": "1 Surname:",
+         "q": "Write the surname.",
          "lines": [
           "Surname: {0}"
          ],
@@ -2709,7 +2709,7 @@
        "v": [
         {
          "type": "tfill",
-         "q": "2 Phone number:",
+         "q": "Write the phone number.",
          "lines": [
           "Phone number: {0}"
          ],
@@ -2799,7 +2799,7 @@
         },
         {
          "type": "tfill",
-         "q": "2 Age:",
+         "q": "Write the age.",
          "lines": [
           "Age: {0}"
          ],
@@ -2896,7 +2896,7 @@
        "v": [
         {
          "type": "tfill",
-         "q": "3 Lesson time on Saturday:",
+         "q": "Write the lesson time on Saturday.",
          "lines": [
           "Lesson time on Saturday: {0}"
          ],
@@ -2999,7 +2999,7 @@
         },
         {
          "type": "tfill",
-         "q": "3 Number of people:",
+         "q": "Write the number of people.",
          "lines": [
           "Number of people: {0}"
          ],
@@ -3182,7 +3182,7 @@
     "v": [
      {
       "type": "tfill",
-      "q": "1 Surname:",
+      "q": "Write the surname.",
       "lines": [
        "Surname: {0}"
       ],
@@ -3288,7 +3288,7 @@
      },
      {
       "type": "tfill",
-      "q": "1 Surname:",
+      "q": "Write the surname.",
       "lines": [
        "Surname: {0}"
       ],
@@ -3393,7 +3393,7 @@
     "v": [
      {
       "type": "tfill",
-      "q": "2 Age:",
+      "q": "Write the age.",
       "lines": [
        "Age: {0}"
       ],
@@ -3502,7 +3502,7 @@
      },
      {
       "type": "tfill",
-      "q": "2 Age:",
+      "q": "Write the age.",
       "lines": [
        "Age: {0}"
       ],
@@ -3610,7 +3610,7 @@
     "v": [
      {
       "type": "tfill",
-      "q": "3 Phone number:",
+      "q": "Write the phone number.",
       "lines": [
        "Phone number: {0}"
       ],
@@ -3720,7 +3720,7 @@
      },
      {
       "type": "tfill",
-      "q": "3 Phone number:",
+      "q": "Write the phone number.",
       "lines": [
        "Phone number: {0}"
       ],
@@ -3829,7 +3829,7 @@
     "v": [
      {
       "type": "tfill",
-      "q": "4 Day:",
+      "q": "Write the day.",
       "lines": [
        "Day: {0}"
       ],
@@ -3939,7 +3939,7 @@
      },
      {
       "type": "tfill",
-      "q": "4 Arrive at:",
+      "q": "Write the time to arrive.",
       "lines": [
        "Arrive at: {0}"
       ],
@@ -4065,7 +4065,7 @@
     "v": [
      {
       "type": "tfill",
-      "q": "5 Bring:",
+      "q": "Write what to bring.",
       "lines": [
        "Bring: {0}"
       ],
@@ -4172,7 +4172,7 @@
      },
      {
       "type": "tfill",
-      "q": "5 Number of cakes:",
+      "q": "Write the number of cakes.",
       "lines": [
        "Number of cakes: {0}"
       ],
@@ -4294,7 +4294,7 @@
         "tag": "park"
        }
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "They usually play at school, but the field is too wet.",
@@ -4347,7 +4347,7 @@
         "tag": "cinema"
        }
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "They will go to the lake on Saturday with the cousins.",
@@ -4408,7 +4408,7 @@
         "tag": "9:30"
        }
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Half past ten is when the match starts, but the coach wants the team there earlier.",
@@ -4527,7 +4527,7 @@
         "tag": "17"
        }
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Seven was Jack's number last year, on his old shirt.",
@@ -4580,7 +4580,7 @@
         "tag": "ball"
        }
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "There's no room for a bike in the car.",
@@ -4646,7 +4646,7 @@
         "tag": "noodles"
        }
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "Jack usually has eggs, but Coach says eat fruit before a match.",
@@ -4699,7 +4699,7 @@
         "tag": "sausages"
        }
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "Amira doesn't really like fish.",
@@ -4760,7 +4760,7 @@
         "tag": "Grandma's house"
        }
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "Mum says Jack will be too tired to go swimming.",
@@ -4813,7 +4813,7 @@
         "tag": "swans"
        }
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "They saw ducks last year.",
@@ -5228,27 +5228,27 @@
     ]
    ],
    [
-    "Each listening talk is played...",
+    "The day before Friday is...",
     [
-     "twice",
-     "once",
-     "four times"
+     "Thursday",
+     "Saturday",
+     "Sunday"
     ]
    ],
    [
-    "Part 1: how many pictures are said?",
+    "\"Bring a hat, not a scarf.\" Bring...",
     [
-     "all three",
-     "only one",
-     "none"
+     "a hat",
+     "a scarf",
+     "both"
     ]
    ],
    [
-    "Part 3: you write on a...",
+    "Half past eleven is...",
     [
-     "form",
-     "poster",
-     "map"
+     "11:30",
+     "11:15",
+     "12:30"
     ]
    ]
   ]

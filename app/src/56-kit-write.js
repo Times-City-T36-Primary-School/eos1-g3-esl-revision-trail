@@ -28,13 +28,30 @@
 
   // the school's Grade 3 rubric (EOS1 answer key): five categories, 0 to 2 marks each, 10 marks per task
   const CATS = [
-      { k: 'content', name: "Task achievement and content", max: 2, lv: ["Off-topic or very little.", "Some bullet points are missing, unclear or thin.", "All four bullet points, with a reason for your opinion."] },
-      { k: 'organisation', name: "Organisation and layout", max: 2, lv: ["No order; the sentences are not connected.", "Some order; few or repeated linking words.", "One clear paragraph in a good order, with linking words."] },
-      { k: 'grammar', name: "Grammar range and accuracy", max: 2, lv: ["Many mistakes stop the meaning.", "Basic sentences; several mistakes, meaning clear.", "Mostly correct sentences, with some variety."] },
-      { k: 'vocabulary', name: "Vocabulary and spelling", max: 2, lv: ["Very few words; spelling blocks meaning.", "Basic or repeated words; some spelling mistakes.", "Good describing words; familiar words spelt right."] },
-      { k: 'conventions', name: "Writing conventions", max: 2, lv: ["Many sentences without capital letters or full stops.", "Some unfinished sentences or missing full stops.", "Complete sentences with capital letters and full stops."] }
+      { k: 'content', name: "Task achievement and content", kid: "Did I answer every question?", vi: "Em đã trả lời đủ các câu hỏi chưa?", max: 2,
+        lv: ["Very little, or not about the task.", "Some questions are missing or very short.", "All four questions, with a reason."] },
+      { k: 'organisation', name: "Organisation", kid: "Is it in a good order, with linking words?", vi: "Bài viết có đúng thứ tự và có từ nối không?", max: 2,
+        lv: ["No order; the sentences are not joined.", "Some order; few linking words.", "A good order, with linking words (and, but, because)."] },
+      { k: 'grammar', name: "Grammar", kid: "Are my sentences right?", vi: "Các câu của em có đúng không?", max: 2,
+        lv: ["Many mistakes; hard to understand.", "Some mistakes, but easy to understand.", "Most sentences are right."] },
+      { k: 'vocabulary', name: "Vocabulary and spelling", kid: "Good words, right spelling?", vi: "Em dùng từ hay và viết đúng chính tả chưa?", max: 2,
+        lv: ["Very few words; many spelling mistakes.", "Simple words; some spelling mistakes.", "Good describing words, spelt right."] },
+      { k: 'conventions', name: "Writing conventions", kid: "Capital letters and full stops?", vi: "Em có viết hoa và dùng dấu chấm câu không?", max: 2,
+        lv: ["Many are missing.", "Some are missing.", "Every sentence has them."] }
   ];
   const RUBRIC = { 1: CATS, 2: CATS };
+  // the name of a rubric row: a child's question first (c.kid, Grade 3) with the school's name in brackets, and a
+  // Vietnamese line (c.vi) under it
+  function critName(c) {
+    return el('div', { class: 'wd-crit__head' },
+      el('p', { class: 'wd-crit__name' }, (c.kid ? c.kid + ' (' + c.name + ')' : c.name) + ' (out of ' + c.max + ')'),
+      c.vi ? el('p', { class: 'wd-crit__vi', lang: 'vi' }, c.vi) : null);
+  }
+  // how long each task is, in sentences (the words are task.min to task.max): the same words on the desk, Zip's
+  // line and the Summit card (19-summit-text.js)
+  const SENTENCES = { en: '6 to 8 sentences', vi: '6 đến 8 câu' };
+  // a child may tap "Check my writing" from this many words (the desk says so until then)
+  const CHECK_FROM = 10;
   T.esl.RUBRIC = RUBRIC;
 
   const count = function (s) { const m = String(s || '').trim().match(/[A-Za-z0-9À-ɏ]+(?:['’-][A-Za-z0-9À-ɏ]+)*/g); return m ? m.length : 0; };
@@ -68,7 +85,7 @@
     const saved = T.store.get(key, {}) || {};
     const desk = el('div', { class: 'wd' });
     const brief = el('section', { class: 'wd-brief' },
-      el('p', { class: 'wd-kicker' }, 'Task ' + task.task + ' · ' + task.min + ' to ' + task.max + ' words'),
+      el('p', { class: 'wd-kicker' }, 'Task ' + task.task + ' · ' + SENTENCES.en + ' · ' + task.min + ' to ' + task.max + ' words'),
       el('h3', { class: 'wd-title' }, task.title),
       el('p', { class: 'wd-prompt' }, task.prompt),
       el('p', { class: 'wd-sub' }, 'In your writing, you should:'),
@@ -78,6 +95,8 @@
     const area = el('textarea', { class: 'wd-area', rows: task.task === 2 ? '11' : '6', placeholder: 'Write here ...', 'aria-label': 'Your writing', spellcheck: 'false' });
     area.value = saved.text || '';
     const counter = el('div', { class: 'wd-count', 'aria-live': 'polite' });
+    // why "Check my writing" is still grey (the practice desk only: opts.checkFrom)
+    const need = o.checkFrom ? el('p', { class: 'wd-need', hidden: true }, 'Write at least ' + o.checkFrom + ' words, then tap Check.') : null;
     const meter = el('div', { class: 'wd-meter' }, el('span', { class: 'wd-meter__zone' }), el('span', { class: 'wd-meter__dot' }));
     const starters = (task.starters || []).length ? el('div', { class: 'wd-starters' }, el('span', { class: 'wd-starters__lab' }, 'Sentence starters:'),
       task.starters.map(function (s) {
@@ -95,7 +114,7 @@
         return b;
       })) : null;
     desk.appendChild(brief);
-    const paper = el('section', { class: 'wd-paper' }, titleIn, area, el('div', { class: 'wd-foot' }, meter, counter), starters);
+    const paper = el('section', { class: 'wd-paper' }, titleIn, area, el('div', { class: 'wd-foot' }, meter, counter), need, starters);
     desk.appendChild(paper);
     const checks = el('section', { class: 'wd-checks' });
     desk.appendChild(checks);
@@ -113,6 +132,7 @@
       meter.style.setProperty('--z1', (task.max / top * 100) + '%');
       meter.style.setProperty('--at', Math.min(100, n / top * 100) + '%');
       meter.classList.toggle('is-good', inZone);
+      if (need) need.hidden = n >= o.checkFrom;
       T.store.set(key, { text: area.value, title: titleIn ? titleIn.value : '', ticks: ticks, self: saved.self || null, calib: saved.calib != null ? saved.calib : null });
       if (o.onChange) o.onChange(n);
     }
@@ -157,7 +177,7 @@
       box.appendChild(model);
       const out = el('div', { class: 'wd-compare', hidden: true });
       rub.forEach(function (c) {
-        const row = el('div', { class: 'wd-crit' }, el('p', { class: 'wd-crit__name' }, c.name + ' (out of ' + c.max + ')'));
+        const row = el('div', { class: 'wd-crit' }, critName(c));
         const opts = el('div', { class: 'wd-crit__opts', role: 'radiogroup', 'aria-label': c.name });
         for (let v = c.max; v >= 0; v--) {
           const b = el('button', { type: 'button', class: 'wd-lv', role: 'radio', 'aria-checked': 'false' }, el('b', String(v)), el('span', c.lv[v]));
@@ -196,7 +216,7 @@
       const box = el('section', { class: 'wd-self' }, el('h4', { class: 'wd-h' }, (task.models || []).some(function (m) { return m.marks; }) ? 'Step 2: mark my own writing' : 'Mark my writing'),
         el('p', { class: 'wd-sub' }, 'Be honest, like a teacher. Read each row and tap the one that fits.'));
       rub.forEach(function (c) {
-        const row = el('div', { class: 'wd-crit' }, el('p', { class: 'wd-crit__name' }, c.name + ' (out of ' + c.max + ')'));
+        const row = el('div', { class: 'wd-crit' }, critName(c));
         const opts = el('div', { class: 'wd-crit__opts', role: 'radiogroup', 'aria-label': c.name });
         for (let v = c.max; v >= 0; v--) {
           const b = el('button', { type: 'button', class: ['wd-lv', self[c.k] === v && 'is-on'], role: 'radio', 'aria-checked': String(self[c.k] === v) },
@@ -252,7 +272,7 @@
       words: function () { return count(area.value); },
       ticks: function () { return ticks.filter(Boolean).length; },
       calib: function () { return calib; },
-      check: function (done) { showChecks(); showPractice(function () { showSelf(done); }); checks.scrollIntoView && checks.scrollIntoView({ behavior: 'smooth', block: 'start' }); },
+      check: function (done, onModel) { showChecks(); showPractice(function () { if (onModel) onModel(); showSelf(done); }); checks.scrollIntoView && checks.scrollIntoView({ behavior: 'smooth', block: 'start' }); },
       destroy: function () { if (desk.parentNode) desk.parentNode.removeChild(desk); }
     };
   }
@@ -266,7 +286,7 @@
     (entry.tasks || []).forEach(function (t) { (byTask[t.task] || byTask[1]).push(t); });
     return {
       title: entry.title, blurb: entry.blurb, art: entry.art, levels: 2, hearts: false,
-      levelTitles: ['Task 1: instructions and advice', 'Task 2: a longer text'],
+      levelTitles: ['Task 1: describe a person', 'Task 2: describe a place or thing'],
       resultTitle: 'Writing done!',
       result: { en: 'You wrote, checked and marked your own writing.', vi: 'Em đã viết, tự kiểm tra và tự chấm bài viết của mình.' },
       mount: function (g) {
@@ -290,19 +310,30 @@
         }
         function write(t) {
           T.ui.empty(page);
-          g.say({ en: 'Write ' + t.min + ' to ' + t.max + ' words. Cover all three points.', vi: 'Viết từ ' + t.min + ' đến ' + t.max + ' từ. Viết đủ cả ba ý.' }, 'think');
-          const desk = writeDesk(page, t, {
-            onChange: function (n) { g.ctx.primary({ label: 'Check my writing', disabled: n < Math.min(10, t.min), onClick: checkIt }); }
-          });
+          g.say({ en: 'Write *' + SENTENCES.en + '*. Cover all the bullet points.', vi: 'Viết *' + SENTENCES.vi + '*. Viết đủ tất cả các ý.' }, 'think');
+          const from = Math.min(CHECK_FROM, t.min);
           let checked = false;
+          const desk = writeDesk(page, t, {
+            checkFrom: from,
+            onChange: function (n) { if (!checked) g.ctx.primary({ label: 'Check my writing', disabled: n < from, onClick: checkIt }); }
+          });
           function checkIt() {
             if (checked) return;
             checked = true;
             g.say({ en: 'Mark the *model* first, then mark your own writing.', vi: 'Chấm *bài mẫu* trước, rồi chấm bài của em.' }, 'cheer');
+            // the big button stays on the marking until both marks are done (it goes to the next row to mark)
+            g.ctx.primary({ label: 'Mark the model', iconEnd: 'next', onClick: toMarking });
             desk.check(function () {
+              g.say({ en: 'Well done! Now compare with the *model answers*.', vi: 'Giỏi lắm! Bây giờ so sánh với *các bài mẫu* nhé.' }, 'cheer');
               g.ctx.primary({ label: g.level < g.levels ? 'Next: Task 2' : 'Finish', iconEnd: 'next', onClick: finish });
+            }, function () {
+              g.say({ en: 'Now mark *your own* writing.', vi: 'Bây giờ chấm *bài của em* nhé.' }, 'happy');
+              g.ctx.primary({ label: 'Mark my writing', iconEnd: 'next', onClick: toMarking });
             });
-            g.ctx.primary({ label: g.level < g.levels ? 'Next: Task 2' : 'Finish', iconEnd: 'next', onClick: finish });
+            function toMarking() {
+              const row = T.util.$$('.wd-crit', page).filter(function (r) { return !r.querySelector('.wd-lv.is-on'); })[0];
+              if (row && row.scrollIntoView) row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
             function finish() {
               const n = desk.words();
               const zone = n >= t.min && n <= t.max ? 2 : Math.abs(n - (n < t.min ? t.min : t.max)) <= 5 ? 1 : 0;
@@ -313,7 +344,7 @@
               g.levelDone();
             }
           }
-          g.ctx.primary({ label: 'Check my writing', disabled: desk.words() < Math.min(10, t.min), onClick: checkIt });
+          g.ctx.primary({ label: 'Check my writing', disabled: desk.words() < from, onClick: checkIt });
           g.ctx.secondary && g.ctx.secondary({ label: 'Other tasks', icon: 'back', onClick: pick });
         }
         pick();

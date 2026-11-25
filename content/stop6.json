@@ -234,7 +234,7 @@
         "Visitors must bring some food for the fish.",
         "The fish here don't eat any food."
        ],
-       "at": 1,
+       "at": 0,
        "whys": [
         null,
         "'don't feed' means you can't give them food, so don't bring any.",
@@ -258,7 +258,7 @@
         "young children",
         "the bus driver"
        ],
-       "at": 0,
+       "at": 1,
        "whys": [
         null,
         "The sign doesn't talk about children.",
@@ -313,7 +313,7 @@
         "You can use your phone after 7 p.m.",
         "You mustn't eat here before 7 p.m."
        ],
-       "at": 2,
+       "at": 0,
        "whys": [
         null,
         "Phones must be off all the time, not only after 7 p.m.",
@@ -368,7 +368,7 @@
         "More children have fish than dogs.",
         "Cats are the class's favourite pet."
        ],
-       "at": 0,
+       "at": 2,
        "whys": [
         null,
         "Fish has 4 and dogs have 10, so fewer children have fish.",
@@ -399,7 +399,7 @@
         "Yes, I came yesterday.",
         "No, thanks. I'd love to."
        ],
-       "at": 0,
+       "at": 2,
        "whys": [
         null,
         "Your friend asks about today, not yesterday.",
@@ -460,7 +460,7 @@
           "Children under 8 can ride on their own.",
           "Children under 8 mustn't ride the wheel."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'must ride with an adult' means they can't ride alone.",
@@ -515,7 +515,7 @@
           "Six people must go in every time.",
           "Only one person can go in at a time."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'Only 6' is the most people, not a rule that six must go in.",
@@ -539,7 +539,7 @@
           "children with bikes",
           "children with bikes or skateboards"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "'No bikes' means bikes can't go in.",
@@ -570,7 +570,7 @@
           "at 9 a.m. on Tuesday",
           "at 7 p.m. on Sunday"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "The pool is open from 7 a.m. on Tuesdays.",
@@ -594,7 +594,7 @@
           "Children pay £5 to go in.",
           "Adults don't have to pay to go in."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "£5 is the price for adults.",
@@ -633,7 +633,7 @@
           "to ask Alice to play football with him",
           "to say practice is cancelled"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Alice already goes to practice. Toby tells her when.",
@@ -657,7 +657,7 @@
           "make lunch for Grandma",
           "visit Grandma at 12 o'clock"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Grandma is coming for lunch, but Mum doesn't ask Trang to cook it.",
@@ -712,7 +712,7 @@
           "look at the stars from her own home",
           "stay at home tonight"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "They look at the stars together at Nadia's house.",
@@ -743,7 +743,7 @@
           "make a model at home",
           "buy a new box for Friday"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "They make the models at school, not at home.",
@@ -806,7 +806,7 @@
           "Since I was five.",
           "Yes, I really like it."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'Since I was five' answers 'How long?', not 'Where?'.",
@@ -824,7 +824,7 @@
           "At the cinema in town.",
           "It's about a robot."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "This answers 'Where?', not 'What time?'.",
@@ -849,7 +849,7 @@
           "Yes, I ate it yesterday.",
           "No, I haven't got any."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Grandma is offering rice now, not asking about yesterday.",
@@ -867,7 +867,7 @@
           "You're welcome. Any time.",
           "Sorry, I can't help you."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'You're welcome' comes after someone thanks you.",
@@ -892,7 +892,7 @@
           "Thank you very much!",
           "Yes, please. I'd love one."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "You don't say thank you for bad news.",
@@ -910,7 +910,7 @@
           "Yes, please. I'd like some.",
           "Never mind. It's OK."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Iris isn't offering you something.",
@@ -977,7 +977,7 @@
           "Children under 10 can't swim at the hotel.",
           "Adults can only swim with children here."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "They CAN swim, but only with an adult.",
@@ -1009,7 +1009,7 @@
           "to tell people where the bikes are",
           "to ask people to use the lights"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "The notice is about the lights, not where bikes go.",
@@ -1033,7 +1033,7 @@
           "The tours start at 3 p.m. every day.",
           "You get chocolate before the tour starts."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "The first tour is at 10 a.m. 3 p.m. is the last one.",
@@ -1064,7 +1064,7 @@
           "The nurse is in Room 4 at weekends.",
           "Children must go to Room 4 every morning."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "It is open Mondays to Fridays, not at weekends.",
@@ -1088,7 +1088,7 @@
           "One mango costs the same as one papaya.",
           "Press the fruit to choose a good one."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Three mangoes cost £1, so one mango is cheaper than a papaya.",
@@ -1151,7 +1151,7 @@
           "Rugby starts later than skateboarding.",
           "Skateboarding is on Monday and Wednesday."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Rugby starts at 4:00, before skateboarding at 4:30.",
@@ -1206,7 +1206,7 @@
           "He wants Toby to come to the treasure hunt.",
           "He had fun at the treasure hunt on Sunday."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Viet is writing to say he can't come.",
@@ -1238,7 +1238,7 @@
           "to make crafts for the sports club",
           "to find new children for the club"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Children do crafts, but that is not the reason for the day.",
@@ -1262,7 +1262,7 @@
           "Tuesday will be the hottest day.",
           "Monday will be colder than Tuesday."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Monday is the hottest day: 33°C.",
@@ -1303,7 +1303,7 @@
           "No, I finished it yesterday.",
           "Yes, I'll finish it next week."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "If you finished it yesterday, the answer is 'yes', not 'no'.",
@@ -1348,7 +1348,7 @@
           "Yes, it came very early again today.",
           "The bus stop is near my house."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Your friend says the bus is late, so 'early' doesn't fit.",
@@ -1393,7 +1393,7 @@
           "Yes, he runs faster than me.",
           "No, I'm the fastest in my family."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "If he runs faster, the answer is 'no', not 'yes'.",
@@ -1411,7 +1411,7 @@
           "No, it isn't. I need my coat.",
           "Yes, it does. It's freezing."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'No, it isn't' says it's not cold, but then you need a coat. The two parts don't match.",
@@ -1522,7 +1522,7 @@
        "Everyone must be 120 cm to enter the park.",
        "Tall children can't go on this ride."
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "The rule is for this ride, not for the whole park.",
@@ -1546,7 +1546,7 @@
        "Lessons start at 5 p.m. in all the rooms.",
        "You can play music in all the rooms."
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "'until 5 p.m.' means the lessons finish at 5.",
@@ -1578,7 +1578,7 @@
        "at 10 o'clock in the morning",
        "at 6 o'clock in the morning"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "Breakfast finishes at 9:30, so 10 o'clock is too late.",
@@ -1602,7 +1602,7 @@
        "The bus is often late at 3:15.",
        "The bus arrives at school at 3:15."
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "'don't be late' is for the children, not the bus.",
@@ -1634,7 +1634,7 @@
        "She wants Iris to buy two tickets.",
        "She wants Iris to give her a ticket."
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Alice has already got two tickets.",
@@ -1714,7 +1714,7 @@
        "Surfing has more members than rugby.",
        "Long jump has the most members."
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "Surfing has 8 and rugby has 20, so surfing has fewer.",
@@ -1770,7 +1770,7 @@
        "at school",
        "at Sami's house"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "'not at school' means the match is somewhere else.",
@@ -1821,7 +1821,7 @@
        "Yes, I'm going there tomorrow.",
        "No, I went there last summer."
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "If you're going tomorrow, you haven't been yet.",
@@ -1848,7 +1848,7 @@
        "From the shop next to school.",
        "Since last Saturday."
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "This answers 'Where from?', not 'Why?'.",
@@ -1893,7 +1893,7 @@
        "Great! Where did you find it?",
        "Yes, I've got a door key too."
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "Holly can't find it, so you can't ask where she found it.",
@@ -1911,7 +1911,7 @@
        "Yes, we do. We can wear our own clothes.",
        "No, we didn't. We all wore our school uniform."
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "If you have to wear uniform, you can't wear your own clothes.",
@@ -1938,7 +1938,7 @@
        "Me. I'm always in a hurry.",
        "My brother. He's always in a hurry."
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "If you're always in a hurry, you don't draw carefully.",
@@ -1956,7 +1956,7 @@
        "Oh no! It's so slow.",
        "Yes, the old one is faster."
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Iris says it's fast, so 'slow' doesn't fit.",
@@ -2001,7 +2001,7 @@
        "Yes, she does. She swims every week.",
        "No, she can't. She swims every week."
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "'can't she?' needs 'can', not 'does'.",
@@ -2099,11 +2099,11 @@
     ]
    ],
    [
-    "'Under 5s free': who pays?",
+    "'Under 5s free.' Does a 3-year-old pay?",
     [
-     "children over 5",
-     "babies",
-     "nobody"
+     "no",
+     "yes",
+     "only on Sundays"
     ]
    ],
    [
@@ -2163,11 +2163,11 @@
     ]
    ],
    [
-    "Who wrote it? Look at the ...",
+    "'Love, Gran' at the end: who wrote it?",
     [
-     "end",
-     "middle",
-     "title"
+     "Gran",
+     "you",
+     "Mum"
     ]
    ],
    [
@@ -2411,11 +2411,11 @@
     ]
    ],
    [
-    "Same meaning, different words: ...",
+    "'Could you open the door, please?'",
     [
-     "a paraphrase",
-     "a table",
-     "a sign"
+     "Of course!",
+     "You're welcome.",
+     "Well done!"
     ]
    ]
   ]
