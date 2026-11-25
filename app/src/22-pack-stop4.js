@@ -1,46 +1,46 @@
-/* 22-pack-stop4.js - ALL the content of Stop 4, Listening: pictures and notes (Grade 5 ESL, Cambridge Stage 6).
+/* 22-pack-stop4.js - ALL the content of Stop 4, Listening: pictures and a form (Grade 3 ESL, Cambridge Stage 4).
    Made by scripts/convert.py from content/stop4.json (written from the exam-style guide only; no real paper seen). */
 (function (T) {
   'use strict';
-  window.T_ART = Object.assign(window.T_ART || {}, {"e-s4-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"half past\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕝</text></svg>", "e-s4-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"quarter to\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏰</text></svg>", "e-s4-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"a.m.\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🌅</text></svg>", "e-s4-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"p.m.\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🌙</text></svg>", "e-s4-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"price\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏷️</text></svg>", "e-s4-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"spell\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔤</text></svg>", "e-s4-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"surname\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🪪</text></svg>", "e-s4-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"double letter\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">✌️</text></svg>", "e-s4-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"notes\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📝</text></svg>", "e-s4-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"changed her mind\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔄</text></svg>", "e-s4-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"instead\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">↔️</text></svg>", "e-s4-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"actually\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❗</text></svg>", "e-s4-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"in the end\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏁</text></svg>", "e-s4-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"usually\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🗓️</text></svg>"});
+  window.T_ART = Object.assign(window.T_ART || {}, {"e-s4-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"o&#x27;clock\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕐</text></svg>", "e-s4-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"half past\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕧</text></svg>", "e-s4-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"quarter past\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕒</text></svg>", "e-s4-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"phone number\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📞</text></svg>", "e-s4-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"age\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🎂</text></svg>", "e-s4-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"form\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📋</text></svg>", "e-s4-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"first name\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🙋</text></svg>", "e-s4-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"surname\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👨‍👩‍👧</text></svg>", "e-s4-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"spell\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔤</text></svg>", "e-s4-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"usually\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔁</text></svg>", "e-s4-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"today\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📅</text></svg>", "e-s4-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"instead\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔄</text></svg>", "e-s4-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"change your mind\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💭</text></svg>"});
   T.packs[4] = {
  "n": 4,
- "title": "Listening: pictures and notes",
+ "title": "Listening: pictures and a form",
  "los": [
-  "6Ld.04",
-  "6Ld.01"
+  "4Ld.02",
+  "4Ld.04"
  ],
  "blurb": {
-  "en": "Catch times, prices and spelled names, and don't fall into the listening traps!",
-  "vi": "Bắt được giờ, giá tiền và tên được đánh vần, và đừng rơi vào bẫy khi nghe!"
+  "en": "Choose the right picture, then write names, numbers and times on a form.",
+  "vi": "Chọn đúng bức tranh, rồi viết tên, số và giờ vào phiếu."
  },
  "words": {
   "sets": [
    {
     "id": "A",
     "title": {
-     "en": "Times and prices",
-     "vi": "Giờ và giá tiền"
+     "en": "Times and numbers",
+     "vi": "Giờ và con số"
     },
     "keys": [
+     "o'clock",
      "half past",
-     "quarter to",
-     "a.m.",
-     "p.m.",
-     "price"
+     "quarter past",
+     "phone number",
+     "age"
     ]
    },
    {
     "id": "B",
     "title": {
-     "en": "Names and notes",
-     "vi": "Tên và ghi chú"
+     "en": "Forms and names",
+     "vi": "Phiếu và tên"
     },
     "keys": [
-     "spell",
+     "form",
+     "first name",
      "surname",
-     "double letter",
-     "notes"
+     "spell"
     ]
    },
    {
@@ -50,84 +50,78 @@
      "vi": "Những từ \"bẫy\""
     },
     "keys": [
-     "changed her mind",
+     "usually",
+     "today",
      "instead",
-     "actually",
-     "in the end",
-     "usually"
+     "change your mind"
     ]
    }
   ],
   "items": {
-   "half past": {
+   "o'clock": {
     "art": "e-s4-0",
-    "vi": "rưỡi (hơn 30 phút)",
-    "def": "Thirty minutes after the hour. Half past four is 4:30. Example: The bus leaves at *half past* seven, so write 7:30."
+    "vi": "giờ đúng",
+    "def": "We say it after a time with no minutes, like 3:00. Example: The film starts at four *o'clock*."
    },
-   "quarter to": {
+   "half past": {
     "art": "e-s4-1",
-    "vi": "kém mười lăm",
-    "def": "Fifteen minutes before the hour. Quarter to six is 5:45. Example: Please be at the gate at *quarter to* nine. That's 8:45."
+    "vi": "rưỡi (hơn 30 phút)",
+    "def": "Thirty minutes after the hour. 6:30 is this time after six. Example: We have lunch at *half past* twelve."
    },
-   "a.m.": {
+   "quarter past": {
     "art": "e-s4-2",
-    "vi": "giờ buổi sáng (trước 12 giờ trưa)",
-    "def": "We use it with times after midnight and before midday, like 8 a.m. Example: The shop opens at 9 *a.m.* every morning."
+    "vi": "hơn mười lăm phút",
+    "def": "Fifteen minutes after the hour, like 9:15. Example: The bus comes at *quarter past* eight."
    },
-   "p.m.": {
+   "phone number": {
     "art": "e-s4-3",
-    "vi": "giờ buổi chiều, tối (sau 12 giờ trưa)",
-    "def": "We use it with times after midday, in the afternoon and evening. Example: The match starts at 3 *p.m.* on Saturday afternoon."
+    "vi": "số điện thoại",
+    "def": "The numbers you press to call a person. Example: My mum's *phone number* is on the fridge."
    },
-   "price": {
+   "age": {
     "art": "e-s4-4",
-    "vi": "giá tiền",
-    "def": "How much money you pay for something. Example: The *price* of the ticket is four pounds fifty."
+    "vi": "tuổi",
+    "def": "How many years old you are. Example: My *age* is eight. I'm in Grade 3."
    },
-   "spell": {
+   "form": {
     "art": "e-s4-5",
-    "vi": "đánh vần",
-    "def": "To say or write the letters of a word in the right order. Example: \"Can you *spell* your name, please?\" \"Yes, it's S-A-M-I.\""
+    "vi": "phiếu, mẫu đơn",
+    "def": "A paper with lines. You write your name and other details on it. Example: Please write your phone number on the *form*."
+   },
+   "first name": {
+    "art": "e-s4-6",
+    "vi": "tên (tên gọi)",
+    "def": "What your friends and teachers call you, like Lucy or Tuan. Example: My *first name* is Grace."
    },
    "surname": {
-    "art": "e-s4-6",
-    "vi": "họ (tên gia đình)",
-    "def": "Your family name. In English it usually comes after your first name. Example: His name is Leo Carter, so his *surname* is Carter."
-   },
-   "double letter": {
     "art": "e-s4-7",
-    "vi": "hai chữ cái giống nhau đứng liền nhau",
-    "def": "Two of the same letter together. Speakers say \"double L\" for LL. Example: \"B-E-double L\" has a *double letter*, so write B-E-L-L."
+    "vi": "họ",
+    "def": "Your family name. It often comes after your own name. Example: Nam's *surname* is Tran."
    },
-   "notes": {
+   "spell": {
     "art": "e-s4-8",
-    "vi": "ghi chú",
-    "def": "Short writing that helps you remember. One or two words or a number is enough. Example: Listen to the coach and complete the *notes* with one or two words."
-   },
-   "changed her mind": {
-    "art": "e-s4-9",
-    "vi": "đổi ý",
-    "def": "Made a new choice that is different from her first choice. Example: Mai wanted pizza, but she *changed her mind* and had soup."
-   },
-   "instead": {
-    "art": "e-s4-10",
-    "vi": "thay vào đó",
-    "def": "In the place of something else. Example: The park was closed, so we went to the museum *instead*."
-   },
-   "actually": {
-    "art": "e-s4-11",
-    "vi": "thật ra là",
-    "def": "We often say it just before the true information, to correct something. Example: It starts at six. Oh, *actually*, it's half past six."
-   },
-   "in the end": {
-    "art": "e-s4-12",
-    "vi": "cuối cùng",
-    "def": "After thinking or changing plans. The final choice comes next. Example: We looked at three bikes, but *in the end* we bought the red one."
+    "vi": "đánh vần",
+    "def": "To say the letters of a word one by one, in the right order. Example: Can you *spell* your surname, please?"
    },
    "usually": {
-    "art": "e-s4-13",
+    "art": "e-s4-9",
     "vi": "thường thường",
-    "def": "What happens most of the time, but maybe not this time. Example: I *usually* walk to school, but today Dad drove me."
+    "def": "On most days, but maybe not every day. Example: I *usually* walk to school, but today I'm going by bus."
+   },
+   "today": {
+    "art": "e-s4-10",
+    "vi": "hôm nay",
+    "def": "This day. Not yesterday and not tomorrow. Example: *Today* my lesson starts at five o'clock."
+   },
+   "instead": {
+    "art": "e-s4-11",
+    "vi": "thay vào đó",
+    "def": "In the place of another thing. Example: There isn't any juice, so I'll have milk *instead*."
+   },
+   "change your mind": {
+    "art": "e-s4-12",
+    "vi": "đổi ý",
+    "def": "To have a new idea and choose something different. Example: You can *change your mind* and choose the kite."
    }
   }
  },
@@ -136,49 +130,49 @@
    {
     "id": "s1",
     "title": {
-     "en": "The changed mind",
-     "vi": "Khi ai đó đổi ý"
+     "en": "The answer after No",
+     "vi": "Đáp án đến sau từ No"
     },
     "esl": true,
     "kind": "audio",
-    "head": "Listen to Kenji and his dad. What will Kenji eat after the match?",
-    "html": "<b>Kenji:</b> Dad, can I have a burger after the match today?<br><b>Dad:</b> Hmm, a burger isn't great after sport. What about a chicken salad?<br><b>Kenji:</b> A salad? OK, maybe. Oh, wait. Coach says pasta gives you energy. I'll have pasta *instead*.<br><b>Dad:</b> Pasta it is, then. Good choice.",
+    "head": "Listen to Nam and his grandpa. What does Nam's new neighbour do?",
+    "html": "<b>Grandpa:</b> Nam, is your new neighbour a doctor?<br><b>Nam:</b> *No*, Grandpa. He works at the hospital, but he isn't a doctor. He's *a cook* in the hospital kitchen.<br><b>Grandpa:</b> A cook! And his wife?<br><b>Nam:</b> She drives a bus.",
     "steps": [
      {
-      "en": "Kenji talks about three foods: a *burger*, a *salad* and *pasta*. In Part 1 all three pictures are said.",
-      "vi": "Kenji nói đến ba món: bánh burger, salad và mì Ý. Ở Phần 1, cả ba bức tranh đều được nhắc đến."
+      "en": "Three jobs are in the talk: a *doctor*, a *cook* and a *bus driver*. In Part 1 you hear all three pictures.",
+      "vi": "Có ba nghề trong đoạn hội thoại: bác sĩ, đầu bếp và tài xế xe buýt. Ở Phần 1, em sẽ nghe thấy cả ba bức tranh."
      },
      {
-      "en": "He *changed his mind*. Listen to the words just before *instead*.",
-      "vi": "Bạn ấy đã đổi ý. Hãy nghe những từ ngay trước từ *instead*."
+      "en": "Grandpa guesses *doctor*. Nam says *No*. Listen to the words AFTER *No*.",
+      "vi": "Ông đoán là bác sĩ. Nam nói *No*. Hãy nghe những từ SAU từ *No*."
      },
      {
-      "en": "The last plan is the answer: Kenji will have *pasta*.",
-      "vi": "Kế hoạch cuối cùng là đáp án: Kenji sẽ ăn mì Ý."
+      "en": "The question is about the neighbour, not his wife. He is *a cook*.",
+      "vi": "Câu hỏi nói về người hàng xóm, không phải vợ của chú ấy. Chú ấy là đầu bếp."
      }
     ],
     "audio": {
      "id": "s4-see-1",
      "lines": [
       [
-       "bm_lewis",
-       "Kenji",
-       "Dad, can I have a burger after the match today?"
+       "bm_daniel",
+       "Grandpa",
+       "Nam, is your new neighbour a doctor?"
       ],
       [
-       "bm_george",
-       "Dad",
-       "Hmm, a burger isn't great after sport. What about a chicken salad?"
+       "bm_fable",
+       "Nam",
+       "No, Grandpa. He works at the hospital, but he isn't a doctor. He's a cook in the hospital kitchen."
       ],
       [
-       "bm_lewis",
-       "Kenji",
-       "A salad? OK, maybe. Oh, wait. Coach says pasta gives you energy. I'll have pasta instead."
+       "bm_daniel",
+       "Grandpa",
+       "A cook! And his wife?"
       ],
       [
-       "bm_george",
-       "Dad",
-       "Pasta it is, then. Good choice."
+       "bm_fable",
+       "Nam",
+       "She drives a bus."
       ]
      ]
     }
@@ -186,49 +180,49 @@
    {
     "id": "s2",
     "title": {
-     "en": "The correction",
-     "vi": "Khi ai đó sửa lại thông tin"
+     "en": "Usually and today",
+     "vi": "Thường ngày và hôm nay"
     },
     "esl": true,
     "kind": "audio",
-    "head": "Listen to Mai and her mum. What time does the museum open on Sundays?",
-    "html": "<b>Mai:</b> Mum, the science museum opens at nine o'clock on Sunday, doesn't it? Can we leave at half past eight?<br><b>Mum:</b> *No, actually* it only opens at nine on weekdays. On Sundays it opens at *ten*.<br><b>Mai:</b> Oh! Then let's leave at half past nine.<br><b>Mum:</b> Good idea. We'll be there just in time.",
+    "head": "Listen to Sophie and her mum. What time will Sophie go to bed tonight?",
+    "html": "<b>Mum:</b> Sophie, it's eight o'clock. Time for bed!<br><b>Sophie:</b> But Mum, it's a full moon tonight. Can I see it?<br><b>Mum:</b> You *usually* go to bed at eight. But *tonight* is special. Go to bed at *half past eight*.<br><b>Sophie:</b> Thank you! The moon comes up at quarter past eight.",
     "steps": [
      {
-      "en": "Mai says a time, but Mum *corrects* her. Listen for *No* and *actually*.",
-      "vi": "Mai nói một giờ, nhưng mẹ sửa lại. Hãy nghe từ *No* và *actually*."
+      "en": "*Usually* tells you what happens on most days. The question asks about *tonight*.",
+      "vi": "*Usually* cho em biết điều thường xảy ra vào hầu hết các ngày. Câu hỏi hỏi về *tối nay*."
      },
      {
-      "en": "Three times are said: nine, ten and half past nine. Only one answers the question.",
-      "vi": "Có ba giờ được nói: chín giờ, mười giờ và chín rưỡi. Chỉ một giờ trả lời đúng câu hỏi."
+      "en": "Three times are said: eight o'clock, quarter past eight and half past eight.",
+      "vi": "Có ba giờ được nói: tám giờ, tám giờ mười lăm và tám giờ rưỡi."
      },
      {
-      "en": "The question says *Sundays*. On Sundays it opens at *ten*.",
-      "vi": "Câu hỏi hỏi về *Chủ nhật*. Vào Chủ nhật bảo tàng mở cửa lúc mười giờ."
+      "en": "Tonight Sophie goes to bed at *half past eight*. That is 8:30.",
+      "vi": "Tối nay Sophie đi ngủ lúc tám giờ rưỡi, tức là 8:30."
      }
     ],
     "audio": {
      "id": "s4-see-2",
      "lines": [
       [
-       "bf_alice",
-       "Mai",
-       "Mum, the science museum opens at nine o'clock on Sunday, doesn't it? Can we leave at half past eight?"
+       "bf_emma",
+       "Mum",
+       "Sophie, it's eight o'clock. Time for bed!"
+      ],
+      [
+       "bf_lily",
+       "Sophie",
+       "But Mum, it's a full moon tonight. Can I see it?"
       ],
       [
        "bf_emma",
        "Mum",
-       "No, actually it only opens at nine on weekdays. On Sundays it opens at ten."
+       "You usually go to bed at eight. But tonight is special. Go to bed at half past eight."
       ],
       [
-       "bf_alice",
-       "Mai",
-       "Oh! Then let's leave at half past nine."
-      ],
-      [
-       "bf_emma",
-       "Mum",
-       "Good idea. We'll be there just in time."
+       "bf_lily",
+       "Sophie",
+       "Thank you! The moon comes up at quarter past eight."
       ]
      ]
     }
@@ -236,38 +230,69 @@
    {
     "id": "s3",
     "title": {
-     "en": "Spell it and note it",
-     "vi": "Đánh vần và ghi chú"
+     "en": "Spell it and say it",
+     "vi": "Đánh vần và đọc số"
     },
     "esl": true,
     "kind": "audio",
-    "head": "Listen to Ms Adams. Nature Club notes: Day: Wednesday / Time: ? / Leader: Mr ? / Bring: a notebook and a ?",
-    "html": "<b>Ms Adams:</b> Hello, everyone, and welcome to the Nature Club. We meet every Wednesday at *quarter past three* in Room 12. This term your leader is Mr Pellow. That's *P-E-double L-O-W*. He knows a lot about birds and insects. Please bring a notebook and *a pencil* every week. You needn't bring binoculars, because the club has ten pairs.",
+    "head": "Listen to Raj and the football coach. Complete the form.<br><b>FOOTBALL CLUB</b><br>First name: Raj (example)<br>Surname: ________<br>Phone number: ________",
+    "html": "<b>Coach:</b> Hello! What's your first name?<br><b>Raj:</b> Raj. R-A-J.<br><b>Coach:</b> And what's your surname?<br><b>Raj:</b> Sharma. *S-H-A-R-M-A*.<br><b>Coach:</b> Thank you. What's your phone number?<br><b>Raj:</b> It's *five three eight two nine four one*.<br><b>Coach:</b> Five three eight, two nine four one?<br><b>Raj:</b> Yes, that's right.",
     "steps": [
      {
-      "en": "In Part 2 you complete notes with *one or two words or a number*.",
-      "vi": "Ở Phần 2, em hoàn thành ghi chú bằng một hoặc hai từ, hoặc một con số."
+      "en": "When a name is *spelled*, write every letter you hear: S-H-A-R-M-A is *Sharma*.",
+      "vi": "Khi một cái tên được đánh vần, hãy viết từng chữ cái em nghe được: S-H-A-R-M-A là *Sharma*."
      },
      {
-      "en": "*Quarter past three* means 3:15. You can write it as a number.",
-      "vi": "*Quarter past three* nghĩa là 3 giờ 15. Em có thể viết bằng số."
+      "en": "A *phone number* is said one number at a time. Write the numbers: 538 2941.",
+      "vi": "Số điện thoại được đọc từng số một. Hãy viết các con số: 538 2941."
      },
      {
-      "en": "When a name is spelled, write every letter. *Double L* means LL, so the name is P-E-L-L-O-W.",
-      "vi": "Khi tên được đánh vần, hãy viết từng chữ cái. *Double L* nghĩa là hai chữ L, nên tên là P-E-L-L-O-W."
-     },
-     {
-      "en": "Binoculars are mentioned, but you *needn't* bring them. Bring a *pencil*.",
-      "vi": "Ống nhòm có được nhắc đến, nhưng em không cần mang. Hãy mang bút chì."
+      "en": "The coach says the number again to *check* it. Use this to check your answer too!",
+      "vi": "Huấn luyện viên nhắc lại số điện thoại để kiểm tra. Em cũng hãy dùng lúc này để kiểm tra đáp án của mình!"
      }
     ],
     "audio": {
      "id": "s4-see-3",
      "lines": [
       [
-       "bf_emma",
-       "Ms Adams",
-       "Hello, everyone, and welcome to the Nature Club. We meet every Wednesday at quarter past three in Room 12. This term your leader is Mr Pellow. That's P-E-double L-O-W. He knows a lot about birds and insects. Please bring a notebook and a pencil every week. You needn't bring binoculars, because the club has ten pairs."
+       "bm_daniel",
+       "Coach",
+       "Hello! What's your first name?"
+      ],
+      [
+       "bm_lewis",
+       "Raj",
+       "Raj. R-A-J."
+      ],
+      [
+       "bm_daniel",
+       "Coach",
+       "And what's your surname?"
+      ],
+      [
+       "bm_lewis",
+       "Raj",
+       "Sharma. S-H-A-R-M-A."
+      ],
+      [
+       "bm_daniel",
+       "Coach",
+       "Thank you. What's your phone number?"
+      ],
+      [
+       "bm_lewis",
+       "Raj",
+       "It's five three eight two nine four one."
+      ],
+      [
+       "bm_daniel",
+       "Coach",
+       "Five three eight, two nine four one?"
+      ],
+      [
+       "bm_lewis",
+       "Raj",
+       "Yes, that's right."
       ]
      ]
     }
@@ -280,58 +305,58 @@
     },
     "challenge": {
      "end": {
-      "en": "Great listening! You caught the changed minds, the corrections and the spelled names.",
-      "vi": "Nghe giỏi lắm! Em đã bắt được những lần đổi ý, những lần sửa lại và các tên được đánh vần."
+      "en": "Great listening! You found the answers after No, usually and a changed mind.",
+      "vi": "Nghe giỏi lắm! Em đã tìm được đáp án sau từ No, usually và khi ai đó đổi ý."
      },
      "result": "You spotted the listening traps!",
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Listen for the word instead. What does Freya say just before it?"
+          "step": "Two places are wrong. Listen for No and Not."
          },
-         "worked": "Freya says \"I'll take <b>apples instead</b>\", so apples is her final choice.",
+         "worked": "Jack finds it: \"Oh, look! It's <b>behind the sofa</b>.\"",
          "type": "mcq",
-         "q": "What will Freya take to the picnic?",
+         "q": "Where is Jack's football?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🍎",
-            "tag": ""
+            "pic": "🛋️",
+            "tag": "sofa"
            },
-           "alt": " picture"
+           "alt": "sofa picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🍪",
-            "tag": ""
+            "pic": "🌷",
+            "tag": "garden"
            },
-           "alt": " picture"
+           "alt": "garden picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🍌",
-            "tag": ""
+            "pic": "🚗",
+            "tag": "car"
            },
-           "alt": " picture"
+           "alt": "car picture"
           }
          ],
          "at": 1,
          "whys": [
           null,
-          "Biscuits were Freya's first plan, but Mum said everyone brings them.",
-          "Freya says bananas get squashed, so she doesn't choose them."
+          "Mum looked in the garden, and the ball wasn't there.",
+          "Jack says the ball is not in the car."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -339,72 +364,67 @@
           "k": "stim",
           "id": "s4-ch-1a",
           "kind": "audio",
-          "head": "Listen to Freya and her mum.",
+          "head": "Listen to Jack and his mum.",
           "lines": [
            [
-            "bf_lily",
-            "Freya",
-            "Mum, I'm going to take biscuits to the class picnic tomorrow."
+            "bm_lewis",
+            "Jack",
+            "Mum, where's my football? Is it in the garden?"
            ],
            [
             "bf_emma",
             "Mum",
-            "Hmm, everyone always brings biscuits. What about some bananas?"
+            "No, it isn't. I looked there. Is it in the car?"
            ],
            [
-            "bf_lily",
-            "Freya",
-            "Bananas get squashed in my bag. Oh, I know! I'll take apples instead. They're healthy and they don't get squashed."
-           ],
-           [
-            "bf_emma",
-            "Mum",
-            "Good idea. There's a big bag of apples in the kitchen."
+            "bm_lewis",
+            "Jack",
+            "Not in the car. Oh, look! It's behind the sofa."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Listen for in the end. The final choice comes after it."
+          "step": "Grandpa guesses first. Is his guess right?"
          },
-         "worked": "Huy says \"<b>in the end</b> we chose two <b>goldfish</b>\".",
+         "worked": "Amira says \"No, Grandpa. I'm going to <b>the swimming pool</b>.\"",
          "type": "mcq",
-         "q": "Which pet will Huy's family get?",
+         "q": "Where is Amira going this afternoon?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🐠",
-            "tag": ""
+            "pic": "🏊",
+            "tag": "pool"
            },
-           "alt": " picture"
+           "alt": "pool picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🐰",
-            "tag": ""
+            "pic": "📚",
+            "tag": "library"
            },
-           "alt": " picture"
+           "alt": "library picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🐹",
-            "tag": ""
+            "pic": "🌳",
+            "tag": "park"
            },
-           "alt": " picture"
+           "alt": "park picture"
           }
          ],
          "at": 2,
          "whys": [
           null,
-          "Huy wanted a rabbit, but they have no garden, so Mum said no.",
-          "Huy only thought about a hamster. Listen to what they chose in the end."
+          "Grandpa guesses the library, but Amira says no.",
+          "Amira went to the park yesterday, not today."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -412,27 +432,27 @@
           "k": "stim",
           "id": "s4-ch-1b",
           "kind": "audio",
-          "head": "Listen to Huy and his grandpa.",
+          "head": "Listen to Amira and her grandpa.",
           "lines": [
            [
-            "bm_fable",
-            "Huy",
-            "Grandpa, we're getting a pet next week! I really wanted a rabbit."
+            "bm_daniel",
+            "Grandpa",
+            "Amira, do you want to go to the library this afternoon?"
+           ],
+           [
+            "bf_lily",
+            "Amira",
+            "No, Grandpa. I'm going to the swimming pool with my brother."
            ],
            [
             "bm_daniel",
             "Grandpa",
-            "A rabbit? Lovely. Will it live in the garden?"
+            "Not to the park?"
            ],
            [
-            "bm_fable",
-            "Huy",
-            "Well, we haven't got a garden, so Mum said no. Then I thought about a hamster, but they sleep all day. So in the end we chose two goldfish."
-           ],
-           [
-            "bm_daniel",
-            "Grandpa",
-            "Fish are easy to look after."
+            "bf_lily",
+            "Amira",
+            "We went to the park yesterday."
            ]
           ]
          }
@@ -442,50 +462,50 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Omar's first guess is wrong. Listen to the teacher's answer after No."
+          "step": "Tuan asks for one thing, Dad offers another. What do they agree on?"
          },
-         "worked": "Miss Lane says \"No... The concert is on <b>Thursday</b> evening\".",
+         "worked": "Tuan asks \"Can I have <b>a sandwich</b>?\" and Dad says \"OK. A cheese sandwich for you.\"",
          "type": "mcq",
-         "q": "What day is the school concert?",
+         "q": "What will Tuan have for lunch?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "📅",
-            "tag": "Thu"
+            "pic": "🥪",
+            "tag": "sandwich"
            },
-           "alt": "Thu picture"
+           "alt": "sandwich picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "📅",
-            "tag": "Tue"
+            "pic": "🍜",
+            "tag": "noodles"
            },
-           "alt": "Tue picture"
+           "alt": "noodles picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "📅",
-            "tag": "Fri"
+            "pic": "🍚",
+            "tag": "rice"
            },
-           "alt": "Fri picture"
+           "alt": "rice picture"
           }
          ],
          "at": 0,
          "whys": [
           null,
-          "Tuesday is the last practice, not the concert.",
-          "Friday is when Omar's grandma arrives, not the concert day."
+          "There aren't any noodles today.",
+          "Tuan had rice yesterday, so he wants something different."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -493,72 +513,72 @@
           "k": "stim",
           "id": "s4-ch-2a",
           "kind": "audio",
-          "head": "Listen to Omar and his teacher.",
+          "head": "Listen to Tuan and his dad.",
           "lines": [
            [
-            "bm_lewis",
-            "Omar",
-            "Miss Lane, is the school concert on Tuesday?"
+            "bm_fable",
+            "Tuan",
+            "Dad, can I have noodles for lunch?"
            ],
            [
-            "bf_isabella",
-            "Miss Lane",
-            "No, Omar. Tuesday is our last practice. The concert is on Thursday evening, in the main hall."
+            "bm_george",
+            "Dad",
+            "Sorry, we haven't got any noodles. What about rice?"
            ],
            [
-            "bm_lewis",
-            "Omar",
-            "Thursday? Oh, my grandma's arriving on Friday. I hope she can come a day early!"
+            "bm_fable",
+            "Tuan",
+            "We had rice yesterday. Can I have a sandwich?"
            ],
            [
-            "bf_isabella",
-            "Miss Lane",
-            "I hope so too. Tell her the tickets are free."
+            "bm_george",
+            "Dad",
+            "OK. A cheese sandwich for you."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Listen for sorry, I mean. The correct number comes next."
+          "step": "Grace changes her mind. Then there is a problem. Listen to the end."
          },
-         "worked": "Isla says \"<b>sorry, I mean six pounds</b>\" and she got the green ones.",
+         "worked": "There isn't any juice, so Grace says \"Then <b>milk</b>, please.\"",
          "type": "mcq",
-         "q": "How much did Isla's goggles cost?",
+         "q": "What will Grace drink with her breakfast?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🥽",
-            "tag": "£6"
+            "pic": "🥛",
+            "tag": "milk"
            },
-           "alt": "£6 picture"
+           "alt": "milk picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🥽",
-            "tag": "£16"
+            "pic": "🧃",
+            "tag": "juice"
            },
-           "alt": "£16 picture"
+           "alt": "juice picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🥽",
-            "tag": "£9"
+            "pic": "💧",
+            "tag": "water"
            },
-           "alt": "£9 picture"
+           "alt": "water picture"
           }
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
-          "Isla said sixteen by mistake, then she corrected it.",
-          "Nine pounds was the price of the blue goggles, and she didn't buy those."
+          "Grace asks for juice, but there isn't any.",
+          "Grace says she doesn't want water."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -566,27 +586,27 @@
           "k": "stim",
           "id": "s4-ch-2b",
           "kind": "audio",
-          "head": "Listen to Isla and her dad.",
+          "head": "Listen to Grace and her mum.",
           "lines": [
            [
-            "bf_alice",
-            "Isla",
-            "Dad, guess how much my new goggles were. Sixteen pounds!"
+            "bf_emma",
+            "Mum",
+            "Grace, do you want milk with your breakfast?"
            ],
            [
-            "bm_george",
-            "Dad",
-            "Sixteen pounds? That's a lot of money for goggles!"
+            "bf_lily",
+            "Grace",
+            "Yes, please. Oh, no. Can I have juice?"
            ],
            [
-            "bf_alice",
-            "Isla",
-            "Oh no, sorry, I mean six pounds. The blue ones were nine pounds, but I got the green ones. They were cheaper."
+            "bf_emma",
+            "Mum",
+            "There isn't any juice. Sorry! Water or milk?"
            ],
            [
-            "bm_george",
-            "Dad",
-            "Six pounds is a good price."
+            "bf_lily",
+            "Grace",
+            "Then milk, please. I don't want water."
            ]
           ]
          }
@@ -596,64 +616,146 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.01",
-        "6Ld.04"
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Write one letter at a time. Double L means two Ls."
+          "step": "Listen for usually and today. The question says today."
          },
-         "worked": "The coach spells \"T-O-<b>double L</b>-E-Y\", so the name is <b>Tolley</b>.",
-         "type": "tfill",
-         "q": "Listen and write the coach's surname.",
-         "lines": [
-          "Coach: {0}"
+         "worked": "Mum says \"It's usually at four. But <b>today</b> the pool is busy. So it's at <b>five o'clock</b>.\"",
+         "type": "mcq",
+         "q": "What time is Ethan's swimming lesson today?",
+         "opts": [
+          {
+           "html": "",
+           "fig": {
+            "k": "pico",
+            "pic": "🏊",
+            "tag": "5:00"
+           },
+           "alt": "5:00 picture"
+          },
+          {
+           "html": "",
+           "fig": {
+            "k": "pico",
+            "pic": "🏊",
+            "tag": "4:00"
+           },
+           "alt": "4:00 picture"
+          },
+          {
+           "html": "",
+           "fig": {
+            "k": "pico",
+            "pic": "🏊",
+            "tag": "4:30"
+           },
+           "alt": "4:30 picture"
+          }
          ],
-         "ans": [
-          [
-           "tolley"
-          ]
+         "at": 0,
+         "whys": [
+          null,
+          "Four o'clock is the usual time, not today's time.",
+          "Half past four is when Ethan stops playing football."
          ],
+         "letters": true,
+         "sub": "Tap one picture.",
          "fig": {
           "k": "stim",
           "id": "s4-ch-3a",
           "kind": "audio",
-          "head": "Listen to the new tennis coach.",
+          "head": "Listen to Ethan and his mum.",
           "lines": [
            [
-            "bm_daniel",
-            "Coach Tolley",
-            "Hello, everyone, and welcome to the tennis club. I'm your coach this year, and you can call me Coach Tolley. That's T-O-double L-E-Y. Please write my name on your club card, because you'll need it if you want to book a court. We meet every Monday after school."
+            "bm_lewis",
+            "Ethan",
+            "Mum, my swimming lesson is at four o'clock, isn't it?"
+           ],
+           [
+            "bf_emma",
+            "Mum",
+            "It's usually at four. But today the pool is busy. So it's at five o'clock."
+           ],
+           [
+            "bm_lewis",
+            "Ethan",
+            "Five! Can I play football until half past four?"
+           ],
+           [
+            "bf_emma",
+            "Mum",
+            "Yes, you can."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Write each letter you hear. Check the end of the name: is it one L or two?"
+          "step": "Three times are said. Which one is for dinner tonight?"
          },
-         "worked": "Ms Rendall spells \"R-E-N-D-A-<b>double L</b>\", so it is <b>Rendall</b> with two Ls.",
-         "type": "tfill",
-         "q": "Listen and write the teacher's surname.",
-         "lines": [
-          "Computer club teacher: Ms {0}"
+         "worked": "Dad says \"We usually eat at seven... <b>So let's eat at six</b>.\"",
+         "type": "mcq",
+         "q": "What time will Ngoc's family have dinner today?",
+         "opts": [
+          {
+           "html": "",
+           "fig": {
+            "k": "pico",
+            "pic": "🍽️",
+            "tag": "6:00"
+           },
+           "alt": "6:00 picture"
+          },
+          {
+           "html": "",
+           "fig": {
+            "k": "pico",
+            "pic": "🍽️",
+            "tag": "7:00"
+           },
+           "alt": "7:00 picture"
+          },
+          {
+           "html": "",
+           "fig": {
+            "k": "pico",
+            "pic": "🍽️",
+            "tag": "7:30"
+           },
+           "alt": "7:30 picture"
+          }
          ],
-         "ans": [
-          [
-           "rendall"
-          ]
+         "at": 1,
+         "whys": [
+          null,
+          "Seven o'clock is when they usually eat.",
+          "Half past seven is when the fun run starts."
          ],
+         "letters": true,
+         "sub": "Tap one picture.",
          "fig": {
           "k": "stim",
           "id": "s4-ch-3b",
           "kind": "audio",
-          "head": "Listen to the computer club teacher.",
+          "head": "Listen to Ngoc and her dad.",
           "lines": [
            [
-            "bf_emma",
-            "Ms Rendall",
-            "Good afternoon, and welcome to the computer club. My name is Ms Rendall. Let me spell that for you: R-E-N-D-A-double L. This term we're going to make short animated films about animals. If you have a question, you can send me a message on the school website."
+            "bf_alice",
+            "Ngoc",
+            "Dad, are we having dinner at seven o'clock?"
+           ],
+           [
+            "bm_george",
+            "Dad",
+            "We usually eat at seven. But tonight there's a fun run in our neighbourhood at half past seven. So let's eat at six."
+           ],
+           [
+            "bf_alice",
+            "Ngoc",
+            "At six? OK!"
            ]
           ]
          }
@@ -663,50 +765,50 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Usually tells you about most days. The question asks about tomorrow."
+          "step": "Listen to the words after No. Who is the farmer?"
          },
-         "worked": "Mum says there's no bus and \"Your sister will <b>walk</b> with you\".",
+         "worked": "Lucy says \"No, she isn't. She's <b>a vet</b>. She looks after animals.\"",
          "type": "mcq",
-         "q": "How will Tariq get to school tomorrow?",
+         "q": "What does Lucy's friend's mum do?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🚶",
-            "tag": ""
+            "pic": "🩺🐶",
+            "tag": "vet"
            },
-           "alt": " picture"
+           "alt": "vet picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🚗",
-            "tag": ""
+            "pic": "👩‍🏫",
+            "tag": "teacher"
            },
-           "alt": " picture"
+           "alt": "teacher picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🚌",
-            "tag": ""
+            "pic": "👩‍🌾",
+            "tag": "farmer"
            },
-           "alt": " picture"
+           "alt": "farmer picture"
           }
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
-          "The car is at the garage, so Mum can't drive him.",
-          "Tariq usually takes the bus, but there is no school bus tomorrow."
+          "Mum guesses teacher, but Lucy says no.",
+          "The farmer is her friend's grandad, not her mum."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -714,72 +816,72 @@
           "k": "stim",
           "id": "s4-ch-4a",
           "kind": "audio",
-          "head": "Listen to Tariq and his mum.",
+          "head": "Listen to Lucy and her mum.",
           "lines": [
            [
-            "bm_fable",
-            "Tariq",
-            "Mum, can you drive me to school tomorrow? It's going to rain."
+            "bf_emma",
+            "Mum",
+            "Lucy, what does your new friend's mum do? Is she a teacher?"
+           ],
+           [
+            "bf_alice",
+            "Lucy",
+            "No, she isn't. She's a vet. She looks after animals."
            ],
            [
             "bf_emma",
             "Mum",
-            "Sorry, Tariq, the car's at the garage until Friday."
+            "Oh! I thought she was a farmer."
            ],
            [
-            "bm_fable",
-            "Tariq",
-            "Oh. Then I'll get the bus, like I usually do."
-           ],
-           [
-            "bf_emma",
-            "Mum",
-            "Actually, there's no school bus tomorrow. The drivers have a meeting. Your sister will walk with you. Don't forget your umbrella!"
+            "bf_alice",
+            "Lucy",
+            "No, her grandad is a farmer."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Listen for usually and this morning. Which one does the question ask about?"
+          "step": "Grandma guesses twice. Listen to what Ethan says about HIS T-shirt."
          },
-         "worked": "Lan says \"<b>this morning</b> my grandma cooked <b>eggs</b> for me\".",
+         "worked": "Ethan says \"<b>Mine has a big planet</b> with rings.\"",
          "type": "mcq",
-         "q": "What did Lan have for breakfast this morning?",
+         "q": "What is on Ethan's new T-shirt?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🍳",
-            "tag": ""
+            "pic": "🪐",
+            "tag": "planet"
            },
-           "alt": " picture"
+           "alt": "planet picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🍜",
-            "tag": ""
+            "pic": "🚀",
+            "tag": "rocket"
            },
-           "alt": " picture"
+           "alt": "rocket picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🍞",
-            "tag": ""
+            "pic": "⭐",
+            "tag": "stars"
            },
-           "alt": " picture"
+           "alt": "stars picture"
           }
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
-          "Lan usually has noodle soup, but not this morning.",
-          "Sami had the toast, not Lan."
+          "The rocket is on his brother's T-shirt.",
+          "Ethan says the stars are on his hat."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -787,27 +889,27 @@
           "k": "stim",
           "id": "s4-ch-4b",
           "kind": "audio",
-          "head": "Listen to Sami and Lan.",
+          "head": "Listen to Ethan and his grandma.",
           "lines": [
            [
-            "bm_fable",
-            "Sami",
-            "Lan, you're full of energy today! What did you have for breakfast?"
+            "bf_isabella",
+            "Grandma",
+            "Ethan, I like your new T-shirt. Is that a rocket on it?"
            ],
            [
-            "bf_alice",
-            "Lan",
-            "Well, I usually have noodle soup, but this morning my grandma cooked eggs for me."
+            "bm_lewis",
+            "Ethan",
+            "No, Grandma. My brother's T-shirt has a rocket. Mine has a big planet with rings."
            ],
            [
-            "bm_fable",
-            "Sami",
-            "Lucky you! I only had a piece of toast."
+            "bf_isabella",
+            "Grandma",
+            "Oh yes! Not stars?"
            ],
            [
-            "bf_alice",
-            "Lan",
-            "Eggs are great before sports day. Grandma says they help your muscles."
+            "bm_lewis",
+            "Ethan",
+            "No, the stars are on my hat!"
            ]
           ]
          }
@@ -828,117 +930,35 @@
    "art": "icon-step-practise",
    "title": "Learn it",
    "blurb": {
-    "en": "Practise numbers, times and prices, then the traps, then spelled names.",
-    "vi": "Luyện nghe số, giờ và giá tiền, rồi các bẫy, rồi tên được đánh vần."
+    "en": "Practise times, prices and days, then the traps, then short form lines.",
+    "vi": "Luyện nghe giờ, giá tiền và các ngày, rồi các bẫy, rồi điền phiếu ngắn."
    },
    "levels": [
     {
      "title": {
-      "en": "Numbers, times, prices and days",
-      "vi": "Số, giờ, giá tiền và các ngày"
+      "en": "Times, prices and days",
+      "vi": "Giờ, giá tiền và các ngày"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Listen for the word start. Quarter to four means 15 minutes before four."
+          "step": "Three times are said. Which one goes with the word start?"
          },
-         "worked": "Mai says the club starts \"at <b>quarter to four</b>\". That is 3:45.",
+         "worked": "Sophie says \"It <b>starts at six o'clock</b>.\"",
          "type": "mcq",
-         "q": "What time does the chess club start?",
+         "q": "What time does the school concert start?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "♟️",
-            "tag": "3:45"
-           },
-           "alt": "3:45 picture"
-          },
-          {
-           "html": "",
-           "fig": {
-            "k": "pico",
-            "pic": "♟️",
-            "tag": "5:00"
-           },
-           "alt": "5:00 picture"
-          },
-          {
-           "html": "",
-           "fig": {
-            "k": "pico",
-            "pic": "♟️",
-            "tag": "5:15"
-           },
-           "alt": "5:15 picture"
-          }
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "Five o'clock is when the club finishes.",
-          "Quarter past five is when the bus leaves."
-         ],
-         "letters": true,
-         "sub": "Tap one picture.",
-         "fig": {
-          "k": "stim",
-          "id": "s4-r1-1a",
-          "kind": "audio",
-          "head": "Listen to Bao and Mai.",
-          "lines": [
-           [
-            "bm_fable",
-            "Bao",
-            "Mai, what time does the chess club start on Wednesdays?"
-           ],
-           [
-            "bf_alice",
-            "Mai",
-            "At quarter to four, in the library. We finish at five o'clock."
-           ],
-           [
-            "bm_fable",
-            "Bao",
-            "And the late bus home leaves at quarter past five?"
-           ],
-           [
-            "bf_alice",
-            "Mai",
-            "Yes, so don't play one more game at the end! The bus won't wait."
-           ]
-          ]
-         }
-        },
-        {
-         "hint": {
-          "step": "Three times are said. Which one goes with starts?"
-         },
-         "worked": "Dad says \"The film <b>starts at half past six</b>\", so 6:30.",
-         "type": "mcq",
-         "q": "What time does the film start?",
-         "opts": [
-          {
-           "html": "",
-           "fig": {
-            "k": "pico",
-            "pic": "🎬",
-            "tag": "6:30"
-           },
-           "alt": "6:30 picture"
-          },
-          {
-           "html": "",
-           "fig": {
-            "k": "pico",
-            "pic": "🎬",
+            "pic": "🎵",
             "tag": "6:00"
            },
            "alt": "6:00 picture"
@@ -947,17 +967,99 @@
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🎬",
+            "pic": "🎵",
+            "tag": "5:30"
+           },
+           "alt": "5:30 picture"
+          },
+          {
+           "html": "",
+           "fig": {
+            "k": "pico",
+            "pic": "🎵",
             "tag": "7:30"
            },
            "alt": "7:30 picture"
           }
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
-          "Six o'clock is when they leave home.",
-          "Half past seven is when the film finishes."
+          "Half past five is when Grandma should come.",
+          "Half past seven is when the concert finishes."
+         ],
+         "letters": true,
+         "sub": "Tap one picture.",
+         "fig": {
+          "k": "stim",
+          "id": "s4-r1-1a",
+          "kind": "audio",
+          "head": "Listen to Sophie and her grandma.",
+          "lines": [
+           [
+            "bf_lily",
+            "Sophie",
+            "Grandma, can you come to my school concert on Friday?"
+           ],
+           [
+            "bf_isabella",
+            "Grandma",
+            "Of course! What time does it start?"
+           ],
+           [
+            "bf_lily",
+            "Sophie",
+            "It starts at six o'clock. Please come at half past five. It finishes at half past seven."
+           ],
+           [
+            "bf_isabella",
+            "Grandma",
+            "OK. I'll be there!"
+           ]
+          ]
+         }
+        },
+        {
+         "hint": {
+          "step": "Listen for the word show. Quarter past means 15 minutes after."
+         },
+         "worked": "Dad says \"The space show <b>starts at quarter past ten</b>.\" That is 10:15.",
+         "type": "mcq",
+         "q": "What time does the space show start?",
+         "opts": [
+          {
+           "html": "",
+           "fig": {
+            "k": "pico",
+            "pic": "🚀",
+            "tag": "10:15"
+           },
+           "alt": "10:15 picture"
+          },
+          {
+           "html": "",
+           "fig": {
+            "k": "pico",
+            "pic": "🚀",
+            "tag": "10:00"
+           },
+           "alt": "10:00 picture"
+          },
+          {
+           "html": "",
+           "fig": {
+            "k": "pico",
+            "pic": "🚀",
+            "tag": "12:00"
+           },
+           "alt": "12:00 picture"
+          }
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "Ten o'clock is when they get to the museum.",
+          "Twelve o'clock is lunchtime."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -965,27 +1067,27 @@
           "k": "stim",
           "id": "s4-r1-1b",
           "kind": "audio",
-          "head": "Listen to Leila and her dad.",
+          "head": "Listen to Raj and his dad.",
           "lines": [
            [
-            "bf_lily",
-            "Leila",
-            "Dad, what time are we going to the cinema? I can't wait to see the film about whales."
+            "bm_lewis",
+            "Raj",
+            "Dad, what time are we going to the science museum?"
            ],
            [
             "bm_george",
             "Dad",
-            "We'll leave home at six o'clock. The film starts at half past six."
+            "We'll get there at ten o'clock. The space show starts at quarter past ten."
            ],
            [
-            "bf_lily",
-            "Leila",
-            "And what time does it finish?"
+            "bm_lewis",
+            "Raj",
+            "And lunch?"
            ],
            [
             "bm_george",
             "Dad",
-            "At half past seven, just in time for dinner."
+            "We'll have lunch at twelve o'clock."
            ]
           ]
          }
@@ -995,17 +1097,99 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Listen for the word children. The price comes right after it."
+          "step": "Three prices are said. Listen for the word chocolate."
          },
-         "worked": "The assistant says \"<b>children are eight pounds</b>\".",
+         "worked": "Ngoc asks about the chocolate cake and Dad says \"It's <b>three pounds</b>.\"",
          "type": "mcq",
-         "q": "How much is a child's ticket for the zoo?",
+         "q": "How much is the chocolate cake?",
          "opts": [
+          {
+           "html": "",
+           "fig": {
+            "k": "pico",
+            "pic": "🎂",
+            "tag": "£3"
+           },
+           "alt": "£3 picture"
+          },
+          {
+           "html": "",
+           "fig": {
+            "k": "pico",
+            "pic": "🎂",
+            "tag": "£2"
+           },
+           "alt": "£2 picture"
+          },
+          {
+           "html": "",
+           "fig": {
+            "k": "pico",
+            "pic": "🎂",
+            "tag": "£1"
+           },
+           "alt": "£1 picture"
+          }
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Two pounds is the price of the lemon cake.",
+          "One pound is the price of a bag of biscuits."
+         ],
+         "letters": true,
+         "sub": "Tap one picture.",
+         "fig": {
+          "k": "stim",
+          "id": "s4-r1-2a",
+          "kind": "audio",
+          "head": "Listen to Ngoc and her dad at the school fair.",
+          "lines": [
+           [
+            "bf_alice",
+            "Ngoc",
+            "Dad, look at the cakes! How much is the chocolate cake?"
+           ],
+           [
+            "bm_george",
+            "Dad",
+            "It's three pounds. The lemon cake is two pounds."
+           ],
+           [
+            "bf_alice",
+            "Ngoc",
+            "And the biscuits?"
+           ],
+           [
+            "bm_george",
+            "Dad",
+            "One pound a bag."
+           ]
+          ]
+         }
+        },
+        {
+         "hint": {
+          "step": "Jack is a child. Listen for the word children."
+         },
+         "worked": "Mum says \"A ticket <b>for children is four pounds</b>.\"",
+         "type": "mcq",
+         "q": "How much is a ticket for children?",
+         "opts": [
+          {
+           "html": "",
+           "fig": {
+            "k": "pico",
+            "pic": "🎟️",
+            "tag": "£4"
+           },
+           "alt": "£4 picture"
+          },
           {
            "html": "",
            "fig": {
@@ -1020,98 +1204,16 @@
            "fig": {
             "k": "pico",
             "pic": "🎟️",
-            "tag": "£12"
+            "tag": "£2"
            },
-           "alt": "£12 picture"
-          },
-          {
-           "html": "",
-           "fig": {
-            "k": "pico",
-            "pic": "🎟️",
-            "tag": "£4"
-           },
-           "alt": "£4 picture"
+           "alt": "£2 picture"
           }
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
-          "Twelve pounds is the price for adults.",
-          "Four pounds is the price of the map."
-         ],
-         "letters": true,
-         "sub": "Tap one picture.",
-         "fig": {
-          "k": "stim",
-          "id": "s4-r1-2a",
-          "kind": "audio",
-          "head": "Listen to Ruby at the zoo.",
-          "lines": [
-           [
-            "bf_alice",
-            "Ruby",
-            "Excuse me, how much are the tickets for the zoo, please?"
-           ],
-           [
-            "bm_daniel",
-            "Assistant",
-            "Adults are twelve pounds, and children are eight pounds."
-           ],
-           [
-            "bf_alice",
-            "Ruby",
-            "Thank you. And how much is the map of the zoo?"
-           ],
-           [
-            "bm_daniel",
-            "Assistant",
-            "It's four pounds. But there's a big map on the wall by the gate, and that's free."
-           ]
-          ]
-         }
-        },
-        {
-         "hint": {
-          "step": "Fifteen and five sound close. Which bottle did Noah choose?"
-         },
-         "worked": "Noah gets the red one, and \"the red one is only <b>five pounds</b>\".",
-         "type": "mcq",
-         "q": "How much did Noah's water bottle cost?",
-         "opts": [
-          {
-           "html": "",
-           "fig": {
-            "k": "pico",
-            "pic": "💷",
-            "tag": "£5"
-           },
-           "alt": "£5 picture"
-          },
-          {
-           "html": "",
-           "fig": {
-            "k": "pico",
-            "pic": "💷",
-            "tag": "£15"
-           },
-           "alt": "£15 picture"
-          },
-          {
-           "html": "",
-           "fig": {
-            "k": "pico",
-            "pic": "💷",
-            "tag": "£10"
-           },
-           "alt": "£10 picture"
-          }
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "Fifteen pounds was the blue bottle, and Noah didn't buy it.",
-          "Ten pounds is the note Dad gives him, not the price."
+          "Eight pounds is the price for grown-ups.",
+          "Two pounds is the price of a map."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -1119,27 +1221,27 @@
           "k": "stim",
           "id": "s4-r1-2b",
           "kind": "audio",
-          "head": "Listen to Noah and his dad in a sports shop.",
+          "head": "Listen to Jack and his mum at the museum.",
           "lines": [
            [
-            "bm_fable",
-            "Noah",
-            "Dad, look at this blue water bottle! It's fifteen pounds."
+            "bm_lewis",
+            "Jack",
+            "Mum, how much are the tickets for the museum?"
            ],
            [
-            "bm_george",
-            "Dad",
-            "That's too much, Noah. Look, the red one is only five pounds, and it's the same size."
+            "bf_emma",
+            "Mum",
+            "A ticket for children is four pounds. For grown-ups, it's eight pounds."
            ],
            [
-            "bm_fable",
-            "Noah",
-            "OK, I'll get the red one. It's got a free sticker too."
+            "bm_lewis",
+            "Jack",
+            "Can I buy a map too?"
            ],
            [
-            "bm_george",
-            "Dad",
-            "Good. Here's a ten-pound note, so you'll get some change."
+            "bf_emma",
+            "Mum",
+            "Yes. A map is two pounds."
            ]
           ]
          }
@@ -1149,22 +1251,95 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Three days are said. Which day goes with the word trip?"
+          "step": "Practice and match are different. Listen for the word match."
          },
-         "worked": "Duc says the trip \"is on <b>Wednesday</b>\".",
+         "worked": "The coach says \"<b>The match is on Saturday</b>.\"",
          "type": "mcq",
-         "q": "Which day is the trip to the farm?",
+         "q": "Which day is the football match?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "📅",
+            "pic": "⚽",
+            "tag": "Sat"
+           },
+           "alt": "Sat picture"
+          },
+          {
+           "html": "",
+           "fig": {
+            "k": "pico",
+            "pic": "⚽",
+            "tag": "Tue"
+           },
+           "alt": "Tue picture"
+          },
+          {
+           "html": "",
+           "fig": {
+            "k": "pico",
+            "pic": "⚽",
+            "tag": "Thu"
+           },
+           "alt": "Thu picture"
+          }
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Tuesday is a practice day, not the match.",
+          "Thursday is a practice day, not the match."
+         ],
+         "letters": true,
+         "sub": "Tap one picture.",
+         "fig": {
+          "k": "stim",
+          "id": "s4-r1-3a",
+          "kind": "audio",
+          "head": "Listen to Tuan and his football coach.",
+          "lines": [
+           [
+            "bm_fable",
+            "Tuan",
+            "Coach, when is the football match?"
+           ],
+           [
+            "bm_daniel",
+            "Coach",
+            "We practise on Tuesday and Thursday. The match is on Saturday."
+           ],
+           [
+            "bm_fable",
+            "Tuan",
+            "Saturday morning?"
+           ],
+           [
+            "bm_daniel",
+            "Coach",
+            "Yes, at ten o'clock."
+           ]
+          ]
+         }
+        },
+        {
+         "hint": {
+          "step": "Listen for not. Who goes to whose house?"
+         },
+         "worked": "Mum says \"<b>We're going on Wednesday</b>, after school.\"",
+         "type": "mcq",
+         "q": "Which day will Amira go to Grandma's house?",
+         "opts": [
+          {
+           "html": "",
+           "fig": {
+            "k": "pico",
+            "pic": "👵",
             "tag": "Wed"
            },
            "alt": "Wed picture"
@@ -1173,7 +1348,7 @@
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "📅",
+            "pic": "👵",
             "tag": "Mon"
            },
            "alt": "Mon picture"
@@ -1182,7 +1357,7 @@
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "📅",
+            "pic": "👵",
             "tag": "Fri"
            },
            "alt": "Fri picture"
@@ -1191,81 +1366,8 @@
          "at": 0,
          "whys": [
           null,
-          "Monday is the art lesson.",
-          "Friday is when the photos go on the website."
-         ],
-         "letters": true,
-         "sub": "Tap one picture.",
-         "fig": {
-          "k": "stim",
-          "id": "s4-r1-3a",
-          "kind": "audio",
-          "head": "Listen to Elena and Duc.",
-          "lines": [
-           [
-            "bf_lily",
-            "Elena",
-            "Duc, when is our class trip to the farm?"
-           ],
-           [
-            "bm_lewis",
-            "Duc",
-            "It's on Wednesday. Remember, we've got art on Monday, so bring your apron then."
-           ],
-           [
-            "bf_lily",
-            "Elena",
-            "Great. Will we see the baby goats?"
-           ],
-           [
-            "bm_lewis",
-            "Duc",
-            "I hope so. And Mr Ross says he'll put the photos from the farm on the class website on Friday."
-           ]
-          ]
-         }
-        },
-        {
-         "hint": {
-          "step": "Listen for the word found. Twelve and twenty sound a little the same."
-         },
-         "worked": "Thu says \"I found <b>twelve</b> eggs!\"",
-         "type": "mcq",
-         "q": "How many eggs did Thu find today?",
-         "opts": [
-          {
-           "html": "",
-           "fig": {
-            "k": "pico",
-            "pic": "🥚",
-            "tag": "12"
-           },
-           "alt": "12 picture"
-          },
-          {
-           "html": "",
-           "fig": {
-            "k": "pico",
-            "pic": "🥚",
-            "tag": "2"
-           },
-           "alt": "2 picture"
-          },
-          {
-           "html": "",
-           "fig": {
-            "k": "pico",
-            "pic": "🥚",
-            "tag": "20"
-           },
-           "alt": "20 picture"
-          }
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "Two is the number of eggs yesterday.",
-          "Twenty is the number of hens, not eggs."
+          "Mum says not on Monday.",
+          "On Friday, Grandma comes to Amira's house."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -1273,32 +1375,27 @@
           "k": "stim",
           "id": "s4-r1-3b",
           "kind": "audio",
-          "head": "Listen to Thu and her grandma.",
+          "head": "Listen to Amira and her mum.",
           "lines": [
            [
-            "bf_isabella",
-            "Grandma",
-            "Thu, can you collect the eggs from the hens, please?"
+            "bf_lily",
+            "Amira",
+            "Mum, are we visiting Grandma on Monday?"
            ],
            [
-            "bf_alice",
-            "Thu",
-            "OK, Grandma. Look! I found twelve eggs!"
+            "bf_emma",
+            "Mum",
+            "Not on Monday. We're going on Wednesday, after school."
            ],
            [
-            "bf_isabella",
-            "Grandma",
-            "Twelve? Wonderful! Yesterday there were only two. The hens must like this warm weather."
+            "bf_lily",
+            "Amira",
+            "And on Friday?"
            ],
            [
-            "bf_alice",
-            "Thu",
-            "We've got twenty hens, haven't we? Maybe tomorrow there'll be twenty eggs!"
-           ],
-           [
-            "bf_isabella",
-            "Grandma",
-            "Maybe! Now, let's make an omelette."
+            "bf_emma",
+            "Mum",
+            "On Friday, Grandma is coming to our house!"
            ]
           ]
          }
@@ -1309,57 +1406,57 @@
     },
     {
      "title": {
-      "en": "Traps: changed minds and corrections",
-      "vi": "Bẫy: đổi ý và sửa lại"
+      "en": "Traps: No, usually and a changed mind",
+      "vi": "Bẫy: No, usually và khi đổi ý"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Listen for changed my mind and instead."
+          "step": "Grandpa guesses. Listen to Jack's answer after No."
          },
-         "worked": "Sofia says \"I've <b>changed my mind</b>. I'll join the <b>science club</b> on Thursdays <b>instead</b>\".",
+         "worked": "Jack says \"No, Grandpa. <b>She lives on a farm</b>.\"",
          "type": "mcq",
-         "q": "Which club will Sofia join?",
+         "q": "Where does Jack's cousin live?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🔬",
-            "tag": ""
+            "pic": "🚜",
+            "tag": "farm"
            },
-           "alt": " picture"
+           "alt": "farm picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🎭",
-            "tag": ""
+            "pic": "🏙️",
+            "tag": "city"
            },
-           "alt": " picture"
+           "alt": "city picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "⚽",
-            "tag": ""
+            "pic": "⛰️",
+            "tag": "mountains"
            },
-           "alt": " picture"
+           "alt": "mountains picture"
           }
          ],
          "at": 1,
          "whys": [
           null,
-          "Drama was her first plan, but it's on the same day as football.",
-          "Football is her practice, not the new club she will join."
+          "Grandpa guesses the city, but Jack says no.",
+          "The farm is near the sea, not near the mountains."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -1367,72 +1464,72 @@
           "k": "stim",
           "id": "s4-r2-1a",
           "kind": "audio",
-          "head": "Listen to Sofia and her mum.",
+          "head": "Listen to Jack and his grandpa.",
           "lines": [
            [
-            "bf_alice",
-            "Sofia",
-            "Mum, I'm going to join the drama club this term."
+            "bm_daniel",
+            "Grandpa",
+            "Jack, does your cousin live in the city?"
            ],
            [
-            "bf_emma",
-            "Mum",
-            "Lovely. Is it on Tuesdays?"
+            "bm_lewis",
+            "Jack",
+            "No, Grandpa. She lives on a farm. She's got ten goats!"
            ],
            [
-            "bf_alice",
-            "Sofia",
-            "Yes. Oh, but that's when I have football practice. So I've changed my mind. I'll join the science club on Thursdays instead. We're going to build a model bridge!"
+            "bm_daniel",
+            "Grandpa",
+            "Is the farm near the mountains?"
            ],
            [
-            "bf_emma",
-            "Mum",
-            "That sounds great."
+            "bm_lewis",
+            "Jack",
+            "No, it's near the sea."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Jack has two ideas before his final one. Listen for Oh, I know."
+          "step": "Listen for best and favourite."
          },
-         "worked": "Jack says \"I'll buy her a little <b>plant in a pot</b>\".",
+         "worked": "Grace says \"<b>I like Saturn best</b>. It's got beautiful rings.\"",
          "type": "mcq",
-         "q": "What will Jack buy for his sister?",
+         "q": "Which planet does Grace like best?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🪴",
-            "tag": ""
+            "pic": "🪐",
+            "tag": "Saturn"
            },
-           "alt": " picture"
+           "alt": "Saturn picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🧸",
-            "tag": ""
+            "pic": "🔴",
+            "tag": "Mars"
            },
-           "alt": " picture"
+           "alt": "Mars picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🧩",
-            "tag": ""
+            "pic": "🌍",
+            "tag": "Earth"
            },
-           "alt": " picture"
+           "alt": "Earth picture"
           }
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
-          "Chloe has lots of teddies, so Jack doesn't buy one.",
-          "Dad suggests a puzzle, but Jack says she finishes them too quickly."
+          "Grace says Mars is nice, but it isn't her favourite.",
+          "Earth is our home, but Grace likes another planet best."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -1440,27 +1537,27 @@
           "k": "stim",
           "id": "s4-r2-1b",
           "kind": "audio",
-          "head": "Listen to Jack and his dad.",
+          "head": "Listen to Grace and her teacher.",
           "lines": [
            [
-            "bm_lewis",
-            "Jack",
-            "Dad, I want to get Chloe a teddy for her birthday."
+            "bf_isabella",
+            "Teacher",
+            "Grace, is Mars your favourite planet?"
            ],
            [
-            "bm_george",
-            "Dad",
-            "She's got lots of teddies, Jack. What about a puzzle?"
+            "bf_lily",
+            "Grace",
+            "No, it isn't. Mars is nice and red, but I like Saturn best. It's got beautiful rings."
            ],
            [
-            "bm_lewis",
-            "Jack",
-            "Hmm, she finished her last puzzle in one day! Oh, I know. She loves flowers. I'll buy her a little plant in a pot."
+            "bf_isabella",
+            "Teacher",
+            "What about Earth?"
            ],
            [
-            "bm_george",
-            "Dad",
-            "Perfect. She can look after it herself."
+            "bf_lily",
+            "Grace",
+            "Earth is our home. But Saturn is my favourite."
            ]
           ]
          }
@@ -1470,50 +1567,50 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "The coach corrects himself. Listen for actually."
+          "step": "The question says today. Is today a usual day?"
          },
-         "worked": "The coach says \"<b>Actually</b>, they're in the big <b>bag</b> by the door\".",
+         "worked": "Dad says \"I need the car for work. <b>Take the bus</b> with your friends.\"",
          "type": "mcq",
-         "q": "Where are the badminton rackets?",
+         "q": "How will Raj go to school today?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🎒",
-            "tag": "bag"
+            "pic": "🚌",
+            "tag": "bus"
            },
-           "alt": "bag picture"
+           "alt": "bus picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🗄️",
-            "tag": "cupboard"
+            "pic": "🚶",
+            "tag": "walk"
            },
-           "alt": "cupboard picture"
+           "alt": "walk picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🎭",
-            "tag": "stage"
+            "pic": "🚗",
+            "tag": "car"
            },
-           "alt": "stage picture"
+           "alt": "car picture"
           }
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
-          "Minh asks about the cupboard, but the coach says not today.",
-          "Minh has looked on the stage, and only the nets are there."
+          "Raj usually walks, but not today.",
+          "Dad needs the car for work today."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -1521,72 +1618,72 @@
           "k": "stim",
           "id": "s4-r2-2a",
           "kind": "audio",
-          "head": "Listen to Minh and his coach.",
+          "head": "Listen to Raj and his dad.",
           "lines": [
            [
-            "bm_lewis",
-            "Minh",
-            "Coach, where are the badminton rackets? Are they in the cupboard?"
-           ],
-           [
-            "bm_daniel",
-            "Coach",
-            "Not today, Minh. I put them on the stage this morning."
+            "bm_george",
+            "Dad",
+            "Raj, are you walking to school today?"
            ],
            [
             "bm_lewis",
-            "Minh",
-            "I've looked on the stage. There are only the nets there."
+            "Raj",
+            "I usually walk, Dad. But it's raining a lot today. Can you take me in the car?"
            ],
            [
-            "bm_daniel",
-            "Coach",
-            "Oh, sorry, you're right! Actually, they're in the big bag by the door."
+            "bm_george",
+            "Dad",
+            "Sorry, I need the car for work. Take the bus with your friends."
+           ],
+           [
+            "bm_lewis",
+            "Raj",
+            "OK, Dad."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Kenji is wrong at first. Listen to Mum after No, Kenji."
+          "step": "Usually is not today. Is there a problem with the next idea?"
          },
-         "worked": "Mum says \"the race starts at <b>quarter past ten</b>\", so 10:15.",
+         "worked": "Mum says \"<b>Have a mango</b> with some yoghurt\", and Ngoc says OK.",
          "type": "mcq",
-         "q": "What time does the bike race start?",
+         "q": "What will Ngoc have for breakfast today?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🚴",
-            "tag": "10:15"
+            "pic": "🥭",
+            "tag": "mango"
            },
-           "alt": "10:15 picture"
+           "alt": "mango picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🚴",
-            "tag": "10:00"
+            "pic": "🍜",
+            "tag": "noodles"
            },
-           "alt": "10:00 picture"
+           "alt": "noodles picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🚴",
-            "tag": "9:30"
+            "pic": "🍚",
+            "tag": "rice"
            },
-           "alt": "9:30 picture"
+           "alt": "rice picture"
           }
          ],
          "at": 2,
          "whys": [
           null,
-          "Ten o'clock is when Kenji collects his number.",
-          "Half past nine is when they leave home."
+          "Ngoc usually has noodles, but she wants something different today.",
+          "There isn't any rice."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -1594,22 +1691,27 @@
           "k": "stim",
           "id": "s4-r2-2b",
           "kind": "audio",
-          "head": "Listen to Kenji and his mum.",
+          "head": "Listen to Ngoc and her mum.",
           "lines": [
            [
-            "bm_lewis",
-            "Kenji",
-            "Mum, the bike race starts at ten o'clock, so we can leave at half past nine."
+            "bf_emma",
+            "Mum",
+            "Ngoc, do you want noodles for breakfast?"
+           ],
+           [
+            "bf_alice",
+            "Ngoc",
+            "I usually have noodles. But today I want something different. Can I have rice?"
            ],
            [
             "bf_emma",
             "Mum",
-            "Let me check the poster. No, Kenji, the race starts at quarter past ten. Ten o'clock is when you collect your number."
+            "We haven't got any rice. Have a mango with some yoghurt."
            ],
            [
-            "bm_lewis",
-            "Kenji",
-            "OK, but let's still leave at half past nine. I don't want to be late!"
+            "bf_alice",
+            "Ngoc",
+            "Yummy! OK."
            ]
           ]
          }
@@ -1619,50 +1721,50 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Dad's guess is wrong. Listen to what Priya says the photo is."
+          "step": "Ethan has a new idea. Listen for I'll."
          },
-         "worked": "Priya says \"This is a <b>kingfisher</b>. It's that bright <b>blue bird</b>\".",
+         "worked": "Ethan says \"I know. <b>I'll draw a picture</b> of her garden.\"",
          "type": "mcq",
-         "q": "Which animal did Priya take a photo of?",
+         "q": "What will Ethan make for Grandma's birthday?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🐦",
-            "tag": "kingfisher"
+            "pic": "🖼️",
+            "tag": "picture"
            },
-           "alt": "kingfisher picture"
+           "alt": "picture picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🦦",
-            "tag": "otter"
+            "pic": "💌",
+            "tag": "card"
            },
-           "alt": "otter picture"
+           "alt": "card picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🦆",
-            "tag": "ducks"
+            "pic": "🎂",
+            "tag": "cake"
            },
-           "alt": "ducks picture"
+           "alt": "cake picture"
           }
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
-          "They didn't see any otters.",
-          "The ducks swam away before she could take a photo."
+          "Ethan made a card last year, so he wants a new idea.",
+          "Ethan says he can't make cakes."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -1670,72 +1772,72 @@
           "k": "stim",
           "id": "s4-r2-3a",
           "kind": "audio",
-          "head": "Listen to Priya and her dad.",
+          "head": "Listen to Ethan and his mum.",
           "lines": [
            [
-            "bf_alice",
-            "Priya",
-            "Dad, look at my photo from the river trip!"
+            "bm_lewis",
+            "Ethan",
+            "Mum, I want to make a card for Grandma's birthday."
            ],
            [
-            "bm_george",
-            "Dad",
-            "Is that an otter?"
+            "bf_emma",
+            "Mum",
+            "You made a card last year. What about a cake?"
            ],
            [
-            "bf_alice",
-            "Priya",
-            "No, we didn't see any otters. There were lots of ducks, but they swam away before I could take a photo. This is a kingfisher. It's that bright blue bird, see?"
+            "bm_lewis",
+            "Ethan",
+            "I can't make cakes! I know. I'll draw a picture of her garden."
            ],
            [
-            "bm_george",
-            "Dad",
-            "Wow, what a great photo!"
+            "bf_emma",
+            "Mum",
+            "She'll love that."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Listen for was going to... but. The answer comes after but."
+          "step": "Amira changes her mind. What does she choose now?"
          },
-         "worked": "Ethan says \"So I <b>rode my bike</b>\".",
+         "worked": "Amira says \"Cress grows fast. <b>I'll grow cress</b>.\"",
          "type": "mcq",
-         "q": "How did Ethan get to the sports centre?",
+         "q": "What will Amira grow in her pot?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🚲",
-            "tag": ""
+            "pic": "🌱",
+            "tag": "cress"
            },
-           "alt": " picture"
+           "alt": "cress picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🚌",
-            "tag": ""
+            "pic": "🥕",
+            "tag": "carrots"
            },
-           "alt": " picture"
+           "alt": "carrots picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🚗",
-            "tag": ""
+            "pic": "🍓",
+            "tag": "strawberries"
            },
-           "alt": " picture"
+           "alt": "strawberries picture"
           }
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
-          "Ethan was going to take the bus, but it was late.",
-          "His dad was busy, so he didn't drive."
+          "The pot is too small for carrots.",
+          "Strawberries are for the summer, not now."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -1743,22 +1845,27 @@
           "k": "stim",
           "id": "s4-r2-3b",
           "kind": "audio",
-          "head": "Listen to Nadia and Ethan.",
+          "head": "Listen to Amira and her dad.",
           "lines": [
            [
-            "bf_alice",
-            "Nadia",
-            "Ethan, did your dad drive you to the sports centre today?"
+            "bf_lily",
+            "Amira",
+            "Dad, I want to grow carrots in my pot."
            ],
            [
-            "bm_fable",
-            "Ethan",
-            "No, he was busy. I was going to take the bus, but it was really late. So I rode my bike. It only took ten minutes!"
+            "bm_george",
+            "Dad",
+            "The pot is too small for carrots. What about strawberries?"
            ],
            [
-            "bf_alice",
-            "Nadia",
-            "Clever. I walked here with my mum. It took us half an hour!"
+            "bf_lily",
+            "Amira",
+            "Hmm. Cress grows fast. I'll grow cress, and we can grow strawberries in the summer."
+           ],
+           [
+            "bm_george",
+            "Dad",
+            "Good plan."
            ]
           ]
          }
@@ -1769,106 +1876,96 @@
     },
     {
      "title": {
-      "en": "Spelled names and short notes",
-      "vi": "Tên được đánh vần và ghi chú ngắn"
+      "en": "Spell it, say it, write it",
+      "vi": "Đánh vần, đọc số và viết"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ld.01",
-        "6Ld.04"
+        "4Ld.02",
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Mum spells it wrong. Write the letters that Sami says."
+          "step": "Write every letter. Count the letters at the end of the name."
          },
-         "worked": "Sami says \"F-A-I-R, like the word fair\", so it is <b>Fairley</b>.",
+         "worked": "Lucy spells it: \"<b>W-E-B-B</b>\". So the surname is <b>Webb</b>.",
          "type": "tfill",
-         "q": "Listen and write the surname.",
+         "q": "Listen and write Lucy's surname.",
          "lines": [
-          "Art club teacher: Mrs {0}"
+          "Surname: {0}"
          ],
          "ans": [
           [
-           "fairley"
+           "webb"
           ]
          ],
          "fig": {
           "k": "stim",
           "id": "s4-r3-1a",
           "kind": "audio",
-          "head": "Listen to Sami and his mum.",
+          "head": "Listen to Lucy and her teacher.",
           "lines": [
            [
-            "bm_fable",
-            "Sami",
-            "Mum, our new art club teacher is really nice."
+            "bf_isabella",
+            "Teacher",
+            "Lucy, I'm writing the names for the school choir. What's your surname?"
            ],
            [
-            "bf_emma",
-            "Mum",
-            "That's good. What's her name? I'd like to say hello at the school gate."
+            "bf_alice",
+            "Lucy",
+            "It's Webb. W-E-B-B."
            ],
            [
-            "bm_fable",
-            "Sami",
-            "Mrs Fairley. F-A-I-R-L-E-Y."
+            "bf_isabella",
+            "Teacher",
+            "W-E-B?"
            ],
            [
-            "bf_emma",
-            "Mum",
-            "Did you say F-A-R?"
-           ],
-           [
-            "bm_fable",
-            "Sami",
-            "No, F-A-I-R, like the word fair. F-A-I-R-L-E-Y. She's going to teach us how to paint animals and birds."
+            "bf_alice",
+            "Lucy",
+            "No, there are two Bs. W-E-B-B."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Elena spells it wrong. Listen to Dad's correction."
+          "step": "Write one letter for each letter you hear."
          },
-         "worked": "Dad says \"only one B... <b>D-O-B-S-O-N</b>\".",
+         "worked": "Tuan spells the name: \"<b>B-I-N-G-O</b>\".",
          "type": "tfill",
-         "q": "Listen and write the surname.",
+         "q": "Listen and write the cat's name.",
          "lines": [
-          "Our vet: Mr {0}"
+          "Cat's name: {0}"
          ],
          "ans": [
           [
-           "dobson"
+           "bingo"
           ]
          ],
          "fig": {
           "k": "stim",
           "id": "s4-r3-1b",
           "kind": "audio",
-          "head": "Listen to Elena and her dad.",
+          "head": "Listen to Tuan and the vet.",
           "lines": [
            [
-            "bf_lily",
-            "Elena",
-            "Dad, what's the name of the new vet? I want to write it on the fridge."
+            "bf_emma",
+            "Vet",
+            "Hello! What's your cat's name?"
            ],
            [
-            "bm_george",
-            "Dad",
-            "He's called Mr Dobson. That's D-O-B-S-O-N. He works at the animal clinic on Park Road."
+            "bm_fable",
+            "Tuan",
+            "Bingo. B-I-N-G-O."
            ],
            [
-            "bf_lily",
-            "Elena",
-            "D-O-B-B-S?"
-           ],
-           [
-            "bm_george",
-            "Dad",
-            "No, only one B, and there's no second S. D-O-B-S-O-N. He was very kind to our cat."
+            "bf_emma",
+            "Vet",
+            "B-I-N-G-O. Hello, Bingo! What a lovely cat."
            ]
           ]
          }
@@ -1878,94 +1975,102 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.01",
-        "6Ld.04"
+        "4Ld.02",
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Two days are said. The club is moving FROM one day TO another."
+          "step": "Write one number for each number you hear. Sophie says it again: check."
          },
-         "worked": "The coach is <b>O-A-K-E-S</b> and the club moves \"from Monday <b>to Thursday</b>\".",
+         "worked": "Mum says \"<b>six four nine three one two eight</b>\". That is 649 3128.",
          "type": "tfill",
-         "q": "Listen and complete the notes.",
+         "q": "Listen and write the phone number.",
          "lines": [
-          "New chess coach: Mr {0}",
-          "New day: {1}"
+          "Grandma's phone number: {0}"
          ],
          "ans": [
           [
-           "oakes"
-          ],
-          [
-           "thursday",
-           "thurs"
+           "6493128",
+           "649 3128",
+           "649-3128",
+           "649.3128",
+           "six four nine three one two eight"
           ]
          ],
          "fig": {
           "k": "stim",
           "id": "s4-r3-2a",
           "kind": "audio",
-          "head": "Listen to Mr Hale.",
+          "head": "Listen to Sophie and her mum.",
           "lines": [
            [
-            "bm_george",
-            "Mr Hale",
-            "Hello, Grade 5. I have some news about the chess club. From next week, there's a new coach. His name is Mr Oakes. That's O-A-K-E-S. Also, the club is moving from Monday to Thursday, because the hall is busy on Mondays. Please tell your parents."
+            "bf_lily",
+            "Sophie",
+            "Mum, I want to call Grandma. What's her phone number?"
+           ],
+           [
+            "bf_emma",
+            "Mum",
+            "It's six four nine three one two eight."
+           ],
+           [
+            "bf_lily",
+            "Sophie",
+            "Six four nine, three one two eight?"
+           ],
+           [
+            "bf_emma",
+            "Mum",
+            "That's right."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Two times are said. Listen for not."
+          "step": "Write the numbers in the same order. Two numbers can be the same."
          },
-         "worked": "The leader is <b>P-E-N-R-O-S-E</b>, and they meet \"at <b>quarter past eight</b>, not half past\".",
+         "worked": "The coach says \"<b>five one nine four four two seven</b>\". That is 519 4427.",
          "type": "tfill",
-         "q": "Listen and complete the notes.",
+         "q": "Listen and write the phone number.",
          "lines": [
-          "Walk leader: Ms {0}",
-          "Meet at the gate at: {1}"
+          "Coach's phone number: {0}"
          ],
          "ans": [
           [
-           "penrose"
-          ],
-          [
-           "8.15",
-           "8:15",
-           "08.15",
-           "08:15",
-           "8.15am",
-           "8:15am",
-           "08.15am",
-           "08:15am",
-           "8.15 am",
-           "8:15 am",
-           "08.15 am",
-           "08:15 am",
-           "8.15a.m.",
-           "8:15a.m.",
-           "08.15a.m.",
-           "08:15a.m.",
-           "8.15 a.m.",
-           "8:15 a.m.",
-           "08.15 a.m.",
-           "08:15 a.m.",
-           "quarter past 8",
-           "quarter past eight"
+           "5194427",
+           "519 4427",
+           "519-4427",
+           "519.4427",
+           "five one nine four four two seven"
           ]
          ],
          "fig": {
           "k": "stim",
           "id": "s4-r3-2b",
           "kind": "audio",
-          "head": "Listen to Mrs Lowe.",
+          "head": "Listen to Nam and his football coach.",
           "lines": [
            [
-            "bf_isabella",
-            "Mrs Lowe",
-            "Good morning. On Saturday we're going on a bird-watching walk in Elm Park. Your leader is Ms Penrose. That's P-E-N-R-O-S-E. We'll meet at the park gate at quarter past eight, not half past, because birds are busiest early in the morning. Please wear warm clothes and bring something to drink."
+            "bm_daniel",
+            "Coach",
+            "Nam, if you can't come to practice, please call me."
+           ],
+           [
+            "bm_fable",
+            "Nam",
+            "What's your phone number, Coach?"
+           ],
+           [
+            "bm_daniel",
+            "Coach",
+            "It's five one nine four four two seven."
+           ],
+           [
+            "bm_fable",
+            "Nam",
+            "Five one nine, four four two seven. Thanks!"
            ]
           ]
          }
@@ -1975,83 +2080,156 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.01",
-        "6Ld.04"
+        "4Ld.02",
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Snacks are mentioned. Do you need to bring them?"
+          "step": "Two numbers are said about age. Which one is Raj's age?"
          },
-         "worked": "The coach says \"wear your school <b>PE kit</b>\" and \"Bring a water bottle and a <b>hat</b>\".",
+         "worked": "Raj says \"<b>I'm nine</b>.\" The helper says \"The show starts at <b>half past two</b>.\"",
          "type": "tfill",
-         "q": "Listen and complete the notes.",
+         "q": "Listen and complete the form.",
          "lines": [
-          "Wear: school {0}",
-          "Bring: a water bottle and a {1}"
+          "Age: {0}",
+          "Star show starts at: {1}"
          ],
          "ans": [
           [
-           "pe kit",
-           "p.e. kit",
-           "kit",
-           "pe clothes"
+           "9",
+           "nine"
           ],
           [
-           "hat",
-           "sun hat",
-           "sunhat"
+           "2:30",
+           "2:30pm",
+           "2:30 pm",
+           "2:30p.m.",
+           "2:30 p.m.",
+           "2.30",
+           "2.30pm",
+           "2.30 pm",
+           "2.30p.m.",
+           "2.30 p.m.",
+           "02:30",
+           "02:30pm",
+           "02:30 pm",
+           "02:30p.m.",
+           "02:30 p.m.",
+           "02.30",
+           "02.30pm",
+           "02.30 pm",
+           "02.30p.m.",
+           "02.30 p.m.",
+           "half past two",
+           "two thirty"
           ]
          ],
          "fig": {
           "k": "stim",
           "id": "s4-r3-3a",
           "kind": "audio",
-          "head": "Listen to the coach talking about sports day.",
+          "head": "Listen to Raj and a helper at the science museum.",
           "lines": [
            [
-            "bm_daniel",
-            "Coach",
-            "Right, everyone. For sports day on Friday, please wear your school PE kit, not your own clothes. Bring a water bottle and a hat, because it's going to be sunny. You don't need to bring snacks. We'll give everyone some fruit at lunchtime. See you all on the field on Friday morning."
+            "bf_isabella",
+            "Helper",
+            "Hello! Do you want a ticket for the star show?"
+           ],
+           [
+            "bm_lewis",
+            "Raj",
+            "Yes, please."
+           ],
+           [
+            "bf_isabella",
+            "Helper",
+            "How old are you?"
+           ],
+           [
+            "bm_lewis",
+            "Raj",
+            "I'm nine."
+           ],
+           [
+            "bf_isabella",
+            "Helper",
+            "Children under eight need a grown-up. You're fine. The show starts at half past two."
+           ],
+           [
+            "bm_lewis",
+            "Raj",
+            "Half past two. Thank you!"
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Two prices are said. Which one is the price now?"
+          "step": "The form is about Ngoc's brother, not Ngoc. Quarter past means 15 minutes after."
          },
-         "worked": "The trip \"costs <b>eight pounds</b>\" (it was going to be ten), and you bring a <b>notebook</b>.",
+         "worked": "Ngoc says \"<b>He's six</b>.\" The teacher says the class starts at <b>quarter past four</b>.",
          "type": "tfill",
-         "q": "Listen and complete the notes.",
+         "q": "Listen and complete the form.",
          "lines": [
-          "Cost of the trip: £{0}",
-          "Bring: a {1}"
+          "Brother's age: {0}",
+          "Class starts at: {1}"
          ],
          "ans": [
           [
-           "8",
-           "eight",
-           "8.00",
-           "8 pounds",
-           "eight pounds"
+           "6",
+           "six"
           ],
           [
-           "notebook",
-           "note book",
-           "note-book"
+           "4:15",
+           "4:15pm",
+           "4:15 pm",
+           "4:15p.m.",
+           "4:15 p.m.",
+           "4.15",
+           "4.15pm",
+           "4.15 pm",
+           "4.15p.m.",
+           "4.15 p.m.",
+           "04:15",
+           "04:15pm",
+           "04:15 pm",
+           "04:15p.m.",
+           "04:15 p.m.",
+           "04.15",
+           "04.15pm",
+           "04.15 pm",
+           "04.15p.m.",
+           "04.15 p.m.",
+           "quarter past four",
+           "four fifteen"
           ]
          ],
          "fig": {
           "k": "stim",
           "id": "s4-r3-3b",
           "kind": "audio",
-          "head": "Listen to Ms Kim.",
+          "head": "Listen to Ngoc and her teacher.",
           "lines": [
            [
-            "bf_emma",
-            "Ms Kim",
-            "Next Tuesday we're visiting the Museum of Old Machines. The trip costs eight pounds. It was going to be ten pounds, but the school is paying some of it. Please bring a notebook, because you'll draw one machine that you like. You can have lunch at the museum café."
+            "bf_isabella",
+            "Teacher",
+            "Ngoc, your brother wants to join the art class. How old is he?"
+           ],
+           [
+            "bf_alice",
+            "Ngoc",
+            "He's six. I'm eight."
+           ],
+           [
+            "bf_isabella",
+            "Teacher",
+            "Good. The class starts at quarter past four, after school."
+           ],
+           [
+            "bf_alice",
+            "Ngoc",
+            "Quarter past four. I'll tell him!"
            ]
           ]
          }
@@ -2070,8 +2248,8 @@
    "art": "icon-step-test",
    "title": "Exam style",
    "blurb": {
-    "en": "Listening Part 1 and Part 2, just like the real exam.",
-    "vi": "Phần 1 và Phần 2 của bài Nghe, giống như bài thi thật."
+    "en": "Listening Part 1 and Part 3, just like the real exam.",
+    "vi": "Phần 1 và Phần 3 của bài Nghe, giống như bài thi thật."
    },
    "levels": [
     {
@@ -2083,50 +2261,50 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Listen for nearly... but. What did she really get?"
+          "step": "Grandma guesses first. Listen to Ethan's answer after No."
          },
-         "worked": "Maya says \"So I got a big <b>watermelon instead</b>\".",
+         "worked": "Ethan says \"No, Grandma. <b>We went to the science museum</b>.\"",
          "type": "mcq",
-         "q": "What did Maya buy at the market?",
+         "q": "Where did Ethan go on Saturday?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🍉",
-            "tag": ""
+            "pic": "🏛️",
+            "tag": "museum"
            },
-           "alt": " picture"
+           "alt": "museum picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🍓",
-            "tag": ""
+            "pic": "🌳",
+            "tag": "park"
            },
-           "alt": " picture"
+           "alt": "park picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🍇",
-            "tag": ""
+            "pic": "🎬",
+            "tag": "cinema"
            },
-           "alt": " picture"
+           "alt": "cinema picture"
           }
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
-          "The strawberries were sold out.",
-          "Maya nearly bought grapes, but they looked old."
+          "Grandma guesses the park, but Ethan says no.",
+          "The cinema is next Saturday, not last Saturday."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -2134,72 +2312,72 @@
           "k": "stim",
           "id": "s4-a1-1a",
           "kind": "audio",
-          "head": "Listen to Maya and her mum.",
+          "head": "Listen to Ethan and his grandma.",
           "lines": [
            [
-            "bf_lily",
-            "Maya",
-            "Mum, I'm back from the market!"
+            "bf_isabella",
+            "Grandma",
+            "Ethan, did you go to the park on Saturday?"
            ],
            [
-            "bf_emma",
-            "Mum",
-            "Thanks, Maya. Did you get the strawberries?"
+            "bm_lewis",
+            "Ethan",
+            "No, Grandma. We went to the science museum. I saw a space rover!"
            ],
            [
-            "bf_lily",
-            "Maya",
-            "Sorry, they were all sold out. I nearly bought some grapes, but they looked a bit old. So I got a big watermelon instead."
+            "bf_isabella",
+            "Grandma",
+            "Did you go to the cinema too?"
            ],
            [
-            "bf_emma",
-            "Mum",
-            "A watermelon! Perfect for this hot weather. Let's put it in the fridge."
+            "bm_lewis",
+            "Ethan",
+            "No, that's next Saturday."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Leo guesses twice. Listen for what Dad remembers."
+          "step": "Dad guesses two places. Listen to what Lucy says after No."
          },
-         "worked": "Dad says \"They're still on the back seat\" of the <b>car</b>.",
+         "worked": "Lucy says \"<b>The club is at my school</b>.\"",
          "type": "mcq",
-         "q": "Where are Leo's football boots now?",
+         "q": "Where is Lucy's new sports club?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🚗",
-            "tag": ""
+            "pic": "🏫",
+            "tag": "school"
            },
-           "alt": " picture"
+           "alt": "school picture"
+          },
+          {
+           "html": "",
+           "fig": {
+            "k": "pico",
+            "pic": "🏟️",
+            "tag": "sports centre"
+           },
+           "alt": "sports centre picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
             "pic": "🌳",
-            "tag": ""
+            "tag": "park"
            },
-           "alt": " picture"
-          },
-          {
-           "html": "",
-           "fig": {
-            "k": "pico",
-            "pic": "🛏️",
-            "tag": ""
-           },
-           "alt": " picture"
+           "alt": "park picture"
           }
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
-          "Only Leo's ball was in the garden.",
-          "Leo guesses under his bed, but Dad says no."
+          "The sports centre is closed this month.",
+          "Lucy says it's too cold in the park."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -2207,27 +2385,27 @@
           "k": "stim",
           "id": "s4-a1-1b",
           "kind": "audio",
-          "head": "Listen to Leo and his dad.",
+          "head": "Listen to Lucy and her dad.",
           "lines": [
            [
-            "bm_lewis",
-            "Leo",
-            "Dad, have you seen my football boots? I think I left them in the garden."
+            "bm_george",
+            "Dad",
+            "Lucy, is your new sports club at the sports centre?"
+           ],
+           [
+            "bf_alice",
+            "Lucy",
+            "No, Dad. It's closed this month. The club is at my school."
            ],
            [
             "bm_george",
             "Dad",
-            "I was in the garden this morning. Only your ball was there."
+            "Not in the park?"
            ],
            [
-            "bm_lewis",
-            "Leo",
-            "Then maybe they're under my bed?"
-           ],
-           [
-            "bm_george",
-            "Dad",
-            "Hmm, no. Oh, wait, I remember! You took them off in the car after the match. They're still on the back seat."
+            "bf_alice",
+            "Lucy",
+            "No, it's too cold in the park."
            ]
           ]
          }
@@ -2237,50 +2415,50 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "As usual and this week are different. The question says this week."
+          "step": "Two people have lunch. Listen for what Ethan had."
          },
-         "worked": "Mum says \"the lesson <b>starts at half past four</b>\". That's 4:30.",
+         "worked": "Ethan says \"<b>I had pasta</b> in the café.\"",
          "type": "mcq",
-         "q": "What time does Mai's piano lesson start this week?",
+         "q": "What did Ethan have for lunch?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🎹",
-            "tag": "4:30"
+            "pic": "🍝",
+            "tag": "pasta"
            },
-           "alt": "4:30 picture"
+           "alt": "pasta picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🎹",
-            "tag": "4:00"
+            "pic": "🥪",
+            "tag": "sandwiches"
            },
-           "alt": "4:00 picture"
+           "alt": "sandwiches picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🎹",
-            "tag": "5:30"
+            "pic": "🍟",
+            "tag": "chips"
            },
-           "alt": "5:30 picture"
+           "alt": "chips picture"
           }
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
-          "Four o'clock is the usual time, but not this week.",
-          "Half past five is when the lesson finishes."
+          "Ethan left his sandwiches in the car.",
+          "Dad had the chips, not Ethan."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -2288,72 +2466,72 @@
           "k": "stim",
           "id": "s4-a1-2a",
           "kind": "audio",
-          "head": "Listen to Mai and her mum.",
+          "head": "Listen to Ethan and his grandma.",
           "lines": [
            [
-            "bf_alice",
-            "Mai",
-            "Mum, my piano lesson is at four o'clock as usual on Thursday, isn't it?"
+            "bf_isabella",
+            "Grandma",
+            "Did you have your sandwiches for lunch?"
            ],
            [
-            "bf_emma",
-            "Mum",
-            "Not this week. Your teacher phoned. She's going to the dentist, so the lesson starts at half past four."
+            "bm_lewis",
+            "Ethan",
+            "No! I left them in the car. So I had pasta in the café."
            ],
            [
-            "bf_alice",
-            "Mai",
-            "Oh. Will it still finish at five?"
+            "bf_isabella",
+            "Grandma",
+            "Pasta! Not chips?"
            ],
            [
-            "bf_emma",
-            "Mum",
-            "No, it'll finish at half past five this week."
+            "bm_lewis",
+            "Ethan",
+            "Dad had chips."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Listen for the word paid."
+          "step": "Listen for No. Who is the police officer?"
          },
-         "worked": "Omar says \"I only <b>paid four pounds fifty</b>\", because it was half price.",
+         "worked": "Lucy says \"No, she isn't. <b>She's a nurse</b> at the hospital.\"",
          "type": "mcq",
-         "q": "How much did Omar pay for his book?",
+         "q": "What does Lucy's coach do in the day?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "📘",
-            "tag": "£4.50"
+            "pic": "👩‍⚕️",
+            "tag": "nurse"
            },
-           "alt": "£4.50 picture"
+           "alt": "nurse picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "📘",
-            "tag": "£12"
+            "pic": "👩‍🏫",
+            "tag": "teacher"
            },
-           "alt": "£12 picture"
+           "alt": "teacher picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "📘",
-            "tag": "£9"
+            "pic": "👮",
+            "tag": "police officer"
            },
-           "alt": "£9 picture"
+           "alt": "police officer picture"
           }
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
-          "Twelve pounds was the price on the website.",
-          "Nine pounds was the shop price before half price."
+          "Dad guesses teacher, but Lucy says no.",
+          "The police officer is the coach's brother."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -2361,27 +2539,27 @@
           "k": "stim",
           "id": "s4-a1-2b",
           "kind": "audio",
-          "head": "Listen to Omar and his grandpa.",
+          "head": "Listen to Lucy and her dad.",
           "lines": [
            [
-            "bm_lewis",
-            "Omar",
-            "Look, Grandpa, I bought the book about sharks!"
+            "bm_george",
+            "Dad",
+            "Is your coach a teacher at your school?"
            ],
            [
-            "bm_daniel",
-            "Grandpa",
-            "Wonderful. Was it expensive? It was twelve pounds on the website."
+            "bf_alice",
+            "Lucy",
+            "No, she isn't. She's a nurse at the hospital."
            ],
            [
-            "bm_lewis",
-            "Omar",
-            "In the shop it was nine pounds. But today everything was half price, so I only paid four pounds fifty!"
+            "bm_george",
+            "Dad",
+            "Oh. I thought she was a police officer."
            ],
            [
-            "bm_daniel",
-            "Grandpa",
-            "What a good price. Now you can read it to me after dinner!"
+            "bf_alice",
+            "Lucy",
+            "No, Dad. That's her brother!"
            ]
           ]
          }
@@ -2391,50 +2569,50 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Listen for what Hana did, not what other people wanted."
+          "step": "Ethan talks about three posters. Which one is his?"
          },
-         "worked": "Hana says \"I went <b>climbing</b> at the sports centre\".",
+         "worked": "The moon poster was too big, \"So <b>I got a rocket poster</b>.\"",
          "type": "mcq",
-         "q": "What did Hana do on Saturday?",
+         "q": "Which poster did Ethan buy?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🧗",
-            "tag": ""
+            "pic": "🚀",
+            "tag": "rocket"
            },
-           "alt": " picture"
+           "alt": "rocket picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🚴",
-            "tag": ""
+            "pic": "🌙",
+            "tag": "moon"
            },
-           "alt": " picture"
+           "alt": "moon picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🎾",
-            "tag": ""
+            "pic": "✨",
+            "tag": "stars"
            },
-           "alt": " picture"
+           "alt": "stars picture"
           }
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
-          "The cycling race was cancelled because of the wind.",
-          "Her brother wanted to play tennis, but Hana went climbing."
+          "The moon poster was too big.",
+          "The poster of the stars is his sister's."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -2442,72 +2620,72 @@
           "k": "stim",
           "id": "s4-a1-3a",
           "kind": "audio",
-          "head": "Listen to Arlo and Hana.",
+          "head": "Listen to Ethan and his grandma.",
           "lines": [
            [
-            "bm_lewis",
-            "Arlo",
-            "Hi, Hana! Did you go to the cycling race on Saturday?"
-           ],
-           [
-            "bf_alice",
-            "Hana",
-            "No, it was too windy, so they cancelled it."
+            "bf_isabella",
+            "Grandma",
+            "Did you buy something in the shop?"
            ],
            [
             "bm_lewis",
-            "Arlo",
-            "Oh no! What did you do then?"
+            "Ethan",
+            "Yes, a poster. The moon poster was too big. So I got a rocket poster."
            ],
            [
-            "bf_alice",
-            "Hana",
-            "My brother wanted to play tennis, but I went climbing at the sports centre with my cousin. I got to the top of the wall! It was amazing."
+            "bf_isabella",
+            "Grandma",
+            "And your sister?"
+           ],
+           [
+            "bm_lewis",
+            "Ethan",
+            "She got a poster of the stars."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Listen for instead."
+          "step": "Lucy asks for something. Can she have it?"
          },
-         "worked": "Amir says \"So I drew a <b>penguin instead</b>\".",
+         "worked": "Dad says \"What about <b>fish and chips</b>?\" and Lucy says \"Yes, please!\"",
          "type": "mcq",
-         "q": "Which animal did Amir draw on his poster?",
+         "q": "What will Lucy have for dinner tonight?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🐧",
-            "tag": ""
+            "pic": "🐟🍟",
+            "tag": "fish and chips"
            },
-           "alt": " picture"
+           "alt": "fish and chips picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🐻‍❄️",
-            "tag": ""
+            "pic": "🍚",
+            "tag": "rice"
            },
-           "alt": " picture"
+           "alt": "rice picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🦭",
-            "tag": ""
+            "pic": "🍜",
+            "tag": "noodles"
            },
-           "alt": " picture"
+           "alt": "noodles picture"
           }
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
-          "Amir tried to draw a polar bear, but it looked like a dog.",
-          "He wrote about seals, but there's no picture of them."
+          "They had rice and chicken yesterday.",
+          "There aren't any noodles."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -2515,27 +2693,27 @@
           "k": "stim",
           "id": "s4-a1-3b",
           "kind": "audio",
-          "head": "Listen to Amir and his teacher.",
+          "head": "Listen to Lucy and her dad.",
           "lines": [
            [
-            "bm_fable",
-            "Amir",
-            "Miss Ford, I've finished my poster about animals that live in cold places."
+            "bm_george",
+            "Dad",
+            "Do you want rice and chicken for dinner tonight?"
            ],
            [
-            "bf_isabella",
-            "Miss Ford",
-            "Great! Did you draw the polar bear in the end?"
+            "bf_alice",
+            "Lucy",
+            "We had that yesterday. Can we have noodles?"
            ],
            [
-            "bm_fable",
-            "Amir",
-            "I tried, but it looked like a dog! So I drew a penguin instead. I wrote about seals too, but there's no picture of them."
+            "bm_george",
+            "Dad",
+            "There aren't any noodles. What about fish and chips?"
            ],
            [
-            "bf_isabella",
-            "Miss Ford",
-            "The penguin is lovely."
+            "bf_alice",
+            "Lucy",
+            "Yes, please!"
            ]
           ]
          }
@@ -2553,50 +2731,50 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Listen for sorry and not. Fourteen and forty sound alike."
+          "step": "The question says leave home. Which time goes with home?"
          },
-         "worked": "Dev says \"He said <b>Room 4, not 40</b>\".",
+         "worked": "Raj has to be at school at seven, so Mum says \"So <b>leave home at quarter to seven</b>.\"",
          "type": "mcq",
-         "q": "Which room is the science club in today?",
+         "q": "What time will Raj leave home tomorrow?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🔬",
-            "tag": "Room 4"
+            "pic": "🏠",
+            "tag": "6:45"
            },
-           "alt": "Room 4 picture"
+           "alt": "6:45 picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🔬",
-            "tag": "Room 14"
+            "pic": "🏠",
+            "tag": "7:30"
            },
-           "alt": "Room 14 picture"
+           "alt": "7:30 picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🔬",
-            "tag": "Room 40"
+            "pic": "🏠",
+            "tag": "7:00"
            },
-           "alt": "Room 40 picture"
+           "alt": "7:00 picture"
           }
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
-          "Room 14 is being painted today.",
-          "Dev said 40 by mistake, then he corrected it."
+          "Half past seven is when the bus usually comes, but tomorrow is different.",
+          "Seven o'clock is when Raj has to be at school."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -2604,72 +2782,72 @@
           "k": "stim",
           "id": "s4-a2-1a",
           "kind": "audio",
-          "head": "Listen to Yuki and Dev.",
+          "head": "Listen to Raj and his mum.",
           "lines": [
            [
-            "bf_lily",
-            "Yuki",
-            "Dev, is the science club in Room 14 today, like last week?"
+            "bf_emma",
+            "Mum",
+            "Raj, the bus usually comes at half past seven."
            ],
            [
             "bm_lewis",
-            "Dev",
-            "No, Room 14 is being painted. Mr Shaw said Room 40."
+            "Raj",
+            "But tomorrow is our trip. We have to be at school at seven o'clock."
            ],
            [
-            "bf_lily",
-            "Yuki",
-            "Room 40? But that's the music room."
+            "bf_emma",
+            "Mum",
+            "So leave home at quarter to seven."
            ],
            [
             "bm_lewis",
-            "Dev",
-            "Oh, sorry. He said Room 4, not 40. It's the one next to the library."
+            "Raj",
+            "That's early!"
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Lucas thinks one thing is tomorrow. Listen to Mum's answer."
+          "step": "Hearing and finding are different. Where was the cat?"
          },
-         "worked": "Mum says \"No, it's <b>today</b> at four\": the <b>dentist</b>.",
+         "worked": "Ngoc says \"But <b>it was on the roof</b> of our shed!\"",
          "type": "mcq",
-         "q": "What is Lucas going to do after school today?",
+         "q": "Where did Ngoc find the little cat?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🦷",
-            "tag": ""
+            "pic": "🏠",
+            "tag": "roof"
            },
-           "alt": " picture"
+           "alt": "roof picture"
+          },
+          {
+           "html": "",
+           "fig": {
+            "k": "pico",
+            "pic": "🌷",
+            "tag": "garden"
+           },
+           "alt": "garden picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
             "pic": "🌳",
-            "tag": ""
+            "tag": "tree"
            },
-           "alt": " picture"
-          },
-          {
-           "html": "",
-           "fig": {
-            "k": "pico",
-            "pic": "🎸",
-            "tag": ""
-           },
-           "alt": " picture"
+           "alt": "tree picture"
           }
          ],
          "at": 0,
          "whys": [
           null,
-          "Lucas can go to the park tomorrow, not today.",
-          "The guitar lesson is on Thursday."
+          "Ngoc heard the cat in the garden, but it wasn't there.",
+          "Ngoc says the tree was empty."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -2677,27 +2855,27 @@
           "k": "stim",
           "id": "s4-a2-1b",
           "kind": "audio",
-          "head": "Listen to Lucas and his mum.",
+          "head": "Listen to Ngoc and her grandpa.",
           "lines": [
            [
-            "bm_lewis",
-            "Lucas",
-            "Mum, can I go to the park with Bao after school today?"
+            "bm_daniel",
+            "Grandpa",
+            "Ngoc, did you find the cat in the garden?"
            ],
            [
-            "bf_emma",
-            "Mum",
-            "Not today, Lucas. You've got your appointment at the dentist, remember?"
+            "bf_alice",
+            "Ngoc",
+            "I heard it in the garden. But it was on the roof of our shed!"
            ],
            [
-            "bm_lewis",
-            "Lucas",
-            "But I thought that was tomorrow."
+            "bm_daniel",
+            "Grandpa",
+            "Not up a tree?"
            ],
            [
-            "bf_emma",
-            "Mum",
-            "No, it's today at four. You can go to the park tomorrow. And don't forget your guitar lesson on Thursday."
+            "bf_alice",
+            "Ngoc",
+            "No, the tree was empty."
            ]
           ]
          }
@@ -2707,50 +2885,50 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Two ways of travelling did not happen. Listen for instead."
+          "step": "Mum guesses twice. Listen for the reason in Raj's answers."
          },
-         "worked": "Anh says \"We went <b>by train instead</b>\".",
+         "worked": "Raj says \"<b>We're sleeping in wooden huts</b>.\"",
          "type": "mcq",
-         "q": "How did Anh's family travel to Da Nang?",
+         "q": "Where will Raj sleep on the trip?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🚆",
-            "tag": ""
+            "pic": "🛖",
+            "tag": "hut"
            },
-           "alt": " picture"
+           "alt": "hut picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "✈️",
-            "tag": ""
+            "pic": "⛺",
+            "tag": "tent"
            },
-           "alt": " picture"
+           "alt": "tent picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🚗",
-            "tag": ""
+            "pic": "🏨",
+            "tag": "hotel"
            },
-           "alt": " picture"
+           "alt": "hotel picture"
           }
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
-          "Flying was the plan, but the planes were full.",
-          "It was too far by car."
+          "It's too cold at night to sleep in tents.",
+          "Raj says there isn't a hotel there."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -2758,53 +2936,53 @@
           "k": "stim",
           "id": "s4-a2-2a",
           "kind": "audio",
-          "head": "Listen to Ava and Anh.",
+          "head": "Listen to Raj and his mum.",
           "lines": [
            [
-            "bf_lily",
-            "Ava",
-            "How was your holiday in Da Nang, Anh? Did you fly there?"
+            "bf_emma",
+            "Mum",
+            "Are you going to sleep in tents?"
            ],
            [
-            "bf_alice",
-            "Anh",
-            "That was the plan, but all the planes were full."
+            "bm_lewis",
+            "Raj",
+            "No, it's too cold at night. We're sleeping in wooden huts."
            ],
            [
-            "bf_lily",
-            "Ava",
-            "So did your dad drive you there?"
+            "bf_emma",
+            "Mum",
+            "Not in a hotel?"
            ],
            [
-            "bf_alice",
-            "Anh",
-            "No, it's too far by car. We went by train instead. It took all night, but I slept in a little bed on the train!"
+            "bm_lewis",
+            "Raj",
+            "There isn't a hotel there."
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Rosa says it opens an hour later on Sundays. Then Dad says the time."
+          "step": "Opening time and seeing the vet are different. Listen for both."
          },
-         "worked": "Rosa says \"an hour later\" and Dad says \"<b>ten o'clock</b>, then\".",
+         "worked": "Grandpa asks when they can see the vet. Ngoc says \"<b>At quarter past ten</b>.\"",
          "type": "mcq",
-         "q": "What time does the ice rink open on Sundays?",
+         "q": "What time will Ngoc see the vet today?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "⛸️",
-            "tag": "10:00"
+            "pic": "🐱",
+            "tag": "10:15"
            },
-           "alt": "10:00 picture"
+           "alt": "10:15 picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "⛸️",
+            "pic": "🐱",
             "tag": "9:00"
            },
            "alt": "9:00 picture"
@@ -2813,17 +2991,17 @@
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "⛸️",
-            "tag": "11:00"
+            "pic": "🐱",
+            "tag": "10:00"
            },
-           "alt": "11:00 picture"
+           "alt": "10:00 picture"
           }
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
-          "Nine o'clock is the time on other days, not Sundays.",
-          "Eleven o'clock is when it gets busy."
+          "Nine o'clock is the usual opening time, not Sunday's.",
+          "Ten o'clock is when the vet opens today."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -2831,27 +3009,27 @@
           "k": "stim",
           "id": "s4-a2-2b",
           "kind": "audio",
-          "head": "Listen to Rosa and her dad.",
+          "head": "Listen to Ngoc and her grandpa.",
           "lines": [
            [
-            "bm_george",
-            "Dad",
-            "Rosa, the ice rink opens at nine o'clock. Let's go early tomorrow."
+            "bm_daniel",
+            "Grandpa",
+            "Does the vet open at nine?"
            ],
            [
-            "bf_lily",
-            "Rosa",
-            "Dad, tomorrow's Sunday. On Sundays it opens an hour later."
+            "bf_alice",
+            "Ngoc",
+            "Usually, yes. But today is Sunday, so it opens at ten."
            ],
            [
-            "bm_george",
-            "Dad",
-            "Ah, ten o'clock, then. Good, that gives us time for a big breakfast."
+            "bm_daniel",
+            "Grandpa",
+            "When can you see the vet?"
            ],
            [
-            "bf_lily",
-            "Rosa",
-            "Yes. And it's really busy from eleven, so we should get there when it opens."
+            "bf_alice",
+            "Ngoc",
+            "At quarter past ten."
            ]
           ]
          }
@@ -2861,50 +3039,50 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Bao checks two things. Which one is broken?"
+          "step": "Listen for the snack, and for what is not allowed."
          },
-         "worked": "Bao says \"I think my <b>headphones</b> are broken\" and Mum will buy new ones.",
+         "worked": "Only fruit is allowed, so Raj asks \"<b>Can I have a banana?</b>\"",
          "type": "mcq",
-         "q": "What does Bao need to buy?",
+         "q": "What will Raj take to eat on the bus?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🎧",
-            "tag": ""
+            "pic": "🍌",
+            "tag": "banana"
            },
-           "alt": " picture"
+           "alt": "banana picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "📱",
-            "tag": ""
+            "pic": "🥪",
+            "tag": "sandwich"
            },
-           "alt": " picture"
+           "alt": "sandwich picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🔌",
-            "tag": ""
+            "pic": "🍪",
+            "tag": "biscuits"
            },
-           "alt": " picture"
+           "alt": "biscuits picture"
           }
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
-          "Mum says Bao doesn't need a new tablet.",
-          "Bao checked the cable and it's fine."
+          "Raj doesn't need a sandwich because the camp gives them lunch.",
+          "Biscuits are not allowed on the trip."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -2912,72 +3090,72 @@
           "k": "stim",
           "id": "s4-a2-3a",
           "kind": "audio",
-          "head": "Listen to Bao and his mum.",
+          "head": "Listen to Raj and his mum.",
           "lines": [
            [
-            "bm_fable",
-            "Bao",
-            "Mum, I can't hear anything on my tablet. Do I need a new one?"
+            "bf_emma",
+            "Mum",
+            "Shall I make you a sandwich?"
+           ],
+           [
+            "bm_lewis",
+            "Raj",
+            "No, thanks. The camp gives us lunch. But I need a snack for the bus."
            ],
            [
             "bf_emma",
             "Mum",
-            "Of course not! Have you checked the cable for your headphones?"
+            "Some biscuits?"
            ],
            [
-            "bm_fable",
-            "Bao",
-            "Yes, the cable's fine. I tried it with Dad's headphones and they worked. I think my headphones are broken."
-           ],
-           [
-            "bf_emma",
-            "Mum",
-            "Then we'll buy you new headphones, not a new tablet."
+            "bm_lewis",
+            "Raj",
+            "Only fruit is allowed. Can I have a banana?"
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Mr Shaw guesses first. Listen to what really happened."
+          "step": "Last night and tonight are different. The question says tonight."
          },
-         "worked": "Ruby says \"It <b>rained</b> so much... the path by the river was closed\".",
+         "worked": "Ngoc says \"<b>Tonight she's going to sleep in a basket</b>.\"",
          "type": "mcq",
-         "q": "What made Ruby late this morning?",
+         "q": "Where will the cat sleep tonight?",
          "opts": [
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🌧️",
-            "tag": ""
+            "pic": "🧺",
+            "tag": "basket"
            },
-           "alt": " picture"
+           "alt": "basket picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "🚌",
-            "tag": ""
+            "pic": "📦",
+            "tag": "box"
            },
-           "alt": " picture"
+           "alt": "box picture"
           },
           {
            "html": "",
            "fig": {
             "k": "pico",
-            "pic": "⏰",
-            "tag": ""
+            "pic": "🛏️",
+            "tag": "bed"
            },
-           "alt": " picture"
+           "alt": "bed picture"
           }
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
-          "Ruby doesn't take the bus on Wednesdays.",
-          "Ruby says she woke up early."
+          "The box was for last night.",
+          "Mum says the cat can't sleep on Ngoc's bed."
          ],
          "letters": true,
          "sub": "Tap one picture.",
@@ -2985,27 +3163,27 @@
           "k": "stim",
           "id": "s4-a2-3b",
           "kind": "audio",
-          "head": "Listen to Ruby and her teacher.",
+          "head": "Listen to Ngoc and her grandpa.",
           "lines": [
            [
-            "bm_george",
-            "Mr Shaw",
-            "Ruby, you're twenty minutes late. Did you miss the bus?"
+            "bm_daniel",
+            "Grandpa",
+            "Did the cat sleep in a box last night?"
            ],
            [
             "bf_alice",
-            "Ruby",
-            "No, Mr Shaw. I don't take the bus on Wednesdays, I walk. And I woke up early."
+            "Ngoc",
+            "Yes, in the kitchen. Tonight she's going to sleep in a basket."
            ],
            [
-            "bm_george",
-            "Mr Shaw",
-            "So what happened?"
+            "bm_daniel",
+            "Grandpa",
+            "Not on your bed?"
            ],
            [
             "bf_alice",
-            "Ruby",
-            "It rained so much last night that the path by the river was closed. I had to walk the long way round."
+            "Ngoc",
+            "Mum says no!"
            ]
           ]
          }
@@ -3016,93 +3194,191 @@
     },
     {
      "title": {
-      "en": "Part 2: complete the notes",
-      "vi": "Phần 2: hoàn thành ghi chú"
+      "en": "Part 3: complete the form",
+      "vi": "Phần 3: hoàn thành phiếu"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Ld.04"
+        "4Ld.02",
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Two days are said. Listen for instead."
+          "step": "The receptionist checks the spelling. Is she right? Write the letters Nam says."
          },
-         "worked": "Miss Carter says \"We were going to go on Tuesday... so we're going on <b>Thursday instead</b>\".",
+         "worked": "Nam says \"No, N at the end. <b>T-R-A-N</b>.\"",
          "type": "tfill",
-         "q": "Day of the trip:",
+         "q": "1 Surname:",
          "lines": [
-          "Day of the trip: {0}"
+          "Surname: {0}"
          ],
          "ans": [
           [
-           "thursday",
-           "thurs"
+           "tran"
           ]
          ],
          "fig": {
           "k": "stim",
-          "id": "s4-a3-pondday",
+          "id": "s4-a3-swim",
           "kind": "audio",
-          "head": "Listen to Miss Carter talking about a class trip. Complete the notes.<br><b>Pond Life Day</b><br>Place: Greenbank Nature Park (example)<br>1 Day of the trip: ________<br>2 Guide's name: Mrs ________<br>3 Bring: a packed lunch and a ________",
+          "head": "Listen to Nam and a receptionist at the sports centre. Complete the form.<br><b>JUNIOR SWIMMING LESSONS</b><br>First name: Nam (example)<br>1 Surname: ________<br>2 Phone number: ________<br>3 Lesson time on Saturday: ________",
           "lines": [
            [
-            "bf_isabella",
-            "Miss Carter",
-            "Good morning, everyone. I've got some news about our Pond Life Day at Greenbank Nature Park. We were going to go on Tuesday, but another school is visiting the park that day, so we're going on Thursday instead. Please tell your parents about the new day. When we arrive, a guide will meet us at the gate. Her name is Mrs Pritchard. That's P-R-I-T-C-H-A-R-D. She has worked at the park for twenty years, and she knows everything about frogs, newts and dragonflies. Last year she found a very rare frog at the park, and she'll tell us all about it. In the morning, we'll walk round the big pond and look for animals. After lunch, we'll use nets to catch tiny water animals, and we'll look at them through a magnifying glass. Don't worry, we'll put them all back in the water afterwards. Now, what do you need? You'll probably get wet, so please wear old clothes. You needn't bring a net or a magnifying glass, because the park will give us those. But you must bring a towel to dry your hands, and a packed lunch, of course. We'll leave school by bus at nine o'clock and we'll be back by three. If you have any questions, come and see me at lunchtime. I'm sure it will be a brilliant day."
+            "bf_emma",
+            "Receptionist",
+            "Hello! Can I help you?"
+           ],
+           [
+            "bm_fable",
+            "Nam",
+            "Hello. I want to join the swimming lessons, please."
+           ],
+           [
+            "bf_emma",
+            "Receptionist",
+            "Great. Can I have your first name?"
+           ],
+           [
+            "bm_fable",
+            "Nam",
+            "Nam. N-A-M."
+           ],
+           [
+            "bf_emma",
+            "Receptionist",
+            "And what's your surname?"
+           ],
+           [
+            "bm_fable",
+            "Nam",
+            "It's Tran. T-R-A-N."
+           ],
+           [
+            "bf_emma",
+            "Receptionist",
+            "T-R-A-M?"
+           ],
+           [
+            "bm_fable",
+            "Nam",
+            "No, N at the end. T-R-A-N."
+           ],
+           [
+            "bf_emma",
+            "Receptionist",
+            "Thank you. What's your phone number?"
+           ],
+           [
+            "bm_fable",
+            "Nam",
+            "I haven't got a phone. My mum's number is two seven five eight four one six."
+           ],
+           [
+            "bf_emma",
+            "Receptionist",
+            "Two seven five, eight four one six. Thanks. The lessons are on Saturday. There's a class at nine o'clock and a class at eleven o'clock."
+           ],
+           [
+            "bm_fable",
+            "Nam",
+            "I play football at nine o'clock. So eleven o'clock, please."
+           ],
+           [
+            "bf_emma",
+            "Receptionist",
+            "Eleven o'clock. Lovely. Don't forget your swimming hat!"
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Three times are said. Which one goes with meet?"
+          "step": "Write every letter you hear, in the right order."
          },
-         "worked": "Mr Grant says \"please <b>meet</b> at the park café at <b>half past nine</b>\". The race starts at ten.",
+         "worked": "Amira spells it: \"<b>H-A-S-S-A-N</b>\". The guide says it again.",
          "type": "tfill",
-         "q": "Meet at the café at:",
+         "q": "1 Surname:",
          "lines": [
-          "Meet at the café at: {0}"
+          "Surname: {0}"
          ],
          "ans": [
           [
-           "9.30",
-           "9:30",
-           "09.30",
-           "09:30",
-           "9.30am",
-           "9:30am",
-           "09.30am",
-           "09:30am",
-           "9.30 am",
-           "9:30 am",
-           "09.30 am",
-           "09:30 am",
-           "9.30a.m.",
-           "9:30a.m.",
-           "09.30a.m.",
-           "09:30a.m.",
-           "9.30 a.m.",
-           "9:30 a.m.",
-           "09.30 a.m.",
-           "09:30 a.m.",
-           "half past 9",
-           "nine thirty",
-           "half past nine"
+           "hassan"
           ]
          ],
          "fig": {
           "k": "stim",
-          "id": "s4-a3-funrun",
+          "id": "s4-a3-choc",
           "kind": "audio",
-          "head": "Listen to Mr Grant talking about a running event. Complete the notes.<br><b>Junior Fun Run</b><br>Place: Riverside Park (example)<br>1 Meet at the café at: ________<br>2 Coach in charge on the day: Mr ________<br>3 Wear: a ________ T-shirt",
+          "head": "Listen to Amira and a guide at the chocolate factory. Complete the form.<br><b>CHOCOLATE FACTORY TOUR</b><br>First name: Amira (example)<br>1 Surname: ________<br>2 Age: ________<br>3 Number of people: ________",
           "lines": [
            [
             "bm_george",
-            "Mr Grant",
-            "Hello, runners! Thank you for signing up for the Junior Fun Run at Riverside Park next Saturday. Here's what you need to know. The race starts at ten o'clock, but please meet at the park café at half past nine, so we have time to warm up together. Don't be late, because we can't give out race numbers after quarter to ten. I'm afraid I won't be there on the day, because I'm running in a race in another city. My friend Mr Faulkner will be in charge instead. That's F-A-U-L-K-N-E-R. He's a great runner and a very kind coach. If you have a problem, look for him next to the café. The run is three kilometres, and it goes twice around the lake. Walking is fine, so don't worry if you get tired. Everybody who finishes gets a medal, and your parents are welcome to come and cheer. What should you wear? Comfortable trainers, of course, and shorts or a tracksuit. Everyone must also wear a T-shirt from the club, so the helpers can see you easily. Last year the T-shirts were green, but this year they're yellow. You can collect yours from me on Friday. Oh, and bring a bottle of water, and please write your name on it. See you there!"
+            "Guide",
+            "Hello! Welcome to the chocolate factory. Would you like to go on the tour?"
+           ],
+           [
+            "bf_lily",
+            "Amira",
+            "Yes, please! I love chocolate."
+           ],
+           [
+            "bm_george",
+            "Guide",
+            "Me too! Can I have your first name, please?"
+           ],
+           [
+            "bf_lily",
+            "Amira",
+            "Amira. A-M-I-R-A."
+           ],
+           [
+            "bm_george",
+            "Guide",
+            "And what's your surname?"
+           ],
+           [
+            "bf_lily",
+            "Amira",
+            "Hassan. H-A-S-S-A-N."
+           ],
+           [
+            "bm_george",
+            "Guide",
+            "H-A-S-S-A-N. Thank you. How old are you, Amira?"
+           ],
+           [
+            "bf_lily",
+            "Amira",
+            "I'm nine. My brother is seven."
+           ],
+           [
+            "bm_george",
+            "Guide",
+            "Children under eight have to stay with a grown-up on the tour."
+           ],
+           [
+            "bf_lily",
+            "Amira",
+            "That's OK. My mum and dad are here too."
+           ],
+           [
+            "bm_george",
+            "Guide",
+            "So how many people are coming on the tour?"
+           ],
+           [
+            "bf_lily",
+            "Amira",
+            "Four people. Oh, and my grandma! So five people."
+           ],
+           [
+            "bm_george",
+            "Guide",
+            "Five people. The tour starts at two o'clock. You can see how we roast the cacao beans."
            ]
           ]
          }
@@ -3112,64 +3388,189 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.01",
-        "6Ld.04"
+        "4Ld.02",
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Write every letter. Check the letters in the middle: T-C-H."
+          "step": "Write one number for each number you hear. Then check when the receptionist says it again."
          },
-         "worked": "The guide spells her name <b>P-R-I-T-C-H-A-R-D</b>.",
+         "worked": "Nam says \"My mum's number is <b>two seven five eight four one six</b>\". That is 275 8416.",
          "type": "tfill",
-         "q": "Guide's name:",
+         "q": "2 Phone number:",
          "lines": [
-          "Guide's name: Mrs {0}"
+          "Phone number: {0}"
          ],
          "ans": [
           [
-           "pritchard"
+           "2758416",
+           "275 8416",
+           "275-8416",
+           "275.8416",
+           "two seven five eight four one six"
           ]
          ],
          "fig": {
           "k": "stim",
-          "id": "s4-a3-pondday",
+          "id": "s4-a3-swim",
           "kind": "audio",
-          "head": "Listen to Miss Carter talking about a class trip. Complete the notes.<br><b>Pond Life Day</b><br>Place: Greenbank Nature Park (example)<br>1 Day of the trip: ________<br>2 Guide's name: Mrs ________<br>3 Bring: a packed lunch and a ________",
+          "head": "Listen to Nam and a receptionist at the sports centre. Complete the form.<br><b>JUNIOR SWIMMING LESSONS</b><br>First name: Nam (example)<br>1 Surname: ________<br>2 Phone number: ________<br>3 Lesson time on Saturday: ________",
           "lines": [
            [
-            "bf_isabella",
-            "Miss Carter",
-            "Good morning, everyone. I've got some news about our Pond Life Day at Greenbank Nature Park. We were going to go on Tuesday, but another school is visiting the park that day, so we're going on Thursday instead. Please tell your parents about the new day. When we arrive, a guide will meet us at the gate. Her name is Mrs Pritchard. That's P-R-I-T-C-H-A-R-D. She has worked at the park for twenty years, and she knows everything about frogs, newts and dragonflies. Last year she found a very rare frog at the park, and she'll tell us all about it. In the morning, we'll walk round the big pond and look for animals. After lunch, we'll use nets to catch tiny water animals, and we'll look at them through a magnifying glass. Don't worry, we'll put them all back in the water afterwards. Now, what do you need? You'll probably get wet, so please wear old clothes. You needn't bring a net or a magnifying glass, because the park will give us those. But you must bring a towel to dry your hands, and a packed lunch, of course. We'll leave school by bus at nine o'clock and we'll be back by three. If you have any questions, come and see me at lunchtime. I'm sure it will be a brilliant day."
+            "bf_emma",
+            "Receptionist",
+            "Hello! Can I help you?"
+           ],
+           [
+            "bm_fable",
+            "Nam",
+            "Hello. I want to join the swimming lessons, please."
+           ],
+           [
+            "bf_emma",
+            "Receptionist",
+            "Great. Can I have your first name?"
+           ],
+           [
+            "bm_fable",
+            "Nam",
+            "Nam. N-A-M."
+           ],
+           [
+            "bf_emma",
+            "Receptionist",
+            "And what's your surname?"
+           ],
+           [
+            "bm_fable",
+            "Nam",
+            "It's Tran. T-R-A-N."
+           ],
+           [
+            "bf_emma",
+            "Receptionist",
+            "T-R-A-M?"
+           ],
+           [
+            "bm_fable",
+            "Nam",
+            "No, N at the end. T-R-A-N."
+           ],
+           [
+            "bf_emma",
+            "Receptionist",
+            "Thank you. What's your phone number?"
+           ],
+           [
+            "bm_fable",
+            "Nam",
+            "I haven't got a phone. My mum's number is two seven five eight four one six."
+           ],
+           [
+            "bf_emma",
+            "Receptionist",
+            "Two seven five, eight four one six. Thanks. The lessons are on Saturday. There's a class at nine o'clock and a class at eleven o'clock."
+           ],
+           [
+            "bm_fable",
+            "Nam",
+            "I play football at nine o'clock. So eleven o'clock, please."
+           ],
+           [
+            "bf_emma",
+            "Receptionist",
+            "Eleven o'clock. Lovely. Don't forget your swimming hat!"
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Mr Grant won't be there. Who is in charge instead?"
+          "step": "Amira talks about two people. Find her own age."
          },
-         "worked": "Mr Grant says \"Mr Faulkner will be in charge <b>instead</b>. <b>F-A-U-L-K-N-E-R</b>\".",
+         "worked": "Amira says \"<b>I'm nine</b>. My brother is seven.\"",
          "type": "tfill",
-         "q": "Coach in charge on the day:",
+         "q": "2 Age:",
          "lines": [
-          "Coach in charge on the day: Mr {0}"
+          "Age: {0}"
          ],
          "ans": [
           [
-           "faulkner"
+           "9",
+           "nine"
           ]
          ],
          "fig": {
           "k": "stim",
-          "id": "s4-a3-funrun",
+          "id": "s4-a3-choc",
           "kind": "audio",
-          "head": "Listen to Mr Grant talking about a running event. Complete the notes.<br><b>Junior Fun Run</b><br>Place: Riverside Park (example)<br>1 Meet at the café at: ________<br>2 Coach in charge on the day: Mr ________<br>3 Wear: a ________ T-shirt",
+          "head": "Listen to Amira and a guide at the chocolate factory. Complete the form.<br><b>CHOCOLATE FACTORY TOUR</b><br>First name: Amira (example)<br>1 Surname: ________<br>2 Age: ________<br>3 Number of people: ________",
           "lines": [
            [
             "bm_george",
-            "Mr Grant",
-            "Hello, runners! Thank you for signing up for the Junior Fun Run at Riverside Park next Saturday. Here's what you need to know. The race starts at ten o'clock, but please meet at the park café at half past nine, so we have time to warm up together. Don't be late, because we can't give out race numbers after quarter to ten. I'm afraid I won't be there on the day, because I'm running in a race in another city. My friend Mr Faulkner will be in charge instead. That's F-A-U-L-K-N-E-R. He's a great runner and a very kind coach. If you have a problem, look for him next to the café. The run is three kilometres, and it goes twice around the lake. Walking is fine, so don't worry if you get tired. Everybody who finishes gets a medal, and your parents are welcome to come and cheer. What should you wear? Comfortable trainers, of course, and shorts or a tracksuit. Everyone must also wear a T-shirt from the club, so the helpers can see you easily. Last year the T-shirts were green, but this year they're yellow. You can collect yours from me on Friday. Oh, and bring a bottle of water, and please write your name on it. See you there!"
+            "Guide",
+            "Hello! Welcome to the chocolate factory. Would you like to go on the tour?"
+           ],
+           [
+            "bf_lily",
+            "Amira",
+            "Yes, please! I love chocolate."
+           ],
+           [
+            "bm_george",
+            "Guide",
+            "Me too! Can I have your first name, please?"
+           ],
+           [
+            "bf_lily",
+            "Amira",
+            "Amira. A-M-I-R-A."
+           ],
+           [
+            "bm_george",
+            "Guide",
+            "And what's your surname?"
+           ],
+           [
+            "bf_lily",
+            "Amira",
+            "Hassan. H-A-S-S-A-N."
+           ],
+           [
+            "bm_george",
+            "Guide",
+            "H-A-S-S-A-N. Thank you. How old are you, Amira?"
+           ],
+           [
+            "bf_lily",
+            "Amira",
+            "I'm nine. My brother is seven."
+           ],
+           [
+            "bm_george",
+            "Guide",
+            "Children under eight have to stay with a grown-up on the tour."
+           ],
+           [
+            "bf_lily",
+            "Amira",
+            "That's OK. My mum and dad are here too."
+           ],
+           [
+            "bm_george",
+            "Guide",
+            "So how many people are coming on the tour?"
+           ],
+           [
+            "bf_lily",
+            "Amira",
+            "Four people. Oh, and my grandma! So five people."
+           ],
+           [
+            "bm_george",
+            "Guide",
+            "Five people. The tour starts at two o'clock. You can see how we roast the cacao beans."
            ]
           ]
          }
@@ -3179,64 +3580,204 @@
       {
        "mode": "your",
        "lo": [
-        "6Ld.01",
-        "6Ld.04"
+        "4Ld.02",
+        "4Ld.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Some things are mentioned with needn't. Don't write those."
+          "step": "Two class times are said. What does Nam do at the other time?"
          },
-         "worked": "Miss Carter says \"you <b>must bring a towel</b> to dry your hands\". You needn't bring a net.",
+         "worked": "Nam plays football at nine, \"So <b>eleven o'clock</b>, please.\"",
          "type": "tfill",
-         "q": "Bring:",
+         "q": "3 Lesson time on Saturday:",
          "lines": [
-          "Bring: a packed lunch and a {0}"
+          "Lesson time on Saturday: {0}"
          ],
          "ans": [
           [
-           "towel"
+           "11:00",
+           "11:00am",
+           "11:00 am",
+           "11:00a.m.",
+           "11:00 a.m.",
+           "11.00",
+           "11.00am",
+           "11.00 am",
+           "11.00a.m.",
+           "11.00 a.m.",
+           "11",
+           "11am",
+           "11 am",
+           "11a.m.",
+           "11 a.m.",
+           "11 o'clock",
+           "eleven",
+           "eleven o'clock"
           ]
          ],
          "fig": {
           "k": "stim",
-          "id": "s4-a3-pondday",
+          "id": "s4-a3-swim",
           "kind": "audio",
-          "head": "Listen to Miss Carter talking about a class trip. Complete the notes.<br><b>Pond Life Day</b><br>Place: Greenbank Nature Park (example)<br>1 Day of the trip: ________<br>2 Guide's name: Mrs ________<br>3 Bring: a packed lunch and a ________",
+          "head": "Listen to Nam and a receptionist at the sports centre. Complete the form.<br><b>JUNIOR SWIMMING LESSONS</b><br>First name: Nam (example)<br>1 Surname: ________<br>2 Phone number: ________<br>3 Lesson time on Saturday: ________",
           "lines": [
            [
-            "bf_isabella",
-            "Miss Carter",
-            "Good morning, everyone. I've got some news about our Pond Life Day at Greenbank Nature Park. We were going to go on Tuesday, but another school is visiting the park that day, so we're going on Thursday instead. Please tell your parents about the new day. When we arrive, a guide will meet us at the gate. Her name is Mrs Pritchard. That's P-R-I-T-C-H-A-R-D. She has worked at the park for twenty years, and she knows everything about frogs, newts and dragonflies. Last year she found a very rare frog at the park, and she'll tell us all about it. In the morning, we'll walk round the big pond and look for animals. After lunch, we'll use nets to catch tiny water animals, and we'll look at them through a magnifying glass. Don't worry, we'll put them all back in the water afterwards. Now, what do you need? You'll probably get wet, so please wear old clothes. You needn't bring a net or a magnifying glass, because the park will give us those. But you must bring a towel to dry your hands, and a packed lunch, of course. We'll leave school by bus at nine o'clock and we'll be back by three. If you have any questions, come and see me at lunchtime. I'm sure it will be a brilliant day."
+            "bf_emma",
+            "Receptionist",
+            "Hello! Can I help you?"
+           ],
+           [
+            "bm_fable",
+            "Nam",
+            "Hello. I want to join the swimming lessons, please."
+           ],
+           [
+            "bf_emma",
+            "Receptionist",
+            "Great. Can I have your first name?"
+           ],
+           [
+            "bm_fable",
+            "Nam",
+            "Nam. N-A-M."
+           ],
+           [
+            "bf_emma",
+            "Receptionist",
+            "And what's your surname?"
+           ],
+           [
+            "bm_fable",
+            "Nam",
+            "It's Tran. T-R-A-N."
+           ],
+           [
+            "bf_emma",
+            "Receptionist",
+            "T-R-A-M?"
+           ],
+           [
+            "bm_fable",
+            "Nam",
+            "No, N at the end. T-R-A-N."
+           ],
+           [
+            "bf_emma",
+            "Receptionist",
+            "Thank you. What's your phone number?"
+           ],
+           [
+            "bm_fable",
+            "Nam",
+            "I haven't got a phone. My mum's number is two seven five eight four one six."
+           ],
+           [
+            "bf_emma",
+            "Receptionist",
+            "Two seven five, eight four one six. Thanks. The lessons are on Saturday. There's a class at nine o'clock and a class at eleven o'clock."
+           ],
+           [
+            "bm_fable",
+            "Nam",
+            "I play football at nine o'clock. So eleven o'clock, please."
+           ],
+           [
+            "bf_emma",
+            "Receptionist",
+            "Eleven o'clock. Lovely. Don't forget your swimming hat!"
            ]
           ]
          }
         },
         {
          "hint": {
-          "step": "Two colours are said. Which one is for this year?"
+          "step": "Amira changes the number. Listen to the end of what she says."
          },
-         "worked": "Mr Grant says \"Last year the T-shirts were green, but <b>this year</b> they're <b>yellow</b>\".",
+         "worked": "Amira says \"Four people. Oh, and my grandma! So <b>five people</b>.\"",
          "type": "tfill",
-         "q": "Wear:",
+         "q": "3 Number of people:",
          "lines": [
-          "Wear: a {0} T-shirt"
+          "Number of people: {0}"
          ],
          "ans": [
           [
-           "yellow"
+           "5",
+           "five",
+           "5 people",
+           "five people"
           ]
          ],
          "fig": {
           "k": "stim",
-          "id": "s4-a3-funrun",
+          "id": "s4-a3-choc",
           "kind": "audio",
-          "head": "Listen to Mr Grant talking about a running event. Complete the notes.<br><b>Junior Fun Run</b><br>Place: Riverside Park (example)<br>1 Meet at the café at: ________<br>2 Coach in charge on the day: Mr ________<br>3 Wear: a ________ T-shirt",
+          "head": "Listen to Amira and a guide at the chocolate factory. Complete the form.<br><b>CHOCOLATE FACTORY TOUR</b><br>First name: Amira (example)<br>1 Surname: ________<br>2 Age: ________<br>3 Number of people: ________",
           "lines": [
            [
             "bm_george",
-            "Mr Grant",
-            "Hello, runners! Thank you for signing up for the Junior Fun Run at Riverside Park next Saturday. Here's what you need to know. The race starts at ten o'clock, but please meet at the park café at half past nine, so we have time to warm up together. Don't be late, because we can't give out race numbers after quarter to ten. I'm afraid I won't be there on the day, because I'm running in a race in another city. My friend Mr Faulkner will be in charge instead. That's F-A-U-L-K-N-E-R. He's a great runner and a very kind coach. If you have a problem, look for him next to the café. The run is three kilometres, and it goes twice around the lake. Walking is fine, so don't worry if you get tired. Everybody who finishes gets a medal, and your parents are welcome to come and cheer. What should you wear? Comfortable trainers, of course, and shorts or a tracksuit. Everyone must also wear a T-shirt from the club, so the helpers can see you easily. Last year the T-shirts were green, but this year they're yellow. You can collect yours from me on Friday. Oh, and bring a bottle of water, and please write your name on it. See you there!"
+            "Guide",
+            "Hello! Welcome to the chocolate factory. Would you like to go on the tour?"
+           ],
+           [
+            "bf_lily",
+            "Amira",
+            "Yes, please! I love chocolate."
+           ],
+           [
+            "bm_george",
+            "Guide",
+            "Me too! Can I have your first name, please?"
+           ],
+           [
+            "bf_lily",
+            "Amira",
+            "Amira. A-M-I-R-A."
+           ],
+           [
+            "bm_george",
+            "Guide",
+            "And what's your surname?"
+           ],
+           [
+            "bf_lily",
+            "Amira",
+            "Hassan. H-A-S-S-A-N."
+           ],
+           [
+            "bm_george",
+            "Guide",
+            "H-A-S-S-A-N. Thank you. How old are you, Amira?"
+           ],
+           [
+            "bf_lily",
+            "Amira",
+            "I'm nine. My brother is seven."
+           ],
+           [
+            "bm_george",
+            "Guide",
+            "Children under eight have to stay with a grown-up on the tour."
+           ],
+           [
+            "bf_lily",
+            "Amira",
+            "That's OK. My mum and dad are here too."
+           ],
+           [
+            "bm_george",
+            "Guide",
+            "So how many people are coming on the tour?"
+           ],
+           [
+            "bf_lily",
+            "Amira",
+            "Four people. Oh, and my grandma! So five people."
+           ],
+           [
+            "bm_george",
+            "Guide",
+            "Five people. The tour starts at two o'clock. You can see how we roast the cacao beans."
            ]
           ]
          }
@@ -3251,78 +3792,78 @@
  "notes": {
   "items": [
    {
-    "en": "Part 1: read the question and look at the three pictures first. All three will be *mentioned*, so listen for the one that answers the question.",
-    "vi": "Phần 1: đọc câu hỏi và nhìn ba bức tranh trước. Cả ba đều được nhắc đến, nên hãy nghe xem tranh nào trả lời đúng câu hỏi.",
+    "en": "Part 1: look at the three pictures first. You will hear *all three*, so listen for the one that answers the question.",
+    "vi": "Phần 1: nhìn ba bức tranh trước. Em sẽ nghe thấy cả ba, nên hãy nghe xem tranh nào trả lời đúng câu hỏi.",
     "example": [
-     "Question: What time does the film *start*?",
-     "You hear: We *leave* at six. It *starts* at half past six. It *finishes* at half past seven."
+     "Question: Where did Ethan go?",
+     "You hear: the *park*? No. The *museum*. The *cinema* is next week."
     ]
    },
    {
-    "en": "When a speaker *changes their mind*, the final choice comes after *but*, *instead*, *in the end* or *so*.",
-    "vi": "Khi người nói đổi ý, lựa chọn cuối cùng đến sau các từ *but*, *instead*, *in the end* hoặc *so*.",
+    "en": "Someone guesses and the other person says *No*. The right answer comes AFTER *No*.",
+    "vi": "Một người đoán và người kia nói *No*. Đáp án đúng đến SAU từ *No*.",
     "example": [
-     "I was going to take biscuits, *but* I'll take apples *instead*.",
-     "We looked at a rabbit, *but in the end* we got a fish."
+     "Is it a rocket? *No*, it's a *planet*.",
+     "Is he a doctor? *No*, he's a *cook*."
     ]
    },
    {
-    "en": "Listen for *corrections*. After *No*, *actually* or *sorry, I mean*, the true information comes.",
-    "vi": "Hãy nghe những lần sửa lại. Sau *No*, *actually* hoặc *sorry, I mean* là thông tin đúng.",
+    "en": "*Usually* is about most days. Listen for *today*, *tonight* or *tomorrow* and check the question.",
+    "vi": "*Usually* nói về hầu hết các ngày. Hãy nghe các từ *today*, *tonight* hoặc *tomorrow* và xem lại câu hỏi.",
     "example": [
-     "It's on Monday. *No, actually* it's on Tuesday.",
-     "It was sixteen pounds. Oh, *sorry, I mean* six."
+     "I *usually* walk to school. *Today* I'm taking the bus.",
+     "It's *usually* at four. *Today* it's at five."
     ]
    },
    {
-    "en": "Know your clock words: *half past* = :30, *quarter past* = :15, *quarter to* = :45 of the hour before.",
-    "vi": "Hãy nhớ các từ chỉ giờ: *half past* = 30 phút, *quarter past* = 15 phút, *quarter to* = kém 15 phút (45 phút của giờ trước).",
+    "en": "People *change their mind*. Listen for the new choice after words like *so*, *then* and *I'll*.",
+    "vi": "Mọi người hay đổi ý. Hãy nghe lựa chọn mới sau những từ như *so*, *then* và *I'll*.",
     "example": [
-     "*Quarter to* four = 3:45",
-     "*Half past* nine = 9:30"
+     "I want carrots. Hmm... *I'll* grow cress.",
+     "There isn't any juice? *Then* milk, please."
     ]
    },
    {
-    "en": "Numbers and prices: *-teen* and *-ty* sound close (fifteen, fifty). Four pounds fifty = *£4.50*. *Usually* is about most days, not this time.",
-    "vi": "Số và giá tiền: *-teen* và *-ty* nghe gần giống nhau (fifteen, fifty). Four pounds fifty = £4.50. *Usually* nói về hầu hết các ngày, không phải lần này.",
+    "en": "Clock words: *o'clock* = :00, *half past* = :30, *quarter past* = :15, *quarter to* = 15 minutes before the hour.",
+    "vi": "Từ chỉ giờ: *o'clock* = giờ đúng, *half past* = 30 phút, *quarter past* = 15 phút, *quarter to* = kém 15 phút.",
     "example": [
-     "Room *fourteen*, not *forty*.",
-     "I *usually* have noodles, but *today* I had eggs."
+     "*half past* seven = 7:30",
+     "*quarter to* seven = 6:45"
     ]
    },
    {
-    "en": "Part 2: write *one or two words or a number*. When a name is spelled, write each letter. *Double L* means LL.",
-    "vi": "Phần 2: viết một hoặc hai từ, hoặc một con số. Khi tên được đánh vần, hãy viết từng chữ cái. *Double L* nghĩa là LL.",
+    "en": "Part 3 form: when a name is *spelled*, write every letter. A phone number is said one number at a time.",
+    "vi": "Phần 3 điền phiếu: khi một cái tên được đánh vần, hãy viết từng chữ cái. Số điện thoại được đọc từng số một.",
     "example": [
-     "Mr Bennett: B-E-*double N*-E-*double T*",
-     "Bring: a *towel* (not: you must bring a towel)"
+     "T-R-A-N = *Tran*",
+     "five three eight two nine four one = *538 2941*"
     ]
    }
   ],
   "check": [
    {
-    "sentence": "In Part 1, all three pictures are usually {mentioned|missing|the same} in the talk.",
-    "answer": "mentioned"
+    "sentence": "In Part 1, you hear {all three|only one|none} of the pictures.",
+    "answer": "all three"
    },
    {
-    "sentence": "\"I wanted a rabbit, but in the end we got a fish.\" They got a {fish|rabbit|hamster}.",
-    "answer": "fish"
+    "sentence": "\"Is it a cat?\" \"No, it's a rabbit.\" The answer is a {rabbit|cat|dog}.",
+    "answer": "rabbit"
    },
    {
-    "sentence": "\"It's on Monday.\" \"No, actually it's on Tuesday.\" The day is {Tuesday|Monday|Wednesday}.",
-    "answer": "Tuesday"
+    "sentence": "\"I usually walk, but today I'm going by bus.\" Today: {bus|walk|car}.",
+    "answer": "bus"
    },
    {
-    "sentence": "Quarter to five is {4:45|5:15|5:45}.",
-    "answer": "4:45"
+    "sentence": "\"I want juice. Oh, there isn't any? Then milk, please.\" The child has {milk|juice|water}.",
+    "answer": "milk"
    },
    {
-    "sentence": "Four pounds fifty is {£4.50|£4.15|£45}.",
-    "answer": "£4.50"
+    "sentence": "Quarter past six is {6:15|6:45|6:30}.",
+    "answer": "6:15"
    },
    {
-    "sentence": "\"H-A-double R-I-S\" spells {Harris|Haris|Harries}.",
-    "answer": "Harris"
+    "sentence": "\"M-O-S-S\" spells {Moss|Mos|Mose}.",
+    "answer": "Moss"
    }
   ]
  },
@@ -3331,305 +3872,224 @@
    {
     "dok": 1,
     "lo": [
-     "6Ld.04"
+     "4Ld.02",
+     "4Ld.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "Listen for the day in the question: Wednesdays."
+       "step": "Write every letter. Two letters at the end are the same."
       },
-      "worked": "Rory says \"On <b>Wednesdays</b> I've got <b>basketball</b>\".",
-      "type": "mcq",
-      "q": "Which sport does Rory do on Wednesdays?",
-      "opts": [
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🏀",
-         "tag": ""
-        },
-        "alt": " picture"
-       },
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🏸",
-         "tag": ""
-        },
-        "alt": " picture"
-       },
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🏓",
-         "tag": ""
-        },
-        "alt": " picture"
-       }
+      "worked": "Grace spells it: \"<b>M-O-S-S</b>\".",
+      "type": "tfill",
+      "q": "1 Surname:",
+      "lines": [
+       "Surname: {0}"
       ],
-      "at": 0,
-      "whys": [
-       null,
-       "Rory plays badminton on Mondays.",
-       "Table tennis is what Sara does."
+      "ans": [
+       [
+        "moss"
+       ]
       ],
-      "letters": true,
-      "sub": "Tap one picture.",
       "fig": {
        "k": "stim",
-       "id": "s4-t-1a",
+       "id": "s4-t-sky",
        "kind": "audio",
-       "head": "Listen to Sara and Rory.",
+       "head": "Listen to Grace and a helper at the science museum. Complete the form.<br><b>SKY CLUB: NEW MEMBER</b><br>First name: Grace (example)<br>1 Surname: ________<br>2 Age: ________<br>3 Phone number: ________<br>4 Day: ________<br>5 Bring: ________",
        "lines": [
         [
-         "bf_lily",
-         "Sara",
-         "Rory, do you play badminton on Wednesdays?"
-        ],
-        [
-         "bm_lewis",
-         "Rory",
-         "No, I play badminton on Mondays. On Wednesdays I've got basketball at the sports centre."
+         "bf_isabella",
+         "Helper",
+         "Hello. Do you want to join the Sky Club?"
         ],
         [
          "bf_lily",
-         "Sara",
-         "Cool! I do table tennis on Wednesdays. It's in the same building."
-        ],
-        [
-         "bm_lewis",
-         "Rory",
-         "Great. Let's go there together next week, then. My mum can take us both in the car."
-        ]
-       ]
-      }
-     },
-     {
-      "hint": {
-       "step": "The question says now. Vy stopped one thing."
-      },
-      "worked": "Vy says \"<b>Now</b> I'm learning the <b>violin</b>\".",
-      "type": "mcq",
-      "q": "Which instrument is Vy learning now?",
-      "opts": [
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🎻",
-         "tag": ""
-        },
-        "alt": " picture"
-       },
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🎹",
-         "tag": ""
-        },
-        "alt": " picture"
-       },
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🥁",
-         "tag": ""
-        },
-        "alt": " picture"
-       }
-      ],
-      "at": 1,
-      "whys": [
-       null,
-       "Vy stopped the piano last year.",
-       "The drums are what Max's brother plays."
-      ],
-      "letters": true,
-      "sub": "Tap one picture.",
-      "fig": {
-       "k": "stim",
-       "id": "s4-t-1b",
-       "kind": "audio",
-       "head": "Listen to Max and Vy.",
-       "lines": [
-        [
-         "bm_fable",
-         "Max",
-         "Vy, are you still learning the piano?"
-        ],
-        [
-         "bf_alice",
-         "Vy",
-         "No, I stopped last year. Now I'm learning the violin. I practise every evening."
-        ],
-        [
-         "bm_fable",
-         "Max",
-         "My brother plays the drums. It's so noisy in our house when he practises!"
-        ],
-        [
-         "bf_alice",
-         "Vy",
-         "Well, the violin isn't very quiet either when you're a beginner!"
-        ]
-       ]
-      }
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Ld.04"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Listen for the word leaves."
-      },
-      "worked": "Miss Grey says \"It <b>leaves at quarter to nine</b>\", so 8:45.",
-      "type": "mcq",
-      "q": "What time does the bus to the zoo leave?",
-      "opts": [
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🚌",
-         "tag": "8:45"
-        },
-        "alt": "8:45 picture"
-       },
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🚌",
-         "tag": "8:15"
-        },
-        "alt": "8:15 picture"
-       },
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🚌",
-         "tag": "9:15"
-        },
-        "alt": "9:15 picture"
-       }
-      ],
-      "at": 2,
-      "whys": [
-       null,
-       "Quarter past eight is when they must be at school.",
-       "Quarter past nine is when they get to the zoo."
-      ],
-      "letters": true,
-      "sub": "Tap one picture.",
-      "fig": {
-       "k": "stim",
-       "id": "s4-t-2a",
-       "kind": "audio",
-       "head": "Listen to Nam and his teacher.",
-       "lines": [
-        [
-         "bm_lewis",
-         "Nam",
-         "Miss Grey, what time does the bus to the zoo leave tomorrow?"
+         "Grace",
+         "Yes, please. I love the stars."
         ],
         [
          "bf_isabella",
-         "Miss Grey",
-         "It leaves at quarter to nine. So please be at school by quarter past eight."
+         "Helper",
+         "Lovely. What's your first name, please?"
         ],
         [
-         "bm_lewis",
-         "Nam",
-         "And what time do we get to the zoo?"
+         "bf_lily",
+         "Grace",
+         "Grace."
         ],
         [
          "bf_isabella",
-         "Miss Grey",
-         "At about quarter past nine, if the roads are quiet."
+         "Helper",
+         "And your surname? Can you spell it, please?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Yes. It's Moss. M-O-S-S."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "M-O-S-S. Thank you. How old are you, Grace?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "I'm eight. My sister is ten. She's in the club too."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "OK. What's your phone number?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Sorry, my phone? I haven't got a phone."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Your home phone number, or your mum's number."
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Oh! It's four eight one six two nine three."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Four eight one, six two nine three. The club meets on Friday and Saturday. Which day is better?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "I go swimming on Saturday. So Friday, please."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Friday. We meet on the roof. It's cold at night, so bring something warm."
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "I'll bring two blankets. One for me and one for my sister."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Good idea. You don't need a torch. We've got lots."
         ]
        ]
       }
      },
      {
       "hint": {
-       "step": "Listen for the word bought."
+       "step": "Write every letter you hear, in the right order."
       },
-      "worked": "Khoa says \"I <b>bought four</b>. Grandma wants to come too!\"",
-      "type": "mcq",
-      "q": "How many tickets did Khoa buy?",
-      "opts": [
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🎟️",
-         "tag": "4"
-        },
-        "alt": "4 picture"
-       },
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🎟️",
-         "tag": "3"
-        },
-        "alt": "3 picture"
-       },
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🎟️",
-         "tag": "5"
-        },
-        "alt": "5 picture"
-       }
+      "worked": "Tuan spells it: \"<b>P-H-A-M</b>\".",
+      "type": "tfill",
+      "q": "1 Surname:",
+      "lines": [
+       "Surname: {0}"
       ],
-      "at": 0,
-      "whys": [
-       null,
-       "Mum guesses three, but Khoa says no.",
-       "Five is the number of people for lunch."
+      "ans": [
+       [
+        "pham"
+       ]
       ],
-      "letters": true,
-      "sub": "Tap one picture.",
       "fig": {
        "k": "stim",
-       "id": "s4-t-2b",
+       "id": "s4-t-funday",
        "kind": "audio",
-       "head": "Listen to Khoa and his mum.",
+       "head": "Listen to Tuan and the organiser of the Fun Day. Complete the form.<br><b>NEIGHBOURHOOD FUN DAY: YOUNG HELPERS</b><br>First name: Tuan (example)<br>1 Surname: ________<br>2 Age: ________<br>3 Phone number: ________<br>4 Arrive at: ________<br>5 Number of cakes: ________",
        "lines": [
         [
-         "bm_fable",
-         "Khoa",
-         "Mum, I've bought the tickets for the dinosaur museum."
-        ],
-        [
-         "bf_emma",
-         "Mum",
-         "Great. Three tickets, for you, me and Dad?"
+         "bm_daniel",
+         "Organiser",
+         "Hi there. Are you here to help at the Fun Day?"
         ],
         [
          "bm_fable",
-         "Khoa",
-         "No, I bought four. Grandma wants to come too! She loves dinosaurs."
+         "Tuan",
+         "Yes. My class wants to raise money for the animal shelter."
         ],
         [
-         "bf_emma",
-         "Mum",
-         "Lovely. And your cousin is meeting us for lunch, so I'll book a table for five at the café."
+         "bm_daniel",
+         "Organiser",
+         "Great! Can I have your first name?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Tuan. T-U-A-N."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "And your surname?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "It's Pham. P-H-A-M."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "P-H-A-M. Thanks. How old are you, Tuan?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "I'm nine. I'll be ten in May."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "And what's your phone number, please?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "It's my dad's number. Three six two nine eight five four."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Three six two, nine eight five four. Now, the Fun Day starts at ten o'clock. Helpers have to come early, at half past nine."
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Sorry, what time?"
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Half past nine. Is that OK?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Yes, that's fine."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Can you bring some cakes for the cake stall?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Yes. My dad and I can make twenty. Hmm, no. Twenty is too many. We can make twelve cakes."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Twelve cakes. Wonderful. Thank you, Tuan!"
         ]
        ]
       }
@@ -3639,464 +4099,1095 @@
    {
     "dok": 1,
     "lo": [
-     "6Ld.04"
+     "4Ld.02",
+     "4Ld.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "Gia says the price of her kite in her first sentence."
+       "step": "Grace talks about two people. The form is about Grace."
       },
-      "worked": "Gia says \"I bought a kite... It cost <b>seven pounds</b>\".",
+      "worked": "Grace says \"<b>I'm eight</b>. My sister is ten.\"",
+      "type": "tfill",
+      "q": "2 Age:",
+      "lines": [
+       "Age: {0}"
+      ],
+      "ans": [
+       [
+        "8",
+        "eight"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s4-t-sky",
+       "kind": "audio",
+       "head": "Listen to Grace and a helper at the science museum. Complete the form.<br><b>SKY CLUB: NEW MEMBER</b><br>First name: Grace (example)<br>1 Surname: ________<br>2 Age: ________<br>3 Phone number: ________<br>4 Day: ________<br>5 Bring: ________",
+       "lines": [
+        [
+         "bf_isabella",
+         "Helper",
+         "Hello. Do you want to join the Sky Club?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Yes, please. I love the stars."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Lovely. What's your first name, please?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Grace."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "And your surname? Can you spell it, please?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Yes. It's Moss. M-O-S-S."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "M-O-S-S. Thank you. How old are you, Grace?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "I'm eight. My sister is ten. She's in the club too."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "OK. What's your phone number?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Sorry, my phone? I haven't got a phone."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Your home phone number, or your mum's number."
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Oh! It's four eight one six two nine three."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Four eight one, six two nine three. The club meets on Friday and Saturday. Which day is better?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "I go swimming on Saturday. So Friday, please."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Friday. We meet on the roof. It's cold at night, so bring something warm."
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "I'll bring two blankets. One for me and one for my sister."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Good idea. You don't need a torch. We've got lots."
+        ]
+       ]
+      }
+     },
+     {
+      "hint": {
+       "step": "Tuan says two numbers. Which one is his age now?"
+      },
+      "worked": "Tuan says \"<b>I'm nine</b>. I'll be ten in May.\"",
+      "type": "tfill",
+      "q": "2 Age:",
+      "lines": [
+       "Age: {0}"
+      ],
+      "ans": [
+       [
+        "9",
+        "nine"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s4-t-funday",
+       "kind": "audio",
+       "head": "Listen to Tuan and the organiser of the Fun Day. Complete the form.<br><b>NEIGHBOURHOOD FUN DAY: YOUNG HELPERS</b><br>First name: Tuan (example)<br>1 Surname: ________<br>2 Age: ________<br>3 Phone number: ________<br>4 Arrive at: ________<br>5 Number of cakes: ________",
+       "lines": [
+        [
+         "bm_daniel",
+         "Organiser",
+         "Hi there. Are you here to help at the Fun Day?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Yes. My class wants to raise money for the animal shelter."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Great! Can I have your first name?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Tuan. T-U-A-N."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "And your surname?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "It's Pham. P-H-A-M."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "P-H-A-M. Thanks. How old are you, Tuan?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "I'm nine. I'll be ten in May."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "And what's your phone number, please?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "It's my dad's number. Three six two nine eight five four."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Three six two, nine eight five four. Now, the Fun Day starts at ten o'clock. Helpers have to come early, at half past nine."
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Sorry, what time?"
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Half past nine. Is that OK?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Yes, that's fine."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Can you bring some cakes for the cake stall?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Yes. My dad and I can make twenty. Hmm, no. Twenty is too many. We can make twelve cakes."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Twelve cakes. Wonderful. Thank you, Tuan!"
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "4Ld.02",
+     "4Ld.04"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Grace doesn't understand the question at first. Wait for the numbers."
+      },
+      "worked": "Grace says \"It's <b>four eight one six two nine three</b>.\" That is 481 6293.",
+      "type": "tfill",
+      "q": "3 Phone number:",
+      "lines": [
+       "Phone number: {0}"
+      ],
+      "ans": [
+       [
+        "4816293",
+        "481 6293",
+        "481-6293",
+        "481.6293",
+        "four eight one six two nine three"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s4-t-sky",
+       "kind": "audio",
+       "head": "Listen to Grace and a helper at the science museum. Complete the form.<br><b>SKY CLUB: NEW MEMBER</b><br>First name: Grace (example)<br>1 Surname: ________<br>2 Age: ________<br>3 Phone number: ________<br>4 Day: ________<br>5 Bring: ________",
+       "lines": [
+        [
+         "bf_isabella",
+         "Helper",
+         "Hello. Do you want to join the Sky Club?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Yes, please. I love the stars."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Lovely. What's your first name, please?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Grace."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "And your surname? Can you spell it, please?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Yes. It's Moss. M-O-S-S."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "M-O-S-S. Thank you. How old are you, Grace?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "I'm eight. My sister is ten. She's in the club too."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "OK. What's your phone number?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Sorry, my phone? I haven't got a phone."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Your home phone number, or your mum's number."
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Oh! It's four eight one six two nine three."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Four eight one, six two nine three. The club meets on Friday and Saturday. Which day is better?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "I go swimming on Saturday. So Friday, please."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Friday. We meet on the roof. It's cold at night, so bring something warm."
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "I'll bring two blankets. One for me and one for my sister."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Good idea. You don't need a torch. We've got lots."
+        ]
+       ]
+      }
+     },
+     {
+      "hint": {
+       "step": "Write one number for each number you hear, in the same order."
+      },
+      "worked": "Tuan says \"<b>Three six two nine eight five four</b>.\" That is 362 9854.",
+      "type": "tfill",
+      "q": "3 Phone number:",
+      "lines": [
+       "Phone number: {0}"
+      ],
+      "ans": [
+       [
+        "3629854",
+        "362 9854",
+        "362-9854",
+        "362.9854",
+        "three six two nine eight five four"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s4-t-funday",
+       "kind": "audio",
+       "head": "Listen to Tuan and the organiser of the Fun Day. Complete the form.<br><b>NEIGHBOURHOOD FUN DAY: YOUNG HELPERS</b><br>First name: Tuan (example)<br>1 Surname: ________<br>2 Age: ________<br>3 Phone number: ________<br>4 Arrive at: ________<br>5 Number of cakes: ________",
+       "lines": [
+        [
+         "bm_daniel",
+         "Organiser",
+         "Hi there. Are you here to help at the Fun Day?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Yes. My class wants to raise money for the animal shelter."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Great! Can I have your first name?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Tuan. T-U-A-N."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "And your surname?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "It's Pham. P-H-A-M."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "P-H-A-M. Thanks. How old are you, Tuan?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "I'm nine. I'll be ten in May."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "And what's your phone number, please?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "It's my dad's number. Three six two nine eight five four."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Three six two, nine eight five four. Now, the Fun Day starts at ten o'clock. Helpers have to come early, at half past nine."
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Sorry, what time?"
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Half past nine. Is that OK?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Yes, that's fine."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Can you bring some cakes for the cake stall?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Yes. My dad and I can make twenty. Hmm, no. Twenty is too many. We can make twelve cakes."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Twelve cakes. Wonderful. Thank you, Tuan!"
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "4Ld.02",
+     "4Ld.04"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Two days are said. What does Grace do on the other day?"
+      },
+      "worked": "Grace goes swimming on Saturday, \"So <b>Friday</b>, please.\"",
+      "type": "tfill",
+      "q": "4 Day:",
+      "lines": [
+       "Day: {0}"
+      ],
+      "ans": [
+       [
+        "friday",
+        "fri"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s4-t-sky",
+       "kind": "audio",
+       "head": "Listen to Grace and a helper at the science museum. Complete the form.<br><b>SKY CLUB: NEW MEMBER</b><br>First name: Grace (example)<br>1 Surname: ________<br>2 Age: ________<br>3 Phone number: ________<br>4 Day: ________<br>5 Bring: ________",
+       "lines": [
+        [
+         "bf_isabella",
+         "Helper",
+         "Hello. Do you want to join the Sky Club?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Yes, please. I love the stars."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Lovely. What's your first name, please?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Grace."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "And your surname? Can you spell it, please?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Yes. It's Moss. M-O-S-S."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "M-O-S-S. Thank you. How old are you, Grace?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "I'm eight. My sister is ten. She's in the club too."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "OK. What's your phone number?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Sorry, my phone? I haven't got a phone."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Your home phone number, or your mum's number."
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Oh! It's four eight one six two nine three."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Four eight one, six two nine three. The club meets on Friday and Saturday. Which day is better?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "I go swimming on Saturday. So Friday, please."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Friday. We meet on the roof. It's cold at night, so bring something warm."
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "I'll bring two blankets. One for me and one for my sister."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Good idea. You don't need a torch. We've got lots."
+        ]
+       ]
+      }
+     },
+     {
+      "hint": {
+       "step": "Two times are said. Which one is for the helpers?"
+      },
+      "worked": "The Fun Day starts at ten, but \"Helpers have to come early, at <b>half past nine</b>.\"",
+      "type": "tfill",
+      "q": "4 Arrive at:",
+      "lines": [
+       "Arrive at: {0}"
+      ],
+      "ans": [
+       [
+        "9:30",
+        "9:30am",
+        "9:30 am",
+        "9:30a.m.",
+        "9:30 a.m.",
+        "9.30",
+        "9.30am",
+        "9.30 am",
+        "9.30a.m.",
+        "9.30 a.m.",
+        "09:30",
+        "09:30am",
+        "09:30 am",
+        "09:30a.m.",
+        "09:30 a.m.",
+        "09.30",
+        "09.30am",
+        "09.30 am",
+        "09.30a.m.",
+        "09.30 a.m.",
+        "half past nine",
+        "nine thirty"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s4-t-funday",
+       "kind": "audio",
+       "head": "Listen to Tuan and the organiser of the Fun Day. Complete the form.<br><b>NEIGHBOURHOOD FUN DAY: YOUNG HELPERS</b><br>First name: Tuan (example)<br>1 Surname: ________<br>2 Age: ________<br>3 Phone number: ________<br>4 Arrive at: ________<br>5 Number of cakes: ________",
+       "lines": [
+        [
+         "bm_daniel",
+         "Organiser",
+         "Hi there. Are you here to help at the Fun Day?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Yes. My class wants to raise money for the animal shelter."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Great! Can I have your first name?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Tuan. T-U-A-N."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "And your surname?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "It's Pham. P-H-A-M."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "P-H-A-M. Thanks. How old are you, Tuan?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "I'm nine. I'll be ten in May."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "And what's your phone number, please?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "It's my dad's number. Three six two nine eight five four."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Three six two, nine eight five four. Now, the Fun Day starts at ten o'clock. Helpers have to come early, at half past nine."
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Sorry, what time?"
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Half past nine. Is that OK?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Yes, that's fine."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Can you bring some cakes for the cake stall?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Yes. My dad and I can make twenty. Hmm, no. Twenty is too many. We can make twelve cakes."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Twelve cakes. Wonderful. Thank you, Tuan!"
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "4Ld.02",
+     "4Ld.04"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Write a number and a word. One thing is not needed."
+      },
+      "worked": "Grace says \"<b>I'll bring two blankets</b>.\" They don't need a torch.",
+      "type": "tfill",
+      "q": "5 Bring:",
+      "lines": [
+       "Bring: {0}"
+      ],
+      "ans": [
+       [
+        "2 blankets",
+        "two blankets"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s4-t-sky",
+       "kind": "audio",
+       "head": "Listen to Grace and a helper at the science museum. Complete the form.<br><b>SKY CLUB: NEW MEMBER</b><br>First name: Grace (example)<br>1 Surname: ________<br>2 Age: ________<br>3 Phone number: ________<br>4 Day: ________<br>5 Bring: ________",
+       "lines": [
+        [
+         "bf_isabella",
+         "Helper",
+         "Hello. Do you want to join the Sky Club?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Yes, please. I love the stars."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Lovely. What's your first name, please?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Grace."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "And your surname? Can you spell it, please?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Yes. It's Moss. M-O-S-S."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "M-O-S-S. Thank you. How old are you, Grace?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "I'm eight. My sister is ten. She's in the club too."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "OK. What's your phone number?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Sorry, my phone? I haven't got a phone."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Your home phone number, or your mum's number."
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "Oh! It's four eight one six two nine three."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Four eight one, six two nine three. The club meets on Friday and Saturday. Which day is better?"
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "I go swimming on Saturday. So Friday, please."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Friday. We meet on the roof. It's cold at night, so bring something warm."
+        ],
+        [
+         "bf_lily",
+         "Grace",
+         "I'll bring two blankets. One for me and one for my sister."
+        ],
+        [
+         "bf_isabella",
+         "Helper",
+         "Good idea. You don't need a torch. We've got lots."
+        ]
+       ]
+      }
+     },
+     {
+      "hint": {
+       "step": "Two numbers are said. Which one does Tuan choose?"
+      },
+      "worked": "Twenty is too many, so \"We can make <b>twelve cakes</b>.\"",
+      "type": "tfill",
+      "q": "5 Number of cakes:",
+      "lines": [
+       "Number of cakes: {0}"
+      ],
+      "ans": [
+       [
+        "12",
+        "twelve",
+        "12 cakes",
+        "twelve cakes"
+       ]
+      ],
+      "fig": {
+       "k": "stim",
+       "id": "s4-t-funday",
+       "kind": "audio",
+       "head": "Listen to Tuan and the organiser of the Fun Day. Complete the form.<br><b>NEIGHBOURHOOD FUN DAY: YOUNG HELPERS</b><br>First name: Tuan (example)<br>1 Surname: ________<br>2 Age: ________<br>3 Phone number: ________<br>4 Arrive at: ________<br>5 Number of cakes: ________",
+       "lines": [
+        [
+         "bm_daniel",
+         "Organiser",
+         "Hi there. Are you here to help at the Fun Day?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Yes. My class wants to raise money for the animal shelter."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Great! Can I have your first name?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Tuan. T-U-A-N."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "And your surname?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "It's Pham. P-H-A-M."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "P-H-A-M. Thanks. How old are you, Tuan?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "I'm nine. I'll be ten in May."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "And what's your phone number, please?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "It's my dad's number. Three six two nine eight five four."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Three six two, nine eight five four. Now, the Fun Day starts at ten o'clock. Helpers have to come early, at half past nine."
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Sorry, what time?"
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Half past nine. Is that OK?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Yes, that's fine."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Can you bring some cakes for the cake stall?"
+        ],
+        [
+         "bm_fable",
+         "Tuan",
+         "Yes. My dad and I can make twenty. Hmm, no. Twenty is too many. We can make twelve cakes."
+        ],
+        [
+         "bm_daniel",
+         "Organiser",
+         "Twelve cakes. Wonderful. Thank you, Tuan!"
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "4Ld.04"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Usually is not this Saturday. Listen for the reason."
+      },
+      "worked": "Jack says \"the field is too wet. So <b>we're playing at the sports centre</b>.\"",
       "type": "mcq",
-      "q": "How much was Gia's kite?",
+      "q": "Where will Jack's team play on Saturday?",
       "opts": [
        {
         "html": "",
         "fig": {
          "k": "pico",
-         "pic": "🪁",
-         "tag": "£7"
+         "pic": "🏟️",
+         "tag": "sports centre"
         },
-        "alt": "£7 picture"
+        "alt": "sports centre picture"
        },
        {
         "html": "",
         "fig": {
          "k": "pico",
-         "pic": "🪁",
-         "tag": "£10"
+         "pic": "🏫",
+         "tag": "school"
         },
-        "alt": "£10 picture"
+        "alt": "school picture"
        },
        {
         "html": "",
         "fig": {
          "k": "pico",
-         "pic": "🪁",
-         "tag": "£3"
+         "pic": "🌳",
+         "tag": "park"
         },
-        "alt": "£3 picture"
+        "alt": "park picture"
        }
       ],
       "at": 1,
       "whys": [
        null,
-       "Ten pounds was the big kite in the window.",
-       "Three pounds was the extra string for the big kite."
+       "They usually play at school, but the field is too wet.",
+       "Jack says the park is too far away."
       ],
       "letters": true,
       "sub": "Tap one picture.",
       "fig": {
        "k": "stim",
-       "id": "s4-t-3a",
+       "id": "s4-t-6a",
        "kind": "audio",
-       "head": "Listen to Gia and her dad.",
+       "head": "Listen to Jack and his mum.",
        "lines": [
         [
-         "bf_alice",
-         "Gia",
-         "Dad, I bought a kite at the beach shop. It cost seven pounds."
+         "bf_emma",
+         "Mum",
+         "Jack, is your match at school on Saturday?"
         ],
         [
-         "bm_george",
-         "Dad",
-         "Seven? The big one in the window was ten pounds."
+         "bm_lewis",
+         "Jack",
+         "We usually play at school. But the field is too wet. So we're playing at the sports centre."
         ],
         [
-         "bf_alice",
-         "Gia",
-         "That one was too heavy. And for that one the string was three pounds extra, but my kite came with string!"
+         "bf_emma",
+         "Mum",
+         "Not at the park?"
         ],
         [
-         "bm_george",
-         "Dad",
-         "Clever girl. Let's fly it now."
+         "bm_lewis",
+         "Jack",
+         "No, it's too far."
         ]
        ]
       }
      },
      {
       "hint": {
-       "step": "Which size does Ben ask for?"
+       "step": "Three places and three days. Match the place to Friday."
       },
-      "worked": "Ben asks for \"a <b>large</b> smoothie\", and \"a large one is <b>three pounds</b>\".",
+      "worked": "The cousins can only come on Saturday, so Dad says \"<b>on Friday let's go to the museum</b>\".",
       "type": "mcq",
-      "q": "How much does Ben pay for his drink?",
-      "opts": [
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🥤",
-         "tag": "£3"
-        },
-        "alt": "£3 picture"
-       },
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🥤",
-         "tag": "£2"
-        },
-        "alt": "£2 picture"
-       },
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🥤",
-         "tag": "£1"
-        },
-        "alt": "£1 picture"
-       }
-      ],
-      "at": 2,
-      "whys": [
-       null,
-       "Two pounds is a small smoothie, and Ben wants a large one.",
-       "One pound is a bottle of water."
-      ],
-      "letters": true,
-      "sub": "Tap one picture.",
-      "fig": {
-       "k": "stim",
-       "id": "s4-t-3b",
-       "kind": "audio",
-       "head": "Listen to Ben at the café.",
-       "lines": [
-        [
-         "bm_lewis",
-         "Ben",
-         "Can I have a banana smoothie, please? How much is it?"
-        ],
-        [
-         "bm_daniel",
-         "Assistant",
-         "A small one is two pounds, and a large one is three pounds. A bottle of water is just one pound."
-        ],
-        [
-         "bm_lewis",
-         "Ben",
-         "I'm really thirsty after football. A large smoothie, please."
-        ],
-        [
-         "bm_daniel",
-         "Assistant",
-         "Here you are. Enjoy your smoothie!"
-        ]
-       ]
-      }
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Ld.04"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Leah has two ideas first. Listen to her last sentence."
-      },
-      "worked": "Leah says \"OK, I'll do my project <b>at home</b>\".",
-      "type": "mcq",
-      "q": "Where will Leah do her project today?",
-      "opts": [
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🏠",
-         "tag": ""
-        },
-        "alt": " picture"
-       },
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "📚",
-         "tag": ""
-        },
-        "alt": " picture"
-       },
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🏞️",
-         "tag": ""
-        },
-        "alt": " picture"
-       }
-      ],
-      "at": 0,
-      "whys": [
-       null,
-       "The library is closed on Tuesdays.",
-       "Mum says not today, because it's going to rain."
-      ],
-      "letters": true,
-      "sub": "Tap one picture.",
-      "fig": {
-       "k": "stim",
-       "id": "s4-t-4a",
-       "kind": "audio",
-       "head": "Listen to Leah and her mum.",
-       "lines": [
-        [
-         "bf_lily",
-         "Leah",
-         "Mum, I'm going to the library after school. I need some books about frogs for my project."
-        ],
-        [
-         "bf_emma",
-         "Mum",
-         "The library's closed on Tuesdays, Leah."
-        ],
-        [
-         "bf_lily",
-         "Leah",
-         "Then can I go to the pond in the park and look at real frogs?"
-        ],
-        [
-         "bf_emma",
-         "Mum",
-         "Not today, it's going to rain. Use the computer at home."
-        ],
-        [
-         "bf_lily",
-         "Leah",
-         "OK, I'll do my project at home."
-        ]
-       ]
-      }
-     },
-     {
-      "hint": {
-       "step": "Mum guesses first. Listen to Max's answer after No."
-      },
-      "worked": "Max says \"It's my <b>cap</b>, the blue one\".",
-      "type": "mcq",
-      "q": "What did Max leave at the sports centre?",
-      "opts": [
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🧢",
-         "tag": ""
-        },
-        "alt": " picture"
-       },
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🧥",
-         "tag": ""
-        },
-        "alt": " picture"
-       },
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🧤",
-         "tag": ""
-        },
-        "alt": " picture"
-       }
-      ],
-      "at": 1,
-      "whys": [
-       null,
-       "Max is wearing his jacket.",
-       "Max's gloves are in his pocket."
-      ],
-      "letters": true,
-      "sub": "Tap one picture.",
-      "fig": {
-       "k": "stim",
-       "id": "s4-t-4b",
-       "kind": "audio",
-       "head": "Listen to Max and his mum.",
-       "lines": [
-        [
-         "bm_fable",
-         "Max",
-         "Oh no, Mum! I left something at the sports centre."
-        ],
-        [
-         "bf_emma",
-         "Mum",
-         "Not your jacket again, Max?"
-        ],
-        [
-         "bm_fable",
-         "Max",
-         "No, I'm wearing my jacket, look. And my gloves are in my pocket. It's my cap, the blue one with the white stripe."
-        ],
-        [
-         "bf_emma",
-         "Mum",
-         "Don't worry, Max. We'll get it tomorrow on the way to school."
-        ]
-       ]
-      }
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Ld.04"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Nam asks twice. Listen to Dad's idea at the end."
-      },
-      "worked": "Dad says \"Let's go to the new <b>science museum</b>\".",
-      "type": "mcq",
-      "q": "Where will Nam's family go on Sunday?",
+      "q": "Where will Amira's family go on Friday?",
       "opts": [
        {
         "html": "",
         "fig": {
          "k": "pico",
          "pic": "🏛️",
-         "tag": ""
+         "tag": "museum"
         },
-        "alt": " picture"
+        "alt": "museum picture"
        },
        {
         "html": "",
         "fig": {
          "k": "pico",
-         "pic": "🏖️",
-         "tag": ""
+         "pic": "🏞️",
+         "tag": "lake"
         },
-        "alt": " picture"
+        "alt": "lake picture"
        },
        {
         "html": "",
         "fig": {
          "k": "pico",
          "pic": "🎬",
-         "tag": ""
+         "tag": "cinema"
         },
-        "alt": " picture"
-       }
-      ],
-      "at": 2,
-      "whys": [
-       null,
-       "It's going to be cold and windy, so not the beach.",
-       "They went to the cinema last week."
-      ],
-      "letters": true,
-      "sub": "Tap one picture.",
-      "fig": {
-       "k": "stim",
-       "id": "s4-t-5a",
-       "kind": "audio",
-       "head": "Listen to Nam and his dad.",
-       "lines": [
-        [
-         "bm_lewis",
-         "Nam",
-         "Dad, what are we doing on Sunday? Are we going to the beach?"
-        ],
-        [
-         "bm_george",
-         "Dad",
-         "It's going to be cold and windy, so not the beach."
-        ],
-        [
-         "bm_lewis",
-         "Nam",
-         "Can we go to the cinema, then?"
-        ],
-        [
-         "bm_george",
-         "Dad",
-         "We went last week. Let's go to the new science museum. It's got a room full of old phones and computers."
-        ]
-       ]
-      }
-     },
-     {
-      "hint": {
-       "step": "Listen for so near the end."
-      },
-      "worked": "Ines says \"<b>So</b> we made a <b>fruit salad</b>\".",
-      "type": "mcq",
-      "q": "What did Ines make today?",
-      "opts": [
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🍓🍌",
-         "tag": ""
-        },
-        "alt": " picture"
-       },
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🍕",
-         "tag": ""
-        },
-        "alt": " picture"
-       },
-       {
-        "html": "",
-        "fig": {
-         "k": "pico",
-         "pic": "🎂",
-         "tag": ""
-        },
-        "alt": " picture"
+        "alt": "cinema picture"
        }
       ],
       "at": 0,
       "whys": [
        null,
-       "Ines made pizza last week, not today.",
-       "The oven was broken, so they didn't make a cake."
+       "They will go to the lake on Saturday with the cousins.",
+       "Amira wants to go to the cinema on Sunday."
       ],
       "letters": true,
       "sub": "Tap one picture.",
       "fig": {
        "k": "stim",
-       "id": "s4-t-5b",
+       "id": "s4-t-6b",
        "kind": "audio",
-       "head": "Listen to Ines and her grandma.",
+       "head": "Listen to Amira and her dad.",
        "lines": [
         [
-         "bf_alice",
-         "Ines",
-         "Grandma, I made something in my cooking class today. Guess!"
+         "bm_george",
+         "Dad",
+         "Amira, shall we go to the lake on Friday?"
         ],
         [
-         "bf_isabella",
-         "Grandma",
-         "Was it a pizza? You love pizza."
+         "bf_lily",
+         "Amira",
+         "My cousins want to come too. They can only come on Saturday."
         ],
         [
-         "bf_alice",
-         "Ines",
-         "We made pizza last week. Today the teacher wanted to make a cake, but the oven was broken. So we made a fruit salad."
+         "bm_george",
+         "Dad",
+         "OK. Then on Friday let's go to the museum."
         ],
         [
-         "bf_isabella",
-         "Grandma",
-         "That's very healthy! You can make one for me at the weekend."
+         "bf_lily",
+         "Amira",
+         "Great! And the cinema on Sunday?"
         ]
        ]
       }
@@ -4106,67 +5197,156 @@
    {
     "dok": 2,
     "lo": [
-     "6Ld.04"
+     "4Ld.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "The first day changed. Listen for the next day."
+       "step": "The question says be at the sports centre. Listen for what the coach wants."
       },
-      "worked": "The museum is closed on Mondays, so \"we've moved it to the next day, <b>Tuesday</b>\".",
-      "type": "tfill",
-      "q": "Day of the trip:",
-      "lines": [
-       "Day of the trip: {0}"
+      "worked": "Jack says \"Coach wants us there <b>at ten o'clock</b>.\"",
+      "type": "mcq",
+      "q": "What time does Jack need to be at the sports centre?",
+      "opts": [
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "⚽",
+         "tag": "10:00"
+        },
+        "alt": "10:00 picture"
+       },
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "⚽",
+         "tag": "10:30"
+        },
+        "alt": "10:30 picture"
+       },
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "⚽",
+         "tag": "9:30"
+        },
+        "alt": "9:30 picture"
+       }
       ],
-      "ans": [
-       [
-        "tuesday",
-        "tues",
-        "tue"
-       ]
+      "at": 1,
+      "whys": [
+       null,
+       "Half past ten is when the match starts, but the coach wants the team there earlier.",
+       "Half past nine is when they leave home."
       ],
+      "letters": true,
+      "sub": "Tap one picture.",
       "fig": {
        "k": "stim",
-       "id": "s4-t-flight",
+       "id": "s4-t-7a",
        "kind": "audio",
-       "head": "Listen to Mrs Bell talking about a school trip. Complete the notes.<br><b>Trip to the Museum of Flight</b><br>Class: Grade 5 (example)<br>6 Day of the trip: ________<br>7 The bus leaves at: ________<br>8 Cost: £________<br>9 Guide's name: Mr ________<br>10 Bring: a packed lunch and a ________",
+       "head": "Listen to Jack and his mum.",
        "lines": [
         [
-         "bf_isabella",
-         "Mrs Bell",
-         "Hello, Grade 5. I'd like to tell you about our trip to the Museum of Flight. We'll find out how planes and hot-air balloons were invented, and how they changed the way people travel. The trip was on the calendar for Monday the twelfth, but the museum is closed on Mondays, so we've moved it to the next day, Tuesday. Please be at school by eight o'clock. The bus leaves at quarter past eight, because the museum is two hours away. We'll be back at about four o'clock. The trip was going to cost eighteen pounds, but the museum has given us a special price, so it's fifteen pounds. That includes your ticket and a ride in the flight simulator, which is like sitting in a real plane. At the museum, a guide will show us round. His name is Mr Wakefield. That's W-A-K-E-F-I-E-L-D. He used to be a pilot, so he can answer all your questions about flying. We'll have lunch in the museum garden, so bring a packed lunch. Please also bring a pencil, because there's a quiz to do as we walk round. You needn't bring a camera, because you mustn't take photos inside the museum. If you have any questions, come and find me tomorrow. I'm sure you'll enjoy it."
+         "bf_emma",
+         "Mum",
+         "What time does the match start?"
+        ],
+        [
+         "bm_lewis",
+         "Jack",
+         "It starts at half past ten. But Coach wants us there at ten o'clock."
+        ],
+        [
+         "bf_emma",
+         "Mum",
+         "Then we'll leave home at half past nine."
+        ],
+        [
+         "bm_lewis",
+         "Jack",
+         "OK, Mum."
         ]
        ]
       }
      },
      {
       "hint": {
-       "step": "Friday was in the first letter. Listen for instead."
+       "step": "Three times are said. Which one do Amira and Dad agree on?"
       },
-      "worked": "Mr Novak says \"a special talk about sharks on <b>Wednesday</b>, so we're going then <b>instead</b>\".",
-      "type": "tfill",
-      "q": "Day of the trip:",
-      "lines": [
-       "Day of the trip: {0}"
+      "worked": "Amira says \"<b>Eight, please</b>\" and Dad says \"OK, eight o'clock.\"",
+      "type": "mcq",
+      "q": "What time will they leave for the lake on Saturday?",
+      "opts": [
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "🚗",
+         "tag": "8:00"
+        },
+        "alt": "8:00 picture"
+       },
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "🚗",
+         "tag": "9:00"
+        },
+        "alt": "9:00 picture"
+       },
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "🚗",
+         "tag": "7:30"
+        },
+        "alt": "7:30 picture"
+       }
       ],
-      "ans": [
-       [
-        "wednesday",
-        "wed",
-        "weds"
-       ]
+      "at": 2,
+      "whys": [
+       null,
+       "Nine is the usual time, but the lake is far.",
+       "The cousins want half past seven, but Amira says it's too early."
       ],
+      "letters": true,
+      "sub": "Tap one picture.",
       "fig": {
        "k": "stim",
-       "id": "s4-t-aquarium",
+       "id": "s4-t-7b",
        "kind": "audio",
-       "head": "Listen to Mr Novak talking about a school trip. Complete the notes.<br><b>Trip to the City Aquarium</b><br>Meet in: the school hall (example)<br>6 Day of the trip: ________<br>7 The bus leaves at: ________<br>8 Cost (with the shark talk): £________<br>9 Shark expert: Ms ________<br>10 Bring: a ________",
+       "head": "Listen to Amira and her dad.",
        "lines": [
         [
-         "bm_daniel",
-         "Mr Novak",
-         "Good afternoon, everyone. Here's some important information about our trip to the City Aquarium. First, the day. Lots of you think the trip is on Friday, because that's what the first letter said. But the aquarium has a special talk about sharks on Wednesday, so we're going then instead. We'll meet in the school hall at half past seven, and the bus leaves at quarter to eight. Please be on time, because the bus can't wait. Now, the money. A ticket costs twelve pounds. The shark talk is two pounds more, so that's fourteen pounds altogether. Everyone in our class wants to see the shark talk, so please bring fourteen pounds. At the aquarium we'll meet the shark expert. Her name is Ms Merrick. That's M-E-double R-I-C-K. She has swum with sharks in three different oceans! We'll also see a huge tank with more than five hundred fish, and you can even touch a starfish. What should you bring? It's quite cold inside the aquarium, because the water is kept cool for the fish, so please bring a jumper. You don't need to bring lunch, because the aquarium café will give us sandwiches. And please leave your phones at home. If you have any questions, ask me at the end of the day. See you on the trip!"
+         "bm_george",
+         "Dad",
+         "Shall we leave at nine on Saturday, like always?"
+        ],
+        [
+         "bf_lily",
+         "Amira",
+         "The lake is far. Let's leave at eight."
+        ],
+        [
+         "bm_george",
+         "Dad",
+         "Your cousins say half past seven."
+        ],
+        [
+         "bf_lily",
+         "Amira",
+         "That's too early! Eight, please."
+        ],
+        [
+         "bm_george",
+         "Dad",
+         "OK, eight o'clock."
         ]
        ]
       }
@@ -4176,108 +5356,156 @@
    {
     "dok": 2,
     "lo": [
-     "6Ld.04"
+     "4Ld.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "Two times are close together. Which one goes with the bus?"
+       "step": "Mum is wrong twice. Old shirt or new shirt?"
       },
-      "worked": "Be at school by eight, but \"The <b>bus leaves at quarter past eight</b>\", so 8:15.",
-      "type": "tfill",
-      "q": "The bus leaves at:",
-      "lines": [
-       "The bus leaves at: {0}"
+      "worked": "Jack says \"I've got a new shirt. <b>It's number eleven</b>.\"",
+      "type": "mcq",
+      "q": "What number is on Jack's new football shirt?",
+      "opts": [
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "👕",
+         "tag": "11"
+        },
+        "alt": "11 picture"
+       },
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "👕",
+         "tag": "7"
+        },
+        "alt": "7 picture"
+       },
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "👕",
+         "tag": "17"
+        },
+        "alt": "17 picture"
+       }
       ],
-      "ans": [
-       [
-        "8.15",
-        "8:15",
-        "08.15",
-        "08:15",
-        "8.15am",
-        "8:15am",
-        "08.15am",
-        "08:15am",
-        "8.15 am",
-        "8:15 am",
-        "08.15 am",
-        "08:15 am",
-        "8.15a.m.",
-        "8:15a.m.",
-        "08.15a.m.",
-        "08:15a.m.",
-        "8.15 a.m.",
-        "8:15 a.m.",
-        "08.15 a.m.",
-        "08:15 a.m.",
-        "eight fifteen",
-        "quarter past 8",
-        "quarter past eight"
-       ]
+      "at": 1,
+      "whys": [
+       null,
+       "Seven was Jack's number last year, on his old shirt.",
+       "Seventeen is his friend's number, not Jack's."
       ],
+      "letters": true,
+      "sub": "Tap one picture.",
       "fig": {
        "k": "stim",
-       "id": "s4-t-flight",
+       "id": "s4-t-8a",
        "kind": "audio",
-       "head": "Listen to Mrs Bell talking about a school trip. Complete the notes.<br><b>Trip to the Museum of Flight</b><br>Class: Grade 5 (example)<br>6 Day of the trip: ________<br>7 The bus leaves at: ________<br>8 Cost: £________<br>9 Guide's name: Mr ________<br>10 Bring: a packed lunch and a ________",
+       "head": "Listen to Jack and his mum.",
        "lines": [
         [
-         "bf_isabella",
-         "Mrs Bell",
-         "Hello, Grade 5. I'd like to tell you about our trip to the Museum of Flight. We'll find out how planes and hot-air balloons were invented, and how they changed the way people travel. The trip was on the calendar for Monday the twelfth, but the museum is closed on Mondays, so we've moved it to the next day, Tuesday. Please be at school by eight o'clock. The bus leaves at quarter past eight, because the museum is two hours away. We'll be back at about four o'clock. The trip was going to cost eighteen pounds, but the museum has given us a special price, so it's fifteen pounds. That includes your ticket and a ride in the flight simulator, which is like sitting in a real plane. At the museum, a guide will show us round. His name is Mr Wakefield. That's W-A-K-E-F-I-E-L-D. He used to be a pilot, so he can answer all your questions about flying. We'll have lunch in the museum garden, so bring a packed lunch. Please also bring a pencil, because there's a quiz to do as we walk round. You needn't bring a camera, because you mustn't take photos inside the museum. If you have any questions, come and find me tomorrow. I'm sure you'll enjoy it."
+         "bf_emma",
+         "Mum",
+         "Is your shirt number seven, like last year?"
+        ],
+        [
+         "bm_lewis",
+         "Jack",
+         "No, Mum. I've got a new shirt. It's number eleven."
+        ],
+        [
+         "bf_emma",
+         "Mum",
+         "Eleven? I thought it was seventeen."
+        ],
+        [
+         "bm_lewis",
+         "Jack",
+         "No, seventeen is my friend's number."
         ]
        ]
       }
      },
      {
       "hint": {
-       "step": "Meeting time and bus time are different. Listen for leaves."
+       "step": "Amira's first idea has a problem. What does she choose then?"
       },
-      "worked": "They meet at 7:30, but \"the <b>bus leaves at quarter to eight</b>\", so 7:45.",
-      "type": "tfill",
-      "q": "The bus leaves at:",
-      "lines": [
-       "The bus leaves at: {0}"
+      "worked": "Amira says \"<b>Then I'll take my kite</b>. It's windy there.\"",
+      "type": "mcq",
+      "q": "What will Amira take to the lake?",
+      "opts": [
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "🪁",
+         "tag": "kite"
+        },
+        "alt": "kite picture"
+       },
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "🚲",
+         "tag": "bike"
+        },
+        "alt": "bike picture"
+       },
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "⚽",
+         "tag": "ball"
+        },
+        "alt": "ball picture"
+       }
       ],
-      "ans": [
-       [
-        "7.45",
-        "7:45",
-        "07.45",
-        "07:45",
-        "7.45am",
-        "7:45am",
-        "07.45am",
-        "07:45am",
-        "7.45 am",
-        "7:45 am",
-        "07.45 am",
-        "07:45 am",
-        "7.45a.m.",
-        "7:45a.m.",
-        "07.45a.m.",
-        "07:45a.m.",
-        "7.45 a.m.",
-        "7:45 a.m.",
-        "07.45 a.m.",
-        "07:45 a.m.",
-        "quarter to 8",
-        "quarter to eight",
-        "seven forty five",
-        "seven forty-five"
-       ]
+      "at": 2,
+      "whys": [
+       null,
+       "There's no room for a bike in the car.",
+       "The cousins have got a ball, so Amira doesn't need one."
       ],
+      "letters": true,
+      "sub": "Tap one picture.",
       "fig": {
        "k": "stim",
-       "id": "s4-t-aquarium",
+       "id": "s4-t-8b",
        "kind": "audio",
-       "head": "Listen to Mr Novak talking about a school trip. Complete the notes.<br><b>Trip to the City Aquarium</b><br>Meet in: the school hall (example)<br>6 Day of the trip: ________<br>7 The bus leaves at: ________<br>8 Cost (with the shark talk): £________<br>9 Shark expert: Ms ________<br>10 Bring: a ________",
+       "head": "Listen to Amira and her dad.",
        "lines": [
         [
-         "bm_daniel",
-         "Mr Novak",
-         "Good afternoon, everyone. Here's some important information about our trip to the City Aquarium. First, the day. Lots of you think the trip is on Friday, because that's what the first letter said. But the aquarium has a special talk about sharks on Wednesday, so we're going then instead. We'll meet in the school hall at half past seven, and the bus leaves at quarter to eight. Please be on time, because the bus can't wait. Now, the money. A ticket costs twelve pounds. The shark talk is two pounds more, so that's fourteen pounds altogether. Everyone in our class wants to see the shark talk, so please bring fourteen pounds. At the aquarium we'll meet the shark expert. Her name is Ms Merrick. That's M-E-double R-I-C-K. She has swum with sharks in three different oceans! We'll also see a huge tank with more than five hundred fish, and you can even touch a starfish. What should you bring? It's quite cold inside the aquarium, because the water is kept cool for the fish, so please bring a jumper. You don't need to bring lunch, because the aquarium café will give us sandwiches. And please leave your phones at home. If you have any questions, ask me at the end of the day. See you on the trip!"
+         "bf_lily",
+         "Amira",
+         "Can I take my bike to the lake?"
+        ],
+        [
+         "bm_george",
+         "Dad",
+         "There's no room in the car for a bike."
+        ],
+        [
+         "bf_lily",
+         "Amira",
+         "Then I'll take my kite. It's windy there."
+        ],
+        [
+         "bm_george",
+         "Dad",
+         "And your ball?"
+        ],
+        [
+         "bf_lily",
+         "Amira",
+         "My cousins have got a ball."
         ]
        ]
       }
@@ -4287,71 +5515,151 @@
    {
     "dok": 2,
     "lo": [
-     "6Ld.04"
+     "4Ld.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "Two prices are said. Which one is the price now?"
+       "step": "Usually is not before this match. Listen to what Coach says."
       },
-      "worked": "It was going to be eighteen pounds, \"so it's <b>fifteen pounds</b>\".",
-      "type": "tfill",
-      "q": "Cost:",
-      "lines": [
-       "Cost: £{0}"
+      "worked": "Jack asks \"Can I have <b>yoghurt and fruit</b>?\" and Mum says \"Of course.\"",
+      "type": "mcq",
+      "q": "What will Jack have for breakfast before the match?",
+      "opts": [
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "🥣",
+         "tag": "yoghurt"
+        },
+        "alt": "yoghurt picture"
+       },
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "🍳",
+         "tag": "eggs"
+        },
+        "alt": "eggs picture"
+       },
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "🍜",
+         "tag": "noodles"
+        },
+        "alt": "noodles picture"
+       }
       ],
-      "ans": [
-       [
-        "15",
-        "fifteen",
-        "15.00",
-        "15 pounds",
-        "fifteen pounds"
-       ]
+      "at": 0,
+      "whys": [
+       null,
+       "Jack usually has eggs, but Coach says eat something light.",
+       "Jack says noodles are too much."
       ],
+      "letters": true,
+      "sub": "Tap one picture.",
       "fig": {
        "k": "stim",
-       "id": "s4-t-flight",
+       "id": "s4-t-9a",
        "kind": "audio",
-       "head": "Listen to Mrs Bell talking about a school trip. Complete the notes.<br><b>Trip to the Museum of Flight</b><br>Class: Grade 5 (example)<br>6 Day of the trip: ________<br>7 The bus leaves at: ________<br>8 Cost: £________<br>9 Guide's name: Mr ________<br>10 Bring: a packed lunch and a ________",
+       "head": "Listen to Jack and his mum.",
        "lines": [
         [
-         "bf_isabella",
-         "Mrs Bell",
-         "Hello, Grade 5. I'd like to tell you about our trip to the Museum of Flight. We'll find out how planes and hot-air balloons were invented, and how they changed the way people travel. The trip was on the calendar for Monday the twelfth, but the museum is closed on Mondays, so we've moved it to the next day, Tuesday. Please be at school by eight o'clock. The bus leaves at quarter past eight, because the museum is two hours away. We'll be back at about four o'clock. The trip was going to cost eighteen pounds, but the museum has given us a special price, so it's fifteen pounds. That includes your ticket and a ride in the flight simulator, which is like sitting in a real plane. At the museum, a guide will show us round. His name is Mr Wakefield. That's W-A-K-E-F-I-E-L-D. He used to be a pilot, so he can answer all your questions about flying. We'll have lunch in the museum garden, so bring a packed lunch. Please also bring a pencil, because there's a quiz to do as we walk round. You needn't bring a camera, because you mustn't take photos inside the museum. If you have any questions, come and find me tomorrow. I'm sure you'll enjoy it."
+         "bf_emma",
+         "Mum",
+         "Do you want eggs before the match?"
+        ],
+        [
+         "bm_lewis",
+         "Jack",
+         "I usually have eggs. But Coach says eat something light. Can I have yoghurt and fruit?"
+        ],
+        [
+         "bf_emma",
+         "Mum",
+         "Of course. Not noodles?"
+        ],
+        [
+         "bm_lewis",
+         "Jack",
+         "No, they're too much."
         ]
        ]
       }
      },
      {
       "hint": {
-       "step": "Twelve pounds is only the ticket. Add the shark talk."
+       "step": "Dad has two ideas. Does Amira say yes to them?"
       },
-      "worked": "\"The shark talk is two pounds more, so that's <b>fourteen pounds</b> altogether\".",
-      "type": "tfill",
-      "q": "Cost (with the shark talk):",
-      "lines": [
-       "Cost (with the shark talk): £{0}"
+      "worked": "Amira asks \"<b>Can we cook corn?</b>\" and then says \"Just corn, please.\"",
+      "type": "mcq",
+      "q": "What will Amira eat for lunch at the lake?",
+      "opts": [
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "🌽",
+         "tag": "corn"
+        },
+        "alt": "corn picture"
+       },
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "🐟",
+         "tag": "fish"
+        },
+        "alt": "fish picture"
+       },
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "🌭",
+         "tag": "sausages"
+        },
+        "alt": "sausages picture"
+       }
       ],
-      "ans": [
-       [
-        "14",
-        "fourteen",
-        "14.00",
-        "14 pounds",
-        "fourteen pounds"
-       ]
+      "at": 2,
+      "whys": [
+       null,
+       "Amira doesn't really like fish.",
+       "They haven't got any sausages."
       ],
+      "letters": true,
+      "sub": "Tap one picture.",
       "fig": {
        "k": "stim",
-       "id": "s4-t-aquarium",
+       "id": "s4-t-9b",
        "kind": "audio",
-       "head": "Listen to Mr Novak talking about a school trip. Complete the notes.<br><b>Trip to the City Aquarium</b><br>Meet in: the school hall (example)<br>6 Day of the trip: ________<br>7 The bus leaves at: ________<br>8 Cost (with the shark talk): £________<br>9 Shark expert: Ms ________<br>10 Bring: a ________",
+       "head": "Listen to Amira and her dad.",
        "lines": [
         [
-         "bm_daniel",
-         "Mr Novak",
-         "Good afternoon, everyone. Here's some important information about our trip to the City Aquarium. First, the day. Lots of you think the trip is on Friday, because that's what the first letter said. But the aquarium has a special talk about sharks on Wednesday, so we're going then instead. We'll meet in the school hall at half past seven, and the bus leaves at quarter to eight. Please be on time, because the bus can't wait. Now, the money. A ticket costs twelve pounds. The shark talk is two pounds more, so that's fourteen pounds altogether. Everyone in our class wants to see the shark talk, so please bring fourteen pounds. At the aquarium we'll meet the shark expert. Her name is Ms Merrick. That's M-E-double R-I-C-K. She has swum with sharks in three different oceans! We'll also see a huge tank with more than five hundred fish, and you can even touch a starfish. What should you bring? It's quite cold inside the aquarium, because the water is kept cool for the fish, so please bring a jumper. You don't need to bring lunch, because the aquarium café will give us sandwiches. And please leave your phones at home. If you have any questions, ask me at the end of the day. See you on the trip!"
+         "bm_george",
+         "Dad",
+         "Shall we cook fish on the fire for lunch?"
+        ],
+        [
+         "bf_lily",
+         "Amira",
+         "I don't really like fish, Dad. Can we cook corn?"
+        ],
+        [
+         "bm_george",
+         "Dad",
+         "Yes. And sausages?"
+        ],
+        [
+         "bf_lily",
+         "Amira",
+         "We haven't got any sausages. Just corn, please."
         ]
        ]
       }
@@ -4361,132 +5669,146 @@
    {
     "dok": 2,
     "lo": [
-     "6Ld.01",
-     "6Ld.04"
+     "4Ld.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "Write each letter. Check the letters I and E in the middle."
+       "step": "Jack's first plan changes. Listen to Mum's idea."
       },
-      "worked": "Mrs Bell spells \"<b>W-A-K-E-F-I-E-L-D</b>\".",
-      "type": "tfill",
-      "q": "Guide's name:",
-      "lines": [
-       "Guide's name: Mr {0}"
+      "worked": "Mum says \"<b>Let's go to the café</b> with your team.\" Grandma can come to the café too.",
+      "type": "mcq",
+      "q": "Where will Jack go after the match?",
+      "opts": [
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "☕",
+         "tag": "café"
+        },
+        "alt": "café picture"
+       },
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "🏊",
+         "tag": "swimming pool"
+        },
+        "alt": "swimming pool picture"
+       },
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "🏠",
+         "tag": "Grandma's house"
+        },
+        "alt": "Grandma's house picture"
+       }
       ],
-      "ans": [
-       [
-        "wakefield"
-       ]
+      "at": 0,
+      "whys": [
+       null,
+       "Mum says Jack will be too tired to go swimming.",
+       "Grandma is coming to the match, so they won't go to her house."
       ],
+      "letters": true,
+      "sub": "Tap one picture.",
       "fig": {
        "k": "stim",
-       "id": "s4-t-flight",
+       "id": "s4-t-10a",
        "kind": "audio",
-       "head": "Listen to Mrs Bell talking about a school trip. Complete the notes.<br><b>Trip to the Museum of Flight</b><br>Class: Grade 5 (example)<br>6 Day of the trip: ________<br>7 The bus leaves at: ________<br>8 Cost: £________<br>9 Guide's name: Mr ________<br>10 Bring: a packed lunch and a ________",
+       "head": "Listen to Jack and his mum.",
        "lines": [
         [
-         "bf_isabella",
-         "Mrs Bell",
-         "Hello, Grade 5. I'd like to tell you about our trip to the Museum of Flight. We'll find out how planes and hot-air balloons were invented, and how they changed the way people travel. The trip was on the calendar for Monday the twelfth, but the museum is closed on Mondays, so we've moved it to the next day, Tuesday. Please be at school by eight o'clock. The bus leaves at quarter past eight, because the museum is two hours away. We'll be back at about four o'clock. The trip was going to cost eighteen pounds, but the museum has given us a special price, so it's fifteen pounds. That includes your ticket and a ride in the flight simulator, which is like sitting in a real plane. At the museum, a guide will show us round. His name is Mr Wakefield. That's W-A-K-E-F-I-E-L-D. He used to be a pilot, so he can answer all your questions about flying. We'll have lunch in the museum garden, so bring a packed lunch. Please also bring a pencil, because there's a quiz to do as we walk round. You needn't bring a camera, because you mustn't take photos inside the museum. If you have any questions, come and find me tomorrow. I'm sure you'll enjoy it."
+         "bm_lewis",
+         "Jack",
+         "Mum, can we go swimming after the match?"
+        ],
+        [
+         "bf_emma",
+         "Mum",
+         "You'll be tired. Let's go to the café with your team."
+        ],
+        [
+         "bm_lewis",
+         "Jack",
+         "Not to Grandma's house?"
+        ],
+        [
+         "bf_emma",
+         "Mum",
+         "Grandma's coming to the match. She can come to the café too!"
         ]
        ]
       }
      },
      {
       "hint": {
-       "step": "Double R means two Rs."
+       "step": "Last year and this year are different. The question says this year."
       },
-      "worked": "Mr Novak spells \"<b>M-E-double R-I-C-K</b>\", so Merrick with two Rs.",
-      "type": "tfill",
-      "q": "Shark expert:",
-      "lines": [
-       "Shark expert: Ms {0}"
+      "worked": "Amira says \"But <b>this year I want to see frogs</b>.\"",
+      "type": "mcq",
+      "q": "What does Amira want to see at the lake this year?",
+      "opts": [
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "🐸",
+         "tag": "frogs"
+        },
+        "alt": "frogs picture"
+       },
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "🦆",
+         "tag": "ducks"
+        },
+        "alt": "ducks picture"
+       },
+       {
+        "html": "",
+        "fig": {
+         "k": "pico",
+         "pic": "🦢",
+         "tag": "swans"
+        },
+        "alt": "swans picture"
+       }
       ],
-      "ans": [
-       [
-        "merrick"
-       ]
+      "at": 1,
+      "whys": [
+       null,
+       "They saw ducks last year.",
+       "They saw swans last year too."
       ],
+      "letters": true,
+      "sub": "Tap one picture.",
       "fig": {
        "k": "stim",
-       "id": "s4-t-aquarium",
+       "id": "s4-t-10b",
        "kind": "audio",
-       "head": "Listen to Mr Novak talking about a school trip. Complete the notes.<br><b>Trip to the City Aquarium</b><br>Meet in: the school hall (example)<br>6 Day of the trip: ________<br>7 The bus leaves at: ________<br>8 Cost (with the shark talk): £________<br>9 Shark expert: Ms ________<br>10 Bring: a ________",
+       "head": "Listen to Amira and her dad.",
        "lines": [
         [
-         "bm_daniel",
-         "Mr Novak",
-         "Good afternoon, everyone. Here's some important information about our trip to the City Aquarium. First, the day. Lots of you think the trip is on Friday, because that's what the first letter said. But the aquarium has a special talk about sharks on Wednesday, so we're going then instead. We'll meet in the school hall at half past seven, and the bus leaves at quarter to eight. Please be on time, because the bus can't wait. Now, the money. A ticket costs twelve pounds. The shark talk is two pounds more, so that's fourteen pounds altogether. Everyone in our class wants to see the shark talk, so please bring fourteen pounds. At the aquarium we'll meet the shark expert. Her name is Ms Merrick. That's M-E-double R-I-C-K. She has swum with sharks in three different oceans! We'll also see a huge tank with more than five hundred fish, and you can even touch a starfish. What should you bring? It's quite cold inside the aquarium, because the water is kept cool for the fish, so please bring a jumper. You don't need to bring lunch, because the aquarium café will give us sandwiches. And please leave your phones at home. If you have any questions, ask me at the end of the day. See you on the trip!"
-        ]
-       ]
-      }
-     }
-    ]
-   },
-   {
-    "dok": 2,
-    "lo": [
-     "6Ld.01",
-     "6Ld.04"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "A camera is mentioned. Do you need to bring it?"
-      },
-      "worked": "Mrs Bell says \"Please also <b>bring a pencil</b>\". You needn't bring a camera.",
-      "type": "tfill",
-      "q": "Bring:",
-      "lines": [
-       "Bring: a packed lunch and a {0}"
-      ],
-      "ans": [
-       [
-        "pencil"
-       ]
-      ],
-      "fig": {
-       "k": "stim",
-       "id": "s4-t-flight",
-       "kind": "audio",
-       "head": "Listen to Mrs Bell talking about a school trip. Complete the notes.<br><b>Trip to the Museum of Flight</b><br>Class: Grade 5 (example)<br>6 Day of the trip: ________<br>7 The bus leaves at: ________<br>8 Cost: £________<br>9 Guide's name: Mr ________<br>10 Bring: a packed lunch and a ________",
-       "lines": [
+         "bm_george",
+         "Dad",
+         "Last year we saw lots of ducks at the lake."
+        ],
         [
-         "bf_isabella",
-         "Mrs Bell",
-         "Hello, Grade 5. I'd like to tell you about our trip to the Museum of Flight. We'll find out how planes and hot-air balloons were invented, and how they changed the way people travel. The trip was on the calendar for Monday the twelfth, but the museum is closed on Mondays, so we've moved it to the next day, Tuesday. Please be at school by eight o'clock. The bus leaves at quarter past eight, because the museum is two hours away. We'll be back at about four o'clock. The trip was going to cost eighteen pounds, but the museum has given us a special price, so it's fifteen pounds. That includes your ticket and a ride in the flight simulator, which is like sitting in a real plane. At the museum, a guide will show us round. His name is Mr Wakefield. That's W-A-K-E-F-I-E-L-D. He used to be a pilot, so he can answer all your questions about flying. We'll have lunch in the museum garden, so bring a packed lunch. Please also bring a pencil, because there's a quiz to do as we walk round. You needn't bring a camera, because you mustn't take photos inside the museum. If you have any questions, come and find me tomorrow. I'm sure you'll enjoy it."
-        ]
-       ]
-      }
-     },
-     {
-      "hint": {
-       "step": "Lunch and phones are mentioned. What does Mr Novak ask you to bring?"
-      },
-      "worked": "It's cold inside the aquarium, \"so please <b>bring a jumper</b>\". You don't need lunch.",
-      "type": "tfill",
-      "q": "Bring:",
-      "lines": [
-       "Bring: a {0}"
-      ],
-      "ans": [
-       [
-        "jumper",
-        "warm jumper"
-       ]
-      ],
-      "fig": {
-       "k": "stim",
-       "id": "s4-t-aquarium",
-       "kind": "audio",
-       "head": "Listen to Mr Novak talking about a school trip. Complete the notes.<br><b>Trip to the City Aquarium</b><br>Meet in: the school hall (example)<br>6 Day of the trip: ________<br>7 The bus leaves at: ________<br>8 Cost (with the shark talk): £________<br>9 Shark expert: Ms ________<br>10 Bring: a ________",
-       "lines": [
+         "bf_lily",
+         "Amira",
+         "Yes! And swans. But this year I want to see frogs. They're my favourite animals."
+        ],
         [
-         "bm_daniel",
-         "Mr Novak",
-         "Good afternoon, everyone. Here's some important information about our trip to the City Aquarium. First, the day. Lots of you think the trip is on Friday, because that's what the first letter said. But the aquarium has a special talk about sharks on Wednesday, so we're going then instead. We'll meet in the school hall at half past seven, and the bus leaves at quarter to eight. Please be on time, because the bus can't wait. Now, the money. A ticket costs twelve pounds. The shark talk is two pounds more, so that's fourteen pounds altogether. Everyone in our class wants to see the shark talk, so please bring fourteen pounds. At the aquarium we'll meet the shark expert. Her name is Ms Merrick. That's M-E-double R-I-C-K. She has swum with sharks in three different oceans! We'll also see a huge tank with more than five hundred fish, and you can even touch a starfish. What should you bring? It's quite cold inside the aquarium, because the water is kept cool for the fish, so please bring a jumper. You don't need to bring lunch, because the aquarium café will give us sandwiches. And please leave your phones at home. If you have any questions, ask me at the end of the day. See you on the trip!"
+         "bm_george",
+         "Dad",
+         "Then we'll look near the water."
         ]
        ]
       }
@@ -4507,91 +5829,67 @@
     ]
    ],
    [
-    "Quarter to nine is...",
+    "Quarter past nine is...",
     [
-     "8:45",
      "9:15",
-     "9:45"
+     "9:45",
+     "8:15"
     ]
    ],
    [
-    "Quarter past four is...",
+    "Four o'clock is...",
     [
-     "4:15",
-     "4:45",
-     "3:45"
+     "4:00",
+     "4:30",
+     "14:00"
     ]
    ],
    [
-    "Twenty to six is...",
+    "Half past two is...",
     [
-     "5:40",
-     "6:20",
-     "5:20"
+     "2:30",
+     "2:15",
+     "3:30"
     ]
    ],
    [
-    "Ten past nine is...",
+    "Quarter past eleven is...",
     [
-     "9:10",
-     "10:09",
-     "8:50"
+     "11:15",
+     "11:45",
+     "11:25"
     ]
    ],
    [
-    "3 p.m. is in the...",
+    "Six o'clock is...",
     [
-     "afternoon",
-     "morning",
-     "night"
+     "6:00",
+     "6:30",
+     "16:00"
     ]
    ],
    [
-    "8 a.m. is in the...",
+    "5:30 is...",
     [
-     "morning",
-     "evening",
-     "afternoon"
+     "half past five",
+     "half past six",
+     "five o'clock"
     ]
    ],
    [
-    "Seven thirty in the evening is...",
+    "10:15 is...",
     [
-     "7:30 p.m.",
-     "7:30 a.m.",
-     "7:13 p.m."
+     "quarter past ten",
+     "half past ten",
+     "ten o'clock"
     ]
    ],
    [
-    "A quarter of an hour is...",
+    "Twelve is...",
     [
-     "15 minutes",
-     "25 minutes",
-     "4 minutes"
-    ]
-   ],
-   [
-    "Half an hour is...",
-    [
-     "30 minutes",
-     "50 minutes",
-     "20 minutes"
-    ]
-   ],
-   [
-    "Starts at 4:00, lasts one hour. Ends at?",
-    [
-     "5:00",
-     "4:01",
-     "3:00"
-    ]
-   ],
-   [
-    "Four pounds fifty is...",
-    [
-     "£4.50",
-     "£4.15",
-     "£45"
+     "12",
+     "20",
+     "2"
     ]
    ],
    [
@@ -4627,27 +5925,67 @@
     ]
    ],
    [
-    "Half price of £10 is...",
+    "Eighteen is...",
     [
-     "£5",
-     "£20",
-     "£10"
+     "18",
+     "80",
+     "8"
     ]
    ],
    [
-    "A ticket is £3. Two tickets cost...",
+    "Three pounds is...",
     [
-     "£6",
      "£3",
-     "£5"
+     "£13",
+     "£30"
     ]
    ],
    [
-    "£12 plus £2 is...",
+    "Two pounds fifty is...",
     [
-     "£14",
-     "£10",
-     "£24"
+     "£2.50",
+     "£2.15",
+     "£25"
+    ]
+   ],
+   [
+    "A ticket is £2. Two tickets cost...",
+    [
+     "£4",
+     "£2",
+     "£3"
+    ]
+   ],
+   [
+    "\"Sat\" is short for...",
+    [
+     "Saturday",
+     "Sunday",
+     "Thursday"
+    ]
+   ],
+   [
+    "\"Tue\" is short for...",
+    [
+     "Tuesday",
+     "Thursday",
+     "today"
+    ]
+   ],
+   [
+    "\"Wed\" is short for...",
+    [
+     "Wednesday",
+     "weekend",
+     "Friday"
+    ]
+   ],
+   [
+    "The day after Monday is...",
+    [
+     "Tuesday",
+     "Sunday",
+     "Wednesday"
     ]
    ],
    [
@@ -4655,39 +5993,47 @@
     [
      "surname",
      "first name",
-     "nickname"
+     "age"
     ]
    ],
    [
     "To say a word letter by letter:",
     [
      "spell",
-     "spill",
-     "speak"
+     "speak",
+     "sing"
     ]
    ],
    [
-    "\"Double L\" means you write...",
-    [
-     "LL",
-     "L",
-     "LLL"
-    ]
-   ],
-   [
-    "B-E-double N-E-T-T spells...",
-    [
-     "Bennett",
-     "Benett",
-     "Bennet"
-    ]
-   ],
-   [
-    "M-O-double S spells...",
+    "M-O-S-S spells...",
     [
      "Moss",
      "Mos",
-     "Mosse"
+     "Mose"
+    ]
+   ],
+   [
+    "W-E-B-B spells...",
+    [
+     "Webb",
+     "Web",
+     "Wepp"
+    ]
+   ],
+   [
+    "T-R-A-N spells...",
+    [
+     "Tran",
+     "Tram",
+     "Train"
+    ]
+   ],
+   [
+    "B-I-N-G-O spells...",
+    [
+     "Bingo",
+     "Bengo",
+     "Bingu"
     ]
    ],
    [
@@ -4723,7 +6069,15 @@
     ]
    ],
    [
-    "Which letter do we call \"double-you\"?",
+    "Which letter sounds like \"bee\"?",
+    [
+     "B",
+     "P",
+     "D"
+    ]
+   ],
+   [
+    "Which letter is \"double you\"?",
     [
      "W",
      "U",
@@ -4731,51 +6085,51 @@
     ]
    ],
    [
-    "Which letter sounds like \"jay\"?",
+    "\"How old are you?\" asks your...",
     [
-     "J",
-     "G",
-     "H"
+     "age",
+     "name",
+     "phone number"
     ]
    ],
    [
-    "Which letter sounds like \"gee\"?",
+    "\"I'm nine.\" Age:",
     [
-     "G",
-     "J",
-     "Z"
+     "9",
+     "19",
+     "90"
     ]
    ],
    [
-    "\"Instead\" means...",
+    "\"Five three eight\" is...",
     [
-     "in its place",
-     "as well",
-     "before"
+     "538",
+     "583",
+     "358"
     ]
    ],
    [
-    "\"In the end\" tells you the...",
+    "\"Two seven five\" is...",
     [
-     "final choice",
-     "first idea",
-     "usual plan"
+     "275",
+     "257",
+     "725"
     ]
    ],
    [
-    "\"Actually\" often comes before a...",
+    "\"Is it red?\" \"No, blue.\" Colour?",
     [
-     "correction",
-     "question",
-     "greeting"
+     "blue",
+     "red",
+     "both"
     ]
    ],
    [
-    "\"She changed her mind\" means she...",
+    "\"Is he a cook?\" \"No, a vet.\" Job?",
     [
-     "chose differently",
-     "forgot",
-     "felt ill"
+     "vet",
+     "cook",
+     "doctor"
     ]
    ],
    [
@@ -4787,87 +6141,71 @@
     ]
    ],
    [
-    "\"It's ten. Sorry, I mean nine.\" Answer?",
+    "\"Usually at four, today at five.\" Today?",
     [
-     "nine",
-     "ten",
-     "nineteen"
+     "5:00",
+     "4:00",
+     "9:00"
     ]
    ],
    [
-    "\"Not Monday, Tuesday.\" The day is...",
+    "\"No juice? Then milk.\" The drink is...",
     [
-     "Tuesday",
-     "Monday",
-     "both days"
+     "milk",
+     "juice",
+     "water"
     ]
    ],
    [
-    "\"I'll take the bus instead of the train.\"",
+    "\"Not the car. It's behind the sofa.\"",
     [
-     "bus",
-     "train",
+     "sofa",
+     "car",
+     "garden"
+    ]
+   ],
+   [
+    "\"I'll take my kite instead.\" She takes...",
+    [
+     "a kite",
+     "a bike",
+     "a ball"
+    ]
+   ],
+   [
+    "\"Instead\" means...",
+    [
+     "in its place",
+     "as well",
+     "before"
+    ]
+   ],
+   [
+    "\"She changed her mind\" means she...",
+    [
+     "chose again",
+     "forgot",
+     "felt ill"
+    ]
+   ],
+   [
+    "\"Last year ducks, this year frogs.\" Now?",
+    [
+     "frogs",
+     "ducks",
      "both"
     ]
    ],
    [
-    "\"I nearly bought grapes, but...\" Grapes bought?",
+    "Each listening talk is played...",
     [
-     "no",
-     "yes",
-     "two bags"
+     "two times",
+     "one time",
+     "four times"
     ]
    ],
    [
-    "\"You needn't bring a net.\" Bring a net?",
-    [
-     "no need",
-     "yes, you must",
-     "bring two"
-    ]
-   ],
-   [
-    "\"You must bring a towel.\" Bring a towel?",
-    [
-     "yes",
-     "no",
-     "only if wet"
-    ]
-   ],
-   [
-    "\"Tue\" is short for...",
-    [
-     "Tuesday",
-     "Thursday",
-     "today"
-    ]
-   ],
-   [
-    "\"Thu\" is short for...",
-    [
-     "Thursday",
-     "Tuesday",
-     "thank you"
-    ]
-   ],
-   [
-    "\"Wed\" is short for...",
-    [
-     "Wednesday",
-     "weekend",
-     "wet"
-    ]
-   ],
-   [
-    "Each listening recording is played...",
-    [
-     "twice",
-     "once",
-     "three times"
-    ]
-   ],
-   [
-    "Part 1: how many pictures are mentioned?",
+    "Part 1: how many pictures are said?",
     [
      "all three",
      "only one",
@@ -4875,37 +6213,21 @@
     ]
    ],
    [
-    "Part 2 notes: how much do you write?",
+    "Part 3: you write on a...",
     [
-     "1 or 2 words",
-     "a sentence",
-     "a paragraph"
-    ]
-   ],
-   [
-    "Which word warns you a plan changed?",
-    [
-     "but",
-     "and",
-     "also"
-    ]
-   ],
-   [
-    "\"Room fourteen, not forty.\" Which room?",
-    [
-     "14",
-     "40",
-     "4"
+     "form",
+     "poster",
+     "map"
     ]
    ]
   ]
  },
  "selfcheck": {
   "goals": [
-   "choose the right picture when a speaker changes their mind",
-   "catch the true answer after No, actually or sorry, I mean",
-   "hear and write times, prices and numbers correctly",
-   "write a surname exactly when it is spelled letter by letter"
+   "choose the right picture when all three are said",
+   "find the right answer after No",
+   "hear the difference between usually and today",
+   "write a spelled name and a phone number on a form"
   ],
   "again": [
    "c",

@@ -1,0 +1,1452 @@
+{
+ "s4-see-1": [
+  [
+   "bm_daniel",
+   "Grandpa",
+   "Nam, is your new neighbour a doctor?"
+  ],
+  [
+   "bm_fable",
+   "Nam",
+   "No, Grandpa. He works at the hospital, but he isn't a doctor. He's a cook in the hospital kitchen."
+  ],
+  [
+   "bm_daniel",
+   "Grandpa",
+   "A cook! And his wife?"
+  ],
+  [
+   "bm_fable",
+   "Nam",
+   "She drives a bus."
+  ]
+ ],
+ "s4-see-2": [
+  [
+   "bf_emma",
+   "Mum",
+   "Sophie, it's eight o'clock. Time for bed!"
+  ],
+  [
+   "bf_lily",
+   "Sophie",
+   "But Mum, it's a full moon tonight. Can I see it?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "You usually go to bed at eight. But tonight is special. Go to bed at half past eight."
+  ],
+  [
+   "bf_lily",
+   "Sophie",
+   "Thank you! The moon comes up at quarter past eight."
+  ]
+ ],
+ "s4-see-3": [
+  [
+   "bm_daniel",
+   "Coach",
+   "Hello! What's your first name?"
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "Raj. R-A-J."
+  ],
+  [
+   "bm_daniel",
+   "Coach",
+   "And what's your surname?"
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "Sharma. S-H-A-R-M-A."
+  ],
+  [
+   "bm_daniel",
+   "Coach",
+   "Thank you. What's your phone number?"
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "It's five three eight two nine four one."
+  ],
+  [
+   "bm_daniel",
+   "Coach",
+   "Five three eight, two nine four one?"
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "Yes, that's right."
+  ]
+ ],
+ "s4-ch-1a": [
+  [
+   "bm_lewis",
+   "Jack",
+   "Mum, where's my football? Is it in the garden?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "No, it isn't. I looked there. Is it in the car?"
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "Not in the car. Oh, look! It's behind the sofa."
+  ]
+ ],
+ "s4-ch-1b": [
+  [
+   "bm_daniel",
+   "Grandpa",
+   "Amira, do you want to go to the library this afternoon?"
+  ],
+  [
+   "bf_lily",
+   "Amira",
+   "No, Grandpa. I'm going to the swimming pool with my brother."
+  ],
+  [
+   "bm_daniel",
+   "Grandpa",
+   "Not to the park?"
+  ],
+  [
+   "bf_lily",
+   "Amira",
+   "We went to the park yesterday."
+  ]
+ ],
+ "s4-ch-2a": [
+  [
+   "bm_fable",
+   "Tuan",
+   "Dad, can I have noodles for lunch?"
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "Sorry, we haven't got any noodles. What about rice?"
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "We had rice yesterday. Can I have a sandwich?"
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "OK. A cheese sandwich for you."
+  ]
+ ],
+ "s4-ch-2b": [
+  [
+   "bf_emma",
+   "Mum",
+   "Grace, do you want milk with your breakfast?"
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "Yes, please. Oh, no. Can I have juice?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "There isn't any juice. Sorry! Water or milk?"
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "Then milk, please. I don't want water."
+  ]
+ ],
+ "s4-ch-3a": [
+  [
+   "bm_lewis",
+   "Ethan",
+   "Mum, my swimming lesson is at four o'clock, isn't it?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "It's usually at four. But today the pool is busy. So it's at five o'clock."
+  ],
+  [
+   "bm_lewis",
+   "Ethan",
+   "Five! Can I play football until half past four?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "Yes, you can."
+  ]
+ ],
+ "s4-ch-3b": [
+  [
+   "bf_alice",
+   "Ngoc",
+   "Dad, are we having dinner at seven o'clock?"
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "We usually eat at seven. But tonight there's a fun run in our neighbourhood at half past seven. So let's eat at six."
+  ],
+  [
+   "bf_alice",
+   "Ngoc",
+   "At six? OK!"
+  ]
+ ],
+ "s4-ch-4a": [
+  [
+   "bf_emma",
+   "Mum",
+   "Lucy, what does your new friend's mum do? Is she a teacher?"
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "No, she isn't. She's a vet. She looks after animals."
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "Oh! I thought she was a farmer."
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "No, her grandad is a farmer."
+  ]
+ ],
+ "s4-ch-4b": [
+  [
+   "bf_isabella",
+   "Grandma",
+   "Ethan, I like your new T-shirt. Is that a rocket on it?"
+  ],
+  [
+   "bm_lewis",
+   "Ethan",
+   "No, Grandma. My brother's T-shirt has a rocket. Mine has a big planet with rings."
+  ],
+  [
+   "bf_isabella",
+   "Grandma",
+   "Oh yes! Not stars?"
+  ],
+  [
+   "bm_lewis",
+   "Ethan",
+   "No, the stars are on my hat!"
+  ]
+ ],
+ "s4-r1-1a": [
+  [
+   "bf_lily",
+   "Sophie",
+   "Grandma, can you come to my school concert on Friday?"
+  ],
+  [
+   "bf_isabella",
+   "Grandma",
+   "Of course! What time does it start?"
+  ],
+  [
+   "bf_lily",
+   "Sophie",
+   "It starts at six o'clock. Please come at half past five. It finishes at half past seven."
+  ],
+  [
+   "bf_isabella",
+   "Grandma",
+   "OK. I'll be there!"
+  ]
+ ],
+ "s4-r1-1b": [
+  [
+   "bm_lewis",
+   "Raj",
+   "Dad, what time are we going to the science museum?"
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "We'll get there at ten o'clock. The space show starts at quarter past ten."
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "And lunch?"
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "We'll have lunch at twelve o'clock."
+  ]
+ ],
+ "s4-r1-2a": [
+  [
+   "bf_alice",
+   "Ngoc",
+   "Dad, look at the cakes! How much is the chocolate cake?"
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "It's three pounds. The lemon cake is two pounds."
+  ],
+  [
+   "bf_alice",
+   "Ngoc",
+   "And the biscuits?"
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "One pound a bag."
+  ]
+ ],
+ "s4-r1-2b": [
+  [
+   "bm_lewis",
+   "Jack",
+   "Mum, how much are the tickets for the museum?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "A ticket for children is four pounds. For grown-ups, it's eight pounds."
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "Can I buy a map too?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "Yes. A map is two pounds."
+  ]
+ ],
+ "s4-r1-3a": [
+  [
+   "bm_fable",
+   "Tuan",
+   "Coach, when is the football match?"
+  ],
+  [
+   "bm_daniel",
+   "Coach",
+   "We practise on Tuesday and Thursday. The match is on Saturday."
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "Saturday morning?"
+  ],
+  [
+   "bm_daniel",
+   "Coach",
+   "Yes, at ten o'clock."
+  ]
+ ],
+ "s4-r1-3b": [
+  [
+   "bf_lily",
+   "Amira",
+   "Mum, are we visiting Grandma on Monday?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "Not on Monday. We're going on Wednesday, after school."
+  ],
+  [
+   "bf_lily",
+   "Amira",
+   "And on Friday?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "On Friday, Grandma is coming to our house!"
+  ]
+ ],
+ "s4-r2-1a": [
+  [
+   "bm_daniel",
+   "Grandpa",
+   "Jack, does your cousin live in the city?"
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "No, Grandpa. She lives on a farm. She's got ten goats!"
+  ],
+  [
+   "bm_daniel",
+   "Grandpa",
+   "Is the farm near the mountains?"
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "No, it's near the sea."
+  ]
+ ],
+ "s4-r2-1b": [
+  [
+   "bf_isabella",
+   "Teacher",
+   "Grace, is Mars your favourite planet?"
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "No, it isn't. Mars is nice and red, but I like Saturn best. It's got beautiful rings."
+  ],
+  [
+   "bf_isabella",
+   "Teacher",
+   "What about Earth?"
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "Earth is our home. But Saturn is my favourite."
+  ]
+ ],
+ "s4-r2-2a": [
+  [
+   "bm_george",
+   "Dad",
+   "Raj, are you walking to school today?"
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "I usually walk, Dad. But it's raining a lot today. Can you take me in the car?"
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "Sorry, I need the car for work. Take the bus with your friends."
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "OK, Dad."
+  ]
+ ],
+ "s4-r2-2b": [
+  [
+   "bf_emma",
+   "Mum",
+   "Ngoc, do you want noodles for breakfast?"
+  ],
+  [
+   "bf_alice",
+   "Ngoc",
+   "I usually have noodles. But today I want something different. Can I have rice?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "We haven't got any rice. Have a mango with some yoghurt."
+  ],
+  [
+   "bf_alice",
+   "Ngoc",
+   "Yummy! OK."
+  ]
+ ],
+ "s4-r2-3a": [
+  [
+   "bm_lewis",
+   "Ethan",
+   "Mum, I want to make a card for Grandma's birthday."
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "You made a card last year. What about a cake?"
+  ],
+  [
+   "bm_lewis",
+   "Ethan",
+   "I can't make cakes! I know. I'll draw a picture of her garden."
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "She'll love that."
+  ]
+ ],
+ "s4-r2-3b": [
+  [
+   "bf_lily",
+   "Amira",
+   "Dad, I want to grow carrots in my pot."
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "The pot is too small for carrots. What about strawberries?"
+  ],
+  [
+   "bf_lily",
+   "Amira",
+   "Hmm. Cress grows fast. I'll grow cress, and we can grow strawberries in the summer."
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "Good plan."
+  ]
+ ],
+ "s4-r3-1a": [
+  [
+   "bf_isabella",
+   "Teacher",
+   "Lucy, I'm writing the names for the school choir. What's your surname?"
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "It's Webb. W-E-B-B."
+  ],
+  [
+   "bf_isabella",
+   "Teacher",
+   "W-E-B?"
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "No, there are two Bs. W-E-B-B."
+  ]
+ ],
+ "s4-r3-1b": [
+  [
+   "bf_emma",
+   "Vet",
+   "Hello! What's your cat's name?"
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "Bingo. B-I-N-G-O."
+  ],
+  [
+   "bf_emma",
+   "Vet",
+   "B-I-N-G-O. Hello, Bingo! What a lovely cat."
+  ]
+ ],
+ "s4-r3-2a": [
+  [
+   "bf_lily",
+   "Sophie",
+   "Mum, I want to call Grandma. What's her phone number?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "It's six four nine three one two eight."
+  ],
+  [
+   "bf_lily",
+   "Sophie",
+   "Six four nine, three one two eight?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "That's right."
+  ]
+ ],
+ "s4-r3-2b": [
+  [
+   "bm_daniel",
+   "Coach",
+   "Nam, if you can't come to practice, please call me."
+  ],
+  [
+   "bm_fable",
+   "Nam",
+   "What's your phone number, Coach?"
+  ],
+  [
+   "bm_daniel",
+   "Coach",
+   "It's five one nine four four two seven."
+  ],
+  [
+   "bm_fable",
+   "Nam",
+   "Five one nine, four four two seven. Thanks!"
+  ]
+ ],
+ "s4-r3-3a": [
+  [
+   "bf_isabella",
+   "Helper",
+   "Hello! Do you want a ticket for the star show?"
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "Yes, please."
+  ],
+  [
+   "bf_isabella",
+   "Helper",
+   "How old are you?"
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "I'm nine."
+  ],
+  [
+   "bf_isabella",
+   "Helper",
+   "Children under eight need a grown-up. You're fine. The show starts at half past two."
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "Half past two. Thank you!"
+  ]
+ ],
+ "s4-r3-3b": [
+  [
+   "bf_isabella",
+   "Teacher",
+   "Ngoc, your brother wants to join the art class. How old is he?"
+  ],
+  [
+   "bf_alice",
+   "Ngoc",
+   "He's six. I'm eight."
+  ],
+  [
+   "bf_isabella",
+   "Teacher",
+   "Good. The class starts at quarter past four, after school."
+  ],
+  [
+   "bf_alice",
+   "Ngoc",
+   "Quarter past four. I'll tell him!"
+  ]
+ ],
+ "s4-a1-1a": [
+  [
+   "bf_isabella",
+   "Grandma",
+   "Ethan, did you go to the park on Saturday?"
+  ],
+  [
+   "bm_lewis",
+   "Ethan",
+   "No, Grandma. We went to the science museum. I saw a space rover!"
+  ],
+  [
+   "bf_isabella",
+   "Grandma",
+   "Did you go to the cinema too?"
+  ],
+  [
+   "bm_lewis",
+   "Ethan",
+   "No, that's next Saturday."
+  ]
+ ],
+ "s4-a1-1b": [
+  [
+   "bm_george",
+   "Dad",
+   "Lucy, is your new sports club at the sports centre?"
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "No, Dad. It's closed this month. The club is at my school."
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "Not in the park?"
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "No, it's too cold in the park."
+  ]
+ ],
+ "s4-a1-2a": [
+  [
+   "bf_isabella",
+   "Grandma",
+   "Did you have your sandwiches for lunch?"
+  ],
+  [
+   "bm_lewis",
+   "Ethan",
+   "No! I left them in the car. So I had pasta in the café."
+  ],
+  [
+   "bf_isabella",
+   "Grandma",
+   "Pasta! Not chips?"
+  ],
+  [
+   "bm_lewis",
+   "Ethan",
+   "Dad had chips."
+  ]
+ ],
+ "s4-a1-2b": [
+  [
+   "bm_george",
+   "Dad",
+   "Is your coach a teacher at your school?"
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "No, she isn't. She's a nurse at the hospital."
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "Oh. I thought she was a police officer."
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "No, Dad. That's her brother!"
+  ]
+ ],
+ "s4-a1-3a": [
+  [
+   "bf_isabella",
+   "Grandma",
+   "Did you buy something in the shop?"
+  ],
+  [
+   "bm_lewis",
+   "Ethan",
+   "Yes, a poster. The moon poster was too big. So I got a rocket poster."
+  ],
+  [
+   "bf_isabella",
+   "Grandma",
+   "And your sister?"
+  ],
+  [
+   "bm_lewis",
+   "Ethan",
+   "She got a poster of the stars."
+  ]
+ ],
+ "s4-a1-3b": [
+  [
+   "bm_george",
+   "Dad",
+   "Do you want rice and chicken for dinner tonight?"
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "We had that yesterday. Can we have noodles?"
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "There aren't any noodles. What about fish and chips?"
+  ],
+  [
+   "bf_alice",
+   "Lucy",
+   "Yes, please!"
+  ]
+ ],
+ "s4-a2-1a": [
+  [
+   "bf_emma",
+   "Mum",
+   "Raj, the bus usually comes at half past seven."
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "But tomorrow is our trip. We have to be at school at seven o'clock."
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "So leave home at quarter to seven."
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "That's early!"
+  ]
+ ],
+ "s4-a2-1b": [
+  [
+   "bm_daniel",
+   "Grandpa",
+   "Ngoc, did you find the cat in the garden?"
+  ],
+  [
+   "bf_alice",
+   "Ngoc",
+   "I heard it in the garden. But it was on the roof of our shed!"
+  ],
+  [
+   "bm_daniel",
+   "Grandpa",
+   "Not up a tree?"
+  ],
+  [
+   "bf_alice",
+   "Ngoc",
+   "No, the tree was empty."
+  ]
+ ],
+ "s4-a2-2a": [
+  [
+   "bf_emma",
+   "Mum",
+   "Are you going to sleep in tents?"
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "No, it's too cold at night. We're sleeping in wooden huts."
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "Not in a hotel?"
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "There isn't a hotel there."
+  ]
+ ],
+ "s4-a2-2b": [
+  [
+   "bm_daniel",
+   "Grandpa",
+   "Does the vet open at nine?"
+  ],
+  [
+   "bf_alice",
+   "Ngoc",
+   "Usually, yes. But today is Sunday, so it opens at ten."
+  ],
+  [
+   "bm_daniel",
+   "Grandpa",
+   "When can you see the vet?"
+  ],
+  [
+   "bf_alice",
+   "Ngoc",
+   "At quarter past ten."
+  ]
+ ],
+ "s4-a2-3a": [
+  [
+   "bf_emma",
+   "Mum",
+   "Shall I make you a sandwich?"
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "No, thanks. The camp gives us lunch. But I need a snack for the bus."
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "Some biscuits?"
+  ],
+  [
+   "bm_lewis",
+   "Raj",
+   "Only fruit is allowed. Can I have a banana?"
+  ]
+ ],
+ "s4-a2-3b": [
+  [
+   "bm_daniel",
+   "Grandpa",
+   "Did the cat sleep in a box last night?"
+  ],
+  [
+   "bf_alice",
+   "Ngoc",
+   "Yes, in the kitchen. Tonight she's going to sleep in a basket."
+  ],
+  [
+   "bm_daniel",
+   "Grandpa",
+   "Not on your bed?"
+  ],
+  [
+   "bf_alice",
+   "Ngoc",
+   "Mum says no!"
+  ]
+ ],
+ "s4-a3-swim": [
+  [
+   "bf_emma",
+   "Receptionist",
+   "Hello! Can I help you?"
+  ],
+  [
+   "bm_fable",
+   "Nam",
+   "Hello. I want to join the swimming lessons, please."
+  ],
+  [
+   "bf_emma",
+   "Receptionist",
+   "Great. Can I have your first name?"
+  ],
+  [
+   "bm_fable",
+   "Nam",
+   "Nam. N-A-M."
+  ],
+  [
+   "bf_emma",
+   "Receptionist",
+   "And what's your surname?"
+  ],
+  [
+   "bm_fable",
+   "Nam",
+   "It's Tran. T-R-A-N."
+  ],
+  [
+   "bf_emma",
+   "Receptionist",
+   "T-R-A-M?"
+  ],
+  [
+   "bm_fable",
+   "Nam",
+   "No, N at the end. T-R-A-N."
+  ],
+  [
+   "bf_emma",
+   "Receptionist",
+   "Thank you. What's your phone number?"
+  ],
+  [
+   "bm_fable",
+   "Nam",
+   "I haven't got a phone. My mum's number is two seven five eight four one six."
+  ],
+  [
+   "bf_emma",
+   "Receptionist",
+   "Two seven five, eight four one six. Thanks. The lessons are on Saturday. There's a class at nine o'clock and a class at eleven o'clock."
+  ],
+  [
+   "bm_fable",
+   "Nam",
+   "I play football at nine o'clock. So eleven o'clock, please."
+  ],
+  [
+   "bf_emma",
+   "Receptionist",
+   "Eleven o'clock. Lovely. Don't forget your swimming hat!"
+  ]
+ ],
+ "s4-a3-choc": [
+  [
+   "bm_george",
+   "Guide",
+   "Hello! Welcome to the chocolate factory. Would you like to go on the tour?"
+  ],
+  [
+   "bf_lily",
+   "Amira",
+   "Yes, please! I love chocolate."
+  ],
+  [
+   "bm_george",
+   "Guide",
+   "Me too! Can I have your first name, please?"
+  ],
+  [
+   "bf_lily",
+   "Amira",
+   "Amira. A-M-I-R-A."
+  ],
+  [
+   "bm_george",
+   "Guide",
+   "And what's your surname?"
+  ],
+  [
+   "bf_lily",
+   "Amira",
+   "Hassan. H-A-S-S-A-N."
+  ],
+  [
+   "bm_george",
+   "Guide",
+   "H-A-S-S-A-N. Thank you. How old are you, Amira?"
+  ],
+  [
+   "bf_lily",
+   "Amira",
+   "I'm nine. My brother is seven."
+  ],
+  [
+   "bm_george",
+   "Guide",
+   "Children under eight have to stay with a grown-up on the tour."
+  ],
+  [
+   "bf_lily",
+   "Amira",
+   "That's OK. My mum and dad are here too."
+  ],
+  [
+   "bm_george",
+   "Guide",
+   "So how many people are coming on the tour?"
+  ],
+  [
+   "bf_lily",
+   "Amira",
+   "Four people. Oh, and my grandma! So five people."
+  ],
+  [
+   "bm_george",
+   "Guide",
+   "Five people. The tour starts at two o'clock. You can see how we roast the cacao beans."
+  ]
+ ],
+ "s4-t-sky": [
+  [
+   "bf_isabella",
+   "Helper",
+   "Hello. Do you want to join the Sky Club?"
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "Yes, please. I love the stars."
+  ],
+  [
+   "bf_isabella",
+   "Helper",
+   "Lovely. What's your first name, please?"
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "Grace."
+  ],
+  [
+   "bf_isabella",
+   "Helper",
+   "And your surname? Can you spell it, please?"
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "Yes. It's Moss. M-O-S-S."
+  ],
+  [
+   "bf_isabella",
+   "Helper",
+   "M-O-S-S. Thank you. How old are you, Grace?"
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "I'm eight. My sister is ten. She's in the club too."
+  ],
+  [
+   "bf_isabella",
+   "Helper",
+   "OK. What's your phone number?"
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "Sorry, my phone? I haven't got a phone."
+  ],
+  [
+   "bf_isabella",
+   "Helper",
+   "Your home phone number, or your mum's number."
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "Oh! It's four eight one six two nine three."
+  ],
+  [
+   "bf_isabella",
+   "Helper",
+   "Four eight one, six two nine three. The club meets on Friday and Saturday. Which day is better?"
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "I go swimming on Saturday. So Friday, please."
+  ],
+  [
+   "bf_isabella",
+   "Helper",
+   "Friday. We meet on the roof. It's cold at night, so bring something warm."
+  ],
+  [
+   "bf_lily",
+   "Grace",
+   "I'll bring two blankets. One for me and one for my sister."
+  ],
+  [
+   "bf_isabella",
+   "Helper",
+   "Good idea. You don't need a torch. We've got lots."
+  ]
+ ],
+ "s4-t-funday": [
+  [
+   "bm_daniel",
+   "Organiser",
+   "Hi there. Are you here to help at the Fun Day?"
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "Yes. My class wants to raise money for the animal shelter."
+  ],
+  [
+   "bm_daniel",
+   "Organiser",
+   "Great! Can I have your first name?"
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "Tuan. T-U-A-N."
+  ],
+  [
+   "bm_daniel",
+   "Organiser",
+   "And your surname?"
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "It's Pham. P-H-A-M."
+  ],
+  [
+   "bm_daniel",
+   "Organiser",
+   "P-H-A-M. Thanks. How old are you, Tuan?"
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "I'm nine. I'll be ten in May."
+  ],
+  [
+   "bm_daniel",
+   "Organiser",
+   "And what's your phone number, please?"
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "It's my dad's number. Three six two nine eight five four."
+  ],
+  [
+   "bm_daniel",
+   "Organiser",
+   "Three six two, nine eight five four. Now, the Fun Day starts at ten o'clock. Helpers have to come early, at half past nine."
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "Sorry, what time?"
+  ],
+  [
+   "bm_daniel",
+   "Organiser",
+   "Half past nine. Is that OK?"
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "Yes, that's fine."
+  ],
+  [
+   "bm_daniel",
+   "Organiser",
+   "Can you bring some cakes for the cake stall?"
+  ],
+  [
+   "bm_fable",
+   "Tuan",
+   "Yes. My dad and I can make twenty. Hmm, no. Twenty is too many. We can make twelve cakes."
+  ],
+  [
+   "bm_daniel",
+   "Organiser",
+   "Twelve cakes. Wonderful. Thank you, Tuan!"
+  ]
+ ],
+ "s4-t-6a": [
+  [
+   "bf_emma",
+   "Mum",
+   "Jack, is your match at school on Saturday?"
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "We usually play at school. But the field is too wet. So we're playing at the sports centre."
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "Not at the park?"
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "No, it's too far."
+  ]
+ ],
+ "s4-t-6b": [
+  [
+   "bm_george",
+   "Dad",
+   "Amira, shall we go to the lake on Friday?"
+  ],
+  [
+   "bf_lily",
+   "Amira",
+   "My cousins want to come too. They can only come on Saturday."
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "OK. Then on Friday let's go to the museum."
+  ],
+  [
+   "bf_lily",
+   "Amira",
+   "Great! And the cinema on Sunday?"
+  ]
+ ],
+ "s4-t-7a": [
+  [
+   "bf_emma",
+   "Mum",
+   "What time does the match start?"
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "It starts at half past ten. But Coach wants us there at ten o'clock."
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "Then we'll leave home at half past nine."
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "OK, Mum."
+  ]
+ ],
+ "s4-t-7b": [
+  [
+   "bm_george",
+   "Dad",
+   "Shall we leave at nine on Saturday, like always?"
+  ],
+  [
+   "bf_lily",
+   "Amira",
+   "The lake is far. Let's leave at eight."
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "Your cousins say half past seven."
+  ],
+  [
+   "bf_lily",
+   "Amira",
+   "That's too early! Eight, please."
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "OK, eight o'clock."
+  ]
+ ],
+ "s4-t-8a": [
+  [
+   "bf_emma",
+   "Mum",
+   "Is your shirt number seven, like last year?"
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "No, Mum. I've got a new shirt. It's number eleven."
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "Eleven? I thought it was seventeen."
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "No, seventeen is my friend's number."
+  ]
+ ],
+ "s4-t-8b": [
+  [
+   "bf_lily",
+   "Amira",
+   "Can I take my bike to the lake?"
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "There's no room in the car for a bike."
+  ],
+  [
+   "bf_lily",
+   "Amira",
+   "Then I'll take my kite. It's windy there."
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "And your ball?"
+  ],
+  [
+   "bf_lily",
+   "Amira",
+   "My cousins have got a ball."
+  ]
+ ],
+ "s4-t-9a": [
+  [
+   "bf_emma",
+   "Mum",
+   "Do you want eggs before the match?"
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "I usually have eggs. But Coach says eat something light. Can I have yoghurt and fruit?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "Of course. Not noodles?"
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "No, they're too much."
+  ]
+ ],
+ "s4-t-9b": [
+  [
+   "bm_george",
+   "Dad",
+   "Shall we cook fish on the fire for lunch?"
+  ],
+  [
+   "bf_lily",
+   "Amira",
+   "I don't really like fish, Dad. Can we cook corn?"
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "Yes. And sausages?"
+  ],
+  [
+   "bf_lily",
+   "Amira",
+   "We haven't got any sausages. Just corn, please."
+  ]
+ ],
+ "s4-t-10a": [
+  [
+   "bm_lewis",
+   "Jack",
+   "Mum, can we go swimming after the match?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "You'll be tired. Let's go to the café with your team."
+  ],
+  [
+   "bm_lewis",
+   "Jack",
+   "Not to Grandma's house?"
+  ],
+  [
+   "bf_emma",
+   "Mum",
+   "Grandma's coming to the match. She can come to the café too!"
+  ]
+ ],
+ "s4-t-10b": [
+  [
+   "bm_george",
+   "Dad",
+   "Last year we saw lots of ducks at the lake."
+  ],
+  [
+   "bf_lily",
+   "Amira",
+   "Yes! And swans. But this year I want to see frogs. They're my favourite animals."
+  ],
+  [
+   "bm_george",
+   "Dad",
+   "Then we'll look near the water."
+  ]
+ ]
+}

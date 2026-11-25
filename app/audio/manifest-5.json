@@ -1,0 +1,1601 @@
+{
+ "s5-see-1": [
+  [
+   "bf_lily",
+   "Clara",
+   "What did you buy at the school fair, Dan?"
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "Well, I looked at the books first, but they were too big for my bag."
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "Did you get a cake?"
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "No, the cakes were all gone! So I bought a small plant for my mum."
+  ]
+ ],
+ "s5-see-2": [
+  [
+   "bm_fable",
+   "Kenji",
+   "Do you walk to school, Vy?"
+  ],
+  [
+   "bf_alice",
+   "Vy",
+   "Usually I go by bike. But today it's raining, so my dad is driving me."
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "Oh. I always take the bus."
+  ]
+ ],
+ "s5-see-3": [
+  [
+   "bm_lewis",
+   "Elliot",
+   "You look happy, Aisha! Is it your birthday?"
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "No, my birthday is in May! I'm happy because I jumped three metres in the long jump today."
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Wow! Are you going to try the running race next?"
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "I was going to. But now I want to try skateboarding!"
+  ]
+ ],
+ "s5-ch-1a": [
+  [
+   "bf_alice",
+   "Rosa",
+   "You look happy, Huy! Is it your new trainers?"
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "No, I got those last week. And we lost our rugby match! I'm happy because Grandpa is coming to stay tonight."
+  ],
+  [
+   "bf_alice",
+   "Rosa",
+   "That's lovely! How long is he staying?"
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "Two weeks!"
+  ]
+ ],
+ "s5-ch-1b": [
+  [
+   "bm_lewis",
+   "Elliot",
+   "You're smiling a lot, Eva! Is it because it's Friday?"
+  ],
+  [
+   "bf_alice",
+   "Eva",
+   "Well, I like Fridays. But I'm smiling because I found my watch! It was under my bed."
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Oh good! I thought it was the school trip."
+  ],
+  [
+   "bf_alice",
+   "Eva",
+   "That's next week."
+  ]
+ ],
+ "s5-ch-2a": [
+  [
+   "bm_fable",
+   "Kenji",
+   "What do you have for breakfast on school days, Clara?"
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "I usually have rice and eggs. But today Mum made papaya and yoghurt. It was delicious!"
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "Yum! I always have noodles. My grandma makes them."
+  ]
+ ],
+ "s5-ch-2b": [
+  [
+   "bf_lily",
+   "Pia",
+   "Where are you going with your skateboard, Dan? To the park?"
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "Usually I skate in the park. But today it's too wet, so I'm going to the sports centre."
+  ],
+  [
+   "bf_lily",
+   "Pia",
+   "Oh. I'm going to the library."
+  ]
+ ],
+ "s5-ch-3a": [
+  [
+   "bm_fable",
+   "Huy",
+   "What are you making for the class party, Vy?"
+  ],
+  [
+   "bf_alice",
+   "Vy",
+   "I was going to make chocolate biscuits. But Rosa is making those. So I'm making little mango cakes."
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "Great! I'm bringing juice. Mum says I can't make anything!"
+  ]
+ ],
+ "s5-ch-3b": [
+  [
+   "bf_lily",
+   "Aisha",
+   "What are you having, Kenji? Orange juice? You always have that!"
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "I wanted orange juice, but they haven't got any today. So I'm having a mango milkshake."
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "Nice! I'm having lemon tea. It's my favourite."
+  ]
+ ],
+ "s5-ch-4a": [
+  [
+   "bf_lily",
+   "Clara",
+   "Did you like the new museum, Elliot?"
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Yes! The dinosaur room was OK. And the shop was too busy. But the best part was the space rocket. You can sit inside it!"
+  ]
+ ],
+ "s5-ch-4b": [
+  [
+   "bm_fable",
+   "Huy",
+   "Are you excited about the mountain walk on Saturday, Rosa?"
+  ],
+  [
+   "bf_alice",
+   "Rosa",
+   "Not really. I'm a bit worried. It's very long, and my legs get tired."
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "Don't worry! We can stop for snacks. I think it'll be fun!"
+  ]
+ ],
+ "s5-r-1a": [
+  [
+   "bm_fable",
+   "Kenji",
+   "Do you like bananas, Pia?"
+  ],
+  [
+   "bf_lily",
+   "Pia",
+   "They're OK. And mangoes are nice too. But my favourite fruit is papaya. It's so sweet and juicy!"
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "Papaya? I've never tried it."
+  ],
+  [
+   "bf_lily",
+   "Pia",
+   "You can have some of mine at lunch!"
+  ]
+ ],
+ "s5-r-1b": [
+  [
+   "bm_lewis",
+   "Dan",
+   "What do you do at the sports club, Eva?"
+  ],
+  [
+   "bf_alice",
+   "Eva",
+   "Lots of things! I like rugby best. It's really exciting."
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "Not the long jump?"
+  ],
+  [
+   "bf_alice",
+   "Eva",
+   "The long jump is fun, but I'm not very good at it. And we only do surfing in the summer."
+  ]
+ ],
+ "s5-r-2a": [
+  [
+   "bm_fable",
+   "Huy",
+   "Are you excited about the trip to the chocolate factory, Clara?"
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "No, I'm a bit sad. I'm ill, so I can't go."
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "Oh no! I'll bring you some chocolate."
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "Thanks, Huy! That makes me happy."
+  ]
+ ],
+ "s5-r-2b": [
+  [
+   "bf_alice",
+   "Rosa",
+   "How was the mountain walk, Elliot? Were you tired?"
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "No, I wasn't tired. But at the start I was bored. There was nothing to see."
+  ],
+  [
+   "bf_alice",
+   "Rosa",
+   "And at the end?"
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "At the top I felt really proud!"
+  ]
+ ],
+ "s5-r-3a": [
+  [
+   "bm_lewis",
+   "Dan",
+   "What's in the box, Vy? Is it a cake?"
+  ],
+  [
+   "bf_alice",
+   "Vy",
+   "No, it's a present for my grandma. I made her a plant pot."
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "Wow, you made it?"
+  ],
+  [
+   "bf_alice",
+   "Vy",
+   "Yes! I wanted to make a photo frame first, but it was too hard."
+  ]
+ ],
+ "s5-r-3b": [
+  [
+   "bf_lily",
+   "Aisha",
+   "Are you coming to the treasure hunt on Saturday, Kenji?"
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "Sorry, I can't. I'm going to the museum with my grandma."
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "Do you want to come to the cinema with me on Sunday, then?"
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "Yes, please! Sunday is fine."
+  ]
+ ],
+ "s5-r-4a": [
+  [
+   "bf_lily",
+   "Pia",
+   "Are you getting the bus home, Elliot?"
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Usually I do. But today my dad is collecting me in the car. We're going to the doctor's."
+  ],
+  [
+   "bf_lily",
+   "Pia",
+   "Oh. I always walk home with my sister. It only takes ten minutes."
+  ]
+ ],
+ "s5-r-4b": [
+  [
+   "bm_fable",
+   "Huy",
+   "Are you having rice for lunch again, Eva?"
+  ],
+  [
+   "bf_alice",
+   "Eva",
+   "Not today. I usually have rice, but today Dad made me noodles with vegetables. They smell so good!"
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "Yum! I've only got a cheese sandwich. Can I try your noodles?"
+  ]
+ ],
+ "s5-r-5a": [
+  [
+   "bf_lily",
+   "Clara",
+   "Cool skateboard, Dan! Was it a present from your grandpa?"
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "No, Grandpa gave me a helmet. My aunt gave me the skateboard."
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "Lucky you! My uncle gave me a bike for my birthday."
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "Cool! Let's ride them together after school."
+  ]
+ ],
+ "s5-r-5b": [
+  [
+   "bm_fable",
+   "Kenji",
+   "Are you going to the beach for the holiday, Rosa?"
+  ],
+  [
+   "bf_alice",
+   "Rosa",
+   "No, we went to the beach last year. This year we're going to the mountains. We're going to sleep in a yurt!"
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "A yurt? Wow! I'm going to my cousin's flat in the city."
+  ]
+ ],
+ "s5-r-6a": [
+  [
+   "bf_lily",
+   "Aisha",
+   "You're late, Huy! Did you get up late?"
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "No, I got up at six! But my neighbour's cat ran away, so I helped her look for it."
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "Oh, I thought your bus was late again."
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "Not today!"
+  ]
+ ],
+ "s5-r-6b": [
+  [
+   "bm_lewis",
+   "Elliot",
+   "Why are you collecting old bottles, Vy? Are they for the recycling?"
+  ],
+  [
+   "bf_alice",
+   "Vy",
+   "No. We're going to use them to make bird feeders for the park."
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Oh! I thought they were for an art project."
+  ],
+  [
+   "bf_alice",
+   "Vy",
+   "No, they're for the birds!"
+  ]
+ ],
+ "s5-r-7a": [
+  [
+   "bf_alice",
+   "Eva",
+   "Which stall are you helping at for the fair, Kenji? The cake stall?"
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "I was going to help with the cakes. But the teacher needs someone for the games stall, so I'm doing that now."
+  ],
+  [
+   "bf_alice",
+   "Eva",
+   "Great! I'm at the book stall."
+  ]
+ ],
+ "s5-r-7b": [
+  [
+   "bm_fable",
+   "Huy",
+   "Are you dressing up as an astronaut for Space Day, Pia?"
+  ],
+  [
+   "bf_lily",
+   "Pia",
+   "I wanted to, but my sister has the astronaut costume. So I'm going as a gold star! Mum is helping me make it."
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "Cool. I'm going to be a rocket."
+  ]
+ ],
+ "s5-r-8a": [
+  [
+   "bf_alice",
+   "Rosa",
+   "Do you like living in a bungalow, Dan? Is it big?"
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "Not really, and the garden is quite small. But I like it because there are no stairs. That's great for my grandma. She lives with us."
+  ],
+  [
+   "bf_alice",
+   "Rosa",
+   "That's nice!"
+  ]
+ ],
+ "s5-r-8b": [
+  [
+   "bm_lewis",
+   "Elliot",
+   "What are you doing at the sports centre today, Clara? Playing rugby?"
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "No, I don't play rugby. I'm going to watch my cousin. She's in a skateboarding competition!"
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Cool! I go there to play table tennis."
+  ]
+ ],
+ "s5-r-9a": [
+  [
+   "bf_lily",
+   "Aisha",
+   "Did you like the film about the planets, Dan?"
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "Yes! The pictures of Saturn were beautiful."
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "I agree! But the film was too long."
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "No, I wanted more! But the music was too loud."
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "Was it? I didn't notice."
+  ]
+ ],
+ "s5-r-9b": [
+  [
+   "bf_alice",
+   "Vy",
+   "Do you like the new café near school, Kenji? I love the juice there."
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "I really like the sandwiches. They're so fresh! But the juice is too sweet for me."
+  ],
+  [
+   "bf_alice",
+   "Vy",
+   "What about the cakes?"
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "They look nice, but they're too expensive."
+  ]
+ ],
+ "s5-a-1a": [
+  [
+   "bm_fable",
+   "Kenji",
+   "How was the amusement park, Clara?"
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "Brilliant! We went on the big wheel first. You can see the whole city from the top."
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "Was that the best part?"
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "It was good, but the best part was the water ride. We got really wet! It was so funny."
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "What about the food?"
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "The burgers were OK, but they were very expensive."
+  ]
+ ],
+ "s5-a-1b": [
+  [
+   "bm_fable",
+   "Huy",
+   "Pia, is it true you stayed in a tree house hotel?"
+  ],
+  [
+   "bf_lily",
+   "Pia",
+   "Yes! Our room was high up in a big tree. It had round windows."
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "Cool! Did you like the round windows best?"
+  ],
+  [
+   "bf_lily",
+   "Pia",
+   "No, I liked the bridge between the trees most. It moved a bit when we walked on it. It was exciting!"
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "And the breakfast?"
+  ],
+  [
+   "bf_lily",
+   "Pia",
+   "Not very nice. The eggs were cold."
+  ]
+ ],
+ "s5-a-2a": [
+  [
+   "bm_lewis",
+   "Elliot",
+   "Vy, you had your first surfing lesson on Sunday, didn't you? Were you scared?"
+  ],
+  [
+   "bf_alice",
+   "Vy",
+   "Before the lesson I was scared. The waves looked really big!"
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "And then?"
+  ],
+  [
+   "bf_alice",
+   "Vy",
+   "Then I stood up on the board! After the lesson I felt so happy. I want to go again next week."
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "I tried surfing once. I was just very tired!"
+  ],
+  [
+   "bf_alice",
+   "Vy",
+   "Well, I wasn't tired at all."
+  ]
+ ],
+ "s5-a-2b": [
+  [
+   "bm_lewis",
+   "Dan",
+   "Are you nervous about the long jump competition tomorrow, Aisha?"
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "Not really. I've practised every day this week. I'm really excited!"
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "I'm the nervous one! I've got a running race, and the other children are really fast. And my sister says watching sport is boring."
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "Boring? No way! Tell her to come and watch me jump. It's really fun!"
+  ]
+ ],
+ "s5-a-3a": [
+  [
+   "bf_alice",
+   "Rosa",
+   "Kenji, what did you see at the space museum? The planets?"
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "Yes, there was a big room about the planets. It was nice. But I spent all morning looking at the rover."
+  ],
+  [
+   "bf_alice",
+   "Rosa",
+   "The car that drives on Mars?"
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "Yes! I want to build one one day."
+  ],
+  [
+   "bf_alice",
+   "Rosa",
+   "I'd like to see the space shuttle. It's so huge!"
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "Oh, I didn't see that."
+  ]
+ ],
+ "s5-a-3b": [
+  [
+   "bf_alice",
+   "Eva",
+   "Huy, I'm growing cress in a yoghurt pot. Do you want to try?"
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "Cress? I don't really like it. It's too small!"
+  ],
+  [
+   "bf_alice",
+   "Eva",
+   "What about tomatoes? My dad grows them in our garden."
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "Tomatoes are nice, but they take a long time. I'd love to grow bok choy. My grandma cooks it every week!"
+  ],
+  [
+   "bf_alice",
+   "Eva",
+   "Good idea. It grows quite fast."
+  ]
+ ],
+ "s5-a-4a": [
+  [
+   "bf_lily",
+   "Clara",
+   "Why are you selling your old toys, Dan? Do you want money for a new game?"
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "No! We're raising money for the animal centre. They need food for the dogs."
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "Oh, that's kind. I thought you didn't have space in your room."
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "Well, my room is a bit small. But that's not why. The dogs are hungry!"
+  ]
+ ],
+ "s5-a-4b": [
+  [
+   "bf_lily",
+   "Pia",
+   "It's raining again! Are you sad, Elliot?"
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "No, I'm happy! I've got new rain boots, and I want to jump in all the puddles."
+  ],
+  [
+   "bf_lily",
+   "Pia",
+   "Is it because there's no PE today? You don't like running."
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "PE is still on. We're doing it in the hall. And I like running!"
+  ],
+  [
+   "bf_lily",
+   "Pia",
+   "Well, I'm sad. I wanted to go to the park after school."
+  ]
+ ],
+ "s5-a-5a": [
+  [
+   "bf_alice",
+   "Rosa",
+   "Wasn't the sunset beautiful last night, Huy?"
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "Yes, it was amazing. All orange and pink! I took lots of photos."
+  ],
+  [
+   "bf_alice",
+   "Rosa",
+   "But the hill was too hard to climb. My legs still hurt!"
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "I don't agree. It was easy! But there were lots of mosquitoes. Look at my arms!"
+  ],
+  [
+   "bf_alice",
+   "Rosa",
+   "Were there? I didn't see any. Maybe they only like you!"
+  ]
+ ],
+ "s5-a-5b": [
+  [
+   "bm_fable",
+   "Kenji",
+   "The clean-up was hard work, wasn't it, Aisha?"
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "Not really. It was quite easy. But it was fun to work with all our neighbours."
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "I agree. It was great fun. But we started too early. Eight o'clock on a Saturday!"
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "I didn't mind that. I always get up early."
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "Well, next time I want to start at ten!"
+  ]
+ ],
+ "s5-a-6a": [
+  [
+   "bm_lewis",
+   "Dan",
+   "What are you reading, Vy? A book about stars?"
+  ],
+  [
+   "bf_alice",
+   "Vy",
+   "Yes. It's about constellations, the pictures that stars make."
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "Is it for homework?"
+  ],
+  [
+   "bf_alice",
+   "Vy",
+   "No, our homework is about the moon. I'm reading it because we're going camping next week. Dad says we can see lots of stars there."
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "Cool. Do you want to be an astronaut?"
+  ],
+  [
+   "bf_alice",
+   "Vy",
+   "No, I want to be a vet!"
+  ]
+ ],
+ "s5-a-6b": [
+  [
+   "bf_lily",
+   "Clara",
+   "What are you doing at the library on Saturday, Huy? Is there a story club?"
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "There is, but it's for little children. I'm going because there's a robot show. You can make your own robot!"
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "Oh, I thought you wanted to use the computers."
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "No, we've got a computer at home. Do you want to come?"
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "Yes, please!"
+  ]
+ ],
+ "s5-a-7a": [
+  [
+   "bf_alice",
+   "Eva",
+   "Are you getting a pet, Elliot? A dog?"
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "I wanted a dog. But our home is too small. And Mum says a cat is too much work."
+  ],
+  [
+   "bf_alice",
+   "Eva",
+   "So what are you getting?"
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Two goldfish! We're going to buy a big tank for them on Saturday."
+  ],
+  [
+   "bf_alice",
+   "Eva",
+   "Lovely! Fish are easy to look after. What colour are they?"
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Orange, of course!"
+  ]
+ ],
+ "s5-a-7b": [
+  [
+   "bm_lewis",
+   "Dan",
+   "What are you getting your mum for her birthday, Rosa?"
+  ],
+  [
+   "bf_alice",
+   "Rosa",
+   "I was going to buy her some flowers. She loves yellow ones."
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "Flowers? My mum says they die too fast. What about some chocolate?"
+  ],
+  [
+   "bf_alice",
+   "Rosa",
+   "Mum doesn't eat chocolate. But you're right about flowers. I know! I'll buy her a plant. It lives for a long time."
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "Good idea!"
+  ]
+ ],
+ "s5-a-8a": [
+  [
+   "bm_fable",
+   "Kenji",
+   "I love hot, sunny days. What about you, Pia?"
+  ],
+  [
+   "bf_lily",
+   "Pia",
+   "Hot days are OK, but I don't like it when it's humid. I feel so sticky!"
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "Do you like snow? It's freezing, but it's fun."
+  ],
+  [
+   "bf_lily",
+   "Pia",
+   "I've never seen snow! My favourite weather is cool and windy. Then I can fly my kite."
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "Oh yes, kites are fun!"
+  ]
+ ],
+ "s5-a-8b": [
+  [
+   "bf_alice",
+   "Eva",
+   "Try this chocolate, Huy. It's dark chocolate from the new shop."
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "Thanks. Hmm, it's too bitter for me. I prefer milk chocolate. It's sweeter and softer."
+  ],
+  [
+   "bf_alice",
+   "Eva",
+   "Really? I love dark chocolate! It's my favourite. What about white chocolate?"
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "White chocolate is too sweet. I can't eat much of it."
+  ],
+  [
+   "bf_alice",
+   "Eva",
+   "OK, more dark chocolate for me, then!"
+  ]
+ ],
+ "s5-a-9a": [
+  [
+   "bm_lewis",
+   "Elliot",
+   "Do you want to play in the park after school, Aisha?"
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "I'd love to, but I can't today. I have to help my grandma at her house."
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Are you going shopping with her?"
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "No, we went shopping yesterday. Today we're making mango jam. It takes two hours!"
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Mmm! Can I try some tomorrow? I love mangoes."
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "Of course!"
+  ]
+ ],
+ "s5-a-9b": [
+  [
+   "bf_lily",
+   "Clara",
+   "Are you going to visit your cousins in the holiday, Kenji?"
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "We visited them last holiday. This time we're going on a trek in the mountains!"
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "Wow! I'm going to stay at home and read lots of books."
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "That sounds nice too. But I want an adventure! We're going to sleep in a tent for three nights."
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "Take lots of photos!"
+  ]
+ ],
+ "s5-t-1a": [
+  [
+   "bm_lewis",
+   "Dan",
+   "Well done, Vy! You won the treasure hunt! Was the treasure in the sandpit?"
+  ],
+  [
+   "bf_alice",
+   "Vy",
+   "No. I looked in the sandpit first, but it wasn't there."
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "Was it under the slide?"
+  ],
+  [
+   "bf_alice",
+   "Vy",
+   "No. It was behind the swings! There was a little box with a gold star in it."
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "Oh! I looked near the slide for ages! Well done."
+  ]
+ ],
+ "s5-t-1b": [
+  [
+   "bf_alice",
+   "Rosa",
+   "Did you go to the beach on Sunday, Elliot?"
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "No. We wanted to, but it was too windy. So we went to a farm. I fed the goats!"
+  ],
+  [
+   "bf_alice",
+   "Rosa",
+   "That sounds fun. Did you go to the sports centre after that? There's a rugby match every Sunday."
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "No, we were too tired. We're going next Sunday. Do you want to come?"
+  ]
+ ],
+ "s5-t-2a": [
+  [
+   "bm_fable",
+   "Kenji",
+   "You've got a school job this week, haven't you, Eva? Are you helping the librarian?"
+  ],
+  [
+   "bf_alice",
+   "Eva",
+   "No, I helped her last week. I put all the books away. This week I'm helping the caretaker. We're fixing the classroom chairs!"
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "Cool. I'm helping the school nurse. I tidy her room every morning."
+  ],
+  [
+   "bf_alice",
+   "Eva",
+   "That's a nice job too."
+  ]
+ ],
+ "s5-t-2b": [
+  [
+   "bf_lily",
+   "Pia",
+   "Is the class trip to the music academy on Monday, Huy? I can't remember."
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "No, it's not on Monday. That's our sports day."
+  ],
+  [
+   "bf_lily",
+   "Pia",
+   "Oh! So is it on Thursday?"
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "Well, it was on Thursday. But the teacher changed it, because the bus wasn't free. Now it's on Friday."
+  ],
+  [
+   "bf_lily",
+   "Pia",
+   "Friday? Great! That's my favourite day of the week."
+  ]
+ ],
+ "s5-t-3a": [
+  [
+   "bm_lewis",
+   "Dan",
+   "What are you making with those old boxes, Clara? A house for your cat?"
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "Ha! No. I'm making a robot for the eco fair. It's made of boxes and bottle tops."
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "Cool! I made a bird house from old boxes last year."
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "I remember. It was great! Can you help me with the robot's arms?"
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "Of course!"
+  ]
+ ],
+ "s5-t-3b": [
+  [
+   "bf_lily",
+   "Aisha",
+   "Huy, does the rugby club start at four o'clock?"
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "It usually starts at four. But this week it starts at half past four, because the coach has a meeting at school."
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "Oh, OK. And when does it finish?"
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "At six o'clock, like always. Do you want to come and watch?"
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "Yes, maybe! I'll ask my mum."
+  ]
+ ],
+ "s5-t-4a": [
+  [
+   "bm_fable",
+   "Kenji",
+   "How was your weekend, Rosa? Was it hot in your grandparents' village?"
+  ],
+  [
+   "bf_alice",
+   "Rosa",
+   "No, it was cool! We wore jumpers in the evening, and we sat by the fire."
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "Here in the city it was wet all weekend. It rained on Saturday and Sunday!"
+  ],
+  [
+   "bf_alice",
+   "Rosa",
+   "Really? We didn't have any rain at all. It was lovely."
+  ]
+ ],
+ "s5-t-4b": [
+  [
+   "bm_lewis",
+   "Elliot",
+   "Vy, did you see the shooting stars last night?"
+  ],
+  [
+   "bf_alice",
+   "Vy",
+   "No, I went to bed too early! But I saw lightning. There was a big storm at ten o'clock."
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "I didn't see that. I was looking for a constellation, the Great Bear."
+  ],
+  [
+   "bf_alice",
+   "Vy",
+   "Did you find it?"
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Yes! It looks like a big spoon. I want to find another one tonight."
+  ]
+ ],
+ "s5-t-5a": [
+  [
+   "bm_lewis",
+   "Dan",
+   "How many cakes did you sell at the cake sale, Pia? Twenty?"
+  ],
+  [
+   "bf_lily",
+   "Pia",
+   "No, more than that! I made thirty chocolate cakes with my mum, and I sold twenty-eight."
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "Wow, that's a lot! What happened to the other two?"
+  ],
+  [
+   "bf_lily",
+   "Pia",
+   "My little brother ate them! He said they were for the helpers."
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "Ha! Lucky brother! I only sold ten biscuits."
+  ]
+ ],
+ "s5-t-5b": [
+  [
+   "bm_fable",
+   "Kenji",
+   "Have you seen the new building in our street, Aisha? Is it a hotel?"
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "No, it isn't a hotel. My mum says it's going to be a sports centre."
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "Oh! I thought it was a museum, because it's got a strange round roof."
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "The museum is next to the river. This one is for sport! I hope it has a climbing wall."
+  ]
+ ],
+ "s5-t-6a": [
+  [
+   "bm_fable",
+   "Huy",
+   "How was the night market, Clara?"
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "Great! The food was nice, but it was very busy. We waited a long time for our noodles."
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "Did you see the music show?"
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "Yes, it was quite good. But my favourite thing was the lantern stall. There were hundreds of lanterns in lots of colours!"
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "That sounds beautiful."
+  ]
+ ],
+ "s5-t-6b": [
+  [
+   "bf_alice",
+   "Eva",
+   "Dan, you visited the famous upside-down house, didn't you?"
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "Yes! The beds and chairs were on the ceiling. It was funny, but it made me feel a bit sick."
+  ],
+  [
+   "bf_alice",
+   "Eva",
+   "Oh no! Was the gift shop good?"
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "It was too expensive. But the garden had a maze. We got lost for twenty minutes! I'd go back just for that."
+  ],
+  [
+   "bf_alice",
+   "Eva",
+   "I love mazes!"
+  ]
+ ],
+ "s5-t-7a": [
+  [
+   "bm_fable",
+   "Kenji",
+   "Why do you always turn off the lights, Vy? To save money?"
+  ],
+  [
+   "bf_alice",
+   "Vy",
+   "Well, my dad likes that! But I do it to help the planet. We learned about it at school. Using less energy is good for the Earth."
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "Oh. I thought your mum told you to do it."
+  ],
+  [
+   "bf_alice",
+   "Vy",
+   "No, she always forgets! I tell her!"
+  ]
+ ],
+ "s5-t-7b": [
+  [
+   "bm_lewis",
+   "Elliot",
+   "Who's that on your poster, Aisha?"
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "She's a long jump champion. I love her!"
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Is it because she's very fast?"
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "She is fast, but that's not why. She hurt her leg two years ago, and she didn't stop. She practised every day, and she won again!"
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Wow. That's amazing. I like her red shoes too."
+  ]
+ ],
+ "s5-t-8a": [
+  [
+   "bf_alice",
+   "Rosa",
+   "The school concert was great, wasn't it, Huy?"
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "Yes! The singing was brilliant. Everyone sang so well. I loved the last song."
+  ],
+  [
+   "bf_alice",
+   "Rosa",
+   "I agree. But the hall was too hot. I wanted to open the windows."
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "Was it? I didn't feel hot. I thought the concert was too short, though."
+  ],
+  [
+   "bf_alice",
+   "Rosa",
+   "Too short? No, it was nearly two hours!"
+  ]
+ ],
+ "s5-t-8b": [
+  [
+   "bf_lily",
+   "Pia",
+   "Have you tried dragon fruit, Elliot? I had some at lunch. I think it's really sweet."
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Sweet? No, it hasn't got much taste. But it's very juicy."
+  ],
+  [
+   "bf_lily",
+   "Pia",
+   "You're right. It's so juicy! But it's quite expensive, isn't it?"
+  ],
+  [
+   "bm_lewis",
+   "Elliot",
+   "Not at the market. My grandma buys it there every week. It's cheap!"
+  ],
+  [
+   "bf_lily",
+   "Pia",
+   "Oh, I must go there!"
+  ]
+ ],
+ "s5-t-9a": [
+  [
+   "bm_lewis",
+   "Dan",
+   "What are you doing at the community day, Eva? Face painting?"
+  ],
+  [
+   "bf_alice",
+   "Eva",
+   "I was going to do face painting. But my friend says it's always really busy."
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "What about the craft table? You're good at making things."
+  ],
+  [
+   "bf_alice",
+   "Eva",
+   "Hmm, maybe. Oh, I know! I'll help at the lemonade stall. We're raising money for new sports equipment."
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "Great! I'll buy a cup."
+  ]
+ ],
+ "s5-t-9b": [
+  [
+   "bm_fable",
+   "Kenji",
+   "How are you getting to the sports centre on Saturday, Clara?"
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "I'm going to ride my bike."
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "Your bike? But the roads near there are very busy on Saturdays."
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "Oh, you're right. Then I'll walk. It's only twenty minutes."
+  ],
+  [
+   "bm_fable",
+   "Kenji",
+   "Why don't you come on the bus with me?"
+  ],
+  [
+   "bf_lily",
+   "Clara",
+   "No thanks. I like walking!"
+  ]
+ ],
+ "s5-t-10a": [
+  [
+   "bf_lily",
+   "Aisha",
+   "Which planet do you like best, Huy? I love Saturn because of its beautiful rings."
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "Saturn is pretty. But I prefer Mars. It's red, and one day people might live there!"
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "What about Jupiter? It's the biggest planet of all."
+  ],
+  [
+   "bm_fable",
+   "Huy",
+   "Big isn't everything! Mars is more exciting. I want to visit it one day."
+  ],
+  [
+   "bf_lily",
+   "Aisha",
+   "Take me with you!"
+  ]
+ ],
+ "s5-t-10b": [
+  [
+   "bf_alice",
+   "Rosa",
+   "Do you like stories about dragons, Dan? I love them! I've got ten at home."
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "They're OK. But I prefer books about real animals. I learn so many things, like how fast a cheetah can run."
+  ],
+  [
+   "bf_alice",
+   "Rosa",
+   "What about funny comics?"
+  ],
+  [
+   "bm_lewis",
+   "Dan",
+   "My brother reads those. I think they're a bit silly."
+  ],
+  [
+   "bf_alice",
+   "Rosa",
+   "Really? I love them too!"
+  ]
+ ]
+}

@@ -27,7 +27,7 @@ cache = json.load(open(cache_p)) if os.path.exists(cache_p) else {}
 k = Kokoro(TTS_DIR + '/kokoro-v1.0.onnx', TTS_DIR + '/voices-v1.0.bin')
 VOICES = set(k.get_voices())
 SR = 24000
-SPEED = 0.9                 # every line (the exam recordings are calm and clear)
+SPEED = 0.85                # Grade 3: a little slower than Grade 5 (0.9)
 SPELL_SPEED = 0.8
 SPELL = re.compile(r"\b([A-Za-z](?:-[A-Za-z]){2,})\b")
 # British letter names as sounds (IPA, as the voice engine reads them)

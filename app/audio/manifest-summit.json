@@ -1,0 +1,349 @@
+{
+ "sm-summit-l1-q1": [
+  [
+   "bf_isabella",
+   "Aunt",
+   "Owen, are the shopping bags in the car?"
+  ],
+  [
+   "bm_lewis",
+   "Owen",
+   "No, they aren't. They're in my backpack."
+  ],
+  [
+   "bf_isabella",
+   "Aunt",
+   "Oh, good. Not in your bike basket?"
+  ],
+  [
+   "bm_lewis",
+   "Owen",
+   "No, I didn't bring my bike today."
+  ]
+ ],
+ "sm-summit-l1-q2": [
+  [
+   "bf_isabella",
+   "Aunt",
+   "Shall we get a long loaf of bread, Owen?"
+  ],
+  [
+   "bm_lewis",
+   "Owen",
+   "No, not a long one. Can we get a round one with a hole in it?"
+  ],
+  [
+   "bf_isabella",
+   "Aunt",
+   "Not the square one for sandwiches?"
+  ],
+  [
+   "bm_lewis",
+   "Owen",
+   "No, the round one, please!"
+  ]
+ ],
+ "sm-summit-l1-q3": [
+  [
+   "bf_isabella",
+   "Aunt",
+   "Would you like to be a fisherman one day, Owen?"
+  ],
+  [
+   "bm_lewis",
+   "Owen",
+   "No, I feel sick on boats. I want to be a farmer."
+  ],
+  [
+   "bf_isabella",
+   "Aunt",
+   "Last year you wanted to be a cook!"
+  ],
+  [
+   "bm_lewis",
+   "Owen",
+   "Yes, but now I like growing vegetables more."
+  ]
+ ],
+ "sm-summit-l1-q4": [
+  [
+   "bf_isabella",
+   "Aunt",
+   "Would you like some noodles for lunch, Owen?"
+  ],
+  [
+   "bm_lewis",
+   "Owen",
+   "No, thanks. I had noodles for breakfast. Can I have rice and fish?"
+  ],
+  [
+   "bf_isabella",
+   "Aunt",
+   "Not a sandwich? You love sandwiches."
+  ],
+  [
+   "bm_lewis",
+   "Owen",
+   "Not today. Rice and fish, please!"
+  ]
+ ],
+ "sm-summit-l1-q5": [
+  [
+   "bf_isabella",
+   "Aunt",
+   "Is your dad coming at twelve o'clock, like every Saturday?"
+  ],
+  [
+   "bm_lewis",
+   "Owen",
+   "Not today. He's playing football, so he's coming half an hour later."
+  ],
+  [
+   "bf_isabella",
+   "Aunt",
+   "Good. The market closes at one o'clock, so we've got time for a drink!"
+  ]
+ ],
+ "sm-summit-l2-q6": [
+  [
+   "bm_fable",
+   "Seb",
+   "Did you see the rainbow after school yesterday, Luna?"
+  ],
+  [
+   "bf_alice",
+   "Luna",
+   "Yes! I saw it from the bus. The colours were so bright."
+  ],
+  [
+   "bm_fable",
+   "Seb",
+   "I liked the colours too, but the best part for me was the size. It went right over the park!"
+  ],
+  [
+   "bf_alice",
+   "Luna",
+   "It was huge. But do you know what I liked most? There were two rainbows, one on top of the other!"
+  ],
+  [
+   "bm_fable",
+   "Seb",
+   "Two? Really? I only saw one!"
+  ]
+ ],
+ "sm-summit-l2-q7": [
+  [
+   "bf_lily",
+   "Emily",
+   "Hi, Tam. Is that bag for your new karate class?"
+  ],
+  [
+   "bm_lewis",
+   "Tam",
+   "Yes! I'm a bit shy, so I want to feel braver. Dad says karate can help."
+  ],
+  [
+   "bf_lily",
+   "Emily",
+   "Oh! I thought it was because of your brother. He's got lots of karate medals."
+  ],
+  [
+   "bm_lewis",
+   "Tam",
+   "He has, but I don't care about medals."
+  ],
+  [
+   "bf_lily",
+   "Emily",
+   "And you want to get stronger, don't you?"
+  ],
+  [
+   "bm_lewis",
+   "Tam",
+   "Not really. I'm already strong!"
+  ]
+ ],
+ "sm-summit-l2-q8": [
+  [
+   "bf_alice",
+   "Luna",
+   "Seb, I can't find my scarf. The blue one with stripes."
+  ],
+  [
+   "bm_fable",
+   "Seb",
+   "Did you leave it in the classroom?"
+  ],
+  [
+   "bf_alice",
+   "Luna",
+   "No, I looked there. I took it off when we played football. So it's on the field, I think."
+  ],
+  [
+   "bm_fable",
+   "Seb",
+   "Let's look in the lost property box first. The caretaker puts everything there."
+  ],
+  [
+   "bf_alice",
+   "Luna",
+   "Good idea. If it isn't there, we can check the football field after that."
+  ],
+  [
+   "bm_fable",
+   "Seb",
+   "OK. Come on, let's go!"
+  ]
+ ],
+ "sm-summit-l2-q9": [
+  [
+   "bf_lily",
+   "Emily",
+   "Tam, which planet are you making for our class model?"
+  ],
+  [
+   "bm_lewis",
+   "Tam",
+   "First I wanted Saturn, because of the rings. But Luna's already making it."
+  ],
+  [
+   "bf_lily",
+   "Emily",
+   "So what about Mars? You've got lots of red paint."
+  ],
+  [
+   "bm_lewis",
+   "Tam",
+   "Mars is too small. I'm going to make Jupiter. It's the biggest, and I can use an old football!"
+  ],
+  [
+   "bf_lily",
+   "Emily",
+   "Great idea. Then I'll make Mars!"
+  ]
+ ],
+ "sm-summit-l2-q10": [
+  [
+   "bm_fable",
+   "Seb",
+   "Luna, are you going to the pancake breakfast at the sports club on Sunday?"
+  ],
+  [
+   "bf_alice",
+   "Luna",
+   "Yes! My mum's making the pancakes. Are you going to eat lots of them?"
+  ],
+  [
+   "bm_fable",
+   "Seb",
+   "Well, I like pancakes, but I'm more interested in the pancake race. People run and flip pancakes in a pan!"
+  ],
+  [
+   "bf_alice",
+   "Luna",
+   "My dad's in the race! I'm going to help my mum cook."
+  ],
+  [
+   "bm_fable",
+   "Seb",
+   "Cool. I'll shout for your dad!"
+  ]
+ ],
+ "sm-summit-l3": [
+  [
+   "bm_daniel",
+   "Cook",
+   "Hello! Are you here for the junior cooking class?"
+  ],
+  [
+   "bf_lily",
+   "Nora",
+   "Yes, please. I'd like to join."
+  ],
+  [
+   "bm_daniel",
+   "Cook",
+   "Great. What's your first name?"
+  ],
+  [
+   "bf_lily",
+   "Nora",
+   "It's Nora. N-O-R-A."
+  ],
+  [
+   "bm_daniel",
+   "Cook",
+   "Thank you, Nora. How old are you?"
+  ],
+  [
+   "bf_lily",
+   "Nora",
+   "I'm eight. But I'll be nine in March!"
+  ],
+  [
+   "bm_daniel",
+   "Cook",
+   "So you're eight now. Good. And where do you live?"
+  ],
+  [
+   "bf_lily",
+   "Nora",
+   "At number fifteen, Willow Street."
+  ],
+  [
+   "bm_daniel",
+   "Cook",
+   "How do you spell Willow?"
+  ],
+  [
+   "bf_lily",
+   "Nora",
+   "W-I-L-L-O-W."
+  ],
+  [
+   "bm_daniel",
+   "Cook",
+   "Thanks. Now, what's your mum's phone number?"
+  ],
+  [
+   "bf_lily",
+   "Nora",
+   "It's zero nine eight three, six two seven, four one five."
+  ],
+  [
+   "bm_daniel",
+   "Cook",
+   "Lovely. We have classes on Saturday and Sunday. Which day would you like?"
+  ],
+  [
+   "bf_lily",
+   "Nora",
+   "I visit my grandma every Saturday, so Sunday, please."
+  ],
+  [
+   "bm_daniel",
+   "Cook",
+   "Sunday. And is there any food you can't eat?"
+  ],
+  [
+   "bf_lily",
+   "Nora",
+   "Sorry? Do you mean food I don't like?"
+  ],
+  [
+   "bm_daniel",
+   "Cook",
+   "No, I mean food that makes you ill."
+  ],
+  [
+   "bf_lily",
+   "Nora",
+   "Oh! Nuts make me ill. I can't eat nuts. But I love eggs and cheese!"
+  ],
+  [
+   "bm_daniel",
+   "Cook",
+   "OK, no nuts for you. See you on Sunday, Nora!"
+  ]
+ ]
+}
