@@ -9,7 +9,7 @@ Everything needed to rebuild, change and republish the Grade 3 ESL revision app 
 ## Inside
 
 - `CLAUDE.md`: instructions for Claude Code (start here)
-- `dist/`: the finished app, ready to publish (`index.html` + 0 recordings + the picture set)
+- `dist/`: the finished app, ready to publish (`index.html` + 133 recordings + the picture set)
 - `app/src/`: the app source and `app/audio/` (recording scripts)
 - `content/`: all questions, texts, listening scripts and writing tasks (JSON)
 - `docs/`: exam-style guide, content format, stop briefs, learning objectives, decisions, architecture, item security, coverage map
