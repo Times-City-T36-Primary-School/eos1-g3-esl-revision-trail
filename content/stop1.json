@@ -1,0 +1,2281 @@
+{
+ "n": 1,
+ "title": "Topic words and describing words",
+ "blurb": {
+  "en": "Learn topic words, describing words, bigger and the biggest, and countable nouns.",
+  "vi": "Học từ vựng theo chủ đề, từ miêu tả, so sánh hơn, so sánh nhất và danh từ đếm được."
+ },
+ "words": {
+  "sets": [
+   {
+    "id": "A",
+    "title": {
+     "en": "Our community and our homes",
+     "vi": "Cộng đồng và ngôi nhà của chúng ta"
+    },
+    "keys": [
+     "neighbourhood",
+     "caretaker",
+     "librarian",
+     "chimney",
+     "bungalow"
+    ]
+   },
+   {
+    "id": "B",
+    "title": {
+     "en": "Space and food",
+     "vi": "Vũ trụ và thức ăn"
+    },
+    "keys": [
+     "orbit",
+     "satellite",
+     "nutritious",
+     "soil"
+    ]
+   },
+   {
+    "id": "C",
+    "title": {
+     "en": "Describing words",
+     "vi": "Từ miêu tả"
+    },
+    "keys": [
+     "freezing",
+     "wooden",
+     "spiky",
+     "juicy",
+     "keen"
+    ]
+   }
+  ],
+  "items": {
+   "neighbourhood": {
+    "emoji": "🏘️",
+    "vi": "khu phố, khu dân cư",
+    "def": "The streets and homes around the place where you live.",
+    "ex": "There is a small sports club in our *neighbourhood*."
+   },
+   "caretaker": {
+    "emoji": "🧹",
+    "vi": "người trông coi và sửa chữa ở trường",
+    "def": "A person who looks after a school building and fixes things.",
+    "ex": "The *caretaker* fixed the broken door of our classroom."
+   },
+   "librarian": {
+    "emoji": "📚",
+    "vi": "thủ thư",
+    "def": "A person who works with books and helps you find the right one.",
+    "ex": "The *librarian* helped me find a book about the sea."
+   },
+   "chimney": {
+    "emoji": "🏠",
+    "vi": "ống khói",
+    "def": "A tall pipe on a roof. Smoke from a fire goes out of it.",
+    "ex": "Grey smoke came out of the *chimney* on the roof."
+   },
+   "bungalow": {
+    "emoji": "🏡",
+    "vi": "nhà một tầng",
+    "def": "A house with only one floor, so there are no stairs inside.",
+    "ex": "My grandparents live in a *bungalow*, so they don't climb any stairs."
+   },
+   "orbit": {
+    "emoji": "🪐",
+    "vi": "quỹ đạo",
+    "def": "The path a planet or moon takes around something, again and again.",
+    "ex": "The Moon moves in an *orbit* around the Earth."
+   },
+   "satellite": {
+    "emoji": "🛰️",
+    "vi": "vệ tinh",
+    "def": "A machine in space that goes around the Earth and sends us pictures.",
+    "ex": "A *satellite* takes photos of the clouds for the weather report."
+   },
+   "nutritious": {
+    "emoji": "🥦",
+    "vi": "bổ dưỡng",
+    "def": "Full of good things that help your body grow and stay healthy.",
+    "ex": "Fish and green vegetables are *nutritious* foods."
+   },
+   "soil": {
+    "emoji": "🌱",
+    "vi": "đất trồng",
+    "def": "The brown earth on the ground where plants grow.",
+    "ex": "Worms live under the ground in the *soil*."
+   },
+   "freezing": {
+    "emoji": "🥶",
+    "vi": "lạnh cóng, rất lạnh",
+    "def": "Very, very cold, like ice and snow.",
+    "ex": "It is *freezing* at the top of the mountain, so wear a warm hat."
+   },
+   "wooden": {
+    "emoji": "🪵",
+    "vi": "làm bằng gỗ",
+    "def": "Made from the hard part of a tree.",
+    "ex": "There is a big *wooden* table in our kitchen."
+   },
+   "spiky": {
+    "emoji": "🌵",
+    "vi": "có gai, lởm chởm",
+    "def": "Covered with sharp points that can hurt your fingers.",
+    "ex": "A pineapple has *spiky* leaves on top."
+   },
+   "juicy": {
+    "emoji": "🍉",
+    "vi": "mọng nước",
+    "def": "Full of sweet water that runs out when you bite it.",
+    "ex": "This *juicy* watermelon is perfect on a hot day."
+   },
+   "keen": {
+    "emoji": "🤩",
+    "vi": "say mê, rất thích",
+    "def": "Very interested in something and wanting to do it a lot.",
+    "ex": "Minh is *keen* on skateboarding. He practises every day."
+   }
+  }
+ },
+ "see": {
+  "scenes": [
+   {
+    "id": "s1",
+    "title": {
+     "en": "Bigger and the biggest",
+     "vi": "So sánh hơn và so sánh nhất"
+    },
+    "kind": "text",
+    "head": "A page from a space book for children",
+    "html": "There are eight planets in our Solar System. Mars is *smaller* than Earth. Earth is *bigger* than Mars, but Jupiter is *the biggest* planet of all. Mercury is *the smallest* planet. It is *closer* to the Sun than Earth. Venus is *hotter* than Mercury. It is *the hottest* planet! Saturn has got big rings. Some people say it is *the most beautiful* planet.",
+    "audio": null,
+    "steps": [
+     {
+      "en": "Look at the words in gold. We use them to compare things.",
+      "vi": "Hãy nhìn các từ màu vàng. Chúng ta dùng chúng để so sánh các vật."
+     },
+     {
+      "en": "Two things? Add *-er* and use *than*: Mars is *smaller than* Earth.",
+      "vi": "So sánh hai vật? Thêm *-er* và dùng *than*: Mars is *smaller than* Earth."
+     },
+     {
+      "en": "One of a big group? Use *the* and *-est*: Jupiter is *the biggest* planet.",
+      "vi": "So sánh một vật với cả nhóm? Dùng *the* và *-est*: Jupiter is *the biggest* planet."
+     },
+     {
+      "en": "Long words use *more* and *the most*: *the most beautiful* planet.",
+      "vi": "Từ dài dùng *more* và *the most*: *the most beautiful* planet."
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "title": {
+     "en": "Good, better, the best",
+     "vi": "Good, better, the best: so sánh đặc biệt"
+    },
+    "kind": "text",
+    "head": "Ruby's football club diary",
+    "html": "My football club played three matches this month. The first match was *good*. We scored one goal. The second match was *better*. We scored three goals! The last match was *the best* because we won the cup. But the weather was a problem. It was *bad* on the first day and *worse* on the second day. On the last day it was *the worst*: cold, wet and windy!",
+    "audio": null,
+    "steps": [
+     {
+      "en": "Some describing words don't add *-er* or *-est*. They change into new words.",
+      "vi": "Một số từ miêu tả không thêm *-er* hay *-est*. Chúng đổi thành từ mới."
+     },
+     {
+      "en": "*good* → *better* → *the best*",
+      "vi": "*good* (tốt) → *better* (tốt hơn) → *the best* (tốt nhất)"
+     },
+     {
+      "en": "*bad* → *worse* → *the worst*",
+      "vi": "*bad* (tệ) → *worse* (tệ hơn) → *the worst* (tệ nhất)"
+     },
+     {
+      "en": "Say them like a little song: good, better, best; bad, worse, worst.",
+      "vi": "Hãy đọc như một bài hát nhỏ: good, better, best; bad, worse, worst."
+     }
+    ]
+   },
+   {
+    "id": "s3",
+    "title": {
+     "en": "One egg, some rice",
+     "vi": "Danh từ đếm được và không đếm được"
+    },
+    "kind": "text",
+    "head": "A note from Dad on the fridge",
+    "html": "Theo, please go to the shop for me. We need *six eggs*, *a cabbage* and *two mangoes*. We also need *some rice* and *some cheese*. Please buy *a bottle of* water and *a loaf of* bread too. Thank you!<br>Love, Dad",
+    "audio": null,
+    "steps": [
+     {
+      "en": "*Eggs* and *mangoes* are countable. We can count them: one egg, two mangoes.",
+      "vi": "*Eggs* và *mangoes* là danh từ đếm được. Ta đếm được: one egg, two mangoes."
+     },
+     {
+      "en": "*Rice*, *cheese*, *water* and *bread* are uncountable. We say *some rice*, with no *-s*.",
+      "vi": "*Rice*, *cheese*, *water* và *bread* là danh từ không đếm được. Ta nói *some rice*, không thêm *-s*."
+     },
+     {
+      "en": "Use *a* or *an* only for ONE countable thing: *a* cabbage, *an* egg.",
+      "vi": "Chỉ dùng *a* hoặc *an* cho MỘT vật đếm được: *a* cabbage, *an* egg."
+     },
+     {
+      "en": "To count uncountable things, use a container: *a bottle of* water, *a loaf of* bread.",
+      "vi": "Muốn đếm vật không đếm được, hãy dùng từ chỉ vật chứa: *a bottle of* water, *a loaf of* bread."
+     }
+    ]
+   }
+  ],
+  "challenge": {
+   "end": {
+    "en": "Great work! You found the special words in all three texts.",
+    "vi": "Làm tốt lắm! Em đã tìm được các từ đặc biệt trong cả ba bài đọc."
+   },
+   "result": "You spotted bigger and the biggest, better and the best, and countable and uncountable nouns.",
+   "rounds": [
+    {
+     "lo": [
+      "4Ug.11"
+     ],
+     "v": [
+      {
+       "type": "mcq",
+       "q": "Jupiter is ________ planet of all.",
+       "opts": [
+        "the biggest",
+        "bigger",
+        "big"
+       ],
+       "at": 2,
+       "whys": [
+        null,
+        "Bigger is for two things, with than. Here Jupiter is one of all the planets.",
+        "Big does not compare. The words 'of all' tell you to compare."
+       ],
+       "hint": "Look at 'of all'. Is Jupiter compared with one planet or with all of them?",
+       "worked": "Jupiter is compared with all the planets, so we need *the biggest*: 'the biggest planet of all'.",
+       "stim": null
+      },
+      {
+       "type": "mcq",
+       "q": "Mars is ________ than Earth.",
+       "opts": [
+        "smaller",
+        "the smallest",
+        "small"
+       ],
+       "at": 1,
+       "whys": [
+        null,
+        "We use the smallest for one of a big group, not with than.",
+        "Small does not compare. Look at the word than."
+       ],
+       "hint": "Look at the word after the gap. Which form goes with than?",
+       "worked": "We compare two planets with *than*, so we add -er: 'Mars is *smaller* than Earth.'",
+       "stim": null
+      }
+     ]
+    },
+    {
+     "lo": [
+      "4Ug.11"
+     ],
+     "v": [
+      {
+       "type": "mcq",
+       "q": "The last match was ________ because we won the cup.",
+       "opts": [
+        "the best",
+        "the worst",
+        "better"
+       ],
+       "at": 1,
+       "whys": [
+        null,
+        "The worst doesn't make sense. Ruby's club won the cup!",
+        "Better compares two things. Ruby is talking about all three matches."
+       ],
+       "hint": "Ruby played three matches. Was the last one compared with one match or with all of them?",
+       "worked": "It was the top match of all three, so it was *the best*: 'we won the cup'.",
+       "stim": null
+      },
+      {
+       "type": "mcq",
+       "q": "The weather was bad on day one and ________ on day two.",
+       "opts": [
+        "worse",
+        "the worst",
+        "bad"
+       ],
+       "at": 0,
+       "whys": [
+        null,
+        "The worst is for the very last day, the most terrible one of all.",
+        "Bad is day one. Day two was more bad than that."
+       ],
+       "hint": "Day two is compared with day one only. Which form compares two days?",
+       "worked": "Bad becomes *worse* when we compare two days: 'bad on day one and *worse* on day two'.",
+       "stim": null
+      }
+     ]
+    },
+    {
+     "lo": [
+      "4Uv.05"
+     ],
+     "v": [
+      {
+       "type": "mcq",
+       "q": "We also need ________ rice.",
+       "opts": [
+        "some",
+        "an",
+        "two"
+       ],
+       "at": 0,
+       "whys": [
+        null,
+        "We use an with one countable thing, like an egg. We can't count rice.",
+        "We can't count rice, so we can't say a number before it."
+       ],
+       "hint": "Can you count rice grain by grain in a shop? Is rice countable or uncountable?",
+       "worked": "Rice is uncountable, so Dad writes *some rice*.",
+       "stim": null
+      },
+      {
+       "type": "mcq",
+       "q": "Please buy a ________ of water.",
+       "opts": [
+        "bottle",
+        "loaf",
+        "slice"
+       ],
+       "at": 2,
+       "whys": [
+        null,
+        "We use a loaf for bread, not water.",
+        "We use a slice for bread or cake. Water is a drink."
+       ],
+       "hint": "Water is a drink. What do we put water in at the shop?",
+       "worked": "We buy water in *a bottle*: 'a bottle of water'.",
+       "stim": null
+      }
+     ]
+    },
+    {
+     "lo": [
+      "4Ug.11"
+     ],
+     "v": [
+      {
+       "type": "mcq",
+       "q": "Some people say Saturn is ________ planet.",
+       "opts": [
+        "the most beautiful",
+        "more beautiful",
+        "beautiful"
+       ],
+       "at": 1,
+       "whys": [
+        null,
+        "More beautiful compares two things, with than.",
+        "Beautiful does not compare. Saturn is compared with all the planets."
+       ],
+       "hint": "Beautiful is a long word. Which form compares one planet with all the others?",
+       "worked": "Long words use *the most* for one of a group: 'the most beautiful planet'.",
+       "stim": null
+      },
+      {
+       "type": "mcq",
+       "q": "Mercury is ________ to the Sun than Earth.",
+       "opts": [
+        "closer",
+        "the closest",
+        "close"
+       ],
+       "at": 2,
+       "whys": [
+        null,
+        "The closest is for one of a big group, not with than.",
+        "Close does not compare. Look for the word than."
+       ],
+       "hint": "Find the word than in the sentence. Which form goes with it?",
+       "worked": "Two planets are compared with *than*, so we need *closer*: 'closer to the Sun than Earth'.",
+       "stim": null
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "practise": [
+  {
+   "id": "s1r",
+   "title": "Learn it",
+   "blurb": {
+    "en": "One step at a time: topic words, bigger and the biggest, and a, an or some.",
+    "vi": "Từng bước một: từ vựng chủ đề, so sánh hơn, so sánh nhất và a, an hay some."
+   },
+   "levels": [
+    {
+     "title": {
+      "en": "Words from our four units",
+      "vi": "Từ vựng của bốn chủ đề"
+     },
+     "rounds": [
+      {
+       "lo": [
+        "4Rd.03"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Who looks after the school building and fixes broken things?",
+         "opts": [
+          "the caretaker",
+          "the librarian",
+          "the cook"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "The librarian works with books, not broken doors.",
+          "The cook makes lunch in the school kitchen."
+         ],
+         "hint": "Think about the people at school. Who has tools to mend things?",
+         "worked": "The *caretaker* looks after the building and fixes things.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "Who works with books and helps you find one to read?",
+         "opts": [
+          "the librarian",
+          "the school nurse",
+          "the head teacher"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "The school nurse helps you when you are ill or hurt.",
+          "The head teacher is the leader of the whole school."
+         ],
+         "hint": "Where are the books at school? Who works there?",
+         "worked": "The *librarian* works in the library and helps you find books.",
+         "stim": null
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Rd.03"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "A house with only one floor and no stairs is a ________.",
+         "opts": [
+          "bungalow",
+          "chimney",
+          "balcony"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "A chimney is a pipe on the roof for smoke.",
+          "A balcony is a small place outside a window, high up."
+         ],
+         "hint": "The sentence talks about a whole house. Which word is a kind of home?",
+         "worked": "A *bungalow* is a house with one floor: 'only one floor and no stairs'.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "A machine in space that goes around the Earth is a ________.",
+         "opts": [
+          "satellite",
+          "planet",
+          "sunset"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "A planet is not a machine. People don't make planets.",
+          "A sunset is when the Sun goes down in the evening."
+         ],
+         "hint": "Find the word machine. Which one do people make and send into space?",
+         "worked": "A *satellite* is a machine that goes around the Earth.",
+         "stim": null
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Rd.04"
+       ],
+       "v": [
+        {
+         "type": "tfill",
+         "q": "Make a describing word from wood. Type it.",
+         "lines": [
+          "This table is made of wood. It is a {0} table."
+         ],
+         "ans": [
+          [
+           "wooden"
+          ]
+         ],
+         "hint": "Think of 'gold' and 'golden'. Which ending makes a describing word?",
+         "worked": "Wood + en = *wooden*: 'a wooden table'.",
+         "stim": null
+        },
+        {
+         "type": "tfill",
+         "q": "Make a describing word from juice. Type it.",
+         "lines": [
+          "This watermelon is full of juice. It is very {0}."
+         ],
+         "ans": [
+          [
+           "juicy"
+          ]
+         ],
+         "hint": "Think of 'salt' and 'salty'. Which ending makes a describing word? Check the spelling.",
+         "worked": "Juice + y = *juicy*: the e goes. 'It is very juicy.'",
+         "stim": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Bigger and the biggest",
+      "vi": "So sánh hơn và so sánh nhất"
+     },
+     "rounds": [
+      {
+       "lo": [
+        "4Ug.11"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "An elephant is ________ than a dog.",
+         "opts": [
+          "bigger",
+          "biggest",
+          "big"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Biggest is for one of a big group, with the. Here we see than.",
+          "Big does not compare two animals."
+         ],
+         "hint": "Look for the word than. How many animals are we comparing?",
+         "worked": "Two animals with *than*: big + g + er = *bigger*.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "A train is ________ than a bike.",
+         "opts": [
+          "faster",
+          "fastest",
+          "fast"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Fastest is for one of a big group, with the.",
+          "Fast does not compare. Look at the word than."
+         ],
+         "hint": "We compare two things here. Which form goes with than?",
+         "worked": "Two things with *than*, so we add -er: 'faster than a bike'.",
+         "stim": null
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Ug.11"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Fansipan is ________ mountain in Vietnam.",
+         "opts": [
+          "the highest",
+          "higher",
+          "high"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "Higher compares two mountains, with than.",
+          "High does not compare. Fansipan is compared with all the mountains in Vietnam."
+         ],
+         "hint": "Is Fansipan compared with one mountain or with all the mountains in Vietnam?",
+         "worked": "It is the top one of all the mountains in Vietnam, so we say *the highest*.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "This is ________ book in the library. It has 900 pages!",
+         "opts": [
+          "the longest",
+          "longer",
+          "long"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "Longer compares two books, with than.",
+          "Long does not compare. The book is compared with all the books in the library."
+         ],
+         "hint": "Look at 'in the library'. Is the book compared with one book or all of them?",
+         "worked": "One book compared with all the books in the library: *the longest* book.",
+         "stim": null
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Ug.11"
+       ],
+       "v": [
+        {
+         "type": "tfill",
+         "q": "Type the missing word.",
+         "lines": [
+          "The weather was bad on Monday. On Tuesday it was {0}. It rained all day!"
+         ],
+         "ans": [
+          [
+           "worse"
+          ]
+         ],
+         "hint": "Bad is a special word. It does not add -er. Say the little song: bad, ..., worst.",
+         "worked": "Bad → *worse* → the worst. Tuesday was *worse* than Monday.",
+         "stim": null
+        },
+        {
+         "type": "tfill",
+         "q": "Type the missing word.",
+         "lines": [
+          "Linh's drawing is good, but Jade's drawing is {0}."
+         ],
+         "ans": [
+          [
+           "better"
+          ]
+         ],
+         "hint": "Good is a special word. It does not add -er. Say the little song: good, ..., best.",
+         "worked": "Good → *better* → the best. Jade's drawing is *better*.",
+         "stim": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Countable or uncountable?",
+      "vi": "Đếm được hay không đếm được?"
+     },
+     "rounds": [
+      {
+       "lo": [
+        "4Uv.05"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Which word is uncountable?",
+         "opts": [
+          "rice",
+          "egg",
+          "mango"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "We can count eggs: one egg, two eggs.",
+          "We can count mangoes: one mango, two mangoes."
+         ],
+         "hint": "Try to say 'two ...' before each word. Which one sounds wrong?",
+         "worked": "We can't say 'two rices'. *Rice* is uncountable: some rice.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "Which word is countable?",
+         "opts": [
+          "carrot",
+          "bread",
+          "water"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Bread is uncountable. We say some bread or a loaf of bread.",
+          "Water is uncountable. We say some water or a glass of water."
+         ],
+         "hint": "Try to say 'three ...' before each word. Which one sounds right?",
+         "worked": "We can say one carrot, three carrots. *Carrot* is countable.",
+         "stim": null
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Uv.05"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Can I have ________ water, please?",
+         "opts": [
+          "some",
+          "a",
+          "an"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "We use a with one countable thing. Water is uncountable.",
+          "We use an with one countable thing, like an egg. Water is uncountable."
+         ],
+         "hint": "Is water countable or uncountable?",
+         "worked": "Water is uncountable, so we say *some water*.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "I eat ________ egg every morning.",
+         "opts": [
+          "an",
+          "a",
+          "many"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "Egg starts with a vowel sound, e. We don't say a before it.",
+          "Many is for more than one, like many eggs, with -s."
+         ],
+         "hint": "Look at egg: one thing, with no -s. How does the word egg start?",
+         "worked": "One egg, and egg starts with a vowel sound, so we say *an egg*.",
+         "stim": null
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Uv.05"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Mum bought a ________ of bread.",
+         "opts": [
+          "loaf",
+          "bottle",
+          "glass"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "A bottle is for drinks, like water or juice.",
+          "A glass is for drinks, like milk."
+         ],
+         "hint": "Bread is not a drink. What do we call a whole piece of bread from the shop?",
+         "worked": "We buy bread as *a loaf of bread*.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "Would you like a ________ of milk?",
+         "opts": [
+          "glass",
+          "slice",
+          "loaf"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "A slice is a thin piece of bread or cake.",
+          "A loaf is for bread."
+         ],
+         "hint": "Milk is a drink. What do we drink it from?",
+         "worked": "We drink milk from a glass: *a glass of milk*.",
+         "stim": null
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s1a",
+   "title": "Exam style",
+   "blurb": {
+    "en": "Like the real Reading paper: circle the right word and fill the gaps in a story.",
+    "vi": "Giống bài thi Đọc thật: khoanh từ đúng và điền vào chỗ trống trong câu chuyện."
+   },
+   "levels": [
+    {
+     "title": {
+      "en": "Reading Part 3: circle the topic word",
+      "vi": "Đọc Phần 3: khoanh từ vựng đúng"
+     },
+     "rounds": [
+      {
+       "lo": [
+        "4Rd.03"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "The ________ gave me a plaster when I hurt my knee.",
+         "opts": [
+          "school nurse",
+          "caretaker",
+          "librarian"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "The caretaker fixes the school building, not hurt knees.",
+          "The librarian helps you with books."
+         ],
+         "hint": "Find the words 'hurt my knee'. Who helps children when they are hurt?",
+         "worked": "The *school nurse* helps when you are hurt: 'gave me a plaster'.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "We made a ________ to tell people about our charity fair.",
+         "opts": [
+          "leaflet",
+          "sandpit",
+          "surgery"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "A sandpit is a place with sand where small children play.",
+          "A surgery is where you go to see a doctor."
+         ],
+         "hint": "Which thing has words on it that tell people about an event?",
+         "worked": "A *leaflet* is a small paper that tells people about something: 'to tell people about our charity fair'.",
+         "stim": null
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Rd.03"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "At night, the stars in a ________ make a picture in the sky.",
+         "opts": [
+          "constellation",
+          "sunset",
+          "rover"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "A sunset happens in the evening. It is not made of stars.",
+          "A rover is a machine that drives on another planet."
+         ],
+         "hint": "Look for 'stars' and 'make a picture'. Which word is a group of stars?",
+         "worked": "A *constellation* is a group of stars that makes a picture.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "The ________ drove slowly over the red rocks on Mars.",
+         "opts": [
+          "rover",
+          "satellite",
+          "planet"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "A satellite goes around a planet. It doesn't drive on rocks.",
+          "Mars is a planet. A planet can't drive."
+         ],
+         "hint": "Look at the verb drove. Which thing has wheels?",
+         "worked": "A *rover* is a space machine that drives: 'drove slowly over the red rocks'.",
+         "stim": null
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Rd.03"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "The smoke from the fire went up the ________.",
+         "opts": [
+          "chimney",
+          "balcony",
+          "floor"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "A balcony is outside a window. Smoke doesn't go up it.",
+          "The floor is at the bottom of a room. Smoke can't go up it."
+         ],
+         "hint": "Look at 'smoke' and 'went up'. Which part of a house is a tall pipe?",
+         "worked": "Smoke goes up the *chimney* and out through the roof.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "Dad put the nuts in a hot oven to ________ them.",
+         "opts": [
+          "roast",
+          "rinse",
+          "fold"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "To rinse is to wash something in water, not in an oven.",
+          "To fold is to bend paper or clothes. You can't fold nuts."
+         ],
+         "hint": "Look at 'a hot oven'. What do we do to food in a hot oven?",
+         "worked": "We *roast* food in a hot oven: 'put the nuts in a hot oven to roast them'.",
+         "stim": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Reading Part 3: circle the right form",
+      "vi": "Đọc Phần 3: khoanh dạng từ đúng"
+     },
+     "rounds": [
+      {
+       "lo": [
+        "4Ug.11"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "My brother is two, so he is ________ than me.",
+         "opts": [
+          "younger",
+          "youngest",
+          "young"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Youngest is for one of a big group, with the.",
+          "Young does not compare. Look at the word than."
+         ],
+         "hint": "Look at the word than. How many people are we comparing?",
+         "worked": "Two people with *than*, so we add -er: 'younger than me'.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "Our new classroom has big windows. It is ________ than the old one.",
+         "opts": [
+          "brighter",
+          "brightest",
+          "bright"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "Brightest is for one of a big group, with the.",
+          "Bright does not compare two rooms."
+         ],
+         "hint": "Two classrooms are compared. Which form goes with than?",
+         "worked": "We compare two rooms with *than*: 'brighter than the old one'.",
+         "stim": null
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Ug.11"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Kai loves football. He thinks it is ________ sport in the world.",
+         "opts": [
+          "the best",
+          "the worst",
+          "better"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "The worst doesn't make sense. Kai loves football!",
+          "Better compares two things, with than. Football is compared with every sport."
+         ],
+         "hint": "Read the first sentence. Then look at 'in the world'. Is football compared with one sport or all of them?",
+         "worked": "Kai loves football, and it is compared with all sports, so it is *the best* sport.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "I didn't like the film at all. It was ________ film of the year.",
+         "opts": [
+          "the worst",
+          "worse",
+          "bad"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "Worse compares two films, with than.",
+          "Bad does not compare. Look at 'of the year'."
+         ],
+         "hint": "Look at 'of the year'. Is it one of a big group?",
+         "worked": "The film is compared with all the films of the year: *the worst* film.",
+         "stim": null
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Uv.05"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "How ________ sugar do we need for the cake?",
+         "opts": [
+          "much",
+          "many",
+          "a"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "We use many with countable nouns, like many eggs. Sugar is uncountable.",
+          "We don't say a with uncountable nouns like sugar."
+         ],
+         "hint": "Is sugar countable or uncountable?",
+         "worked": "Sugar is uncountable, so we ask *How much sugar?*",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "How ________ eggs are there in the box?",
+         "opts": [
+          "many",
+          "much",
+          "a"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "We use much with uncountable nouns, like much sugar. Eggs are countable.",
+          "A is for one thing. Eggs has -s, so there is more than one."
+         ],
+         "hint": "Look at eggs. Can you count them?",
+         "worked": "Eggs are countable, so we ask *How many eggs?*",
+         "stim": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Reading Part 4: a story with gaps",
+      "vi": "Đọc Phần 4: câu chuyện có chỗ trống"
+     },
+     "rounds": [
+      {
+       "lo": [
+        "4Rd.03",
+        "4Uv.05"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Read Kai's story. Choose the word for gap (1).",
+         "opts": [
+          "leaflet",
+          "sandpit",
+          "surgery"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "A sandpit is a place to play. You can't give one to every family.",
+          "A surgery is a building where doctors work."
+         ],
+         "hint": "Read the next sentence. What can you give to every family in a street?",
+         "worked": "'We gave one to every family in our street.' So they made a *leaflet*.",
+         "stim": {
+          "id": "s1-rc-funrun",
+          "kind": "text",
+          "head": "Kai's story",
+          "html": "<b>Our neighbourhood fun run</b><br>by Kai<br><br>Last Saturday there was a fun run in our neighbourhood. We wanted to raise money for our sports club. My friend Hugo and I made a (1) ________ about the run. We gave one to every family in our street.<br><br>On the day it was hot and (2) ________. The air felt very wet, so everyone drank lots of water.<br><br>Hugo has got long legs. He is (3) ________ than me, so he finished first. I finished fifth, and I was very happy. We raised a lot of money for new footballs!",
+          "bank": null
+         }
+        },
+        {
+         "type": "mcq",
+         "q": "Read Zara's story. Choose the word for gap (1).",
+         "opts": [
+          "some",
+          "a",
+          "much"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "A is for one thing. Grapes has -s, so there are more than one.",
+          "Much is for uncountable things. We can count grapes."
+         ],
+         "hint": "Look at the word after the gap. Is it one thing or more than one?",
+         "worked": "Grapes are countable and plural, so we say *some grapes*.",
+         "stim": {
+          "id": "s1-rc-fruit",
+          "kind": "text",
+          "head": "Zara's story",
+          "html": "<b>Fruit salad with Grandpa</b><br>by Zara<br><br>On Sunday I made a fruit salad with Grandpa. Fruit is very nutritious, and it is delicious too!<br><br>First we washed two mangoes, a papaya and (1) ________ grapes. Then Grandpa cut the pineapple for me. It has (2) ________ skin and leaves, and they can hurt your fingers.<br><br>We put all the fruit in a big bowl with some yoghurt on top. Mum tasted it and smiled. 'This is (3) ________ than the fruit salad from the shop!' she said. Now it is my favourite snack.",
+          "bank": null
+         }
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Rd.03"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Read Kai's story. Choose the word for gap (2).",
+         "opts": [
+          "humid",
+          "freezing",
+          "icy"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Freezing means very cold, but the story says it was hot.",
+          "Icy means cold, like ice. The story says it was hot."
+         ],
+         "hint": "Read the sentence after the gap. How did the air feel?",
+         "worked": "'The air felt very wet', and it was hot. Hot, wet air is *humid*.",
+         "stim": {
+          "id": "s1-rc-funrun",
+          "kind": "text",
+          "head": "Kai's story",
+          "html": "<b>Our neighbourhood fun run</b><br>by Kai<br><br>Last Saturday there was a fun run in our neighbourhood. We wanted to raise money for our sports club. My friend Hugo and I made a (1) ________ about the run. We gave one to every family in our street.<br><br>On the day it was hot and (2) ________. The air felt very wet, so everyone drank lots of water.<br><br>Hugo has got long legs. He is (3) ________ than me, so he finished first. I finished fifth, and I was very happy. We raised a lot of money for new footballs!",
+          "bank": null
+         }
+        },
+        {
+         "type": "mcq",
+         "q": "Read Zara's story. Choose the word for gap (2).",
+         "opts": [
+          "spiky",
+          "juicy",
+          "smooth"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "Juicy is about the fruit inside. Juicy things don't hurt you.",
+          "Smooth things are soft to touch. They don't hurt you."
+         ],
+         "hint": "Read the end of the sentence. What can the skin and leaves do to you?",
+         "worked": "'They can hurt your fingers.' So the pineapple has *spiky* skin and leaves.",
+         "stim": {
+          "id": "s1-rc-fruit",
+          "kind": "text",
+          "head": "Zara's story",
+          "html": "<b>Fruit salad with Grandpa</b><br>by Zara<br><br>On Sunday I made a fruit salad with Grandpa. Fruit is very nutritious, and it is delicious too!<br><br>First we washed two mangoes, a papaya and (1) ________ grapes. Then Grandpa cut the pineapple for me. It has (2) ________ skin and leaves, and they can hurt your fingers.<br><br>We put all the fruit in a big bowl with some yoghurt on top. Mum tasted it and smiled. 'This is (3) ________ than the fruit salad from the shop!' she said. Now it is my favourite snack.",
+          "bank": null
+         }
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Ug.11"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Read Kai's story. Choose the word for gap (3).",
+         "opts": [
+          "faster",
+          "fastest",
+          "slower"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "Fastest is for one of a big group, with the. Here we see than.",
+          "Slower doesn't make sense. Hugo finished first!"
+         ],
+         "hint": "Read the end of the sentence. Who finished first?",
+         "worked": "Hugo 'finished first', so he is *faster* than Kai.",
+         "stim": {
+          "id": "s1-rc-funrun",
+          "kind": "text",
+          "head": "Kai's story",
+          "html": "<b>Our neighbourhood fun run</b><br>by Kai<br><br>Last Saturday there was a fun run in our neighbourhood. We wanted to raise money for our sports club. My friend Hugo and I made a (1) ________ about the run. We gave one to every family in our street.<br><br>On the day it was hot and (2) ________. The air felt very wet, so everyone drank lots of water.<br><br>Hugo has got long legs. He is (3) ________ than me, so he finished first. I finished fifth, and I was very happy. We raised a lot of money for new footballs!",
+          "bank": null
+         }
+        },
+        {
+         "type": "mcq",
+         "q": "Read Zara's story. Choose the word for gap (3).",
+         "opts": [
+          "better",
+          "best",
+          "good"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "Best is for one of a big group, with the. Here we see than.",
+          "Good does not compare. Look at the word than."
+         ],
+         "hint": "Look at the word than after the gap. Good is a special word.",
+         "worked": "Good → *better* → the best. 'This is better than the fruit salad from the shop!'",
+         "stim": {
+          "id": "s1-rc-fruit",
+          "kind": "text",
+          "head": "Zara's story",
+          "html": "<b>Fruit salad with Grandpa</b><br>by Zara<br><br>On Sunday I made a fruit salad with Grandpa. Fruit is very nutritious, and it is delicious too!<br><br>First we washed two mangoes, a papaya and (1) ________ grapes. Then Grandpa cut the pineapple for me. It has (2) ________ skin and leaves, and they can hurt your fingers.<br><br>We put all the fruit in a big bowl with some yoghurt on top. Mum tasted it and smiled. 'This is (3) ________ than the fruit salad from the shop!' she said. Now it is my favourite snack.",
+          "bank": null
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": {
+  "items": [
+   {
+    "en": "Short describing words: add *-er* + *than* for two things, and *the ... -est* for one of a group.",
+    "vi": "Từ miêu tả ngắn: thêm *-er* + *than* khi so sánh hai vật, và dùng *the ... -est* cho một vật trong cả nhóm.",
+    "example": [
+     "A bus is *bigger than* a car.",
+     "The blue whale is *the biggest* animal."
+    ]
+   },
+   {
+    "en": "Watch the spelling: *big → bigger*, *hot → hotter*, *nice → nicer*, *funny → funnier*.",
+    "vi": "Chú ý chính tả: *big → bigger*, *hot → hotter*, *nice → nicer*, *funny → funnier*.",
+    "example": [
+     "July is *the hottest* month here.",
+     "My cat is *funnier* than my dog."
+    ]
+   },
+   {
+    "en": "Long describing words use *more* and *the most*.",
+    "vi": "Từ miêu tả dài dùng *more* và *the most*.",
+    "example": [
+     "This book is *more interesting* than that one.",
+     "It's *the most beautiful* beach on the island."
+    ]
+   },
+   {
+    "en": "Two special words: *good, better, the best* and *bad, worse, the worst*.",
+    "vi": "Hai từ đặc biệt: *good, better, the best* và *bad, worse, the worst*.",
+    "example": [
+     "My drawing is *better* than last week.",
+     "That was *the worst* storm of the year."
+    ]
+   },
+   {
+    "en": "Countable nouns take *a / an*, *-s* and *many*. Uncountable nouns take *some* or *much*, with no *a* and no *-s*.",
+    "vi": "Danh từ đếm được đi với *a / an*, thêm *-s* và dùng *many*. Danh từ không đếm được đi với *some* hoặc *much*, không có *a* và không thêm *-s*.",
+    "example": [
+     "*an* egg, *three* eggs, *How many* eggs?",
+     "*some* rice, *some* water, *How much* sugar?"
+    ]
+   },
+   {
+    "en": "To count uncountable things, use a container or a piece: *a bottle of*, *a glass of*, *a loaf of*, *a slice of*, *a bowl of*.",
+    "vi": "Muốn đếm vật không đếm được, dùng từ chỉ vật chứa hoặc miếng: *a bottle of*, *a glass of*, *a loaf of*, *a slice of*, *a bowl of*.",
+    "example": [
+     "I eat *a bowl of* rice for lunch.",
+     "Can I have *two slices of* bread?"
+    ]
+   }
+  ],
+  "check": [
+   {
+    "sentence": "A whale is {bigger|biggest|big} than a shark.",
+    "answer": "bigger"
+   },
+   {
+    "sentence": "Today is {hotter|hottest|hot} than yesterday.",
+    "answer": "hotter"
+   },
+   {
+    "sentence": "This is the {most beautiful|more beautiful|beautiful} flower in the garden.",
+    "answer": "most beautiful"
+   },
+   {
+    "sentence": "Jade's cake is {better|best|good} than my cake.",
+    "answer": "better"
+   },
+   {
+    "sentence": "Can I have {some|a|many} water, please?",
+    "answer": "some"
+   },
+   {
+    "sentence": "Would you like a {glass|loaf|slice} of milk?",
+    "answer": "glass"
+   }
+  ]
+ },
+ "test": {
+  "items": [
+   {
+    "dok": 1,
+    "lo": [
+     "4Rd.03"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "Minh is very ________ on skateboarding. He practises in his street every evening.",
+      "opts": [
+       "keen",
+       "freezing",
+       "wooden"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "Freezing means very cold. It is about the weather, not people.",
+       "Wooden means made of wood. Minh is a boy!"
+      ],
+      "hint": "Look at the word on after the gap and 'practises every evening'. Which word goes with on?",
+      "worked": "We say *keen on* something when we like it a lot: 'He practises every evening'.",
+      "stim": null
+     },
+     {
+      "type": "mcq",
+      "q": "In winter the lake is ________. You can walk on the ice!",
+      "opts": [
+       "freezing",
+       "humid",
+       "juicy"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Humid means hot and wet. Ice can't be humid.",
+       "Juicy is for fruit with a lot of juice inside."
+      ],
+      "hint": "Read the next sentence. What is on the lake?",
+      "worked": "'You can walk on the ice!' So the lake is very cold: *freezing*.",
+      "stim": null
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "4Rd.03"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "Fish and green vegetables are ________. They help you grow strong.",
+      "opts": [
+       "nutritious",
+       "spiky",
+       "salty"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Spiky means covered with sharp points. Most fish aren't spiky.",
+       "Salty is about taste. It doesn't help you grow strong."
+      ],
+      "hint": "Read the next sentence. What does this food do for your body?",
+      "worked": "'They help you grow strong.' So the food is *nutritious*.",
+      "stim": null
+     },
+     {
+      "type": "mcq",
+      "q": "My grandparents' house has only one floor. It's a ________.",
+      "opts": [
+       "bungalow",
+       "chimney",
+       "balcony"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "A chimney is a pipe on a roof, not a whole house.",
+       "A balcony is a small place outside a window, not a whole house."
+      ],
+      "hint": "The sentence is about a whole house. Which word is a kind of home?",
+      "worked": "A house with 'only one floor' is a *bungalow*.",
+      "stim": null
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "4Ug.11"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "Fansipan is ________ mountain in Vietnam.",
+      "opts": [
+       "the highest",
+       "higher",
+       "high"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Higher compares two mountains, with than.",
+       "High does not compare. Look at 'in Vietnam'."
+      ],
+      "hint": "Is Fansipan compared with one mountain or with all the mountains in Vietnam?",
+      "worked": "Fansipan is the top one of all the mountains in Vietnam: *the highest*.",
+      "stim": null
+     },
+     {
+      "type": "mcq",
+      "q": "A cheetah is ________ than a horse.",
+      "opts": [
+       "faster",
+       "the fastest",
+       "fast"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "The fastest is for one of a big group, not with than.",
+       "Fast does not compare. Look at the word than."
+      ],
+      "hint": "Look at the word than. How many animals are compared?",
+      "worked": "Two animals with *than*: 'faster than a horse'.",
+      "stim": null
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "4Ug.11"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "Hugo had a cold. Today he feels ________ than yesterday, so he can go to school.",
+      "opts": [
+       "better",
+       "the best",
+       "good"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "The best is for one of a big group, not with than.",
+       "Good does not compare. Look at the word than."
+      ],
+      "hint": "Look at the word than. Good is a special word.",
+      "worked": "Good → *better* → the best. 'He feels better than yesterday.'",
+      "stim": null
+     },
+     {
+      "type": "mcq",
+      "q": "Jade got ten out of ten. She got ________ mark in the class.",
+      "opts": [
+       "the best",
+       "the worst",
+       "better"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "The worst doesn't make sense. Ten out of ten is a very good mark!",
+       "Better compares two people, with than. Look at 'in the class'."
+      ],
+      "hint": "Look at 'in the class'. Is Jade compared with one child or with everyone?",
+      "worked": "Jade is compared with the whole class, so she got *the best* mark.",
+      "stim": null
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "4Uv.05"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "Please buy a ________ of bread for breakfast.",
+      "opts": [
+       "loaf",
+       "glass",
+       "bottle"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "A glass is for drinks, like milk or juice.",
+       "A bottle is for drinks, like water."
+      ],
+      "hint": "Bread is not a drink. What do we call a whole bread from the shop?",
+      "worked": "We buy *a loaf of bread*.",
+      "stim": null
+     },
+     {
+      "type": "mcq",
+      "q": "How ________ rice do you want?",
+      "opts": [
+       "much",
+       "many",
+       "a"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Many is for countable nouns, like many eggs. Rice is uncountable.",
+       "We don't use a with uncountable nouns like rice."
+      ],
+      "hint": "Is rice countable or uncountable?",
+      "worked": "Rice is uncountable, so we ask *How much rice?*",
+      "stim": null
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "4Rd.03"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "Read Felix's story. Choose the word for gap (6).",
+      "opts": [
+       "freezing",
+       "humid",
+       "warm"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Humid means hot and wet. They wouldn't need thick coats.",
+       "If the air was warm, they wouldn't need thick coats and hats."
+      ],
+      "hint": "Read the end of the sentence. What did the family wear?",
+      "worked": "'We wore our thick coats and hats.' So the air was very cold: *freezing*.",
+      "stim": {
+       "id": "s1-t-stars",
+       "kind": "text",
+       "head": "Felix's story",
+       "html": "<b>A night under the stars</b><br>by Felix<br><br>Last month my family stayed at Grandpa's farm. It is far from the city, so the sky is very dark at night.<br><br>After dinner we lay on a blanket outside. The air was (6) ________, so we wore our thick coats and hats.<br><br>Grandpa showed me a (7) ________. Its stars make the shape of a big spoon.<br><br>Then I saw a small light. It moved slowly across the sky. Dad said it was a (8) ________ going around the Earth.<br><br>Venus was very bright too. It was (9) ________ than all the stars around it.<br><br>I was very tired the next day, but it was (10) ________ night of the holiday. I want to do it again next year!",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "q": "Read Anya's story. Choose the word for gap (6).",
+      "opts": [
+       "roof",
+       "door",
+       "window"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "A door is in the wall, not the top of a house.",
+       "A window is in the wall, not the top of a house."
+      ],
+      "hint": "Everything is upside down. Which part is usually at the top, opposite the floor?",
+      "worked": "In a normal house the *roof* is at the top. Here 'the floor was high above our heads', so the roof was on the ground.",
+      "stim": {
+       "id": "s1-t-house",
+       "kind": "text",
+       "head": "Anya's story",
+       "html": "<b>Our trip to the upside-down house</b><br>by Anya<br><br>Last Friday my class visited a very strange house. Everything in it was upside down!<br><br>The (6) ________ was on the ground, and the floor was high above our heads.<br><br>In the kitchen, the chairs were on the ceiling. They were (7) ________, made from brown wood.<br><br>Under the house there was a (8) ________. It pointed down to the ground, so the smoke from a fire can't go up it!<br><br>Walking on the ceiling was (9) ________ than walking on a normal floor. I nearly fell over!<br><br>My legs were tired after the visit, but it was (10) ________ school trip of the year. I want to go back with my family!",
+       "bank": null
+      }
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "4Rd.03"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "Read Felix's story. Choose the word for gap (7).",
+      "opts": [
+       "constellation",
+       "satellite",
+       "sunset"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "A satellite is a machine, not a group of stars.",
+       "A sunset happens in the evening. It is not made of stars."
+      ],
+      "hint": "Read the next sentence. What makes the shape of a spoon?",
+      "worked": "'Its stars make the shape of a big spoon.' A group of stars is a *constellation*.",
+      "stim": {
+       "id": "s1-t-stars",
+       "kind": "text",
+       "head": "Felix's story",
+       "html": "<b>A night under the stars</b><br>by Felix<br><br>Last month my family stayed at Grandpa's farm. It is far from the city, so the sky is very dark at night.<br><br>After dinner we lay on a blanket outside. The air was (6) ________, so we wore our thick coats and hats.<br><br>Grandpa showed me a (7) ________. Its stars make the shape of a big spoon.<br><br>Then I saw a small light. It moved slowly across the sky. Dad said it was a (8) ________ going around the Earth.<br><br>Venus was very bright too. It was (9) ________ than all the stars around it.<br><br>I was very tired the next day, but it was (10) ________ night of the holiday. I want to do it again next year!",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "q": "Read Anya's story. Choose the word for gap (7).",
+      "opts": [
+       "wooden",
+       "woollen",
+       "golden"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Woollen means made of wool, like a warm hat.",
+       "Golden means made of gold or the colour of gold."
+      ],
+      "hint": "Read the end of the sentence. What were the chairs made from?",
+      "worked": "'Made from brown wood.' So the chairs were *wooden*.",
+      "stim": {
+       "id": "s1-t-house",
+       "kind": "text",
+       "head": "Anya's story",
+       "html": "<b>Our trip to the upside-down house</b><br>by Anya<br><br>Last Friday my class visited a very strange house. Everything in it was upside down!<br><br>The (6) ________ was on the ground, and the floor was high above our heads.<br><br>In the kitchen, the chairs were on the ceiling. They were (7) ________, made from brown wood.<br><br>Under the house there was a (8) ________. It pointed down to the ground, so the smoke from a fire can't go up it!<br><br>Walking on the ceiling was (9) ________ than walking on a normal floor. I nearly fell over!<br><br>My legs were tired after the visit, but it was (10) ________ school trip of the year. I want to go back with my family!",
+       "bank": null
+      }
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "4Rd.03"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "Read Felix's story. Choose the word for gap (8).",
+      "opts": [
+       "satellite",
+       "constellation",
+       "sunset"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "A constellation is a group of stars. It doesn't go around the Earth.",
+       "A sunset is in the evening. It doesn't move across the night sky."
+      ],
+      "hint": "Read the end of the sentence. What goes around the Earth?",
+      "worked": "'It moved slowly across the sky' and was 'going around the Earth'. That is a *satellite*.",
+      "stim": {
+       "id": "s1-t-stars",
+       "kind": "text",
+       "head": "Felix's story",
+       "html": "<b>A night under the stars</b><br>by Felix<br><br>Last month my family stayed at Grandpa's farm. It is far from the city, so the sky is very dark at night.<br><br>After dinner we lay on a blanket outside. The air was (6) ________, so we wore our thick coats and hats.<br><br>Grandpa showed me a (7) ________. Its stars make the shape of a big spoon.<br><br>Then I saw a small light. It moved slowly across the sky. Dad said it was a (8) ________ going around the Earth.<br><br>Venus was very bright too. It was (9) ________ than all the stars around it.<br><br>I was very tired the next day, but it was (10) ________ night of the holiday. I want to do it again next year!",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "q": "Read Anya's story. Choose the word for gap (8).",
+      "opts": [
+       "chimney",
+       "balcony",
+       "sandpit"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "A balcony is for people to stand on. It is not for smoke.",
+       "A sandpit is a place where small children play with sand."
+      ],
+      "hint": "Read the next sentence. Which part of a house is for smoke from a fire?",
+      "worked": "'The smoke from a fire can't go up it.' Smoke goes up a *chimney*.",
+      "stim": {
+       "id": "s1-t-house",
+       "kind": "text",
+       "head": "Anya's story",
+       "html": "<b>Our trip to the upside-down house</b><br>by Anya<br><br>Last Friday my class visited a very strange house. Everything in it was upside down!<br><br>The (6) ________ was on the ground, and the floor was high above our heads.<br><br>In the kitchen, the chairs were on the ceiling. They were (7) ________, made from brown wood.<br><br>Under the house there was a (8) ________. It pointed down to the ground, so the smoke from a fire can't go up it!<br><br>Walking on the ceiling was (9) ________ than walking on a normal floor. I nearly fell over!<br><br>My legs were tired after the visit, but it was (10) ________ school trip of the year. I want to go back with my family!",
+       "bank": null
+      }
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "4Ug.11"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "Read Felix's story. Choose the word for gap (9).",
+      "opts": [
+       "brighter",
+       "darker",
+       "the brightest"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Darker doesn't make sense. The sentence before says Venus was very bright.",
+       "The brightest is for one of a group, not with than."
+      ],
+      "hint": "Read the sentence before the gap, and look for than after it.",
+      "worked": "'Venus was very bright too.' So it was *brighter* than the stars around it.",
+      "stim": {
+       "id": "s1-t-stars",
+       "kind": "text",
+       "head": "Felix's story",
+       "html": "<b>A night under the stars</b><br>by Felix<br><br>Last month my family stayed at Grandpa's farm. It is far from the city, so the sky is very dark at night.<br><br>After dinner we lay on a blanket outside. The air was (6) ________, so we wore our thick coats and hats.<br><br>Grandpa showed me a (7) ________. Its stars make the shape of a big spoon.<br><br>Then I saw a small light. It moved slowly across the sky. Dad said it was a (8) ________ going around the Earth.<br><br>Venus was very bright too. It was (9) ________ than all the stars around it.<br><br>I was very tired the next day, but it was (10) ________ night of the holiday. I want to do it again next year!",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "q": "Read Anya's story. Choose the word for gap (9).",
+      "opts": [
+       "more difficult",
+       "easier",
+       "the most difficult"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Easier doesn't make sense. Anya nearly fell over!",
+       "The most difficult is for one of a group, not with than."
+      ],
+      "hint": "Read the next sentence. What nearly happened to Anya?",
+      "worked": "'I nearly fell over!' So walking on the ceiling was *more difficult* than walking on a floor.",
+      "stim": {
+       "id": "s1-t-house",
+       "kind": "text",
+       "head": "Anya's story",
+       "html": "<b>Our trip to the upside-down house</b><br>by Anya<br><br>Last Friday my class visited a very strange house. Everything in it was upside down!<br><br>The (6) ________ was on the ground, and the floor was high above our heads.<br><br>In the kitchen, the chairs were on the ceiling. They were (7) ________, made from brown wood.<br><br>Under the house there was a (8) ________. It pointed down to the ground, so the smoke from a fire can't go up it!<br><br>Walking on the ceiling was (9) ________ than walking on a normal floor. I nearly fell over!<br><br>My legs were tired after the visit, but it was (10) ________ school trip of the year. I want to go back with my family!",
+       "bank": null
+      }
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "4Ug.11"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "Read Felix's story. Choose the word for gap (10).",
+      "opts": [
+       "the best",
+       "the worst",
+       "better"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "The worst doesn't make sense. Felix wants to do it again!",
+       "Better compares two things, with than. Look at 'of the holiday'."
+      ],
+      "hint": "Read the last sentence. Did Felix enjoy the night?",
+      "worked": "'I want to do it again next year!' So it was *the best* night of the holiday.",
+      "stim": {
+       "id": "s1-t-stars",
+       "kind": "text",
+       "head": "Felix's story",
+       "html": "<b>A night under the stars</b><br>by Felix<br><br>Last month my family stayed at Grandpa's farm. It is far from the city, so the sky is very dark at night.<br><br>After dinner we lay on a blanket outside. The air was (6) ________, so we wore our thick coats and hats.<br><br>Grandpa showed me a (7) ________. Its stars make the shape of a big spoon.<br><br>Then I saw a small light. It moved slowly across the sky. Dad said it was a (8) ________ going around the Earth.<br><br>Venus was very bright too. It was (9) ________ than all the stars around it.<br><br>I was very tired the next day, but it was (10) ________ night of the holiday. I want to do it again next year!",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "q": "Read Anya's story. Choose the word for gap (10).",
+      "opts": [
+       "the best",
+       "the worst",
+       "better"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "The worst doesn't make sense. Anya wants to go back!",
+       "Better compares two things, with than. Look at 'of the year'."
+      ],
+      "hint": "Read the last sentence. Did Anya enjoy the trip?",
+      "worked": "'I want to go back with my family!' So it was *the best* school trip of the year.",
+      "stim": {
+       "id": "s1-t-house",
+       "kind": "text",
+       "head": "Anya's story",
+       "html": "<b>Our trip to the upside-down house</b><br>by Anya<br><br>Last Friday my class visited a very strange house. Everything in it was upside down!<br><br>The (6) ________ was on the ground, and the floor was high above our heads.<br><br>In the kitchen, the chairs were on the ceiling. They were (7) ________, made from brown wood.<br><br>Under the house there was a (8) ________. It pointed down to the ground, so the smoke from a fire can't go up it!<br><br>Walking on the ceiling was (9) ________ than walking on a normal floor. I nearly fell over!<br><br>My legs were tired after the visit, but it was (10) ________ school trip of the year. I want to go back with my family!",
+       "bank": null
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "lightning": {
+  "secs": 60,
+  "items": [
+   [
+    "An elephant is ___ than a cat.",
+    [
+     "bigger",
+     "biggest",
+     "big"
+    ]
+   ],
+   [
+    "The Sun is ___ than the Moon.",
+    [
+     "hotter",
+     "hottest",
+     "hot"
+    ]
+   ],
+   [
+    "Jupiter is the ___ planet.",
+    [
+     "biggest",
+     "bigger",
+     "big"
+    ]
+   ],
+   [
+    "Mercury is the ___ planet.",
+    [
+     "smallest",
+     "smaller",
+     "small"
+    ]
+   ],
+   [
+    "good, better, the ___",
+    [
+     "best",
+     "good",
+     "better"
+    ]
+   ],
+   [
+    "bad, ___, the worst",
+    [
+     "worse",
+     "bad",
+     "worst"
+    ]
+   ],
+   [
+    "My drawing is ___ than yours!",
+    [
+     "better",
+     "best",
+     "good"
+    ]
+   ],
+   [
+    "It was the ___ day of my life!",
+    [
+     "best",
+     "better",
+     "good"
+    ]
+   ],
+   [
+    "Rain and wind all week: the ___ weather!",
+    [
+     "worst",
+     "worse",
+     "bad"
+    ]
+   ],
+   [
+    "A plane is ___ than a car.",
+    [
+     "faster",
+     "fastest",
+     "fast"
+    ]
+   ],
+   [
+    "This is the ___ beautiful flower.",
+    [
+     "most",
+     "more",
+     "much"
+    ]
+   ],
+   [
+    "Maths is ___ difficult than art for me.",
+    [
+     "more",
+     "most",
+     "much"
+    ]
+   ],
+   [
+    "Linh is ___ today than yesterday.",
+    [
+     "happier",
+     "happiest",
+     "happy"
+    ]
+   ],
+   [
+    "Winter is ___ than summer.",
+    [
+     "colder",
+     "coldest",
+     "cold"
+    ]
+   ],
+   [
+    "A giraffe is ___ than a horse.",
+    [
+     "taller",
+     "tallest",
+     "tall"
+    ]
+   ],
+   [
+    "Mars is ___ than Earth.",
+    [
+     "smaller",
+     "smallest",
+     "small"
+    ]
+   ],
+   [
+    "I've got one apple and ___ egg.",
+    [
+     "an",
+     "a",
+     "two"
+    ]
+   ],
+   [
+    "Can I have ___ rice, please?",
+    [
+     "some",
+     "a",
+     "an"
+    ]
+   ],
+   [
+    "a ___ of bread",
+    [
+     "loaf",
+     "glass",
+     "bottle"
+    ]
+   ],
+   [
+    "a ___ of water",
+    [
+     "bottle",
+     "loaf",
+     "slice"
+    ]
+   ],
+   [
+    "a ___ of milk",
+    [
+     "glass",
+     "loaf",
+     "slice"
+    ]
+   ],
+   [
+    "a ___ of cake",
+    [
+     "slice",
+     "bottle",
+     "glass"
+    ]
+   ],
+   [
+    "a ___ of soup",
+    [
+     "bowl",
+     "loaf",
+     "slice"
+    ]
+   ],
+   [
+    "Which is uncountable?",
+    [
+     "cheese",
+     "carrot",
+     "egg"
+    ]
+   ],
+   [
+    "Which is countable?",
+    [
+     "mango",
+     "water",
+     "rice"
+    ]
+   ],
+   [
+    "Which is uncountable?",
+    [
+     "bread",
+     "biscuit",
+     "onion"
+    ]
+   ],
+   [
+    "Which is countable?",
+    [
+     "biscuit",
+     "sugar",
+     "juice"
+    ]
+   ],
+   [
+    "How ___ eggs?",
+    [
+     "many",
+     "much",
+     "a"
+    ]
+   ],
+   [
+    "How ___ water?",
+    [
+     "much",
+     "many",
+     "a"
+    ]
+   ],
+   [
+    "one mango, two ___",
+    [
+     "mangoes",
+     "mango",
+     "a mango"
+    ]
+   ],
+   [
+    "The rice ___ hot.",
+    [
+     "is",
+     "are",
+     "were"
+    ]
+   ],
+   [
+    "He fixes things at school.",
+    [
+     "caretaker",
+     "librarian",
+     "cook"
+    ]
+   ],
+   [
+    "She helps you find books.",
+    [
+     "librarian",
+     "nurse",
+     "caretaker"
+    ]
+   ],
+   [
+    "A house with one floor",
+    [
+     "bungalow",
+     "flat",
+     "chimney"
+    ]
+   ],
+   [
+    "Smoke goes out of it.",
+    [
+     "chimney",
+     "balcony",
+     "floor"
+    ]
+   ],
+   [
+    "Made of wood",
+    [
+     "wooden",
+     "spiky",
+     "juicy"
+    ]
+   ],
+   [
+    "Very, very cold",
+    [
+     "freezing",
+     "humid",
+     "dry"
+    ]
+   ],
+   [
+    "Hot and wet air",
+    [
+     "humid",
+     "icy",
+     "freezing"
+    ]
+   ],
+   [
+    "A space machine going round the Earth",
+    [
+     "satellite",
+     "sunset",
+     "rover"
+    ]
+   ],
+   [
+    "Stars that make a picture",
+    [
+     "constellation",
+     "rainbow",
+     "lightning"
+    ]
+   ],
+   [
+    "A space car on Mars",
+    [
+     "rover",
+     "satellite",
+     "comet"
+    ]
+   ],
+   [
+    "Good for your body",
+    [
+     "nutritious",
+     "spiky",
+     "freezing"
+    ]
+   ],
+   [
+    "Plants grow in it.",
+    [
+     "soil",
+     "wool",
+     "canvas"
+    ]
+   ],
+   [
+    "Covered in sharp points",
+    [
+     "spiky",
+     "smooth",
+     "juicy"
+    ]
+   ],
+   [
+    "Full of sweet juice",
+    [
+     "juicy",
+     "salty",
+     "spiky"
+    ]
+   ],
+   [
+    "Minh is ___ on skateboarding.",
+    [
+     "keen",
+     "good",
+     "happy"
+    ]
+   ],
+   [
+    "The streets around your home",
+    [
+     "neighbourhood",
+     "continent",
+     "planet"
+    ]
+   ],
+   [
+    "A round tent home",
+    [
+     "yurt",
+     "bungalow",
+     "flat"
+    ]
+   ],
+   [
+    "The opposite of spiky",
+    [
+     "smooth",
+     "salty",
+     "juicy"
+    ]
+   ],
+   [
+    "The Earth's path around the Sun",
+    [
+     "orbit",
+     "rover",
+     "chimney"
+    ]
+   ]
+  ]
+ },
+ "selfcheck": {
+  "goals": [
+   "use topic words from our four units (community, space, homes, food)",
+   "compare with -er and the -est (bigger, the biggest, the most beautiful)",
+   "use good, better, the best and bad, worse, the worst",
+   "use a, an, some, much and many with countable and uncountable nouns"
+  ],
+  "again": [
+   "r",
+   "c",
+   "c",
+   "a"
+  ]
+ }
+}
