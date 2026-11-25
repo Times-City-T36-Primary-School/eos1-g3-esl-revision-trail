@@ -58,7 +58,7 @@
    "half past": {
     "emoji": "🕧",
     "vi": "rưỡi (hơn 30 phút)",
-    "def": "Thirty minutes after the hour. 6:30 is this time after six.",
+    "def": "Thirty minutes after the hour, like 6:30.",
     "ex": "We have lunch at *half past* twelve."
    },
    "quarter past": {
@@ -94,7 +94,7 @@
    "surname": {
     "emoji": "🏷️",
     "vi": "họ",
-    "def": "Your family name. It often comes after your own name.",
+    "def": "Your family name. People in your family often have it too.",
     "ex": "Nam's *surname* is Tran."
    },
    "spell": {
@@ -516,7 +516,7 @@
          [
           "bf_lily",
           "Grace",
-          "Yes, please. Oh, no. Can I have juice?"
+          "Yes, please. Hmm, no. Can I have juice?"
          ],
          [
           "bf_emma",
@@ -1665,7 +1665,9 @@
          "ans": [
           [
            "9",
-           "nine"
+           "nine",
+           "9 years old",
+           "nine years old"
           ],
           [
            "2:30",
@@ -1689,7 +1691,9 @@
            "02.30p.m.",
            "02.30 p.m.",
            "half past two",
-           "two thirty"
+           "two thirty",
+           "14:30",
+           "14.30"
           ]
          ],
          "hint": "Two numbers are said about age. Which one is Raj's age?",
@@ -1742,7 +1746,9 @@
          "ans": [
           [
            "6",
-           "six"
+           "six",
+           "6 years old",
+           "six years old"
           ],
           [
            "4:15",
@@ -1766,7 +1772,9 @@
            "04.15p.m.",
            "04.15 p.m.",
            "quarter past four",
-           "four fifteen"
+           "four fifteen",
+           "16:15",
+           "16.15"
           ]
          ],
          "hint": "The form is about Ngoc's brother, not Ngoc. Quarter past means 15 minutes after.",
@@ -1992,7 +2000,7 @@
         },
         {
          "type": "pmcq",
-         "q": "What does Lucy's coach do in the day?",
+         "q": "What job does Lucy's coach do?",
          "opts": [
           {
            "pic": "👩‍⚕️",
@@ -2112,8 +2120,8 @@
            "tag": "fish and chips"
           },
           {
-           "pic": "🍚",
-           "tag": "rice"
+           "pic": "🍚🍗",
+           "tag": "rice and chicken"
           },
           {
            "pic": "🍜",
@@ -2244,11 +2252,11 @@
          "at": 0,
          "whys": [
           null,
-          "Ngoc heard the cat in the garden, but it wasn't there.",
+          "Ngoc heard the cat in the garden, but it was not there. It was up on the roof.",
           "Ngoc says the tree was empty."
          ],
          "hint": "Hearing and finding are different. Where was the cat?",
-         "worked": "Ngoc says \"But *it was on the roof* of our shed!\"",
+         "worked": "Ngoc says \"But *it was up on our roof*!\"",
          "stim": {
           "id": "s4-a2-1b",
           "kind": "audio",
@@ -2262,7 +2270,7 @@
            [
             "bf_alice",
             "Ngoc",
-            "I heard it in the garden. But it was on the roof of our shed!"
+            "I heard it in the garden. But it was up on our roof!"
            ],
            [
             "bm_daniel",
@@ -2361,7 +2369,7 @@
           "Ten o'clock is when the vet opens today."
          ],
          "hint": "Opening time and seeing the vet are different. Listen for both.",
-         "worked": "Grandpa asks when they can see the vet. Ngoc says \"*At quarter past ten*.\"",
+         "worked": "Grandpa asks \"So what time is your visit?\" Ngoc says \"*At quarter past ten*.\"",
          "stim": {
           "id": "s4-a2-2b",
           "kind": "audio",
@@ -2798,7 +2806,9 @@
          "ans": [
           [
            "9",
-           "nine"
+           "nine",
+           "9 years old",
+           "nine years old"
           ]
          ],
          "hint": "Amira talks about two people. Find her own age.",
@@ -3216,7 +3226,7 @@
         [
          "bf_lily",
          "Grace",
-         "Yes. It's Moss. M-O-S-S."
+         "It's Moss. M-O-S-S."
         ],
         [
          "bf_isabella",
@@ -3302,7 +3312,7 @@
         [
          "bm_fable",
          "Tuan",
-         "Yes. My class wants to raise money for the animal shelter."
+         "Yes. My class is raising money for the animal shelter."
         ],
         [
          "bm_daniel",
@@ -3327,7 +3337,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "P-H-A-M. Thanks. Can you tell me your age, Tuan?"
+         "P-H-A-M. Thanks. How old are you, Tuan?"
         ],
         [
          "bm_fable",
@@ -3357,22 +3367,12 @@
         [
          "bm_daniel",
          "Organiser",
-         "Half past nine. Is that OK?"
+         "Half past nine. And can you bring some cakes for the cake stall?"
         ],
         [
          "bm_fable",
          "Tuan",
-         "Yes, that's fine."
-        ],
-        [
-         "bm_daniel",
-         "Organiser",
-         "Can you bring some cakes for the cake stall?"
-        ],
-        [
-         "bm_fable",
-         "Tuan",
-         "Yes. My dad and I can make twenty. Hmm, no. Twenty is too many. We can make twelve cakes."
+         "Yes. My dad and I can make twenty. Hmm, no, that's too many. We can make twelve."
         ],
         [
          "bm_daniel",
@@ -3400,7 +3400,9 @@
       "ans": [
        [
         "8",
-        "eight"
+        "eight",
+        "8 years old",
+        "eight years old"
        ]
       ],
       "hint": "Grace talks about two people. The form is about Grace.",
@@ -3438,7 +3440,7 @@
         [
          "bf_lily",
          "Grace",
-         "Yes. It's Moss. M-O-S-S."
+         "It's Moss. M-O-S-S."
         ],
         [
          "bf_isabella",
@@ -3507,7 +3509,9 @@
       "ans": [
        [
         "9",
-        "nine"
+        "nine",
+        "9 years old",
+        "nine years old"
        ]
       ],
       "hint": "Tuan says two numbers. Which one is his age now?",
@@ -3525,7 +3529,7 @@
         [
          "bm_fable",
          "Tuan",
-         "Yes. My class wants to raise money for the animal shelter."
+         "Yes. My class is raising money for the animal shelter."
         ],
         [
          "bm_daniel",
@@ -3550,7 +3554,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "P-H-A-M. Thanks. Can you tell me your age, Tuan?"
+         "P-H-A-M. Thanks. How old are you, Tuan?"
         ],
         [
          "bm_fable",
@@ -3580,22 +3584,12 @@
         [
          "bm_daniel",
          "Organiser",
-         "Half past nine. Is that OK?"
+         "Half past nine. And can you bring some cakes for the cake stall?"
         ],
         [
          "bm_fable",
          "Tuan",
-         "Yes, that's fine."
-        ],
-        [
-         "bm_daniel",
-         "Organiser",
-         "Can you bring some cakes for the cake stall?"
-        ],
-        [
-         "bm_fable",
-         "Tuan",
-         "Yes. My dad and I can make twenty. Hmm, no. Twenty is too many. We can make twelve cakes."
+         "Yes. My dad and I can make twenty. Hmm, no, that's too many. We can make twelve."
         ],
         [
          "bm_daniel",
@@ -3664,7 +3658,7 @@
         [
          "bf_lily",
          "Grace",
-         "Yes. It's Moss. M-O-S-S."
+         "It's Moss. M-O-S-S."
         ],
         [
          "bf_isabella",
@@ -3754,7 +3748,7 @@
         [
          "bm_fable",
          "Tuan",
-         "Yes. My class wants to raise money for the animal shelter."
+         "Yes. My class is raising money for the animal shelter."
         ],
         [
          "bm_daniel",
@@ -3779,7 +3773,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "P-H-A-M. Thanks. Can you tell me your age, Tuan?"
+         "P-H-A-M. Thanks. How old are you, Tuan?"
         ],
         [
          "bm_fable",
@@ -3809,22 +3803,12 @@
         [
          "bm_daniel",
          "Organiser",
-         "Half past nine. Is that OK?"
+         "Half past nine. And can you bring some cakes for the cake stall?"
         ],
         [
          "bm_fable",
          "Tuan",
-         "Yes, that's fine."
-        ],
-        [
-         "bm_daniel",
-         "Organiser",
-         "Can you bring some cakes for the cake stall?"
-        ],
-        [
-         "bm_fable",
-         "Tuan",
-         "Yes. My dad and I can make twenty. Hmm, no. Twenty is too many. We can make twelve cakes."
+         "Yes. My dad and I can make twenty. Hmm, no, that's too many. We can make twelve."
         ],
         [
          "bm_daniel",
@@ -3852,7 +3836,10 @@
       "ans": [
        [
         "friday",
-        "fri"
+        "fri",
+        "on friday",
+        "fridays",
+        "on fridays"
        ]
       ],
       "hint": "Two days are said. What does Grace do on the other day?",
@@ -3890,7 +3877,7 @@
         [
          "bf_lily",
          "Grace",
-         "Yes. It's Moss. M-O-S-S."
+         "It's Moss. M-O-S-S."
         ],
         [
          "bf_isabella",
@@ -3997,7 +3984,7 @@
         [
          "bm_fable",
          "Tuan",
-         "Yes. My class wants to raise money for the animal shelter."
+         "Yes. My class is raising money for the animal shelter."
         ],
         [
          "bm_daniel",
@@ -4022,7 +4009,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "P-H-A-M. Thanks. Can you tell me your age, Tuan?"
+         "P-H-A-M. Thanks. How old are you, Tuan?"
         ],
         [
          "bm_fable",
@@ -4052,22 +4039,12 @@
         [
          "bm_daniel",
          "Organiser",
-         "Half past nine. Is that OK?"
+         "Half past nine. And can you bring some cakes for the cake stall?"
         ],
         [
          "bm_fable",
          "Tuan",
-         "Yes, that's fine."
-        ],
-        [
-         "bm_daniel",
-         "Organiser",
-         "Can you bring some cakes for the cake stall?"
-        ],
-        [
-         "bm_fable",
-         "Tuan",
-         "Yes. My dad and I can make twenty. Hmm, no. Twenty is too many. We can make twelve cakes."
+         "Yes. My dad and I can make twenty. Hmm, no, that's too many. We can make twelve."
         ],
         [
          "bm_daniel",
@@ -4133,7 +4110,7 @@
         [
          "bf_lily",
          "Grace",
-         "Yes. It's Moss. M-O-S-S."
+         "It's Moss. M-O-S-S."
         ],
         [
          "bf_isabella",
@@ -4208,7 +4185,7 @@
        ]
       ],
       "hint": "Two numbers are said. Which one does Tuan choose?",
-      "worked": "Twenty is too many, so \"We can make *twelve cakes*.\"",
+      "worked": "Twenty is too many, so \"*We can make twelve*.\" The organiser says \"Twelve cakes.\"",
       "stim": {
        "id": "s4-t-funday",
        "kind": "audio",
@@ -4222,7 +4199,7 @@
         [
          "bm_fable",
          "Tuan",
-         "Yes. My class wants to raise money for the animal shelter."
+         "Yes. My class is raising money for the animal shelter."
         ],
         [
          "bm_daniel",
@@ -4247,7 +4224,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "P-H-A-M. Thanks. Can you tell me your age, Tuan?"
+         "P-H-A-M. Thanks. How old are you, Tuan?"
         ],
         [
          "bm_fable",
@@ -4277,22 +4254,12 @@
         [
          "bm_daniel",
          "Organiser",
-         "Half past nine. Is that OK?"
+         "Half past nine. And can you bring some cakes for the cake stall?"
         ],
         [
          "bm_fable",
          "Tuan",
-         "Yes, that's fine."
-        ],
-        [
-         "bm_daniel",
-         "Organiser",
-         "Can you bring some cakes for the cake stall?"
-        ],
-        [
-         "bm_fable",
-         "Tuan",
-         "Yes. My dad and I can make twenty. Hmm, no. Twenty is too many. We can make twelve cakes."
+         "Yes. My dad and I can make twenty. Hmm, no, that's too many. We can make twelve."
         ],
         [
          "bm_daniel",
@@ -4682,7 +4649,7 @@
       "at": 0,
       "whys": [
        null,
-       "Jack usually has eggs, but Coach says eat something light.",
+       "Jack usually has eggs, but Coach says eat fruit before a match.",
        "Jack says noodles are too much."
       ],
       "hint": "Usually is not before this match. Listen to what Coach says.",
@@ -4700,7 +4667,7 @@
         [
          "bm_lewis",
          "Jack",
-         "I usually have eggs. But Coach says eat something light. Can I have yoghurt and fruit?"
+         "I usually have eggs. But Coach says eat fruit before a match. Can I have yoghurt and fruit?"
         ],
         [
          "bf_emma",
@@ -4905,7 +4872,7 @@
     [
      "4:00",
      "4:30",
-     "14:00"
+     "5:00"
     ]
    ],
    [
@@ -4929,7 +4896,7 @@
     [
      "6:00",
      "6:30",
-     "16:00"
+     "7:00"
     ]
    ],
    [
@@ -5221,7 +5188,7 @@
     ]
    ],
    [
-    "\"Not the car. It's behind the sofa.\"",
+    "\"Not the car. It's behind the sofa.\" Where?",
     [
      "sofa",
      "car",
@@ -5263,8 +5230,8 @@
    [
     "Each listening talk is played...",
     [
-     "two times",
-     "one time",
+     "twice",
+     "once",
      "four times"
     ]
    ],

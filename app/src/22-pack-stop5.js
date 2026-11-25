@@ -1444,7 +1444,7 @@
            [
             "bf_alice",
             "Rosa",
-            "Do you like living in a bungalow, Dan? Is it big?"
+            "Dan, is your bungalow big?"
            ],
            [
             "bm_lewis",
@@ -1881,9 +1881,9 @@
        "v": [
         {
          "hint": {
-          "step": "Which thing did Kenji spend the most time on? Listen for what he wants to do one day."
+          "step": "Which thing did Kenji spend the most time on? Listen for what he wants to do when he grows up."
          },
-         "worked": "Kenji says \"I spent all morning looking at <b>the rover</b>... I want to build one one day.\"",
+         "worked": "Kenji says \"I spent all morning looking at <b>the rover</b>\", and \"I want to build a rover when I grow up.\"",
          "type": "mcq",
          "q": "You will hear Rosa and Kenji talking about a space museum. What is Kenji most interested in?",
          "opts": [
@@ -1922,7 +1922,7 @@
            [
             "bm_fable",
             "Kenji",
-            "Yes! I want to build one one day."
+            "Yes! I want to build a rover when I grow up."
            ],
            [
             "bf_alice",
@@ -3221,7 +3221,7 @@
         [
          "bm_lewis",
          "Elliot",
-         "Yes! It looks like a big spoon. I want to find another one tonight."
+         "Yes! Part of it looks like a big spoon. I want to find another one tonight."
         ]
        ]
       }
@@ -4267,7 +4267,7 @@
    [
     "\"Big isn't everything\" means big is...",
     [
-     "not most important",
+     "not all that matters",
      "the best",
      "bad"
     ]

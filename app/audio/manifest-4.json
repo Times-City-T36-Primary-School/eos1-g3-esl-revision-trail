@@ -155,7 +155,7 @@
   [
    "bf_lily",
    "Grace",
-   "Yes, please. Oh, no. Can I have juice?"
+   "Yes, please. Hmm, no. Can I have juice?"
   ],
   [
    "bf_emma",
@@ -815,7 +815,7 @@
   [
    "bf_alice",
    "Ngoc",
-   "I heard it in the garden. But it was on the roof of our shed!"
+   "I heard it in the garden. But it was up on our roof!"
   ],
   [
    "bm_daniel",
@@ -1079,7 +1079,7 @@
   [
    "bf_lily",
    "Grace",
-   "Yes. It's Moss. M-O-S-S."
+   "It's Moss. M-O-S-S."
   ],
   [
    "bf_isabella",
@@ -1146,7 +1146,7 @@
   [
    "bm_fable",
    "Tuan",
-   "Yes. My class wants to raise money for the animal shelter."
+   "Yes. My class is raising money for the animal shelter."
   ],
   [
    "bm_daniel",
@@ -1171,7 +1171,7 @@
   [
    "bm_daniel",
    "Organiser",
-   "P-H-A-M. Thanks. Can you tell me your age, Tuan?"
+   "P-H-A-M. Thanks. How old are you, Tuan?"
   ],
   [
    "bm_fable",
@@ -1201,22 +1201,12 @@
   [
    "bm_daniel",
    "Organiser",
-   "Half past nine. Is that OK?"
+   "Half past nine. And can you bring some cakes for the cake stall?"
   ],
   [
    "bm_fable",
    "Tuan",
-   "Yes, that's fine."
-  ],
-  [
-   "bm_daniel",
-   "Organiser",
-   "Can you bring some cakes for the cake stall?"
-  ],
-  [
-   "bm_fable",
-   "Tuan",
-   "Yes. My dad and I can make twenty. Hmm, no. Twenty is too many. We can make twelve cakes."
+   "Yes. My dad and I can make twenty. Hmm, no, that's too many. We can make twelve."
   ],
   [
    "bm_daniel",
@@ -1375,7 +1365,7 @@
   [
    "bm_lewis",
    "Jack",
-   "I usually have eggs. But Coach says eat something light. Can I have yoghurt and fruit?"
+   "I usually have eggs. But Coach says eat fruit before a match. Can I have yoghurt and fruit?"
   ],
   [
    "bf_emma",

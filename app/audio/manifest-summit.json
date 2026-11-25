@@ -91,7 +91,7 @@
   [
    "bf_isabella",
    "Aunt",
-   "Our bus home usually goes at twelve o'clock, Owen."
+   "Our bus home usually goes at twelve, Owen."
   ],
   [
    "bm_lewis",
@@ -101,17 +101,12 @@
   [
    "bf_isabella",
    "Aunt",
-   "Not the bus at one o'clock? Then we can see more."
+   "Not the one o'clock bus?"
   ],
   [
    "bm_lewis",
    "Owen",
-   "No, that's too late. Mum's making lunch for us!"
-  ],
-  [
-   "bf_isabella",
-   "Aunt",
-   "OK. Half past twelve, then."
+   "No, that's too late. Mum's making lunch!"
   ]
  ],
  "sm-summit-l2-q6": [
@@ -283,7 +278,7 @@
   [
    "bm_daniel",
    "Cook",
-   "Thank you, Nora. And what's your surname?"
+   "And what's your surname?"
   ],
   [
    "bf_lily",
@@ -303,7 +298,7 @@
   [
    "bm_daniel",
    "Cook",
-   "Lovely. Can you tell me your age?"
+   "Lovely. How old are you?"
   ],
   [
    "bf_lily",
@@ -313,7 +308,7 @@
   [
    "bm_daniel",
    "Cook",
-   "So you're eight now. Good. Now, I need a phone number. Can I have your mum's?"
+   "OK. Now, can I have your mum's phone number?"
   ],
   [
    "bf_lily",
@@ -348,12 +343,12 @@
   [
    "bf_lily",
    "Nora",
-   "Oh! Nuts make me ill. I can't eat nuts. But I love eggs and cheese!"
+   "Oh! I can't eat nuts. They make me ill. But I love eggs and cheese!"
   ],
   [
    "bm_daniel",
    "Cook",
-   "OK, no nuts for you. See you on Sunday, Nora!"
+   "OK, no nuts. See you on Sunday!"
   ]
  ]
 }

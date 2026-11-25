@@ -349,9 +349,9 @@
       "v": [
        {
         "hint": {
-         "step": "The bus usually goes at one time, but Owen asks for a different bus. Which one do they choose?"
+         "step": "The bus usually goes at one time, but Owen asks for a different bus. Which one does he want?"
         },
-        "worked": "Owen asks 'Can we get the bus at half past twelve?' and Aunt says 'Half past twelve, then.'",
+        "worked": "Owen asks 'Can we get the bus at half past twelve?' The one o'clock bus is too late, because Mum's making lunch.",
         "type": "mcq",
         "q": "What time are Owen and his aunt going to get the bus home?",
         "opts": [
@@ -387,7 +387,7 @@
         "whys": [
          null,
          "Twelve o'clock is when the bus usually goes. Owen asks for a later bus.",
-         "Aunt says one o'clock, but Owen says that is too late."
+         "Aunt asks about the one o'clock bus, but Owen says that is too late."
         ],
         "letters": true,
         "sub": "Tap one picture.",
@@ -400,7 +400,7 @@
           [
            "bf_isabella",
            "Aunt",
-           "Our bus home usually goes at twelve o'clock, Owen."
+           "Our bus home usually goes at twelve, Owen."
           ],
           [
            "bm_lewis",
@@ -410,17 +410,12 @@
           [
            "bf_isabella",
            "Aunt",
-           "Not the bus at one o'clock? Then we can see more."
+           "Not the one o'clock bus?"
           ],
           [
            "bm_lewis",
            "Owen",
-           "No, that's too late. Mum's making lunch for us!"
-          ],
-          [
-           "bf_isabella",
-           "Aunt",
-           "OK. Half past twelve, then."
+           "No, that's too late. Mum's making lunch!"
           ]
          ]
         }
@@ -815,7 +810,7 @@
           [
            "bm_daniel",
            "Cook",
-           "Thank you, Nora. And what's your surname?"
+           "And what's your surname?"
           ],
           [
            "bf_lily",
@@ -835,7 +830,7 @@
           [
            "bm_daniel",
            "Cook",
-           "Lovely. Can you tell me your age?"
+           "Lovely. How old are you?"
           ],
           [
            "bf_lily",
@@ -845,7 +840,7 @@
           [
            "bm_daniel",
            "Cook",
-           "So you're eight now. Good. Now, I need a phone number. Can I have your mum's?"
+           "OK. Now, can I have your mum's phone number?"
           ],
           [
            "bf_lily",
@@ -880,12 +875,12 @@
           [
            "bf_lily",
            "Nora",
-           "Oh! Nuts make me ill. I can't eat nuts. But I love eggs and cheese!"
+           "Oh! I can't eat nuts. They make me ill. But I love eggs and cheese!"
           ],
           [
            "bm_daniel",
            "Cook",
-           "OK, no nuts for you. See you on Sunday, Nora!"
+           "OK, no nuts. See you on Sunday!"
           ]
          ]
         }
@@ -946,7 +941,7 @@
           [
            "bm_daniel",
            "Cook",
-           "Thank you, Nora. And what's your surname?"
+           "And what's your surname?"
           ],
           [
            "bf_lily",
@@ -966,7 +961,7 @@
           [
            "bm_daniel",
            "Cook",
-           "Lovely. Can you tell me your age?"
+           "Lovely. How old are you?"
           ],
           [
            "bf_lily",
@@ -976,7 +971,7 @@
           [
            "bm_daniel",
            "Cook",
-           "So you're eight now. Good. Now, I need a phone number. Can I have your mum's?"
+           "OK. Now, can I have your mum's phone number?"
           ],
           [
            "bf_lily",
@@ -1011,12 +1006,12 @@
           [
            "bf_lily",
            "Nora",
-           "Oh! Nuts make me ill. I can't eat nuts. But I love eggs and cheese!"
+           "Oh! I can't eat nuts. They make me ill. But I love eggs and cheese!"
           ],
           [
            "bm_daniel",
            "Cook",
-           "OK, no nuts for you. See you on Sunday, Nora!"
+           "OK, no nuts. See you on Sunday!"
           ]
          ]
         }
@@ -1050,7 +1045,9 @@
           "09 83 62 74 15",
           "0983-627-415",
           "zero nine eight three six two seven four one five",
-          "zero nine eight three, six two seven, four one five"
+          "zero nine eight three, six two seven, four one five",
+          "0983.627.415",
+          "0983 627-415"
          ]
         ],
         "fig": {
@@ -1082,7 +1079,7 @@
           [
            "bm_daniel",
            "Cook",
-           "Thank you, Nora. And what's your surname?"
+           "And what's your surname?"
           ],
           [
            "bf_lily",
@@ -1102,7 +1099,7 @@
           [
            "bm_daniel",
            "Cook",
-           "Lovely. Can you tell me your age?"
+           "Lovely. How old are you?"
           ],
           [
            "bf_lily",
@@ -1112,7 +1109,7 @@
           [
            "bm_daniel",
            "Cook",
-           "So you're eight now. Good. Now, I need a phone number. Can I have your mum's?"
+           "OK. Now, can I have your mum's phone number?"
           ],
           [
            "bf_lily",
@@ -1147,12 +1144,12 @@
           [
            "bf_lily",
            "Nora",
-           "Oh! Nuts make me ill. I can't eat nuts. But I love eggs and cheese!"
+           "Oh! I can't eat nuts. They make me ill. But I love eggs and cheese!"
           ],
           [
            "bm_daniel",
            "Cook",
-           "OK, no nuts for you. See you on Sunday, Nora!"
+           "OK, no nuts. See you on Sunday!"
           ]
          ]
         }
@@ -1214,7 +1211,7 @@
           [
            "bm_daniel",
            "Cook",
-           "Thank you, Nora. And what's your surname?"
+           "And what's your surname?"
           ],
           [
            "bf_lily",
@@ -1234,7 +1231,7 @@
           [
            "bm_daniel",
            "Cook",
-           "Lovely. Can you tell me your age?"
+           "Lovely. How old are you?"
           ],
           [
            "bf_lily",
@@ -1244,7 +1241,7 @@
           [
            "bm_daniel",
            "Cook",
-           "So you're eight now. Good. Now, I need a phone number. Can I have your mum's?"
+           "OK. Now, can I have your mum's phone number?"
           ],
           [
            "bf_lily",
@@ -1279,12 +1276,12 @@
           [
            "bf_lily",
            "Nora",
-           "Oh! Nuts make me ill. I can't eat nuts. But I love eggs and cheese!"
+           "Oh! I can't eat nuts. They make me ill. But I love eggs and cheese!"
           ],
           [
            "bm_daniel",
            "Cook",
-           "OK, no nuts for you. See you on Sunday, Nora!"
+           "OK, no nuts. See you on Sunday!"
           ]
          ]
         }
@@ -1303,7 +1300,7 @@
         "hint": {
          "step": "Nora does not understand the question at first. Listen to her answer the SECOND time."
         },
-        "worked": "Nora says 'Nuts make me ill. I can't eat nuts.' She loves eggs and cheese.",
+        "worked": "Nora says 'I can't eat nuts. They make me ill.' She loves eggs and cheese.",
         "type": "tfill",
         "q": "Write the missing information for question 15.",
         "lines": [
@@ -1343,7 +1340,7 @@
           [
            "bm_daniel",
            "Cook",
-           "Thank you, Nora. And what's your surname?"
+           "And what's your surname?"
           ],
           [
            "bf_lily",
@@ -1363,7 +1360,7 @@
           [
            "bm_daniel",
            "Cook",
-           "Lovely. Can you tell me your age?"
+           "Lovely. How old are you?"
           ],
           [
            "bf_lily",
@@ -1373,7 +1370,7 @@
           [
            "bm_daniel",
            "Cook",
-           "So you're eight now. Good. Now, I need a phone number. Can I have your mum's?"
+           "OK. Now, can I have your mum's phone number?"
           ],
           [
            "bf_lily",
@@ -1408,12 +1405,12 @@
           [
            "bf_lily",
            "Nora",
-           "Oh! Nuts make me ill. I can't eat nuts. But I love eggs and cheese!"
+           "Oh! I can't eat nuts. They make me ill. But I love eggs and cheese!"
           ],
           [
            "bm_daniel",
            "Cook",
-           "OK, no nuts for you. See you on Sunday, Nora!"
+           "OK, no nuts. See you on Sunday!"
           ]
          ]
         }
@@ -1519,7 +1516,7 @@
         },
         "worked": "The heading says 'HELP OUR PLANET'. The hotel doesn't sell plastic bottles, so there is less plastic.",
         "type": "mcq",
-        "q": "Why is this notice in the hotel rooms?",
+        "q": "Why did the hotel write this notice?",
         "opts": [
          "The hotel wants to use less plastic.",
          "The water in the rooms is not safe to drink.",
@@ -1645,7 +1642,7 @@
         "at": 0,
         "whys": [
          null,
-         "If you haven't had any yet, why say 'No, thanks'? This doesn't make sense.",
+         "'I haven't had any yet' is not a reason to say no. Check that the two parts go together.",
          "If you never eat popcorn, you would not say 'Yes, please'."
         ],
         "letters": true
@@ -1690,7 +1687,7 @@
       "v": [
        {
         "hint": {
-         "step": "The question word is 'Why'. Which reply gives a reason with 'to + verb'?"
+         "step": "The question word is 'Why'. Which reply gives a reason?"
         },
         "worked": "'Why are you going?' → '<b>To find</b> a book about planets.' To + verb gives the reason.",
         "type": "mcq",
@@ -1772,26 +1769,27 @@
       "num": 11,
       "dok": 2,
       "lo": [
-       "4Ug.03"
+       "4Ug.03",
+       "4Rm.01"
       ],
       "v": [
        {
         "hint": {
-         "step": "Is this good news or bad news? Choose a reply that fits."
+         "step": "Check two things: is your friend talking about the past or the future, and what will the weather be like?"
         },
-        "worked": "A new puppy is good news, so we say '<b>How lovely!</b>' and ask a friendly question.",
+        "worked": "The trip is <b>tomorrow</b> and it will be <b>hot and sunny</b>, so the advice '<b>Don't forget to take a hat</b>' fits.",
         "type": "mcq",
-        "q": "\"I've just got a new puppy!\"",
+        "q": "\"We're going to the beach tomorrow. It's going to be really hot and sunny.\"",
         "opts": [
-         "How lovely! What's its name?",
-         "Oh dear! I'm sorry to hear that.",
-         "Never mind. Maybe next time."
+         "Have fun! Don't forget to take a hat.",
+         "Have fun! Don't forget your warm coat.",
+         "Did you have a good time at the beach?"
         ],
         "at": 1,
         "whys": [
          null,
-         "A new puppy is good news. 'Oh dear' is for bad news.",
-         "'Never mind' is for something that went wrong. Your friend is happy."
+         "It's going to be hot and sunny, so you don't need a warm coat.",
+         "Your friend is going tomorrow, so you can't ask about it in the past."
         ],
         "letters": true
        }
@@ -2019,7 +2017,7 @@
          "id": "sm-summit-r4",
          "kind": "text",
          "head": "A class trip",
-         "html": "<b>Our Trip to a Bee Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a bee farm outside the city. (0) <b>Every</b> child wore a hat with a net, because bees can sting.<br><br>The farmer met us at the gate. She showed us (18) ________ wooden beehives under the fruit trees. She lifted one lid (19) ________ us the bees inside. There were thousands of them!<br><br>We (20) ________ walk slowly near the hives, because that is the rule on the farm. Fast arms can make the bees angry.<br><br>Next, we went into a small wooden house. (21) ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet. Then we poured the honey into little jars. I filled my jar (22) ________ than my friends, so I didn't spill a drop.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a tiny candle made from beeswax!<br><br>I have (24) ________ put my candle on my bedroom shelf. I hope to visit the farm again next year!"
+         "html": "<b>Our Trip to a Bee Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a bee farm outside the city. (0) <b>Every</b> child wore a hat with a net, because bees can sting.<br><br>The farmer met us at the gate. She showed us (18) ________ wooden beehives under the fruit trees. She lifted one lid (19) ________ us the bees inside. There were thousands of them!<br><br>We (20) ________ walk slowly near the hives, because that is the rule on the farm. Moving fast can make the bees angry.<br><br>Next, we went into a small wooden house. (21) ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet. Then we poured the honey into little jars. I filled my jar (22) ________ than my friends, so I didn't spill a drop.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a tiny candle made from beeswax!<br><br>I have (24) ________ put my candle on my bedroom shelf. I hope to visit the farm again next year!"
         }
        }
       ]
@@ -2055,7 +2053,7 @@
          "id": "sm-summit-r4",
          "kind": "text",
          "head": "A class trip",
-         "html": "<b>Our Trip to a Bee Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a bee farm outside the city. (0) <b>Every</b> child wore a hat with a net, because bees can sting.<br><br>The farmer met us at the gate. She showed us (18) ________ wooden beehives under the fruit trees. She lifted one lid (19) ________ us the bees inside. There were thousands of them!<br><br>We (20) ________ walk slowly near the hives, because that is the rule on the farm. Fast arms can make the bees angry.<br><br>Next, we went into a small wooden house. (21) ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet. Then we poured the honey into little jars. I filled my jar (22) ________ than my friends, so I didn't spill a drop.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a tiny candle made from beeswax!<br><br>I have (24) ________ put my candle on my bedroom shelf. I hope to visit the farm again next year!"
+         "html": "<b>Our Trip to a Bee Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a bee farm outside the city. (0) <b>Every</b> child wore a hat with a net, because bees can sting.<br><br>The farmer met us at the gate. She showed us (18) ________ wooden beehives under the fruit trees. She lifted one lid (19) ________ us the bees inside. There were thousands of them!<br><br>We (20) ________ walk slowly near the hives, because that is the rule on the farm. Moving fast can make the bees angry.<br><br>Next, we went into a small wooden house. (21) ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet. Then we poured the honey into little jars. I filled my jar (22) ________ than my friends, so I didn't spill a drop.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a tiny candle made from beeswax!<br><br>I have (24) ________ put my candle on my bedroom shelf. I hope to visit the farm again next year!"
         }
        }
       ]
@@ -2091,7 +2089,7 @@
          "id": "sm-summit-r4",
          "kind": "text",
          "head": "A class trip",
-         "html": "<b>Our Trip to a Bee Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a bee farm outside the city. (0) <b>Every</b> child wore a hat with a net, because bees can sting.<br><br>The farmer met us at the gate. She showed us (18) ________ wooden beehives under the fruit trees. She lifted one lid (19) ________ us the bees inside. There were thousands of them!<br><br>We (20) ________ walk slowly near the hives, because that is the rule on the farm. Fast arms can make the bees angry.<br><br>Next, we went into a small wooden house. (21) ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet. Then we poured the honey into little jars. I filled my jar (22) ________ than my friends, so I didn't spill a drop.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a tiny candle made from beeswax!<br><br>I have (24) ________ put my candle on my bedroom shelf. I hope to visit the farm again next year!"
+         "html": "<b>Our Trip to a Bee Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a bee farm outside the city. (0) <b>Every</b> child wore a hat with a net, because bees can sting.<br><br>The farmer met us at the gate. She showed us (18) ________ wooden beehives under the fruit trees. She lifted one lid (19) ________ us the bees inside. There were thousands of them!<br><br>We (20) ________ walk slowly near the hives, because that is the rule on the farm. Moving fast can make the bees angry.<br><br>Next, we went into a small wooden house. (21) ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet. Then we poured the honey into little jars. I filled my jar (22) ________ than my friends, so I didn't spill a drop.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a tiny candle made from beeswax!<br><br>I have (24) ________ put my candle on my bedroom shelf. I hope to visit the farm again next year!"
         }
        }
       ]
@@ -2127,7 +2125,7 @@
          "id": "sm-summit-r4",
          "kind": "text",
          "head": "A class trip",
-         "html": "<b>Our Trip to a Bee Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a bee farm outside the city. (0) <b>Every</b> child wore a hat with a net, because bees can sting.<br><br>The farmer met us at the gate. She showed us (18) ________ wooden beehives under the fruit trees. She lifted one lid (19) ________ us the bees inside. There were thousands of them!<br><br>We (20) ________ walk slowly near the hives, because that is the rule on the farm. Fast arms can make the bees angry.<br><br>Next, we went into a small wooden house. (21) ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet. Then we poured the honey into little jars. I filled my jar (22) ________ than my friends, so I didn't spill a drop.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a tiny candle made from beeswax!<br><br>I have (24) ________ put my candle on my bedroom shelf. I hope to visit the farm again next year!"
+         "html": "<b>Our Trip to a Bee Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a bee farm outside the city. (0) <b>Every</b> child wore a hat with a net, because bees can sting.<br><br>The farmer met us at the gate. She showed us (18) ________ wooden beehives under the fruit trees. She lifted one lid (19) ________ us the bees inside. There were thousands of them!<br><br>We (20) ________ walk slowly near the hives, because that is the rule on the farm. Moving fast can make the bees angry.<br><br>Next, we went into a small wooden house. (21) ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet. Then we poured the honey into little jars. I filled my jar (22) ________ than my friends, so I didn't spill a drop.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a tiny candle made from beeswax!<br><br>I have (24) ________ put my candle on my bedroom shelf. I hope to visit the farm again next year!"
         }
        }
       ]
@@ -2163,7 +2161,7 @@
          "id": "sm-summit-r4",
          "kind": "text",
          "head": "A class trip",
-         "html": "<b>Our Trip to a Bee Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a bee farm outside the city. (0) <b>Every</b> child wore a hat with a net, because bees can sting.<br><br>The farmer met us at the gate. She showed us (18) ________ wooden beehives under the fruit trees. She lifted one lid (19) ________ us the bees inside. There were thousands of them!<br><br>We (20) ________ walk slowly near the hives, because that is the rule on the farm. Fast arms can make the bees angry.<br><br>Next, we went into a small wooden house. (21) ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet. Then we poured the honey into little jars. I filled my jar (22) ________ than my friends, so I didn't spill a drop.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a tiny candle made from beeswax!<br><br>I have (24) ________ put my candle on my bedroom shelf. I hope to visit the farm again next year!"
+         "html": "<b>Our Trip to a Bee Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a bee farm outside the city. (0) <b>Every</b> child wore a hat with a net, because bees can sting.<br><br>The farmer met us at the gate. She showed us (18) ________ wooden beehives under the fruit trees. She lifted one lid (19) ________ us the bees inside. There were thousands of them!<br><br>We (20) ________ walk slowly near the hives, because that is the rule on the farm. Moving fast can make the bees angry.<br><br>Next, we went into a small wooden house. (21) ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet. Then we poured the honey into little jars. I filled my jar (22) ________ than my friends, so I didn't spill a drop.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a tiny candle made from beeswax!<br><br>I have (24) ________ put my candle on my bedroom shelf. I hope to visit the farm again next year!"
         }
        }
       ]
@@ -2199,7 +2197,7 @@
          "id": "sm-summit-r4",
          "kind": "text",
          "head": "A class trip",
-         "html": "<b>Our Trip to a Bee Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a bee farm outside the city. (0) <b>Every</b> child wore a hat with a net, because bees can sting.<br><br>The farmer met us at the gate. She showed us (18) ________ wooden beehives under the fruit trees. She lifted one lid (19) ________ us the bees inside. There were thousands of them!<br><br>We (20) ________ walk slowly near the hives, because that is the rule on the farm. Fast arms can make the bees angry.<br><br>Next, we went into a small wooden house. (21) ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet. Then we poured the honey into little jars. I filled my jar (22) ________ than my friends, so I didn't spill a drop.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a tiny candle made from beeswax!<br><br>I have (24) ________ put my candle on my bedroom shelf. I hope to visit the farm again next year!"
+         "html": "<b>Our Trip to a Bee Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a bee farm outside the city. (0) <b>Every</b> child wore a hat with a net, because bees can sting.<br><br>The farmer met us at the gate. She showed us (18) ________ wooden beehives under the fruit trees. She lifted one lid (19) ________ us the bees inside. There were thousands of them!<br><br>We (20) ________ walk slowly near the hives, because that is the rule on the farm. Moving fast can make the bees angry.<br><br>Next, we went into a small wooden house. (21) ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet. Then we poured the honey into little jars. I filled my jar (22) ________ than my friends, so I didn't spill a drop.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a tiny candle made from beeswax!<br><br>I have (24) ________ put my candle on my bedroom shelf. I hope to visit the farm again next year!"
         }
        }
       ]
@@ -2213,7 +2211,7 @@
       "v": [
        {
         "hint": {
-         "step": "The sentence is positive and in the present perfect. Which time word fits before 'eaten'?"
+         "step": "The sentence is positive and in the present perfect. Which time word fits between 'have' and 'put'?"
         },
         "worked": "'I have <b>already</b> put my candle on my shelf.' 'Already' means it has happened.",
         "type": "mcq",
@@ -2235,7 +2233,7 @@
          "id": "sm-summit-r4",
          "kind": "text",
          "head": "A class trip",
-         "html": "<b>Our Trip to a Bee Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a bee farm outside the city. (0) <b>Every</b> child wore a hat with a net, because bees can sting.<br><br>The farmer met us at the gate. She showed us (18) ________ wooden beehives under the fruit trees. She lifted one lid (19) ________ us the bees inside. There were thousands of them!<br><br>We (20) ________ walk slowly near the hives, because that is the rule on the farm. Fast arms can make the bees angry.<br><br>Next, we went into a small wooden house. (21) ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet. Then we poured the honey into little jars. I filled my jar (22) ________ than my friends, so I didn't spill a drop.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a tiny candle made from beeswax!<br><br>I have (24) ________ put my candle on my bedroom shelf. I hope to visit the farm again next year!"
+         "html": "<b>Our Trip to a Bee Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a bee farm outside the city. (0) <b>Every</b> child wore a hat with a net, because bees can sting.<br><br>The farmer met us at the gate. She showed us (18) ________ wooden beehives under the fruit trees. She lifted one lid (19) ________ us the bees inside. There were thousands of them!<br><br>We (20) ________ walk slowly near the hives, because that is the rule on the farm. Moving fast can make the bees angry.<br><br>Next, we went into a small wooden house. (21) ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet. Then we poured the honey into little jars. I filled my jar (22) ________ than my friends, so I didn't spill a drop.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a tiny candle made from beeswax!<br><br>I have (24) ________ put my candle on my bedroom shelf. I hope to visit the farm again next year!"
         }
        }
       ]
@@ -2270,7 +2268,7 @@
         "at": 0,
         "whys": [
          null,
-         "Yusuf talks about the kitchen, but he doesn't say he enjoys being there.",
+         "Yusuf talks about cooking with his dad, but not about the place where he eats.",
          "Matilda has a clock on the kitchen table, but she doesn't say she enjoys the kitchen."
         ],
         "letters": true,
@@ -2279,7 +2277,7 @@
          "id": "sm-summit-r5",
          "kind": "text",
          "head": "Three children",
-         "html": "<b>My favourite breakfast</b><br><br><b>Chi</b><br>My favourite breakfast is sticky rice with mango. My grandma makes it for me every Sunday. We eat it in Grandma's garden, and I love watching the birds in the tree next to us. On school days, I have to eat quickly, so I just have a banana. I never want to change my Sunday breakfast. It's perfect!<br><br><b>Yusuf</b><br>I love eggs for breakfast. My dad can cook them in lots of ways, but my favourite is a cheese omelette. On Saturdays, I help my dad to cook. I have to be careful, because the pan gets very hot. I think a hot breakfast is better than a cold one. It keeps me full until lunch, so I'm never hungry in class.<br><br><b>Matilda</b><br>I usually have cereal with milk for breakfast, but I'm bored of it now. I'd like to try something new, like noodle soup. My cousin eats that every day. My school bus comes at seven o'clock, so I haven't got much time. Mum puts a little clock on the kitchen table. It helps me to eat fast and not miss the bus!"
+         "html": "<b>My favourite breakfast</b><br><br><b>Chi</b><br>My favourite breakfast is sticky rice with mango. My grandma makes it for me every Sunday. We eat it in Grandma's garden, and I love watching the birds in the tree next to us. On school days, I have to eat quickly, so I just have a banana. I never want to change my Sunday breakfast. It's perfect!<br><br><b>Yusuf</b><br>I love eggs for breakfast. My dad can cook them in lots of ways, but my favourite is a cheese omelette. On Saturdays, I help my dad to cook. I have to be careful, because the pan gets very hot. I think a hot breakfast is better than a cold one. It tastes great on cold, rainy mornings!<br><br><b>Matilda</b><br>I usually have cereal with milk for breakfast, but I'm bored of it now. I'd like to try something new, like noodle soup. My cousin eats that every day. My school bus comes at seven o'clock, so I haven't got much time. Mum puts a little clock on the kitchen table. It helps me to eat fast and not miss the bus!"
         }
        }
       ]
@@ -2316,7 +2314,7 @@
          "id": "sm-summit-r5",
          "kind": "text",
          "head": "Three children",
-         "html": "<b>My favourite breakfast</b><br><br><b>Chi</b><br>My favourite breakfast is sticky rice with mango. My grandma makes it for me every Sunday. We eat it in Grandma's garden, and I love watching the birds in the tree next to us. On school days, I have to eat quickly, so I just have a banana. I never want to change my Sunday breakfast. It's perfect!<br><br><b>Yusuf</b><br>I love eggs for breakfast. My dad can cook them in lots of ways, but my favourite is a cheese omelette. On Saturdays, I help my dad to cook. I have to be careful, because the pan gets very hot. I think a hot breakfast is better than a cold one. It keeps me full until lunch, so I'm never hungry in class.<br><br><b>Matilda</b><br>I usually have cereal with milk for breakfast, but I'm bored of it now. I'd like to try something new, like noodle soup. My cousin eats that every day. My school bus comes at seven o'clock, so I haven't got much time. Mum puts a little clock on the kitchen table. It helps me to eat fast and not miss the bus!"
+         "html": "<b>My favourite breakfast</b><br><br><b>Chi</b><br>My favourite breakfast is sticky rice with mango. My grandma makes it for me every Sunday. We eat it in Grandma's garden, and I love watching the birds in the tree next to us. On school days, I have to eat quickly, so I just have a banana. I never want to change my Sunday breakfast. It's perfect!<br><br><b>Yusuf</b><br>I love eggs for breakfast. My dad can cook them in lots of ways, but my favourite is a cheese omelette. On Saturdays, I help my dad to cook. I have to be careful, because the pan gets very hot. I think a hot breakfast is better than a cold one. It tastes great on cold, rainy mornings!<br><br><b>Matilda</b><br>I usually have cereal with milk for breakfast, but I'm bored of it now. I'd like to try something new, like noodle soup. My cousin eats that every day. My school bus comes at seven o'clock, so I haven't got much time. Mum puts a little clock on the kitchen table. It helps me to eat fast and not miss the bus!"
         }
        }
       ]
@@ -2353,7 +2351,7 @@
          "id": "sm-summit-r5",
          "kind": "text",
          "head": "Three children",
-         "html": "<b>My favourite breakfast</b><br><br><b>Chi</b><br>My favourite breakfast is sticky rice with mango. My grandma makes it for me every Sunday. We eat it in Grandma's garden, and I love watching the birds in the tree next to us. On school days, I have to eat quickly, so I just have a banana. I never want to change my Sunday breakfast. It's perfect!<br><br><b>Yusuf</b><br>I love eggs for breakfast. My dad can cook them in lots of ways, but my favourite is a cheese omelette. On Saturdays, I help my dad to cook. I have to be careful, because the pan gets very hot. I think a hot breakfast is better than a cold one. It keeps me full until lunch, so I'm never hungry in class.<br><br><b>Matilda</b><br>I usually have cereal with milk for breakfast, but I'm bored of it now. I'd like to try something new, like noodle soup. My cousin eats that every day. My school bus comes at seven o'clock, so I haven't got much time. Mum puts a little clock on the kitchen table. It helps me to eat fast and not miss the bus!"
+         "html": "<b>My favourite breakfast</b><br><br><b>Chi</b><br>My favourite breakfast is sticky rice with mango. My grandma makes it for me every Sunday. We eat it in Grandma's garden, and I love watching the birds in the tree next to us. On school days, I have to eat quickly, so I just have a banana. I never want to change my Sunday breakfast. It's perfect!<br><br><b>Yusuf</b><br>I love eggs for breakfast. My dad can cook them in lots of ways, but my favourite is a cheese omelette. On Saturdays, I help my dad to cook. I have to be careful, because the pan gets very hot. I think a hot breakfast is better than a cold one. It tastes great on cold, rainy mornings!<br><br><b>Matilda</b><br>I usually have cereal with milk for breakfast, but I'm bored of it now. I'd like to try something new, like noodle soup. My cousin eats that every day. My school bus comes at seven o'clock, so I haven't got much time. Mum puts a little clock on the kitchen table. It helps me to eat fast and not miss the bus!"
         }
        }
       ]
@@ -2390,7 +2388,7 @@
          "id": "sm-summit-r5",
          "kind": "text",
          "head": "Three children",
-         "html": "<b>My favourite breakfast</b><br><br><b>Chi</b><br>My favourite breakfast is sticky rice with mango. My grandma makes it for me every Sunday. We eat it in Grandma's garden, and I love watching the birds in the tree next to us. On school days, I have to eat quickly, so I just have a banana. I never want to change my Sunday breakfast. It's perfect!<br><br><b>Yusuf</b><br>I love eggs for breakfast. My dad can cook them in lots of ways, but my favourite is a cheese omelette. On Saturdays, I help my dad to cook. I have to be careful, because the pan gets very hot. I think a hot breakfast is better than a cold one. It keeps me full until lunch, so I'm never hungry in class.<br><br><b>Matilda</b><br>I usually have cereal with milk for breakfast, but I'm bored of it now. I'd like to try something new, like noodle soup. My cousin eats that every day. My school bus comes at seven o'clock, so I haven't got much time. Mum puts a little clock on the kitchen table. It helps me to eat fast and not miss the bus!"
+         "html": "<b>My favourite breakfast</b><br><br><b>Chi</b><br>My favourite breakfast is sticky rice with mango. My grandma makes it for me every Sunday. We eat it in Grandma's garden, and I love watching the birds in the tree next to us. On school days, I have to eat quickly, so I just have a banana. I never want to change my Sunday breakfast. It's perfect!<br><br><b>Yusuf</b><br>I love eggs for breakfast. My dad can cook them in lots of ways, but my favourite is a cheese omelette. On Saturdays, I help my dad to cook. I have to be careful, because the pan gets very hot. I think a hot breakfast is better than a cold one. It tastes great on cold, rainy mornings!<br><br><b>Matilda</b><br>I usually have cereal with milk for breakfast, but I'm bored of it now. I'd like to try something new, like noodle soup. My cousin eats that every day. My school bus comes at seven o'clock, so I haven't got much time. Mum puts a little clock on the kitchen table. It helps me to eat fast and not miss the bus!"
         }
        }
       ]
@@ -2419,7 +2417,7 @@
         "whys": [
          null,
          "Chi's grandma makes her breakfast on Sundays, but Chi doesn't say it helps her in the morning.",
-         "Yusuf helps his dad. Nothing helps Yusuf."
+         "Yusuf helps his dad to cook. He doesn't talk about something that helps him."
         ],
         "letters": true,
         "fig": {
@@ -2427,7 +2425,7 @@
          "id": "sm-summit-r5",
          "kind": "text",
          "head": "Three children",
-         "html": "<b>My favourite breakfast</b><br><br><b>Chi</b><br>My favourite breakfast is sticky rice with mango. My grandma makes it for me every Sunday. We eat it in Grandma's garden, and I love watching the birds in the tree next to us. On school days, I have to eat quickly, so I just have a banana. I never want to change my Sunday breakfast. It's perfect!<br><br><b>Yusuf</b><br>I love eggs for breakfast. My dad can cook them in lots of ways, but my favourite is a cheese omelette. On Saturdays, I help my dad to cook. I have to be careful, because the pan gets very hot. I think a hot breakfast is better than a cold one. It keeps me full until lunch, so I'm never hungry in class.<br><br><b>Matilda</b><br>I usually have cereal with milk for breakfast, but I'm bored of it now. I'd like to try something new, like noodle soup. My cousin eats that every day. My school bus comes at seven o'clock, so I haven't got much time. Mum puts a little clock on the kitchen table. It helps me to eat fast and not miss the bus!"
+         "html": "<b>My favourite breakfast</b><br><br><b>Chi</b><br>My favourite breakfast is sticky rice with mango. My grandma makes it for me every Sunday. We eat it in Grandma's garden, and I love watching the birds in the tree next to us. On school days, I have to eat quickly, so I just have a banana. I never want to change my Sunday breakfast. It's perfect!<br><br><b>Yusuf</b><br>I love eggs for breakfast. My dad can cook them in lots of ways, but my favourite is a cheese omelette. On Saturdays, I help my dad to cook. I have to be careful, because the pan gets very hot. I think a hot breakfast is better than a cold one. It tastes great on cold, rainy mornings!<br><br><b>Matilda</b><br>I usually have cereal with milk for breakfast, but I'm bored of it now. I'd like to try something new, like noodle soup. My cousin eats that every day. My school bus comes at seven o'clock, so I haven't got much time. Mum puts a little clock on the kitchen table. It helps me to eat fast and not miss the bus!"
         }
        }
       ]
@@ -2670,14 +2668,14 @@
       "notes": [
        "Task achievement and content 1/2: all four questions are answered, but the reason is very short (help me with what?).",
        "Organisation and layout 1/2: one paragraph in a sensible order, but only 'and' and 'because' link the ideas.",
-       "Grammar 1/2: simple sentences, but two verb mistakes: 'she like' should be 'she likes' and 'she always help' should be 'she always helps'.",
+       "Grammar range and accuracy 1/2: simple sentences, but two verb mistakes: 'she like' should be 'she likes' and 'she always help' should be 'she always helps'.",
        "Vocabulary and spelling 1/2: words are spelt correctly, but they are simple (kind, funny). The answer is a little short.",
        "Writing conventions 1/2: two sentences start without a capital letter ('she'), and the last sentence has no full stop."
       ]
      },
      {
       "level": "Secure",
-      "text": "My best friend lives next door to me. He is tall and very funny, and he has short black hair. Every afternoon, we ride our bikes in our street. At the weekend, we play board games together. He is special to me because he always makes me laugh. I like him a lot.",
+      "text": "My best friend lives next door to me. He is tall and very funny, and he has short black hair. Every afternoon, we ride our bikes in our street. At the weekend, we play board games together. He is special to me because he shares his books and toys with me. I like him a lot.",
       "marks": {
        "content": 2,
        "organisation": 1,
@@ -2686,16 +2684,16 @@
        "conventions": 2
       },
       "notes": [
-       "Task achievement and content 2/2: all four questions are answered, with a clear reason ('he always makes me laugh').",
+       "Task achievement and content 2/2: all four questions are answered, with a clear reason ('he shares his books and toys with me').",
        "Organisation and layout 1/2: one paragraph in a good order, but the linking words are limited ('and', 'because').",
-       "Grammar 2/2: present simple is correct all through ('lives', 'has', 'makes'), with some time phrases at the start of sentences.",
+       "Grammar range and accuracy 2/2: present simple is correct all through ('lives', 'has', 'shares'), with some time phrases at the start of sentences.",
        "Vocabulary and spelling 1/2: correct spelling and some describing words (tall, funny, short black hair), but 'like' and 'a lot' are a little plain.",
        "Writing conventions 2/2: complete sentences with capital letters and full stops."
       ]
      },
      {
       "level": "Excellent",
-      "text": "My best friend sits next to me in class. She is small and cheerful, and she has long curly hair. She is very clever, but she is never bossy. After school, we often play badminton, and then we do our homework together. She is special to me because she listens when I feel sad.",
+      "text": "My best friend sits next to me in class. She is small and cheerful, and she has long curly hair. She is very clever, but she is never bossy. After school, we often play badminton. Then we do our homework together. She is special to me because she listens when I feel sad.",
       "marks": {
        "content": 2,
        "organisation": 2,
@@ -2706,7 +2704,7 @@
       "notes": [
        "Task achievement and content 2/2: all four questions are answered with details, and the reason is clear and personal.",
        "Organisation and layout 2/2: one paragraph in a logical order, with a range of linking words (and, but, after school, then, because, when).",
-       "Grammar 2/2: accurate present simple, adverbs of frequency ('often', 'never') and a 'when' clause.",
+       "Grammar range and accuracy 2/2: accurate present simple, adverbs of frequency ('often', 'never') and a 'when' clause.",
        "Vocabulary and spelling 2/2: varied describing words (cheerful, curly, clever, bossy), all spelt correctly.",
        "Writing conventions 2/2: complete sentences with correct capital letters, commas and full stops."
       ]
@@ -2755,7 +2753,7 @@
       "notes": [
        "Task achievement and content 1/2: all four questions are touched on, but there are few details about what the park looks like.",
        "Organisation and layout 1/2: one paragraph in a sensible order, but most sentences are not linked.",
-       "Grammar 1/2: simple sentences, with one verb mistake ('People goes' should be 'People go'). There is no 'to + verb' for the use.",
+       "Grammar range and accuracy 1/2: simple sentences, with one verb mistake ('People goes' should be 'People go'). There is no 'to + verb' for the use.",
        "Vocabulary and spelling 1/2: simple words (big, green) and one spelling mistake: 'becaus' should be 'because'. A little short.",
        "Writing conventions 1/2: the sentences are complete, but 'it' and 'i' need capital letters."
       ]
@@ -2773,14 +2771,14 @@
       "notes": [
        "Task achievement and content 2/2: all four questions are answered: where it is, what it looks like, the sandpit and why the writer likes it.",
        "Organisation and layout 1/2: one paragraph in a clear order, but 'and' is used a lot and there are few other linking words.",
-       "Grammar 2/2: correct present simple, 'There is' and 'It has', and 'to + verb' for the use ('to build sandcastles').",
+       "Grammar range and accuracy 2/2: correct present simple, 'There is' and 'It has', and 'to + verb' for the use ('to build sandcastles').",
        "Vocabulary and spelling 1/2: correct spelling, but the describing words are simple (small, big, red, fun).",
        "Writing conventions 2/2: complete sentences with capital letters and full stops."
       ]
      },
      {
       "level": "Excellent",
-      "text": "My favourite place is Lotus Park, near my school. It is wide and quiet, with tall trees and a small lake in the middle. The best thing is the long wooden bridge. People walk across it to feed the ducks. In the evening, my family goes there to relax. I love this park because it is peaceful, and I always feel happy there.",
+      "text": "My favourite place is Lotus Park, near my school. It is wide and quiet, with tall trees and a small lake in the middle. The best thing is the long wooden bridge. People stand on it to feed the ducks. When it is cool in the evening, my family goes there to relax. I love this park because it is peaceful, and I always feel happy there.",
       "marks": {
        "content": 2,
        "organisation": 2,
@@ -2790,8 +2788,8 @@
       },
       "notes": [
        "Task achievement and content 2/2: all four questions are answered with good details, and the reason is developed ('peaceful', 'I always feel happy').",
-       "Organisation and layout 2/2: one paragraph in a logical order, with linking words and time phrases (and, with, in the evening, because).",
-       "Grammar 2/2: accurate present simple, 'with' phrases for describing, and two 'to + verb' uses ('to feed', 'to relax').",
+       "Organisation and layout 2/2: one paragraph in a logical order, joined with 'and', 'when' and 'because', and 'The best thing is' introduces the special feature.",
+       "Grammar range and accuracy 2/2: accurate present simple, 'with' phrases for describing, and two 'to + verb' uses ('to feed', 'to relax').",
        "Vocabulary and spelling 2/2: varied, topic words (wide, quiet, wooden bridge, peaceful), all spelt correctly.",
        "Writing conventions 2/2: complete sentences with correct capital letters, commas and full stops."
       ]

@@ -171,7 +171,7 @@
     },
     "kind": "text",
     "head": "A chat in the playground",
-    "html": "Ivy: Have you finished your planet poster *yet*?<br>Finn: Yes, I've *already* finished it. I *enjoy drawing* planets!<br>Ivy: Your poster is really good, *isn't it*? I haven't started mine *yet*.<br>Finn: You *might* need some help. I can help you *after* school.<br>Ivy: Thanks! I *have to* give it to the teacher on Friday.",
+    "html": "Ivy: Have you finished your planet poster *yet*?<br>Finn: Yes, I've *already* finished it. I *enjoy drawing* planets!<br>Ivy: Space is a fun topic, *isn't it*? I haven't started mine *yet*.<br>Finn: You *might* need some help. I can help you *after* school.<br>Ivy: Thanks! I *have to* give it to the teacher on Friday.",
     "audio": null,
     "steps": [
      {
@@ -294,7 +294,7 @@
       },
       {
        "type": "mcq",
-       "q": "Finn hasn't finished his poster ________.",
+       "q": "Ivy hasn't started her poster ________.",
        "opts": [
         "yet",
         "already",
@@ -307,7 +307,7 @@
         "'ever' doesn't go at the end of a 'not' sentence like this."
        ],
        "hint": "Find 'hasn't'. Which word goes at the end of a 'not' sentence?",
-       "worked": "'hasn't finished' is negative, so it ends with *yet*.",
+       "worked": "'hasn't started' is negative, so it ends with *yet*.",
        "stim": null
       }
      ]
@@ -528,15 +528,15 @@
          "type": "tfill",
          "q": "Write some, any or nothing.",
          "lines": [
-          "My piggy bank is empty. There is {0} in it."
+          "The fridge is empty. There is {0} in it."
          ],
          "ans": [
           [
            "nothing"
           ]
          ],
-         "hint": "The piggy bank is empty. Which word means 'not anything'?",
-         "worked": "The piggy bank is empty, so there is *nothing* in it.",
+         "hint": "The fridge is empty. Which word means 'not anything'?",
+         "worked": "The fridge is empty, so there is *nothing* in it.",
          "stim": null
         }
        ]
@@ -2080,7 +2080,7 @@
     ]
    ],
    [
-    "My piggy bank is empty. There's ___ in it.",
+    "The box is empty. There's ___ in it.",
     [
      "nothing",
      "anything",
@@ -2188,7 +2188,7 @@
     [
      "yet",
      "already",
-     "ever"
+     "always"
     ]
    ],
    [
@@ -2436,7 +2436,7 @@
     [
      "anything",
      "nothing",
-     "any"
+     "many"
     ]
    ]
   ]

@@ -293,7 +293,7 @@
        "whys": [
         null,
         "'No need to bring a ball' means you don't need one.",
-        "New players are welcome, but the other players come too."
+        "The sign says new players are welcome. It doesn't say other players can't play."
        ],
        "hint": "Find 'No need'. What don't you need?",
        "worked": "'*No need to bring a ball*.' So new players don't have to bring one.",
@@ -719,7 +719,7 @@
           "Nadia wants Holly to come to her house."
          ],
          "hint": "Find the question 'can you ...?'. What does Nadia want?",
-         "worked": "'Can you *bring your torch to my house* tonight?' A torch is something.",
+         "worked": "'Can you *bring your torch to my house* tonight?' So Holly must bring something: her torch.",
          "stim": {
           "id": "s6-l10",
           "kind": "text",
@@ -1291,7 +1291,8 @@
       {
        "lo": [
         "4Rm.01",
-        "4Uv.03"
+        "4Uv.03",
+        "4Us.07"
        ],
        "v": [
         {
@@ -1326,7 +1327,7 @@
           "This answers 'Where?', not 'Why?'.",
           "This answers 'When?', not 'Why?'."
          ],
-         "hint": "'Why' asks for a reason. 'To + verb' can give a reason.",
+         "hint": "'Why' asks for a reason. Which reply gives one?",
          "worked": "'*Why*?' needs a reason: '*To look at the stars*.'",
          "stim": null
         }
@@ -1335,7 +1336,8 @@
       {
        "lo": [
         "4Rm.01",
-        "4Ug.10"
+        "4Ug.10",
+        "4Us.06"
        ],
        "v": [
         {
@@ -1370,8 +1372,8 @@
           "'went' is the past, but Saturday is in the future.",
           "This answers 'Where is it?', not 'What would you like to do?'."
          ],
-         "hint": "'Would you like to ...?' asks about a plan. Look for 'I'd like to ...'.",
-         "worked": "'*What would you like to do?*' → '*I'd like to go* ...'",
+         "hint": "Saturday is in the future. Which reply answers 'What would you like to do?'",
+         "worked": "'*What would you like to do?*' asks about a plan, so '*I'd like to go* to the sports centre' fits.",
          "stim": null
         }
        ]
@@ -1379,7 +1381,8 @@
       {
        "lo": [
         "4Rm.01",
-        "4Uv.04"
+        "4Uv.04",
+        "4Ug.01"
        ],
        "v": [
         {
@@ -1411,7 +1414,7 @@
          "at": 2,
          "whys": [
           null,
-          "If it isn't cold, you don't need a coat.",
+          "'No, it isn't' says it's not cold, but then you need a coat. The two parts don't match.",
           "The question uses 'is', so the answer is 'Yes, it is'."
          ],
          "hint": "Look at the verb in 'isn't it?'. Use the same verb in your answer.",
@@ -1627,7 +1630,7 @@
       "type": "mcq",
       "q": "What does Alice want?",
       "opts": [
-       "She wants Iris to come out with her.",
+       "She wants Iris to go with her on Sunday.",
        "She wants Iris to buy two tickets.",
        "She wants Iris to give her a ticket."
       ],
@@ -1638,7 +1641,7 @@
        "Alice has the tickets, not Iris."
       ],
       "hint": "Find the question 'Do you want to ...?'.",
-      "worked": "'I've got two tickets... *Do you want to come?*'",
+      "worked": "'I've got two tickets for the planetarium *on Sunday*. *Do you want to come?*' Alice wants Iris to go with her.",
       "stim": {
        "id": "s6-t5",
        "kind": "text",
@@ -1992,20 +1995,20 @@
      },
      {
       "type": "mcq",
-      "q": "Trang says: 'Can you bring some pens for our poster?' What is the best reply?",
+      "q": "Trang says: 'Your sister can swim, can't she?' What is the best reply?",
       "opts": [
-       "Sure. I've got lots of colours.",
-       "Sure. I haven't got any pens.",
-       "Sorry, I made one last year."
+       "Yes, she can. She swims every week.",
+       "Yes, she does. She swims every week.",
+       "No, she can't. She swims every week."
       ],
       "at": 2,
       "whys": [
        null,
-       "If you haven't got any pens, you can't bring them.",
-       "Trang asks about now, not last year."
+       "'can't she?' needs 'can', not 'does'.",
+       "If she swims every week, she CAN swim, so the answer is 'yes'."
       ],
-      "hint": "Check that the second sentence agrees with the first.",
-      "worked": "'*Sure*' + '*I've got lots of colours*' go together.",
+      "hint": "Look at 'can't she?'. Use the same verb in your answer. Then check the second sentence.",
+      "worked": "'*can't she?*' → '*Yes, she can*.' And '*She swims every week*' agrees with yes.",
       "stim": null
      }
     ]
@@ -2074,9 +2077,9 @@
    [
     "'Don't run' means ...",
     [
-     "walk",
+     "you can't run",
      "run fast",
-     "jump"
+     "you must run"
     ]
    ],
    [
@@ -2098,7 +2101,7 @@
    [
     "'Under 5s free': who pays?",
     [
-     "older people",
+     "children over 5",
      "babies",
      "nobody"
     ]
