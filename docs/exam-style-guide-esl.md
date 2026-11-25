@@ -112,7 +112,7 @@ Total reading load in the real paper is about 900 words including questions; the
 - DOK: about 1 at Level 1 and 4 at Level 2.
 
 ## Paper 3: Writing (35 minutes, 20 marks, 2 tasks)
-Both tasks have the same shape: a title in bold, one line of prompt, "Write 6 to 8 sentences ...", four bullet points beginning "In your writing:", and the reminder "Use descriptive adjectives and connectives to organise your ideas (into a paragraph)." Students write on lines. 6 to 8 short sentences is about 40 to 70 words, which matches the specification's 40 to 70 word target for Grade 3.
+Both tasks have the same shape: a short bold title, a one-line prompt asking for 6 to 8 sentences, four bullet points to cover, and a reminder to use describing words and linking words in one paragraph. Students write on lines. 6 to 8 short sentences is about 40 to 70 words, which matches the specification's 40 to 70 word target for Grade 3.
 
 - Task 1 (10 marks): describe a PERSON. The four bullets ask: who the person is; what they are like; what they do; why they matter to you (opinion with a reason).
 - Task 2 (10 marks): describe a PLACE or THING linked to a unit topic. The four bullets ask: what it is and where; what it looks like; one special feature and what it is used for (infinitive of purpose); why you like it (opinion with a reason).
