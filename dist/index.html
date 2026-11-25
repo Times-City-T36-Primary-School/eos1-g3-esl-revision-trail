@@ -4107,6 +4107,16 @@ image.emo-svg { filter: drop-shadow(0 3px 3px rgba(16, 48, 94, .16)); }
 @media (max-width: 520px) and (max-height: 800px) { .npad--text .npad__key { height: 2.375rem; min-height: 0; } }
 /* a laptop or a board has a real keyboard: a smaller letter pad leaves more of the paper in view */
 @media (min-width: 900px) { .npad--text .npad__key { height: 2.375rem; min-height: 0; font-size: 1.125rem; } }
+/* the bank in its own column (52-kit-model.js): a card like the text's */
+.mk__col > .bank { margin: 0; padding: .75rem 1rem; border: 2px solid var(--plate-line); border-radius: var(--r-md); background: var(--plate); color: var(--plate-ink); }
+/* a wide screen: the letters of a bank in one row under the bank, so they show without scrolling */
+@media (min-width: 900px) {
+  .choices.mk__opts--letters { flex-wrap: nowrap; gap: .375rem; }
+  .mk__opts--letters .choice { flex: 1 1 0; min-width: 0; min-height: 3rem; padding: .25rem 1.5rem .25rem .375rem; }
+  .mk__opts--letters .choice__mark { right: .25rem; width: 1.375rem; height: 1.375rem; margin-top: -.6875rem; }
+  .mk__col > .bank { gap: .2rem; }
+  .mk__col > .bank .bank__item { line-height: 1.35; }
+}
 /* 26-nav.css - the Map and Stops buttons (26-nav.js) and the Stops menu */
 .nav-bar { display: flex; gap: .375rem; flex: none; }
 .nav-btn { width: auto; min-width: var(--tap); padding: 0 .75rem 0 .5rem; gap: .375rem; display: inline-flex; align-items: center; border-radius: 999px; }
@@ -8268,7 +8278,7 @@ html:not([data-role="teacher"]) .tp-tag, html:not([data-role="teacher"]) .mk__lo
    T.emo.MAP is the map; T.emo.scan(node) converts a part of the page now. */
 (function (T) {
   'use strict';
-  const MAP = {"⌛": "231b", "⌛️": "231b", "⏭": "23ed", "⏭️": "23ed", "⏮": "23ee", "⏮️": "23ee", "⏳": "23f3", "⏳️": "23f3", "☀": "2600", "☀️": "2600", "☁": "2601", "☁️": "2601", "☕": "2615", "☕️": "2615", "☝": "261d", "☝️": "261d", "⚖": "2696", "⚖️": "2696", "⚽": "26bd", "⚽️": "26bd", "⛈": "26c8", "⛈️": "26c8", "⛰": "26f0", "⛰️": "26f0", "⛺": "26fa", "⛺️": "26fa", "✅": "2705", "✅️": "2705", "✍": "270d", "✍️": "270d", "✨": "2728", "✨️": "2728", "❓": "2753", "❓️": "2753", "❗": "2757", "❗️": "2757", "➕": "2795", "➕️": "2795", "⬜": "2b1c", "⬜️": "2b1c", "⭐": "2b50", "⭐️": "2b50", "🆓": "1f193", "🆓️": "1f193", "🌈": "1f308", "🌈️": "1f308", "🌍": "1f30d", "🌍️": "1f30d", "🌙": "1f319", "🌙️": "1f319", "🌭": "1f32d", "🌭️": "1f32d", "🌱": "1f331", "🌱️": "1f331", "🌳": "1f333", "🌳️": "1f333", "🌵": "1f335", "🌵️": "1f335", "🌷": "1f337", "🌷️": "1f337", "🌽": "1f33d", "🌽️": "1f33d", "🍇": "1f347", "🍇️": "1f347", "🍈": "1f348", "🍈️": "1f348", "🍉": "1f349", "🍉️": "1f349", "🍌": "1f34c", "🍌️": "1f34c", "🍎": "1f34e", "🍎️": "1f34e", "🍓": "1f353", "🍓️": "1f353", "🍔": "1f354", "🍔️": "1f354", "🍚": "1f35a", "🍚️": "1f35a", "🍜": "1f35c", "🍜️": "1f35c", "🍝": "1f35d", "🍝️": "1f35d", "🍞": "1f35e", "🍞️": "1f35e", "🍟": "1f35f", "🍟️": "1f35f", "🍪": "1f36a", "🍪️": "1f36a", "🍫": "1f36b", "🍫️": "1f36b", "🍯": "1f36f", "🍯️": "1f36f", "🍳": "1f373", "🍳️": "1f373", "🍽": "1f37d", "🍽️": "1f37d", "🎁": "1f381", "🎁️": "1f381", "🎂": "1f382", "🎂️": "1f382", "🎒": "1f392", "🎒️": "1f392", "🎟": "1f39f", "🎟️": "1f39f", "🎡": "1f3a1", "🎡️": "1f3a1", "🎢": "1f3a2", "🎢️": "1f3a2", "🎣": "1f3a3", "🎣️": "1f3a3", "🎧": "1f3a7", "🎧️": "1f3a7", "🎨": "1f3a8", "🎨️": "1f3a8", "🎬": "1f3ac", "🎬️": "1f3ac", "🎯": "1f3af", "🎯️": "1f3af", "🎲": "1f3b2", "🎲️": "1f3b2", "🎵": "1f3b5", "🎵️": "1f3b5", "🎹": "1f3b9", "🎹️": "1f3b9", "🏃": "1f3c3", "🏃️": "1f3c3", "🏄": "1f3c4", "🏄️": "1f3c4", "🏅": "1f3c5", "🏅️": "1f3c5", "🏆": "1f3c6", "🏆️": "1f3c6", "🏉": "1f3c9", "🏉️": "1f3c9", "🏊": "1f3ca", "🏊️": "1f3ca", "🏘": "1f3d8", "🏘️": "1f3d8", "🏙": "1f3d9", "🏙️": "1f3d9", "🏛": "1f3db", "🏛️": "1f3db", "🏞": "1f3de", "🏞️": "1f3de", "🏟": "1f3df", "🏟️": "1f3df", "🏠": "1f3e0", "🏠️": "1f3e0", "🏡": "1f3e1", "🏡️": "1f3e1", "🏨": "1f3e8", "🏨️": "1f3e8", "🏫": "1f3eb", "🏫️": "1f3eb", "🏷": "1f3f7", "🏷️": "1f3f7", "🏸": "1f3f8", "🏸️": "1f3f8", "🏺": "1f3fa", "🏺️": "1f3fa", "🐈": "1f408", "🐈️": "1f408", "🐉": "1f409", "🐉️": "1f409", "🐘": "1f418", "🐘️": "1f418", "🐟": "1f41f", "🐟️": "1f41f", "🐠": "1f420", "🐠️": "1f420", "🐱": "1f431", "🐱️": "1f431", "🐶": "1f436", "🐶️": "1f436", "🐸": "1f438", "🐸️": "1f438", "👋": "1f44b", "👋️": "1f44b", "👕": "1f455", "👕️": "1f455", "👥": "1f465", "👥️": "1f465", "👨‍🌾": "1f468-200d-1f33e", "👨‍🌾️": "1f468-200d-1f33e", "👨‍🍳": "1f468-200d-1f373", "👨‍🍳️": "1f468-200d-1f373", "👩‍⚕": "1f469-200d-2695", "👩‍⚕️": "1f469-200d-2695", "👩‍🌾": "1f469-200d-1f33e", "👩‍🌾️": "1f469-200d-1f33e", "👩‍🏫": "1f469-200d-1f3eb", "👩‍🏫️": "1f469-200d-1f3eb", "👮": "1f46e", "👮️": "1f46e", "👵": "1f475", "👵️": "1f475", "👶": "1f476", "👶️": "1f476", "💌": "1f48c", "💌️": "1f48c", "💡": "1f4a1", "💡️": "1f4a1", "💧": "1f4a7", "💧️": "1f4a7", "💬": "1f4ac", "💬️": "1f4ac", "💭": "1f4ad", "💭️": "1f4ad", "📄": "1f4c4", "📄️": "1f4c4", "📅": "1f4c5", "📅️": "1f4c5", "📋": "1f4cb", "📋️": "1f4cb", "📌": "1f4cc", "📌️": "1f4cc", "📚": "1f4da", "📚️": "1f4da", "📞": "1f4de", "📞️": "1f4de", "📦": "1f4e6", "📦️": "1f4e6", "📭": "1f4ed", "📭️": "1f4ed", "📰": "1f4f0", "📰️": "1f4f0", "🔁": "1f501", "🔁️": "1f501", "🔄": "1f504", "🔄️": "1f504", "🔍": "1f50d", "🔍️": "1f50d", "🔑": "1f511", "🔑️": "1f511", "🔒": "1f512", "🔒️": "1f512", "🔗": "1f517", "🔗️": "1f517", "🔤": "1f524", "🔤️": "1f524", "🔦": "1f526", "🔦️": "1f526", "🔧": "1f527", "🔧️": "1f527", "🔮": "1f52e", "🔮️": "1f52e", "🔴": "1f534", "🔴️": "1f534", "🔵": "1f535", "🔵️": "1f535", "🕐": "1f550", "🕐️": "1f550", "🕒": "1f552", "🕒️": "1f552", "🕛": "1f55b", "🕛️": "1f55b", "🕧": "1f567", "🕧️": "1f567", "🖼": "1f5bc", "🖼️": "1f5bc", "🗓": "1f5d3", "🗓️": "1f5d3", "😂": "1f602", "😂️": "1f602", "😄": "1f604", "😄️": "1f604", "😊": "1f60a", "😊️": "1f60a", "😟": "1f61f", "😟️": "1f61f", "😬": "1f62c", "😬️": "1f62c", "😮": "1f62e", "😮️": "1f62e", "🙋": "1f64b", "🙋️": "1f64b", "🚀": "1f680", "🚀️": "1f680", "🚌": "1f68c", "🚌️": "1f68c", "🚗": "1f697", "🚗️": "1f697", "🚜": "1f69c", "🚜️": "1f69c", "🚫": "1f6ab", "🚫️": "1f6ab", "🚲": "1f6b2", "🚲️": "1f6b2", "🚶": "1f6b6", "🚶️": "1f6b6", "🛋": "1f6cb", "🛋️": "1f6cb", "🛏": "1f6cf", "🛏️": "1f6cf", "🛖": "1f6d6", "🛖️": "1f6d6", "🛗": "1f6d7", "🛗️": "1f6d7", "🛰": "1f6f0", "🛰️": "1f6f0", "🛹": "1f6f9", "🛹️": "1f6f9", "🟢": "1f7e2", "🟢️": "1f7e2", "🤏": "1f90f", "🤏️": "1f90f", "🤔": "1f914", "🤔️": "1f914", "🤝": "1f91d", "🤝️": "1f91d", "🤞": "1f91e", "🤞️": "1f91e", "🤩": "1f929", "🤩️": "1f929", "🤫": "1f92b", "🤫️": "1f92b", "🥕": "1f955", "🥕️": "1f955", "🥖": "1f956", "🥖️": "1f956", "🥛": "1f95b", "🥛️": "1f95b", "🥟": "1f95f", "🥟️": "1f95f", "🥣": "1f963", "🥣️": "1f963", "🥤": "1f964", "🥤️": "1f964", "🥦": "1f966", "🥦️": "1f966", "🥪": "1f96a", "🥪️": "1f96a", "🥭": "1f96d", "🥭️": "1f96d", "🥯": "1f96f", "🥯️": "1f96f", "🥱": "1f971", "🥱️": "1f971", "🥶": "1f976", "🥶️": "1f976", "🦆": "1f986", "🦆️": "1f986", "🦢": "1f9a2", "🦢️": "1f9a2", "🧃": "1f9c3", "🧃️": "1f9c3", "🧠": "1f9e0", "🧠️": "1f9e0", "🧩": "1f9e9", "🧩️": "1f9e9", "🧰": "1f9f0", "🧰️": "1f9f0", "🧳": "1f9f3", "🧳️": "1f9f3", "🧹": "1f9f9", "🧹️": "1f9f9", "🧺": "1f9fa", "🧺️": "1f9fa", "🩹": "1fa79", "🩹️": "1fa79", "🩺": "1fa7a", "🩺️": "1fa7a", "🪁": "1fa81", "🪁️": "1fa81", "🪐": "1fa90", "🪐️": "1fa90", "🪤": "1faa4", "🪤️": "1faa4", "🪵": "1fab5", "🪵️": "1fab5"};
+  const MAP = {"⌛": "231b", "⌛️": "231b", "⏭": "23ed", "⏭️": "23ed", "⏮": "23ee", "⏮️": "23ee", "⏰": "23f0", "⏰️": "23f0", "⏳": "23f3", "⏳️": "23f3", "☀": "2600", "☀️": "2600", "☁": "2601", "☁️": "2601", "☕": "2615", "☕️": "2615", "☝": "261d", "☝️": "261d", "⚖": "2696", "⚖️": "2696", "⚽": "26bd", "⚽️": "26bd", "⛈": "26c8", "⛈️": "26c8", "⛰": "26f0", "⛰️": "26f0", "⛺": "26fa", "⛺️": "26fa", "✅": "2705", "✅️": "2705", "✍": "270d", "✍️": "270d", "✨": "2728", "✨️": "2728", "❓": "2753", "❓️": "2753", "❗": "2757", "❗️": "2757", "➕": "2795", "➕️": "2795", "⬜": "2b1c", "⬜️": "2b1c", "⭐": "2b50", "⭐️": "2b50", "🆓": "1f193", "🆓️": "1f193", "🌈": "1f308", "🌈️": "1f308", "🌍": "1f30d", "🌍️": "1f30d", "🌙": "1f319", "🌙️": "1f319", "🌭": "1f32d", "🌭️": "1f32d", "🌱": "1f331", "🌱️": "1f331", "🌳": "1f333", "🌳️": "1f333", "🌵": "1f335", "🌵️": "1f335", "🌷": "1f337", "🌷️": "1f337", "🌽": "1f33d", "🌽️": "1f33d", "🍇": "1f347", "🍇️": "1f347", "🍈": "1f348", "🍈️": "1f348", "🍉": "1f349", "🍉️": "1f349", "🍌": "1f34c", "🍌️": "1f34c", "🍎": "1f34e", "🍎️": "1f34e", "🍓": "1f353", "🍓️": "1f353", "🍔": "1f354", "🍔️": "1f354", "🍗": "1f357", "🍗️": "1f357", "🍚": "1f35a", "🍚️": "1f35a", "🍜": "1f35c", "🍜️": "1f35c", "🍝": "1f35d", "🍝️": "1f35d", "🍞": "1f35e", "🍞️": "1f35e", "🍟": "1f35f", "🍟️": "1f35f", "🍪": "1f36a", "🍪️": "1f36a", "🍫": "1f36b", "🍫️": "1f36b", "🍯": "1f36f", "🍯️": "1f36f", "🍳": "1f373", "🍳️": "1f373", "🍽": "1f37d", "🍽️": "1f37d", "🎁": "1f381", "🎁️": "1f381", "🎂": "1f382", "🎂️": "1f382", "🎒": "1f392", "🎒️": "1f392", "🎟": "1f39f", "🎟️": "1f39f", "🎡": "1f3a1", "🎡️": "1f3a1", "🎢": "1f3a2", "🎢️": "1f3a2", "🎣": "1f3a3", "🎣️": "1f3a3", "🎧": "1f3a7", "🎧️": "1f3a7", "🎨": "1f3a8", "🎨️": "1f3a8", "🎬": "1f3ac", "🎬️": "1f3ac", "🎯": "1f3af", "🎯️": "1f3af", "🎲": "1f3b2", "🎲️": "1f3b2", "🎵": "1f3b5", "🎵️": "1f3b5", "🎹": "1f3b9", "🎹️": "1f3b9", "🏃": "1f3c3", "🏃️": "1f3c3", "🏄": "1f3c4", "🏄️": "1f3c4", "🏅": "1f3c5", "🏅️": "1f3c5", "🏆": "1f3c6", "🏆️": "1f3c6", "🏉": "1f3c9", "🏉️": "1f3c9", "🏊": "1f3ca", "🏊️": "1f3ca", "🏘": "1f3d8", "🏘️": "1f3d8", "🏙": "1f3d9", "🏙️": "1f3d9", "🏛": "1f3db", "🏛️": "1f3db", "🏞": "1f3de", "🏞️": "1f3de", "🏟": "1f3df", "🏟️": "1f3df", "🏠": "1f3e0", "🏠️": "1f3e0", "🏡": "1f3e1", "🏡️": "1f3e1", "🏨": "1f3e8", "🏨️": "1f3e8", "🏫": "1f3eb", "🏫️": "1f3eb", "🏷": "1f3f7", "🏷️": "1f3f7", "🏸": "1f3f8", "🏸️": "1f3f8", "🏺": "1f3fa", "🏺️": "1f3fa", "🐈": "1f408", "🐈️": "1f408", "🐉": "1f409", "🐉️": "1f409", "🐘": "1f418", "🐘️": "1f418", "🐟": "1f41f", "🐟️": "1f41f", "🐠": "1f420", "🐠️": "1f420", "🐱": "1f431", "🐱️": "1f431", "🐶": "1f436", "🐶️": "1f436", "🐸": "1f438", "🐸️": "1f438", "👋": "1f44b", "👋️": "1f44b", "👕": "1f455", "👕️": "1f455", "👥": "1f465", "👥️": "1f465", "👨‍🌾": "1f468-200d-1f33e", "👨‍🌾️": "1f468-200d-1f33e", "👨‍🍳": "1f468-200d-1f373", "👨‍🍳️": "1f468-200d-1f373", "👩‍⚕": "1f469-200d-2695", "👩‍⚕️": "1f469-200d-2695", "👩‍🌾": "1f469-200d-1f33e", "👩‍🌾️": "1f469-200d-1f33e", "👩‍🏫": "1f469-200d-1f3eb", "👩‍🏫️": "1f469-200d-1f3eb", "👮": "1f46e", "👮️": "1f46e", "👵": "1f475", "👵️": "1f475", "👶": "1f476", "👶️": "1f476", "💌": "1f48c", "💌️": "1f48c", "💡": "1f4a1", "💡️": "1f4a1", "💧": "1f4a7", "💧️": "1f4a7", "💬": "1f4ac", "💬️": "1f4ac", "💭": "1f4ad", "💭️": "1f4ad", "📄": "1f4c4", "📄️": "1f4c4", "📅": "1f4c5", "📅️": "1f4c5", "📋": "1f4cb", "📋️": "1f4cb", "📌": "1f4cc", "📌️": "1f4cc", "📖": "1f4d6", "📖️": "1f4d6", "📚": "1f4da", "📚️": "1f4da", "📞": "1f4de", "📞️": "1f4de", "📦": "1f4e6", "📦️": "1f4e6", "📭": "1f4ed", "📭️": "1f4ed", "📰": "1f4f0", "📰️": "1f4f0", "🔁": "1f501", "🔁️": "1f501", "🔄": "1f504", "🔄️": "1f504", "🔍": "1f50d", "🔍️": "1f50d", "🔑": "1f511", "🔑️": "1f511", "🔒": "1f512", "🔒️": "1f512", "🔗": "1f517", "🔗️": "1f517", "🔤": "1f524", "🔤️": "1f524", "🔥": "1f525", "🔥️": "1f525", "🔦": "1f526", "🔦️": "1f526", "🔧": "1f527", "🔧️": "1f527", "🔮": "1f52e", "🔮️": "1f52e", "🔴": "1f534", "🔴️": "1f534", "🔵": "1f535", "🔵️": "1f535", "🕐": "1f550", "🕐️": "1f550", "🕛": "1f55b", "🕛️": "1f55b", "🕧": "1f567", "🕧️": "1f567", "🖼": "1f5bc", "🖼️": "1f5bc", "🗓": "1f5d3", "🗓️": "1f5d3", "😂": "1f602", "😂️": "1f602", "😄": "1f604", "😄️": "1f604", "😊": "1f60a", "😊️": "1f60a", "😟": "1f61f", "😟️": "1f61f", "😬": "1f62c", "😬️": "1f62c", "😮": "1f62e", "😮️": "1f62e", "🙋": "1f64b", "🙋️": "1f64b", "🚀": "1f680", "🚀️": "1f680", "🚌": "1f68c", "🚌️": "1f68c", "🚗": "1f697", "🚗️": "1f697", "🚜": "1f69c", "🚜️": "1f69c", "🚫": "1f6ab", "🚫️": "1f6ab", "🚲": "1f6b2", "🚲️": "1f6b2", "🚶": "1f6b6", "🚶️": "1f6b6", "🛋": "1f6cb", "🛋️": "1f6cb", "🛏": "1f6cf", "🛏️": "1f6cf", "🛖": "1f6d6", "🛖️": "1f6d6", "🛗": "1f6d7", "🛗️": "1f6d7", "🛰": "1f6f0", "🛰️": "1f6f0", "🛹": "1f6f9", "🛹️": "1f6f9", "🟢": "1f7e2", "🟢️": "1f7e2", "🤏": "1f90f", "🤏️": "1f90f", "🤔": "1f914", "🤔️": "1f914", "🤝": "1f91d", "🤝️": "1f91d", "🤞": "1f91e", "🤞️": "1f91e", "🤩": "1f929", "🤩️": "1f929", "🤫": "1f92b", "🤫️": "1f92b", "🥕": "1f955", "🥕️": "1f955", "🥖": "1f956", "🥖️": "1f956", "🥛": "1f95b", "🥛️": "1f95b", "🥟": "1f95f", "🥟️": "1f95f", "🥣": "1f963", "🥣️": "1f963", "🥤": "1f964", "🥤️": "1f964", "🥦": "1f966", "🥦️": "1f966", "🥪": "1f96a", "🥪️": "1f96a", "🥭": "1f96d", "🥭️": "1f96d", "🥯": "1f96f", "🥯️": "1f96f", "🥱": "1f971", "🥱️": "1f971", "🥶": "1f976", "🥶️": "1f976", "🦆": "1f986", "🦆️": "1f986", "🦢": "1f9a2", "🦢️": "1f9a2", "🧃": "1f9c3", "🧃️": "1f9c3", "🧠": "1f9e0", "🧠️": "1f9e0", "🧩": "1f9e9", "🧩️": "1f9e9", "🧰": "1f9f0", "🧰️": "1f9f0", "🧳": "1f9f3", "🧳️": "1f9f3", "🧺": "1f9fa", "🧺️": "1f9fa", "🩹": "1fa79", "🩹️": "1fa79", "🩺": "1fa7a", "🩺️": "1fa7a", "🪁": "1fa81", "🪁️": "1fa81", "🪐": "1fa90", "🪐️": "1fa90", "🪤": "1faa4", "🪤️": "1faa4", "🪵": "1fab5", "🪵️": "1fab5"};
   const DIR = 'img/emoji/';
   const SVGNS = 'http://www.w3.org/2000/svg';
   const keys = Object.keys(MAP).sort(function (a, b) { return b.length - a.length; });
@@ -23780,7 +23790,7 @@ MX.stats9 = stats;
    Made by scripts/convert.py from content/stop1.json (written from the exam-style guide only; no real paper seen). */
 (function (T) {
   'use strict';
-  window.T_ART = Object.assign(window.T_ART || {}, {"e-s1-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"neighbourhood\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏘️</text></svg>", "e-s1-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"caretaker\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🧹</text></svg>", "e-s1-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"librarian\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📚</text></svg>", "e-s1-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"chimney\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏠</text></svg>", "e-s1-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"bungalow\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏡</text></svg>", "e-s1-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"orbit\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🪐</text></svg>", "e-s1-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"satellite\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🛰️</text></svg>", "e-s1-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"nutritious\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🥦</text></svg>", "e-s1-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"soil\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🌱</text></svg>", "e-s1-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"freezing\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🥶</text></svg>", "e-s1-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"wooden\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🪵</text></svg>", "e-s1-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"spiky\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🌵</text></svg>", "e-s1-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"juicy\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍉</text></svg>", "e-s1-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"keen\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🤩</text></svg>"});
+  window.T_ART = Object.assign(window.T_ART || {}, {"e-s1-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"neighbourhood\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏘️</text></svg>", "e-s1-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"caretaker\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🧰</text></svg>", "e-s1-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"librarian\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📖</text></svg>", "e-s1-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"chimney\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔥</text></svg>", "e-s1-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"bungalow\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏡</text></svg>", "e-s1-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"orbit\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🪐</text></svg>", "e-s1-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"satellite\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🛰️</text></svg>", "e-s1-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"nutritious\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🥦</text></svg>", "e-s1-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"soil\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🌱</text></svg>", "e-s1-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"freezing\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🥶</text></svg>", "e-s1-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"wooden\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🪵</text></svg>", "e-s1-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"spiky\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🌵</text></svg>", "e-s1-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"juicy\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍉</text></svg>", "e-s1-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"keen\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🤩</text></svg>"});
   T.packs[1] = {
  "n": 1,
  "title": "Topic words and describing words",
@@ -24030,7 +24040,7 @@ MX.stats9 = stats;
           "bigger",
           "big"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Bigger is for two things, with than. Here Jupiter is one of all the planets.",
@@ -24050,7 +24060,7 @@ MX.stats9 = stats;
           "the smallest",
           "small"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "We use the smallest for one of a big group, not with than.",
@@ -24098,7 +24108,7 @@ MX.stats9 = stats;
           "the worst",
           "bad"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "The worst is for the very last day, the most terrible one of all.",
@@ -24126,7 +24136,7 @@ MX.stats9 = stats;
           "an",
           "two"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "We use an with one countable thing, like an egg. We can't count rice.",
@@ -24146,7 +24156,7 @@ MX.stats9 = stats;
           "loaf",
           "slice"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "We use a loaf for bread, not water.",
@@ -24194,7 +24204,7 @@ MX.stats9 = stats;
           "the closest",
           "close"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "The closest is for one of a big group, not with than.",
@@ -24266,7 +24276,7 @@ MX.stats9 = stats;
           "the school nurse",
           "the head teacher"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "The school nurse helps you when you are ill or hurt.",
@@ -24294,7 +24304,7 @@ MX.stats9 = stats;
           "chimney",
           "balcony"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "A chimney is a pipe on the roof for smoke.",
@@ -24314,7 +24324,7 @@ MX.stats9 = stats;
           "planet",
           "sunset"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "A planet is not a machine. People don't make planets.",
@@ -24390,7 +24400,7 @@ MX.stats9 = stats;
           "biggest",
           "big"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Biggest is for one of a big group, with the. Here we see than.",
@@ -24410,7 +24420,7 @@ MX.stats9 = stats;
           "fastest",
           "fast"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Fastest is for one of a big group, with the.",
@@ -24438,7 +24448,7 @@ MX.stats9 = stats;
           "higher",
           "high"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Higher compares two mountains, with than.",
@@ -24458,7 +24468,7 @@ MX.stats9 = stats;
           "longer",
           "long"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Longer compares two books, with than.",
@@ -24554,7 +24564,7 @@ MX.stats9 = stats;
           "bread",
           "water"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Bread is uncountable. We say some bread or a loaf of bread.",
@@ -24582,7 +24592,7 @@ MX.stats9 = stats;
           "a",
           "an"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "We use a with one countable thing. Water is uncountable.",
@@ -24602,7 +24612,7 @@ MX.stats9 = stats;
           "a",
           "many"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Egg starts with a vowel sound, e. We don't say a before it.",
@@ -24650,7 +24660,7 @@ MX.stats9 = stats;
           "slice",
           "loaf"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "A slice is a thin piece of bread or cake.",
@@ -24700,7 +24710,7 @@ MX.stats9 = stats;
           "caretaker",
           "librarian"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "The caretaker fixes the school building, not hurt knees.",
@@ -24720,7 +24730,7 @@ MX.stats9 = stats;
           "sandpit",
           "surgery"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "A sandpit is a place with sand where small children play.",
@@ -24796,7 +24806,7 @@ MX.stats9 = stats;
           "balcony",
           "floor"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "A balcony is outside a window. Smoke doesn't go up it.",
@@ -24852,7 +24862,7 @@ MX.stats9 = stats;
           "youngest",
           "young"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Youngest is for one of a big group, with the.",
@@ -24872,7 +24882,7 @@ MX.stats9 = stats;
           "brightest",
           "bright"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Brightest is for one of a big group, with the.",
@@ -24900,7 +24910,7 @@ MX.stats9 = stats;
           "the worst",
           "better"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "The worst doesn't make sense. Kai loves football!",
@@ -24948,7 +24958,7 @@ MX.stats9 = stats;
           "many",
           "a"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "We use many with countable nouns, like many eggs. Sugar is uncountable.",
@@ -24968,7 +24978,7 @@ MX.stats9 = stats;
           "much",
           "a"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "We use much with uncountable nouns, like much sugar. Eggs are countable.",
@@ -25067,7 +25077,7 @@ MX.stats9 = stats;
           "freezing",
           "icy"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Freezing means very cold, but the story says it was hot.",
@@ -25094,7 +25104,7 @@ MX.stats9 = stats;
           "juicy",
           "smooth"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Juicy is about the fruit inside. Juicy things don't hurt you.",
@@ -25129,7 +25139,7 @@ MX.stats9 = stats;
           "fastest",
           "slower"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Fastest is for one of a big group, with the. Here we see than.",
@@ -25156,7 +25166,7 @@ MX.stats9 = stats;
           "best",
           "good"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Best is for one of a big group, with the. Here we see than.",
@@ -25276,7 +25286,7 @@ MX.stats9 = stats;
        "freezing",
        "wooden"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "Freezing means very cold. It is about the weather, not people.",
@@ -25296,7 +25306,7 @@ MX.stats9 = stats;
        "humid",
        "juicy"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Humid means hot and wet. Ice can't be humid.",
@@ -25324,7 +25334,7 @@ MX.stats9 = stats;
        "spiky",
        "salty"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Spiky means covered with sharp points. Most fish aren't spiky.",
@@ -25372,7 +25382,7 @@ MX.stats9 = stats;
        "taller",
        "tall"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Taller compares two buildings, with than. Look at 'in our town'.",
@@ -25392,7 +25402,7 @@ MX.stats9 = stats;
        "the fastest",
        "fast"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "The fastest is for one of a big group, not with than.",
@@ -25440,7 +25450,7 @@ MX.stats9 = stats;
        "the worst",
        "better"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "The worst doesn't make sense. Ten out of ten is a very good mark!",
@@ -25488,7 +25498,7 @@ MX.stats9 = stats;
        "many",
        "a"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Many is for countable nouns, like many eggs. Rice is uncountable.",
@@ -25516,7 +25526,7 @@ MX.stats9 = stats;
        "humid",
        "warm"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Humid means hot and wet. They wouldn't need thick coats.",
@@ -25578,7 +25588,7 @@ MX.stats9 = stats;
        "satellite",
        "sunset"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "A satellite is a machine, not a group of stars.",
@@ -25605,7 +25615,7 @@ MX.stats9 = stats;
        "woollen",
        "golden"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Woollen means made of wool, like a warm hat.",
@@ -25702,7 +25712,7 @@ MX.stats9 = stats;
        "darker",
        "the brightest"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "Darker doesn't make sense. The sentence before says Venus was very bright.",
@@ -25729,7 +25739,7 @@ MX.stats9 = stats;
        "easier",
        "the most difficult"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Easier doesn't make sense. Anya nearly fell over!",
@@ -25791,7 +25801,7 @@ MX.stats9 = stats;
        "the worst",
        "better"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "The worst doesn't make sense. Anya wants to go back!",
@@ -26501,7 +26511,7 @@ MX.stats9 = stats;
           "Do you always eat durian?",
           "Is the durian ready now?"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "'always' asks how often, not about any time in your life.",
@@ -26529,7 +26539,7 @@ MX.stats9 = stats;
           "Is it very cold today?",
           "It isn't cold today at all."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "This is a normal question. A tag is a short question at the END of a sentence.",
@@ -26577,7 +26587,7 @@ MX.stats9 = stats;
           "We enjoy to fly kites.",
           "We enjoy fly kites."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "After 'enjoy' we use -ing, not to + verb.",
@@ -26626,7 +26636,7 @@ MX.stats9 = stats;
           "I went to the shop with Dad.",
           "I went to the shop on Monday."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'with Dad' says who, not why.",
@@ -26718,7 +26728,7 @@ MX.stats9 = stats;
           "never",
           "always"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'never' doesn't go at the end of a question.",
@@ -26746,7 +26756,7 @@ MX.stats9 = stats;
           "ever",
           "already"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "We don't use 'ever' in a 'yes' sentence like this one.",
@@ -26766,7 +26776,7 @@ MX.stats9 = stats;
           "yet",
           "ever"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'yet' goes at the end of 'not' sentences, not in the middle.",
@@ -26794,7 +26804,7 @@ MX.stats9 = stats;
           "hardly ever",
           "never"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'hardly ever' means almost never, but Lena eats fruit every day.",
@@ -26814,7 +26824,7 @@ MX.stats9 = stats;
           "always",
           "never"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'always' means every time, but Sam goes only once a year.",
@@ -26938,7 +26948,7 @@ MX.stats9 = stats;
           "don't they",
           "are they"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "The sentence is negative (don't), so the tag must be positive.",
@@ -26994,7 +27004,7 @@ MX.stats9 = stats;
           "take",
           "took"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "After 'love' we can't use the base verb 'take' alone.",
@@ -27014,7 +27024,7 @@ MX.stats9 = stats;
           "visiting",
           "visit"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "After 'want' we use to + verb, not -ing.",
@@ -27042,7 +27052,7 @@ MX.stats9 = stats;
           "buy",
           "bought"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "We need 'to' before the verb to give the reason.",
@@ -27062,7 +27072,7 @@ MX.stats9 = stats;
           "see",
           "saw"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "We need 'to' before the verb to say what the torch is for.",
@@ -27110,7 +27120,7 @@ MX.stats9 = stats;
           "Not",
           "Doesn't"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "To say 'no' in an instruction, start with 'Don't', not 'Not'.",
@@ -27160,7 +27170,7 @@ MX.stats9 = stats;
           "yet",
           "ever"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'yet' goes at the end of questions and 'not' sentences.",
@@ -27208,7 +27218,7 @@ MX.stats9 = stats;
           "are they",
           "don't they"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "The sentence is positive, so the tag must be negative.",
@@ -27228,7 +27238,7 @@ MX.stats9 = stats;
           "doesn't he",
           "is he"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "The sentence is negative (doesn't), so the tag must be positive.",
@@ -27256,7 +27266,7 @@ MX.stats9 = stats;
           "visiting",
           "visits"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "After 'would like' we use to + verb, not -ing.",
@@ -27312,7 +27322,7 @@ MX.stats9 = stats;
           "Yes, I'm going to start it.",
           "No, I finished it last night."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'Yes' and 'going to start' don't match: if you haven't started, the answer is no.",
@@ -27360,7 +27370,7 @@ MX.stats9 = stats;
           "I liked the zoo a lot.",
           "I go to the zoo by bus."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "This is about the past. The question asks about this weekend.",
@@ -27380,7 +27390,7 @@ MX.stats9 = stats;
           "Yes, he's at work today.",
           "No, I cooked rice last week."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "This says where Dad is, not if you enjoy cooking.",
@@ -27409,7 +27419,7 @@ MX.stats9 = stats;
           "At eight o'clock tonight.",
           "With my big brother."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "This says when, but the question asks why.",
@@ -27429,7 +27439,7 @@ MX.stats9 = stats;
           "I hardly ever get a cough.",
           "You coughed all day yesterday."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "This is about me, not advice for my friend.",
@@ -27465,7 +27475,7 @@ MX.stats9 = stats;
           "getting",
           "got"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "We need to + verb to say why we took the bus.",
@@ -27492,7 +27502,7 @@ MX.stats9 = stats;
           "helping",
           "helped"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "We need to + verb to say why I went to Grandma's house.",
@@ -27528,7 +27538,7 @@ MX.stats9 = stats;
           "to touch",
           "touch"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "After 'enjoy' we use -ing, not to + verb.",
@@ -27555,7 +27565,7 @@ MX.stats9 = stats;
           "not",
           "doesn't"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "To say 'no' in an instruction, use 'don't', not 'not'.",
@@ -27618,7 +27628,7 @@ MX.stats9 = stats;
           "folding",
           "folded"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "After 'learn' we use to + verb, not -ing.",
@@ -27758,7 +27768,7 @@ MX.stats9 = stats;
        "yet",
        "ever"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "'yet' goes at the end of questions and 'not' sentences.",
@@ -27786,7 +27796,7 @@ MX.stats9 = stats;
        "is it",
        "doesn't it"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "The sentence is positive, so the tag must be negative.",
@@ -27834,7 +27844,7 @@ MX.stats9 = stats;
        "don't they",
        "are they"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "The sentence is negative (don't), so the tag must be positive.",
@@ -27882,7 +27892,7 @@ MX.stats9 = stats;
        "to swim",
        "swim"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "After 'enjoy' we use -ing, not to + verb.",
@@ -27978,7 +27988,7 @@ MX.stats9 = stats;
        "Yes, I'm buying one tomorrow.",
        "No, I've already eaten it."
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "'tomorrow' is the future. The question asks about any time up to now.",
@@ -27998,7 +28008,7 @@ MX.stats9 = stats;
        "Yes, she's going to buy it.",
        "No, she bought it this morning."
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "'Yes' and 'going to buy it' don't match: if she hasn't bought it, the answer is no.",
@@ -28026,7 +28036,7 @@ MX.stats9 = stats;
        "It's in the box under my bed.",
        "About two metres, I think."
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "This says where the string is, not why you need it.",
@@ -28046,7 +28056,7 @@ MX.stats9 = stats;
        "It's from the shop near school.",
        "It's blue with white stars."
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "This says where it is from, not what it is for.",
@@ -28074,7 +28084,7 @@ MX.stats9 = stats;
        "Yes, I do. It's very warm.",
        "No, it isn't. It's warm and sunny!"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "The question has 'is', so we answer 'Yes, it is', not 'I do'.",
@@ -28094,7 +28104,7 @@ MX.stats9 = stats;
        "Yes, I am. She's very small.",
        "No, I haven't. She's black and white."
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "The tag uses 'have', so we answer 'Yes, I have', not 'I am'.",
@@ -28123,7 +28133,7 @@ MX.stats9 = stats;
        "Turn on",
        "Don't turn off"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "With the light on, it is harder to see the stars. Read the next sentence.",
@@ -28150,7 +28160,7 @@ MX.stats9 = stats;
        "always",
        "usually"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "If she always eats cake, 'but she bought two pieces' is not a surprise.",
@@ -28185,7 +28195,7 @@ MX.stats9 = stats;
        "always",
        "ever"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Grandpa knows the names, so he doesn't always forget them.",
@@ -28212,7 +28222,7 @@ MX.stats9 = stats;
        "already",
        "ever"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "'already' goes in 'yes' sentences, but this sentence has 'haven't'.",
@@ -28627,11 +28637,11 @@ MX.stats9 = stats;
     ]
    ],
    [
-    "'To buy milk' tells us ___.",
+    "Why did you go out? ___ buy milk.",
     [
-     "why",
-     "when",
-     "where"
+     "To",
+     "For",
+     "Because"
     ]
    ]
   ]
@@ -28656,7 +28666,7 @@ MX.stats9 = stats;
    Made by scripts/convert.py from content/stop3.json (written from the exam-style guide only; no real paper seen). */
 (function (T) {
   'use strict';
-  window.T_ART = Object.assign(window.T_ART || {}, {"e-s3-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"have to\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📋</text></svg>", "e-s3-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"had to\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⌛</text></svg>", "e-s3-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"might\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🤔</text></svg>", "e-s3-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"could\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💡</text></svg>", "e-s3-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"a few\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍓</text></svg>", "e-s3-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"a little\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🥛</text></svg>", "e-s3-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"many\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⭐</text></svg>", "e-s3-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"much\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💧</text></svg>", "e-s3-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"every\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👥</text></svg>", "e-s3-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"something\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🎁</text></svg>", "e-s3-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"nothing\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📭</text></svg>", "e-s3-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"before\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏮️</text></svg>", "e-s3-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"while\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏳</text></svg>", "e-s3-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"more carefully\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">✍️</text></svg>"});
+  window.T_ART = Object.assign(window.T_ART || {}, {"e-s3-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"have to\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❗</text></svg>", "e-s3-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"had to\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⌛</text></svg>", "e-s3-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"might\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🤔</text></svg>", "e-s3-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"could\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💡</text></svg>", "e-s3-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"a few\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍓</text></svg>", "e-s3-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"a little\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🥛</text></svg>", "e-s3-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"many\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍇</text></svg>", "e-s3-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"much\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍚</text></svg>", "e-s3-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"every\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👥</text></svg>", "e-s3-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"something\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🎁</text></svg>", "e-s3-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"nothing\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📭</text></svg>", "e-s3-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"before\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏮️</text></svg>", "e-s3-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"while\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏳</text></svg>", "e-s3-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"more carefully\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">✍️</text></svg>"});
   T.packs[3] = {
  "n": 3,
  "title": "Have to, might, some, any and linking words",
@@ -28908,7 +28918,7 @@ MX.stats9 = stats;
           "We have to wait inside.",
           "We had to wait an hour."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "'have to' is a rule, not a maybe.",
@@ -28976,7 +28986,7 @@ MX.stats9 = stats;
           "a few honey",
           "many honey"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "'a few' goes with things we can count, like cups.",
@@ -29004,7 +29014,7 @@ MX.stats9 = stats;
           "something",
           "anything"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "The piggy bank is empty, so there isn't a thing in it.",
@@ -29024,7 +29034,7 @@ MX.stats9 = stats;
           "nothing",
           "something"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'isn't' and 'nothing' together make two 'no' words.",
@@ -29053,7 +29063,7 @@ MX.stats9 = stats;
           "before",
           "then"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "'before' means earlier, but they did it at the same time.",
@@ -29073,7 +29083,7 @@ MX.stats9 = stats;
           "carefully",
           "most carefully"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Look for 'than'. We need a word that compares two people.",
@@ -29125,7 +29135,7 @@ MX.stats9 = stats;
           "might",
           "could"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "'might' means maybe, but this is a rule.",
@@ -29145,7 +29155,7 @@ MX.stats9 = stats;
           "has to",
           "had to"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'has to' is for rules. We are only guessing where the cat is.",
@@ -29214,7 +29224,7 @@ MX.stats9 = stats;
           "had to",
           "have to"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'had to' is a rule in the past, but this is an idea for now.",
@@ -29234,7 +29244,7 @@ MX.stats9 = stats;
           "has to",
           "had to"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'has to' is for rules. Nobody makes a rule about the weather.",
@@ -29270,7 +29280,7 @@ MX.stats9 = stats;
           "a little",
           "much"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "'a little' goes with things we cannot count, like sugar.",
@@ -29318,7 +29328,7 @@ MX.stats9 = stats;
           "some",
           "nothing"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "After 'haven't' we use 'any', not 'some'.",
@@ -29436,7 +29446,7 @@ MX.stats9 = stats;
           "before",
           "then"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "With 'was ...ing' the two things happen at the same time, so 'before' doesn't fit.",
@@ -29484,7 +29494,7 @@ MX.stats9 = stats;
           "faster",
           "fast"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "'faster' compares two people, but here it is 'of all the children'.",
@@ -29579,7 +29589,7 @@ MX.stats9 = stats;
           "might",
           "may"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'might' means maybe, but putting the balls away is a club rule.",
@@ -29647,7 +29657,7 @@ MX.stats9 = stats;
           "a little",
           "much"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "'a little' goes with things we cannot count, like juice.",
@@ -29695,7 +29705,7 @@ MX.stats9 = stats;
           "anything",
           "nothing"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "'anything' goes in questions and 'not' sentences. This is a yes sentence.",
@@ -29731,7 +29741,7 @@ MX.stats9 = stats;
           "I had to. It was fun.",
           "Yes, I went yesterday."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'had to' and 'was' are the past, but the question is about tomorrow.",
@@ -29780,7 +29790,7 @@ MX.stats9 = stats;
           "Yes, there are a few in the fridge.",
           "No, but there are many in the fridge."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'a few' and 'are' go with things we can count, but juice is not counted.",
@@ -29800,7 +29810,7 @@ MX.stats9 = stats;
           "Yes, I've got some boxes.",
           "No, I haven't got any."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "This answers a yes/no question, but the question starts with 'What'.",
@@ -29829,7 +29839,7 @@ MX.stats9 = stats;
           "You watched it last night.",
           "Because the TV is new."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "This is about last night, but the question asks when you can watch now.",
@@ -29849,7 +29859,7 @@ MX.stats9 = stats;
           "I drew it at home yesterday.",
           "I like drawing animals."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "This says when, not how you made it neat.",
@@ -29913,7 +29923,7 @@ MX.stats9 = stats;
           "After",
           "While"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'After' would mean they put on their boots at the end of the walk.",
@@ -29949,7 +29959,7 @@ MX.stats9 = stats;
           "much",
           "a little"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'much' goes with things we cannot count, but we can count bottles.",
@@ -29976,7 +29986,7 @@ MX.stats9 = stats;
           "slowly",
           "most slowly"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Look for 'than'. We need a word that compares two people.",
@@ -30159,7 +30169,7 @@ MX.stats9 = stats;
        "may",
        "could"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "'may' means maybe, but the vet says it is necessary.",
@@ -30227,7 +30237,7 @@ MX.stats9 = stats;
        "All",
        "Many"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "'All' goes with a plural noun: all students.",
@@ -30255,7 +30265,7 @@ MX.stats9 = stats;
        "something",
        "nothing"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "After 'haven't' we use 'anything', not 'something'.",
@@ -30275,7 +30285,7 @@ MX.stats9 = stats;
        "any",
        "nothing"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "'any' goes in questions and 'not' sentences. This is a yes sentence.",
@@ -30303,7 +30313,7 @@ MX.stats9 = stats;
        "after",
        "while"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "'after' would mean you cross first, then wait. That's dangerous!",
@@ -30323,7 +30333,7 @@ MX.stats9 = stats;
        "before",
        "after"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "With 'was washing' the two things happen at the same time, so 'before' doesn't fit.",
@@ -30371,7 +30381,7 @@ MX.stats9 = stats;
        "higher",
        "high"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "'higher' compares two people, but here it is 'of all the girls'.",
@@ -30399,7 +30409,7 @@ MX.stats9 = stats;
        "Yes, I came to your house last week.",
        "Sorry, I had to visit my aunt."
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "'came' and 'last week' are the past, but Sunday is in the future.",
@@ -30419,7 +30429,7 @@ MX.stats9 = stats;
        "He had to come last year.",
        "He has to. He's very tired."
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "This is about last year, but the question is about tonight.",
@@ -30447,7 +30457,7 @@ MX.stats9 = stats;
        "Yes, I bought something.",
        "No, I didn't buy any."
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "This answers a yes/no question, but the question starts with 'What'.",
@@ -30467,7 +30477,7 @@ MX.stats9 = stats;
        "No, thanks. I'd like some juice.",
        "Yes, I drank some apple juice yesterday."
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "'No, thanks' and 'I'd like some juice' don't agree.",
@@ -30496,7 +30506,7 @@ MX.stats9 = stats;
        "might",
        "may"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "'might' means maybe, but the strong wind made it necessary.",
@@ -30559,7 +30569,7 @@ MX.stats9 = stats;
        "much",
        "a few"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "'much' goes with things we cannot count, but we can count candles.",
@@ -30586,7 +30596,7 @@ MX.stats9 = stats;
        "something",
        "anything"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "The shop was closed, so there wasn't a thing to buy.",
@@ -30622,7 +30632,7 @@ MX.stats9 = stats;
        "before",
        "after"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "The stories and the rain were at the same time, so 'before' doesn't fit.",
@@ -30649,7 +30659,7 @@ MX.stats9 = stats;
        "had to",
        "have to"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "'had to' is a rule in the past, but the next trip is in the future.",
@@ -31093,7 +31103,7 @@ MX.stats9 = stats;
    Made by scripts/convert.py from content/stop4.json (written from the exam-style guide only; no real paper seen). */
 (function (T) {
   'use strict';
-  window.T_ART = Object.assign(window.T_ART || {}, {"e-s4-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"o&#x27;clock\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕐</text></svg>", "e-s4-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"half past\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕧</text></svg>", "e-s4-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"quarter past\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕒</text></svg>", "e-s4-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"phone number\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📞</text></svg>", "e-s4-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"age\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🎂</text></svg>", "e-s4-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"form\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📋</text></svg>", "e-s4-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"first name\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🙋</text></svg>", "e-s4-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"surname\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏷️</text></svg>", "e-s4-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"spell\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔤</text></svg>", "e-s4-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"usually\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔁</text></svg>", "e-s4-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"today\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📅</text></svg>", "e-s4-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"instead\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔄</text></svg>", "e-s4-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"change your mind\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💭</text></svg>"});
+  window.T_ART = Object.assign(window.T_ART || {}, {"e-s4-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"o&#x27;clock\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕐</text></svg>", "e-s4-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"half past\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕧</text></svg>", "e-s4-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"quarter past\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏰</text></svg>", "e-s4-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"phone number\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📞</text></svg>", "e-s4-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"age\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🎂</text></svg>", "e-s4-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"form\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📋</text></svg>", "e-s4-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"first name\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🙋</text></svg>", "e-s4-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"surname\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏷️</text></svg>", "e-s4-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"spell\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔤</text></svg>", "e-s4-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"usually\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔁</text></svg>", "e-s4-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"today\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📅</text></svg>", "e-s4-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"instead\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔄</text></svg>", "e-s4-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"change your mind\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💭</text></svg>"});
   T.packs[4] = {
  "n": 4,
  "title": "Listening: pictures and a form",
@@ -31422,7 +31432,7 @@ MX.stats9 = stats;
             "pic": "🛋️",
             "tag": "sofa"
            },
-           "alt": "sofa picture"
+           "alt": "couch and lamp, sofa"
           },
           {
            "html": "",
@@ -31431,7 +31441,7 @@ MX.stats9 = stats;
             "pic": "🌷",
             "tag": "garden"
            },
-           "alt": "garden picture"
+           "alt": "tulip, garden"
           },
           {
            "html": "",
@@ -31440,7 +31450,7 @@ MX.stats9 = stats;
             "pic": "🚗",
             "tag": "car"
            },
-           "alt": "car picture"
+           "alt": "automobile, car"
           }
          ],
          "at": 1,
@@ -31490,7 +31500,7 @@ MX.stats9 = stats;
             "pic": "🏊",
             "tag": "pool"
            },
-           "alt": "pool picture"
+           "alt": "swimmer, pool"
           },
           {
            "html": "",
@@ -31499,7 +31509,7 @@ MX.stats9 = stats;
             "pic": "📚",
             "tag": "library"
            },
-           "alt": "library picture"
+           "alt": "books, library"
           },
           {
            "html": "",
@@ -31508,10 +31518,10 @@ MX.stats9 = stats;
             "pic": "🌳",
             "tag": "park"
            },
-           "alt": "park picture"
+           "alt": "deciduous tree, park"
           }
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Grandpa guesses the library, but Amira says no.",
@@ -31571,7 +31581,7 @@ MX.stats9 = stats;
             "pic": "🥪",
             "tag": "sandwich"
            },
-           "alt": "sandwich picture"
+           "alt": "sandwich, sandwich"
           },
           {
            "html": "",
@@ -31580,7 +31590,7 @@ MX.stats9 = stats;
             "pic": "🍜",
             "tag": "noodles"
            },
-           "alt": "noodles picture"
+           "alt": "steaming bowl, noodles"
           },
           {
            "html": "",
@@ -31589,10 +31599,10 @@ MX.stats9 = stats;
             "pic": "🍚",
             "tag": "rice"
            },
-           "alt": "rice picture"
+           "alt": "cooked rice, rice"
           }
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "There aren't any noodles today.",
@@ -31644,7 +31654,7 @@ MX.stats9 = stats;
             "pic": "🥛",
             "tag": "milk"
            },
-           "alt": "milk picture"
+           "alt": "glass of milk, milk"
           },
           {
            "html": "",
@@ -31653,7 +31663,7 @@ MX.stats9 = stats;
             "pic": "🧃",
             "tag": "juice"
            },
-           "alt": "juice picture"
+           "alt": "beverage box, juice"
           },
           {
            "html": "",
@@ -31662,10 +31672,10 @@ MX.stats9 = stats;
             "pic": "💧",
             "tag": "water"
            },
-           "alt": "water picture"
+           "alt": "droplet, water"
           }
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Grace asks for juice, but there isn't any.",
@@ -31725,7 +31735,7 @@ MX.stats9 = stats;
             "pic": "🏊",
             "tag": "5:00"
            },
-           "alt": "5:00 picture"
+           "alt": "swimmer, 5:00"
           },
           {
            "html": "",
@@ -31734,7 +31744,7 @@ MX.stats9 = stats;
             "pic": "🏊",
             "tag": "4:00"
            },
-           "alt": "4:00 picture"
+           "alt": "swimmer, 4:00"
           },
           {
            "html": "",
@@ -31743,7 +31753,7 @@ MX.stats9 = stats;
             "pic": "🏊",
             "tag": "4:30"
            },
-           "alt": "4:30 picture"
+           "alt": "swimmer, 4:30"
           }
          ],
          "at": 0,
@@ -31798,7 +31808,7 @@ MX.stats9 = stats;
             "pic": "🍽️",
             "tag": "6:00"
            },
-           "alt": "6:00 picture"
+           "alt": "fork and knife with plate, 6:00"
           },
           {
            "html": "",
@@ -31807,7 +31817,7 @@ MX.stats9 = stats;
             "pic": "🍽️",
             "tag": "7:00"
            },
-           "alt": "7:00 picture"
+           "alt": "fork and knife with plate, 7:00"
           },
           {
            "html": "",
@@ -31816,10 +31826,10 @@ MX.stats9 = stats;
             "pic": "🍽️",
             "tag": "7:30"
            },
-           "alt": "7:30 picture"
+           "alt": "fork and knife with plate, 7:30"
           }
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Seven o'clock is when they usually eat.",
@@ -31874,7 +31884,7 @@ MX.stats9 = stats;
             "pic": "🩺🐶",
             "tag": "vet"
            },
-           "alt": "vet picture"
+           "alt": "stethoscope and dog face, vet"
           },
           {
            "html": "",
@@ -31883,7 +31893,7 @@ MX.stats9 = stats;
             "pic": "👩‍🏫",
             "tag": "teacher"
            },
-           "alt": "teacher picture"
+           "alt": "woman and school, teacher"
           },
           {
            "html": "",
@@ -31892,10 +31902,10 @@ MX.stats9 = stats;
             "pic": "👩‍🌾",
             "tag": "farmer"
            },
-           "alt": "farmer picture"
+           "alt": "woman and ear of rice, farmer"
           }
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Mum guesses teacher, but Lucy says no.",
@@ -31947,7 +31957,7 @@ MX.stats9 = stats;
             "pic": "🪐",
             "tag": "planet"
            },
-           "alt": "planet picture"
+           "alt": "ringed planet, planet"
           },
           {
            "html": "",
@@ -31956,7 +31966,7 @@ MX.stats9 = stats;
             "pic": "🚀",
             "tag": "rocket"
            },
-           "alt": "rocket picture"
+           "alt": "rocket, rocket"
           },
           {
            "html": "",
@@ -31965,10 +31975,10 @@ MX.stats9 = stats;
             "pic": "⭐",
             "tag": "stars"
            },
-           "alt": "stars picture"
+           "alt": "white medium star, stars"
           }
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "The rocket is on his brother's T-shirt.",
@@ -32052,7 +32062,7 @@ MX.stats9 = stats;
             "pic": "🎵",
             "tag": "6:00"
            },
-           "alt": "6:00 picture"
+           "alt": "musical note, 6:00"
           },
           {
            "html": "",
@@ -32061,7 +32071,7 @@ MX.stats9 = stats;
             "pic": "🎵",
             "tag": "5:30"
            },
-           "alt": "5:30 picture"
+           "alt": "musical note, 5:30"
           },
           {
            "html": "",
@@ -32070,10 +32080,10 @@ MX.stats9 = stats;
             "pic": "🎵",
             "tag": "7:30"
            },
-           "alt": "7:30 picture"
+           "alt": "musical note, 7:30"
           }
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Half past five is when Grandma should come.",
@@ -32125,7 +32135,7 @@ MX.stats9 = stats;
             "pic": "🚀",
             "tag": "10:15"
            },
-           "alt": "10:15 picture"
+           "alt": "rocket, 10:15"
           },
           {
            "html": "",
@@ -32134,7 +32144,7 @@ MX.stats9 = stats;
             "pic": "🚀",
             "tag": "10:00"
            },
-           "alt": "10:00 picture"
+           "alt": "rocket, 10:00"
           },
           {
            "html": "",
@@ -32143,7 +32153,7 @@ MX.stats9 = stats;
             "pic": "🚀",
             "tag": "12:00"
            },
-           "alt": "12:00 picture"
+           "alt": "rocket, 12:00"
           }
          ],
          "at": 1,
@@ -32206,7 +32216,7 @@ MX.stats9 = stats;
             "pic": "🎂",
             "tag": "£3"
            },
-           "alt": "£3 picture"
+           "alt": "birthday cake, £3"
           },
           {
            "html": "",
@@ -32215,7 +32225,7 @@ MX.stats9 = stats;
             "pic": "🎂",
             "tag": "£2"
            },
-           "alt": "£2 picture"
+           "alt": "birthday cake, £2"
           },
           {
            "html": "",
@@ -32224,10 +32234,10 @@ MX.stats9 = stats;
             "pic": "🎂",
             "tag": "£1"
            },
-           "alt": "£1 picture"
+           "alt": "birthday cake, £1"
           }
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Two pounds is the price of the lemon cake.",
@@ -32279,7 +32289,7 @@ MX.stats9 = stats;
             "pic": "🎟️",
             "tag": "£4"
            },
-           "alt": "£4 picture"
+           "alt": "admission tickets, £4"
           },
           {
            "html": "",
@@ -32288,7 +32298,7 @@ MX.stats9 = stats;
             "pic": "🎟️",
             "tag": "£8"
            },
-           "alt": "£8 picture"
+           "alt": "admission tickets, £8"
           },
           {
            "html": "",
@@ -32297,7 +32307,7 @@ MX.stats9 = stats;
             "pic": "🎟️",
             "tag": "£2"
            },
-           "alt": "£2 picture"
+           "alt": "admission tickets, £2"
           }
          ],
          "at": 0,
@@ -32360,7 +32370,7 @@ MX.stats9 = stats;
             "pic": "⚽",
             "tag": "Sat"
            },
-           "alt": "Sat picture"
+           "alt": "soccer ball, Sat"
           },
           {
            "html": "",
@@ -32369,7 +32379,7 @@ MX.stats9 = stats;
             "pic": "⚽",
             "tag": "Tue"
            },
-           "alt": "Tue picture"
+           "alt": "soccer ball, Tue"
           },
           {
            "html": "",
@@ -32378,7 +32388,7 @@ MX.stats9 = stats;
             "pic": "⚽",
             "tag": "Thu"
            },
-           "alt": "Thu picture"
+           "alt": "soccer ball, Thu"
           }
          ],
          "at": 2,
@@ -32433,7 +32443,7 @@ MX.stats9 = stats;
             "pic": "👵",
             "tag": "Wed"
            },
-           "alt": "Wed picture"
+           "alt": "older woman, Wed"
           },
           {
            "html": "",
@@ -32442,7 +32452,7 @@ MX.stats9 = stats;
             "pic": "👵",
             "tag": "Mon"
            },
-           "alt": "Mon picture"
+           "alt": "older woman, Mon"
           },
           {
            "html": "",
@@ -32451,10 +32461,10 @@ MX.stats9 = stats;
             "pic": "👵",
             "tag": "Fri"
            },
-           "alt": "Fri picture"
+           "alt": "older woman, Fri"
           }
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Mum says not on Monday.",
@@ -32522,7 +32532,7 @@ MX.stats9 = stats;
             "pic": "🚜",
             "tag": "farm"
            },
-           "alt": "farm picture"
+           "alt": "tractor, farm"
           },
           {
            "html": "",
@@ -32531,7 +32541,7 @@ MX.stats9 = stats;
             "pic": "🏙️",
             "tag": "city"
            },
-           "alt": "city picture"
+           "alt": "cityscape, city"
           },
           {
            "html": "",
@@ -32540,10 +32550,10 @@ MX.stats9 = stats;
             "pic": "⛰️",
             "tag": "mountains"
            },
-           "alt": "mountains picture"
+           "alt": "mountain, mountains"
           }
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Grandpa guesses the city, but Jack says no.",
@@ -32595,7 +32605,7 @@ MX.stats9 = stats;
             "pic": "🪐",
             "tag": "Saturn"
            },
-           "alt": "Saturn picture"
+           "alt": "ringed planet, Saturn"
           },
           {
            "html": "",
@@ -32604,7 +32614,7 @@ MX.stats9 = stats;
             "pic": "🔴",
             "tag": "Mars"
            },
-           "alt": "Mars picture"
+           "alt": "large red circle, Mars"
           },
           {
            "html": "",
@@ -32613,10 +32623,10 @@ MX.stats9 = stats;
             "pic": "🌍",
             "tag": "Earth"
            },
-           "alt": "Earth picture"
+           "alt": "earth globe europe-africa, Earth"
           }
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Grace says Mars is nice, but it isn't her favourite.",
@@ -32676,7 +32686,7 @@ MX.stats9 = stats;
             "pic": "🚌",
             "tag": "bus"
            },
-           "alt": "bus picture"
+           "alt": "bus, bus"
           },
           {
            "html": "",
@@ -32685,7 +32695,7 @@ MX.stats9 = stats;
             "pic": "🚶",
             "tag": "walk"
            },
-           "alt": "walk picture"
+           "alt": "pedestrian, walk"
           },
           {
            "html": "",
@@ -32694,10 +32704,10 @@ MX.stats9 = stats;
             "pic": "🚗",
             "tag": "car"
            },
-           "alt": "car picture"
+           "alt": "automobile, car"
           }
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Raj usually walks, but not today.",
@@ -32749,7 +32759,7 @@ MX.stats9 = stats;
             "pic": "🥭",
             "tag": "mango"
            },
-           "alt": "mango picture"
+           "alt": "mango, mango"
           },
           {
            "html": "",
@@ -32758,7 +32768,7 @@ MX.stats9 = stats;
             "pic": "🍜",
             "tag": "noodles"
            },
-           "alt": "noodles picture"
+           "alt": "steaming bowl, noodles"
           },
           {
            "html": "",
@@ -32767,7 +32777,7 @@ MX.stats9 = stats;
             "pic": "🍚",
             "tag": "rice"
            },
-           "alt": "rice picture"
+           "alt": "cooked rice, rice"
           }
          ],
          "at": 2,
@@ -32830,7 +32840,7 @@ MX.stats9 = stats;
             "pic": "🖼️",
             "tag": "picture"
            },
-           "alt": "picture picture"
+           "alt": "frame with picture, picture"
           },
           {
            "html": "",
@@ -32839,7 +32849,7 @@ MX.stats9 = stats;
             "pic": "💌",
             "tag": "card"
            },
-           "alt": "card picture"
+           "alt": "love letter, card"
           },
           {
            "html": "",
@@ -32848,7 +32858,7 @@ MX.stats9 = stats;
             "pic": "🎂",
             "tag": "cake"
            },
-           "alt": "cake picture"
+           "alt": "birthday cake, cake"
           }
          ],
          "at": 1,
@@ -32903,7 +32913,7 @@ MX.stats9 = stats;
             "pic": "🌱",
             "tag": "cress"
            },
-           "alt": "cress picture"
+           "alt": "seedling, cress"
           },
           {
            "html": "",
@@ -32912,7 +32922,7 @@ MX.stats9 = stats;
             "pic": "🥕",
             "tag": "carrots"
            },
-           "alt": "carrots picture"
+           "alt": "carrot, carrots"
           },
           {
            "html": "",
@@ -32921,10 +32931,10 @@ MX.stats9 = stats;
             "pic": "🍓",
             "tag": "strawberries"
            },
-           "alt": "strawberries picture"
+           "alt": "strawberry, strawberries"
           }
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "The pot is too small for carrots.",
@@ -33378,7 +33388,7 @@ MX.stats9 = stats;
             "pic": "🏛️",
             "tag": "museum"
            },
-           "alt": "museum picture"
+           "alt": "classical building, museum"
           },
           {
            "html": "",
@@ -33387,7 +33397,7 @@ MX.stats9 = stats;
             "pic": "🌳",
             "tag": "park"
            },
-           "alt": "park picture"
+           "alt": "deciduous tree, park"
           },
           {
            "html": "",
@@ -33396,7 +33406,7 @@ MX.stats9 = stats;
             "pic": "🎬",
             "tag": "cinema"
            },
-           "alt": "cinema picture"
+           "alt": "clapper board, cinema"
           }
          ],
          "at": 0,
@@ -33451,7 +33461,7 @@ MX.stats9 = stats;
             "pic": "🏫",
             "tag": "school"
            },
-           "alt": "school picture"
+           "alt": "school, school"
           },
           {
            "html": "",
@@ -33460,7 +33470,7 @@ MX.stats9 = stats;
             "pic": "🏟️",
             "tag": "sports centre"
            },
-           "alt": "sports centre picture"
+           "alt": "stadium, sports centre"
           },
           {
            "html": "",
@@ -33469,10 +33479,10 @@ MX.stats9 = stats;
             "pic": "🌳",
             "tag": "park"
            },
-           "alt": "park picture"
+           "alt": "deciduous tree, park"
           }
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "The sports centre is closed this month.",
@@ -33532,7 +33542,7 @@ MX.stats9 = stats;
             "pic": "🍝",
             "tag": "pasta"
            },
-           "alt": "pasta picture"
+           "alt": "spaghetti, pasta"
           },
           {
            "html": "",
@@ -33541,7 +33551,7 @@ MX.stats9 = stats;
             "pic": "🥪",
             "tag": "sandwiches"
            },
-           "alt": "sandwiches picture"
+           "alt": "sandwich, sandwiches"
           },
           {
            "html": "",
@@ -33550,7 +33560,7 @@ MX.stats9 = stats;
             "pic": "🍟",
             "tag": "chips"
            },
-           "alt": "chips picture"
+           "alt": "french fries, chips"
           }
          ],
          "at": 2,
@@ -33605,7 +33615,7 @@ MX.stats9 = stats;
             "pic": "👩‍⚕️",
             "tag": "nurse"
            },
-           "alt": "nurse picture"
+           "alt": "woman and staff of aesculapius, nurse"
           },
           {
            "html": "",
@@ -33614,7 +33624,7 @@ MX.stats9 = stats;
             "pic": "👩‍🏫",
             "tag": "teacher"
            },
-           "alt": "teacher picture"
+           "alt": "woman and school, teacher"
           },
           {
            "html": "",
@@ -33623,10 +33633,10 @@ MX.stats9 = stats;
             "pic": "👮",
             "tag": "police officer"
            },
-           "alt": "police officer picture"
+           "alt": "police officer, police officer"
           }
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Dad guesses teacher, but Lucy says no.",
@@ -33686,7 +33696,7 @@ MX.stats9 = stats;
             "pic": "🚀",
             "tag": "rocket"
            },
-           "alt": "rocket picture"
+           "alt": "rocket, rocket"
           },
           {
            "html": "",
@@ -33695,7 +33705,7 @@ MX.stats9 = stats;
             "pic": "🌙",
             "tag": "moon"
            },
-           "alt": "moon picture"
+           "alt": "crescent moon, moon"
           },
           {
            "html": "",
@@ -33704,10 +33714,10 @@ MX.stats9 = stats;
             "pic": "✨",
             "tag": "stars"
            },
-           "alt": "stars picture"
+           "alt": "sparkles, stars"
           }
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "The moon poster was too big.",
@@ -33759,7 +33769,7 @@ MX.stats9 = stats;
             "pic": "🐟🍟",
             "tag": "fish and chips"
            },
-           "alt": "fish and chips picture"
+           "alt": "fish and french fries, fish and chips"
           },
           {
            "html": "",
@@ -33768,7 +33778,7 @@ MX.stats9 = stats;
             "pic": "🍚🍗",
             "tag": "rice and chicken"
            },
-           "alt": "rice and chicken picture"
+           "alt": "cooked rice and poultry leg, rice and chicken"
           },
           {
            "html": "",
@@ -33777,7 +33787,7 @@ MX.stats9 = stats;
             "pic": "🍜",
             "tag": "noodles"
            },
-           "alt": "noodles picture"
+           "alt": "steaming bowl, noodles"
           }
          ],
          "at": 1,
@@ -33848,7 +33858,7 @@ MX.stats9 = stats;
             "pic": "🏠",
             "tag": "6:45"
            },
-           "alt": "6:45 picture"
+           "alt": "house building, 6:45"
           },
           {
            "html": "",
@@ -33857,7 +33867,7 @@ MX.stats9 = stats;
             "pic": "🏠",
             "tag": "7:30"
            },
-           "alt": "7:30 picture"
+           "alt": "house building, 7:30"
           },
           {
            "html": "",
@@ -33866,7 +33876,7 @@ MX.stats9 = stats;
             "pic": "🏠",
             "tag": "7:00"
            },
-           "alt": "7:00 picture"
+           "alt": "house building, 7:00"
           }
          ],
          "at": 2,
@@ -33921,7 +33931,7 @@ MX.stats9 = stats;
             "pic": "🏠",
             "tag": "roof"
            },
-           "alt": "roof picture"
+           "alt": "house building, roof"
           },
           {
            "html": "",
@@ -33930,7 +33940,7 @@ MX.stats9 = stats;
             "pic": "🌷",
             "tag": "garden"
            },
-           "alt": "garden picture"
+           "alt": "tulip, garden"
           },
           {
            "html": "",
@@ -33939,7 +33949,7 @@ MX.stats9 = stats;
             "pic": "🌳",
             "tag": "tree"
            },
-           "alt": "tree picture"
+           "alt": "deciduous tree, tree"
           }
          ],
          "at": 0,
@@ -34002,7 +34012,7 @@ MX.stats9 = stats;
             "pic": "🛖",
             "tag": "hut"
            },
-           "alt": "hut picture"
+           "alt": "hut, hut"
           },
           {
            "html": "",
@@ -34011,7 +34021,7 @@ MX.stats9 = stats;
             "pic": "⛺",
             "tag": "tent"
            },
-           "alt": "tent picture"
+           "alt": "tent, tent"
           },
           {
            "html": "",
@@ -34020,7 +34030,7 @@ MX.stats9 = stats;
             "pic": "🏨",
             "tag": "hotel"
            },
-           "alt": "hotel picture"
+           "alt": "hotel, hotel"
           }
          ],
          "at": 1,
@@ -34075,7 +34085,7 @@ MX.stats9 = stats;
             "pic": "🐱",
             "tag": "10:15"
            },
-           "alt": "10:15 picture"
+           "alt": "cat face, 10:15"
           },
           {
            "html": "",
@@ -34084,7 +34094,7 @@ MX.stats9 = stats;
             "pic": "🐱",
             "tag": "9:00"
            },
-           "alt": "9:00 picture"
+           "alt": "cat face, 9:00"
           },
           {
            "html": "",
@@ -34093,10 +34103,10 @@ MX.stats9 = stats;
             "pic": "🐱",
             "tag": "10:00"
            },
-           "alt": "10:00 picture"
+           "alt": "cat face, 10:00"
           }
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Nine o'clock is the usual opening time, not Sunday's.",
@@ -34156,7 +34166,7 @@ MX.stats9 = stats;
             "pic": "🍌",
             "tag": "banana"
            },
-           "alt": "banana picture"
+           "alt": "banana, banana"
           },
           {
            "html": "",
@@ -34165,7 +34175,7 @@ MX.stats9 = stats;
             "pic": "🥪",
             "tag": "sandwich"
            },
-           "alt": "sandwich picture"
+           "alt": "sandwich, sandwich"
           },
           {
            "html": "",
@@ -34174,10 +34184,10 @@ MX.stats9 = stats;
             "pic": "🍪",
             "tag": "biscuits"
            },
-           "alt": "biscuits picture"
+           "alt": "cookie, biscuits"
           }
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Raj doesn't need a sandwich because the camp gives them lunch.",
@@ -34229,7 +34239,7 @@ MX.stats9 = stats;
             "pic": "🧺",
             "tag": "basket"
            },
-           "alt": "basket picture"
+           "alt": "basket, basket"
           },
           {
            "html": "",
@@ -34238,7 +34248,7 @@ MX.stats9 = stats;
             "pic": "📦",
             "tag": "box"
            },
-           "alt": "box picture"
+           "alt": "package, box"
           },
           {
            "html": "",
@@ -34247,10 +34257,10 @@ MX.stats9 = stats;
             "pic": "🛏️",
             "tag": "bed"
            },
-           "alt": "bed picture"
+           "alt": "bed, bed"
           }
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "The box was for last night.",
@@ -34310,7 +34320,7 @@ MX.stats9 = stats;
          },
          "worked": "Nam says \"No, N at the end. <b>T-R-A-N</b>.\"",
          "type": "tfill",
-         "q": "1 Surname:",
+         "q": "Write the surname.",
          "lines": [
           "Surname: {0}"
          ],
@@ -34399,7 +34409,7 @@ MX.stats9 = stats;
          },
          "worked": "Amira spells it: \"<b>H-A-S-S-A-N</b>\". The guide says it again.",
          "type": "tfill",
-         "q": "1 Surname:",
+         "q": "Write the surname.",
          "lines": [
           "Surname: {0}"
          ],
@@ -34497,7 +34507,7 @@ MX.stats9 = stats;
          },
          "worked": "Nam says \"My mum's number is <b>two seven five eight four one six</b>\". That is 275 8416.",
          "type": "tfill",
-         "q": "2 Phone number:",
+         "q": "Write the phone number.",
          "lines": [
           "Phone number: {0}"
          ],
@@ -34590,7 +34600,7 @@ MX.stats9 = stats;
          },
          "worked": "Amira says \"<b>I'm nine</b>. My brother is seven.\"",
          "type": "tfill",
-         "q": "2 Age:",
+         "q": "Write the age.",
          "lines": [
           "Age: {0}"
          ],
@@ -34691,7 +34701,7 @@ MX.stats9 = stats;
          },
          "worked": "Nam plays football at nine, \"So <b>eleven o'clock</b>, please.\"",
          "type": "tfill",
-         "q": "3 Lesson time on Saturday:",
+         "q": "Write the lesson time on Saturday.",
          "lines": [
           "Lesson time on Saturday: {0}"
          ],
@@ -34797,7 +34807,7 @@ MX.stats9 = stats;
          },
          "worked": "Amira says \"Four people. Oh, and my grandma! So <b>five people</b>.\"",
          "type": "tfill",
-         "q": "3 Number of people:",
+         "q": "Write the number of people.",
          "lines": [
           "Number of people: {0}"
          ],
@@ -34983,7 +34993,7 @@ MX.stats9 = stats;
       },
       "worked": "Grace spells it: \"<b>M-O-S-S</b>\".",
       "type": "tfill",
-      "q": "1 Surname:",
+      "q": "Write the surname.",
       "lines": [
        "Surname: {0}"
       ],
@@ -35092,7 +35102,7 @@ MX.stats9 = stats;
       },
       "worked": "Tuan spells it: \"<b>P-H-A-M</b>\".",
       "type": "tfill",
-      "q": "1 Surname:",
+      "q": "Write the surname.",
       "lines": [
        "Surname: {0}"
       ],
@@ -35200,7 +35210,7 @@ MX.stats9 = stats;
       },
       "worked": "Grace says \"<b>I'm eight</b>. My sister is ten.\"",
       "type": "tfill",
-      "q": "2 Age:",
+      "q": "Write the age.",
       "lines": [
        "Age: {0}"
       ],
@@ -35312,7 +35322,7 @@ MX.stats9 = stats;
       },
       "worked": "Tuan says \"<b>I'm nine</b>. I'll be ten in May.\"",
       "type": "tfill",
-      "q": "2 Age:",
+      "q": "Write the age.",
       "lines": [
        "Age: {0}"
       ],
@@ -35423,7 +35433,7 @@ MX.stats9 = stats;
       },
       "worked": "Grace says \"It's <b>four eight one six two nine three</b>.\" That is 481 6293.",
       "type": "tfill",
-      "q": "3 Phone number:",
+      "q": "Write the phone number.",
       "lines": [
        "Phone number: {0}"
       ],
@@ -35536,7 +35546,7 @@ MX.stats9 = stats;
       },
       "worked": "Tuan says \"<b>Three six two nine eight five four</b>.\" That is 362 9854.",
       "type": "tfill",
-      "q": "3 Phone number:",
+      "q": "Write the phone number.",
       "lines": [
        "Phone number: {0}"
       ],
@@ -35648,7 +35658,7 @@ MX.stats9 = stats;
       },
       "worked": "Grace goes swimming on Saturday, \"So <b>Friday</b>, please.\"",
       "type": "tfill",
-      "q": "4 Day:",
+      "q": "Write the day.",
       "lines": [
        "Day: {0}"
       ],
@@ -35761,7 +35771,7 @@ MX.stats9 = stats;
       },
       "worked": "The Fun Day starts at ten, but \"Helpers have to come early, at <b>half past nine</b>.\"",
       "type": "tfill",
-      "q": "4 Arrive at:",
+      "q": "Write the time to arrive.",
       "lines": [
        "Arrive at: {0}"
       ],
@@ -35890,7 +35900,7 @@ MX.stats9 = stats;
       },
       "worked": "Grace says \"<b>I'll bring two blankets</b>.\" They don't need a torch.",
       "type": "tfill",
-      "q": "5 Bring:",
+      "q": "Write what to bring.",
       "lines": [
        "Bring: {0}"
       ],
@@ -36000,7 +36010,7 @@ MX.stats9 = stats;
       },
       "worked": "Twenty is too many, so \"<b>We can make twelve</b>.\" The organiser says \"Twelve cakes.\"",
       "type": "tfill",
-      "q": "5 Number of cakes:",
+      "q": "Write the number of cakes.",
       "lines": [
        "Number of cakes: {0}"
       ],
@@ -36119,7 +36129,7 @@ MX.stats9 = stats;
          "pic": "🏟️",
          "tag": "sports centre"
         },
-        "alt": "sports centre picture"
+        "alt": "stadium, sports centre"
        },
        {
         "html": "",
@@ -36128,7 +36138,7 @@ MX.stats9 = stats;
          "pic": "🏫",
          "tag": "school"
         },
-        "alt": "school picture"
+        "alt": "school, school"
        },
        {
         "html": "",
@@ -36137,10 +36147,10 @@ MX.stats9 = stats;
          "pic": "🌳",
          "tag": "park"
         },
-        "alt": "park picture"
+        "alt": "deciduous tree, park"
        }
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "They usually play at school, but the field is too wet.",
@@ -36192,7 +36202,7 @@ MX.stats9 = stats;
          "pic": "🏛️",
          "tag": "museum"
         },
-        "alt": "museum picture"
+        "alt": "classical building, museum"
        },
        {
         "html": "",
@@ -36201,7 +36211,7 @@ MX.stats9 = stats;
          "pic": "🏞️",
          "tag": "lake"
         },
-        "alt": "lake picture"
+        "alt": "national park, lake"
        },
        {
         "html": "",
@@ -36210,10 +36220,10 @@ MX.stats9 = stats;
          "pic": "🎬",
          "tag": "cinema"
         },
-        "alt": "cinema picture"
+        "alt": "clapper board, cinema"
        }
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "They will go to the lake on Saturday with the cousins.",
@@ -36273,7 +36283,7 @@ MX.stats9 = stats;
          "pic": "⚽",
          "tag": "10:00"
         },
-        "alt": "10:00 picture"
+        "alt": "soccer ball, 10:00"
        },
        {
         "html": "",
@@ -36282,7 +36292,7 @@ MX.stats9 = stats;
          "pic": "⚽",
          "tag": "10:30"
         },
-        "alt": "10:30 picture"
+        "alt": "soccer ball, 10:30"
        },
        {
         "html": "",
@@ -36291,10 +36301,10 @@ MX.stats9 = stats;
          "pic": "⚽",
          "tag": "9:30"
         },
-        "alt": "9:30 picture"
+        "alt": "soccer ball, 9:30"
        }
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Half past ten is when the match starts, but the coach wants the team there earlier.",
@@ -36346,7 +36356,7 @@ MX.stats9 = stats;
          "pic": "🚗",
          "tag": "8:00"
         },
-        "alt": "8:00 picture"
+        "alt": "automobile, 8:00"
        },
        {
         "html": "",
@@ -36355,7 +36365,7 @@ MX.stats9 = stats;
          "pic": "🚗",
          "tag": "9:00"
         },
-        "alt": "9:00 picture"
+        "alt": "automobile, 9:00"
        },
        {
         "html": "",
@@ -36364,7 +36374,7 @@ MX.stats9 = stats;
          "pic": "🚗",
          "tag": "7:30"
         },
-        "alt": "7:30 picture"
+        "alt": "automobile, 7:30"
        }
       ],
       "at": 2,
@@ -36432,7 +36442,7 @@ MX.stats9 = stats;
          "pic": "👕",
          "tag": "11"
         },
-        "alt": "11 picture"
+        "alt": "t-shirt, 11"
        },
        {
         "html": "",
@@ -36441,7 +36451,7 @@ MX.stats9 = stats;
          "pic": "👕",
          "tag": "7"
         },
-        "alt": "7 picture"
+        "alt": "t-shirt, 7"
        },
        {
         "html": "",
@@ -36450,10 +36460,10 @@ MX.stats9 = stats;
          "pic": "👕",
          "tag": "17"
         },
-        "alt": "17 picture"
+        "alt": "t-shirt, 17"
        }
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Seven was Jack's number last year, on his old shirt.",
@@ -36505,7 +36515,7 @@ MX.stats9 = stats;
          "pic": "🪁",
          "tag": "kite"
         },
-        "alt": "kite picture"
+        "alt": "kite, kite"
        },
        {
         "html": "",
@@ -36514,7 +36524,7 @@ MX.stats9 = stats;
          "pic": "🚲",
          "tag": "bike"
         },
-        "alt": "bike picture"
+        "alt": "bicycle, bike"
        },
        {
         "html": "",
@@ -36523,10 +36533,10 @@ MX.stats9 = stats;
          "pic": "⚽",
          "tag": "ball"
         },
-        "alt": "ball picture"
+        "alt": "soccer ball, ball"
        }
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "There's no room for a bike in the car.",
@@ -36591,7 +36601,7 @@ MX.stats9 = stats;
          "pic": "🥣",
          "tag": "yoghurt"
         },
-        "alt": "yoghurt picture"
+        "alt": "bowl with spoon, yoghurt"
        },
        {
         "html": "",
@@ -36600,7 +36610,7 @@ MX.stats9 = stats;
          "pic": "🍳",
          "tag": "eggs"
         },
-        "alt": "eggs picture"
+        "alt": "cooking, eggs"
        },
        {
         "html": "",
@@ -36609,10 +36619,10 @@ MX.stats9 = stats;
          "pic": "🍜",
          "tag": "noodles"
         },
-        "alt": "noodles picture"
+        "alt": "steaming bowl, noodles"
        }
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "Jack usually has eggs, but Coach says eat fruit before a match.",
@@ -36664,7 +36674,7 @@ MX.stats9 = stats;
          "pic": "🌽",
          "tag": "corn"
         },
-        "alt": "corn picture"
+        "alt": "ear of maize, corn"
        },
        {
         "html": "",
@@ -36673,7 +36683,7 @@ MX.stats9 = stats;
          "pic": "🐟",
          "tag": "fish"
         },
-        "alt": "fish picture"
+        "alt": "fish, fish"
        },
        {
         "html": "",
@@ -36682,10 +36692,10 @@ MX.stats9 = stats;
          "pic": "🌭",
          "tag": "sausages"
         },
-        "alt": "sausages picture"
+        "alt": "hot dog, sausages"
        }
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "Amira doesn't really like fish.",
@@ -36745,7 +36755,7 @@ MX.stats9 = stats;
          "pic": "☕",
          "tag": "café"
         },
-        "alt": "café picture"
+        "alt": "hot beverage, café"
        },
        {
         "html": "",
@@ -36754,7 +36764,7 @@ MX.stats9 = stats;
          "pic": "🏊",
          "tag": "swimming pool"
         },
-        "alt": "swimming pool picture"
+        "alt": "swimmer, swimming pool"
        },
        {
         "html": "",
@@ -36763,10 +36773,10 @@ MX.stats9 = stats;
          "pic": "🏠",
          "tag": "Grandma's house"
         },
-        "alt": "Grandma's house picture"
+        "alt": "house building, Grandma's house"
        }
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "Mum says Jack will be too tired to go swimming.",
@@ -36818,7 +36828,7 @@ MX.stats9 = stats;
          "pic": "🐸",
          "tag": "frogs"
         },
-        "alt": "frogs picture"
+        "alt": "frog face, frogs"
        },
        {
         "html": "",
@@ -36827,7 +36837,7 @@ MX.stats9 = stats;
          "pic": "🦆",
          "tag": "ducks"
         },
-        "alt": "ducks picture"
+        "alt": "duck, ducks"
        },
        {
         "html": "",
@@ -36836,10 +36846,10 @@ MX.stats9 = stats;
          "pic": "🦢",
          "tag": "swans"
         },
-        "alt": "swans picture"
+        "alt": "swan, swans"
        }
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "They saw ducks last year.",
@@ -37255,27 +37265,27 @@ MX.stats9 = stats;
     ]
    ],
    [
-    "Each listening talk is played...",
+    "The day before Friday is...",
     [
-     "twice",
-     "once",
-     "four times"
+     "Thursday",
+     "Saturday",
+     "Sunday"
     ]
    ],
    [
-    "Part 1: how many pictures are said?",
+    "\"Bring a hat, not a scarf.\" Bring...",
     [
-     "all three",
-     "only one",
-     "none"
+     "a hat",
+     "a scarf",
+     "both"
     ]
    ],
    [
-    "Part 3: you write on a...",
+    "Half past eleven is...",
     [
-     "form",
-     "poster",
-     "map"
+     "11:30",
+     "11:15",
+     "12:30"
     ]
    ]
   ]
@@ -37650,7 +37660,7 @@ MX.stats9 = stats;
           "It is Friday.",
           "The school trip is today."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Eva likes Fridays, but that's not why she is smiling.",
@@ -37706,7 +37716,7 @@ MX.stats9 = stats;
           "rice and eggs",
           "noodles"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Clara usually has rice and eggs, but not today.",
@@ -37749,7 +37759,7 @@ MX.stats9 = stats;
           "the park",
           "the library"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Dan usually skates in the park, but today it's too wet.",
@@ -37800,7 +37810,7 @@ MX.stats9 = stats;
           "chocolate biscuits",
           "juice"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Vy was going to make chocolate biscuits, but Rosa is making those.",
@@ -37843,7 +37853,7 @@ MX.stats9 = stats;
           "orange juice",
           "lemon tea"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Kenji wanted orange juice, but the café hasn't got any.",
@@ -38007,7 +38017,7 @@ MX.stats9 = stats;
           "bananas",
           "mangoes"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Pia says bananas are only OK, so they are not her favourite.",
@@ -38055,7 +38065,7 @@ MX.stats9 = stats;
           "the long jump",
           "surfing"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Eva says the long jump is fun, but she isn't very good at it.",
@@ -38159,7 +38169,7 @@ MX.stats9 = stats;
           "bored",
           "very tired"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Elliot felt bored at the start of the walk, not at the top.",
@@ -38215,7 +38225,7 @@ MX.stats9 = stats;
           "a cake",
           "a photo frame"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Dan guesses a cake, but Vy says no.",
@@ -38327,7 +38337,7 @@ MX.stats9 = stats;
           "by bus",
           "on foot"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Elliot usually goes home by bus, but not today.",
@@ -38370,7 +38380,7 @@ MX.stats9 = stats;
           "rice",
           "a cheese sandwich"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Eva usually has rice, but she says *not today*.",
@@ -38469,7 +38479,7 @@ MX.stats9 = stats;
           "to the beach",
           "to the city"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Rosa went to the beach last year, not this year.",
@@ -38520,7 +38530,7 @@ MX.stats9 = stats;
           "He got up late.",
           "His bus was late."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Aisha guesses he got up late, but Huy got up at six.",
@@ -38632,7 +38642,7 @@ MX.stats9 = stats;
           "the cake stall",
           "the book stall"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Kenji was going to help with the cakes, but his plan changed.",
@@ -38726,7 +38736,7 @@ MX.stats9 = stats;
           "It is very big.",
           "The garden is big."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Rosa asks if it is big, but Dan says *not really*.",
@@ -38769,7 +38779,7 @@ MX.stats9 = stats;
           "to play rugby",
           "to play table tennis"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Elliot guesses rugby, but Clara says she doesn't play it.",
@@ -38820,7 +38830,7 @@ MX.stats9 = stats;
           "The film was too long.",
           "The music was too loud."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Aisha thinks the film was too long, but Dan doesn't agree.",
@@ -38873,7 +38883,7 @@ MX.stats9 = stats;
           "the juice",
           "the cakes"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Vy loves the juice, but Kenji says it is too sweet for him.",
@@ -38951,7 +38961,7 @@ MX.stats9 = stats;
           "the view from the top",
           "the food"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Clara says the big wheel was good, but it wasn't the best part.",
@@ -39009,7 +39019,7 @@ MX.stats9 = stats;
           "the round windows",
           "the breakfast"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Huy guesses the round windows, but Pia says no.",
@@ -39075,7 +39085,7 @@ MX.stats9 = stats;
           "scared of the waves",
           "very tired"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Vy was scared *before* the lesson, not after it.",
@@ -39133,7 +39143,7 @@ MX.stats9 = stats;
           "nervous",
           "bored"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Dan asks if she is nervous, but Aisha says *not really*. Dan is the nervous one.",
@@ -39189,7 +39199,7 @@ MX.stats9 = stats;
           "the planets",
           "the space shuttle"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Kenji says the planets room was nice, but he spent all morning at the rover.",
@@ -39425,7 +39435,7 @@ MX.stats9 = stats;
           "The hill was hard to climb.",
           "There were lots of mosquitoes."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Rosa thinks the hill was hard, but Huy doesn't agree.",
@@ -39597,7 +39607,7 @@ MX.stats9 = stats;
           "to go to a story club",
           "to use the computers"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "There is a story club, but Huy says it's for little children.",
@@ -39666,7 +39676,7 @@ MX.stats9 = stats;
           "a dog",
           "a cat"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Elliot wanted a dog, but his home is too small.",
@@ -39724,7 +39734,7 @@ MX.stats9 = stats;
           "some flowers",
           "some chocolate"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Rosa was going to buy flowers, but she changed her mind after Dan spoke.",
@@ -39785,7 +39795,7 @@ MX.stats9 = stats;
           "hot and sunny",
           "snowy and freezing"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Kenji loves hot, sunny days. Pia doesn't like it when it's hot and humid.",
@@ -39838,7 +39848,7 @@ MX.stats9 = stats;
           "dark chocolate",
           "white chocolate"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Huy says dark chocolate is too bitter for him. Eva is the one who loves it.",
@@ -39899,7 +39909,7 @@ MX.stats9 = stats;
           "play in the park",
           "go shopping"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Aisha would love to play in the park, but she can't today.",
@@ -40103,7 +40113,7 @@ MX.stats9 = stats;
        "in the sandpit",
        "under the slide"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Vy looked in the sandpit first, but the treasure wasn't there.",
@@ -40260,7 +40270,7 @@ MX.stats9 = stats;
        "on Monday",
        "on Thursday"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Monday is their sports day, not the trip.",
@@ -40435,7 +40445,7 @@ MX.stats9 = stats;
        "hot",
        "wet"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "Kenji guesses it was hot, but Rosa says no.",
@@ -40483,7 +40493,7 @@ MX.stats9 = stats;
        "shooting stars",
        "a constellation"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Vy went to bed too early, so she didn't see the shooting stars.",
@@ -40597,7 +40607,7 @@ MX.stats9 = stats;
        "a hotel",
        "a museum"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "Kenji guesses a hotel, but Aisha says no.",
@@ -40653,7 +40663,7 @@ MX.stats9 = stats;
        "the food",
        "the music show"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Clara says the food was nice, but she waited a long time for it.",
@@ -40706,7 +40716,7 @@ MX.stats9 = stats;
        "the upside-down rooms",
        "the gift shop"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "The upside-down rooms were funny, but they made Dan feel a bit sick.",
@@ -40767,7 +40777,7 @@ MX.stats9 = stats;
        "to save money",
        "because her mum says so"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Kenji guesses money. Vy's dad likes that, but it is not Vy's reason.",
@@ -40815,7 +40825,7 @@ MX.stats9 = stats;
        "She is very fast.",
        "She has red shoes."
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "Elliot thinks it's because she's fast. She is fast, but Aisha says *that's not why*.",
@@ -40876,7 +40886,7 @@ MX.stats9 = stats;
        "The hall was too hot.",
        "The concert was too short."
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "Rosa thinks the hall was too hot, but Huy didn't feel hot.",
@@ -40929,7 +40939,7 @@ MX.stats9 = stats;
        "It's very sweet.",
        "It's expensive."
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Pia thinks it is sweet, but Elliot says it hasn't got much taste.",
@@ -40990,7 +41000,7 @@ MX.stats9 = stats;
        "do face painting",
        "make crafts"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Eva was going to do face painting, but she changed her mind.",
@@ -41043,7 +41053,7 @@ MX.stats9 = stats;
        "She will ride her bike.",
        "She will take the bus."
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Clara was going to ride her bike, but Kenji says the roads are busy.",
@@ -41109,7 +41119,7 @@ MX.stats9 = stats;
        "the planet with rings",
        "the biggest planet"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "Aisha loves the planet with rings. Huy says it's pretty, but he prefers another one.",
@@ -41162,7 +41172,7 @@ MX.stats9 = stats;
        "dragon stories",
        "funny comics"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Rosa loves dragon stories. Dan says they're only OK.",
@@ -41299,11 +41309,11 @@ MX.stats9 = stats;
     ]
    ],
    [
-    "Which word tells you about this time?",
+    "\"I'm hungry\" means I want to...",
     [
-     "today",
-     "usually",
-     "always"
+     "eat",
+     "sleep",
+     "play"
     ]
    ],
    [
@@ -41451,43 +41461,43 @@ MX.stats9 = stats;
     ]
    ],
    [
-    "In Part 2, how many options?",
+    "\"I like swimming more than running.\" Favourite?",
     [
-     "three",
-     "two",
-     "four"
+     "swimming",
+     "running",
+     "both"
     ]
    ],
    [
-    "How many times do you hear each talk?",
+    "\"She won the race!\" How does she feel?",
     [
-     "twice",
-     "once",
-     "three times"
+     "proud",
+     "bored",
+     "worried"
     ]
    ],
    [
-    "Wrong options in Part 2 are usually...",
+    "\"Let's go to the beach!\" \"Good idea!\" means...",
     [
-     "in the talk",
-     "never said",
-     "pictures"
+     "I agree",
+     "I don't agree",
+     "I'm not sure"
     ]
    ],
    [
-    "A friend's guess is often...",
+    "\"It's raining, so we're staying in.\" Why?",
     [
-     "wrong",
-     "right",
-     "the answer"
+     "the rain",
+     "the sun",
+     "the wind"
     ]
    ],
    [
-    "Listen carefully after the word...",
+    "\"Not the red one, the blue one.\" Which?",
     [
-     "no",
-     "the",
-     "and"
+     "the blue one",
+     "the red one",
+     "both"
     ]
    ],
    [
@@ -41571,11 +41581,11 @@ MX.stats9 = stats;
     ]
    ],
    [
-    "\"So I'm doing that now\" gives the...",
+    "\"I liked tennis. Now I prefer judo.\" Now?",
     [
-     "new plan",
-     "old plan",
-     "reason"
+     "judo",
+     "tennis",
+     "both"
     ]
    ],
    [
@@ -41874,7 +41884,7 @@ MX.stats9 = stats;
           "Visitors must bring some food for the fish.",
           "The fish here don't eat any food."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "'don't feed' means you can't give them food, so don't bring any.",
@@ -41901,7 +41911,7 @@ MX.stats9 = stats;
           "young children",
           "the bus driver"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "The sign doesn't talk about children.",
@@ -41963,7 +41973,7 @@ MX.stats9 = stats;
           "You can use your phone after 7 p.m.",
           "You mustn't eat here before 7 p.m."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Phones must be off all the time, not only after 7 p.m.",
@@ -42025,7 +42035,7 @@ MX.stats9 = stats;
           "More children have fish than dogs.",
           "Cats are the class's favourite pet."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Fish has 4 and dogs have 10, so fewer children have fish.",
@@ -42060,7 +42070,7 @@ MX.stats9 = stats;
           "Yes, I came yesterday.",
           "No, thanks. I'd love to."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Your friend asks about today, not yesterday.",
@@ -42132,7 +42142,7 @@ MX.stats9 = stats;
           "Children under 8 can ride on their own.",
           "Children under 8 mustn't ride the wheel."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'must ride with an adult' means they can't ride alone.",
@@ -42194,7 +42204,7 @@ MX.stats9 = stats;
           "Six people must go in every time.",
           "Only one person can go in at a time."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'Only 6' is the most people, not a rule that six must go in.",
@@ -42221,7 +42231,7 @@ MX.stats9 = stats;
           "children with bikes",
           "children with bikes or skateboards"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "'No bikes' means bikes can't go in.",
@@ -42256,7 +42266,7 @@ MX.stats9 = stats;
           "at 9 a.m. on Tuesday",
           "at 7 p.m. on Sunday"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "The pool is open from 7 a.m. on Tuesdays.",
@@ -42283,7 +42293,7 @@ MX.stats9 = stats;
           "Children pay £5 to go in.",
           "Adults don't have to pay to go in."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "£5 is the price for adults.",
@@ -42326,7 +42336,7 @@ MX.stats9 = stats;
           "to ask Alice to play football with him",
           "to say practice is cancelled"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Alice already goes to practice. Toby tells her when.",
@@ -42353,7 +42363,7 @@ MX.stats9 = stats;
           "make lunch for Grandma",
           "visit Grandma at 12 o'clock"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Grandma is coming for lunch, but Mum doesn't ask Trang to cook it.",
@@ -42415,7 +42425,7 @@ MX.stats9 = stats;
           "look at the stars from her own home",
           "stay at home tonight"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "They look at the stars together at Nadia's house.",
@@ -42450,7 +42460,7 @@ MX.stats9 = stats;
           "make a model at home",
           "buy a new box for Friday"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "They make the models at school, not at home.",
@@ -42520,7 +42530,7 @@ MX.stats9 = stats;
           "Since I was five.",
           "Yes, I really like it."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'Since I was five' answers 'How long?', not 'Where?'.",
@@ -42540,7 +42550,7 @@ MX.stats9 = stats;
           "At the cinema in town.",
           "It's about a robot."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "This answers 'Where?', not 'What time?'.",
@@ -42568,7 +42578,7 @@ MX.stats9 = stats;
           "Yes, I ate it yesterday.",
           "No, I haven't got any."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Grandma is offering rice now, not asking about yesterday.",
@@ -42588,7 +42598,7 @@ MX.stats9 = stats;
           "You're welcome. Any time.",
           "Sorry, I can't help you."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'You're welcome' comes after someone thanks you.",
@@ -42616,7 +42626,7 @@ MX.stats9 = stats;
           "Thank you very much!",
           "Yes, please. I'd love one."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "You don't say thank you for bad news.",
@@ -42636,7 +42646,7 @@ MX.stats9 = stats;
           "Yes, please. I'd like some.",
           "Never mind. It's OK."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Iris isn't offering you something.",
@@ -42713,7 +42723,7 @@ MX.stats9 = stats;
           "Children under 10 can't swim at the hotel.",
           "Adults can only swim with children here."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "They CAN swim, but only with an adult.",
@@ -42749,7 +42759,7 @@ MX.stats9 = stats;
           "to tell people where the bikes are",
           "to ask people to use the lights"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "The notice is about the lights, not where bikes go.",
@@ -42776,7 +42786,7 @@ MX.stats9 = stats;
           "The tours start at 3 p.m. every day.",
           "You get chocolate before the tour starts."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "The first tour is at 10 a.m. 3 p.m. is the last one.",
@@ -42811,7 +42821,7 @@ MX.stats9 = stats;
           "The nurse is in Room 4 at weekends.",
           "Children must go to Room 4 every morning."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "It is open Mondays to Fridays, not at weekends.",
@@ -42838,7 +42848,7 @@ MX.stats9 = stats;
           "One mango costs the same as one papaya.",
           "Press the fruit to choose a good one."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Three mangoes cost £1, so one mango is cheaper than a papaya.",
@@ -42908,7 +42918,7 @@ MX.stats9 = stats;
           "Rugby starts later than skateboarding.",
           "Skateboarding is on Monday and Wednesday."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Rugby starts at 4:00, before skateboarding at 4:30.",
@@ -42970,7 +42980,7 @@ MX.stats9 = stats;
           "He wants Toby to come to the treasure hunt.",
           "He had fun at the treasure hunt on Sunday."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Viet is writing to say he can't come.",
@@ -43006,7 +43016,7 @@ MX.stats9 = stats;
           "to make crafts for the sports club",
           "to find new children for the club"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Children do crafts, but that is not the reason for the day.",
@@ -43033,7 +43043,7 @@ MX.stats9 = stats;
           "Tuesday will be the hottest day.",
           "Monday will be colder than Tuesday."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Monday is the hottest day: 33°C.",
@@ -43078,7 +43088,7 @@ MX.stats9 = stats;
           "No, I finished it yesterday.",
           "Yes, I'll finish it next week."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "If you finished it yesterday, the answer is 'yes', not 'no'.",
@@ -43128,7 +43138,7 @@ MX.stats9 = stats;
           "Yes, it came very early again today.",
           "The bus stop is near my house."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Your friend says the bus is late, so 'early' doesn't fit.",
@@ -43178,7 +43188,7 @@ MX.stats9 = stats;
           "Yes, he runs faster than me.",
           "No, I'm the fastest in my family."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "If he runs faster, the answer is 'no', not 'yes'.",
@@ -43198,7 +43208,7 @@ MX.stats9 = stats;
           "No, it isn't. I need my coat.",
           "Yes, it does. It's freezing."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'No, it isn't' says it's not cold, but then you need a coat. The two parts don't match.",
@@ -43311,7 +43321,7 @@ MX.stats9 = stats;
        "Everyone must be 120 cm to enter the park.",
        "Tall children can't go on this ride."
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "The rule is for this ride, not for the whole park.",
@@ -43338,7 +43348,7 @@ MX.stats9 = stats;
        "Lessons start at 5 p.m. in all the rooms.",
        "You can play music in all the rooms."
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "'until 5 p.m.' means the lessons finish at 5.",
@@ -43373,7 +43383,7 @@ MX.stats9 = stats;
        "at 10 o'clock in the morning",
        "at 6 o'clock in the morning"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "Breakfast finishes at 9:30, so 10 o'clock is too late.",
@@ -43400,7 +43410,7 @@ MX.stats9 = stats;
        "The bus is often late at 3:15.",
        "The bus arrives at school at 3:15."
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "'don't be late' is for the children, not the bus.",
@@ -43435,7 +43445,7 @@ MX.stats9 = stats;
        "She wants Iris to buy two tickets.",
        "She wants Iris to give her a ticket."
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Alice has already got two tickets.",
@@ -43524,7 +43534,7 @@ MX.stats9 = stats;
        "Surfing has more members than rugby.",
        "Long jump has the most members."
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "Surfing has 8 and rugby has 20, so surfing has fewer.",
@@ -43586,7 +43596,7 @@ MX.stats9 = stats;
        "at school",
        "at Sami's house"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "'not at school' means the match is somewhere else.",
@@ -43642,7 +43652,7 @@ MX.stats9 = stats;
        "Yes, I'm going there tomorrow.",
        "No, I went there last summer."
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "If you're going tomorrow, you haven't been yet.",
@@ -43671,7 +43681,7 @@ MX.stats9 = stats;
        "From the shop next to school.",
        "Since last Saturday."
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "This answers 'Where from?', not 'Why?'.",
@@ -43720,7 +43730,7 @@ MX.stats9 = stats;
        "Great! Where did you find it?",
        "Yes, I've got a door key too."
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "Holly can't find it, so you can't ask where she found it.",
@@ -43740,7 +43750,7 @@ MX.stats9 = stats;
        "Yes, we do. We can wear our own clothes.",
        "No, we didn't. We all wore our school uniform."
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "If you have to wear uniform, you can't wear your own clothes.",
@@ -43769,7 +43779,7 @@ MX.stats9 = stats;
        "Me. I'm always in a hurry.",
        "My brother. He's always in a hurry."
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "If you're always in a hurry, you don't draw carefully.",
@@ -43789,7 +43799,7 @@ MX.stats9 = stats;
        "Oh no! It's so slow.",
        "Yes, the old one is faster."
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Iris says it's fast, so 'slow' doesn't fit.",
@@ -43838,7 +43848,7 @@ MX.stats9 = stats;
        "Yes, she does. She swims every week.",
        "No, she can't. She swims every week."
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "'can't she?' needs 'can', not 'does'.",
@@ -43934,11 +43944,11 @@ MX.stats9 = stats;
     ]
    ],
    [
-    "'Under 5s free': who pays?",
+    "'Under 5s free.' Does a 3-year-old pay?",
     [
-     "children over 5",
-     "babies",
-     "nobody"
+     "no",
+     "yes",
+     "only on Sundays"
     ]
    ],
    [
@@ -43998,11 +44008,11 @@ MX.stats9 = stats;
     ]
    ],
    [
-    "Who wrote it? Look at the ...",
+    "'Love, Gran' at the end: who wrote it?",
     [
-     "end",
-     "middle",
-     "title"
+     "Gran",
+     "you",
+     "Mum"
     ]
    ],
    [
@@ -44246,11 +44256,11 @@ MX.stats9 = stats;
     ]
    ],
    [
-    "Same meaning, different words: ...",
+    "'Could you open the door, please?'",
     [
-     "a paraphrase",
-     "a table",
-     "a sign"
+     "Of course!",
+     "You're welcome.",
+     "Well done!"
     ]
    ]
   ]
@@ -44275,7 +44285,7 @@ MX.stats9 = stats;
    Made by scripts/convert.py from content/stop7.json (written from the exam-style guide only; no real paper seen). */
 (function (T) {
   'use strict';
-  window.T_ART = Object.assign(window.T_ART || {}, {"e-s7-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"countable\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍎</text></svg>", "e-s7-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"uncountable\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🥛</text></svg>", "e-s7-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"a few\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍇</text></svg>", "e-s7-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"a little\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍯</text></svg>", "e-s7-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"nothing\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📭</text></svg>", "e-s7-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"connective\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔗</text></svg>", "e-s7-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"before\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏮️</text></svg>", "e-s7-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"after\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏭️</text></svg>", "e-s7-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"already\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">✅</text></svg>", "e-s7-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"yet\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏳</text></svg>", "e-s7-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"gap\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⬜</text></svg>", "e-s7-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"clue\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔍</text></svg>", "e-s7-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"tag question\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❓</text></svg>", "e-s7-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"verb pattern\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🧩</text></svg>"});
+  window.T_ART = Object.assign(window.T_ART || {}, {"e-s7-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"countable\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍎</text></svg>", "e-s7-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"uncountable\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🥛</text></svg>", "e-s7-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"a few\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍓</text></svg>", "e-s7-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"a little\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍯</text></svg>", "e-s7-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"nothing\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📭</text></svg>", "e-s7-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"connective\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔗</text></svg>", "e-s7-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"before\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏮️</text></svg>", "e-s7-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"after\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏭️</text></svg>", "e-s7-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"already\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">✅</text></svg>", "e-s7-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"yet\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏳</text></svg>", "e-s7-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"gap\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⬜</text></svg>", "e-s7-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"clue\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔍</text></svg>", "e-s7-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"tag question\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏷️</text></svg>", "e-s7-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"verb pattern\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🧩</text></svg>"});
   T.packs[7] = {
  "n": 7,
  "title": "Grammar in sentences and stories",
@@ -44543,7 +44553,7 @@ MX.stats9 = stats;
           "a little",
           "much"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'a little' goes with things you can't count. Birds are easy to count.",
@@ -44571,7 +44581,7 @@ MX.stats9 = stats;
           "yet",
           "ever"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'yet' goes at the end of questions and 'not' sentences.",
@@ -44591,7 +44601,7 @@ MX.stats9 = stats;
           "already",
           "ever"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'already' goes in positive sentences, not after 'hasn't'.",
@@ -44619,7 +44629,7 @@ MX.stats9 = stats;
           "is it",
           "doesn't it"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "The sentence is positive (is), so the tag must be negative.",
@@ -44639,7 +44649,7 @@ MX.stats9 = stats;
           "can't you",
           "do you"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "The sentence is negative (can't), so the tag must be positive.",
@@ -44668,7 +44678,7 @@ MX.stats9 = stats;
           "for",
           "because"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "We don't say 'for look'. Use to + verb for a reason.",
@@ -44688,7 +44698,7 @@ MX.stats9 = stats;
           "fast",
           "fastest"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'fast' doesn't compare. With 'than' we need the comparative.",
@@ -44741,7 +44751,7 @@ MX.stats9 = stats;
           "a little",
           "much"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'a little' is for things you can't count, like milk. Grapes are easy to count.",
@@ -44789,7 +44799,7 @@ MX.stats9 = stats;
           "some",
           "nothing"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'some' is for positive sentences. This sentence has 'isn't'.",
@@ -44809,7 +44819,7 @@ MX.stats9 = stats;
           "anything",
           "nothing"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "'anything' is for questions and 'not' sentences. 'I want' is positive.",
@@ -44905,7 +44915,7 @@ MX.stats9 = stats;
           "might",
           "had to"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "A uniform is a school rule, not a 'maybe'.",
@@ -44933,7 +44943,7 @@ MX.stats9 = stats;
           "yet",
           "ever"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'yet' goes at the end of questions and 'not' sentences.",
@@ -44981,7 +44991,7 @@ MX.stats9 = stats;
           "isn't he",
           "does he"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "The verb is 'likes', so the tag uses 'does', not 'is'.",
@@ -45037,7 +45047,7 @@ MX.stats9 = stats;
           "then",
           "while"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'then' starts a new step. It can't join 'Turn off the lights' and 'you leave'.",
@@ -45057,7 +45067,7 @@ MX.stats9 = stats;
           "While",
           "Before"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'While we all ate together' is not a full sentence on its own.",
@@ -45125,7 +45135,7 @@ MX.stats9 = stats;
           "good",
           "best"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'good' doesn't compare, and 'than' needs a comparing word.",
@@ -45145,7 +45155,7 @@ MX.stats9 = stats;
           "most carefully",
           "carefully"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "'most carefully' is for the top one of a group, not with 'than'.",
@@ -45195,7 +45205,7 @@ MX.stats9 = stats;
           "can she",
           "doesn't she"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "The sentence is positive (can), so the tag must be negative.",
@@ -45215,7 +45225,7 @@ MX.stats9 = stats;
           "don't they",
           "are they"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "The sentence is negative (don't), so the tag must be positive.",
@@ -45244,7 +45254,7 @@ MX.stats9 = stats;
           "a few",
           "many"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'a few' is for things you can count. Can you count water?",
@@ -45292,7 +45302,7 @@ MX.stats9 = stats;
           "something",
           "nothing"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'something' is for positive sentences. This sentence has 'isn't'.",
@@ -45312,7 +45322,7 @@ MX.stats9 = stats;
           "anything",
           "nothing"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'anything' is for questions and 'not' sentences. 'There's' is positive.",
@@ -45340,7 +45350,7 @@ MX.stats9 = stats;
           "after",
           "while"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "You need your coat outside, so you can't put it on later.",
@@ -45388,7 +45398,7 @@ MX.stats9 = stats;
           "play",
           "plays"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "After 'loves' we don't use the base form 'play'.",
@@ -45408,7 +45418,7 @@ MX.stats9 = stats;
           "visiting",
           "visit"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "After 'would like' we don't use -ing.",
@@ -45445,7 +45455,7 @@ MX.stats9 = stats;
           "raising",
           "raise"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "After 'wanted' we don't use -ing.",
@@ -45472,7 +45482,7 @@ MX.stats9 = stats;
           "for",
           "so"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "We don't say 'for learn'. Use to + verb for a reason.",
@@ -45507,7 +45517,7 @@ MX.stats9 = stats;
           "carefully",
           "most carefully"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'carefully' doesn't compare. Look at 'than me'.",
@@ -45534,7 +45544,7 @@ MX.stats9 = stats;
           "fast",
           "fastest"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'fast' doesn't compare. Look at 'than our bus'.",
@@ -45570,7 +45580,7 @@ MX.stats9 = stats;
           "many",
           "a few"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'many' is for plural nouns you can count. Glue is uncountable.",
@@ -45632,7 +45642,7 @@ MX.stats9 = stats;
           "has to",
           "had to"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Rain is not a rule. Clouds only tell us rain is possible.",
@@ -45702,7 +45712,7 @@ MX.stats9 = stats;
           "Before",
           "Then"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "People can't buy the flowers before they are on the stall.",
@@ -45729,7 +45739,7 @@ MX.stats9 = stats;
           "While",
           "Before"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "'While we went outside ...' is not a full sentence on its own.",
@@ -45764,7 +45774,7 @@ MX.stats9 = stats;
           "don't you",
           "did you"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "'made' is past, so the tag must be past too.",
@@ -45791,7 +45801,7 @@ MX.stats9 = stats;
           "is it",
           "doesn't it"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'It's really cold' is positive, so the tag must be negative.",
@@ -45854,7 +45864,7 @@ MX.stats9 = stats;
           "to watch",
           "watch"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "After 'enjoyed' we don't use 'to' + verb.",
@@ -45974,7 +45984,7 @@ MX.stats9 = stats;
        "is he",
        "doesn't he"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "The sentence is positive (is), so the tag must be negative.",
@@ -45994,7 +46004,7 @@ MX.stats9 = stats;
        "have you",
        "aren't you"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "'You've got' is positive, so the tag must be negative.",
@@ -46022,7 +46032,7 @@ MX.stats9 = stats;
        "didn't she",
        "was she"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "The sentence is negative (didn't), so the tag must be positive.",
@@ -46042,7 +46052,7 @@ MX.stats9 = stats;
        "isn't it",
        "does it"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "The sentence is negative (isn't), so the tag must be positive.",
@@ -46071,7 +46081,7 @@ MX.stats9 = stats;
        "a few",
        "many"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "'a few' is for things you can count. Can you count honey?",
@@ -46167,7 +46177,7 @@ MX.stats9 = stats;
        "for",
        "because"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "We don't say 'for get'. Use to + verb for a reason.",
@@ -46187,7 +46197,7 @@ MX.stats9 = stats;
        "for",
        "and"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "We don't say 'for cook'. Use to + verb for what something is used for.",
@@ -46243,7 +46253,7 @@ MX.stats9 = stats;
        "a lot of",
        "a few"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Read on: they went in two groups, so there was not lots of space.",
@@ -46305,7 +46315,7 @@ MX.stats9 = stats;
        "might",
        "had to"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "He gets up early 'every morning' because people want bread. It is not a 'maybe'.",
@@ -46340,7 +46350,7 @@ MX.stats9 = stats;
        "Before",
        "While"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Read the sentence before: they waited for the glue to dry first.",
@@ -46367,7 +46377,7 @@ MX.stats9 = stats;
        "After",
        "Then"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "The baker showed them how to make rolls. That must come first, not after.",
@@ -46402,7 +46412,7 @@ MX.stats9 = stats;
        "something",
        "anything"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "Read on: they used leaves, so the box didn't have any paper.",
@@ -46429,7 +46439,7 @@ MX.stats9 = stats;
        "anything",
        "something"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "'anything' goes in 'not' sentences and questions. 'there was' is positive.",
@@ -46464,7 +46474,7 @@ MX.stats9 = stats;
        "more slowly",
        "fastest"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Read on: the group finished first, so they didn't work slowly.",
@@ -46491,7 +46501,7 @@ MX.stats9 = stats;
        "less carefully",
        "most carefully"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "Ana's roll looked like a star, so she worked with more care, not less.",
@@ -47172,7 +47182,7 @@ MX.stats9 = stats;
           "Lan's dad cooks once a week.",
           "Lan cooks alone every evening."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "She says 'every evening', so it is every day, not once a week.",
@@ -47192,7 +47202,7 @@ MX.stats9 = stats;
           "Quan wants to buy a star book.",
           "Quan is writing a book about the stars."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'Already got' means he has it now, so he doesn't need to buy it.",
@@ -47221,7 +47231,7 @@ MX.stats9 = stats;
           "Tia",
           "Jamal"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Tia dances at the centre, not in the water.",
@@ -47270,7 +47280,7 @@ MX.stats9 = stats;
           "He doesn't want to go.",
           "He is bored at the club."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "That was 'at first'. Now his feelings are different.",
@@ -47290,7 +47300,7 @@ MX.stats9 = stats;
           "bored",
           "angry"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Her '!' shows good news. Nothing in her words sounds bored.",
@@ -47339,7 +47349,7 @@ MX.stats9 = stats;
           "draw her brother",
           "give her brother a camera"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Tia talks about photos, not drawing.",
@@ -47392,7 +47402,7 @@ MX.stats9 = stats;
           "He stays inside on most sunny days.",
           "He never goes outside when it's sunny."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "'Hardly ever stay inside' means he almost never stays in.",
@@ -47412,7 +47422,7 @@ MX.stats9 = stats;
           "She went on a plane once last year.",
           "She goes on a plane every holiday."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'Never' means not one time.",
@@ -47441,7 +47451,7 @@ MX.stats9 = stats;
           "She is afraid of surfing.",
           "She is not good at swimming."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'Keen on' is a happy word. It doesn't mean afraid.",
@@ -47461,7 +47471,7 @@ MX.stats9 = stats;
           "He was never afraid of storms before.",
           "He is very scared of storms today."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'Now' tells you he WAS scared before.",
@@ -47490,7 +47500,7 @@ MX.stats9 = stats;
           "She enjoys TV more than gardening.",
           "She doesn't like gardening or TV."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "This is the other way round. The garden is 'more fun'.",
@@ -47510,7 +47520,7 @@ MX.stats9 = stats;
           "There is a skate park in his street.",
           "He doesn't like skate parks."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "He would like one in his street, so there isn't one there now.",
@@ -47547,7 +47557,7 @@ MX.stats9 = stats;
           "Kira",
           "Son"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Kira surfs, but she doesn't say she is getting better.",
@@ -47610,7 +47620,7 @@ MX.stats9 = stats;
           "Kira",
           "Tia"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Mum helps Kira. Kira doesn't help a younger child.",
@@ -47673,7 +47683,7 @@ MX.stats9 = stats;
           "Tia",
           "Son"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Tia talks about her strict teacher, not about food.",
@@ -47700,7 +47710,7 @@ MX.stats9 = stats;
           "Daisy",
           "Quan"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Daisy's rabbit eats from the garden by itself.",
@@ -47744,7 +47754,7 @@ MX.stats9 = stats;
           "She was ill that week.",
           "The music was too loud."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "The article doesn't say she was ill.",
@@ -47870,7 +47880,7 @@ MX.stats9 = stats;
           "Tia will stop going to dance class.",
           "Tia will teach the dance class."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Tia wants to 'do it again', so she won't stop.",
@@ -47897,7 +47907,7 @@ MX.stats9 = stats;
           "surf in the next big storm",
           "sell the plastic bottles"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Storms make the beach dirty. The article doesn't say they surf in storms.",
@@ -47982,7 +47992,7 @@ MX.stats9 = stats;
           "Son",
           "Daisy"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Son loves the rainy season. He doesn't want a change.",
@@ -48018,7 +48028,7 @@ MX.stats9 = stats;
           "Adam",
           "Kira"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Adam wants a new position, but it is still football.",
@@ -48081,7 +48091,7 @@ MX.stats9 = stats;
           "Kira",
           "Ollie"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Kira 'really wants to win', so winning is important to her.",
@@ -48108,7 +48118,7 @@ MX.stats9 = stats;
           "Poppy",
           "Son"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Poppy says her city is hot, but she doesn't talk about work.",
@@ -48179,7 +48189,7 @@ MX.stats9 = stats;
           "Their teacher wanted some photos.",
           "There was a moon party at school."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "They had to DRAW the moon, not take photos.",
@@ -48215,7 +48225,7 @@ MX.stats9 = stats;
           "to every house in their street",
           "to the community centre only"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "The article doesn't say they went to every house.",
@@ -48242,7 +48252,7 @@ MX.stats9 = stats;
           "It was big and round.",
           "It was behind clouds."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "It got bigger and rounder LATER.",
@@ -48349,7 +48359,7 @@ MX.stats9 = stats;
           "excited, because it was raining",
           "happy, because the hall was full"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "The rain didn't make him excited. He was worried.",
@@ -48376,7 +48386,7 @@ MX.stats9 = stats;
           "how dark the sky was at night",
           "how many planets there are"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "The article doesn't talk about how dark the sky was.",
@@ -48412,7 +48422,7 @@ MX.stats9 = stats;
           "Only children could take part.",
           "Few people came because of the rain."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'Children, parents and grandparents came.'",
@@ -48439,7 +48449,7 @@ MX.stats9 = stats;
           "scared",
           "pleased"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Clouds aren't dangerous. The article says how he felt, and it isn't 'scared'.",
@@ -48475,7 +48485,7 @@ MX.stats9 = stats;
           "Son will stop reading old books.",
           "The class will sell more biscuits."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Son loves reading. The article doesn't say he will stop.",
@@ -48622,7 +48632,7 @@ MX.stats9 = stats;
        "in a tall tree next to the skate park",
        "in a big tree near the hills"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "The article doesn't say the tree is next to the skate park.",
@@ -48649,7 +48659,7 @@ MX.stats9 = stats;
        "There was a food fair in their area.",
        "Lan cooked food on her own."
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "The fair happens 'every year'. It isn't new.",
@@ -48684,7 +48694,7 @@ MX.stats9 = stats;
        "four walls",
        "the green roof"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "They built the walls AFTER the floor.",
@@ -48746,7 +48756,7 @@ MX.stats9 = stats;
        "The rope ladder is not very strong.",
        "Ollie likes to read there on his own."
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "The article doesn't say the ladder is weak. Read the sentence with 'because'.",
@@ -48773,7 +48783,7 @@ MX.stats9 = stats;
        "cutting the vegetables",
        "buying the rice paper"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "Dad cut the vegetables.",
@@ -48808,7 +48818,7 @@ MX.stats9 = stats;
        "the street and shops",
        "the skate park"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "The tree house is hard to see FROM the street. The article doesn't talk about shops.",
@@ -48835,7 +48845,7 @@ MX.stats9 = stats;
        "Only a few people stopped at the table.",
        "A girl bought four spring rolls."
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "That happened 'at first', soon after ten.",
@@ -48897,7 +48907,7 @@ MX.stats9 = stats;
        "a new table for the food fair",
        "mango sticky rice next year"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "The article doesn't talk about buying a table.",
@@ -48933,7 +48943,7 @@ MX.stats9 = stats;
        "Adam",
        "Poppy"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "Adam grows mint and chillies now. He doesn't say he wants a new plant.",
@@ -49059,7 +49069,7 @@ MX.stats9 = stats;
        "Lan",
        "Adam"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Lan likes her cress, but she doesn't compare it with other food.",
@@ -49086,7 +49096,7 @@ MX.stats9 = stats;
        "Quan",
        "Jamal"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "Quan's uncle showed him the stars on one evening of the holiday.",
@@ -49149,7 +49159,7 @@ MX.stats9 = stats;
        "Quan",
        "Tia"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Quan talks about the dark sky, but not about being careful.",
@@ -49212,7 +49222,7 @@ MX.stats9 = stats;
        "Tia",
        "Jamal"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Tia's picture is on her wall, but it doesn't help her learn.",
@@ -49307,11 +49317,11 @@ MX.stats9 = stats;
     ]
    ],
    [
-    "Part 6 questions follow the text's ___",
+    "'I'm good at drawing' means I draw ___",
     [
-     "order",
-     "title",
-     "pictures"
+     "well",
+     "badly",
+     "never"
     ]
    ],
    [
@@ -49347,11 +49357,11 @@ MX.stats9 = stats;
     ]
    ],
    [
-    "Same word in the text means right answer?",
+    "'I'm not keen on fish' means I ___ it",
     [
-     "not always",
-     "always",
-     "never"
+     "don't like",
+     "love",
+     "cook"
     ]
    ],
    [
@@ -49579,11 +49589,11 @@ MX.stats9 = stats;
     ]
    ],
    [
-    "The main idea is about the ___ text",
+    "'Sometimes' means ___",
     [
-     "whole",
-     "first",
-     "last"
+     "not always",
+     "never",
+     "every day"
     ]
    ],
    [
@@ -49627,11 +49637,11 @@ MX.stats9 = stats;
     ]
    ],
    [
-    "'Who ...?' answers in Part 5 are ___",
+    "'Twice a week' means ___",
     [
-     "names",
-     "numbers",
-     "places"
+     "two times a week",
+     "every day",
+     "once a week"
     ]
    ]
   ]
@@ -49966,7 +49976,7 @@ MX.stats9 = stats;
           "because",
           "so"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Being small is not the reason it is bright.",
@@ -49994,7 +50004,7 @@ MX.stats9 = stats;
           "cooking",
           "cooks"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "We don't say 'use the big pot cooking soup'. Use 'to' + verb to say what it is for.",
@@ -50134,7 +50144,7 @@ MX.stats9 = stats;
           "quiet",
           "tiny"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "A quiet person does not talk much, but he says hello to everyone.",
@@ -50182,7 +50192,7 @@ MX.stats9 = stats;
           "quiet",
           "helpful"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Kites don't make much noise, but the sentence is about colours.",
@@ -50258,7 +50268,7 @@ MX.stats9 = stats;
           "carrying",
           "carried"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "We don't say 'uses his big basket carrying fruit'. Use 'to' + verb to say what it is for.",
@@ -50306,7 +50316,7 @@ MX.stats9 = stats;
           "what his grandma is like",
           "what his grandma does"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'She is kind and funny' tells us what she is like.",
@@ -50395,7 +50405,7 @@ MX.stats9 = stats;
           "what it is and where",
           "a special feature and its use"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'Our family's kite' and 'in the garage' tell us what it is and where.",
@@ -50553,7 +50563,7 @@ MX.stats9 = stats;
           "No, it is too short.",
           "No, it is too long."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Count again: there are 7 sentences.",
@@ -51149,7 +51159,7 @@ MX.stats9 = stats;
        "quiet",
        "tired"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "A quiet person does not say much. He makes everyone laugh.",
@@ -51169,7 +51179,7 @@ MX.stats9 = stats;
        "tiny",
        "funny"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "Three hundred rooms is a lot, so it can't be tiny.",
@@ -51197,7 +51207,7 @@ MX.stats9 = stats;
        "because",
        "so"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "Being old is not the reason he runs fast.",
@@ -51217,7 +51227,7 @@ MX.stats9 = stats;
        "but",
        "then"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "'But' joins two different ideas. Being bright is a reason to love it.",
@@ -51245,7 +51255,7 @@ MX.stats9 = stats;
        "takes",
        "taking"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "'Has a camera takes' is not a correct sentence.",
@@ -51293,7 +51303,7 @@ MX.stats9 = stats;
        "my uncle has a dog called Spot.",
        "My uncle has a dog called spot"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "The first word of a sentence needs a capital letter.",
@@ -51313,7 +51323,7 @@ MX.stats9 = stats;
        "in July we go to Ha Long Bay.",
        "In july we go to ha long bay"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "The first word of a sentence needs a capital letter.",
@@ -51361,7 +51371,7 @@ MX.stats9 = stats;
        "colorful",
        "colourfull"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "This is American spelling. British English adds a 'u'.",
@@ -51389,7 +51399,7 @@ MX.stats9 = stats;
        "why she is special to Rory",
        "what his sister is like"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "'She is special to me because ...' is his reason.",
@@ -51478,7 +51488,7 @@ MX.stats9 = stats;
        "what it looks like",
        "why Hieu likes it"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "'Black and silver, with a tiny blue light' tells us what it looks like.",
@@ -51561,7 +51571,7 @@ MX.stats9 = stats;
        "The lamp is small because it is very bright.",
        "The lamp is small, so it is very bright."
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Being bright is not the reason it is small.",
@@ -51609,7 +51619,7 @@ MX.stats9 = stats;
        "It is on Mars, far away from Earth.",
        "I like it because it is very clever."
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "This says where it is, not a special feature and its use.",
@@ -51629,7 +51639,7 @@ MX.stats9 = stats;
        "It is white and round, with a black lid.",
        "It is in the kitchen, next to the fridge."
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "This says what it looks like, not what a feature is for.",
@@ -51885,51 +51895,51 @@ MX.stats9 = stats;
     ]
    ],
    [
-    "How many sentences should you write?",
+    "My aunt has long, ___ hair.",
     [
-     "6 to 8",
-     "2 to 3",
-     "15 to 20"
+     "curly",
+     "kind",
+     "clever"
     ]
    ],
    [
-    "How many bullet points are there?",
+    "A place with lots of people is ___.",
     [
-     "four",
-     "two",
-     "six"
+     "busy",
+     "quiet",
+     "empty"
     ]
    ],
    [
-    "How many paragraphs do you write?",
+    "She wears ___ glasses.",
     [
-     "one",
-     "three",
-     "five"
+     "round",
+     "quiet",
+     "clever"
     ]
    ],
    [
-    "Task 1 describes a ___.",
+    "Grandpa is 80. He is ___.",
     [
-     "person",
-     "recipe",
-     "story"
+     "old",
+     "young",
+     "new"
     ]
    ],
    [
-    "Task 2 describes a place or ___.",
+    "The opposite of tall?",
     [
-     "thing",
-     "song",
-     "game"
+     "short",
+     "big",
+     "long"
     ]
    ],
    [
-    "Your last sentence gives your ___.",
+    "My uncle ___ a long beard.",
     [
-     "opinion",
-     "address",
-     "age"
+     "has",
+     "is",
+     "have"
     ]
    ],
    [
@@ -52097,7 +52107,7 @@ MX.stats9 = stats;
            "pic": "🎒",
            "tag": "backpack"
           },
-          "alt": "backpack picture"
+          "alt": "school satchel, backpack"
          },
          {
           "html": "",
@@ -52106,7 +52116,7 @@ MX.stats9 = stats;
            "pic": "🚗",
            "tag": "car"
           },
-          "alt": "car picture"
+          "alt": "automobile, car"
          },
          {
           "html": "",
@@ -52115,7 +52125,7 @@ MX.stats9 = stats;
            "pic": "🚲",
            "tag": "bike"
           },
-          "alt": "bike picture"
+          "alt": "bicycle, bike"
          }
         ],
         "at": 1,
@@ -52179,7 +52189,7 @@ MX.stats9 = stats;
            "pic": "🥯",
            "tag": "round"
           },
-          "alt": "round picture"
+          "alt": "bagel, round"
          },
          {
           "html": "",
@@ -52188,7 +52198,7 @@ MX.stats9 = stats;
            "pic": "🥖",
            "tag": "long"
           },
-          "alt": "long picture"
+          "alt": "baguette bread, long"
          },
          {
           "html": "",
@@ -52197,10 +52207,10 @@ MX.stats9 = stats;
            "pic": "🍞",
            "tag": "square"
           },
-          "alt": "square picture"
+          "alt": "bread, square"
          }
         ],
-        "at": 2,
+        "at": 0,
         "whys": [
          null,
          "Aunt asks about a long loaf, but Owen says 'No, not a long one.'",
@@ -52261,7 +52271,7 @@ MX.stats9 = stats;
            "pic": "👨‍🌾",
            "tag": "farmer"
           },
-          "alt": "farmer picture"
+          "alt": "man and ear of rice, farmer"
          },
          {
           "html": "",
@@ -52270,7 +52280,7 @@ MX.stats9 = stats;
            "pic": "🎣",
            "tag": "fisherman"
           },
-          "alt": "fisherman picture"
+          "alt": "fishing pole and fish, fisherman"
          },
          {
           "html": "",
@@ -52279,7 +52289,7 @@ MX.stats9 = stats;
            "pic": "👨‍🍳",
            "tag": "cook"
           },
-          "alt": "cook picture"
+          "alt": "man and cooking, cook"
          }
         ],
         "at": 0,
@@ -52343,7 +52353,7 @@ MX.stats9 = stats;
            "pic": "🥟",
            "tag": "dumplings"
           },
-          "alt": "dumplings picture"
+          "alt": "dumpling, dumplings"
          },
          {
           "html": "",
@@ -52352,7 +52362,7 @@ MX.stats9 = stats;
            "pic": "🍔",
            "tag": "burger"
           },
-          "alt": "burger picture"
+          "alt": "hamburger, burger"
          },
          {
           "html": "",
@@ -52361,10 +52371,10 @@ MX.stats9 = stats;
            "pic": "🌭",
            "tag": "hot dog"
           },
-          "alt": "hot dog picture"
+          "alt": "hot dog, hot dog"
          }
         ],
-        "at": 1,
+        "at": 2,
         "whys": [
          null,
          "Owen had a burger yesterday, so he says 'No, thanks.'",
@@ -52426,7 +52436,7 @@ MX.stats9 = stats;
            "pic": "🕧",
            "tag": "12:30"
           },
-          "alt": "12:30 picture"
+          "alt": "clock face twelve-thirty, 12:30"
          },
          {
           "html": "",
@@ -52435,7 +52445,7 @@ MX.stats9 = stats;
            "pic": "🕛",
            "tag": "12:00"
           },
-          "alt": "12:00 picture"
+          "alt": "clock face twelve oclock, 12:00"
          },
          {
           "html": "",
@@ -52444,10 +52454,10 @@ MX.stats9 = stats;
            "pic": "🕐",
            "tag": "1:00"
           },
-          "alt": "1:00 picture"
+          "alt": "clock face one oclock, 1:00"
          }
         ],
-        "at": 2,
+        "at": 1,
         "whys": [
          null,
          "Twelve o'clock is when the bus usually goes. Owen asks for a later bus.",
@@ -52512,7 +52522,7 @@ MX.stats9 = stats;
          "Its colours were very bright.",
          "It went over the park."
         ],
-        "at": 0,
+        "at": 2,
         "whys": [
          null,
          "Luna liked the bright colours, but she says something else was the best.",
@@ -52575,7 +52585,7 @@ MX.stats9 = stats;
          "He wants to win medals.",
          "He wants to get stronger."
         ],
-        "at": 1,
+        "at": 2,
         "whys": [
          null,
          "Tam's brother has the medals. Tam says he doesn't care about medals.",
@@ -52642,7 +52652,7 @@ MX.stats9 = stats;
          "in their classroom",
          "on the football field"
         ],
-        "at": 2,
+        "at": 1,
         "whys": [
          null,
          "Luna has already looked in the classroom. The scarf isn't there.",
@@ -52772,7 +52782,7 @@ MX.stats9 = stats;
          "eating lots of pancakes",
          "helping Luna's mum to cook"
         ],
-        "at": 1,
+        "at": 0,
         "whys": [
          null,
          "Luna guesses this, but Seb says he is more interested in something else.",
@@ -53623,7 +53633,7 @@ MX.stats9 = stats;
          "Walking is the most popular way.",
          "More children come by bike than by bus."
         ],
-        "at": 0,
+        "at": 2,
         "whys": [
          null,
          "21 children come by bus. That is more than the 14 who walk.",
@@ -53703,7 +53713,7 @@ MX.stats9 = stats;
          "No, thanks. I haven't had any yet.",
          "Yes, please. I never eat popcorn."
         ],
-        "at": 0,
+        "at": 1,
         "whys": [
          null,
          "'I haven't had any yet' is not a reason to say no. Check that the two parts go together.",
@@ -53761,7 +53771,7 @@ MX.stats9 = stats;
          "After lunch, with my sister.",
          "It's next to the sports centre."
         ],
-        "at": 1,
+        "at": 0,
         "whys": [
          null,
          "This answer says when and who, not why.",
@@ -53819,7 +53829,7 @@ MX.stats9 = stats;
          "My sister does. She gets up later than me.",
          "Yes, she does. She gets up very early."
         ],
-        "at": 0,
+        "at": 1,
         "whys": [
          null,
          "If she gets up later, she doesn't get up earlier. The two parts don't match.",
@@ -53849,7 +53859,7 @@ MX.stats9 = stats;
          "Put your old toys all over her bed.",
          "Did your grandma like her room?"
         ],
-        "at": 1,
+        "at": 0,
         "whys": [
          null,
          "Old toys all over the bed don't make a room nice for Grandma.",
@@ -53885,7 +53895,7 @@ MX.stats9 = stats;
          "isn't it",
          "does it"
         ],
-        "at": 2,
+        "at": 0,
         "whys": [
          null,
          "The verb is 'looks', not 'is'. 'Looks' needs 'does' in the tag.",
@@ -53914,7 +53924,7 @@ MX.stats9 = stats;
          "hasn't she",
          "did she"
         ],
-        "at": 0,
+        "at": 1,
         "whys": [
          null,
          "The sentence is already negative (hasn't), so the tag must be positive.",
@@ -53944,7 +53954,7 @@ MX.stats9 = stats;
          "few",
          "many"
         ],
-        "at": 1,
+        "at": 2,
         "whys": [
          null,
          "'A few' is for things you can count, like 'a few bags'. You can't count help.",
@@ -53973,7 +53983,7 @@ MX.stats9 = stats;
          "something",
          "nothing"
         ],
-        "at": 2,
+        "at": 0,
         "whys": [
          null,
          "We use 'something' in positive sentences. 'Never' makes this sentence negative.",
@@ -54003,7 +54013,7 @@ MX.stats9 = stats;
          "while",
          "when"
         ],
-        "at": 1,
+        "at": 2,
         "whys": [
          null,
          "'While' needs a person and a verb after it, like 'while you wait'.",
@@ -54032,7 +54042,7 @@ MX.stats9 = stats;
          "to sing",
          "sing"
         ],
-        "at": 0,
+        "at": 1,
         "whys": [
          null,
          "After 'enjoy' we use -ing, not 'to' + verb.",
@@ -54069,7 +54079,7 @@ MX.stats9 = stats;
          "a little",
          "much"
         ],
-        "at": 2,
+        "at": 0,
         "whys": [
          null,
          "'A little' is for things you can't count. You can count beehives.",
@@ -54249,7 +54259,7 @@ MX.stats9 = stats;
          "anything",
          "nothing"
         ],
-        "at": 0,
+        "at": 2,
         "whys": [
          null,
          "We use 'anything' in questions and negative sentences. This sentence is positive.",
@@ -54521,7 +54531,7 @@ MX.stats9 = stats;
          "The big bins downstairs were too small.",
          "She wanted her mum to clean the bins."
         ],
-        "at": 1,
+        "at": 0,
         "whys": [
          null,
          "The bins were full, but the article doesn't say they were too small.",
@@ -54593,7 +54603,7 @@ MX.stats9 = stats;
          "They check them every Saturday.",
          "They check them once a month."
         ],
-        "at": 2,
+        "at": 1,
         "whys": [
          null,
          "The meeting was on Saturday. The boxes are checked on another day.",
@@ -54630,7 +54640,7 @@ MX.stats9 = stats;
          "They will paint the grey roof.",
          "They will buy more recycling boxes."
         ],
-        "at": 0,
+        "at": 1,
         "whys": [
          null,
          "Emily says the roof is grey, but she doesn't talk about painting it.",
@@ -54666,7 +54676,7 @@ MX.stats9 = stats;
          "A girl who makes posters for her flats.",
          "A man who takes bottles to a recycling centre."
         ],
-        "at": 1,
+        "at": 2,
         "whys": [
          null,
          "Emily made one poster, but that is only a small part of the article.",
@@ -63766,7 +63776,8 @@ MX.stats9 = stats;
           node.classList.add('is-wrong');
           T.fx.sfx('no');
           // the right one turns green at once, beside the red one; Zip says what the word means
-          const item = words.items[key], mean = item ? partsOf(item).def.replace(/\*/g, '') : '';
+          const item = words.items[key], def0 = item ? partsOf(item).def.replace(/\*/g, '') : '';
+          const mean = /^[A-Z][a-z]/.test(def0) ? def0.charAt(0).toLowerCase() + def0.slice(1) : def0;   // "means: friendly and ..." 
           const w = str(ctx, 'wrong');
           ctx.instruct({ mood: 'oops', en: mean ? '*' + key + '* means: ' + mean : w.en, vi: mean && item.vi ? '*' + key + '*: ' + item.vi : w.vi });
           const good = all.filter(function (c) { return c.getAttribute('data-value') === key; })[0];
@@ -65127,7 +65138,6 @@ MX.stats9 = stats;
     // and the answers are the letters only; the example's letter cannot be chosen
     const bank = !!(task.bankLetters && task.bankLetters.length && task.opts && T.esl && T.esl.bankList);
     const exLet = bank ? T.esl.exampleLetter(task.fig) : '';
-    if (bank) (stimNode || card).appendChild(T.esl.bankList(task));
     // two columns on a wide screen when the question is big (a tool, a picture or a claim): the question on the
     // left, the answer and the help on the right; one column on a phone
     const big = !!(ui.k || task.fig || isClaim);
@@ -65144,6 +65154,8 @@ MX.stats9 = stats;
       root.classList.add('mk--stim');
       right.appendChild(html(el('p', { class: 'mk__q mk__q--side' }), task.q));
     }
+    // the bank: beside the conversation, above the letters (two columns: the right one; one column: under the question)
+    if (bank) (big ? right : stimNode || card).appendChild(T.esl.bankList(task));
     scroller.appendChild(headRow);
     if (loRow) scroller.appendChild(loRow);
     scroller.appendChild(el('div', { class: 'mk__cols' }, left, right));

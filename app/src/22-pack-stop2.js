@@ -268,7 +268,7 @@
           "Do you always eat durian?",
           "Is the durian ready now?"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "'always' asks how often, not about any time in your life.",
@@ -296,7 +296,7 @@
           "Is it very cold today?",
           "It isn't cold today at all."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "This is a normal question. A tag is a short question at the END of a sentence.",
@@ -344,7 +344,7 @@
           "We enjoy to fly kites.",
           "We enjoy fly kites."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "After 'enjoy' we use -ing, not to + verb.",
@@ -393,7 +393,7 @@
           "I went to the shop with Dad.",
           "I went to the shop on Monday."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'with Dad' says who, not why.",
@@ -485,7 +485,7 @@
           "never",
           "always"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'never' doesn't go at the end of a question.",
@@ -513,7 +513,7 @@
           "ever",
           "already"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "We don't use 'ever' in a 'yes' sentence like this one.",
@@ -533,7 +533,7 @@
           "yet",
           "ever"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'yet' goes at the end of 'not' sentences, not in the middle.",
@@ -561,7 +561,7 @@
           "hardly ever",
           "never"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'hardly ever' means almost never, but Lena eats fruit every day.",
@@ -581,7 +581,7 @@
           "always",
           "never"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'always' means every time, but Sam goes only once a year.",
@@ -705,7 +705,7 @@
           "don't they",
           "are they"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "The sentence is negative (don't), so the tag must be positive.",
@@ -761,7 +761,7 @@
           "take",
           "took"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "After 'love' we can't use the base verb 'take' alone.",
@@ -781,7 +781,7 @@
           "visiting",
           "visit"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "After 'want' we use to + verb, not -ing.",
@@ -809,7 +809,7 @@
           "buy",
           "bought"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "We need 'to' before the verb to give the reason.",
@@ -829,7 +829,7 @@
           "see",
           "saw"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "We need 'to' before the verb to say what the torch is for.",
@@ -877,7 +877,7 @@
           "Not",
           "Doesn't"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "To say 'no' in an instruction, start with 'Don't', not 'Not'.",
@@ -927,7 +927,7 @@
           "yet",
           "ever"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'yet' goes at the end of questions and 'not' sentences.",
@@ -975,7 +975,7 @@
           "are they",
           "don't they"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "The sentence is positive, so the tag must be negative.",
@@ -995,7 +995,7 @@
           "doesn't he",
           "is he"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "The sentence is negative (doesn't), so the tag must be positive.",
@@ -1023,7 +1023,7 @@
           "visiting",
           "visits"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "After 'would like' we use to + verb, not -ing.",
@@ -1079,7 +1079,7 @@
           "Yes, I'm going to start it.",
           "No, I finished it last night."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'Yes' and 'going to start' don't match: if you haven't started, the answer is no.",
@@ -1127,7 +1127,7 @@
           "I liked the zoo a lot.",
           "I go to the zoo by bus."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "This is about the past. The question asks about this weekend.",
@@ -1147,7 +1147,7 @@
           "Yes, he's at work today.",
           "No, I cooked rice last week."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "This says where Dad is, not if you enjoy cooking.",
@@ -1176,7 +1176,7 @@
           "At eight o'clock tonight.",
           "With my big brother."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "This says when, but the question asks why.",
@@ -1196,7 +1196,7 @@
           "I hardly ever get a cough.",
           "You coughed all day yesterday."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "This is about me, not advice for my friend.",
@@ -1232,7 +1232,7 @@
           "getting",
           "got"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "We need to + verb to say why we took the bus.",
@@ -1259,7 +1259,7 @@
           "helping",
           "helped"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "We need to + verb to say why I went to Grandma's house.",
@@ -1295,7 +1295,7 @@
           "to touch",
           "touch"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "After 'enjoy' we use -ing, not to + verb.",
@@ -1322,7 +1322,7 @@
           "not",
           "doesn't"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "To say 'no' in an instruction, use 'don't', not 'not'.",
@@ -1385,7 +1385,7 @@
           "folding",
           "folded"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "After 'learn' we use to + verb, not -ing.",
@@ -1525,7 +1525,7 @@
        "yet",
        "ever"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "'yet' goes at the end of questions and 'not' sentences.",
@@ -1553,7 +1553,7 @@
        "is it",
        "doesn't it"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "The sentence is positive, so the tag must be negative.",
@@ -1601,7 +1601,7 @@
        "don't they",
        "are they"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "The sentence is negative (don't), so the tag must be positive.",
@@ -1649,7 +1649,7 @@
        "to swim",
        "swim"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "After 'enjoy' we use -ing, not to + verb.",
@@ -1745,7 +1745,7 @@
        "Yes, I'm buying one tomorrow.",
        "No, I've already eaten it."
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "'tomorrow' is the future. The question asks about any time up to now.",
@@ -1765,7 +1765,7 @@
        "Yes, she's going to buy it.",
        "No, she bought it this morning."
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "'Yes' and 'going to buy it' don't match: if she hasn't bought it, the answer is no.",
@@ -1793,7 +1793,7 @@
        "It's in the box under my bed.",
        "About two metres, I think."
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "This says where the string is, not why you need it.",
@@ -1813,7 +1813,7 @@
        "It's from the shop near school.",
        "It's blue with white stars."
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "This says where it is from, not what it is for.",
@@ -1841,7 +1841,7 @@
        "Yes, I do. It's very warm.",
        "No, it isn't. It's warm and sunny!"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "The question has 'is', so we answer 'Yes, it is', not 'I do'.",
@@ -1861,7 +1861,7 @@
        "Yes, I am. She's very small.",
        "No, I haven't. She's black and white."
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "The tag uses 'have', so we answer 'Yes, I have', not 'I am'.",
@@ -1890,7 +1890,7 @@
        "Turn on",
        "Don't turn off"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "With the light on, it is harder to see the stars. Read the next sentence.",
@@ -1917,7 +1917,7 @@
        "always",
        "usually"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "If she always eats cake, 'but she bought two pieces' is not a surprise.",
@@ -1952,7 +1952,7 @@
        "always",
        "ever"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Grandpa knows the names, so he doesn't always forget them.",
@@ -1979,7 +1979,7 @@
        "already",
        "ever"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "'already' goes in 'yes' sentences, but this sentence has 'haven't'.",
@@ -2394,11 +2394,11 @@
     ]
    ],
    [
-    "'To buy milk' tells us ___.",
+    "Why did you go out? ___ buy milk.",
     [
-     "why",
-     "when",
-     "where"
+     "To",
+     "For",
+     "Because"
     ]
    ]
   ]

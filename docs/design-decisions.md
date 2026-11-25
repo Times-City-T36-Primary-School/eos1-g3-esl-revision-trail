@@ -19,3 +19,14 @@
 
 ## Lessons from Grade 5 built in from the start
 Summit totals from the ESL papers; a Summit that does not repeat any stop's texts or writing prompts; no answer-length pattern (the right answer is the longest option in about a third of questions); real grammatical distractors only; listening distractors all heard in the talk; hints that teach a strategy; every correct typed answer accepted; honest DOK labels; definition-based Words step; writing models with marks per category; clearer recordings (exact letter names, equal loudness); separate saved-data keys; British spelling; no em dashes.
+
+## Expert review (25 November 2026, version 2)
+
+Asked by Jovan ("improve these two apps"). Four specialist reviewers (listening, grammar and Use of English, reading, writing) and a child play-through tester worked without seeing the papers; the checker then re-compared every change with the papers.
+
+| Area | Change |
+| --- | --- |
+| Content (99 fixes) | Arguable answers made single-answer (many Lightning items); hints that gave the answer rewritten; grammar above Stage 4 removed; listening talks trimmed to exam lengths (10 recordings remade); more accepted forms for times, ages and phone numbers; writing models re-marked to match the rubric exactly. |
+| Play-through content fixes | Answer positions re-mixed in every stop (no A/B/C patterns); clearer word pictures; 24 Lightning items that tested exam strategy replaced with English questions; shorter Stop 4 form questions. |
+| Engine | Letters A to J on 8-option questions; question kept in view beside long texts; word box and typing box stay visible above the letter pad on phones; letter pad fits a phone; Lightning cannot be won by random tapping; one compact letter row per gap; writing desk wording per grade, child-friendly Grade 3 rubric rows with Vietnamese, must mark before moving on; flip cards show bold words; Summit clock always visible; listening messages for typed listening answers; shorter test instructions with Vietnamese; many small phone layout fixes. |
+| Item security | Re-check after the review: 0 copied runs, 0 shared names; 5 new near-copies or reused situations found and rewritten. |

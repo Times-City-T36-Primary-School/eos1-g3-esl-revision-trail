@@ -2,7 +2,7 @@
    Made by scripts/convert.py from content/stop3.json (written from the exam-style guide only; no real paper seen). */
 (function (T) {
   'use strict';
-  window.T_ART = Object.assign(window.T_ART || {}, {"e-s3-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"have to\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📋</text></svg>", "e-s3-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"had to\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⌛</text></svg>", "e-s3-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"might\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🤔</text></svg>", "e-s3-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"could\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💡</text></svg>", "e-s3-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"a few\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍓</text></svg>", "e-s3-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"a little\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🥛</text></svg>", "e-s3-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"many\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⭐</text></svg>", "e-s3-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"much\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💧</text></svg>", "e-s3-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"every\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👥</text></svg>", "e-s3-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"something\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🎁</text></svg>", "e-s3-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"nothing\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📭</text></svg>", "e-s3-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"before\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏮️</text></svg>", "e-s3-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"while\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏳</text></svg>", "e-s3-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"more carefully\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">✍️</text></svg>"});
+  window.T_ART = Object.assign(window.T_ART || {}, {"e-s3-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"have to\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❗</text></svg>", "e-s3-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"had to\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⌛</text></svg>", "e-s3-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"might\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🤔</text></svg>", "e-s3-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"could\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💡</text></svg>", "e-s3-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"a few\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍓</text></svg>", "e-s3-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"a little\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🥛</text></svg>", "e-s3-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"many\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍇</text></svg>", "e-s3-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"much\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍚</text></svg>", "e-s3-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"every\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👥</text></svg>", "e-s3-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"something\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🎁</text></svg>", "e-s3-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"nothing\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📭</text></svg>", "e-s3-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"before\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏮️</text></svg>", "e-s3-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"while\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏳</text></svg>", "e-s3-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"more carefully\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">✍️</text></svg>"});
   T.packs[3] = {
  "n": 3,
  "title": "Have to, might, some, any and linking words",
@@ -254,7 +254,7 @@
           "We have to wait inside.",
           "We had to wait an hour."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "'have to' is a rule, not a maybe.",
@@ -322,7 +322,7 @@
           "a few honey",
           "many honey"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "'a few' goes with things we can count, like cups.",
@@ -350,7 +350,7 @@
           "something",
           "anything"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "The piggy bank is empty, so there isn't a thing in it.",
@@ -370,7 +370,7 @@
           "nothing",
           "something"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'isn't' and 'nothing' together make two 'no' words.",
@@ -399,7 +399,7 @@
           "before",
           "then"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "'before' means earlier, but they did it at the same time.",
@@ -419,7 +419,7 @@
           "carefully",
           "most carefully"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Look for 'than'. We need a word that compares two people.",
@@ -471,7 +471,7 @@
           "might",
           "could"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "'might' means maybe, but this is a rule.",
@@ -491,7 +491,7 @@
           "has to",
           "had to"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'has to' is for rules. We are only guessing where the cat is.",
@@ -560,7 +560,7 @@
           "had to",
           "have to"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'had to' is a rule in the past, but this is an idea for now.",
@@ -580,7 +580,7 @@
           "has to",
           "had to"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'has to' is for rules. Nobody makes a rule about the weather.",
@@ -616,7 +616,7 @@
           "a little",
           "much"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "'a little' goes with things we cannot count, like sugar.",
@@ -664,7 +664,7 @@
           "some",
           "nothing"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "After 'haven't' we use 'any', not 'some'.",
@@ -782,7 +782,7 @@
           "before",
           "then"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "With 'was ...ing' the two things happen at the same time, so 'before' doesn't fit.",
@@ -830,7 +830,7 @@
           "faster",
           "fast"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "'faster' compares two people, but here it is 'of all the children'.",
@@ -925,7 +925,7 @@
           "might",
           "may"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'might' means maybe, but putting the balls away is a club rule.",
@@ -993,7 +993,7 @@
           "a little",
           "much"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "'a little' goes with things we cannot count, like juice.",
@@ -1041,7 +1041,7 @@
           "anything",
           "nothing"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "'anything' goes in questions and 'not' sentences. This is a yes sentence.",
@@ -1077,7 +1077,7 @@
           "I had to. It was fun.",
           "Yes, I went yesterday."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'had to' and 'was' are the past, but the question is about tomorrow.",
@@ -1126,7 +1126,7 @@
           "Yes, there are a few in the fridge.",
           "No, but there are many in the fridge."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'a few' and 'are' go with things we can count, but juice is not counted.",
@@ -1146,7 +1146,7 @@
           "Yes, I've got some boxes.",
           "No, I haven't got any."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "This answers a yes/no question, but the question starts with 'What'.",
@@ -1175,7 +1175,7 @@
           "You watched it last night.",
           "Because the TV is new."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "This is about last night, but the question asks when you can watch now.",
@@ -1195,7 +1195,7 @@
           "I drew it at home yesterday.",
           "I like drawing animals."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "This says when, not how you made it neat.",
@@ -1259,7 +1259,7 @@
           "After",
           "While"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'After' would mean they put on their boots at the end of the walk.",
@@ -1295,7 +1295,7 @@
           "much",
           "a little"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'much' goes with things we cannot count, but we can count bottles.",
@@ -1322,7 +1322,7 @@
           "slowly",
           "most slowly"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Look for 'than'. We need a word that compares two people.",
@@ -1505,7 +1505,7 @@
        "may",
        "could"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "'may' means maybe, but the vet says it is necessary.",
@@ -1573,7 +1573,7 @@
        "All",
        "Many"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "'All' goes with a plural noun: all students.",
@@ -1601,7 +1601,7 @@
        "something",
        "nothing"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "After 'haven't' we use 'anything', not 'something'.",
@@ -1621,7 +1621,7 @@
        "any",
        "nothing"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "'any' goes in questions and 'not' sentences. This is a yes sentence.",
@@ -1649,7 +1649,7 @@
        "after",
        "while"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "'after' would mean you cross first, then wait. That's dangerous!",
@@ -1669,7 +1669,7 @@
        "before",
        "after"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "With 'was washing' the two things happen at the same time, so 'before' doesn't fit.",
@@ -1717,7 +1717,7 @@
        "higher",
        "high"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "'higher' compares two people, but here it is 'of all the girls'.",
@@ -1745,7 +1745,7 @@
        "Yes, I came to your house last week.",
        "Sorry, I had to visit my aunt."
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "'came' and 'last week' are the past, but Sunday is in the future.",
@@ -1765,7 +1765,7 @@
        "He had to come last year.",
        "He has to. He's very tired."
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "This is about last year, but the question is about tonight.",
@@ -1793,7 +1793,7 @@
        "Yes, I bought something.",
        "No, I didn't buy any."
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "This answers a yes/no question, but the question starts with 'What'.",
@@ -1813,7 +1813,7 @@
        "No, thanks. I'd like some juice.",
        "Yes, I drank some apple juice yesterday."
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "'No, thanks' and 'I'd like some juice' don't agree.",
@@ -1842,7 +1842,7 @@
        "might",
        "may"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "'might' means maybe, but the strong wind made it necessary.",
@@ -1905,7 +1905,7 @@
        "much",
        "a few"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "'much' goes with things we cannot count, but we can count candles.",
@@ -1932,7 +1932,7 @@
        "something",
        "anything"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "The shop was closed, so there wasn't a thing to buy.",
@@ -1968,7 +1968,7 @@
        "before",
        "after"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "The stories and the rain were at the same time, so 'before' doesn't fit.",
@@ -1995,7 +1995,7 @@
        "had to",
        "have to"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "'had to' is a rule in the past, but the next trip is in the future.",

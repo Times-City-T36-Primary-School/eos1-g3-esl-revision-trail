@@ -2,7 +2,7 @@
    Made by scripts/convert.py from content/stop1.json (written from the exam-style guide only; no real paper seen). */
 (function (T) {
   'use strict';
-  window.T_ART = Object.assign(window.T_ART || {}, {"e-s1-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"neighbourhood\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏘️</text></svg>", "e-s1-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"caretaker\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🧹</text></svg>", "e-s1-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"librarian\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📚</text></svg>", "e-s1-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"chimney\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏠</text></svg>", "e-s1-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"bungalow\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏡</text></svg>", "e-s1-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"orbit\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🪐</text></svg>", "e-s1-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"satellite\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🛰️</text></svg>", "e-s1-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"nutritious\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🥦</text></svg>", "e-s1-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"soil\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🌱</text></svg>", "e-s1-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"freezing\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🥶</text></svg>", "e-s1-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"wooden\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🪵</text></svg>", "e-s1-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"spiky\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🌵</text></svg>", "e-s1-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"juicy\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍉</text></svg>", "e-s1-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"keen\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🤩</text></svg>"});
+  window.T_ART = Object.assign(window.T_ART || {}, {"e-s1-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"neighbourhood\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏘️</text></svg>", "e-s1-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"caretaker\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🧰</text></svg>", "e-s1-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"librarian\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📖</text></svg>", "e-s1-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"chimney\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔥</text></svg>", "e-s1-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"bungalow\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏡</text></svg>", "e-s1-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"orbit\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🪐</text></svg>", "e-s1-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"satellite\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🛰️</text></svg>", "e-s1-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"nutritious\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🥦</text></svg>", "e-s1-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"soil\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🌱</text></svg>", "e-s1-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"freezing\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🥶</text></svg>", "e-s1-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"wooden\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🪵</text></svg>", "e-s1-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"spiky\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🌵</text></svg>", "e-s1-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"juicy\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍉</text></svg>", "e-s1-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"keen\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🤩</text></svg>"});
   T.packs[1] = {
  "n": 1,
  "title": "Topic words and describing words",
@@ -252,7 +252,7 @@
           "bigger",
           "big"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Bigger is for two things, with than. Here Jupiter is one of all the planets.",
@@ -272,7 +272,7 @@
           "the smallest",
           "small"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "We use the smallest for one of a big group, not with than.",
@@ -320,7 +320,7 @@
           "the worst",
           "bad"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "The worst is for the very last day, the most terrible one of all.",
@@ -348,7 +348,7 @@
           "an",
           "two"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "We use an with one countable thing, like an egg. We can't count rice.",
@@ -368,7 +368,7 @@
           "loaf",
           "slice"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "We use a loaf for bread, not water.",
@@ -416,7 +416,7 @@
           "the closest",
           "close"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "The closest is for one of a big group, not with than.",
@@ -488,7 +488,7 @@
           "the school nurse",
           "the head teacher"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "The school nurse helps you when you are ill or hurt.",
@@ -516,7 +516,7 @@
           "chimney",
           "balcony"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "A chimney is a pipe on the roof for smoke.",
@@ -536,7 +536,7 @@
           "planet",
           "sunset"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "A planet is not a machine. People don't make planets.",
@@ -612,7 +612,7 @@
           "biggest",
           "big"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Biggest is for one of a big group, with the. Here we see than.",
@@ -632,7 +632,7 @@
           "fastest",
           "fast"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Fastest is for one of a big group, with the.",
@@ -660,7 +660,7 @@
           "higher",
           "high"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Higher compares two mountains, with than.",
@@ -680,7 +680,7 @@
           "longer",
           "long"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Longer compares two books, with than.",
@@ -776,7 +776,7 @@
           "bread",
           "water"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Bread is uncountable. We say some bread or a loaf of bread.",
@@ -804,7 +804,7 @@
           "a",
           "an"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "We use a with one countable thing. Water is uncountable.",
@@ -824,7 +824,7 @@
           "a",
           "many"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Egg starts with a vowel sound, e. We don't say a before it.",
@@ -872,7 +872,7 @@
           "slice",
           "loaf"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "A slice is a thin piece of bread or cake.",
@@ -922,7 +922,7 @@
           "caretaker",
           "librarian"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "The caretaker fixes the school building, not hurt knees.",
@@ -942,7 +942,7 @@
           "sandpit",
           "surgery"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "A sandpit is a place with sand where small children play.",
@@ -1018,7 +1018,7 @@
           "balcony",
           "floor"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "A balcony is outside a window. Smoke doesn't go up it.",
@@ -1074,7 +1074,7 @@
           "youngest",
           "young"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Youngest is for one of a big group, with the.",
@@ -1094,7 +1094,7 @@
           "brightest",
           "bright"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Brightest is for one of a big group, with the.",
@@ -1122,7 +1122,7 @@
           "the worst",
           "better"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "The worst doesn't make sense. Kai loves football!",
@@ -1170,7 +1170,7 @@
           "many",
           "a"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "We use many with countable nouns, like many eggs. Sugar is uncountable.",
@@ -1190,7 +1190,7 @@
           "much",
           "a"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "We use much with uncountable nouns, like much sugar. Eggs are countable.",
@@ -1289,7 +1289,7 @@
           "freezing",
           "icy"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Freezing means very cold, but the story says it was hot.",
@@ -1316,7 +1316,7 @@
           "juicy",
           "smooth"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Juicy is about the fruit inside. Juicy things don't hurt you.",
@@ -1351,7 +1351,7 @@
           "fastest",
           "slower"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Fastest is for one of a big group, with the. Here we see than.",
@@ -1378,7 +1378,7 @@
           "best",
           "good"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Best is for one of a big group, with the. Here we see than.",
@@ -1498,7 +1498,7 @@
        "freezing",
        "wooden"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "Freezing means very cold. It is about the weather, not people.",
@@ -1518,7 +1518,7 @@
        "humid",
        "juicy"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Humid means hot and wet. Ice can't be humid.",
@@ -1546,7 +1546,7 @@
        "spiky",
        "salty"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Spiky means covered with sharp points. Most fish aren't spiky.",
@@ -1594,7 +1594,7 @@
        "taller",
        "tall"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Taller compares two buildings, with than. Look at 'in our town'.",
@@ -1614,7 +1614,7 @@
        "the fastest",
        "fast"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "The fastest is for one of a big group, not with than.",
@@ -1662,7 +1662,7 @@
        "the worst",
        "better"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "The worst doesn't make sense. Ten out of ten is a very good mark!",
@@ -1710,7 +1710,7 @@
        "many",
        "a"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Many is for countable nouns, like many eggs. Rice is uncountable.",
@@ -1738,7 +1738,7 @@
        "humid",
        "warm"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Humid means hot and wet. They wouldn't need thick coats.",
@@ -1800,7 +1800,7 @@
        "satellite",
        "sunset"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "A satellite is a machine, not a group of stars.",
@@ -1827,7 +1827,7 @@
        "woollen",
        "golden"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Woollen means made of wool, like a warm hat.",
@@ -1924,7 +1924,7 @@
        "darker",
        "the brightest"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "Darker doesn't make sense. The sentence before says Venus was very bright.",
@@ -1951,7 +1951,7 @@
        "easier",
        "the most difficult"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Easier doesn't make sense. Anya nearly fell over!",
@@ -2013,7 +2013,7 @@
        "the worst",
        "better"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "The worst doesn't make sense. Anya wants to go back!",

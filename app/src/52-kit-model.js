@@ -208,7 +208,6 @@
     // and the answers are the letters only; the example's letter cannot be chosen
     const bank = !!(task.bankLetters && task.bankLetters.length && task.opts && T.esl && T.esl.bankList);
     const exLet = bank ? T.esl.exampleLetter(task.fig) : '';
-    if (bank) (stimNode || card).appendChild(T.esl.bankList(task));
     // two columns on a wide screen when the question is big (a tool, a picture or a claim): the question on the
     // left, the answer and the help on the right; one column on a phone
     const big = !!(ui.k || task.fig || isClaim);
@@ -225,6 +224,8 @@
       root.classList.add('mk--stim');
       right.appendChild(html(el('p', { class: 'mk__q mk__q--side' }), task.q));
     }
+    // the bank: beside the conversation, above the letters (two columns: the right one; one column: under the question)
+    if (bank) (big ? right : stimNode || card).appendChild(T.esl.bankList(task));
     scroller.appendChild(headRow);
     if (loRow) scroller.appendChild(loRow);
     scroller.appendChild(el('div', { class: 'mk__cols' }, left, right));

@@ -2,7 +2,7 @@
    Made by scripts/convert.py from content/stop7.json (written from the exam-style guide only; no real paper seen). */
 (function (T) {
   'use strict';
-  window.T_ART = Object.assign(window.T_ART || {}, {"e-s7-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"countable\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍎</text></svg>", "e-s7-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"uncountable\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🥛</text></svg>", "e-s7-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"a few\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍇</text></svg>", "e-s7-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"a little\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍯</text></svg>", "e-s7-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"nothing\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📭</text></svg>", "e-s7-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"connective\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔗</text></svg>", "e-s7-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"before\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏮️</text></svg>", "e-s7-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"after\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏭️</text></svg>", "e-s7-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"already\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">✅</text></svg>", "e-s7-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"yet\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏳</text></svg>", "e-s7-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"gap\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⬜</text></svg>", "e-s7-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"clue\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔍</text></svg>", "e-s7-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"tag question\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❓</text></svg>", "e-s7-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"verb pattern\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🧩</text></svg>"});
+  window.T_ART = Object.assign(window.T_ART || {}, {"e-s7-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"countable\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍎</text></svg>", "e-s7-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"uncountable\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🥛</text></svg>", "e-s7-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"a few\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍓</text></svg>", "e-s7-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"a little\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🍯</text></svg>", "e-s7-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"nothing\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📭</text></svg>", "e-s7-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"connective\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔗</text></svg>", "e-s7-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"before\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏮️</text></svg>", "e-s7-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"after\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏭️</text></svg>", "e-s7-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"already\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">✅</text></svg>", "e-s7-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"yet\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏳</text></svg>", "e-s7-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"gap\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⬜</text></svg>", "e-s7-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"clue\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔍</text></svg>", "e-s7-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"tag question\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏷️</text></svg>", "e-s7-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"verb pattern\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🧩</text></svg>"});
   T.packs[7] = {
  "n": 7,
  "title": "Grammar in sentences and stories",
@@ -270,7 +270,7 @@
           "a little",
           "much"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'a little' goes with things you can't count. Birds are easy to count.",
@@ -298,7 +298,7 @@
           "yet",
           "ever"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'yet' goes at the end of questions and 'not' sentences.",
@@ -318,7 +318,7 @@
           "already",
           "ever"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'already' goes in positive sentences, not after 'hasn't'.",
@@ -346,7 +346,7 @@
           "is it",
           "doesn't it"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "The sentence is positive (is), so the tag must be negative.",
@@ -366,7 +366,7 @@
           "can't you",
           "do you"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "The sentence is negative (can't), so the tag must be positive.",
@@ -395,7 +395,7 @@
           "for",
           "because"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "We don't say 'for look'. Use to + verb for a reason.",
@@ -415,7 +415,7 @@
           "fast",
           "fastest"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'fast' doesn't compare. With 'than' we need the comparative.",
@@ -468,7 +468,7 @@
           "a little",
           "much"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'a little' is for things you can't count, like milk. Grapes are easy to count.",
@@ -516,7 +516,7 @@
           "some",
           "nothing"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'some' is for positive sentences. This sentence has 'isn't'.",
@@ -536,7 +536,7 @@
           "anything",
           "nothing"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "'anything' is for questions and 'not' sentences. 'I want' is positive.",
@@ -632,7 +632,7 @@
           "might",
           "had to"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "A uniform is a school rule, not a 'maybe'.",
@@ -660,7 +660,7 @@
           "yet",
           "ever"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'yet' goes at the end of questions and 'not' sentences.",
@@ -708,7 +708,7 @@
           "isn't he",
           "does he"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "The verb is 'likes', so the tag uses 'does', not 'is'.",
@@ -764,7 +764,7 @@
           "then",
           "while"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'then' starts a new step. It can't join 'Turn off the lights' and 'you leave'.",
@@ -784,7 +784,7 @@
           "While",
           "Before"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'While we all ate together' is not a full sentence on its own.",
@@ -852,7 +852,7 @@
           "good",
           "best"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'good' doesn't compare, and 'than' needs a comparing word.",
@@ -872,7 +872,7 @@
           "most carefully",
           "carefully"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "'most carefully' is for the top one of a group, not with 'than'.",
@@ -922,7 +922,7 @@
           "can she",
           "doesn't she"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "The sentence is positive (can), so the tag must be negative.",
@@ -942,7 +942,7 @@
           "don't they",
           "are they"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "The sentence is negative (don't), so the tag must be positive.",
@@ -971,7 +971,7 @@
           "a few",
           "many"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'a few' is for things you can count. Can you count water?",
@@ -1019,7 +1019,7 @@
           "something",
           "nothing"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'something' is for positive sentences. This sentence has 'isn't'.",
@@ -1039,7 +1039,7 @@
           "anything",
           "nothing"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'anything' is for questions and 'not' sentences. 'There's' is positive.",
@@ -1067,7 +1067,7 @@
           "after",
           "while"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "You need your coat outside, so you can't put it on later.",
@@ -1115,7 +1115,7 @@
           "play",
           "plays"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "After 'loves' we don't use the base form 'play'.",
@@ -1135,7 +1135,7 @@
           "visiting",
           "visit"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "After 'would like' we don't use -ing.",
@@ -1172,7 +1172,7 @@
           "raising",
           "raise"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "After 'wanted' we don't use -ing.",
@@ -1199,7 +1199,7 @@
           "for",
           "so"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "We don't say 'for learn'. Use to + verb for a reason.",
@@ -1234,7 +1234,7 @@
           "carefully",
           "most carefully"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'carefully' doesn't compare. Look at 'than me'.",
@@ -1261,7 +1261,7 @@
           "fast",
           "fastest"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'fast' doesn't compare. Look at 'than our bus'.",
@@ -1297,7 +1297,7 @@
           "many",
           "a few"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'many' is for plural nouns you can count. Glue is uncountable.",
@@ -1359,7 +1359,7 @@
           "has to",
           "had to"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Rain is not a rule. Clouds only tell us rain is possible.",
@@ -1429,7 +1429,7 @@
           "Before",
           "Then"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "People can't buy the flowers before they are on the stall.",
@@ -1456,7 +1456,7 @@
           "While",
           "Before"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "'While we went outside ...' is not a full sentence on its own.",
@@ -1491,7 +1491,7 @@
           "don't you",
           "did you"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "'made' is past, so the tag must be past too.",
@@ -1518,7 +1518,7 @@
           "is it",
           "doesn't it"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'It's really cold' is positive, so the tag must be negative.",
@@ -1581,7 +1581,7 @@
           "to watch",
           "watch"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "After 'enjoyed' we don't use 'to' + verb.",
@@ -1701,7 +1701,7 @@
        "is he",
        "doesn't he"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "The sentence is positive (is), so the tag must be negative.",
@@ -1721,7 +1721,7 @@
        "have you",
        "aren't you"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "'You've got' is positive, so the tag must be negative.",
@@ -1749,7 +1749,7 @@
        "didn't she",
        "was she"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "The sentence is negative (didn't), so the tag must be positive.",
@@ -1769,7 +1769,7 @@
        "isn't it",
        "does it"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "The sentence is negative (isn't), so the tag must be positive.",
@@ -1798,7 +1798,7 @@
        "a few",
        "many"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "'a few' is for things you can count. Can you count honey?",
@@ -1894,7 +1894,7 @@
        "for",
        "because"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "We don't say 'for get'. Use to + verb for a reason.",
@@ -1914,7 +1914,7 @@
        "for",
        "and"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "We don't say 'for cook'. Use to + verb for what something is used for.",
@@ -1970,7 +1970,7 @@
        "a lot of",
        "a few"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Read on: they went in two groups, so there was not lots of space.",
@@ -2032,7 +2032,7 @@
        "might",
        "had to"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "He gets up early 'every morning' because people want bread. It is not a 'maybe'.",
@@ -2067,7 +2067,7 @@
        "Before",
        "While"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Read the sentence before: they waited for the glue to dry first.",
@@ -2094,7 +2094,7 @@
        "After",
        "Then"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "The baker showed them how to make rolls. That must come first, not after.",
@@ -2129,7 +2129,7 @@
        "something",
        "anything"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "Read on: they used leaves, so the box didn't have any paper.",
@@ -2156,7 +2156,7 @@
        "anything",
        "something"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "'anything' goes in 'not' sentences and questions. 'there was' is positive.",
@@ -2191,7 +2191,7 @@
        "more slowly",
        "fastest"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Read on: the group finished first, so they didn't work slowly.",
@@ -2218,7 +2218,7 @@
        "less carefully",
        "most carefully"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "Ana's roll looked like a star, so she worked with more care, not less.",

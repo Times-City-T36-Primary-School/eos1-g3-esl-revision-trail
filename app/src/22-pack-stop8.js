@@ -239,7 +239,7 @@
           "Lan's dad cooks once a week.",
           "Lan cooks alone every evening."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "She says 'every evening', so it is every day, not once a week.",
@@ -259,7 +259,7 @@
           "Quan wants to buy a star book.",
           "Quan is writing a book about the stars."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'Already got' means he has it now, so he doesn't need to buy it.",
@@ -288,7 +288,7 @@
           "Tia",
           "Jamal"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Tia dances at the centre, not in the water.",
@@ -337,7 +337,7 @@
           "He doesn't want to go.",
           "He is bored at the club."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "That was 'at first'. Now his feelings are different.",
@@ -357,7 +357,7 @@
           "bored",
           "angry"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Her '!' shows good news. Nothing in her words sounds bored.",
@@ -406,7 +406,7 @@
           "draw her brother",
           "give her brother a camera"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Tia talks about photos, not drawing.",
@@ -459,7 +459,7 @@
           "He stays inside on most sunny days.",
           "He never goes outside when it's sunny."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "'Hardly ever stay inside' means he almost never stays in.",
@@ -479,7 +479,7 @@
           "She went on a plane once last year.",
           "She goes on a plane every holiday."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "'Never' means not one time.",
@@ -508,7 +508,7 @@
           "She is afraid of surfing.",
           "She is not good at swimming."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "'Keen on' is a happy word. It doesn't mean afraid.",
@@ -528,7 +528,7 @@
           "He was never afraid of storms before.",
           "He is very scared of storms today."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "'Now' tells you he WAS scared before.",
@@ -557,7 +557,7 @@
           "She enjoys TV more than gardening.",
           "She doesn't like gardening or TV."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "This is the other way round. The garden is 'more fun'.",
@@ -577,7 +577,7 @@
           "There is a skate park in his street.",
           "He doesn't like skate parks."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "He would like one in his street, so there isn't one there now.",
@@ -614,7 +614,7 @@
           "Kira",
           "Son"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Kira surfs, but she doesn't say she is getting better.",
@@ -677,7 +677,7 @@
           "Kira",
           "Tia"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Mum helps Kira. Kira doesn't help a younger child.",
@@ -740,7 +740,7 @@
           "Tia",
           "Son"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Tia talks about her strict teacher, not about food.",
@@ -767,7 +767,7 @@
           "Daisy",
           "Quan"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Daisy's rabbit eats from the garden by itself.",
@@ -811,7 +811,7 @@
           "She was ill that week.",
           "The music was too loud."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "The article doesn't say she was ill.",
@@ -937,7 +937,7 @@
           "Tia will stop going to dance class.",
           "Tia will teach the dance class."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Tia wants to 'do it again', so she won't stop.",
@@ -964,7 +964,7 @@
           "surf in the next big storm",
           "sell the plastic bottles"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Storms make the beach dirty. The article doesn't say they surf in storms.",
@@ -1049,7 +1049,7 @@
           "Son",
           "Daisy"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Son loves the rainy season. He doesn't want a change.",
@@ -1085,7 +1085,7 @@
           "Adam",
           "Kira"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Adam wants a new position, but it is still football.",
@@ -1148,7 +1148,7 @@
           "Kira",
           "Ollie"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Kira 'really wants to win', so winning is important to her.",
@@ -1175,7 +1175,7 @@
           "Poppy",
           "Son"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Poppy says her city is hot, but she doesn't talk about work.",
@@ -1246,7 +1246,7 @@
           "Their teacher wanted some photos.",
           "There was a moon party at school."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "They had to DRAW the moon, not take photos.",
@@ -1282,7 +1282,7 @@
           "to every house in their street",
           "to the community centre only"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "The article doesn't say they went to every house.",
@@ -1309,7 +1309,7 @@
           "It was big and round.",
           "It was behind clouds."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "It got bigger and rounder LATER.",
@@ -1416,7 +1416,7 @@
           "excited, because it was raining",
           "happy, because the hall was full"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "The rain didn't make him excited. He was worried.",
@@ -1443,7 +1443,7 @@
           "how dark the sky was at night",
           "how many planets there are"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "The article doesn't talk about how dark the sky was.",
@@ -1479,7 +1479,7 @@
           "Only children could take part.",
           "Few people came because of the rain."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "'Children, parents and grandparents came.'",
@@ -1506,7 +1506,7 @@
           "scared",
           "pleased"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Clouds aren't dangerous. The article says how he felt, and it isn't 'scared'.",
@@ -1542,7 +1542,7 @@
           "Son will stop reading old books.",
           "The class will sell more biscuits."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Son loves reading. The article doesn't say he will stop.",
@@ -1689,7 +1689,7 @@
        "in a tall tree next to the skate park",
        "in a big tree near the hills"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "The article doesn't say the tree is next to the skate park.",
@@ -1716,7 +1716,7 @@
        "There was a food fair in their area.",
        "Lan cooked food on her own."
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "The fair happens 'every year'. It isn't new.",
@@ -1751,7 +1751,7 @@
        "four walls",
        "the green roof"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "They built the walls AFTER the floor.",
@@ -1813,7 +1813,7 @@
        "The rope ladder is not very strong.",
        "Ollie likes to read there on his own."
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "The article doesn't say the ladder is weak. Read the sentence with 'because'.",
@@ -1840,7 +1840,7 @@
        "cutting the vegetables",
        "buying the rice paper"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "Dad cut the vegetables.",
@@ -1875,7 +1875,7 @@
        "the street and shops",
        "the skate park"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "The tree house is hard to see FROM the street. The article doesn't talk about shops.",
@@ -1902,7 +1902,7 @@
        "Only a few people stopped at the table.",
        "A girl bought four spring rolls."
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "That happened 'at first', soon after ten.",
@@ -1964,7 +1964,7 @@
        "a new table for the food fair",
        "mango sticky rice next year"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "The article doesn't talk about buying a table.",
@@ -2000,7 +2000,7 @@
        "Adam",
        "Poppy"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "Adam grows mint and chillies now. He doesn't say he wants a new plant.",
@@ -2126,7 +2126,7 @@
        "Lan",
        "Adam"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Lan likes her cress, but she doesn't compare it with other food.",
@@ -2153,7 +2153,7 @@
        "Quan",
        "Jamal"
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "Quan's uncle showed him the stars on one evening of the holiday.",
@@ -2216,7 +2216,7 @@
        "Quan",
        "Tia"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Quan talks about the dark sky, but not about being careful.",
@@ -2279,7 +2279,7 @@
        "Tia",
        "Jamal"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Tia's picture is on her wall, but it doesn't help her learn.",
@@ -2374,11 +2374,11 @@
     ]
    ],
    [
-    "Part 6 questions follow the text's ___",
+    "'I'm good at drawing' means I draw ___",
     [
-     "order",
-     "title",
-     "pictures"
+     "well",
+     "badly",
+     "never"
     ]
    ],
    [
@@ -2414,11 +2414,11 @@
     ]
    ],
    [
-    "Same word in the text means right answer?",
+    "'I'm not keen on fish' means I ___ it",
     [
-     "not always",
-     "always",
-     "never"
+     "don't like",
+     "love",
+     "cook"
     ]
    ],
    [
@@ -2646,11 +2646,11 @@
     ]
    ],
    [
-    "The main idea is about the ___ text",
+    "'Sometimes' means ___",
     [
-     "whole",
-     "first",
-     "last"
+     "not always",
+     "never",
+     "every day"
     ]
    ],
    [
@@ -2694,11 +2694,11 @@
     ]
    ],
    [
-    "'Who ...?' answers in Part 5 are ___",
+    "'Twice a week' means ___",
     [
-     "names",
-     "numbers",
-     "places"
+     "two times a week",
+     "every day",
+     "once a week"
     ]
    ]
   ]

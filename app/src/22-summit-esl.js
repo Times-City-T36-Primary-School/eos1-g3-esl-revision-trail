@@ -33,7 +33,7 @@
            "pic": "🎒",
            "tag": "backpack"
           },
-          "alt": "backpack picture"
+          "alt": "school satchel, backpack"
          },
          {
           "html": "",
@@ -42,7 +42,7 @@
            "pic": "🚗",
            "tag": "car"
           },
-          "alt": "car picture"
+          "alt": "automobile, car"
          },
          {
           "html": "",
@@ -51,7 +51,7 @@
            "pic": "🚲",
            "tag": "bike"
           },
-          "alt": "bike picture"
+          "alt": "bicycle, bike"
          }
         ],
         "at": 1,
@@ -115,7 +115,7 @@
            "pic": "🥯",
            "tag": "round"
           },
-          "alt": "round picture"
+          "alt": "bagel, round"
          },
          {
           "html": "",
@@ -124,7 +124,7 @@
            "pic": "🥖",
            "tag": "long"
           },
-          "alt": "long picture"
+          "alt": "baguette bread, long"
          },
          {
           "html": "",
@@ -133,10 +133,10 @@
            "pic": "🍞",
            "tag": "square"
           },
-          "alt": "square picture"
+          "alt": "bread, square"
          }
         ],
-        "at": 2,
+        "at": 0,
         "whys": [
          null,
          "Aunt asks about a long loaf, but Owen says 'No, not a long one.'",
@@ -197,7 +197,7 @@
            "pic": "👨‍🌾",
            "tag": "farmer"
           },
-          "alt": "farmer picture"
+          "alt": "man and ear of rice, farmer"
          },
          {
           "html": "",
@@ -206,7 +206,7 @@
            "pic": "🎣",
            "tag": "fisherman"
           },
-          "alt": "fisherman picture"
+          "alt": "fishing pole and fish, fisherman"
          },
          {
           "html": "",
@@ -215,7 +215,7 @@
            "pic": "👨‍🍳",
            "tag": "cook"
           },
-          "alt": "cook picture"
+          "alt": "man and cooking, cook"
          }
         ],
         "at": 0,
@@ -279,7 +279,7 @@
            "pic": "🥟",
            "tag": "dumplings"
           },
-          "alt": "dumplings picture"
+          "alt": "dumpling, dumplings"
          },
          {
           "html": "",
@@ -288,7 +288,7 @@
            "pic": "🍔",
            "tag": "burger"
           },
-          "alt": "burger picture"
+          "alt": "hamburger, burger"
          },
          {
           "html": "",
@@ -297,10 +297,10 @@
            "pic": "🌭",
            "tag": "hot dog"
           },
-          "alt": "hot dog picture"
+          "alt": "hot dog, hot dog"
          }
         ],
-        "at": 1,
+        "at": 2,
         "whys": [
          null,
          "Owen had a burger yesterday, so he says 'No, thanks.'",
@@ -362,7 +362,7 @@
            "pic": "🕧",
            "tag": "12:30"
           },
-          "alt": "12:30 picture"
+          "alt": "clock face twelve-thirty, 12:30"
          },
          {
           "html": "",
@@ -371,7 +371,7 @@
            "pic": "🕛",
            "tag": "12:00"
           },
-          "alt": "12:00 picture"
+          "alt": "clock face twelve oclock, 12:00"
          },
          {
           "html": "",
@@ -380,10 +380,10 @@
            "pic": "🕐",
            "tag": "1:00"
           },
-          "alt": "1:00 picture"
+          "alt": "clock face one oclock, 1:00"
          }
         ],
-        "at": 2,
+        "at": 1,
         "whys": [
          null,
          "Twelve o'clock is when the bus usually goes. Owen asks for a later bus.",
@@ -448,7 +448,7 @@
          "Its colours were very bright.",
          "It went over the park."
         ],
-        "at": 0,
+        "at": 2,
         "whys": [
          null,
          "Luna liked the bright colours, but she says something else was the best.",
@@ -511,7 +511,7 @@
          "He wants to win medals.",
          "He wants to get stronger."
         ],
-        "at": 1,
+        "at": 2,
         "whys": [
          null,
          "Tam's brother has the medals. Tam says he doesn't care about medals.",
@@ -578,7 +578,7 @@
          "in their classroom",
          "on the football field"
         ],
-        "at": 2,
+        "at": 1,
         "whys": [
          null,
          "Luna has already looked in the classroom. The scarf isn't there.",
@@ -708,7 +708,7 @@
          "eating lots of pancakes",
          "helping Luna's mum to cook"
         ],
-        "at": 1,
+        "at": 0,
         "whys": [
          null,
          "Luna guesses this, but Seb says he is more interested in something else.",
@@ -1559,7 +1559,7 @@
          "Walking is the most popular way.",
          "More children come by bike than by bus."
         ],
-        "at": 0,
+        "at": 2,
         "whys": [
          null,
          "21 children come by bus. That is more than the 14 who walk.",
@@ -1639,7 +1639,7 @@
          "No, thanks. I haven't had any yet.",
          "Yes, please. I never eat popcorn."
         ],
-        "at": 0,
+        "at": 1,
         "whys": [
          null,
          "'I haven't had any yet' is not a reason to say no. Check that the two parts go together.",
@@ -1697,7 +1697,7 @@
          "After lunch, with my sister.",
          "It's next to the sports centre."
         ],
-        "at": 1,
+        "at": 0,
         "whys": [
          null,
          "This answer says when and who, not why.",
@@ -1755,7 +1755,7 @@
          "My sister does. She gets up later than me.",
          "Yes, she does. She gets up very early."
         ],
-        "at": 0,
+        "at": 1,
         "whys": [
          null,
          "If she gets up later, she doesn't get up earlier. The two parts don't match.",
@@ -1785,7 +1785,7 @@
          "Put your old toys all over her bed.",
          "Did your grandma like her room?"
         ],
-        "at": 1,
+        "at": 0,
         "whys": [
          null,
          "Old toys all over the bed don't make a room nice for Grandma.",
@@ -1821,7 +1821,7 @@
          "isn't it",
          "does it"
         ],
-        "at": 2,
+        "at": 0,
         "whys": [
          null,
          "The verb is 'looks', not 'is'. 'Looks' needs 'does' in the tag.",
@@ -1850,7 +1850,7 @@
          "hasn't she",
          "did she"
         ],
-        "at": 0,
+        "at": 1,
         "whys": [
          null,
          "The sentence is already negative (hasn't), so the tag must be positive.",
@@ -1880,7 +1880,7 @@
          "few",
          "many"
         ],
-        "at": 1,
+        "at": 2,
         "whys": [
          null,
          "'A few' is for things you can count, like 'a few bags'. You can't count help.",
@@ -1909,7 +1909,7 @@
          "something",
          "nothing"
         ],
-        "at": 2,
+        "at": 0,
         "whys": [
          null,
          "We use 'something' in positive sentences. 'Never' makes this sentence negative.",
@@ -1939,7 +1939,7 @@
          "while",
          "when"
         ],
-        "at": 1,
+        "at": 2,
         "whys": [
          null,
          "'While' needs a person and a verb after it, like 'while you wait'.",
@@ -1968,7 +1968,7 @@
          "to sing",
          "sing"
         ],
-        "at": 0,
+        "at": 1,
         "whys": [
          null,
          "After 'enjoy' we use -ing, not 'to' + verb.",
@@ -2005,7 +2005,7 @@
          "a little",
          "much"
         ],
-        "at": 2,
+        "at": 0,
         "whys": [
          null,
          "'A little' is for things you can't count. You can count beehives.",
@@ -2185,7 +2185,7 @@
          "anything",
          "nothing"
         ],
-        "at": 0,
+        "at": 2,
         "whys": [
          null,
          "We use 'anything' in questions and negative sentences. This sentence is positive.",
@@ -2457,7 +2457,7 @@
          "The big bins downstairs were too small.",
          "She wanted her mum to clean the bins."
         ],
-        "at": 1,
+        "at": 0,
         "whys": [
          null,
          "The bins were full, but the article doesn't say they were too small.",
@@ -2529,7 +2529,7 @@
          "They check them every Saturday.",
          "They check them once a month."
         ],
-        "at": 2,
+        "at": 1,
         "whys": [
          null,
          "The meeting was on Saturday. The boxes are checked on another day.",
@@ -2566,7 +2566,7 @@
          "They will paint the grey roof.",
          "They will buy more recycling boxes."
         ],
-        "at": 0,
+        "at": 1,
         "whys": [
          null,
          "Emily says the roof is grey, but she doesn't talk about painting it.",
@@ -2602,7 +2602,7 @@
          "A girl who makes posters for her flats.",
          "A man who takes bottles to a recycling centre."
         ],
-        "at": 1,
+        "at": 2,
         "whys": [
          null,
          "Emily made one poster, but that is only a small part of the article.",

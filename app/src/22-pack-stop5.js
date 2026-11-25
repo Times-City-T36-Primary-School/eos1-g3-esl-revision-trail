@@ -352,7 +352,7 @@
           "It is Friday.",
           "The school trip is today."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Eva likes Fridays, but that's not why she is smiling.",
@@ -408,7 +408,7 @@
           "rice and eggs",
           "noodles"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Clara usually has rice and eggs, but not today.",
@@ -451,7 +451,7 @@
           "the park",
           "the library"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Dan usually skates in the park, but today it's too wet.",
@@ -502,7 +502,7 @@
           "chocolate biscuits",
           "juice"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Vy was going to make chocolate biscuits, but Rosa is making those.",
@@ -545,7 +545,7 @@
           "orange juice",
           "lemon tea"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Kenji wanted orange juice, but the café hasn't got any.",
@@ -709,7 +709,7 @@
           "bananas",
           "mangoes"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Pia says bananas are only OK, so they are not her favourite.",
@@ -757,7 +757,7 @@
           "the long jump",
           "surfing"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Eva says the long jump is fun, but she isn't very good at it.",
@@ -861,7 +861,7 @@
           "bored",
           "very tired"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Elliot felt bored at the start of the walk, not at the top.",
@@ -917,7 +917,7 @@
           "a cake",
           "a photo frame"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Dan guesses a cake, but Vy says no.",
@@ -1029,7 +1029,7 @@
           "by bus",
           "on foot"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Elliot usually goes home by bus, but not today.",
@@ -1072,7 +1072,7 @@
           "rice",
           "a cheese sandwich"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Eva usually has rice, but she says *not today*.",
@@ -1171,7 +1171,7 @@
           "to the beach",
           "to the city"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Rosa went to the beach last year, not this year.",
@@ -1222,7 +1222,7 @@
           "He got up late.",
           "His bus was late."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Aisha guesses he got up late, but Huy got up at six.",
@@ -1334,7 +1334,7 @@
           "the cake stall",
           "the book stall"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Kenji was going to help with the cakes, but his plan changed.",
@@ -1428,7 +1428,7 @@
           "It is very big.",
           "The garden is big."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Rosa asks if it is big, but Dan says *not really*.",
@@ -1471,7 +1471,7 @@
           "to play rugby",
           "to play table tennis"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Elliot guesses rugby, but Clara says she doesn't play it.",
@@ -1522,7 +1522,7 @@
           "The film was too long.",
           "The music was too loud."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Aisha thinks the film was too long, but Dan doesn't agree.",
@@ -1575,7 +1575,7 @@
           "the juice",
           "the cakes"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Vy loves the juice, but Kenji says it is too sweet for him.",
@@ -1653,7 +1653,7 @@
           "the view from the top",
           "the food"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Clara says the big wheel was good, but it wasn't the best part.",
@@ -1711,7 +1711,7 @@
           "the round windows",
           "the breakfast"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Huy guesses the round windows, but Pia says no.",
@@ -1777,7 +1777,7 @@
           "scared of the waves",
           "very tired"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "Vy was scared *before* the lesson, not after it.",
@@ -1835,7 +1835,7 @@
           "nervous",
           "bored"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Dan asks if she is nervous, but Aisha says *not really*. Dan is the nervous one.",
@@ -1891,7 +1891,7 @@
           "the planets",
           "the space shuttle"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Kenji says the planets room was nice, but he spent all morning at the rover.",
@@ -2127,7 +2127,7 @@
           "The hill was hard to climb.",
           "There were lots of mosquitoes."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
           "Rosa thinks the hill was hard, but Huy doesn't agree.",
@@ -2299,7 +2299,7 @@
           "to go to a story club",
           "to use the computers"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
           "There is a story club, but Huy says it's for little children.",
@@ -2368,7 +2368,7 @@
           "a dog",
           "a cat"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
           "Elliot wanted a dog, but his home is too small.",
@@ -2426,7 +2426,7 @@
           "some flowers",
           "some chocolate"
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
           "Rosa was going to buy flowers, but she changed her mind after Dan spoke.",
@@ -2487,7 +2487,7 @@
           "hot and sunny",
           "snowy and freezing"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
           "Kenji loves hot, sunny days. Pia doesn't like it when it's hot and humid.",
@@ -2540,7 +2540,7 @@
           "dark chocolate",
           "white chocolate"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Huy says dark chocolate is too bitter for him. Eva is the one who loves it.",
@@ -2601,7 +2601,7 @@
           "play in the park",
           "go shopping"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
           "Aisha would love to play in the park, but she can't today.",
@@ -2805,7 +2805,7 @@
        "in the sandpit",
        "under the slide"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Vy looked in the sandpit first, but the treasure wasn't there.",
@@ -2962,7 +2962,7 @@
        "on Monday",
        "on Thursday"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Monday is their sports day, not the trip.",
@@ -3137,7 +3137,7 @@
        "hot",
        "wet"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "Kenji guesses it was hot, but Rosa says no.",
@@ -3185,7 +3185,7 @@
        "shooting stars",
        "a constellation"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Vy went to bed too early, so she didn't see the shooting stars.",
@@ -3299,7 +3299,7 @@
        "a hotel",
        "a museum"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "Kenji guesses a hotel, but Aisha says no.",
@@ -3355,7 +3355,7 @@
        "the food",
        "the music show"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Clara says the food was nice, but she waited a long time for it.",
@@ -3408,7 +3408,7 @@
        "the upside-down rooms",
        "the gift shop"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
        "The upside-down rooms were funny, but they made Dan feel a bit sick.",
@@ -3469,7 +3469,7 @@
        "to save money",
        "because her mum says so"
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Kenji guesses money. Vy's dad likes that, but it is not Vy's reason.",
@@ -3517,7 +3517,7 @@
        "She is very fast.",
        "She has red shoes."
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "Elliot thinks it's because she's fast. She is fast, but Aisha says *that's not why*.",
@@ -3578,7 +3578,7 @@
        "The hall was too hot.",
        "The concert was too short."
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
        "Rosa thinks the hall was too hot, but Huy didn't feel hot.",
@@ -3631,7 +3631,7 @@
        "It's very sweet.",
        "It's expensive."
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Pia thinks it is sweet, but Elliot says it hasn't got much taste.",
@@ -3692,7 +3692,7 @@
        "do face painting",
        "make crafts"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
        "Eva was going to do face painting, but she changed her mind.",
@@ -3745,7 +3745,7 @@
        "She will ride her bike.",
        "She will take the bus."
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
        "Clara was going to ride her bike, but Kenji says the roads are busy.",
@@ -3811,7 +3811,7 @@
        "the planet with rings",
        "the biggest planet"
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
        "Aisha loves the planet with rings. Huy says it's pretty, but he prefers another one.",
@@ -3864,7 +3864,7 @@
        "dragon stories",
        "funny comics"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
        "Rosa loves dragon stories. Dan says they're only OK.",
@@ -4001,11 +4001,11 @@
     ]
    ],
    [
-    "Which word tells you about this time?",
+    "\"I'm hungry\" means I want to...",
     [
-     "today",
-     "usually",
-     "always"
+     "eat",
+     "sleep",
+     "play"
     ]
    ],
    [
@@ -4153,43 +4153,43 @@
     ]
    ],
    [
-    "In Part 2, how many options?",
+    "\"I like swimming more than running.\" Favourite?",
     [
-     "three",
-     "two",
-     "four"
+     "swimming",
+     "running",
+     "both"
     ]
    ],
    [
-    "How many times do you hear each talk?",
+    "\"She won the race!\" How does she feel?",
     [
-     "twice",
-     "once",
-     "three times"
+     "proud",
+     "bored",
+     "worried"
     ]
    ],
    [
-    "Wrong options in Part 2 are usually...",
+    "\"Let's go to the beach!\" \"Good idea!\" means...",
     [
-     "in the talk",
-     "never said",
-     "pictures"
+     "I agree",
+     "I don't agree",
+     "I'm not sure"
     ]
    ],
    [
-    "A friend's guess is often...",
+    "\"It's raining, so we're staying in.\" Why?",
     [
-     "wrong",
-     "right",
-     "the answer"
+     "the rain",
+     "the sun",
+     "the wind"
     ]
    ],
    [
-    "Listen carefully after the word...",
+    "\"Not the red one, the blue one.\" Which?",
     [
-     "no",
-     "the",
-     "and"
+     "the blue one",
+     "the red one",
+     "both"
     ]
    ],
    [
@@ -4273,11 +4273,11 @@
     ]
    ],
    [
-    "\"So I'm doing that now\" gives the...",
+    "\"I liked tennis. Now I prefer judo.\" Now?",
     [
-     "new plan",
-     "old plan",
-     "reason"
+     "judo",
+     "tennis",
+     "both"
     ]
    ],
    [
