@@ -200,7 +200,7 @@
     },
     "kind": "text",
     "head": "A recount by Ivy",
-    "html": "<b>Our Walk up the Hill</b><br>Last Monday, our class walked up a small hill *to look* at the clouds. The path was wet, so we walked *more carefully* than usual. *Each* child had a notebook. *When* we got to the top, we drew the clouds. *Then* it started to rain, and we ran back down. Finn ran *faster* than everyone!",
+    "html": "<b>Our Walk up the Hill</b><br>Last Monday, our class walked up a small hill *to look* at the clouds. The path was wet, so we walked *more carefully* than usual. *Each* child had a notebook. *When* we got to the top, we drew the clouds. *Then* it started to rain, and we ran back down. Finn got to the bottom *faster* than the teacher!",
     "audio": null,
     "steps": [
      {
@@ -528,15 +528,15 @@
          "type": "tfill",
          "q": "Write some, any or nothing.",
          "lines": [
-          "The box is empty. There is {0} in it."
+          "My piggy bank is empty. There is {0} in it."
          ],
          "ans": [
           [
            "nothing"
           ]
          ],
-         "hint": "The box is empty. Which word means 'not anything'?",
-         "worked": "The box is empty, so there is *nothing* in it.",
+         "hint": "The piggy bank is empty. Which word means 'not anything'?",
+         "worked": "The piggy bank is empty, so there is *nothing* in it.",
          "stim": null
         }
        ]
@@ -2040,7 +2040,7 @@
   "secs": 60,
   "items": [
    [
-    "There are ___ eggs in the box.",
+    "We need ___ eggs. Just three.",
     [
      "a few",
      "a little",
@@ -2080,7 +2080,7 @@
     ]
    ],
    [
-    "The box is empty. There's ___ in it.",
+    "My piggy bank is empty. There's ___ in it.",
     [
      "nothing",
      "anything",

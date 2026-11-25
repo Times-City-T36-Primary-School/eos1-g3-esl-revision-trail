@@ -93,7 +93,7 @@
     "ex": "Mum sent me a *message* from work."
    },
    "welcome": {
-    "emoji": "🤗",
+    "emoji": "👋",
     "vi": "được chào đón",
     "def": "People are happy to see you, and you can come in.",
     "ex": "New players are *welcome* at our club."
@@ -146,7 +146,7 @@
     },
     "kind": "text",
     "head": "A sign at the sports centre",
-    "html": "<b>TRAMPOLINE ROOM</b><br>Children under 6 *must* come with an adult.<br>You *mustn't* wear shoes on the trampolines.<br>Socks are *free* at the desk.<br>*Open* 9 a.m. to 6 p.m. *Closed* on Sundays.<br>*Please* jump *only* one at a time.",
+    "html": "<b>TRAMPOLINE ROOM</b><br>Children under 6 *must* come with an adult.<br>You *mustn't* eat or drink on the trampolines.<br>Water is *free* at the desk.<br>*Open* 9 a.m. to 6 p.m. *Closed* on Sundays.<br>*Please* jump *only* one at a time.",
     "audio": null,
     "steps": [
      {
@@ -2280,7 +2280,7 @@
     ]
    ],
    [
-    "'Can I borrow your rubber?'",
+    "'Can I look at your comic?'",
     [
      "Sure, here you are.",
      "You're welcome.",

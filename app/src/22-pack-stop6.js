@@ -1,34 +1,38 @@
-/* 22-pack-stop6.js - ALL the content of Stop 6, Signs, messages and conversations (Grade 5 ESL, Cambridge Stage 6).
+/* 22-pack-stop6.js - ALL the content of Stop 6, Signs, notices and replies (Grade 3 ESL, Cambridge Stage 4).
    Made by scripts/convert.py from content/stop6.json (written from the exam-style guide only; no real paper seen). */
 (function (T) {
   'use strict';
-  window.T_ART = Object.assign(window.T_ART || {}, {"e-s6-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"must\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❗</text></svg>", "e-s6-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"mustn&#x27;t\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🚫</text></svg>", "e-s6-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"don&#x27;t have to\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">😌</text></svg>", "e-s6-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"allowed\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">✅</text></svg>", "e-s6-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"until\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">⏳</text></svg>", "e-s6-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"notice\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📌</text></svg>", "e-s6-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"reminder\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔔</text></svg>", "e-s6-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"cancelled\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❌</text></svg>", "e-s6-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"available\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🟢</text></svg>", "e-s6-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"permission\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📝</text></svg>", "e-s6-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"paraphrase\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔄</text></svg>", "e-s6-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"refuse\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🙅</text></svg>", "e-s6-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"suggest\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💡</text></svg>", "e-s6-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"reply\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💬</text></svg>"});
+  window.T_ART = Object.assign(window.T_ART || {}, {"e-s6-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"must\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❗</text></svg>", "e-s6-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"mustn&#x27;t\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🚫</text></svg>", "e-s6-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"only\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">☝️</text></svg>", "e-s6-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"free\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🆓</text></svg>", "e-s6-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"closed\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔒</text></svg>", "e-s6-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"notice\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📌</text></svg>", "e-s6-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"message\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💬</text></svg>", "e-s6-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"welcome\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👋</text></svg>", "e-s6-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"visitor\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🧳</text></svg>", "e-s6-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"timetable\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🗓️</text></svg>", "e-s6-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"reply\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">↩️</text></svg>", "e-s6-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"offer\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🎁</text></svg>", "e-s6-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"invite\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💌</text></svg>", "e-s6-13": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"agree\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🤝</text></svg>"});
   T.packs[6] = {
  "n": 6,
- "title": "Signs, messages and conversations",
+ "title": "Signs, notices and replies",
  "los": [
-  "6Rd.01",
-  "6Rm.01",
-  "6Rd.03"
+  "4Rd.01",
+  "4Rm.01",
+  "4Uv.03",
+  "4Us.07",
+  "4Ug.10",
+  "4Uv.04",
+  "4Ug.01"
  ],
  "blurb": {
-  "en": "Read signs, notes and messages carefully, then choose the reply that fits a conversation.",
-  "vi": "Đọc kĩ biển báo, ghi chú và tin nhắn, rồi chọn câu đáp phù hợp trong hội thoại."
+  "en": "Read signs, notices, messages and tables, then choose the reply that fits.",
+  "vi": "Đọc biển báo, thông báo, tin nhắn và bảng, rồi chọn câu đáp phù hợp."
  },
  "words": {
   "sets": [
    {
     "id": "A",
     "title": {
-     "en": "Rule words",
-     "vi": "Từ chỉ quy định"
+     "en": "Sign words",
+     "vi": "Từ trên biển báo"
     },
     "keys": [
      "must",
      "mustn't",
-     "don't have to",
-     "allowed",
-     "until"
+     "only",
+     "free",
+     "closed"
     ]
    },
    {
@@ -39,23 +43,23 @@
     },
     "keys": [
      "notice",
-     "reminder",
-     "cancelled",
-     "available",
-     "permission"
+     "message",
+     "welcome",
+     "visitor",
+     "timetable"
     ]
    },
    {
     "id": "C",
     "title": {
-     "en": "Strategy words",
-     "vi": "Từ chiến lược làm bài"
+     "en": "Reply words",
+     "vi": "Từ dùng khi đáp lời"
     },
     "keys": [
-     "paraphrase",
-     "refuse",
-     "suggest",
-     "reply"
+     "reply",
+     "offer",
+     "invite",
+     "agree"
     ]
    }
   ],
@@ -63,72 +67,72 @@
    "must": {
     "art": "e-s6-0",
     "vi": "phải (bắt buộc)",
-    "def": "You need to do it. You have no choice because it is a rule. Example: Visitors *must* sign in at the front desk."
+    "def": "You need to do it. It is a rule. Example: You *must* wear a helmet on your bike."
    },
    "mustn't": {
     "art": "e-s6-1",
     "vi": "không được (bị cấm)",
-    "def": "It is not allowed. It is against the rules. Example: You *mustn't* feed the ducks in this park."
+    "def": "It is not allowed. Do not do it. Example: You *mustn't* run near the pool."
    },
-   "don't have to": {
+   "only": {
     "art": "e-s6-2",
-    "vi": "không cần phải",
-    "def": "You can do it if you want, but it is not necessary. Example: You *don't have to* bring lunch because the club gives you a sandwich."
+    "vi": "chỉ",
+    "def": "Just this one, and no other. Example: This path is for bikes *only*."
    },
-   "allowed": {
+   "free": {
     "art": "e-s6-3",
-    "vi": "được phép",
-    "def": "If something is allowed, the rules say you can do it. Example: Phones are *allowed* in the library, but only on silent."
+    "vi": "miễn phí",
+    "def": "You don't pay any money for it. Example: The drinks are *free* for children."
    },
-   "until": {
+   "closed": {
     "art": "e-s6-4",
-    "vi": "cho đến khi",
-    "def": "Up to a certain time, and then it stops. Example: The pool is open *until* 6 p.m. on Fridays."
+    "vi": "đóng cửa",
+    "def": "Not open. You can't go in now. Example: The shop is *closed* on Sundays."
    },
    "notice": {
     "art": "e-s6-5",
     "vi": "thông báo",
-    "def": "A short piece of writing on a wall or board that gives people information. Example: Read the *notice* on the door before you go in."
+    "def": "A short piece of writing on a wall or board that tells people something. Example: Read the *notice* on the door before you go in."
    },
-   "reminder": {
+   "message": {
     "art": "e-s6-6",
-    "vi": "lời nhắc",
-    "def": "A message that helps you remember something you need to do. Example: Mum sent me a *reminder* to take my sports bag."
+    "vi": "tin nhắn",
+    "def": "Some words you write or send to another person. Example: Mum sent me a *message* from work."
    },
-   "cancelled": {
+   "welcome": {
     "art": "e-s6-7",
-    "vi": "bị hủy",
-    "def": "If an event is cancelled, it will not happen. Example: The match was *cancelled* because of the storm."
+    "vi": "được chào đón",
+    "def": "People are happy to see you, and you can come in. Example: New players are *welcome* at our club."
    },
-   "available": {
+   "visitor": {
     "art": "e-s6-8",
-    "vi": "còn trống, có sẵn",
-    "def": "Free to use, buy or join. Example: There are ten places *available* in the chess club."
+    "vi": "khách tham quan",
+    "def": "A person who comes to see a place or a person. Example: Every *visitor* gets a map of the museum."
    },
-   "permission": {
+   "timetable": {
     "art": "e-s6-9",
-    "vi": "sự cho phép",
-    "def": "When someone says yes, you can do something. Example: You need a parent's *permission* to go on the trip."
-   },
-   "paraphrase": {
-    "art": "e-s6-10",
-    "vi": "diễn đạt lại",
-    "def": "To say the same meaning with different words. Example: 'Not allowed' is a *paraphrase* of 'mustn't'."
-   },
-   "refuse": {
-    "art": "e-s6-11",
-    "vi": "từ chối",
-    "def": "To say no to something that someone asks or offers. Example: Sam *refused* the cake because he was full."
-   },
-   "suggest": {
-    "art": "e-s6-12",
-    "vi": "gợi ý, đề nghị",
-    "def": "To give an idea for other people to think about. Example: I *suggest* we meet at the park at four."
+    "vi": "thời gian biểu",
+    "def": "A list that shows the days and times when things happen. Example: Look at the *timetable* to find the next bus."
    },
    "reply": {
+    "art": "e-s6-10",
+    "vi": "đáp lại, câu trả lời",
+    "def": "What you say or write back when someone talks or writes to you. Example: I sent a quick *reply* to my cousin."
+   },
+   "offer": {
+    "art": "e-s6-11",
+    "vi": "mời, đề nghị (giúp)",
+    "def": "To ask if someone wants something you can give or do for them. Example: Can I *offer* you a glass of water?"
+   },
+   "invite": {
+    "art": "e-s6-12",
+    "vi": "mời",
+    "def": "To ask someone to come to your house or to an event. Example: I want to *invite* my cousin to the fun day."
+   },
+   "agree": {
     "art": "e-s6-13",
-    "vi": "câu trả lời, trả lời",
-    "def": "What you say or write back when someone speaks or writes to you. Example: Lan sent a quick *reply*: 'Yes, see you there!'"
+    "vi": "đồng ý",
+    "def": "To think the same as another person. Example: I *agree* with you. It's a great film."
    }
   }
  },
@@ -142,70 +146,70 @@
     },
     "esl": true,
     "kind": "text",
-    "head": "A sign at the climbing wall",
-    "html": "<b>CLIMBING WALL</b><br>Children under 12 *must* climb with an adult.<br>You *mustn't* wear rings or watches.<br>You *don't have to* bring special shoes: we lend them for free.<br>Open *until* 7 p.m., Monday to Friday *only*.",
+    "head": "A sign at the sports centre",
+    "html": "<b>TRAMPOLINE ROOM</b><br>Children under 6 *must* come with an adult.<br>You *mustn't* eat or drink on the trampolines.<br>Water is *free* at the desk.<br>*Open* 9 a.m. to 6 p.m. *Closed* on Sundays.<br>*Please* jump *only* one at a time.",
     "steps": [
      {
-      "en": "The words in gold tell you the rule. *must* means you need to do it.",
-      "vi": "Các từ màu vàng cho em biết quy định. *must* nghĩa là em bắt buộc phải làm."
+      "en": "The gold words tell you the rule. *must* means you need to do it.",
+      "vi": "Các từ màu vàng cho em biết quy định. *must* nghĩa là em phải làm."
      },
      {
-      "en": "*mustn't* means it is not allowed. *don't have to* means it is not necessary.",
-      "vi": "*mustn't* nghĩa là không được phép. *don't have to* nghĩa là không cần thiết."
+      "en": "*mustn't* means you can't do it. *free* means you don't pay.",
+      "vi": "*mustn't* nghĩa là em không được làm. *free* nghĩa là em không phải trả tiền."
      },
      {
-      "en": "Small words like *until* and *only* change the meaning a lot. Read them twice!",
-      "vi": "Những từ nhỏ như *until* và *only* làm thay đổi nghĩa rất nhiều. Hãy đọc chúng hai lần!"
+      "en": "Small words like *only*, *open* and *closed* change the meaning. Read them twice!",
+      "vi": "Những từ nhỏ như *only*, *open* và *closed* làm thay đổi nghĩa. Hãy đọc chúng hai lần!"
      }
     ]
    },
    {
     "id": "s2",
     "title": {
-     "en": "Who, what and when in a message",
-     "vi": "Ai, cái gì và khi nào trong tin nhắn"
+     "en": "Who wrote it? What do I do?",
+     "vi": "Ai viết? Em cần làm gì?"
     },
     "esl": true,
     "kind": "text",
-    "head": "A text message",
-    "html": "Hi Freya! Science club is in *Room 12 today, not the lab*. Mr Khan is late, so we start at *3:30 instead of 3:15*. Don't forget your plant diary! Omar",
+    "head": "A message on the fridge",
+    "html": "Hi An! I'm at Grandma's flat. *Please put the rice on at 5 o'clock*. *Don't forget to feed the fish!* Your brother has football today, so he's home late. I'm coming home at 6. Love, *Mum*",
     "steps": [
      {
-      "en": "Ask three questions: Who wrote it? What has changed? When?",
-      "vi": "Hãy hỏi ba câu: Ai viết? Điều gì đã thay đổi? Khi nào?"
+      "en": "Who wrote it? Look at the end of the message: *Mum*.",
+      "vi": "Ai viết? Hãy nhìn cuối tin nhắn: *Mum* (mẹ)."
      },
      {
-      "en": "The exam options use different words. *3:30 instead of 3:15* means 'The club starts later than usual.'",
-      "vi": "Các lựa chọn trong bài thi dùng từ khác. *3:30 instead of 3:15* nghĩa là 'Câu lạc bộ bắt đầu muộn hơn thường lệ.'"
+      "en": "What must An do? Find *Please* and *Don't forget*. There are two jobs.",
+      "vi": "An phải làm gì? Hãy tìm *Please* và *Don't forget*. Có hai việc."
      },
      {
-      "en": "Wrong options use words from the text but change the meaning, like 'The club is in the lab today.'",
-      "vi": "Lựa chọn sai dùng từ trong bài nhưng đổi nghĩa, ví dụ 'Hôm nay câu lạc bộ học ở phòng thí nghiệm.'"
+      "en": "Wrong options use words from the message but change the meaning, like 'An is at Grandma's flat.'",
+      "vi": "Lựa chọn sai dùng từ trong tin nhắn nhưng đổi nghĩa, ví dụ 'An đang ở nhà bà.'"
      }
     ]
    },
    {
     "id": "s3",
     "title": {
-     "en": "Lines that fit together",
-     "vi": "Những câu thoại khớp với nhau"
+     "en": "Replies that fit",
+     "vi": "Những câu đáp phù hợp"
     },
     "esl": true,
     "kind": "text",
-    "head": "Two friends talking",
-    "html": "Minh: Do you want to come to the bike race on Sunday?<br>Elena: *I'd love to, but* I'm visiting my grandma.<br>Minh: *Never mind.* Maybe next time.<br>Elena: *Thanks for asking!*",
+    "head": "Three short conversations",
+    "html": "Sami: Would you like a biscuit?<br>Holly: *Yes, please!*<br><br>Sami: Oh no, I can't find my pen.<br>Holly: *Don't worry.* You can use mine.<br><br>Sami: Thank you for the pen!<br>Holly: *You're welcome.*",
     "steps": [
      {
-      "en": "After a question, look for an answer. Elena answers, but she says no in a polite way.",
-      "vi": "Sau một câu hỏi, hãy tìm câu trả lời. Elena trả lời nhưng từ chối một cách lịch sự."
+      "en": "An offer (Would you like ...?) needs *Yes, please* or *No, thank you*.",
+      "vi": "Một lời mời (Would you like ...?) cần đáp *Yes, please* hoặc *No, thank you*."
      },
      {
-      "en": "*Never mind* comes after bad news or a 'no'.",
-      "vi": "*Never mind* đi sau một tin không vui hoặc một lời từ chối."
+      "en": "A worry or bad news needs a kind answer: *Don't worry* or *Oh no!*",
+      "vi": "Một nỗi lo hay tin không vui cần câu đáp tử tế: *Don't worry* hoặc *Oh no!*"
      },
      {
-      "en": "In Part 3, always check the line BEFORE and the line AFTER the gap.",
-      "vi": "Ở Phần 3, luôn kiểm tra câu NGAY TRƯỚC và câu NGAY SAU chỗ trống."
+      "en": "When someone says *thank you*, you say *You're welcome*.",
+      "vi": "Khi ai đó nói *thank you*, em đáp *You're welcome*."
      }
     ]
    },
@@ -218,68 +222,68 @@
     "challenge": {
      "end": {
       "en": "Great reading! You found what each sign and message really means.",
-      "vi": "Đọc rất tốt! Em đã hiểu đúng ý nghĩa của từng biển báo và tin nhắn."
+      "vi": "Đọc rất tốt! Em đã hiểu đúng ý của từng biển báo và tin nhắn."
      },
      "result": "You spotted the rule words and chose replies that fit!",
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Rd.01"
+        "4Rd.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Find the words 'do not'. What must you NOT do?"
+          "step": "Find 'don't'. What must visitors NOT do?"
          },
-         "worked": "'Please <b>do not tap</b> on the glass. The snakes are <b>resting</b>.' So you leave the glass alone.",
+         "worked": "'Please <b>don't feed</b> the fish.' So visitors mustn't give them food.",
          "type": "mcq",
-         "q": "What does the sign say?",
+         "q": "What does it say?",
          "opts": [
-          "Leave the glass alone so the snakes can rest.",
-          "Tap the glass gently to see the snakes.",
-          "The snakes rest only when nobody is near."
+          "Visitors mustn't give food to the fish.",
+          "Visitors must bring some food for the fish.",
+          "The fish here don't eat any food."
          ],
          "at": 1,
          "whys": [
           null,
-          "The sign says 'do not tap', so even a gentle tap is wrong.",
-          "The sign doesn't say when the snakes rest. It asks you not to tap."
+          "'don't feed' means you can't give them food, so don't bring any.",
+          "The fish DO eat. They get special food."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-ch-1",
           "kind": "text",
-          "head": "Sign at the zoo",
-          "html": "Please do not tap on the glass. The snakes are resting, and loud noises frighten them."
+          "head": "AQUARIUM",
+          "html": "🐠 Please don't feed the fish. They get special food."
          }
         },
         {
          "hint": {
-          "step": "Look for the word 'only'."
+          "step": "Find the word 'to'. Who do you give the seat to?"
          },
-         "worked": "'Cycling is allowed on the red path <b>only</b>.' On the grass you walk your bike.",
+         "worked": "'Please give this seat <b>to older people</b>.'",
          "type": "mcq",
-         "q": "Where can you ride a bike?",
+         "q": "Who is this seat for?",
          "opts": [
-          "on the red path",
-          "on the grass",
-          "on every path"
+          "older people",
+          "young children",
+          "the bus driver"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
-          "On the grass you must walk your bike.",
-          "'only' means one path, not every path."
+          "The sign doesn't talk about children.",
+          "The driver has a different seat at the front."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-ch-2",
           "kind": "text",
-          "head": "Sign in the park",
-          "html": "Cycling is allowed on the red path only. Please walk your bike on the grass."
+          "head": "BUS",
+          "html": "🚌 Please give this seat to older people."
          }
         }
        ]
@@ -287,61 +291,61 @@
       {
        "mode": "your",
        "lo": [
-        "6Rd.01"
+        "4Rd.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Find what the shop HASN'T got, then what Noah is getting instead."
+          "step": "Find 'No need'. What don't you need?"
          },
-         "worked": "'They haven't got any brown bread, <b>so I'm getting white</b>.'",
+         "worked": "'<b>No need to bring a ball</b>.' So new players don't have to bring one.",
          "type": "mcq",
-         "q": "What is Noah going to buy?",
+         "q": "What does it say?",
          "opts": [
-          "white bread",
-          "brown bread",
-          "nothing"
+          "New players don't have to bring a ball.",
+          "New players must bring their own ball.",
+          "Only new players can play rugby here."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
-          "The shop hasn't got any brown bread.",
-          "Noah says 'I'm getting white', so he is buying something."
+          "'No need to bring a ball' means you don't need one.",
+          "New players are welcome, but the other players come too."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-ch-3",
           "kind": "text",
-          "head": "Text message",
-          "html": "Ines, I'm at the shop. They haven't got any brown bread, so I'm getting white. Do you want anything else? Noah"
+          "head": "RUGBY CLUB",
+          "html": "🏉 New players welcome! No need to bring a ball."
          }
         },
         {
          "hint": {
-          "step": "Two times are in the note. Which one is for Ravi?"
+          "step": "Look for the time word 'after'. What happens before that time?"
          },
-         "worked": "'please <b>come at 8:30</b> to set up your table.' 8:30 is half past eight.",
+         "worked": "'No food <b>after 7 p.m.</b>' So before 7 p.m. food is OK.",
          "type": "mcq",
-         "q": "When should Ravi arrive?",
+         "q": "What does it say?",
          "opts": [
-          "at half past eight",
-          "at nine o'clock",
-          "after nine"
+          "You can eat here before 7 p.m.",
+          "You can use your phone after 7 p.m.",
+          "You mustn't eat here before 7 p.m."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
-          "9 o'clock is when the fair starts, but Ravi must come before that.",
-          "Ravi must come before the fair starts, not after."
+          "Phones must be off all the time, not only after 7 p.m.",
+          "'No food after 7 p.m.' means you CAN eat before 7."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-ch-4",
           "kind": "text",
-          "head": "Note",
-          "html": "Ravi, the science fair starts at 9, but please come at 8:30 to set up your table. Hana"
+          "head": "CINEMA",
+          "html": "🎬 Phones off, please. No food after 7 p.m."
          }
         }
        ]
@@ -349,61 +353,61 @@
       {
        "mode": "your",
        "lo": [
-        "6Rd.03"
+        "4Rm.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Look for 'I think'. What is Ben's idea?"
+          "step": "Find the word 'cancelled'. What does it mean for today?"
          },
-         "worked": "'I think they <b>should open it earlier</b> in the morning.'",
+         "worked": "'The swimming lesson is <b>cancelled</b> today.' So there is no lesson.",
          "type": "mcq",
-         "q": "What does Ben think?",
+         "q": "Why did Toby write to Alice?",
          "opts": [
-          "The wall should open earlier.",
-          "The wall isn't much fun.",
-          "The queue is short in the morning."
+          "to say there is no lesson today",
+          "to ask Alice to go swimming today",
+          "to say that the pool is open today"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
-          "Ben says the wall IS fun.",
-          "Ben says the queue is always long. He doesn't say it is short in the morning."
+          "Toby says the lesson is cancelled, so they don't go swimming.",
+          "The message says the pool is closed."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-ch-5",
           "kind": "text",
-          "head": "Message",
-          "html": "The new climbing wall is fun, but the queue is always really long. I think they should open it earlier in the morning. Ben"
+          "head": "TEXT MESSAGE",
+          "html": "Alice, the swimming lesson is cancelled today. The pool is closed. Toby"
          }
         },
         {
          "hint": {
-          "step": "Read the whole message. How did she feel before, and how did she feel after?"
+          "step": "Look at the numbers. Which pet has the biggest number?"
          },
-         "worked": "'I <b>didn't expect</b> to like the nature walk, but I <b>loved</b> seeing the tadpoles.'",
+         "worked": "Dogs: <b>10</b>. Cats: <b>7</b>. So more children have dogs than cats.",
          "type": "mcq",
-         "q": "How did Chloe feel about the walk?",
+         "q": "What does the table show?",
          "opts": [
-          "She enjoyed it more than she expected.",
-          "She didn't like it at all.",
-          "She only went to see the tadpoles."
+          "More children have dogs than cats.",
+          "More children have fish than dogs.",
+          "Cats are the class's favourite pet."
          ],
          "at": 0,
          "whys": [
           null,
-          "'I didn't expect to like it' is about BEFORE the walk. She loved it!",
-          "Seeing the tadpoles was the best part, not the only reason she went."
+          "Fish has 4 and dogs have 10, so fewer children have fish.",
+          "Dogs have the biggest number, not cats."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-ch-6",
           "kind": "text",
-          "head": "Post on a class page",
-          "html": "I didn't expect to like the nature walk, but I loved seeing the tadpoles in the pond. I'm going again next month! Chloe"
+          "head": "OUR PETS: CLASS 3A",
+          "html": "<table><tr><th>Pet</th><th>Children</th></tr><tr><td>🐱 Cat</td><td>7</td></tr><tr><td>🐶 Dog</td><td>10</td></tr><tr><td>🐟 Fish</td><td>4</td></tr></table>"
          }
         }
        ]
@@ -411,46 +415,46 @@
       {
        "mode": "your",
        "lo": [
-        "6Rm.01"
+        "4Rm.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Read Arlo's NEXT line. Does he give Amira the kite?"
+          "step": "It's an invitation. Look for a reply that says yes or no clearly."
          },
-         "worked": "Arlo says 'Here you are', so Amira said <b>'Yes, please!'</b>",
+         "worked": "An invitation needs <b>yes</b> or <b>no</b>: '<b>I'd love to!</b>' says yes.",
          "type": "mcq",
-         "q": "Arlo: 'Would you like to try my new kite?'<br>Amira: '..........'<br>Arlo: 'Here you are. Hold it tight!'<br>What does Amira say?",
+         "q": "Your friend says: 'Do you want to come to my house after school?' What is the best reply?",
          "opts": [
-          "Yes, please! Can I try it now?",
-          "No, thanks. I'm going home.",
-          "I've got a new kite too."
+          "I'd love to! What time?",
+          "Yes, I came yesterday.",
+          "No, thanks. I'd love to."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
-          "Arlo gives her the kite next, so she didn't say no.",
-          "This doesn't answer Arlo's question."
+          "Your friend asks about today, not yesterday.",
+          "'No, thanks' and 'I'd love to' don't go together."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Jonas finds it after Sofia speaks. What did she say to help?"
+          "step": "Dad's news is bad news. How do you answer bad news?"
          },
-         "worked": "Jonas says '<b>there it is</b>', so Sofia showed him where it was: 'Look, isn't it under your book?'",
+         "worked": "'<b>closed today</b>' is bad news, so '<b>Oh no!</b>' fits, and you ask about tomorrow.",
          "type": "mcq",
-         "q": "Jonas: 'I can't find my calculator anywhere.'<br>Sofia: '..........'<br>Jonas: 'Oh yes, there it is! Thanks.'<br>What does Sofia say?",
+         "q": "Dad says: 'The museum is closed today. I'm sorry.' What is the best reply?",
          "opts": [
-          "Look, isn't it under your book?",
-          "Don't worry. You can buy one later.",
-          "I like your new calculator."
+          "Oh no! Can we go tomorrow?",
+          "Great! Let's go in now.",
+          "Yes, please. I'd like one."
          ],
          "at": 2,
          "whys": [
           null,
-          "Jonas says 'there it is', so Sofia helped him find it.",
-          "Jonas has lost it, so Sofia can't see it to like it."
+          "The museum is closed, so you can't go in now.",
+          "Dad isn't offering you something."
          ],
          "letters": true
         }
@@ -470,8 +474,8 @@
    "art": "icon-step-practise",
    "title": "Learn it",
    "blurb": {
-    "en": "Learn the rule words, read short messages and choose replies that fit.",
-    "vi": "Học từ chỉ quy định, đọc tin nhắn ngắn và chọn câu đáp phù hợp."
+    "en": "Learn the sign words, read short messages and choose replies that fit.",
+    "vi": "Học từ trên biển báo, đọc tin nhắn ngắn và chọn câu đáp phù hợp."
    },
    "levels": [
     {
@@ -483,61 +487,61 @@
       {
        "mode": "your",
        "lo": [
-        "6Rd.01"
+        "4Rd.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Find 'must'. What must swimmers wear?"
+          "step": "Find the word 'must'. What do young children need?"
          },
-         "worked": "'Swimmers <b>must wear</b> a swimming cap.' Goggles are '<b>not necessary</b>', so they are your choice.",
+         "worked": "'Children under 8 <b>must ride with an adult</b>.' So young children need an adult with them.",
          "type": "mcq",
          "q": "What does the sign say?",
          "opts": [
-          "You need a cap, but goggles are your choice.",
-          "You need goggles, but a cap is your choice.",
-          "You mustn't wear a cap or goggles here."
+          "Young children need an adult with them.",
+          "Children under 8 can ride on their own.",
+          "Children under 8 mustn't ride the wheel."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
-          "It's the goggles that are 'not necessary', not the cap.",
-          "Nothing is banned. 'must wear' means you need a cap."
+          "'must ride with an adult' means they can't ride alone.",
+          "They CAN ride, but only with an adult."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-l1",
           "kind": "text",
-          "head": "Sign at the swimming pool",
-          "html": "Swimmers must wear a swimming cap. Goggles are not necessary, but you can bring your own if you like."
+          "head": "BIG WHEEL",
+          "html": "🎡 Children under 8 must ride with an adult."
          }
         },
         {
          "hint": {
-          "step": "Find the word 'must' in the notice."
+          "step": "Find 'don't'. Which action is the problem?"
          },
-         "worked": "'You <b>must bring an old T-shirt</b> to wear over your uniform.'",
+         "worked": "'Please <b>don't touch</b> the old pots.' Looking is fine.",
          "type": "mcq",
-         "q": "What must students bring?",
+         "q": "What does the sign say?",
          "opts": [
-          "an old T-shirt",
-          "some paint",
-          "their school uniform"
+          "You can look at the pots but not touch.",
+          "You can touch the pots if you are careful.",
+          "You mustn't look at the old pots."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
-          "'don't have to bring paint' means paint is not necessary.",
-          "The T-shirt goes over the uniform. The notice doesn't ask you to bring a uniform."
+          "'don't touch' means no touching at all, even carefully.",
+          "You can look. You just can't touch."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-l2",
           "kind": "text",
-          "head": "Notice on the art room door",
-          "html": "Students don't have to bring paint. You must bring an old T-shirt to wear over your uniform."
+          "head": "MUSEUM",
+          "html": "🏺 Please don't touch the old pots."
          }
         }
        ]
@@ -545,61 +549,61 @@
       {
        "mode": "your",
        "lo": [
-        "6Rd.01"
+        "4Rd.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Look at the word 'but'. What is allowed and what isn't?"
+          "step": "'Only' tells you the most you can have."
          },
-         "worked": "'Photos are <b>allowed, but no flash</b>.'",
+         "worked": "'<b>Only 6 people</b> at one time.' So not more than six can go in.",
          "type": "mcq",
          "q": "What does the sign say?",
          "opts": [
-          "You can take photos if you don't use a flash.",
-          "You mustn't take any photos of the butterflies.",
-          "You can touch the butterflies if you are careful."
+          "Not more than six people can go in.",
+          "Six people must go in every time.",
+          "Only one person can go in at a time."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
-          "Photos ARE allowed. Only the flash is not.",
-          "The sign asks everyone not to touch the butterflies."
+          "'Only 6' is the most people, not a rule that six must go in.",
+          "The sign says 6 people, not 1."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-l3",
           "kind": "text",
-          "head": "Sign at the butterfly house",
-          "html": "Please don't touch the butterflies. Their wings are very delicate. Photos are allowed, but no flash."
+          "head": "LIFT",
+          "html": "🛗 Only 6 people at one time, please."
          }
         },
         {
          "hint": {
-          "step": "Find the word 'must'. Where must the bottles stay?"
+          "step": "Find 'only'. Which one is allowed?"
          },
-         "worked": "'Water bottles <b>must stay on the shelf by the door</b>.'",
+         "worked": "'<b>Skateboards only</b>. <b>No bikes</b>.'",
          "type": "mcq",
-         "q": "Where can students put their water bottles?",
+         "q": "Who can use this place?",
          "opts": [
-          "on the shelf by the door",
-          "next to their computer",
-          "on the computer desk"
+          "children with skateboards",
+          "children with bikes",
+          "children with bikes or skateboards"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
-          "No drinks are allowed near the computers.",
-          "The desk is near the computers, so bottles can't go there."
+          "'No bikes' means bikes can't go in.",
+          "'Skateboards only' means bikes are not allowed."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-l4",
           "kind": "text",
-          "head": "Sign in the computer room",
-          "html": "No food or drinks near the computers. Water bottles must stay on the shelf by the door."
+          "head": "SKATEBOARD AREA",
+          "html": "🛹 Skateboards only. No bikes, please."
          }
         }
        ]
@@ -607,61 +611,61 @@
       {
        "mode": "your",
        "lo": [
-        "6Rd.01"
+        "4Rd.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Check two things: the day ('only') and the time ('until')."
+          "step": "Find the word 'Closed'. Which day is it?"
          },
-         "worked": "Smoothies are sold <b>only on Tuesdays and Thursdays, until 12:30</b>. Tuesday at 12 is inside that time.",
+         "worked": "'<b>Closed on Mondays</b>.' On the other days it is open from 7 a.m. to 8 p.m.",
          "type": "mcq",
-         "q": "When can you buy a smoothie?",
+         "q": "When can you NOT swim here?",
          "opts": [
-          "on Tuesday at 12 o'clock",
-          "on Thursday at 1 o'clock",
-          "on Wednesday at 12 o'clock"
+          "on Monday",
+          "at 9 a.m. on Tuesday",
+          "at 7 p.m. on Sunday"
          ],
          "at": 1,
          "whys": [
           null,
-          "12:30 is the last time, so 1 o'clock is too late.",
-          "Smoothies are sold 'only on Tuesdays and Thursdays'."
+          "The pool is open from 7 a.m. on Tuesdays.",
+          "The pool is open until 8 p.m. on Sundays."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-l5",
           "kind": "text",
-          "head": "Notice at the school canteen",
-          "html": "Fresh fruit smoothies are sold only on Tuesdays and Thursdays, from 10:00 until 12:30. Price: 20,000 dong."
+          "head": "SWIMMING POOL",
+          "html": "🏊 Closed on Mondays. Open 7 a.m. to 8 p.m. on other days."
          }
         },
         {
          "hint": {
-          "step": "Look for 'before', 'after' and 'only'."
+          "step": "'Free' means you don't pay. Who is free?"
          },
-         "worked": "'Players who come <b>after 4 p.m. can only watch</b>', so they can't play.",
+         "worked": "'Children: <b>free</b>.' So children don't pay.",
          "type": "mcq",
          "q": "What does the sign say?",
          "opts": [
-          "If you arrive after 4 p.m., you can't play.",
-          "You can sign the list after the game starts.",
-          "Players must watch a game before they play."
+          "Children don't pay to go in.",
+          "Children pay £5 to go in.",
+          "Adults don't have to pay to go in."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
-          "You sign the list BEFORE the game starts, not after.",
-          "Only players who come late watch. Nobody must watch first."
+          "£5 is the price for adults.",
+          "Adults pay £5. It's free for children."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-l6",
           "kind": "text",
-          "head": "Sign at the chess club",
-          "html": "Please sign the list before the game starts. Players who come after 4 p.m. can only watch."
+          "head": "SPACE MUSEUM",
+          "html": "🚀 Children: free. Adults: £5."
          }
         }
        ]
@@ -670,68 +674,68 @@
     },
     {
      "title": {
-      "en": "Short messages: who, what, when",
-      "vi": "Tin nhắn ngắn: ai, cái gì, khi nào"
+      "en": "Short messages: who and what",
+      "vi": "Tin nhắn ngắn: ai và cái gì"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Rd.01"
+        "4Rm.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Who wrote the message? Find 'I'm staying late'."
+          "step": "Look for 'today, not ...'. What has changed?"
          },
-         "worked": "Isla wrote the message and says '<b>I'm staying late</b> at football practice.'",
+         "worked": "'Football practice is <b>at 4 today, not 5</b>.' Toby is telling Alice about a new time.",
          "type": "mcq",
-         "q": "Who is going to be late tonight?",
+         "q": "Why did Toby write this message?",
          "opts": [
-          "Isla",
-          "Kenji",
-          "Biscuit"
+          "to tell Alice about a new time",
+          "to ask Alice to play football with him",
+          "to say practice is cancelled"
          ],
          "at": 2,
          "whys": [
           null,
-          "Kenji is asked to feed the pet. He isn't late.",
-          "Biscuit is the pet that needs food."
+          "Alice already goes to practice. Toby tells her when.",
+          "Practice is still on, at 4 o'clock."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-l7",
           "kind": "text",
-          "head": "Text message",
-          "html": "Kenji, can you feed Biscuit tonight? I'm staying late at football practice. His food is in the blue tin. Thanks! Isla"
+          "head": "TEXT MESSAGE",
+          "html": "Hi Alice! Football practice is at 4 today, not 5. Bring some water. Toby"
          }
         },
         {
          "hint": {
-          "step": "The note is for Mum. Who is 'you'?"
+          "step": "Find the word 'Please'. What does Mum ask?"
          },
-         "worked": "The note starts 'Mum', so 'Grandma wants <b>you</b> to phone her back' means Mum.",
+         "worked": "'<b>Please tidy your room before 12</b>.' Grandma comes for lunch, so that is before lunch.",
          "type": "mcq",
-         "q": "Who should phone Grandma?",
+         "q": "What must Trang do?",
          "opts": [
-          "Mum",
-          "Dad",
-          "Lan"
+          "tidy her room before lunch",
+          "make lunch for Grandma",
+          "visit Grandma at 12 o'clock"
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
-          "Dad called, but he isn't asked to phone Grandma.",
-          "Lan wrote the note. She isn't asked to phone."
+          "Grandma is coming for lunch, but Mum doesn't ask Trang to cook it.",
+          "Grandma is coming to their house. Trang doesn't go out."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-l8",
           "kind": "text",
-          "head": "Note on the fridge",
-          "html": "Mum, Dad called. He's going to pick up Bao from swimming, so you don't need to go. Grandma wants you to phone her back. Lan"
+          "head": "NOTE",
+          "html": "Trang, Grandma is coming for lunch. Please tidy your room before 12. Love, Mum"
          }
         }
        ]
@@ -739,61 +743,61 @@
       {
        "mode": "your",
        "lo": [
-        "6Rd.01"
+        "4Rm.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Find 'please bring'."
+          "step": "Who has gone out? Why?"
          },
-         "worked": "'We have enough spades now, so <b>please bring gloves and a bottle of water</b>.'",
+         "worked": "'I've <b>gone to the market to buy mangoes</b>.' Mangoes are fruit.",
          "type": "mcq",
-         "q": "What do club members need to bring?",
+         "q": "What does Dad say?",
          "opts": [
-          "gloves and water",
-          "spades and gloves",
-          "a tree and water"
+          "He is out because he is buying fruit.",
+          "He is making dinner for Sami now.",
+          "Sami must buy some mangoes."
          ],
          "at": 1,
          "whys": [
           null,
-          "The club has enough spades now.",
-          "Members plant trees, but they don't bring them."
+          "Dinner is already in the fridge, and Dad has gone out.",
+          "Dad is buying the mangoes, not Sami."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-l9",
           "kind": "text",
-          "head": "App message from the Eco Club",
-          "html": "Our tree-planting day is still on! We have enough spades now, so please bring gloves and a bottle of water."
+          "head": "MESSAGE",
+          "html": "Sami, I've gone to the market to buy mangoes. Your dinner is in the fridge. Dad"
          }
         },
         {
          "hint": {
-          "step": "Find the question 'Can you...?'"
+          "step": "Find the question 'can you ...?'. What does Nadia want?"
          },
-         "worked": "'<b>Can you check the spelling</b> before Friday?'",
+         "worked": "'Can you <b>bring your torch to my house</b> tonight?' A torch is something.",
          "type": "mcq",
-         "q": "What does Priya want Sami to do?",
+         "q": "What does Nadia ask Holly to do?",
          "opts": [
-          "check the spelling on the poster",
-          "finish the poster for her",
-          "print the poster on Monday"
+          "bring something to Nadia's house",
+          "look at the stars from her own home",
+          "stay at home tonight"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
-          "Priya has already finished the poster.",
-          "Priya says 'I'll print it', so she will do that herself."
+          "They look at the stars together at Nadia's house.",
+          "Nadia wants Holly to come to her house."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-l10",
           "kind": "text",
-          "head": "Email extract",
-          "html": "Hi Sami, I've finished the poster for our invention project. Can you check the spelling before Friday? I'll print it on Monday. Priya"
+          "head": "TEXT MESSAGE",
+          "html": "Holly, can you bring your torch to my house tonight? We can look at the stars from the roof! Nadia"
          }
         }
        ]
@@ -801,61 +805,61 @@
       {
        "mode": "your",
        "lo": [
-        "6Rd.01"
+        "4Rm.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Three dates! Find the word 'start'."
+          "step": "Find the verb at the start: 'Bring'. What and when?"
          },
-         "worked": "'<b>Matches start on 17 November</b> at 8 a.m.'",
+         "worked": "'<b>Bring an old box</b> to school <b>on Friday</b>.'",
          "type": "mcq",
-         "q": "When do the matches begin?",
+         "q": "What does the notice tell children to do?",
          "opts": [
-          "17 November",
-          "10 November",
-          "24 November"
+          "bring an old box on Friday",
+          "make a model at home",
+          "buy a new box for Friday"
          ],
          "at": 0,
          "whys": [
           null,
-          "10 November is the last day to sign up.",
-          "24 November is the day for prizes."
+          "They make the models at school, not at home.",
+          "The box should be old, not new."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-l11",
           "kind": "text",
-          "head": "Poster",
-          "html": "Junior Badminton Cup. Sign up by 10 November. Matches start on 17 November at 8 a.m. Prizes on 24 November."
+          "head": "CLASS 3B",
+          "html": "📦 Bring an old box to school on Friday. We are going to make model homes!"
          }
         },
         {
          "hint": {
-          "step": "What day comes after Wednesday?"
+          "step": "Look for 'now, not'. Which word changed?"
          },
-         "worked": "'It's <b>the day after</b>' Wednesday, so it's on Thursday.",
+         "worked": "'Your visit is on <b>Thursday now, not Wednesday</b>.' Thursday and Wednesday are days.",
          "type": "mcq",
-         "q": "When is the film club meeting now?",
+         "q": "What has changed?",
          "opts": [
-          "on Thursday",
-          "on Wednesday",
-          "on Tuesday"
+          "the day of Viet's visit",
+          "the name of the dentist",
+          "the time of Viet's visit"
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
-          "Wednesday was the old day. It isn't on Wednesday any more.",
-          "'the day after' Wednesday is later, not earlier."
+          "The message doesn't give a new name.",
+          "The message talks about the day, not the time."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-l12",
           "kind": "text",
-          "head": "Text message",
-          "html": "Mai, the film club meeting has moved. It isn't on Wednesday any more. It's the day after, at the same time. Huy"
+          "head": "MESSAGE",
+          "html": "Viet, the dentist called. Your visit is on Thursday now, not Wednesday. Mum"
          }
         }
        ]
@@ -864,53 +868,53 @@
     },
     {
      "title": {
-      "en": "Conversation logic",
-      "vi": "Logic hội thoại"
+      "en": "Choose a reply",
+      "vi": "Chọn câu đáp"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Rm.01"
+        "4Rm.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Look at the question word. What does 'How' ask about here?"
+          "step": "Look at the question word 'Where'. It asks about a place."
          },
-         "worked": "'<b>How</b> did you get there?' asks about transport, so '<b>by train</b>' answers it.",
+         "worked": "'<b>Where</b>?' asks about a place: '<b>In a flat near the river</b>.'",
          "type": "mcq",
-         "q": "Tariq asks: 'How did you get to the museum?' What is the best reply?",
+         "q": "Your friend asks: 'Where do you live?' What is the best reply?",
          "opts": [
-          "We went by train.",
-          "We went on Saturday.",
-          "Yes, it was amazing."
+          "In a flat near the river.",
+          "Since I was five.",
+          "Yes, I really like it."
          ],
          "at": 1,
          "whys": [
           null,
-          "'How' asks about the way you travelled, not the day.",
-          "'How...?' is not a yes/no question."
+          "'Since I was five' answers 'How long?', not 'Where?'.",
+          "'Where?' is not a yes or no question."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "'Have you ever...?' asks about your life. Look for yes or no."
+          "step": "'What time' asks about the clock."
          },
-         "worked": "'<b>Have you ever</b> seen...?' needs yes or no: '<b>Yes, once</b>, on holiday.'",
+         "worked": "'<b>What time</b>?' needs a time: '<b>half past six</b>'.",
          "type": "mcq",
-         "q": "Yuki asks: 'Have you ever seen a dolphin?' What is the best reply?",
+         "q": "Your friend asks: 'What time does the film start?' What is the best reply?",
          "opts": [
-          "Yes, once, on holiday in Nha Trang.",
-          "It's my favourite sea animal.",
-          "Dolphins live in the sea."
+          "At half past six.",
+          "At the cinema in town.",
+          "It's about a robot."
          ],
          "at": 2,
          "whys": [
           null,
-          "This doesn't say yes or no about your own experience.",
-          "This is a fact about dolphins, not an answer about you."
+          "This answers 'Where?', not 'What time?'.",
+          "This tells you about the film, not the time."
          ],
          "letters": true
         }
@@ -919,46 +923,46 @@
       {
        "mode": "your",
        "lo": [
-        "6Rm.01"
+        "4Rm.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Read Nam's NEXT line. Is it good news or bad news?"
+          "step": "'Would you like ...?' is an offer. How do you answer an offer?"
          },
-         "worked": "'<b>What a shame!</b>' follows a 'no', so Ethan says '<b>Sorry</b>, I've got a swimming race.'",
+         "worked": "An offer needs '<b>Yes, please</b>' or '<b>No, thank you</b>'.",
          "type": "mcq",
-         "q": "Nam: 'Can you come to my party on Saturday?'<br>Ethan: '..........'<br>Nam: 'Oh, what a shame! Maybe next time.'<br>What does Ethan say?",
+         "q": "Grandma says: 'Would you like some more rice?' What is the best reply?",
          "opts": [
-          "Sorry, I've got a swimming race.",
-          "Yes, of course! I'd love to come!",
-          "Great! What time does it start?"
+          "Yes, please. Just a little.",
+          "Yes, I ate it yesterday.",
+          "No, I haven't got any."
          ],
          "at": 0,
          "whys": [
           null,
-          "Nam says 'what a shame', so Ethan can't come.",
-          "Nam's next line doesn't give a time."
+          "Grandma is offering rice now, not asking about yesterday.",
+          "Grandma is offering YOU rice. She isn't asking if you have some."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Duc thanks Mia next. So what did Mia offer?"
+          "step": "Your friend offers to help you. What do you say?"
          },
-         "worked": "Duc says '<b>Thanks! That would be great</b>', so Mia offered help: 'I can <b>lend you</b> money.'",
+         "worked": "When someone helps you, you say '<b>Thanks!</b>'",
          "type": "mcq",
-         "q": "Duc: 'I've lost my bus pass.'<br>Mia: '..........'<br>Duc: 'Thanks! That would be great.'<br>What does Mia say?",
+         "q": "Your friend says: 'I can help you carry those boxes.' What is the best reply?",
          "opts": [
-          "Don't worry. I can lend you money.",
-          "Great! I've got a new one too.",
-          "Thanks, that's really kind of you."
+          "Thanks! That's really kind.",
+          "You're welcome. Any time.",
+          "Sorry, I can't help you."
          ],
          "at": 1,
          "whys": [
           null,
-          "'Great!' is wrong after bad news.",
-          "Duc says 'Thanks' next, so Mia must offer help, not say thanks."
+          "'You're welcome' comes after someone thanks you.",
+          "Your friend is helping YOU, so you don't say sorry."
          ],
          "letters": true
         }
@@ -967,46 +971,46 @@
       {
        "mode": "your",
        "lo": [
-        "6Rm.01"
+        "4Rm.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "What do we say after someone says 'thank you'?"
+          "step": "Luca says sorry. How do you answer a 'sorry'?"
          },
-         "worked": "After '<b>Thanks</b>', we say '<b>You're welcome</b>.'",
+         "worked": "After '<b>I'm sorry</b>', a kind reply is '<b>Don't worry</b>'.",
          "type": "mcq",
-         "q": "Linh: 'Thanks for helping me with my science project.' What is the best reply?",
+         "q": "Luca says: 'I'm sorry. I broke your pencil.' What is the best reply?",
          "opts": [
-          "You're welcome. It was fun!",
-          "Yes, please. I'd love some help.",
-          "No, thanks. I can do it."
+          "Don't worry. I've got another one.",
+          "Thank you very much!",
+          "Yes, please. I'd love one."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
-          "'Yes, please' answers an offer, not a thank-you.",
-          "'No, thanks' says no to an offer."
+          "You don't say thank you for bad news.",
+          "Luca is not offering you something."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "'Why don't we...?' is a suggestion. Then read Khoa's next line."
+          "step": "Iris says thank you. What do you say back?"
          },
-         "worked": "'<b>Why don't we</b>...?' is a suggestion, and Khoa gets the lead, so Thao agrees: '<b>Good idea!</b>'",
+         "worked": "After '<b>Thank you</b>', you say '<b>You're welcome</b>'.",
          "type": "mcq",
-         "q": "Khoa: 'Why don't we take the dog for a walk?'<br>Thao: '..........'<br>Khoa: 'OK, I'll get the lead.'<br>What does Thao say?",
+         "q": "Iris says: 'Thank you for the birthday card!' What is the best reply?",
          "opts": [
-          "Good idea! Let's go now.",
-          "Because he is hungry.",
-          "No, he doesn't like the park."
+          "You're welcome. Happy birthday!",
+          "Yes, please. I'd like some.",
+          "Never mind. It's OK."
          ],
          "at": 0,
          "whys": [
           null,
-          "'Why don't we...?' is an idea, not a real 'why' question.",
-          "Khoa gets the lead next, so Thao must agree."
+          "Iris isn't offering you something.",
+          "'Never mind' is for bad news, not for thanks."
          ],
          "letters": true
         }
@@ -1024,74 +1028,74 @@
    "art": "icon-step-test",
    "title": "Exam style",
    "blurb": {
-    "en": "Practise Reading Part 2 (short texts) and Part 3 (complete the conversation).",
-    "vi": "Luyện Phần 2 của bài Đọc (văn bản ngắn) và Phần 3 (hoàn thành đoạn hội thoại)."
+    "en": "Practise Reading Part 1 (signs, notices and tables) and Part 2 (choose the best reply).",
+    "vi": "Luyện Phần 1 của bài Đọc (biển báo, thông báo và bảng) và Phần 2 (chọn câu đáp đúng nhất)."
    },
    "levels": [
     {
      "title": {
-      "en": "Part 2: signs and notices",
-      "vi": "Phần 2: biển báo và thông báo"
+      "en": "Part 1: signs and notices",
+      "vi": "Phần 1: biển báo và thông báo"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Rd.01"
+        "4Rd.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Read the reason after the colon (:). Which colour is a problem?"
+          "step": "Find 'free'. Then find what you must do by 6 p.m."
          },
-         "worked": "'Please wear trainers with <b>white soles</b>: black soles mark the floor.' White is a light colour.",
+         "worked": "'Badminton rackets: <b>free to borrow</b>.' Free means you don't pay.",
          "type": "mcq",
          "q": "What does it say?",
          "opts": [
-          "Players need shoes with light-coloured soles.",
-          "Only new players can come on Thursdays.",
-          "Players should wear trainers with black soles."
+          "You don't have to pay for the rackets.",
+          "You must buy a new racket before 6 p.m.",
+          "You can keep the rackets after 6 p.m."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
-          "New players are 'welcome', but the other players come too.",
-          "Black soles mark the floor, so they are not wanted."
+          "'free to borrow' means you use them and give them back.",
+          "You must give the rackets back by 6 p.m."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-e1",
           "kind": "text",
-          "head": "Notice at the sports hall",
-          "html": "Basketball training: Thursdays, 4 to 5 p.m. New players are welcome. Please wear trainers with white soles: black soles mark the floor."
+          "head": "SPORTS CENTRE",
+          "html": "🏸 Badminton rackets: free to borrow. Please return them by 6 p.m."
          }
         },
         {
          "hint": {
-          "step": "Look for a time word: before, at, afterwards."
+          "step": "Find 'only with'. Who needs someone with them?"
          },
-         "worked": "'please <b>wash your hands</b> at the tap <b>afterwards</b>', which means after feeding the goats.",
+         "worked": "'Children under 10 can swim here <b>only with an adult</b>.'",
          "type": "mcq",
          "q": "What does it say?",
          "opts": [
-          "Wash your hands after you feed the goats.",
-          "Children must feed the goats before 11 a.m.",
-          "Wash your hands before you go near the goats."
+          "An adult must be with young children.",
+          "Children under 10 can't swim at the hotel.",
+          "Adults can only swim with children here."
          ],
          "at": 2,
          "whys": [
           null,
-          "Children 'can' help, and feeding time is at 11, not before.",
-          "The sign says 'afterwards', not before."
+          "They CAN swim, but only with an adult.",
+          "The rule is for children, not for adults."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-e2",
           "kind": "text",
-          "head": "Sign at a farm",
-          "html": "Feeding time for the goats is 11 a.m. Children can help, but please wash your hands at the tap afterwards."
+          "head": "HOTEL POOL",
+          "html": "🏊 Children under 10 can swim here only with an adult."
          }
         }
        ]
@@ -1099,61 +1103,62 @@
       {
        "mode": "your",
        "lo": [
-        "6Rd.01"
+        "4Rd.01",
+        "4Rd.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "Find the words 'After that'."
+          "step": "What happens when the lights are off? Think about why."
          },
-         "worked": "'<b>After that, it goes to the charity shop</b>.' 'Given to' means the same as 'goes to'.",
+         "worked": "'Please <b>turn off the lights</b>.' Lights that are off save energy.",
          "type": "mcq",
-         "q": "What happens to lost things after two weeks?",
+         "q": "Why is this notice here?",
          "opts": [
-          "They are given to a charity shop.",
-          "They are kept in the office.",
-          "They go in a box outside the shop."
+          "to help people save energy",
+          "to tell people where the bikes are",
+          "to ask people to use the lights"
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
-          "They stay in a box OUTSIDE the office, and only for two weeks.",
-          "The box is outside the office, not outside the shop."
+          "The notice is about the lights, not where bikes go.",
+          "It asks people to turn the lights OFF."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-e3",
           "kind": "text",
-          "head": "Sign in the school corridor",
-          "html": "Lost property is kept in the box outside the office for two weeks. After that, it goes to the charity shop."
+          "head": "BLOCK B: BIKE ROOM",
+          "html": "💡 Last one out of the bike room? Please turn off the lights."
          }
         },
         {
          "hint": {
-          "step": "What happens to late visitors? So what must you do?"
+          "step": "Find the words 'Last tour'. What time is it?"
          },
-         "worked": "The doors close before each show and '<b>late visitors cannot go in</b>', so you must arrive in time.",
+         "worked": "'<b>Last tour: 3 p.m.</b>' So 3 p.m. is the last tour you can take.",
          "type": "mcq",
          "q": "What does it say?",
          "opts": [
-          "You need to arrive before the doors close.",
-          "Shows start five minutes after the doors open.",
-          "Late visitors can go in after five minutes."
+          "You can take the last tour at 3 p.m.",
+          "The tours start at 3 p.m. every day.",
+          "You get chocolate before the tour starts."
          ],
-         "at": 1,
+         "at": 0,
          "whys": [
           null,
-          "The doors CLOSE five minutes before a show. The sign says nothing about opening.",
-          "Late visitors 'cannot go in'."
+          "The first tour is at 10 a.m. 3 p.m. is the last one.",
+          "The chocolate comes at the end, not before."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-e4",
           "kind": "text",
-          "head": "Notice at the planetarium",
-          "html": "Shows start every hour. The doors close five minutes before each show, and late visitors cannot go in."
+          "head": "CHOCOLATE FACTORY",
+          "html": "🍫 Tours every hour from 10 a.m. Last tour: 3 p.m. Free chocolate at the end!"
          }
         }
        ]
@@ -1161,61 +1166,61 @@
       {
        "mode": "your",
        "lo": [
-        "6Rd.01"
+        "4Rd.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Who 'may only use' the small track?"
+          "step": "Find the question at the start. Who is the notice for?"
          },
-         "worked": "'Riders under 8 <b>may only use the small track</b>', so they can't use any other track.",
+         "worked": "'<b>Feeling ill? Come to Room 4</b>.' It's for children who feel ill.",
          "type": "mcq",
          "q": "What does it say?",
          "opts": [
-          "Children under 8 can't ride on the other tracks.",
-          "Riders under 8 don't have to wear a helmet.",
-          "Helmets are only needed on the small track."
+          "Children who feel ill can go to Room 4.",
+          "The nurse is in Room 4 at weekends.",
+          "Children must go to Room 4 every morning."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
-          "Helmets are for everyone, 'at all times'.",
-          "'at all times' means on every track."
+          "It is open Mondays to Fridays, not at weekends.",
+          "You only go if you feel ill."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-e5",
           "kind": "text",
-          "head": "Sign at the bike park",
-          "html": "Helmets must be worn at all times. Riders under 8 may only use the small track."
+          "head": "SCHOOL NURSE",
+          "html": "🩹 Feeling ill? Come to Room 4. Open 8 a.m. to 3 p.m., Mondays to Fridays."
          }
         },
         {
          "hint": {
-          "step": "Find 'bring' and 'take'."
+          "step": "Look at the prices. How many mangoes do you get for £1?"
          },
-         "worked": "'Bring one book you have finished and <b>take a new one</b> home.' That is a swap.",
+         "worked": "'Mangoes: <b>3 for £1</b>. Papayas: <b>£1 each</b>.' So one papaya costs the same as three mangoes.",
          "type": "mcq",
          "q": "What does it say?",
          "opts": [
-          "You can swap a book for another book.",
-          "You can bring a comic instead of a book.",
-          "You must take home a magazine."
+          "One papaya costs the same as three mangoes.",
+          "One mango costs the same as one papaya.",
+          "Press the fruit to choose a good one."
          ],
-         "at": 0,
+         "at": 2,
          "whys": [
           null,
-          "Comics are 'not accepted'.",
-          "Magazines are not part of the swap."
+          "Three mangoes cost £1, so one mango is cheaper than a papaya.",
+          "The sign says 'don't press'."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-e6",
           "kind": "text",
-          "head": "Poster in the library",
-          "html": "Book swap! Bring one book you have finished and take a new one home. Comics and magazines are not accepted."
+          "head": "FRUIT STALL",
+          "html": "🥭 Mangoes: 3 for £1. Papayas: £1 each. Please don't press the fruit!"
          }
         }
        ]
@@ -1224,68 +1229,68 @@
     },
     {
      "title": {
-      "en": "Part 2: messages and opinions",
-      "vi": "Phần 2: tin nhắn và ý kiến"
+      "en": "Part 1: messages and tables",
+      "vi": "Phần 1: tin nhắn và bảng"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Rd.03"
+        "4Rd.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Why does Maya need the charger tonight?"
+          "step": "Compare the numbers. Which number is the biggest?"
          },
-         "worked": "The battery is '<b>almost dead</b>' and she '<b>needs it for her coding lesson tonight</b>', so she may not be able to use it.",
+         "worked": "Mango: <b>11</b>. Dragon fruit: <b>9</b>. 11 is more than 9.",
          "type": "mcq",
-         "q": "What is Maya worried about?",
+         "q": "What does the table show?",
          "opts": [
-          "She may not be able to use her tablet.",
-          "She has broken the charger for her tablet.",
-          "Leo has lost the tablet that she needs."
+          "More children chose mango than dragon fruit.",
+          "Papaya got more votes than dragon fruit.",
+          "Dragon fruit was the class's top fruit."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
-          "She can't FIND the charger. It isn't broken.",
-          "Maya's charger is missing. Leo hasn't lost anything."
+          "Papaya got 6 votes and dragon fruit got 9.",
+          "Mango got the most votes, not dragon fruit."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-e7",
           "kind": "text",
-          "head": "Text message",
-          "html": "Hi Leo, I can't find my tablet charger anywhere! The battery is almost dead and I need the tablet for my coding lesson tonight. Have you got a charger I can borrow? Maya"
+          "head": "CLASS 3C FRUIT VOTE",
+          "html": "<table><tr><th>Fruit</th><th>Votes</th></tr><tr><td>🥭 Mango</td><td>11</td></tr><tr><td>🍈 Papaya</td><td>6</td></tr><tr><td>🐉 Dragon fruit</td><td>9</td></tr></table>"
          }
         },
         {
          "hint": {
-          "step": "Find the question at the end. Why does Phong ask it?"
+          "step": "Look at the times. Which ones are a.m. (morning)?"
          },
-         "worked": "Pepper '<b>didn't eat</b> her breakfast again' and is '<b>very quiet</b>', so Phong asks about the vet.",
+         "worked": "Long jump is at <b>9:00 a.m.</b> The other classes are in the afternoon.",
          "type": "mcq",
-         "q": "What is Phong worried about?",
+         "q": "What does the table show?",
          "opts": [
-          "Pepper may be unwell.",
-          "Pepper has run away.",
-          "Pepper eats too much."
+          "Long jump is the only morning class.",
+          "Rugby starts later than skateboarding.",
+          "Skateboarding is on Monday and Wednesday."
          ],
-         "at": 1,
+         "at": 2,
          "whys": [
           null,
-          "Phong has taken Pepper for a walk. She is with him.",
-          "Pepper 'didn't eat' her breakfast, so this is the opposite."
+          "Rugby starts at 4:00, before skateboarding at 4:30.",
+          "Skateboarding is only on Wednesday."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-e8",
           "kind": "text",
-          "head": "Note",
-          "html": "Dad, I've taken Pepper for her walk. She didn't eat her breakfast again, and she's very quiet today. Do you think we should take her to the vet? Phong"
+          "head": "SPORTS CLUB TIMETABLE",
+          "html": "<table><tr><th>Day</th><th>Class</th><th>Time</th></tr><tr><td>Monday</td><td>Rugby</td><td>4:00 p.m.</td></tr><tr><td>Wednesday</td><td>Skateboarding</td><td>4:30 p.m.</td></tr><tr><td>Saturday</td><td>Long jump</td><td>9:00 a.m.</td></tr></table>"
          }
         }
        ]
@@ -1293,61 +1298,61 @@
       {
        "mode": "your",
        "lo": [
-        "6Rd.03"
+        "4Rm.01"
        ],
        "v": [
         {
          "hint": {
-          "step": "Find the words that show feelings: 'brilliant', 'expensive'."
+          "step": "Find the question mark (?). What does Dad want to know?"
          },
-         "worked": "'the <b>flight simulator was brilliant</b>. I'd go back <b>just to try it again</b>!'",
+         "worked": "'<b>Shall I buy some yoghurt?</b>' Dad is asking An a question.",
          "type": "mcq",
-         "q": "What is Lucia's opinion of the museum?",
+         "q": "Why did Dad write this message?",
          "opts": [
-          "The best part was the flight simulator.",
-          "Everything in the gift shop was brilliant.",
-          "She doesn't want to go back."
+          "to ask An a question about the shopping",
+          "to tell An that he bought some eggs",
+          "to ask An to go to the shop now"
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
-          "The gift shop was 'expensive', not brilliant.",
-          "She says 'I'd go back', so she does want to."
+          "The shop hasn't got any eggs, so Dad didn't buy them.",
+          "Dad is already at the shop."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-e9",
           "kind": "text",
-          "head": "Message from a friend",
-          "html": "I went to the new science museum yesterday. The gift shop was expensive, but the flight simulator was brilliant. I'd go back just to try it again! Lucia"
+          "head": "TEXT MESSAGE",
+          "html": "An, I'm at the shop. They haven't got any eggs. Shall I buy some yoghurt? Dad"
          }
         },
         {
          "hint": {
-          "step": "Find the words 'Most of us'."
+          "step": "Find 'can't'. Then find the reason."
          },
-         "worked": "'<b>Most of us loved the fish soup</b>.' 'Liked' is a paraphrase of 'loved'.",
+         "worked": "'I <b>can't come</b>... I've got <b>a cold</b>.' A cold means he is ill.",
          "type": "mcq",
-         "q": "What did most of the class think?",
+         "q": "What does Viet say?",
          "opts": [
-          "They liked the fish soup.",
-          "The green salad was their favourite.",
-          "They didn't want to vote."
+          "He is ill, so he isn't going to the hunt.",
+          "He wants Toby to come to the treasure hunt.",
+          "He had fun at the treasure hunt on Sunday."
          ],
-         "at": 0,
+         "at": 1,
          "whys": [
           null,
-          "The green salad 'wasn't popular'.",
-          "The text says they 'can' vote. It doesn't say they don't want to."
+          "Viet is writing to say he can't come.",
+          "The treasure hunt hasn't happened yet."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-e10",
           "kind": "text",
-          "head": "Post on the class website",
-          "html": "Our class tried the new healthy menu this week. Most of us loved the fish soup, but the green salad wasn't popular. Mr Lewis says we can vote next week. Class 5A"
+          "head": "TEXT MESSAGE",
+          "html": "Toby, I can't come to the treasure hunt on Sunday. I've got a cold. Have fun! Viet"
          }
         }
        ]
@@ -1355,61 +1360,62 @@
       {
        "mode": "your",
        "lo": [
-        "6Rd.01"
+        "4Rm.01",
+        "4Rd.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "Find 'If you feel tired'."
+          "step": "Where does the money go? That tells you why."
          },
-         "worked": "'If you feel tired, <b>leave the ice by the red gate</b>.'",
+         "worked": "'<b>All money goes to the new sports club</b>.' The fun day raises money for it.",
          "type": "mcq",
-         "q": "What must skaters do if they feel tired?",
+         "q": "Why is there a fun day?",
          "opts": [
-          "Go out through the red gate.",
-          "Make a fist with their hands.",
-          "Wait by the red gate on the ice."
+          "to raise money for a sports club",
+          "to make crafts for the sports club",
+          "to find new children for the club"
          ],
          "at": 1,
          "whys": [
           null,
-          "Making a fist is for when you fall over.",
-          "'leave the ice' means go off it, not wait on it."
+          "Children do crafts, but that is not the reason for the day.",
+          "The notice doesn't talk about new members."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-e11",
           "kind": "text",
-          "head": "Notice at the ice rink",
-          "html": "If you fall over, make a fist with your hands so other skaters don't skate over your fingers. If you feel tired, leave the ice by the red gate."
+          "head": "COMMUNITY FUN DAY",
+          "html": "🎨 Saturday, 10 a.m. Craft activities for children. All money goes to the new sports club."
          }
         },
         {
          "hint": {
-          "step": "What does the club want students to do now?"
+          "step": "Compare the temperatures. A big number is hot."
          },
-         "worked": "'Please <b>finish your designs</b> on the computer.' That means keep working on them.",
+         "worked": "Wednesday: <b>26°C</b>. Monday: <b>33°C</b>. 26 is less than 33, so Wednesday is cooler.",
          "type": "mcq",
-         "q": "What does the message say?",
+         "q": "What does the table show?",
          "opts": [
-          "Students should keep working on their designs.",
-          "The printer will be fixed this week.",
-          "Students can print their models this week."
+          "Wednesday will be cooler than Monday.",
+          "Tuesday will be the hottest day.",
+          "Monday will be colder than Tuesday."
          ],
-         "at": 2,
+         "at": 0,
          "whys": [
           null,
-          "'we can't print our models this week', so the printer won't be ready this week.",
-          "'we can't print our models this week.'"
+          "Monday is the hottest day: 33°C.",
+          "33°C on Monday is hotter than 29°C on Tuesday."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
           "id": "s6-e12",
           "kind": "text",
-          "head": "App message",
-          "html": "Coding Club update: our 3D printer is being repaired, so we can't print our models this week. Please finish your designs on the computer, and we'll print them next Monday."
+          "head": "WEATHER THIS WEEK",
+          "html": "<table><tr><th>Day</th><th>Weather</th><th>Temperature</th></tr><tr><td>Monday</td><td>☀️ sunny</td><td>33°C</td></tr><tr><td>Tuesday</td><td>☁️ cloudy</td><td>29°C</td></tr><tr><td>Wednesday</td><td>⛈️ storms</td><td>26°C</td></tr></table>"
          }
         }
        ]
@@ -1418,552 +1424,154 @@
     },
     {
      "title": {
-      "en": "Part 3: complete the conversation",
-      "vi": "Phần 3: hoàn thành đoạn hội thoại"
+      "en": "Part 2: choose the best reply",
+      "vi": "Phần 2: chọn câu đáp đúng nhất"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Rm.01",
-        "6Rd.03"
+        "4Rm.01",
+        "4Uv.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "Max asks 'Where?'. Find a place."
+          "step": "'yet' asks if it is done now. Check that 'yes' or 'no' matches the rest."
          },
-         "worked": "'Where do they sleep?' 'In a big wooden <b>hutch in our garden</b>.' (E)",
-         "type": "bank",
-         "q": "Choose the best answer for gap 13.",
-         "bank": [
-          [
-           "A",
-           "Mostly hay and fresh vegetables. They love carrots."
-          ],
-          [
-           "B",
-           "Twice a day, in the morning and evening."
-          ],
-          [
-           "C",
-           "Yes, two rabbits. They're called Snow and Coco."
-          ],
-          [
-           "D",
-           "Oh, never mind. What about after school on Monday?"
-          ],
-          [
-           "E",
-           "In a big wooden hutch in our garden."
-          ],
-          [
-           "F",
-           "Of course! Are you free on Sunday afternoon?"
-          ],
-          [
-           "G",
-           "Yes, I have. It took me two hours."
-          ],
-          [
-           "H",
-           "Not really, but I have to clean the hutch every Saturday."
-          ]
+         "worked": "'<b>Yes</b>' + '<b>already</b>' both say it's finished: 'Yes, I've already painted the roof too.'",
+         "type": "mcq",
+         "q": "Holly says: 'Have you finished your model house yet?' What is the best reply?",
+         "opts": [
+          "Yes, I've already painted the roof too.",
+          "No, I finished it yesterday.",
+          "Yes, I'll finish it next week."
          ],
-         "ans": "E",
-         "fig": {
-          "k": "stim",
-          "id": "s6-d1",
-          "kind": "text",
-          "head": "Conversation: Max and An",
-          "html": "Max: Hi An! I heard you've got a new pet!<br>An: (0) <b>C</b><br>Max: Lovely! Where do they sleep?<br>An: (13) ________<br>Max: What do you give them to eat?<br>An: (14) ________<br>Max: Is it difficult to look after them?<br>An: (15) ________<br>Max: Can I come and see them one day?<br>An: (16) ________<br>Max: Sorry, I've got a piano lesson then.<br>An: (17) ________<br>Max: Perfect. See you then!"
-         }
+         "at": 2,
+         "whys": [
+          null,
+          "If you finished it yesterday, the answer is 'yes', not 'no'.",
+          "If you will finish it next week, it isn't finished yet."
+         ],
+         "letters": true
         },
         {
          "hint": {
-          "step": "Ruby asks 'Which race?'. Find the name of a race."
+          "step": "'Why' asks for a reason. 'To + verb' can give a reason."
          },
-         "worked": "'Which race did you run in?' '<b>The 200 metres</b>.' (G)",
-         "type": "bank",
-         "q": "Choose the best answer for gap 13.",
-         "bank": [
-          [
-           "A",
-           "No, I didn't, but I beat my best time."
-          ],
-          [
-           "B",
-           "Good! Do you want to come running with me on Saturday?"
-          ],
-          [
-           "C",
-           "Me too. I stayed at home all day."
-          ],
-          [
-           "D",
-           "We had a picnic on the field with our parents."
-          ],
-          [
-           "E",
-           "It was great! Our team came second."
-          ],
-          [
-           "F",
-           "Yes, I did. I was really happy."
-          ],
-          [
-           "G",
-           "The 200 metres. I was a bit nervous at the start."
-          ],
-          [
-           "H",
-           "Oh dear! Are you feeling better now?"
-          ]
+         "worked": "'<b>Why</b>?' needs a reason: '<b>To look at the stars</b>.'",
+         "type": "mcq",
+         "q": "Mum says: 'Why are you taking a torch?' What is the best reply?",
+         "opts": [
+          "To look at the stars in the garden.",
+          "In my bag, next to my water.",
+          "At eight o'clock tonight."
          ],
-         "ans": "G",
-         "fig": {
-          "k": "stim",
-          "id": "s6-d2",
-          "kind": "text",
-          "head": "Conversation: Ruby and Quan",
-          "html": "Ruby: Hi Quan! How was the school sports day?<br>Quan: (0) <b>E</b><br>Ruby: Well done! Which race did you run in?<br>Quan: (13) ________<br>Ruby: Did you win a medal?<br>Quan: (14) ________<br>Ruby: That's still good. What did you do after the races?<br>Quan: (15) ________<br>Ruby: Sounds fun. I'm sorry I missed it. I had a bad cold.<br>Quan: (16) ________<br>Ruby: Yes, much better, thanks.<br>Quan: (17) ________<br>Ruby: I'd love to! What time?"
-         }
+         "at": 2,
+         "whys": [
+          null,
+          "This answers 'Where?', not 'Why?'.",
+          "This answers 'When?', not 'Why?'."
+         ],
+         "letters": true
         }
        ]
       },
       {
        "mode": "your",
        "lo": [
-        "6Rm.01",
-        "6Rd.03"
+        "4Rm.01",
+        "4Ug.10"
        ],
        "v": [
         {
          "hint": {
-          "step": "Max asks about food. Which answer talks about food?"
+          "step": "Your friend is worried. Which reply helps?"
          },
-         "worked": "'What do you give them to eat?' 'Mostly <b>hay and fresh vegetables</b>.' (A). B is about 'how often', not 'what'.",
-         "type": "bank",
-         "q": "Choose the best answer for gap 14.",
-         "bank": [
-          [
-           "A",
-           "Mostly hay and fresh vegetables. They love carrots."
-          ],
-          [
-           "B",
-           "Twice a day, in the morning and evening."
-          ],
-          [
-           "C",
-           "Yes, two rabbits. They're called Snow and Coco."
-          ],
-          [
-           "D",
-           "Oh, never mind. What about after school on Monday?"
-          ],
-          [
-           "E",
-           "In a big wooden hutch in our garden."
-          ],
-          [
-           "F",
-           "Of course! Are you free on Sunday afternoon?"
-          ],
-          [
-           "G",
-           "Yes, I have. It took me two hours."
-          ],
-          [
-           "H",
-           "Not really, but I have to clean the hutch every Saturday."
-          ]
+         "worked": "'<b>Don't worry</b>' answers a worry, and '<b>might</b> come soon' says it is possible.",
+         "type": "mcq",
+         "q": "Your friend says: 'I'm worried. The bus is late.' What is the best reply?",
+         "opts": [
+          "Don't worry. It might come soon.",
+          "Yes, it came very early again today.",
+          "The bus stop is near my house."
          ],
-         "ans": "A",
-         "fig": {
-          "k": "stim",
-          "id": "s6-d1",
-          "kind": "text",
-          "head": "Conversation: Max and An",
-          "html": "Max: Hi An! I heard you've got a new pet!<br>An: (0) <b>C</b><br>Max: Lovely! Where do they sleep?<br>An: (13) ________<br>Max: What do you give them to eat?<br>An: (14) ________<br>Max: Is it difficult to look after them?<br>An: (15) ________<br>Max: Can I come and see them one day?<br>An: (16) ________<br>Max: Sorry, I've got a piano lesson then.<br>An: (17) ________<br>Max: Perfect. See you then!"
-         }
+         "at": 1,
+         "whys": [
+          null,
+          "Your friend says the bus is late, so 'early' doesn't fit.",
+          "This is about the bus, but it doesn't help with the worry."
+         ],
+         "letters": true
         },
         {
          "hint": {
-          "step": "Read Ruby's NEXT line: 'That's still good.' Did Quan win?"
+          "step": "'Would you like to ...?' asks about a plan. Look for 'I'd like to ...'."
          },
-         "worked": "'Did you win a medal?' '<b>No, I didn't</b>, but I beat my best time.' (A) Ruby says 'That's still good', so F is wrong.",
-         "type": "bank",
-         "q": "Choose the best answer for gap 14.",
-         "bank": [
-          [
-           "A",
-           "No, I didn't, but I beat my best time."
-          ],
-          [
-           "B",
-           "Good! Do you want to come running with me on Saturday?"
-          ],
-          [
-           "C",
-           "Me too. I stayed at home all day."
-          ],
-          [
-           "D",
-           "We had a picnic on the field with our parents."
-          ],
-          [
-           "E",
-           "It was great! Our team came second."
-          ],
-          [
-           "F",
-           "Yes, I did. I was really happy."
-          ],
-          [
-           "G",
-           "The 200 metres. I was a bit nervous at the start."
-          ],
-          [
-           "H",
-           "Oh dear! Are you feeling better now?"
-          ]
+         "worked": "'<b>What would you like to do?</b>' → '<b>I'd like to go</b> ...'",
+         "type": "mcq",
+         "q": "Sami says: 'What would you like to do on Saturday?' What is the best reply?",
+         "opts": [
+          "I'd like to go to the sports centre.",
+          "I went to the sports centre.",
+          "It's next to the museum."
          ],
-         "ans": "A",
-         "fig": {
-          "k": "stim",
-          "id": "s6-d2",
-          "kind": "text",
-          "head": "Conversation: Ruby and Quan",
-          "html": "Ruby: Hi Quan! How was the school sports day?<br>Quan: (0) <b>E</b><br>Ruby: Well done! Which race did you run in?<br>Quan: (13) ________<br>Ruby: Did you win a medal?<br>Quan: (14) ________<br>Ruby: That's still good. What did you do after the races?<br>Quan: (15) ________<br>Ruby: Sounds fun. I'm sorry I missed it. I had a bad cold.<br>Quan: (16) ________<br>Ruby: Yes, much better, thanks.<br>Quan: (17) ________<br>Ruby: I'd love to! What time?"
-         }
+         "at": 0,
+         "whys": [
+          null,
+          "'went' is the past, but Saturday is in the future.",
+          "This answers 'Where is it?', not 'What would you like to do?'."
+         ],
+         "letters": true
         }
        ]
       },
       {
        "mode": "your",
        "lo": [
-        "6Rm.01",
-        "6Rd.03"
+        "4Rm.01",
+        "4Uv.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "'Is it difficult?' needs 'yes' or 'not really'."
+          "step": "Check that 'yes' or 'no' matches the words after it."
          },
-         "worked": "'Is it difficult to look after them?' '<b>Not really</b>, but I have to clean the hutch.' (H). G says 'I have', which doesn't match 'Is it'.",
-         "type": "bank",
-         "q": "Choose the best answer for gap 15.",
-         "bank": [
-          [
-           "A",
-           "Mostly hay and fresh vegetables. They love carrots."
-          ],
-          [
-           "B",
-           "Twice a day, in the morning and evening."
-          ],
-          [
-           "C",
-           "Yes, two rabbits. They're called Snow and Coco."
-          ],
-          [
-           "D",
-           "Oh, never mind. What about after school on Monday?"
-          ],
-          [
-           "E",
-           "In a big wooden hutch in our garden."
-          ],
-          [
-           "F",
-           "Of course! Are you free on Sunday afternoon?"
-          ],
-          [
-           "G",
-           "Yes, I have. It took me two hours."
-          ],
-          [
-           "H",
-           "Not really, but I have to clean the hutch every Saturday."
-          ]
+         "worked": "'<b>No</b>' + '<b>he runs faster than me</b>' say the same thing.",
+         "type": "mcq",
+         "q": "Trang says: 'Can you run faster than your brother?' What is the best reply?",
+         "opts": [
+          "No, he runs faster than me.",
+          "Yes, he runs faster than me.",
+          "No, I'm the fastest in my family."
          ],
-         "ans": "H",
-         "fig": {
-          "k": "stim",
-          "id": "s6-d1",
-          "kind": "text",
-          "head": "Conversation: Max and An",
-          "html": "Max: Hi An! I heard you've got a new pet!<br>An: (0) <b>C</b><br>Max: Lovely! Where do they sleep?<br>An: (13) ________<br>Max: What do you give them to eat?<br>An: (14) ________<br>Max: Is it difficult to look after them?<br>An: (15) ________<br>Max: Can I come and see them one day?<br>An: (16) ________<br>Max: Sorry, I've got a piano lesson then.<br>An: (17) ________<br>Max: Perfect. See you then!"
-         }
+         "at": 0,
+         "whys": [
+          null,
+          "If he runs faster, the answer is 'no', not 'yes'.",
+          "If you are the fastest, the answer is 'yes', not 'no'."
+         ],
+         "letters": true
         },
         {
          "hint": {
-          "step": "Ruby asks what Quan did AFTER the races."
+          "step": "Look at the verb in 'isn't it?'. Use the same verb in your answer."
          },
-         "worked": "'What did you do after the races?' '<b>We had a picnic</b> on the field.' (D)",
-         "type": "bank",
-         "q": "Choose the best answer for gap 15.",
-         "bank": [
-          [
-           "A",
-           "No, I didn't, but I beat my best time."
-          ],
-          [
-           "B",
-           "Good! Do you want to come running with me on Saturday?"
-          ],
-          [
-           "C",
-           "Me too. I stayed at home all day."
-          ],
-          [
-           "D",
-           "We had a picnic on the field with our parents."
-          ],
-          [
-           "E",
-           "It was great! Our team came second."
-          ],
-          [
-           "F",
-           "Yes, I did. I was really happy."
-          ],
-          [
-           "G",
-           "The 200 metres. I was a bit nervous at the start."
-          ],
-          [
-           "H",
-           "Oh dear! Are you feeling better now?"
-          ]
+         "worked": "'<b>isn't it?</b>' → '<b>Yes, it is</b>.' And a coat fits a cold night.",
+         "type": "mcq",
+         "q": "Grandpa says: 'It's very cold tonight, isn't it?' What is the best reply?",
+         "opts": [
+          "Yes, it is. I need my coat.",
+          "No, it isn't. I need my coat.",
+          "Yes, it does. It's freezing."
          ],
-         "ans": "D",
-         "fig": {
-          "k": "stim",
-          "id": "s6-d2",
-          "kind": "text",
-          "head": "Conversation: Ruby and Quan",
-          "html": "Ruby: Hi Quan! How was the school sports day?<br>Quan: (0) <b>E</b><br>Ruby: Well done! Which race did you run in?<br>Quan: (13) ________<br>Ruby: Did you win a medal?<br>Quan: (14) ________<br>Ruby: That's still good. What did you do after the races?<br>Quan: (15) ________<br>Ruby: Sounds fun. I'm sorry I missed it. I had a bad cold.<br>Quan: (16) ________<br>Ruby: Yes, much better, thanks.<br>Quan: (17) ________<br>Ruby: I'd love to! What time?"
-         }
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Rm.01",
-        "6Rd.03"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Max asks to visit. Then Max says 'Sorry...'. What did An ask him?"
-         },
-         "worked": "'Can I come?' '<b>Of course! Are you free on Sunday afternoon?</b>' (F). Max then says he is busy.",
-         "type": "bank",
-         "q": "Choose the best answer for gap 16.",
-         "bank": [
-          [
-           "A",
-           "Mostly hay and fresh vegetables. They love carrots."
-          ],
-          [
-           "B",
-           "Twice a day, in the morning and evening."
-          ],
-          [
-           "C",
-           "Yes, two rabbits. They're called Snow and Coco."
-          ],
-          [
-           "D",
-           "Oh, never mind. What about after school on Monday?"
-          ],
-          [
-           "E",
-           "In a big wooden hutch in our garden."
-          ],
-          [
-           "F",
-           "Of course! Are you free on Sunday afternoon?"
-          ],
-          [
-           "G",
-           "Yes, I have. It took me two hours."
-          ],
-          [
-           "H",
-           "Not really, but I have to clean the hutch every Saturday."
-          ]
+         "at": 2,
+         "whys": [
+          null,
+          "If it isn't cold, you don't need a coat.",
+          "The question uses 'is', so the answer is 'Yes, it is'."
          ],
-         "ans": "F",
-         "fig": {
-          "k": "stim",
-          "id": "s6-d1",
-          "kind": "text",
-          "head": "Conversation: Max and An",
-          "html": "Max: Hi An! I heard you've got a new pet!<br>An: (0) <b>C</b><br>Max: Lovely! Where do they sleep?<br>An: (13) ________<br>Max: What do you give them to eat?<br>An: (14) ________<br>Max: Is it difficult to look after them?<br>An: (15) ________<br>Max: Can I come and see them one day?<br>An: (16) ________<br>Max: Sorry, I've got a piano lesson then.<br>An: (17) ________<br>Max: Perfect. See you then!"
-         }
-        },
-        {
-         "hint": {
-          "step": "Ruby says she had a cold. Then she says 'much better'. What did Quan ask?"
-         },
-         "worked": "'I had a bad cold.' '<b>Oh dear! Are you feeling better now?</b>' (H) 'Yes, much better.'",
-         "type": "bank",
-         "q": "Choose the best answer for gap 16.",
-         "bank": [
-          [
-           "A",
-           "No, I didn't, but I beat my best time."
-          ],
-          [
-           "B",
-           "Good! Do you want to come running with me on Saturday?"
-          ],
-          [
-           "C",
-           "Me too. I stayed at home all day."
-          ],
-          [
-           "D",
-           "We had a picnic on the field with our parents."
-          ],
-          [
-           "E",
-           "It was great! Our team came second."
-          ],
-          [
-           "F",
-           "Yes, I did. I was really happy."
-          ],
-          [
-           "G",
-           "The 200 metres. I was a bit nervous at the start."
-          ],
-          [
-           "H",
-           "Oh dear! Are you feeling better now?"
-          ]
-         ],
-         "ans": "H",
-         "fig": {
-          "k": "stim",
-          "id": "s6-d2",
-          "kind": "text",
-          "head": "Conversation: Ruby and Quan",
-          "html": "Ruby: Hi Quan! How was the school sports day?<br>Quan: (0) <b>E</b><br>Ruby: Well done! Which race did you run in?<br>Quan: (13) ________<br>Ruby: Did you win a medal?<br>Quan: (14) ________<br>Ruby: That's still good. What did you do after the races?<br>Quan: (15) ________<br>Ruby: Sounds fun. I'm sorry I missed it. I had a bad cold.<br>Quan: (16) ________<br>Ruby: Yes, much better, thanks.<br>Quan: (17) ________<br>Ruby: I'd love to! What time?"
-         }
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Rm.01",
-        "6Rd.03"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Max can't come on Sunday. What do you say after a 'no'?"
-         },
-         "worked": "Max is busy, so An says '<b>Never mind. What about</b> after school on Monday?' (D). Max says 'Perfect.'",
-         "type": "bank",
-         "q": "Choose the best answer for gap 17.",
-         "bank": [
-          [
-           "A",
-           "Mostly hay and fresh vegetables. They love carrots."
-          ],
-          [
-           "B",
-           "Twice a day, in the morning and evening."
-          ],
-          [
-           "C",
-           "Yes, two rabbits. They're called Snow and Coco."
-          ],
-          [
-           "D",
-           "Oh, never mind. What about after school on Monday?"
-          ],
-          [
-           "E",
-           "In a big wooden hutch in our garden."
-          ],
-          [
-           "F",
-           "Of course! Are you free on Sunday afternoon?"
-          ],
-          [
-           "G",
-           "Yes, I have. It took me two hours."
-          ],
-          [
-           "H",
-           "Not really, but I have to clean the hutch every Saturday."
-          ]
-         ],
-         "ans": "D",
-         "fig": {
-          "k": "stim",
-          "id": "s6-d1",
-          "kind": "text",
-          "head": "Conversation: Max and An",
-          "html": "Max: Hi An! I heard you've got a new pet!<br>An: (0) <b>C</b><br>Max: Lovely! Where do they sleep?<br>An: (13) ________<br>Max: What do you give them to eat?<br>An: (14) ________<br>Max: Is it difficult to look after them?<br>An: (15) ________<br>Max: Can I come and see them one day?<br>An: (16) ________<br>Max: Sorry, I've got a piano lesson then.<br>An: (17) ________<br>Max: Perfect. See you then!"
-         }
-        },
-        {
-         "hint": {
-          "step": "Ruby's next line is 'I'd love to! What time?'. So Quan invited her."
-         },
-         "worked": "'Yes, much better.' '<b>Good! Do you want to come running</b> with me?' (B) 'I'd love to!'",
-         "type": "bank",
-         "q": "Choose the best answer for gap 17.",
-         "bank": [
-          [
-           "A",
-           "No, I didn't, but I beat my best time."
-          ],
-          [
-           "B",
-           "Good! Do you want to come running with me on Saturday?"
-          ],
-          [
-           "C",
-           "Me too. I stayed at home all day."
-          ],
-          [
-           "D",
-           "We had a picnic on the field with our parents."
-          ],
-          [
-           "E",
-           "It was great! Our team came second."
-          ],
-          [
-           "F",
-           "Yes, I did. I was really happy."
-          ],
-          [
-           "G",
-           "The 200 metres. I was a bit nervous at the start."
-          ],
-          [
-           "H",
-           "Oh dear! Are you feeling better now?"
-          ]
-         ],
-         "ans": "B",
-         "fig": {
-          "k": "stim",
-          "id": "s6-d2",
-          "kind": "text",
-          "head": "Conversation: Ruby and Quan",
-          "html": "Ruby: Hi Quan! How was the school sports day?<br>Quan: (0) <b>E</b><br>Ruby: Well done! Which race did you run in?<br>Quan: (13) ________<br>Ruby: Did you win a medal?<br>Quan: (14) ________<br>Ruby: That's still good. What did you do after the races?<br>Quan: (15) ________<br>Ruby: Sounds fun. I'm sorry I missed it. I had a bad cold.<br>Quan: (16) ________<br>Ruby: Yes, much better, thanks.<br>Quan: (17) ________<br>Ruby: I'd love to! What time?"
-         }
+         "letters": true
         }
        ]
       }
@@ -1975,78 +1583,78 @@
  "notes": {
   "items": [
    {
-    "en": "*must* = it is necessary. *mustn't* = it is not allowed. *don't have to* / *needn't* = it is not necessary.",
-    "vi": "*must* = bắt buộc. *mustn't* = không được phép. *don't have to* / *needn't* = không cần thiết.",
+    "en": "*must* = you need to do it. *mustn't* and *don't* = you can't do it. *can* = it's OK.",
+    "vi": "*must* = em phải làm. *mustn't* và *don't* = em không được làm. *can* = em được phép.",
     "example": [
-     "You *must* wear a helmet.",
-     "You *don't have to* bring a helmet: we lend you one."
+     "You *must* wear a hat.",
+     "*Don't* run near the pool."
     ]
    },
    {
-    "en": "Time words change the meaning: *before*, *after*, *until*, *only*, *every*.",
-    "vi": "Từ chỉ thời gian làm thay đổi nghĩa: *before*, *after*, *until*, *only*, *every*.",
+    "en": "Small sign words change the meaning: *only*, *free*, *open*, *closed*, *except*.",
+    "vi": "Những từ nhỏ trên biển báo làm thay đổi nghĩa: *only*, *free*, *open*, *closed*, *except*.",
     "example": [
-     "The shop is open *until* 5 p.m.",
-     "Sign the list *before* you start."
+     "*Only* 4 people in the lift.",
+     "*Closed* on Sundays."
     ]
    },
    {
-    "en": "The right option says the same idea in different words. This is a *paraphrase*.",
-    "vi": "Lựa chọn đúng nói cùng một ý bằng từ khác. Đó là *diễn đạt lại*.",
+    "en": "The right option says the same thing in different words.",
+    "vi": "Lựa chọn đúng nói cùng một ý bằng những từ khác.",
     "example": [
-     "Text: 'No phones in class.'",
-     "Right option: '*You can't use* your phone in lessons.'"
+     "Sign: 'No food.'",
+     "Right option: '*You can't eat here.*'"
     ]
    },
    {
-    "en": "Wrong options use words from the text but change the meaning: *all* / *some*, *already* / *not yet*, *can* / *must*.",
-    "vi": "Lựa chọn sai dùng từ trong bài nhưng đổi nghĩa: *all* / *some*, *already* / *not yet*, *can* / *must*.",
+    "en": "Wrong options use words from the sign but change the meaning: *can* / *must*, *before* / *after*, *more* / *less*.",
+    "vi": "Lựa chọn sai dùng từ trên biển báo nhưng đổi nghĩa: *can* / *must*, *before* / *after*, *more* / *less*.",
     "example": [
-     "Text: '*Some* tickets are left.'",
-     "Wrong option: '*All* the tickets are sold.'"
+     "Sign: 'You *can* sit here.'",
+     "Wrong option: 'You *must* sit here.'"
     ]
    },
    {
-    "en": "In a conversation, check the line *before* AND the line *after* the gap. A question needs an answer; 'Never mind' follows a 'no'.",
-    "vi": "Trong hội thoại, kiểm tra câu *trước* VÀ câu *sau* chỗ trống. Câu hỏi cần câu trả lời; 'Never mind' đi sau lời từ chối.",
+    "en": "In a table, compare the numbers: *more than*, *fewer than*, *the most*, *hotter*, *cooler*.",
+    "vi": "Trong bảng, hãy so sánh các con số: *more than*, *fewer than*, *the most*, *hotter*, *cooler*.",
     "example": [
-     "A: *Where* did you go? B: *To the beach*.",
-     "A: Can you come? B: *Sorry, I can't*. A: *Never mind!*"
+     "Red 14, Blue 9: Red got *more* points *than* Blue.",
+     "Red got *the most* points."
     ]
    },
    {
-    "en": "Small words must match: *it* for one thing, *they* for many, *yes, I have* after *Have you...?*",
-    "vi": "Các từ nhỏ phải khớp: *it* cho một vật, *they* cho nhiều vật, *yes, I have* sau *Have you...?*",
+    "en": "Choose the reply that fits: a question word needs its answer, an offer needs *Yes, please*, thanks needs *You're welcome*, bad news needs *Oh no* or *Don't worry*.",
+    "vi": "Chọn câu đáp phù hợp: từ để hỏi cần câu trả lời đúng loại, lời mời cần *Yes, please*, lời cảm ơn cần *You're welcome*, tin không vui cần *Oh no* hoặc *Don't worry*.",
     "example": [
-     "A: Do you like your new trainers? B: Yes, *they're* really comfortable.",
-     "A: *Have* you finished? B: Yes, I *have*."
+     "A: *Where* is it? B: *In the kitchen*.",
+     "A: Thank you! B: *You're welcome.*"
     ]
    }
   ],
   "check": [
    {
-    "sentence": "You {don't have to|mustn't|must} bring a towel: the pool gives you one.",
-    "answer": "don't have to"
-   },
-   {
-    "sentence": "The shop is open {until|before|since} 8 p.m., and then it closes.",
-    "answer": "until"
-   },
-   {
-    "sentence": "'Closed on Mondays' means you {can't|can|must} visit on Mondays.",
+    "sentence": "'Don't touch' means you {can't|can|must} touch it.",
     "answer": "can't"
    },
    {
-    "sentence": "'I haven't finished yet' means the work is {not done|done|easy}.",
-    "answer": "not done"
+    "sentence": "'Closed on Sundays' means you can't go in on {Sundays|Mondays|any day}.",
+    "answer": "Sundays"
    },
    {
-    "sentence": "After 'Thank you so much!' you say {You're welcome.|Yes, please.|Never mind.}",
+    "sentence": "'Children: free' means children {don't pay|pay a lot|can't go in}.",
+    "answer": "don't pay"
+   },
+   {
+    "sentence": "'You can sit here' means sitting is {OK|a rule|not allowed}.",
+    "answer": "OK"
+   },
+   {
+    "sentence": "Red 14, Blue 9: Blue got {fewer|more|the most} points than Red.",
+    "answer": "fewer"
+   },
+   {
+    "sentence": "A: Thank you for the book! B: {You're welcome.|Yes, please.|Oh no!}",
     "answer": "You're welcome."
-   },
-   {
-    "sentence": "A: Did you like the new games? B: Yes, {they|it|he} were great fun.",
-    "answer": "they"
    }
   ]
  },
@@ -2055,61 +1663,61 @@
    {
     "dok": 1,
     "lo": [
-     "6Rd.01"
+     "4Rd.01"
     ],
     "v": [
      {
       "hint": {
-       "step": "Find 'but'. What is the rule near the playground?"
+       "step": "Find 'must'. What do you need to ride?"
       },
-      "worked": "'Dogs are <b>welcome</b>... <b>but</b> they must be <b>on a lead near the children's playground</b>.'",
+      "worked": "'You <b>must be 120 cm tall</b> to ride.' So short children can't go on it.",
       "type": "mcq",
       "q": "What does it say?",
       "opts": [
-       "Dogs can come, but they need a lead near the playground.",
-       "Dogs are not allowed near the children's playground.",
-       "Dogs must be on a lead everywhere in the park."
+       "Short children can't go on this ride.",
+       "Everyone must be 120 cm to enter the park.",
+       "Tall children can't go on this ride."
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
-       "Dogs CAN go near the playground if they are on a lead.",
-       "The lead is only needed near the playground, not everywhere."
+       "The rule is for this ride, not for the whole park.",
+       "Tall children CAN ride. You must be tall enough."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s6-t1",
        "kind": "text",
-       "head": "Sign at the riverside park",
-       "html": "Dogs are welcome in the park, but they must be on a lead near the children's playground."
+       "head": "ROLLER COASTER",
+       "html": "🎢 You must be 120 cm tall to ride."
       }
      },
      {
       "hint": {
-       "step": "Which bags go in the lockers, and which don't?"
+       "step": "Find 'Quiet, please'. Then find the reason."
       },
-      "worked": "'<b>Small bags can stay with you</b>.' 'Keep with them' means the same.",
+      "worked": "'<b>Quiet, please!</b> <b>Lessons</b> in all rooms.' So you must be quiet.",
       "type": "mcq",
       "q": "What does it say?",
       "opts": [
-       "Visitors can keep small bags with them.",
-       "Visitors must pay to use the lockers.",
-       "All bags must go in the lockers."
+       "You must be quiet because of the lessons.",
+       "Lessons start at 5 p.m. in all the rooms.",
+       "You can play music in all the rooms."
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
-       "The lockers are free.",
-       "Only LARGE bags go in the lockers."
+       "'until 5 p.m.' means the lessons finish at 5.",
+       "The sign asks you to be quiet, not to play."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s6-t2",
        "kind": "text",
-       "head": "Notice at the museum entrance",
-       "html": "Please leave large bags in the lockers on your left. The lockers are free. Small bags can stay with you."
+       "head": "MUSIC ACADEMY",
+       "html": "🎹 Quiet, please! Lessons in all rooms until 5 p.m."
       }
      }
     ]
@@ -2117,61 +1725,61 @@
    {
     "dok": 1,
     "lo": [
-     "6Rd.01"
+     "4Rd.01"
     ],
     "v": [
      {
       "hint": {
-       "step": "Three times! Find the word 'starts'."
+       "step": "Find the first time and the last time."
       },
-      "worked": "'it <b>starts at 10:30</b>, not 10.' 10:30 is half past ten.",
+      "worked": "'Breakfast: <b>6:30 to 9:30 a.m.</b>' 7 o'clock is between them.",
       "type": "mcq",
-      "q": "What time does the match start?",
+      "q": "When can you have breakfast?",
       "opts": [
-       "at half past ten",
-       "at ten o'clock",
-       "at quarter past ten"
+       "at 7 o'clock in the morning",
+       "at 10 o'clock in the morning",
+       "at 6 o'clock in the morning"
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
-       "Nadia says 'not 10'. That was the old time.",
-       "Quarter past ten is when they meet at the bus stop."
+       "Breakfast finishes at 9:30, so 10 o'clock is too late.",
+       "Breakfast starts at 6:30, so 6 o'clock is too early."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s6-t3",
        "kind": "text",
-       "head": "Text message",
-       "html": "Rory, the football match is still on, but it starts at 10:30, not 10. Let's meet at the bus stop at quarter past ten. Nadia"
+       "head": "HOTEL",
+       "html": "🍳 Breakfast: 6:30 to 9:30 a.m. in the garden restaurant."
       }
      },
      {
       "hint": {
-       "step": "Find the word 'before'."
+       "step": "Find 'leaves'. What happens at 3:15?"
       },
-      "worked": "'Please <b>tidy your room before they arrive</b>, and <b>then</b> you can play.'",
+      "worked": "'The bus <b>leaves at 3:15</b>. Please <b>don't be late</b>!' So be there before 3:15.",
       "type": "mcq",
-      "q": "What must Arjun do first?",
+      "q": "What does it say?",
       "opts": [
-       "tidy his room",
-       "play video games",
-       "have dinner"
+       "Be at the bus before 3:15.",
+       "The bus is often late at 3:15.",
+       "The bus arrives at school at 3:15."
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
-       "He can play games only AFTER he tidies his room.",
-       "Dinner comes last."
+       "'don't be late' is for the children, not the bus.",
+       "3:15 is when the bus leaves, not when it arrives."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s6-t4",
        "kind": "text",
-       "head": "Note from Mum",
-       "html": "Arjun, your grandparents are arriving at 6 tonight. Please tidy your room before they arrive, and then you can play video games until dinner."
+       "head": "SCHOOL BUS",
+       "html": "🚌 The bus leaves at 3:15. Please don't be late!"
       }
      }
     ]
@@ -2179,61 +1787,61 @@
    {
     "dok": 1,
     "lo": [
-     "6Rd.01"
+     "4Rd.01"
     ],
     "v": [
      {
       "hint": {
-       "step": "Look for 'not allowed'."
+       "step": "Find the question 'Do you want to ...?'."
       },
-      "worked": "'<b>Pets are not allowed</b> as a subject.' So a drawing of a pet won't be accepted.",
+      "worked": "'I've got two tickets... <b>Do you want to come?</b>'",
       "type": "mcq",
-      "q": "What does the poster say?",
+      "q": "What does Alice want?",
       "opts": [
-       "Drawings of pets will not be accepted.",
-       "You must draw your animal at home.",
-       "You can give in your drawing after Friday."
+       "She wants Iris to come out with her.",
+       "She wants Iris to buy two tickets.",
+       "She wants Iris to give her a ticket."
       ],
       "at": 1,
       "whys": [
        null,
-       "'natural home' means where the animal lives in nature, not your house.",
-       "Drawings must be given in BY Friday, not after."
+       "Alice has already got two tickets.",
+       "Alice has the tickets, not Iris."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s6-t5",
        "kind": "text",
-       "head": "Poster at school",
-       "html": "Drawing competition! Draw an animal in its natural home. Pets are not allowed as a subject. Give your drawing to Ms Park by Friday 5 December."
+       "head": "TEXT MESSAGE",
+       "html": "Iris, I've got two tickets for the planetarium on Sunday. Do you want to come? Alice"
       }
      },
      {
       "hint": {
-       "step": "Which children? Which pool?"
+       "step": "Find 'please'. What must Luca do, and when?"
       },
-      "worked": "'Children <b>under 1.2 metres</b> tall must wear a life jacket <b>in the wave pool</b>.' Under 1.2 metres means smaller children.",
+      "worked": "'Please <b>feed the cat before school</b>.'",
       "type": "mcq",
-      "q": "What does it say?",
+      "q": "What must Luca do?",
       "opts": [
-       "Smaller children need a life jacket in the wave pool.",
-       "You must pay for a life jacket at the blue desk.",
-       "All children must wear a life jacket in every pool."
+       "Give the cat food before he goes to school.",
+       "Feed the cat when he comes home from school.",
+       "Put the cat's food in the cupboard."
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
-       "Life jackets are free.",
-       "Only children under 1.2 metres, and only in the wave pool."
+       "'before school' means in the morning, not after.",
+       "The food is already in the cupboard."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s6-t6",
        "kind": "text",
-       "head": "Sign at the water park",
-       "html": "Children under 1.2 metres tall must wear a life jacket in the wave pool. Life jackets are free at the blue desk."
+       "head": "NOTE",
+       "html": "Luca, please feed the cat before school. Her food is in the cupboard. Thanks! Mum"
       }
      }
     ]
@@ -2241,61 +1849,61 @@
    {
     "dok": 1,
     "lo": [
-     "6Rd.01"
+     "4Rd.01"
     ],
     "v": [
      {
       "hint": {
-       "step": "Find 'until'."
+       "step": "Find the biggest number in the table."
       },
-      "worked": "'You <b>can't borrow another book until you do</b>' (until you return it).",
+      "worked": "Red: <b>14</b>. That is the biggest number.",
       "type": "mcq",
-      "q": "What does the message say?",
+      "q": "What does the table show?",
       "opts": [
-       "Reza must return his book to borrow more.",
-       "Reza can borrow one more book this week.",
-       "Reza took his book back to the library yesterday."
+       "The Red team got the most points.",
+       "The Blue team got the most points.",
+       "Green got more points than Red."
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
-       "He can't borrow another book until he returns this one.",
-       "The book was DUE yesterday. He hasn't returned it."
+       "Blue got 9, the smallest number.",
+       "Green got 12 and Red got 14, so Red got more."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s6-t7",
        "kind": "text",
-       "head": "App message",
-       "html": "Hi Reza! Your library book, 'Ocean Giants', was due back yesterday. Please return it this week. You can't borrow another book until you do."
+       "head": "TREASURE HUNT POINTS",
+       "html": "<table><tr><th>Team</th><th>Points</th></tr><tr><td>🔴 Red</td><td>14</td></tr><tr><td>🔵 Blue</td><td>9</td></tr><tr><td>🟢 Green</td><td>12</td></tr></table>"
       }
      },
      {
       "hint": {
-       "step": "Find 'so'. What comes before it?"
+       "step": "Compare two numbers at a time."
       },
-      "worked": "'One of my tyres <b>had a hole</b>, so I'm walking.' A hole in a tyre is a problem.",
+      "worked": "Long jump: <b>15</b>. Rugby: <b>20</b>. 15 is fewer than 20.",
       "type": "mcq",
-      "q": "Why is Kai walking to school?",
+      "q": "What does the table show?",
       "opts": [
-       "His bike has a problem.",
-       "He lost Ella's bike pump.",
-       "His dad needs his bike."
+       "Long jump has fewer members than rugby.",
+       "Surfing has more members than rugby.",
+       "Long jump has the most members."
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
-       "Kai put the pump back in Ella's garage.",
-       "Dad is going to FIX the bike, not use it."
+       "Surfing has 8 and rugby has 20, so surfing has fewer.",
+       "Rugby has the most members: 20."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s6-t8",
        "kind": "text",
-       "head": "Email extract",
-       "html": "Hi Ella, thanks for lending me your bike pump. I've put it back in your garage. One of my tyres had a hole, so I'm walking to school until Dad fixes it. Kai"
+       "head": "SPORTS CLUB MEMBERS",
+       "html": "<table><tr><th>Sport</th><th>Members</th></tr><tr><td>🏉 Rugby</td><td>20</td></tr><tr><td>🏄 Surfing</td><td>8</td></tr><tr><td>🏃 Long jump</td><td>15</td></tr></table>"
       }
      }
     ]
@@ -2303,61 +1911,61 @@
    {
     "dok": 1,
     "lo": [
-     "6Rd.01"
+     "4Rd.01"
     ],
     "v": [
      {
       "hint": {
-       "step": "Find 'bring'. Be careful with 'don't need to'."
+       "step": "Find 'except'. Which day is different?"
       },
-      "worked": "'You don't need to bring lunch, but <b>bring a water bottle with your name</b> on it.'",
+      "worked": "'Open every day <b>except Monday</b>.' So it's closed on Mondays.",
       "type": "mcq",
-      "q": "What do students have to bring?",
+      "q": "What does it say?",
       "opts": [
-       "a water bottle with their name",
-       "a packed lunch from home",
-       "their PE kit in a sports bag"
+       "You can't visit the shop on Mondays.",
+       "The shop is only open on Mondays.",
+       "Postcards cost the same as a ticket."
       ],
-      "at": 2,
+      "at": 1,
       "whys": [
        null,
-       "'You don't need to bring lunch.'",
-       "They WEAR their PE kit to school. They don't bring it in a bag."
+       "'except Monday' means it is NOT open on Mondays.",
+       "Postcards are free with your ticket."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s6-t9",
        "kind": "text",
-       "head": "Notice in the classroom",
-       "html": "Sports Day is on Friday. Wear your PE kit to school. You don't need to bring lunch, but bring a water bottle with your name on it."
+       "head": "MUSEUM SHOP",
+       "html": "🖼️ Open every day except Monday. Postcards: free with your ticket!"
       }
      },
      {
       "hint": {
-       "step": "Find 'instead'."
+       "step": "Look for 'not'. Which place is wrong?"
       },
-      "worked": "'Can we go <b>on Saturday instead</b>?' Saturday is another day.",
+      "worked": "'The rugby match is <b>at the sports centre, not at school</b>.'",
       "type": "mcq",
-      "q": "What does Dev want to do?",
+      "q": "Where is the rugby match?",
       "opts": [
-       "see the film on another day",
-       "buy tickets for tonight",
-       "stay at home on Saturday"
+       "at the sports centre",
+       "at school",
+       "at Sami's house"
       ],
       "at": 0,
       "whys": [
        null,
-       "He will buy tickets for Saturday, not tonight.",
-       "He wants to go OUT on Saturday."
+       "'not at school' means the match is somewhere else.",
+       "Sami says 'See you there', at the match, not at his house."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
        "id": "s6-t10",
        "kind": "text",
-       "head": "Text message",
-       "html": "Rosa, I'm sorry, I can't come to the cinema tonight because I've got a sore throat. Can we go on Saturday instead? I'll buy the tickets. Dev"
+       "head": "TEXT MESSAGE",
+       "html": "Nadia, the rugby match is at the sports centre, not at school. See you there at 2! Sami"
       }
      }
     ]
@@ -2365,545 +1973,245 @@
    {
     "dok": 2,
     "lo": [
-     "6Rm.01",
-     "6Rd.03"
+     "4Rm.01",
+     "4Uv.03"
     ],
     "v": [
      {
       "hint": {
-       "step": "Vy says 'I thought she didn't like computers.' Find an answer that starts with 'She didn't, but...'."
+       "step": "Does the reason after 'Yes' or 'No' make sense?"
       },
-      "worked": "'She didn't like computers.' '<b>She didn't, but</b> I showed her how to use my old tablet.' (F)",
-      "type": "bank",
-      "q": "Choose the best answer for gap 13.",
-      "bank": [
-       [
-        "A",
-        "Mostly for video calls with my uncle in Canada."
-       ],
-       [
-        "B",
-        "Yes, it was. She learned it in five minutes."
-       ],
-       [
-        "C",
-        "Sure, but I'm busy this week. Is next Saturday OK?"
-       ],
-       [
-        "D",
-        "I am! My grandma sent me her first email last night."
-       ],
-       [
-        "E",
-        "Yes, please. And don't forget the charger!"
-       ],
-       [
-        "F",
-        "She didn't, but I showed her how to use my old tablet."
-       ],
-       [
-        "G",
-        "No, thanks. He's got a new phone."
-       ],
-       [
-        "H",
-        "Not at first. She kept pressing the wrong buttons!"
-       ]
+      "worked": "'<b>Yes, please</b>' fits because there are '<b>so many plates</b>'.",
+      "type": "mcq",
+      "q": "Toby says: 'Shall I help you wash the dishes?' What is the best reply?",
+      "opts": [
+       "Yes, please. There are so many plates!",
+       "Yes, please. I've already washed them all.",
+       "No, thanks. There are so many plates!"
       ],
-      "ans": "F",
-      "fig": {
-       "k": "stim",
-       "id": "s6-d3",
-       "kind": "text",
-       "head": "Conversation: Vy and Aisha",
-       "html": "Vy: Hi Aisha. You look happy today!<br>Aisha: (0) <b>D</b><br>Vy: Really? I thought she didn't like computers.<br>Aisha: (13) ________<br>Vy: Was it easy for her to learn?<br>Aisha: (14) ________<br>Vy: Poor Grandma! What does she use the tablet for now?<br>Aisha: (15) ________<br>Vy: That's lovely. My grandpa would like that too. Could you help him?<br>Aisha: (16) ________<br>Vy: That's fine. Shall I bring his tablet to your house?<br>Aisha: (17) ________<br>Vy: OK, I'll remember."
-      }
+      "at": 0,
+      "whys": [
+       null,
+       "If you've already washed them, you don't need help.",
+       "Lots of plates is a reason to say yes, not no."
+      ],
+      "letters": true
      },
      {
       "hint": {
-       "step": "Luca asks 'What was it like?'. Find a word that describes the place."
+       "step": "'Have you ever ...?' asks about the past. Check yes or no."
       },
-      "worked": "'What was it like?' '<b>Amazing!</b> There was a tunnel...' (B)",
-      "type": "bank",
-      "q": "Choose the best answer for gap 13.",
-      "bank": [
-       [
-        "A",
-        "Good idea. Go early because it gets very busy."
-       ],
-       [
-        "B",
-        "Amazing! There was a tunnel under a huge fish tank."
-       ],
-       [
-        "C",
-        "By bus. It took about half an hour."
-       ],
-       [
-        "D",
-        "Lots! I'll show you at break time."
-       ],
-       [
-        "E",
-        "The sea turtles. They swam so slowly and calmly."
-       ],
-       [
-        "F",
-        "Yes, I have. Twice last year."
-       ],
-       [
-        "G",
-        "I went to the new aquarium with my cousins."
-       ],
-       [
-        "H",
-        "It's free for children under twelve on Sundays."
-       ]
+      "worked": "'<b>Have you ever been</b>?' → '<b>Yes, I went</b> there last summer.'",
+      "type": "mcq",
+      "q": "An says: 'Have you ever been to the space museum?' What is the best reply?",
+      "opts": [
+       "Yes, I went there last summer.",
+       "Yes, I'm going there tomorrow.",
+       "No, I went there last summer."
       ],
-      "ans": "B",
-      "fig": {
-       "k": "stim",
-       "id": "s6-d4",
-       "kind": "text",
-       "head": "Conversation: Luca and Ngoc",
-       "html": "Luca: Hi Ngoc. Where were you yesterday?<br>Ngoc: (0) <b>G</b><br>Luca: Oh, I've never been there. What was it like?<br>Ngoc: (13) ________<br>Luca: Wow! What was your favourite animal?<br>Ngoc: (14) ________<br>Luca: Did you take any photos?<br>Ngoc: (15) ________<br>Luca: Great! How much does a ticket cost?<br>Ngoc: (16) ________<br>Luca: Really? Then I'll ask my dad to take me this Sunday.<br>Ngoc: (17) ________<br>Luca: Thanks for the tip!"
-      }
+      "at": 2,
+      "whys": [
+       null,
+       "If you're going tomorrow, you haven't been yet.",
+       "'No' doesn't fit if you went there last summer."
+      ],
+      "letters": true
      }
     ]
    },
    {
     "dok": 2,
     "lo": [
-     "6Rm.01",
-     "6Rd.03"
+     "4Rm.01",
+     "4Us.07"
     ],
     "v": [
      {
       "hint": {
-       "step": "Read Vy's NEXT line: 'Poor Grandma!'. Was it easy or hard?"
+       "step": "'Why' asks for a reason. Look for 'to + verb'."
       },
-      "worked": "'Was it easy?' '<b>Not at first</b>. She kept pressing the wrong buttons!' (H) Then Vy says 'Poor Grandma!', so B is wrong.",
-      "type": "bank",
-      "q": "Choose the best answer for gap 14.",
-      "bank": [
-       [
-        "A",
-        "Mostly for video calls with my uncle in Canada."
-       ],
-       [
-        "B",
-        "Yes, it was. She learned it in five minutes."
-       ],
-       [
-        "C",
-        "Sure, but I'm busy this week. Is next Saturday OK?"
-       ],
-       [
-        "D",
-        "I am! My grandma sent me her first email last night."
-       ],
-       [
-        "E",
-        "Yes, please. And don't forget the charger!"
-       ],
-       [
-        "F",
-        "She didn't, but I showed her how to use my old tablet."
-       ],
-       [
-        "G",
-        "No, thanks. He's got a new phone."
-       ],
-       [
-        "H",
-        "Not at first. She kept pressing the wrong buttons!"
-       ]
+      "worked": "'<b>Why</b>?' → '<b>To keep</b> all my toy cars in.'",
+      "type": "mcq",
+      "q": "Your friend says: 'Why do you need that big box?' What is the best reply?",
+      "opts": [
+       "To keep all my toy cars in.",
+       "From the shop next to school.",
+       "Since last Saturday."
       ],
-      "ans": "H",
-      "fig": {
-       "k": "stim",
-       "id": "s6-d3",
-       "kind": "text",
-       "head": "Conversation: Vy and Aisha",
-       "html": "Vy: Hi Aisha. You look happy today!<br>Aisha: (0) <b>D</b><br>Vy: Really? I thought she didn't like computers.<br>Aisha: (13) ________<br>Vy: Was it easy for her to learn?<br>Aisha: (14) ________<br>Vy: Poor Grandma! What does she use the tablet for now?<br>Aisha: (15) ________<br>Vy: That's lovely. My grandpa would like that too. Could you help him?<br>Aisha: (16) ________<br>Vy: That's fine. Shall I bring his tablet to your house?<br>Aisha: (17) ________<br>Vy: OK, I'll remember."
-      }
+      "at": 1,
+      "whys": [
+       null,
+       "This answers 'Where from?', not 'Why?'.",
+       "This answers 'How long?', not 'Why?'."
+      ],
+      "letters": true
      },
      {
       "hint": {
-       "step": "Luca asks about an animal. Which option names an animal?"
+       "step": "'What's it for?' asks about a use. Look for 'to + verb'."
       },
-      "worked": "'What was your favourite animal?' '<b>The sea turtles</b>.' (E)",
-      "type": "bank",
-      "q": "Choose the best answer for gap 14.",
-      "bank": [
-       [
-        "A",
-        "Good idea. Go early because it gets very busy."
-       ],
-       [
-        "B",
-        "Amazing! There was a tunnel under a huge fish tank."
-       ],
-       [
-        "C",
-        "By bus. It took about half an hour."
-       ],
-       [
-        "D",
-        "Lots! I'll show you at break time."
-       ],
-       [
-        "E",
-        "The sea turtles. They swam so slowly and calmly."
-       ],
-       [
-        "F",
-        "Yes, I have. Twice last year."
-       ],
-       [
-        "G",
-        "I went to the new aquarium with my cousins."
-       ],
-       [
-        "H",
-        "It's free for children under twelve on Sundays."
-       ]
+      "worked": "'<b>What's</b> the umbrella <b>for</b>?' → '<b>To keep</b> the sun off my head.'",
+      "type": "mcq",
+      "q": "Mum says: 'What's the umbrella for? It's sunny!' What is the best reply?",
+      "opts": [
+       "To keep the sun off my head.",
+       "Because it's raining now.",
+       "I bought it at the market."
       ],
-      "ans": "E",
-      "fig": {
-       "k": "stim",
-       "id": "s6-d4",
-       "kind": "text",
-       "head": "Conversation: Luca and Ngoc",
-       "html": "Luca: Hi Ngoc. Where were you yesterday?<br>Ngoc: (0) <b>G</b><br>Luca: Oh, I've never been there. What was it like?<br>Ngoc: (13) ________<br>Luca: Wow! What was your favourite animal?<br>Ngoc: (14) ________<br>Luca: Did you take any photos?<br>Ngoc: (15) ________<br>Luca: Great! How much does a ticket cost?<br>Ngoc: (16) ________<br>Luca: Really? Then I'll ask my dad to take me this Sunday.<br>Ngoc: (17) ________<br>Luca: Thanks for the tip!"
-      }
+      "at": 2,
+      "whys": [
+       null,
+       "Mum says it's sunny, so it isn't raining.",
+       "This says where you got it, not what it's for."
+      ],
+      "letters": true
      }
     ]
    },
    {
     "dok": 2,
     "lo": [
-     "6Rm.01",
-     "6Rd.03"
+     "4Rm.01",
+     "4Ug.10"
     ],
     "v": [
      {
       "hint": {
-       "step": "Vy asks what the tablet is FOR. Look for 'for'."
+       "step": "Holly is worried. Which reply helps her?"
       },
-      "worked": "'What does she use the tablet for?' 'Mostly <b>for video calls</b> with my uncle.' (A)",
-      "type": "bank",
-      "q": "Choose the best answer for gap 15.",
-      "bank": [
-       [
-        "A",
-        "Mostly for video calls with my uncle in Canada."
-       ],
-       [
-        "B",
-        "Yes, it was. She learned it in five minutes."
-       ],
-       [
-        "C",
-        "Sure, but I'm busy this week. Is next Saturday OK?"
-       ],
-       [
-        "D",
-        "I am! My grandma sent me her first email last night."
-       ],
-       [
-        "E",
-        "Yes, please. And don't forget the charger!"
-       ],
-       [
-        "F",
-        "She didn't, but I showed her how to use my old tablet."
-       ],
-       [
-        "G",
-        "No, thanks. He's got a new phone."
-       ],
-       [
-        "H",
-        "Not at first. She kept pressing the wrong buttons!"
-       ]
+      "worked": "'<b>Don't worry</b>' answers a worry, and '<b>might be</b>' gives an idea.",
+      "type": "mcq",
+      "q": "Holly says: 'I'm worried. I can't find my door key.' What is the best reply?",
+      "opts": [
+       "Don't worry. It might be in your coat.",
+       "Great! Where did you find it?",
+       "Yes, I've got a door key too."
       ],
-      "ans": "A",
-      "fig": {
-       "k": "stim",
-       "id": "s6-d3",
-       "kind": "text",
-       "head": "Conversation: Vy and Aisha",
-       "html": "Vy: Hi Aisha. You look happy today!<br>Aisha: (0) <b>D</b><br>Vy: Really? I thought she didn't like computers.<br>Aisha: (13) ________<br>Vy: Was it easy for her to learn?<br>Aisha: (14) ________<br>Vy: Poor Grandma! What does she use the tablet for now?<br>Aisha: (15) ________<br>Vy: That's lovely. My grandpa would like that too. Could you help him?<br>Aisha: (16) ________<br>Vy: That's fine. Shall I bring his tablet to your house?<br>Aisha: (17) ________<br>Vy: OK, I'll remember."
-      }
+      "at": 0,
+      "whys": [
+       null,
+       "Holly can't find it, so you can't ask where she found it.",
+       "This is about your key, but Holly needs help with hers."
+      ],
+      "letters": true
      },
      {
       "hint": {
-       "step": "'Did you take any photos?' Then Luca says 'Great!'. So the answer is good news."
+       "step": "Look at 'Do we ...?'. Answer with 'we do' or 'we don't'."
       },
-      "worked": "'Did you take any photos?' '<b>Lots!</b> I'll show you.' (D) F says 'I have', which doesn't match 'Did you'.",
-      "type": "bank",
-      "q": "Choose the best answer for gap 15.",
-      "bank": [
-       [
-        "A",
-        "Good idea. Go early because it gets very busy."
-       ],
-       [
-        "B",
-        "Amazing! There was a tunnel under a huge fish tank."
-       ],
-       [
-        "C",
-        "By bus. It took about half an hour."
-       ],
-       [
-        "D",
-        "Lots! I'll show you at break time."
-       ],
-       [
-        "E",
-        "The sea turtles. They swam so slowly and calmly."
-       ],
-       [
-        "F",
-        "Yes, I have. Twice last year."
-       ],
-       [
-        "G",
-        "I went to the new aquarium with my cousins."
-       ],
-       [
-        "H",
-        "It's free for children under twelve on Sundays."
-       ]
+      "worked": "'<b>Do</b> we have to ...?' → '<b>No, we don't</b>.' So you can wear your own clothes.",
+      "type": "mcq",
+      "q": "Viet says: 'Do we have to wear our uniform tomorrow?' What is the best reply?",
+      "opts": [
+       "No, we don't. We can wear our own clothes.",
+       "Yes, we do. We can wear our own clothes.",
+       "No, we didn't. We all wore our school uniform."
       ],
-      "ans": "D",
-      "fig": {
-       "k": "stim",
-       "id": "s6-d4",
-       "kind": "text",
-       "head": "Conversation: Luca and Ngoc",
-       "html": "Luca: Hi Ngoc. Where were you yesterday?<br>Ngoc: (0) <b>G</b><br>Luca: Oh, I've never been there. What was it like?<br>Ngoc: (13) ________<br>Luca: Wow! What was your favourite animal?<br>Ngoc: (14) ________<br>Luca: Did you take any photos?<br>Ngoc: (15) ________<br>Luca: Great! How much does a ticket cost?<br>Ngoc: (16) ________<br>Luca: Really? Then I'll ask my dad to take me this Sunday.<br>Ngoc: (17) ________<br>Luca: Thanks for the tip!"
-      }
+      "at": 1,
+      "whys": [
+       null,
+       "If you have to wear uniform, you can't wear your own clothes.",
+       "'didn't' is the past, but Viet asks about tomorrow."
+      ],
+      "letters": true
      }
     ]
    },
    {
     "dok": 2,
     "lo": [
-     "6Rm.01",
-     "6Rd.03"
+     "4Rm.01",
+     "4Uv.04"
     ],
     "v": [
      {
       "hint": {
-       "step": "Vy asks for help. Vy's next line is 'That's fine.' So Aisha suggested something."
+       "step": "Check the reason. Does it match the person?"
       },
-      "worked": "'Could you help him?' '<b>Sure, but</b> I'm busy this week. <b>Is next Saturday OK?</b>' (C) 'That's fine.'",
-      "type": "bank",
-      "q": "Choose the best answer for gap 16.",
-      "bank": [
-       [
-        "A",
-        "Mostly for video calls with my uncle in Canada."
-       ],
-       [
-        "B",
-        "Yes, it was. She learned it in five minutes."
-       ],
-       [
-        "C",
-        "Sure, but I'm busy this week. Is next Saturday OK?"
-       ],
-       [
-        "D",
-        "I am! My grandma sent me her first email last night."
-       ],
-       [
-        "E",
-        "Yes, please. And don't forget the charger!"
-       ],
-       [
-        "F",
-        "She didn't, but I showed her how to use my old tablet."
-       ],
-       [
-        "G",
-        "No, thanks. He's got a new phone."
-       ],
-       [
-        "H",
-        "Not at first. She kept pressing the wrong buttons!"
-       ]
+      "worked": "You are '<b>in a hurry</b>', so your <b>brother</b> draws more carefully.",
+      "type": "mcq",
+      "q": "Nadia says: 'Who draws more carefully, you or your brother?' What is the best reply?",
+      "opts": [
+       "My brother. I'm always in a hurry.",
+       "Me. I'm always in a hurry.",
+       "My brother. He's always in a hurry."
       ],
-      "ans": "C",
-      "fig": {
-       "k": "stim",
-       "id": "s6-d3",
-       "kind": "text",
-       "head": "Conversation: Vy and Aisha",
-       "html": "Vy: Hi Aisha. You look happy today!<br>Aisha: (0) <b>D</b><br>Vy: Really? I thought she didn't like computers.<br>Aisha: (13) ________<br>Vy: Was it easy for her to learn?<br>Aisha: (14) ________<br>Vy: Poor Grandma! What does she use the tablet for now?<br>Aisha: (15) ________<br>Vy: That's lovely. My grandpa would like that too. Could you help him?<br>Aisha: (16) ________<br>Vy: That's fine. Shall I bring his tablet to your house?<br>Aisha: (17) ________<br>Vy: OK, I'll remember."
-      }
+      "at": 1,
+      "whys": [
+       null,
+       "If you're always in a hurry, you don't draw carefully.",
+       "If your brother is in a hurry, he doesn't draw more carefully."
+      ],
+      "letters": true
      },
      {
       "hint": {
-       "step": "Luca asks 'How much?'. Find a price."
+       "step": "Is Iris's news good or bad?"
       },
-      "worked": "'How much does a ticket cost?' 'It's <b>free</b> for children under twelve on Sundays.' (H). C answers 'How did you get there?'.",
-      "type": "bank",
-      "q": "Choose the best answer for gap 16.",
-      "bank": [
-       [
-        "A",
-        "Good idea. Go early because it gets very busy."
-       ],
-       [
-        "B",
-        "Amazing! There was a tunnel under a huge fish tank."
-       ],
-       [
-        "C",
-        "By bus. It took about half an hour."
-       ],
-       [
-        "D",
-        "Lots! I'll show you at break time."
-       ],
-       [
-        "E",
-        "The sea turtles. They swam so slowly and calmly."
-       ],
-       [
-        "F",
-        "Yes, I have. Twice last year."
-       ],
-       [
-        "G",
-        "I went to the new aquarium with my cousins."
-       ],
-       [
-        "H",
-        "It's free for children under twelve on Sundays."
-       ]
+      "worked": "'<b>goes faster</b>' is good news, so '<b>Great!</b>' fits.",
+      "type": "mcq",
+      "q": "Iris says: 'My new skateboard goes faster than my old one!' What is the best reply?",
+      "opts": [
+       "Great! Can I try it?",
+       "Oh no! It's so slow.",
+       "Yes, the old one is faster."
       ],
-      "ans": "H",
-      "fig": {
-       "k": "stim",
-       "id": "s6-d4",
-       "kind": "text",
-       "head": "Conversation: Luca and Ngoc",
-       "html": "Luca: Hi Ngoc. Where were you yesterday?<br>Ngoc: (0) <b>G</b><br>Luca: Oh, I've never been there. What was it like?<br>Ngoc: (13) ________<br>Luca: Wow! What was your favourite animal?<br>Ngoc: (14) ________<br>Luca: Did you take any photos?<br>Ngoc: (15) ________<br>Luca: Great! How much does a ticket cost?<br>Ngoc: (16) ________<br>Luca: Really? Then I'll ask my dad to take me this Sunday.<br>Ngoc: (17) ________<br>Luca: Thanks for the tip!"
-      }
+      "at": 0,
+      "whys": [
+       null,
+       "Iris says it's fast, so 'slow' doesn't fit.",
+       "Iris says the NEW one is faster."
+      ],
+      "letters": true
      }
     ]
    },
    {
     "dok": 2,
     "lo": [
-     "6Rm.01",
-     "6Rd.03"
+     "4Rm.01",
+     "4Ug.01"
     ],
     "v": [
      {
       "hint": {
-       "step": "Vy's last line is 'OK, I'll remember.' What must Vy remember?"
+       "step": "Look at 'don't you?'. Use the same verb, 'do'."
       },
-      "worked": "'Shall I bring his tablet?' '<b>Yes, please. And don't forget the charger!</b>' (E) 'OK, I'll remember.'",
-      "type": "bank",
-      "q": "Choose the best answer for gap 17.",
-      "bank": [
-       [
-        "A",
-        "Mostly for video calls with my uncle in Canada."
-       ],
-       [
-        "B",
-        "Yes, it was. She learned it in five minutes."
-       ],
-       [
-        "C",
-        "Sure, but I'm busy this week. Is next Saturday OK?"
-       ],
-       [
-        "D",
-        "I am! My grandma sent me her first email last night."
-       ],
-       [
-        "E",
-        "Yes, please. And don't forget the charger!"
-       ],
-       [
-        "F",
-        "She didn't, but I showed her how to use my old tablet."
-       ],
-       [
-        "G",
-        "No, thanks. He's got a new phone."
-       ],
-       [
-        "H",
-        "Not at first. She kept pressing the wrong buttons!"
-       ]
+      "worked": "'<b>don't you?</b>' → '<b>Yes, I do</b>.'",
+      "type": "mcq",
+      "q": "Luca says: 'You like mangoes, don't you?' What is the best reply?",
+      "opts": [
+       "Yes, I do. They're so juicy!",
+       "Yes, I am. They're so juicy!",
+       "No, I don't. They're so juicy!"
       ],
-      "ans": "E",
-      "fig": {
-       "k": "stim",
-       "id": "s6-d3",
-       "kind": "text",
-       "head": "Conversation: Vy and Aisha",
-       "html": "Vy: Hi Aisha. You look happy today!<br>Aisha: (0) <b>D</b><br>Vy: Really? I thought she didn't like computers.<br>Aisha: (13) ________<br>Vy: Was it easy for her to learn?<br>Aisha: (14) ________<br>Vy: Poor Grandma! What does she use the tablet for now?<br>Aisha: (15) ________<br>Vy: That's lovely. My grandpa would like that too. Could you help him?<br>Aisha: (16) ________<br>Vy: That's fine. Shall I bring his tablet to your house?<br>Aisha: (17) ________<br>Vy: OK, I'll remember."
-      }
+      "at": 2,
+      "whys": [
+       null,
+       "'don't you?' needs 'do', not 'am'.",
+       "If they're juicy and you like them, the answer is 'yes'."
+      ],
+      "letters": true
      },
      {
       "hint": {
-       "step": "Luca says 'Thanks for the tip!'. So Ngoc gave him advice."
+       "step": "Check that the second sentence agrees with the first."
       },
-      "worked": "'I'll ask my dad to take me.' '<b>Good idea. Go early</b> because it gets very busy.' (A) A tip is a piece of advice.",
-      "type": "bank",
-      "q": "Choose the best answer for gap 17.",
-      "bank": [
-       [
-        "A",
-        "Good idea. Go early because it gets very busy."
-       ],
-       [
-        "B",
-        "Amazing! There was a tunnel under a huge fish tank."
-       ],
-       [
-        "C",
-        "By bus. It took about half an hour."
-       ],
-       [
-        "D",
-        "Lots! I'll show you at break time."
-       ],
-       [
-        "E",
-        "The sea turtles. They swam so slowly and calmly."
-       ],
-       [
-        "F",
-        "Yes, I have. Twice last year."
-       ],
-       [
-        "G",
-        "I went to the new aquarium with my cousins."
-       ],
-       [
-        "H",
-        "It's free for children under twelve on Sundays."
-       ]
+      "worked": "'<b>Sure</b>' + '<b>I've got lots of colours</b>' go together.",
+      "type": "mcq",
+      "q": "Trang says: 'Can you bring some pens for our poster?' What is the best reply?",
+      "opts": [
+       "Sure. I've got lots of colours.",
+       "Sure. I haven't got any pens.",
+       "Sorry, I made one last year."
       ],
-      "ans": "A",
-      "fig": {
-       "k": "stim",
-       "id": "s6-d4",
-       "kind": "text",
-       "head": "Conversation: Luca and Ngoc",
-       "html": "Luca: Hi Ngoc. Where were you yesterday?<br>Ngoc: (0) <b>G</b><br>Luca: Oh, I've never been there. What was it like?<br>Ngoc: (13) ________<br>Luca: Wow! What was your favourite animal?<br>Ngoc: (14) ________<br>Luca: Did you take any photos?<br>Ngoc: (15) ________<br>Luca: Great! How much does a ticket cost?<br>Ngoc: (16) ________<br>Luca: Really? Then I'll ask my dad to take me this Sunday.<br>Ngoc: (17) ________<br>Luca: Thanks for the tip!"
-      }
+      "at": 2,
+      "whys": [
+       null,
+       "If you haven't got any pens, you can't bring them.",
+       "Trang asks about now, not last year."
+      ],
+      "letters": true
      }
     ]
    }
@@ -2913,413 +2221,413 @@
   "secs": 60,
   "items": [
    [
-    "'Mustn't' means...",
+    "'Mustn't' means ...",
     [
      "not allowed",
-     "not necessary",
-     "a good idea"
+     "you need to",
+     "it's free"
     ]
    ],
    [
-    "'Don't have to' means...",
+    "'Must' means ...",
     [
-     "not necessary",
-     "not allowed",
-     "you must"
-    ]
-   ],
-   [
-    "'Must' means...",
-    [
-     "necessary",
+     "you need to",
      "not allowed",
      "maybe"
     ]
    ],
    [
-    "'Open until 6': at 7 it is...",
+    "'Free' means ...",
+    [
+     "you don't pay",
+     "you pay a lot",
+     "it's closed"
+    ]
+   ],
+   [
+    "'Closed' means you can ...",
+    [
+     "not go in",
+     "go in",
+     "pay inside"
+    ]
+   ],
+   [
+    "'Open 9 to 5': at 6 it is ...",
     [
      "closed",
      "open",
-     "busy"
+     "free"
     ]
    ],
    [
-    "'Members only': who can go in?",
+    "'Bikes only': what can go here?",
     [
-     "members",
-     "everyone",
-     "visitors"
+     "bikes",
+     "cars",
+     "everything"
     ]
    ],
    [
-    "'Cancelled' means the event...",
+    "'No dogs': can dogs come in?",
     [
-     "won't happen",
-     "is later",
-     "is full"
+     "no",
+     "yes",
+     "only big dogs"
     ]
    ],
    [
-    "'Postponed' means...",
+    "'Don't run' means ...",
     [
-     "moved to later",
-     "stopped forever",
-     "started early"
+     "walk",
+     "run fast",
+     "jump"
     ]
    ],
    [
-    "'Free entry' means you...",
+    "'Quiet, please' means ...",
     [
-     "don't pay",
-     "pay a little",
-     "can't go in"
+     "don't be noisy",
+     "talk loudly",
+     "sing"
     ]
    ],
    [
-    "'No entry' means you...",
+    "'Closed on Mondays': when can't you go?",
     [
-     "can't go in",
-     "can go in",
-     "must go in"
+     "Monday",
+     "Tuesday",
+     "Sunday"
     ]
    ],
    [
-    "'Sold out': how many tickets are left?",
+    "'Under 5s free': who pays?",
     [
-     "none",
-     "some",
-     "all"
+     "older people",
+     "babies",
+     "nobody"
     ]
    ],
    [
-    "Reply to 'Thank you!'",
+    "'Last bus: 9 p.m.' No buses after ...",
     [
-     "You're welcome.",
-     "Yes, please.",
-     "Me too."
+     "9 p.m.",
+     "8 p.m.",
+     "10 a.m."
     ]
    ],
    [
-    "Reply to 'How are you?'",
+    "'Only 4 people in the lift': 5 can ...",
     [
-     "Fine, thanks.",
-     "By bus.",
-     "At six."
+     "not go in",
+     "go in",
+     "go first"
     ]
    ],
    [
-    "Reply to 'Would you like some juice?'",
+    "'Except Sunday' means ...",
     [
-     "Yes, please.",
-     "You're welcome.",
-     "I'm ten."
+     "not Sunday",
+     "only Sunday",
+     "every Sunday"
     ]
    ],
    [
-    "Reply to 'Sorry I'm late!'",
+    "'Please return by 6': give it back ...",
     [
-     "Don't worry.",
-     "Well done!",
-     "Yes, please."
-    ]
-   ],
-   [
-    "Reply to 'I passed my test!'",
-    [
-     "Well done!",
-     "Never mind.",
-     "No, thanks."
-    ]
-   ],
-   [
-    "Reply to 'I can't come, sorry.'",
-    [
-     "Never mind.",
-     "Congratulations!",
-     "Yes, please."
-    ]
-   ],
-   [
-    "Reply to 'Shall we play chess?'",
-    [
-     "Good idea!",
-     "I'm fine.",
-     "By train."
-    ]
-   ],
-   [
-    "Reply to 'What time is it?'",
-    [
-     "Half past four.",
-     "On Monday.",
-     "In the park."
-    ]
-   ],
-   [
-    "Reply to 'Where's the gym?'",
-    [
-     "Next to the hall.",
-     "At three.",
-     "Every day."
-    ]
-   ],
-   [
-    "Reply to 'How often do you swim?'",
-    [
-     "Twice a week.",
-     "For an hour.",
-     "In the pool."
-    ]
-   ],
-   [
-    "Reply to 'Have you ever flown?'",
-    [
-     "Yes, once.",
-     "Yes, I am.",
-     "Tomorrow."
-    ]
-   ],
-   [
-    "Reply to 'Whose bag is this?'",
-    [
-     "It's Kim's.",
-     "It's blue.",
-     "It's here."
-    ]
-   ],
-   [
-    "Reply to 'Can I borrow your pen?'",
-    [
-     "Sure, here you are.",
-     "You're welcome.",
-     "Me neither."
-    ]
-   ],
-   [
-    "Reply to 'Have a good weekend!'",
-    [
-     "You too!",
-     "Yes, I have.",
-     "Never mind."
-    ]
-   ],
-   [
-    "Reply to 'Why were you late?'",
-    [
-     "I missed the bus.",
-     "At eight.",
-     "Yes, I was."
-    ]
-   ],
-   [
-    "'Please queue here' means...",
-    [
-     "wait in line",
-     "sit down",
-     "go home"
-    ]
-   ],
-   [
-    "'Keep off the grass' means...",
-    [
-     "don't walk on it",
-     "cut the grass",
-     "sit on it"
-    ]
-   ],
-   [
-    "Where do you see 'Quiet, please'?",
-    [
-     "library",
-     "football pitch",
-     "playground"
-    ]
-   ],
-   [
-    "'Staff only': who can go in?",
-    [
-     "workers",
-     "students",
-     "visitors"
-    ]
-   ],
-   [
-    "'Wet floor' means be...",
-    [
-     "careful",
-     "quick",
-     "quiet"
-    ]
-   ],
-   [
-    "'Do not feed the animals' means you...",
-    [
-     "mustn't feed them",
-     "can feed them",
-     "must feed them"
-    ]
-   ],
-   [
-    "'Book in advance' means book...",
-    [
-     "before",
-     "after",
+     "before 6",
+     "after 6",
      "never"
     ]
    ],
    [
-    "'Out of order' means it...",
+    "'Welcome!' means ...",
     [
-     "doesn't work",
-     "is new",
-     "is tidy"
+     "come in",
+     "go away",
+     "be quiet"
     ]
    ],
    [
-    "'Under 12s with an adult': a 9-year-old needs...",
+    "'Children with an adult' means ...",
     [
-     "an adult",
-     "a ticket only",
-     "a friend"
+     "not alone",
+     "alone",
+     "adults only"
     ]
    ],
    [
-    "'Last entry 4 p.m.': can you enter at 5?",
+    "'Keep off the grass' means ...",
     [
-     "no",
-     "yes",
-     "only today"
+     "don't walk on it",
+     "sit on it",
+     "cut it"
     ]
    ],
    [
-    "'Not yet' means...",
+    "Who wrote it? Look at the ...",
     [
-     "not now",
-     "never",
-     "already"
+     "end",
+     "middle",
+     "title"
     ]
    ],
    [
-    "'Already' means...",
+    "'Today, not Friday' shows a new ...",
     [
-     "before now",
-     "not yet",
-     "next week"
+     "day",
+     "place",
+     "name"
     ]
    ],
    [
-    "'Instead of' means...",
+    "'Room 5, not Room 3': go to Room ...",
     [
-     "in place of",
-     "as well as",
-     "after"
+     "5",
+     "3",
+     "8"
     ]
    ],
    [
-    "'Every other day' means...",
+    "Red 12, Blue 15: who got more?",
     [
-     "every second day",
-     "every day",
-     "once a week"
+     "Blue",
+     "Red",
+     "both"
     ]
    ],
    [
-    "Opposite of 'allowed'",
+    "Cats 4, Dogs 9: fewer children have ...",
     [
-     "not permitted",
-     "permitted",
-     "welcome"
+     "cats",
+     "dogs",
+     "fish"
     ]
    ],
    [
-    "Paraphrase: 'I'm not keen on it.'",
+    "Monday 30°C, Tuesday 25°C: cooler day?",
     [
-     "I don't like it.",
-     "I love it.",
-     "I've got it."
+     "Tuesday",
+     "Monday",
+     "both"
     ]
    ],
    [
-    "Paraphrase: 'I can't wait!'",
+    "Biggest number in a table is ...",
     [
-     "I'm excited.",
-     "I'm bored.",
-     "I'm late."
+     "the most",
+     "the fewest",
+     "the least"
     ]
    ],
    [
-    "Paraphrase: 'It's not necessary.'",
+    "'Would you like some cake?'",
     [
-     "You needn't.",
-     "You mustn't.",
-     "You must."
+     "Yes, please.",
+     "You're welcome.",
+     "Never mind."
     ]
    ],
    [
-    "'Hurry!' means...",
+    "'Thank you for the present!'",
     [
-     "be quick",
-     "be quiet",
-     "be careful"
+     "You're welcome.",
+     "Yes, please.",
+     "Oh no!"
     ]
    ],
    [
-    "'Two for one': buy two, pay for...",
+    "'I lost my ticket.'",
     [
-     "one",
-     "two",
-     "three"
+     "Oh no!",
+     "Great!",
+     "Yes, please."
     ]
    ],
    [
-    "Reply to 'Is this seat free?'",
+    "'Where do you live?'",
     [
-     "Yes, go ahead.",
-     "No, thank you.",
-     "It's a chair."
+     "Near the river.",
+     "At six o'clock.",
+     "Yes, I do."
     ]
    ],
    [
-    "Reply to 'Let's meet at five.'",
+    "'When is the match?'",
     [
-     "OK, see you then.",
-     "Yes, I'm five.",
+     "On Saturday.",
+     "At the club.",
+     "With my dad."
+    ]
+   ],
+   [
+    "'Why are you running?'",
+    [
+     "To catch the bus.",
+     "In the park.",
+     "Very fast."
+    ]
+   ],
+   [
+    "'How old is your sister?'",
+    [
+     "She's seven.",
+     "She's tall.",
+     "She's at home."
+    ]
+   ],
+   [
+    "'Who made this cake?'",
+    [
+     "My grandma.",
+     "In the kitchen.",
+     "Last night."
+    ]
+   ],
+   [
+    "'Can I look at your comic?'",
+    [
+     "Sure, here you are.",
+     "You're welcome.",
+     "No, I can't."
+    ]
+   ],
+   [
+    "'I passed my swimming test!'",
+    [
+     "Well done!",
+     "Never mind.",
+     "Don't worry."
+    ]
+   ],
+   [
+    "'Let's play football after school.'",
+    [
+     "Good idea!",
+     "You're welcome.",
+     "Yes, I did."
+    ]
+   ],
+   [
+    "'Have you finished yet?'",
+    [
+     "Yes, I have.",
+     "Yes, I do.",
+     "Yes, I am."
+    ]
+   ],
+   [
+    "'You can swim, can't you?'",
+    [
+     "Yes, I can.",
+     "Yes, I do.",
+     "Yes, I am."
+    ]
+   ],
+   [
+    "'It's hot today, isn't it?'",
+    [
+     "Yes, it is.",
+     "Yes, it does.",
+     "Yes, it has."
+    ]
+   ],
+   [
+    "'Have you ever seen snow?'",
+    [
+     "No, never.",
+     "No, tomorrow.",
+     "No, last week."
+    ]
+   ],
+   [
+    "'What's this box for?'",
+    [
+     "To keep toys in.",
+     "From the shop.",
+     "Yesterday."
+    ]
+   ],
+   [
+    "'I'm worried about the test.'",
+    [
+     "Don't worry.",
+     "Thank you.",
+     "Yes, please."
+    ]
+   ],
+   [
+    "'Shall I open the window?'",
+    [
+     "Yes, please.",
+     "Yes, I shall.",
      "You're welcome."
     ]
    ],
    [
-    "Reply to 'Did you enjoy the match?'",
+    "'Sorry, I'm late!'",
     [
-     "Yes, it was great!",
-     "Yes, I do.",
-     "No, I'm not."
+     "That's OK.",
+     "Well done!",
+     "Yes, please."
     ]
    ],
    [
-    "Reply to 'What's the matter?'",
+    "'Do you want to come?'",
     [
-     "I've hurt my knee.",
-     "It's a ball.",
-     "It's Monday."
+     "I'd love to!",
+     "I came.",
+     "You're welcome."
     ]
    ],
    [
-    "'Bring your own lunch' means...",
+    "'Would you like tea or juice?'",
     [
-     "lunch isn't given",
-     "lunch is free",
-     "no lunch allowed"
+     "Juice, please.",
+     "Yes, please.",
+     "I'd love to."
+    ]
+   ],
+   [
+    "A reply to 'Thank you' is ...",
+    [
+     "You're welcome.",
+     "Thank you.",
+     "Oh no!"
+    ]
+   ],
+   [
+    "An offer starts with ...",
+    [
+     "Would you like",
+     "Where is",
+     "Why did"
+    ]
+   ],
+   [
+    "'Never mind' comes after ...",
+    [
+     "bad news",
+     "thanks",
+     "an offer"
+    ]
+   ],
+   [
+    "Same meaning, different words: ...",
+    [
+     "a paraphrase",
+     "a table",
+     "a sign"
     ]
    ]
   ]
  },
  "selfcheck": {
   "goals": [
-   "find the rule words must, mustn't and don't have to",
-   "say what a short message means in my own words",
-   "spot wrong options that change the meaning",
-   "choose a reply that fits the line before and the line after"
+   "find the sign words must, mustn't, only and free",
+   "say what a sign or message means in my own words",
+   "compare the numbers in a small table",
+   "choose the reply that fits what someone says"
   ],
   "again": [
    "c",

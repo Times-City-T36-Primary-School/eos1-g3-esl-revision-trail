@@ -1,133 +1,130 @@
-/* 22-pack-stop9.js - ALL the content of Stop 9, Instructions, advice and descriptions (Grade 5 ESL, Cambridge Stage 6).
+/* 22-pack-stop9.js - ALL the content of Stop 9, Describing people and places (Grade 3 ESL, Cambridge Stage 4).
    Made by scripts/convert.py from content/stop9.json (written from the exam-style guide only; no real paper seen). */
 (function (T) {
   'use strict';
-  window.T_ART = Object.assign(window.T_ART || {}, {"e-s9-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"first\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">1️⃣</text></svg>", "e-s9-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"next\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">➡️</text></svg>", "e-s9-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"finally\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏁</text></svg>", "e-s9-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"make sure\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">✅</text></svg>", "e-s9-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"don&#x27;t forget to\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🧠</text></svg>", "e-s9-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"because\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❓</text></svg>", "e-s9-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"so\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👉</text></svg>", "e-s9-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"however\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">↔️</text></svg>", "e-s9-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"also\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">➕</text></svg>", "e-s9-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"title\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏷️</text></svg>", "e-s9-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"paragraph\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📄</text></svg>", "e-s9-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"bullet point\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔘</text></svg>", "e-s9-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"proofread\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔎</text></svg>"});
+  window.T_ART = Object.assign(window.T_ART || {}, {"e-s9-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"kind\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">😊</text></svg>", "e-s9-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"funny\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">😂</text></svg>", "e-s9-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"friendly\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👋</text></svg>", "e-s9-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"helpful\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🤝</text></svg>", "e-s9-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"clever\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🧠</text></svg>", "e-s9-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"huge\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🐘</text></svg>", "e-s9-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"quiet\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🤫</text></svg>", "e-s9-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"colourful\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🌈</text></svg>", "e-s9-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"useful\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔧</text></svg>", "e-s9-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"because\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">❓</text></svg>", "e-s9-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"but\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">↔️</text></svg>", "e-s9-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"also\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">➕</text></svg>", "e-s9-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"paragraph\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📄</text></svg>"});
   T.packs[9] = {
  "n": 9,
- "title": "Instructions, advice and descriptions",
+ "title": "Describing people and places",
  "los": [
-  "6Wor.02",
-  "6Wc.01",
-  "6Wca.04",
-  "6Wca.02",
-  "6Wor.03",
-  "6Wca.03",
-  "6Wc.03",
-  "6Wc.02"
+  "4Wc.02",
+  "4Wor.02",
+  "4Wca.04",
+  "4Wca.03",
+  "4Wc.03"
  ],
  "blurb": {
-  "en": "Write clear instructions and advice, and lively descriptions with a title.",
-  "vi": "Viết hướng dẫn, lời khuyên rõ ràng và bài miêu tả sinh động có tiêu đề."
+  "en": "Describe people, places and things in 6 to 8 clear sentences.",
+  "vi": "Miêu tả người, nơi chốn và đồ vật bằng 6 đến 8 câu rõ ràng."
  },
  "words": {
   "sets": [
    {
     "id": "A",
     "title": {
-     "en": "Instruction words",
-     "vi": "Từ dùng khi hướng dẫn"
+     "en": "Describing people",
+     "vi": "Từ miêu tả người"
     },
     "keys": [
-     "first",
-     "next",
-     "finally",
-     "make sure",
-     "don't forget to"
+     "kind",
+     "funny",
+     "friendly",
+     "helpful",
+     "clever"
     ]
    },
    {
     "id": "B",
     "title": {
-     "en": "Linking words",
-     "vi": "Từ nối"
+     "en": "Describing places and things",
+     "vi": "Từ miêu tả nơi chốn và đồ vật"
     },
     "keys": [
-     "because",
-     "so",
-     "however",
-     "also"
+     "huge",
+     "quiet",
+     "colourful",
+     "useful"
     ]
    },
    {
     "id": "C",
     "title": {
-     "en": "Writing words",
-     "vi": "Từ về bài viết"
+     "en": "Linking and writing words",
+     "vi": "Từ nối và từ về bài viết"
     },
     "keys": [
-     "title",
-     "paragraph",
-     "bullet point",
-     "proofread"
+     "because",
+     "but",
+     "also",
+     "paragraph"
     ]
    }
   ],
   "items": {
-   "first": {
+   "kind": {
     "art": "e-s9-0",
-    "vi": "đầu tiên",
-    "def": "Use it to start the first step of your instructions. Example: *First*, wash your hands with soap."
+    "vi": "tốt bụng",
+    "def": "Nice to other people and happy to help them. Example: My grandma is very *kind* to everyone."
    },
-   "next": {
+   "funny": {
     "art": "e-s9-1",
-    "vi": "tiếp theo",
-    "def": "Use it for the step that comes after the one before. Example: *Next*, cut the banana into small pieces."
+    "vi": "hài hước, vui tính",
+    "def": "Makes people laugh. Example: My uncle tells *funny* stories at dinner."
    },
-   "finally": {
+   "friendly": {
     "art": "e-s9-2",
-    "vi": "cuối cùng",
-    "def": "Use it for the last step or the last idea. Example: *Finally*, pour the smoothie into a glass."
+    "vi": "thân thiện",
+    "def": "Happy to talk to people, and smiles a lot. Example: Our new neighbour is very *friendly*."
    },
-   "make sure": {
+   "helpful": {
     "art": "e-s9-3",
-    "vi": "hãy chắc chắn rằng",
-    "def": "A friendly way to tell someone to check or do something important. Example: *Make sure* the lid is on tightly."
+    "vi": "hay giúp đỡ",
+    "def": "Often does things that make your work easier. Example: My big brother is *helpful* when I have homework."
    },
-   "don't forget to": {
+   "clever": {
     "art": "e-s9-4",
-    "vi": "đừng quên",
-    "def": "A friendly way to remind someone to do something. Example: *Don't forget to* feed the fish every morning."
+    "vi": "thông minh, giỏi",
+    "def": "Quick to learn and understand things. Example: Our coach is *clever* and knows lots of games."
+   },
+   "huge": {
+    "art": "e-s9-5",
+    "vi": "khổng lồ, rất to",
+    "def": "Very, very big. Example: The museum has a *huge* glass door."
+   },
+   "quiet": {
+    "art": "e-s9-6",
+    "vi": "yên tĩnh",
+    "def": "With very little noise. Example: The reading room is *quiet* in the morning."
+   },
+   "colourful": {
+    "art": "e-s9-7",
+    "vi": "nhiều màu sắc",
+    "def": "With lots of bright reds, blues, greens and yellows. Example: My aunt wears a *colourful* scarf."
+   },
+   "useful": {
+    "art": "e-s9-8",
+    "vi": "hữu ích, có ích",
+    "def": "Good for doing a job or for helping you. Example: A torch is *useful* when the lights go off."
    },
    "because": {
-    "art": "e-s9-5",
+    "art": "e-s9-9",
     "vi": "bởi vì",
-    "def": "Use it to give a reason. Example: Wear a hat *because* the sun is very strong."
+    "def": "A linking word that gives a reason. Example: I love my aunt *because* she is so kind."
    },
-   "so": {
-    "art": "e-s9-6",
-    "vi": "vì vậy, để",
-    "def": "Use it to show a result or a purpose. Example: It was raining, *so* we played inside."
-   },
-   "however": {
-    "art": "e-s9-7",
-    "vi": "tuy nhiên",
-    "def": "Use it to show a different or opposite idea. Example: The race was hard. *However*, I didn't give up."
+   "but": {
+    "art": "e-s9-10",
+    "vi": "nhưng",
+    "def": "A linking word that joins two different ideas. Example: The lamp is small, *but* it is very bright."
    },
    "also": {
-    "art": "e-s9-8",
+    "art": "e-s9-11",
     "vi": "cũng, ngoài ra",
-    "def": "Use it to add another idea. Example: Arctic foxes are clever. They are *also* very fast."
-   },
-   "title": {
-    "art": "e-s9-9",
-    "vi": "tiêu đề",
-    "def": "The name of your text, written at the top. Example: My *title* is 'The Bravest Person I Know'."
+    "def": "A word that adds one more idea. Example: He is funny. He is *also* very clever."
    },
    "paragraph": {
-    "art": "e-s9-10",
-    "vi": "đoạn văn",
-    "def": "A group of sentences about one idea. Start a new line for each one. Example: Write one *paragraph* for each bullet point."
-   },
-   "bullet point": {
-    "art": "e-s9-11",
-    "vi": "gạch đầu dòng (ý cần viết)",
-    "def": "One of the three things the task tells you to write about. Example: Tick each *bullet point* when you have written about it."
-   },
-   "proofread": {
     "art": "e-s9-12",
-    "vi": "đọc lại để soát lỗi",
-    "def": "To read your writing again carefully to find and fix mistakes. Example: Always *proofread* your text before the time ends."
+    "vi": "đoạn văn",
+    "def": "A group of sentences about one topic. Example: Write all your sentences in one *paragraph*."
    }
   }
  },
@@ -136,83 +133,83 @@
    {
     "id": "s1",
     "title": {
-     "en": "A Task 1 note",
-     "vi": "Một bài viết Phần 1"
+     "en": "Describing a person",
+     "vi": "Miêu tả một người"
     },
     "esl": true,
     "kind": "text",
-    "head": "Task 1: Bao's note to his cousin (35 to 45 words)",
-    "html": "Hi Kim,<br>Thanks for watering my sunflowers this week! *First*, fill the blue can with water. *Then* water each plant slowly in the evening. *Don't forget to* check the soil every day. *This is important because* dry soil can kill them.<br>Bao",
+    "head": "Task 1: Esme writes about her uncle",
+    "html": "My favourite person is my uncle. He is a cook in a busy restaurant. He is tall, *funny* and very *kind*. Every Sunday he cooks noodles for our family, *and* he *also* teaches me to make spring rolls. He is special to me *because* he always makes me laugh.",
     "steps": [
      {
-      "en": "Task 1 has three bullet points. Bao says what to use, gives the steps and explains why one step matters.",
-      "vi": "Phần 1 có ba ý. Bao nói cần dùng gì, đưa ra các bước và giải thích vì sao một bước quan trọng."
+      "en": "Esme answers all four questions: who he is, what he is like, what he does and why he is special.",
+      "vi": "Esme trả lời đủ bốn câu hỏi: chú là ai, chú như thế nào, chú làm gì và vì sao chú đặc biệt."
      },
      {
-      "en": "*First* and *Then* put the steps in order.",
-      "vi": "*First* và *Then* sắp xếp các bước theo thứ tự."
+      "en": "The describing words *funny* and *kind* tell us what he is like.",
+      "vi": "Các từ miêu tả *funny* và *kind* cho ta biết chú là người như thế nào."
      },
      {
-      "en": "*Don't forget to* gives friendly advice. *This is important because* gives the reason.",
-      "vi": "*Don't forget to* đưa ra lời khuyên thân thiện. *This is important because* nêu lý do."
+      "en": "The linking words *and*, *also* and *because* join her ideas.",
+      "vi": "Các từ nối *and*, *also* và *because* nối các ý của bạn ấy lại với nhau."
      },
      {
-      "en": "Count the words: Bao's note is inside 35 to 45 words.",
-      "vi": "Đếm số từ: bài của Bao nằm trong khoảng 35 đến 45 từ."
+      "en": "Her last sentence gives a reason: He is special to me *because* ...",
+      "vi": "Câu cuối nêu lý do: He is special to me *because* ..."
      }
     ]
    },
    {
     "id": "s2",
     "title": {
-     "en": "A Task 2 description",
-     "vi": "Một bài miêu tả Phần 2"
+     "en": "Describing a thing",
+     "vi": "Miêu tả một đồ vật"
     },
     "esl": true,
     "kind": "text",
-    "head": "Task 2: a description of an event (90 to 110 words)",
-    "html": "<b>The Lantern Festival in Our Street</b><br><br>Every autumn, our street has a lantern festival for the Mid-Autumn holiday. Hundreds of red, yellow and star-shaped lanterns hang between the houses, and the air smells of mooncakes.<br><br>*This year*, my friends and I made our own fish lantern from paper and bamboo. *After dinner*, we walked up and down the street with it while the lion dancers played their drums.<br><br>*In my opinion*, it is the best night of the year, *because* everyone comes outside and talks to their neighbours. *However*, the drums are very loud, *so* my baby cousin always falls asleep late!",
+    "head": "Task 2: Hieu writes about a solar lamp",
+    "html": "In our garden there is a small solar lamp. It is next to the front door. It is black and silver, with a *tiny* blue light. On top, there is a solar panel. We use it *to catch* sunlight in the day. At night, the lamp turns on by itself. I like it *because* it is *useful* and it doesn't waste energy.",
     "steps": [
      {
-      "en": "It has a *title* at the top that makes you want to read.",
-      "vi": "Bài có *tiêu đề* ở trên cùng khiến người đọc muốn đọc."
+      "en": "First, Hieu names the thing and says where we can find it: a solar lamp next to the front door.",
+      "vi": "Đầu tiên, Hieu nói đó là gì và ở đâu: một chiếc đèn năng lượng mặt trời cạnh cửa trước."
      },
      {
-      "en": "There are three paragraphs: one for each bullet point (describe, what happened, opinion).",
-      "vi": "Có ba đoạn văn: mỗi đoạn cho một ý (miêu tả, điều đã xảy ra, ý kiến)."
+      "en": "Next, he says what it looks like: black and silver, with a *tiny* blue light.",
+      "vi": "Tiếp theo, bạn ấy tả hình dáng: màu đen và bạc, có một bóng đèn xanh *tí hon*."
      },
      {
-      "en": "Time words like *This year* and *After dinner* help the reader follow the story.",
-      "vi": "Các từ chỉ thời gian như *This year* và *After dinner* giúp người đọc theo dõi câu chuyện."
+      "en": "The special feature is the solar panel. *We use it to catch* sunlight: to + verb says what it is for.",
+      "vi": "Đặc điểm đặc biệt là tấm pin mặt trời. *We use it to catch* sunlight: to + động từ cho biết nó dùng để làm gì."
      },
      {
-      "en": "The last paragraph gives an opinion with a reason: *In my opinion ... because ...*",
-      "vi": "Đoạn cuối nêu ý kiến kèm lý do: *In my opinion ... because ...*"
+      "en": "He ends with his opinion and a reason: I like it *because* ...",
+      "vi": "Bạn ấy kết bài bằng ý kiến và lý do: I like it *because* ..."
      }
     ]
    },
    {
     "id": "s3",
     "title": {
-     "en": "Proofread your writing",
-     "vi": "Soát lỗi bài viết"
+     "en": "Check your sentences",
+     "vi": "Kiểm tra câu văn"
     },
     "esl": true,
     "kind": "text",
-    "head": "Before and after proofreading",
-    "html": "Before: Yesterday I *goed* to the park with my *freinds*. We *plays* football and it was *realy* fun.<br><br>After: Yesterday I *went* to the park with my *friends*. We *played* football, and it was *really* fun.",
+    "head": "Rory's sentences: before and after checking",
+    "html": "Before: my big sister *are* very kind she *like* cats and she has a *beautifull* cat.<br><br>After: *My* big sister *is* very kind. *She likes* cats, and she has a *beautiful* cat.",
     "steps": [
      {
-      "en": "Check the verbs: is it past or present? 'goed' becomes *went*.",
-      "vi": "Kiểm tra động từ: quá khứ hay hiện tại? 'goed' thành *went*."
+      "en": "Start every sentence with a *capital letter* and end it with a *full stop*.",
+      "vi": "Bắt đầu mỗi câu bằng *chữ in hoa* và kết thúc bằng *dấu chấm*."
      },
      {
-      "en": "Check spelling of words you know: *friends*, *really*.",
-      "vi": "Kiểm tra chính tả những từ quen thuộc: *friends*, *really*."
+      "en": "Check the verb: he, she and it need the right form: she *is*, she *likes*.",
+      "vi": "Kiểm tra động từ: he, she, it cần đúng dạng: she *is*, she *likes*."
      },
      {
-      "en": "Use British spelling: colour, favourite, centre.",
-      "vi": "Dùng chính tả Anh-Anh: colour, favourite, centre."
+      "en": "Check words you know well: *beautiful* has only one l at the end.",
+      "vi": "Kiểm tra những từ quen thuộc: *beautiful* chỉ có một chữ l ở cuối."
      }
     ]
    },
@@ -224,54 +221,54 @@
     },
     "challenge": {
      "end": {
-      "en": "Brilliant! You are ready to plan and check your writing.",
-      "vi": "Tuyệt vời! Bạn đã sẵn sàng lên ý và soát lại bài viết."
+      "en": "Great work! You can describe, link and check your sentences.",
+      "vi": "Làm tốt lắm! Bạn đã biết miêu tả, nối câu và kiểm tra câu văn."
      },
-     "result": "You chose the best connectives, advice, titles and fixes.",
+     "result": "You chose the best describing words, linking words and missing bullet points.",
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Wor.02"
+        "4Wc.02"
        ],
        "v": [
         {
          "hint": {
-          "step": "Is this a reason, an opposite idea or the next step?"
+          "step": "Read the first sentence. What kind of person tells jokes?"
          },
-         "worked": "Watering is the next step, so we use <b>Then</b>.",
+         "worked": "Someone who tells jokes makes people laugh, so he is <b>funny</b>.",
          "type": "mcq",
-         "q": "'Put the seeds in the soil. ______, water them gently.' Choose the best word.",
+         "q": "'My grandpa tells jokes all day. He is very ______.' Choose the best word.",
          "opts": [
-          "Then",
-          "Because",
-          "However"
+          "funny",
+          "quiet",
+          "huge"
          ],
          "at": 0,
          "whys": [
           null,
-          "'Because' gives a reason, but this is the next step.",
-          "'However' shows an opposite idea, not the next step."
+          "A quiet person does not talk much, but Grandpa tells jokes all day.",
+          "'Huge' is for big things like buildings, not for jokes."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Is this a new step in the instructions?"
+          "step": "Think about the size. Is a hundred rooms a lot?"
          },
-         "worked": "Opening the app is the next step, so we use <b>Next</b>.",
+         "worked": "More than a hundred rooms is very, very big, so the museum is <b>huge</b>.",
          "type": "mcq",
-         "q": "'Charge the tablet. ______, open the video app.' Choose the best word.",
+         "q": "'The museum has more than a hundred rooms. It is ______.' Choose the best word.",
          "opts": [
-          "Next",
-          "So",
-          "Although"
+          "huge",
+          "tiny",
+          "friendly"
          ],
          "at": 2,
          "whys": [
           null,
-          "'So' shows a result, not the next step.",
-          "'Although' shows a surprising contrast."
+          "A building with a hundred rooms can't be tiny.",
+          "'Friendly' describes people, not buildings."
          ],
          "letters": true
         }
@@ -280,46 +277,46 @@
       {
        "mode": "your",
        "lo": [
-        "6Wc.01"
+        "4Wor.02"
        ],
        "v": [
         {
          "hint": {
-          "step": "Which words tell someone to check something important?"
+          "step": "Is the second part a reason, a different idea or the next thing?"
          },
-         "worked": "'<b>Make sure you</b> close the cage door' is strong, friendly advice.",
+         "worked": "'She is very friendly' is the reason, so we use <b>because</b>.",
          "type": "mcq",
-         "q": "Choose the best advice: '______ the cage door, or the hamster will escape.'",
+         "q": "'I like my neighbour ______ she is very friendly.' Choose the best word.",
          "opts": [
-          "Make sure you close",
-          "Don't forget closing",
-          "You needn't close"
+          "because",
+          "but",
+          "then"
          ],
          "at": 1,
          "whys": [
           null,
-          "We say 'Don't forget *to* close'.",
-          "'Needn't' means it isn't necessary, but it IS necessary here."
+          "'But' joins two different ideas. Being friendly is a reason to like her.",
+          "'Then' tells us what happens next, not a reason."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Which word gives good advice?"
+          "step": "Are the two ideas the same kind of idea, or different?"
          },
-         "worked": "'You <b>should</b> eat breakfast' gives good advice.",
+         "worked": "Small and bright are surprising together, so we use <b>but</b>.",
          "type": "mcq",
-         "q": "Choose the best advice: 'You ______ eat breakfast before a long walk.'",
+         "q": "'The lamp is very small, ______ it is very bright.' Choose the best word.",
          "opts": [
-          "should",
-          "shouldn't",
-          "don't have to"
+          "but",
+          "because",
+          "so"
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
-          "Breakfast gives you energy, so this is the opposite of good advice.",
-          "'Don't have to' means it isn't necessary."
+          "Being small is not the reason it is bright.",
+          "'So' shows a result, but small things are not bright because they are small."
          ],
          "letters": true
         }
@@ -328,94 +325,94 @@
       {
        "mode": "your",
        "lo": [
-        "6Wca.03"
+        "4Wca.04"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "To say what something is for, use: to + verb."
+         },
+         "worked": "'We use the big pot <b>to cook</b> soup' tells us what the pot is for.",
+         "type": "mcq",
+         "q": "'We use the big pot ______ soup.' Choose the best words.",
+         "opts": [
+          "to cook",
+          "cooking",
+          "cooks"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "We don't say 'use the big pot cooking soup'. Use 'to' + verb to say what it is for.",
+          "'Cooks' is for he, she or it, not after 'the big pot'."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "What is the arm for? Use: to + verb."
+         },
+         "worked": "'A long arm <b>to pick</b> up rocks' tells us what the arm is for.",
+         "type": "mcq",
+         "q": "'The robot has a long arm ______ up rocks.' Choose the best words.",
+         "opts": [
+          "to pick",
+          "picked",
+          "picks"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'Picked' is the past. We need to say what the arm is for.",
+          "'Has a long arm picks' is not a correct sentence."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "4Wca.03"
        ],
        "v": [
         {
          "hint": {
           "step": "Tick each bullet point. Which one has no tick?"
          },
-         "worked": "There is no 'because' or reason, so the third bullet point is missing.",
+         "worked": "There is no reason with 'because', so the last bullet point is missing.",
          "type": "mcq",
-         "q": "The task says: what to bring, the steps, why one step is important. Lan wrote: 'Bring a pot and soil. First, put soil in the pot. Then add the seed and water it.' What is missing?",
+         "q": "The task asks: who the person is, what he or she is like, what he or she does, why the person is special. Layla wrote: 'My aunt is a nurse. She is calm and kind. She works at a big hospital.' What is missing?",
          "opts": [
-          "a reason why one step matters",
-          "the things she needs to bring",
-          "the steps in the right order"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "She wrote 'Bring a pot and soil'.",
-          "She wrote 'First... Then...'."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "Check each bullet point one by one."
-         },
-         "worked": "Huy doesn't explain how penguins survive the cold.",
-         "type": "mcq",
-         "q": "The task says: describe the animal, how it survives, your opinion. Huy wrote: 'Penguins are black and white birds. They live in very cold places. I think they are the funniest animals.' What is missing?",
-         "opts": [
-          "how it survives",
-          "a description",
-          "his opinion"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "'black and white birds' is a description.",
-          "'I think they are the funniest' is his opinion."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Wor.03"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "A title is short, uses capital letters and makes the reader interested."
-         },
-         "worked": "'A Green Day on the Tea Hills' is short, interesting and about the trip.",
-         "type": "mcq",
-         "q": "Which is the best title for a description of a school trip to a tea farm?",
-         "opts": [
-          "A Green Day on the Tea Hills",
-          "Dear Ms Linh,",
-          "the trip was on tuesday"
-         ],
-         "at": 1,
-         "whys": [
-          null,
-          "This is how you start a letter, not a title.",
-          "This is a sentence without capital letters, not a title."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "A title is short, uses capital letters and tells the reader the topic."
-         },
-         "worked": "'My Grandad, the Kindest Man' tells us who the text is about.",
-         "type": "mcq",
-         "q": "Which is the best title for a description of a person you admire?",
-         "opts": [
-          "My Grandad, the Kindest Man",
-          "Hi everyone!",
-          "he is old and he is kind"
+          "why her aunt is special",
+          "what her aunt is like",
+          "who her aunt is and her job"
          ],
          "at": 2,
          "whys": [
           null,
-          "This is a greeting, not a title.",
-          "This is a sentence without capital letters."
+          "'She is calm and kind' tells us what her aunt is like.",
+          "'My aunt is a nurse' tells us who she is and her job."
+         ],
+         "letters": true
+        },
+        {
+         "hint": {
+          "step": "Look for 'to + verb'. Does Ivan say what something is for?"
+         },
+         "worked": "Ivan does not say one special feature or what it is for, for example 'It has bells to tell the time'.",
+         "type": "mcq",
+         "q": "The task asks: what it is and where, what it looks like, one special feature and its use, why you like it. Ivan wrote: 'There is a big clock in our town square. It is white and very tall. I like it because it is beautiful.' What is missing?",
+         "opts": [
+          "a special feature and its use",
+          "what the clock in the square looks like",
+          "why Ivan likes the clock"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "'White and very tall' tells us what it looks like.",
+          "'I like it because it is beautiful' is his reason."
          ],
          "letters": true
         }
@@ -435,60 +432,59 @@
    "art": "icon-step-practise",
    "title": "Learn it",
    "blurb": {
-    "en": "Practise the skills that make your writing clear, correct and complete.",
-    "vi": "Luyện các kỹ năng giúp bài viết rõ ràng, đúng và đầy đủ."
+    "en": "Practise describing words, linking words and checking your sentences.",
+    "vi": "Luyện từ miêu tả, từ nối và cách kiểm tra câu văn."
    },
    "levels": [
     {
      "title": {
-      "en": "Order and connectives",
-      "vi": "Thứ tự và từ nối"
+      "en": "Describing words and linking words",
+      "vi": "Từ miêu tả và từ nối"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Wor.02",
-        "6Wc.01"
+        "4Wc.02"
        ],
        "v": [
         {
          "hint": {
-          "step": "Is it a new step, a reason or an opposite idea?"
+          "step": "What do we call a person who helps other people?"
          },
-         "worked": "Cutting comes after washing, so <b>Next</b> is right.",
+         "worked": "She <b>always helps her neighbours</b>, so she is <b>kind</b>.",
          "type": "mcq",
-         "q": "'Wash the strawberries. ______, cut them in half.' Choose the best word.",
+         "q": "'My aunt always helps her neighbours. She is very ______.' Choose the best word.",
          "opts": [
-          "Next",
-          "Because",
-          "However"
+          "kind",
+          "noisy",
+          "huge"
          ],
          "at": 0,
          "whys": [
           null,
-          "'Because' gives a reason, not the next step.",
-          "'However' shows an opposite idea."
+          "Noisy people make a lot of sound. That is not about helping.",
+          "'Huge' means very big. It does not tell us how she acts."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Which word moves to the next step?"
+          "step": "Read what he does. Which word matches it?"
          },
-         "worked": "Watering comes after filling the can, so <b>Then</b> is right.",
+         "worked": "He <b>smiles and says hello to everyone</b>, so he is <b>friendly</b>.",
          "type": "mcq",
-         "q": "'Fill the watering can. ______, water the plants slowly.' Choose the best word.",
+         "q": "'My little brother smiles and says hello to everyone. He is ______.' Choose the best word.",
          "opts": [
-          "Then",
-          "But",
-          "Because"
+          "friendly",
+          "quiet",
+          "tiny"
          ],
          "at": 0,
          "whys": [
           null,
-          "'But' shows a different idea, not the next step.",
-          "'Because' gives a reason."
+          "A quiet person does not talk much, but he says hello to everyone.",
+          "'Tiny' is about size, not about how he acts with people."
          ],
          "letters": true
         }
@@ -497,46 +493,46 @@
       {
        "mode": "your",
        "lo": [
-        "6Wc.01"
+        "4Wc.02"
        ],
        "v": [
         {
          "hint": {
-          "step": "Imagine doing it. What do you need to do before anything else?"
+          "step": "Think about the sound in the room."
          },
-         "worked": "You need a pot with soil before you can plant or water anything.",
+         "worked": "<b>Nobody talks</b>, so the room is <b>quiet</b>.",
          "type": "mcq",
-         "q": "You are writing how to plant a seed. Which step comes FIRST?",
+         "q": "'Nobody talks in the reading room. It is very ______.' Choose the best word.",
          "opts": [
-          "Fill a small pot with soil.",
-          "Water the seed every day.",
-          "Put the pot by a sunny window."
+          "quiet",
+          "noisy",
+          "friendly"
          ],
          "at": 2,
          "whys": [
           null,
-          "You can't water the seed before it is in the soil.",
-          "You need a pot with soil and a seed before you move it."
+          "A room where nobody talks is not noisy.",
+          "'Friendly' describes people, not rooms."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Imagine doing it. What do you do at the very end?"
+          "step": "The sentence lists a lot of colours. Which word means that?"
          },
-         "worked": "You unplug the tablet when the battery is full, so it is the last step.",
+         "worked": "<b>Red, blue, green and yellow</b> is a lot of colours, so it is <b>colourful</b>.",
          "type": "mcq",
-         "q": "You are writing how to charge a tablet. Which step comes LAST?",
+         "q": "'My kite has red, blue, green and yellow stripes. It is ______.' Choose the best word.",
          "opts": [
-          "Unplug it when it is full.",
-          "Plug the charger into the wall.",
-          "Connect the cable to the tablet."
+          "colourful",
+          "quiet",
+          "helpful"
          ],
          "at": 1,
          "whys": [
           null,
-          "This happens at the start.",
-          "This happens before the tablet can charge."
+          "Kites don't make much noise, but the sentence is about colours.",
+          "'Helpful' describes a person who helps you."
          ],
          "letters": true
         }
@@ -545,41 +541,38 @@
       {
        "mode": "your",
        "lo": [
-        "6Wor.02",
-        "6Wc.03"
+        "4Wor.02"
        ],
        "v": [
         {
          "hint": {
-          "step": "The second part is a reason. Which word gives a reason?"
+          "step": "Is the second part a reason?"
          },
-         "worked": "'The sun is very strong' is the reason, so we use <b>because</b>.",
+         "worked": "'She is very patient' is the reason, so we use <b>because</b>.",
          "type": "tfill",
-         "q": "Type the missing linking word.",
+         "q": "Type the missing linking word (and, but or because).",
          "lines": [
-          "Wear a hat {0} the sun is very strong today."
+          "I like my coach {0} she is very patient."
          ],
          "ans": [
           [
-           "because",
-           "as",
-           "since"
+           "because"
           ]
          ]
         },
         {
          "hint": {
-          "step": "The second part is a result. Which short word shows a result?"
+          "step": "Old cars are often slow. Is the second idea a surprise?"
          },
-         "worked": "Playing inside is the result of the rain, so we use <b>so</b>.",
+         "worked": "'Old' and 'still goes fast' are different ideas, so we use <b>but</b>.",
          "type": "tfill",
-         "q": "Type the missing linking word.",
+         "q": "Type the missing linking word (and, but or because).",
          "lines": [
-          "It was raining, {0} we played board games inside."
+          "Our car is very old, {0} it still goes fast."
          ],
          "ans": [
           [
-           "so"
+           "but"
           ]
          ]
         }
@@ -589,54 +582,53 @@
     },
     {
      "title": {
-      "en": "Advice, bullet points and titles",
-      "vi": "Lời khuyên, các ý và tiêu đề"
+      "en": "Bullet points and to + verb",
+      "vi": "Các ý và to + động từ"
      },
      "rounds": [
       {
        "mode": "your",
        "lo": [
-        "6Wc.01",
-        "6Wca.04"
+        "4Wca.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "Which words remind a friend to do something?"
+          "step": "What is the basket for? Use: to + verb."
          },
-         "worked": "'<b>Don't forget to</b> bring a towel' is a friendly reminder.",
+         "worked": "'His big basket <b>to carry</b> fruit' tells us what the basket is for.",
          "type": "mcq",
-         "q": "'______ to bring a towel. You will need it after swimming.' Choose the best words.",
+         "q": "'Grandpa uses his big basket ______ fruit from the market.' Choose the best words.",
          "opts": [
-          "Don't forget",
-          "Don't remember",
-          "You mustn't"
+          "to carry",
+          "carrying",
+          "carried"
          ],
          "at": 1,
          "whys": [
           null,
-          "We say 'Don't forget to', not 'Don't remember to'.",
-          "'Mustn't' means it is not allowed, but you NEED the towel."
+          "We don't say 'uses his big basket carrying fruit'. Use 'to' + verb to say what it is for.",
+          "'Carried' is the past, but the sentence says what the basket is for."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Is it good advice to do it, or a rule NOT to do it?"
+          "step": "To say what something is for, use: to + verb."
          },
-         "worked": "Chocolate is dangerous for dogs, so you <b>mustn't</b> give it.",
+         "worked": "'A long tube <b>to see</b> the stars' tells us what the tube is for.",
          "type": "mcq",
-         "q": "'You ______ give your dog chocolate. It can make dogs very ill.' Choose the best word.",
+         "q": "'This telescope has a long tube ______ the stars.' Choose the best words.",
          "opts": [
-          "mustn't",
-          "should",
-          "don't have to"
+          "to see",
+          "sees",
+          "seeing"
          ],
          "at": 0,
          "whys": [
           null,
-          "'Should' tells someone to do it, but chocolate is dangerous.",
-          "'Don't have to' means it isn't necessary, but this is a rule: never do it."
+          "'Has a long tube sees' is not a correct sentence.",
+          "We don't say 'a long tube seeing the stars' to give a use."
          ],
          "letters": true
         }
@@ -645,61 +637,61 @@
       {
        "mode": "your",
        "lo": [
-        "6Wca.03"
+        "4Wca.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "Tick each bullet point. Look for 'because'."
+          "step": "Look for a reason with 'because'."
          },
-         "worked": "Mia never explains WHY a step is important.",
+         "worked": "Joe never says why his grandma is special, so the last bullet point is missing.",
          "type": "mcq",
-         "q": "Task: say what to bring, give the steps, explain why one step is important. Which bullet point is missing?",
+         "q": "The task asks: who the person is, what he or she is like, what he or she does, why the person is special. Which bullet point is missing from Joe's answer?",
          "opts": [
-          "a reason why one step matters",
-          "the things Mia says to bring",
-          "the steps in the right order"
+          "why she is special to Joe",
+          "what his grandma is like",
+          "what his grandma does"
          ],
          "at": 2,
          "whys": [
           null,
-          "Mia says 'Bring a bowl, a spoon and some oats'.",
-          "Mia gives the steps: 'First... Then... Finally...'."
+          "'She is kind and funny' tells us what she is like.",
+          "'She waters her flowers' tells us what she does."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s9-r-mia",
+          "id": "s9-r-joe",
           "kind": "text",
-          "head": "Mia's answer",
-          "html": "Hi Sara! Bring a bowl, a spoon and some oats. First, put the oats in the bowl. Then add hot milk and stir. Finally, put some banana on top. Enjoy your breakfast!"
+          "head": "Joe's answer",
+          "html": "My grandma is sixty-five. She is kind and funny. Every morning she waters her flowers, and then she cooks breakfast for us."
          }
         },
         {
          "hint": {
-          "step": "Tick each bullet point one by one."
+          "step": "Look for describing words like kind, funny or friendly."
          },
-         "worked": "Tuan never tells us what happened in the show.",
+         "worked": "Sara has no describing words, so 'what he is like' is missing.",
          "type": "mcq",
-         "q": "Task: describe the place, describe the show, say how you felt. Which bullet point is missing?",
+         "q": "The task asks: who the person is, what he or she is like, what he or she does, why the person is special. Which bullet point is missing from Sara's answer?",
          "opts": [
-          "describe the show",
-          "describe the place",
-          "say how you felt"
+          "what her neighbour is like",
+          "who the person is",
+          "why he is special to Sara"
          ],
          "at": 2,
          "whys": [
           null,
-          "Tuan describes the place: 'a small theatre next to a lake'.",
-          "Tuan says 'I was so excited'."
+          "'My neighbour lives next door' tells us who he is.",
+          "'He is special to me because ...' is her reason."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s9-r-tuan",
+          "id": "s9-r-sara",
           "kind": "text",
-          "head": "Tuan's answer",
-          "html": "Last Sunday, I went to the Water Puppet Theatre with my family. It is a small theatre next to a lake, with a red roof. I was so excited, and I think it was the best afternoon of my holiday."
+          "head": "Sara's answer",
+          "html": "My neighbour lives next door with his dog. He grows vegetables and gives some to us. He is special to me because he teaches me about plants."
          }
         }
        ]
@@ -707,48 +699,62 @@
       {
        "mode": "your",
        "lo": [
-        "6Wor.03"
+        "4Wca.03"
        ],
        "v": [
         {
          "hint": {
-          "step": "A good title is short, has capital letters and makes the reader curious."
+          "step": "Look for 'to + verb'. Does Hannah say what something is for?"
          },
-         "worked": "'A Sky Full of Kites' is short and interesting.",
+         "worked": "Hannah does not say one special feature or what it is used for.",
          "type": "mcq",
-         "q": "Choose the best title for a description of a kite festival.",
+         "q": "The task asks: what it is and where, what it looks like, one special feature and its use, why you like it. Which bullet point is missing from Hannah's answer?",
          "opts": [
-          "A Sky Full of Kites",
-          "Dear Grandma,",
-          "the kites was nice"
-         ],
-         "at": 0,
-         "whys": [
-          null,
-          "This starts a letter. It isn't a title.",
-          "This has a grammar mistake and no capital letters."
-         ],
-         "letters": true
-        },
-        {
-         "hint": {
-          "step": "A good title is short, has capital letters and tells us the topic."
-         },
-         "worked": "'Gentle Giants of the Forest' is short and tells us about big animals.",
-         "type": "mcq",
-         "q": "Choose the best title for a description of elephants.",
-         "opts": [
-          "Gentle Giants of the Forest",
-          "Hello everyone in my class!",
-          "elephants is big and grey"
+          "a special feature and its use",
+          "what the museum looks like",
+          "why Hannah likes it"
          ],
          "at": 1,
          "whys": [
           null,
-          "This is a greeting, not a title.",
-          "This has a grammar mistake and no capital letters."
+          "'Huge and white, with a round roof' tells us what it looks like.",
+          "'I love it because I can learn about planets' is her reason."
          ],
-         "letters": true
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s9-r-hannah",
+          "kind": "text",
+          "head": "Hannah's answer",
+          "html": "The space museum is in the centre of my city. It is huge and white, with a round roof. I love it because I can learn about planets there."
+         }
+        },
+        {
+         "hint": {
+          "step": "Look for an opinion and 'because'."
+         },
+         "worked": "Bach never says why he likes the kite, so the last bullet point is missing.",
+         "type": "mcq",
+         "q": "The task asks: what it is and where, what it looks like, one special feature and its use, why you like it. Which bullet point is missing from Bach's answer?",
+         "opts": [
+          "why Bach likes it",
+          "what it is and where",
+          "a special feature and its use"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "'Our family's kite' and 'in the garage' tell us what it is and where.",
+          "'A long string to fly it high' is the special feature and its use."
+         ],
+         "letters": true,
+         "fig": {
+          "k": "stim",
+          "id": "s9-r-bach",
+          "kind": "text",
+          "head": "Bach's answer",
+          "html": "My favourite thing is our family's kite. We keep it in the garage. It is red and yellow, with a long tail. It has a very long string to fly it high in the sky."
+         }
         }
        ]
       }
@@ -763,149 +769,149 @@
       {
        "mode": "your",
        "lo": [
-        "6Wca.02"
+        "4Wca.04"
        ],
        "v": [
         {
          "hint": {
-          "step": "British English often has 'our', like 'colour'."
+          "step": "With he, she or 'my dad', the verb needs an ending."
          },
-         "worked": "British English spelling is <b>favourite</b>.",
+         "worked": "'My dad' is like 'he', so we write <b>cooks</b>.",
+         "type": "tfill",
+         "q": "One verb is wrong: 'My dad cook dinner every evening.' Type the correct word.",
+         "lines": [
+          "My dad {0} dinner every evening."
+         ],
+         "ans": [
+          [
+           "cooks"
+          ]
+         ]
+        },
+        {
+         "hint": {
+          "step": "With he, she or 'our coach', 'have' changes."
+         },
+         "worked": "'Our coach' is like 'he' or 'she', so we write <b>has</b>.",
+         "type": "tfill",
+         "q": "One verb is wrong: 'Our coach have a loud whistle.' Type the correct word.",
+         "lines": [
+          "Our coach {0} a loud whistle."
+         ],
+         "ans": [
+          [
+           "has"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "4Wca.03"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Check the first word, the names of places and the end."
+         },
+         "worked": "'<b>My</b> aunt lives in <b>Da Nang.</b>' has a capital at the start, capitals for the city and a full stop.",
          "type": "mcq",
-         "q": "Which word is spelled correctly in British English?",
+         "q": "Which sentence has capital letters and a full stop in the right places?",
          "opts": [
-          "favourite",
-          "favorite",
-          "favourit"
+          "My aunt lives in Da Nang.",
+          "my aunt lives in Da Nang.",
+          "My aunt lives in da nang"
          ],
          "at": 0,
          "whys": [
           null,
-          "This is American spelling. In this exam, we use British English.",
-          "There is an 'e' at the end."
+          "A sentence must start with a capital letter: 'My'.",
+          "Place names need capitals, and the sentence needs a full stop."
          ],
          "letters": true
         },
         {
          "hint": {
-          "step": "Say it slowly: beau-ti-ful."
+          "step": "Check the first word, the day and the end of the sentence."
          },
-         "worked": "The correct spelling is <b>beautiful</b>, with '-ful' at the end.",
+         "worked": "'<b>On Saturday</b> we visit Grandma<b>.</b>' has all the capitals and a full stop.",
          "type": "mcq",
-         "q": "Which word is spelled correctly?",
+         "q": "Which sentence is written correctly?",
          "opts": [
-          "beautiful",
-          "beatiful",
-          "beautifull"
+          "On Saturday we visit Grandma.",
+          "on Saturday we visit Grandma.",
+          "On saturday we visit Grandma"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "The first word of a sentence needs a capital letter.",
+          "Days of the week need a capital, and the sentence needs a full stop."
+         ],
+         "letters": true
+        }
+       ]
+      },
+      {
+       "mode": "your",
+       "lo": [
+        "4Wca.03"
+       ],
+       "v": [
+        {
+         "hint": {
+          "step": "Count the sentences, then compare with 6 to 8."
+         },
+         "worked": "Thao wrote 4 sentences, so she needs 2 to 4 more, for example a reason with 'because'.",
+         "type": "mcq",
+         "q": "The task says: Write 6 to 8 sentences. Is Thao's answer the right length?",
+         "opts": [
+          "No, it is too short.",
+          "Yes, it is just right.",
+          "No, it is too long."
          ],
          "at": 1,
          "whys": [
           null,
-          "There is a 'u' after 'bea'.",
-          "'-ful' at the end has only one 'l'."
-         ],
-         "letters": true
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Wca.04"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "'Yesterday' tells you the time. Which tense do you need?"
-         },
-         "worked": "'Yesterday' is the past, so 'go' becomes <b>went</b>.",
-         "type": "tfill",
-         "q": "One verb is wrong: 'Yesterday I go to the park.' Type the correct word.",
-         "lines": [
-          "Yesterday I {0} to the park."
-         ],
-         "ans": [
-          [
-           "went"
-          ]
-         ]
-        },
-        {
-         "hint": {
-          "step": "'My sister' is he/she/it. What do we add in the present simple?"
-         },
-         "worked": "With 'she' in the present simple we add -s: <b>rides</b>.",
-         "type": "tfill",
-         "q": "One verb is wrong: 'My sister always ride her bike to school.' Type the correct word.",
-         "lines": [
-          "My sister always {0} her bike to school."
-         ],
-         "ans": [
-          [
-           "rides"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "mode": "your",
-       "lo": [
-        "6Wca.03"
-       ],
-       "v": [
-        {
-         "hint": {
-          "step": "Count every word, then compare with 35 to 45."
-         },
-         "worked": "It has 20 words, so it needs more detail, for example a reason with 'because'.",
-         "type": "mcq",
-         "q": "Task 1 needs 35 to 45 words. Is this answer the right length?",
-         "opts": [
-          "No, it is too short.",
-          "Yes, it is just right.",
-          "No, it is too long."
-         ],
-         "at": 2,
-         "whys": [
-          null,
-          "Count again: it has only 20 words.",
-          "It has only 20 words, so it can't be too long."
+          "Count the full stops: there are only 4 sentences.",
+          "It has only 4 sentences, so it can't be too long."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s9-r-len1",
+          "id": "s9-r-thao",
           "kind": "text",
-          "head": "Ana's friend's answer",
-          "html": "Hi Ana, you need a pot and some soil. Put the seed in. Water it every day. It is easy."
+          "head": "Thao's answer",
+          "html": "My dad is a taxi driver. He is tall and strong. He drives all day. I love my dad."
          }
         },
         {
          "hint": {
-          "step": "Count every word, then compare with 35 to 45."
+          "step": "Count the full stops, then compare with 6 to 8."
          },
-         "worked": "It has 41 words, so it is inside 35 to 45.",
+         "worked": "Ivan wrote 7 sentences, so it is inside 6 to 8.",
          "type": "mcq",
-         "q": "Task 1 needs 35 to 45 words. Is this answer the right length?",
+         "q": "The task says: Write 6 to 8 sentences. Is Ivan's answer the right length?",
          "opts": [
           "Yes, it is just right.",
           "No, it is too short.",
           "No, it is too long."
          ],
-         "at": 2,
+         "at": 1,
          "whys": [
           null,
-          "Count again: it has 41 words.",
-          "It has 41 words, which is not more than 45."
+          "Count again: there are 7 sentences.",
+          "It has 7 sentences, and that is not more than 8."
          ],
          "letters": true,
          "fig": {
           "k": "stim",
-          "id": "s9-r-len2",
+          "id": "s9-r-ivan",
           "kind": "text",
-          "head": "A note to Omar",
-          "html": "Hi Omar, you need your library card and your school bag. First, choose two books from the shelf. Next, take them to the desk. Make sure you give them back in two weeks, because then other children can read them too."
+          "head": "Ivan's answer",
+          "html": "My favourite person is my big brother. He is fifteen. He is clever and very funny. He plays the guitar in a band. He also helps me with my maths homework. On Sundays we ride our bikes together. He is special to me because he always has time for me."
          }
         }
        ]
@@ -929,63 +935,76 @@
     {
      "id": "t1a",
      "task": 1,
-     "title": "Looking after my goldfish",
-     "prompt": "Your friend Nam is going to look after your goldfish while your family is on holiday. Write a short note to Nam (35 to 45 words).",
+     "title": "My grandma or grandpa",
+     "prompt": "Write about your grandma or your grandpa. Write 6 to 8 sentences. Use describing words and linking words.",
      "bullets": [
-      "Say what Nam needs to use.",
-      "Give instructions about feeding the fish and cleaning the tank.",
-      "Explain why one instruction is important."
+      "Who is this person?",
+      "What is he or she like?",
+      "What does he or she do?",
+      "Why is this person special to you?"
      ],
-     "min": 35,
-     "max": 45,
+     "min": 40,
+     "max": 70,
      "needTitle": false,
      "starters": [
-      "You need ...",
-      "First, ...",
-      "Don't forget to ...",
-      "This is important because ..."
+      "My grandma is ...",
+      "She is very ...",
+      "Every morning she ...",
+      "She is special to me because ..."
      ],
      "models": [
       {
        "level": "Developing",
-       "text": "Hi Nam, thank you for helping me. You need the fish food in the box. Give the fish food every day and clean the tank. Don't give a lot of food. From Bao",
+       "text": "My grandma is sixty years old. she is kind and nice. She live with my family. She cook rice and fish for us every day. She is special because she love me",
        "notes": [
-        "Content 2/4: says what Nam needs and gives the feeding and cleaning instructions, but there is no reason why one is important. Only 33 words, so it is a little short.",
-        "Organisation 1/3: no order words like First or Then, so the steps feel like a list.",
-        "Language 2/3: mostly correct, but 'fish food' and 'food' are repeated, and 'Give the fish food' is unclear (better: 'Give the fish some food')."
+        "Task achievement and content 1/2: all four bullets are there, but each one is very short, and the reason 'she love me' is not explained. Only 32 words, so it is a little short.",
+        "Organisation and layout 1/2: the order is sensible, but 'because' is the only linking word, so the sentences sound like a list.",
+        "Grammar range and accuracy 1/2: the meaning is clear, but 'she' needs the verb with -s: 'she lives', 'she cooks', 'she loves'.",
+        "Vocabulary and spelling 1/2: the words are spelt right, but 'kind and nice' is very simple. Try 'gentle', 'cheerful' or 'clever'.",
+        "Writing conventions 1/2: 'she' needs a capital S at the start of a sentence, and the last sentence has no full stop."
        ],
        "marks": {
-        "content": 2,
+        "content": 1,
         "organisation": 1,
-        "language": 2
+        "grammar": 1,
+        "vocabulary": 1,
+        "conventions": 1
        }
       },
       {
        "level": "Secure",
-       "text": "Hi Nam, thanks for looking after Goldie! You need the fish food and the small sponge on my desk. First, give her a little food every morning. Then clean the glass on Saturday. Don't give her too much, because the water gets dirty. Bao",
+       "text": "My favourite person in my family is my grandpa. He is seventy years old. He is tall and very funny. Every morning he walks to the market and buys fruit for us. In the evening he tells us stories. He is special to me because he makes me laugh every day.",
        "notes": [
-        "Content 4/4: all three points, with a clear reason (the water gets dirty). 44 words.",
-        "Organisation 2/3: First and Then show the order, but the last sentence could be linked more smoothly.",
-        "Language 2/3: accurate, with a good advice form 'Don't give her too much', but the words are quite simple."
+        "Task achievement and content 2/2: all four bullets, with a clear reason at the end.",
+        "Organisation and layout 1/2: one paragraph in a good order, and 'Every morning' and 'In the evening' help. More linking words like 'also' or 'but' would join the short sentences.",
+        "Grammar range and accuracy 2/2: the present simple is correct: 'walks', 'buys', 'tells', 'makes'.",
+        "Vocabulary and spelling 1/2: everything is spelt right, but 'tall and very funny' is simple. One or two more describing words would help.",
+        "Writing conventions 2/2: every sentence starts with a capital letter and ends with a full stop."
        ],
        "marks": {
-        "content": 4,
-        "organisation": 2,
-        "language": 2
+        "content": 2,
+        "organisation": 1,
+        "grammar": 2,
+        "vocabulary": 1,
+        "conventions": 2
        }
       },
       {
        "level": "Excellent",
-       "text": "Dear Nam, thanks for looking after Goldie! You'll need the fish food and the soft sponge on my desk. First, sprinkle a tiny pinch of food every morning. On Saturday, gently wipe the glass. Never overfeed her, because leftover food makes the water cloudy.",
+       "text": "My grandma is the kindest person in my family. She is small and quiet, but she is very clever. Every morning she waters the colourful flowers in her garden. She also cooks delicious soup for us when we visit. On Sundays she teaches me to sew. She is special to me because she is always patient and she listens to my stories.",
        "notes": [
-        "Content 4/4: all three points with useful detail (a tiny pinch, on Saturday). 44 words.",
-        "Organisation 3/3: clear order with First and On Saturday; the reason follows 'because'.",
-        "Language 3/3: precise words (sprinkle, gently wipe, overfeed, cloudy) and accurate grammar."
+        "Task achievement and content 2/2: all four bullets are clear, and the reason is developed: she is patient and she listens.",
+        "Organisation and layout 2/2: one clear paragraph in a logical order, joined with 'but', 'also', 'when' and 'because'.",
+        "Grammar range and accuracy 2/2: accurate present simple, a superlative ('the kindest') and 'teaches me to sew'.",
+        "Vocabulary and spelling 2/2: varied describing words (quiet, clever, colourful, delicious, patient), all spelt right.",
+        "Writing conventions 2/2: complete sentences with capital letters and full stops."
        ],
        "marks": {
-        "content": 4,
-        "organisation": 3,
-        "language": 3
+        "content": 2,
+        "organisation": 2,
+        "grammar": 2,
+        "vocabulary": 2,
+        "conventions": 2
        }
       }
      ]
@@ -993,63 +1012,76 @@
     {
      "id": "t1b",
      "task": 1,
-     "title": "Making a video call",
-     "prompt": "Your grandma wants to make a video call to your uncle on her new tablet. Write a short message to her (35 to 45 words) explaining how to do it.",
+     "title": "A sports coach",
+     "prompt": "Write about a coach who teaches you a sport at a club. Write 6 to 8 sentences. Use describing words and linking words.",
      "bullets": [
-      "Say what she needs to do before she starts.",
-      "Give the steps to make the call.",
-      "Explain why one step is important."
+      "Who is this person?",
+      "What is he or she like?",
+      "What does he or she do?",
+      "Why is this person special to you?"
      ],
-     "min": 35,
-     "max": 45,
+     "min": 40,
+     "max": 70,
      "needTitle": false,
      "starters": [
-      "Before you start, ...",
-      "First, ...",
-      "Then ...",
-      "Make sure ... because ..."
+      "My ... coach is ...",
+      "She is ... and ...",
+      "At the club, she ...",
+      "She is important to me because ..."
      ],
      "models": [
       {
        "level": "Developing",
-       "text": "Dear Grandma, you need your tablet. Open the app and press Uncle Tuan name. Then press the green button. You can talk to him and see him. Love, Mai",
+       "text": "My football coach is a young man. He is tall and strong. He teach us to kick and pass the ball. We play at the club every saturday. I like him because he is funy.",
        "notes": [
-        "Content 2/4: gives the steps, but 'you need your tablet' does not say what to do before starting, and there is no reason why a step is important. Only 29 words, so it is too short.",
-        "Organisation 1/3: 'Then' helps, but there is no First, so the order is not very clear.",
-        "Language 2/3: simple and mostly correct, but 'Uncle Tuan name' should be 'Uncle Tuan's name'."
+        "Task achievement and content 1/2: all four bullets are there, but the reason 'he is funny' is very short and not explained. Only 35 words.",
+        "Organisation and layout 1/2: the ideas are in order, but there is only one linking word ('because').",
+        "Grammar range and accuracy 1/2: 'He teach' should be 'He teaches'. With he or she, the verb needs -s or -es.",
+        "Vocabulary and spelling 1/2: 'funy' should be 'funny'. The describing words (tall, strong) are simple.",
+        "Writing conventions 1/2: 'saturday' needs a capital S, because days of the week always start with a capital letter."
        ],
        "marks": {
-        "content": 2,
+        "content": 1,
         "organisation": 1,
-        "language": 2
+        "grammar": 1,
+        "vocabulary": 1,
+        "conventions": 1
        }
       },
       {
        "level": "Secure",
-       "text": "Dear Grandma, before you start, charge your tablet and turn on the Wi-Fi. First, open the video app. Next, find Uncle Tuan's name and press the green camera button. Hold the tablet in front of your face, so he can see you. Love, Mai",
+       "text": "My badminton coach works at the sports club near my home. She is friendly and very fast. She teaches us how to hit the shuttlecock high. She also shows us fun games. I play with my team every Saturday. She is important to me because she helps me get better.",
        "notes": [
-        "Content 4/4: all three points; the reason is 'so he can see you'. 44 words.",
-        "Organisation 2/3: before you start, First and Next give a clear order, but the last step has no linking word.",
-        "Language 2/3: accurate, with useful verbs (charge, turn on, find, hold), but no advice form like 'make sure' or 'don't forget'."
+        "Task achievement and content 2/2: all four bullets, and a reason with 'because'.",
+        "Organisation and layout 1/2: a good order with 'also' and 'because', but most sentences are short and start with 'She'.",
+        "Grammar range and accuracy 2/2: accurate present simple ('works', 'teaches', 'shows') and 'how to hit'.",
+        "Vocabulary and spelling 1/2: a good topic word ('shuttlecock'), but the describing words are simple (friendly, fast, fun). Try 'cheerful' or 'patient'.",
+        "Writing conventions 2/2: complete sentences with capital letters and full stops."
        ],
        "marks": {
-        "content": 4,
-        "organisation": 2,
-        "language": 2
+        "content": 2,
+        "organisation": 1,
+        "grammar": 2,
+        "vocabulary": 1,
+        "conventions": 2
        }
       },
       {
        "level": "Excellent",
-       "text": "Dear Grandma, before you start, make sure your tablet is charged and connected to the Wi-Fi. First, open the video app and tap Uncle Tuan's photo. Then press the green button. Hold the tablet at eye level, because then he can see your smile!",
+       "text": "My skateboarding coach is a cheerful young woman at our neighbourhood club. She is brave, patient and always smiling. Every Sunday she shows us how to turn and jump safely. When I fall, she helps me stand up and try again. She is important to me because she makes me feel brave. Now I am not scared any more.",
        "notes": [
-        "Content 4/4: all three points, clear and complete. 44 words.",
-        "Organisation 3/3: before you start, First and Then; the reason is linked with 'because'.",
-        "Language 3/3: 'make sure', 'connected to' and 'at eye level' are accurate, and the tone is warm and friendly for Grandma."
+        "Task achievement and content 2/2: all four bullets are clear, and the reason is developed: she makes me feel brave, and now I am not scared.",
+        "Organisation and layout 2/2: one clear paragraph in a logical order, linked with 'When' and 'because', and 'Now' shows the change.",
+        "Grammar range and accuracy 2/2: accurate present simple with varied patterns: 'shows us how to turn', 'helps me stand up'.",
+        "Vocabulary and spelling 2/2: lively, varied words (cheerful, patient, safely, scared), all spelt right.",
+        "Writing conventions 2/2: complete sentences with capital letters and full stops."
        ],
        "marks": {
-        "content": 4,
-        "organisation": 3,
-        "language": 3
+        "content": 2,
+        "organisation": 2,
+        "grammar": 2,
+        "vocabulary": 2,
+        "conventions": 2
        }
       }
      ]
@@ -1057,63 +1089,76 @@
     {
      "id": "t1c",
      "task": 1,
-     "title": "Planting a sunflower seed",
-     "prompt": "Your little cousin Bao wants to grow a sunflower on the balcony. Write a short message to Bao (35 to 45 words) explaining how to plant the seed and look after it.",
+     "title": "A neighbour I like",
+     "prompt": "Write about a neighbour you like. Write 6 to 8 sentences. Use describing words and linking words.",
      "bullets": [
-      "Say what Bao needs to get ready.",
-      "Give the steps to plant the seed and look after it.",
-      "Explain why one step is important."
+      "Who is this person?",
+      "What is he or she like?",
+      "What does he or she do?",
+      "Why is this person special to you?"
      ],
-     "min": 35,
-     "max": 45,
+     "min": 40,
+     "max": 70,
      "needTitle": false,
      "starters": [
-      "You will need ...",
-      "First, ...",
-      "Then ...",
-      "Don't forget to ... because ..."
+      "My neighbour is ...",
+      "He is ... and ...",
+      "He often ...",
+      "I like him because ..."
      ],
      "models": [
       {
        "level": "Developing",
-       "text": "Hi Bao, you need a pot and soil and a seed. Put the seed in the soil and give it water. Sunflowers is very tall and beautiful. Good luck!",
+       "text": "My neighbour is an old lady. She have a white cat and a small garden. She is very friendly she always say hello to me. I like her because she is kind.",
        "notes": [
-        "Content 2/4: says what to get and gives two steps, but there is no reason why a step is important. Only 29 words, so it is too short.",
-        "Organisation 1/3: no order words like First or Then.",
-        "Language 2/3: 'Sunflowers is' should be 'Sunflowers are', and 'a pot and soil and a seed' would be better as 'a pot, some soil and a seed'."
+        "Task achievement and content 1/2: all four bullets are there, but they are very short and the reason 'she is kind' is not explained. Only 32 words.",
+        "Organisation and layout 1/2: the order is clear, but there is only one linking word ('because').",
+        "Grammar range and accuracy 1/2: 'She have' should be 'She has', and 'she always say' should be 'she always says'.",
+        "Vocabulary and spelling 1/2: the words are spelt right, but there are few describing words (old, friendly, kind).",
+        "Writing conventions 1/2: 'She is very friendly she always say hello' is two sentences. It needs a full stop after 'friendly'."
        ],
        "marks": {
-        "content": 2,
+        "content": 1,
         "organisation": 1,
-        "language": 2
+        "grammar": 1,
+        "vocabulary": 1,
+        "conventions": 1
        }
       },
       {
        "level": "Secure",
-       "text": "Hi Bao, you will need a big pot, some soil and a sunflower seed. First, fill the pot with soil. Then push the seed in gently and water it. Don't forget to put it in the sun because sunflowers need light.",
+       "text": "My neighbour is an old man who lives next door. He has grey hair and a big smile. Every morning he waters his plants and feeds the birds. He is friendly. He often gives us mangoes from his tree. I like him because he is kind to everyone in our street.",
        "notes": [
-        "Content 4/4: all three points, with a clear reason (sunflowers need light). 41 words.",
-        "Organisation 2/3: First and Then show the order, but the last step has no order word.",
-        "Language 2/3: accurate, with a good advice form 'Don't forget to ... because ...', but the words are quite simple."
+        "Task achievement and content 2/2: all four bullets, with a reason at the end.",
+        "Organisation and layout 1/2: a good order, but 'and' is used a lot. Try 'also' or 'when' to join ideas.",
+        "Grammar range and accuracy 2/2: accurate present simple ('waters', 'feeds', 'gives') and 'who lives next door'.",
+        "Vocabulary and spelling 1/2: everything is spelt right, but 'friendly' and 'kind' are the only words about his character.",
+        "Writing conventions 2/2: every sentence has a capital letter and a full stop."
        ],
        "marks": {
-        "content": 4,
-        "organisation": 2,
-        "language": 2
+        "content": 2,
+        "organisation": 1,
+        "grammar": 2,
+        "vocabulary": 1,
+        "conventions": 2
        }
       },
       {
        "level": "Excellent",
-       "text": "Hi Bao! Get a large pot, some soil and a sunflower seed. First, fill the pot and push the seed two centimetres down. Next, water it a little every day. Make sure it stays in the sun, or it won't grow tall!",
+       "text": "My favourite neighbour is a young baker on our street. He is tall, cheerful and very hard-working. He gets up at four o'clock to bake fresh bread. When I walk to school, he always waves and says good morning. He also gives us warm rolls on Sundays. I like him because he makes our street a friendly place.",
        "notes": [
-        "Content 4/4: all three points with useful detail (two centimetres, every day). 42 words.",
-        "Organisation 3/3: First and Next give a clear order, and the message ends strongly.",
-        "Language 3/3: 'Make sure ..., or ...' gives advice and a reason in one sentence; accurate grammar."
+        "Task achievement and content 2/2: all four bullets are clear, and the reason is about the whole street.",
+        "Organisation and layout 2/2: one clear paragraph in a logical order, joined with 'When', 'also' and 'because'.",
+        "Grammar range and accuracy 2/2: accurate present simple and an infinitive of purpose: 'gets up at four o'clock to bake fresh bread'.",
+        "Vocabulary and spelling 2/2: varied describing words (cheerful, hard-working, fresh, warm), all spelt right.",
+        "Writing conventions 2/2: complete sentences with capital letters and full stops."
        ],
        "marks": {
-        "content": 4,
-        "organisation": 3,
-        "language": 3
+        "content": 2,
+        "organisation": 2,
+        "grammar": 2,
+        "vocabulary": 2,
+        "conventions": 2
        }
       }
      ]
@@ -1121,69 +1166,76 @@
     {
      "id": "t2a",
      "task": 2,
-     "title": "My favourite place in my town",
-     "prompt": "Your school magazine is collecting articles called 'Places we love'. Write an article (90 to 110 words) about your favourite place in your town or city. Give your writing a suitable title.",
+     "title": "An interesting building",
+     "prompt": "Write about an interesting building in your town or city. Write 6 to 8 sentences. Use describing words and linking words.",
      "bullets": [
-      "Describe the place: where it is and what it is like.",
-      "Explain what you do there and who you go with.",
-      "Say why it is your favourite place."
+      "What is it and where is it?",
+      "What does it look like?",
+      "What is one special feature, and what is it used for?",
+      "Why do you like it?"
      ],
-     "min": 90,
-     "max": 110,
-     "needTitle": true,
+     "min": 40,
+     "max": 70,
+     "needTitle": false,
      "starters": [
-      "My favourite place is ...",
-      "It is near ...",
-      "At the weekend, I usually ...",
-      "I love it because ..."
+      "My favourite building is ...",
+      "It is ... and ...",
+      "It has a ... to ...",
+      "I like it because ..."
      ],
      "models": [
       {
        "level": "Developing",
-       "text": "<b>The park</b><br><br>My favourite place is the park near my house. It have a big lake and many trees. There is a playground too. I go there with my brother. We play football and we ride bikes. Sometimes we feed the ducks but my mum say we can't give them bread. I like the park. It is very nice and green. I go there every weekend and I am happy there.",
+       "text": "The big hotel is in the centre of my city. It is very tall and it have blue windows. It has a pool on the roof. I like it because it is beautifull",
        "notes": [
-        "Content 2/4: describes the park and what they do, but the reason ('very nice') is weak. Only 69 words, so it is too short (90 to 110).",
-        "Clear for the reader 2/4: easy to follow, but there are few details to help the reader picture the park.",
-        "Organisation 1/3: everything is in one paragraph, and the title 'The park' is very plain.",
-        "Language 2/4: simple sentences with mistakes: 'It have' should be 'It has', and 'my mum say' should be 'my mum says'."
+        "Task achievement and content 1/2: it says what and where, what it looks like and why, but it does not say what the pool is used for. Only 34 words.",
+        "Organisation and layout 1/2: the order is good, but 'and' and 'because' are the only linking words.",
+        "Grammar range and accuracy 1/2: 'it have' should be 'it has'. There is no 'to + verb' to say what the pool is for.",
+        "Vocabulary and spelling 1/2: 'beautifull' should be 'beautiful'. The describing words (big, tall) are simple.",
+        "Writing conventions 1/2: the last sentence has no full stop."
        ],
        "marks": {
-        "content": 2,
-        "reader": 2,
+        "content": 1,
         "organisation": 1,
-        "language": 2
+        "grammar": 1,
+        "vocabulary": 1,
+        "conventions": 1
        }
       },
       {
        "level": "Secure",
-       "text": "<b>Green Lake Park</b><br><br>My favourite place is Green Lake Park, which is ten minutes from my flat. It has a huge lake, tall trees and a small café that sells delicious ice cream.<br><br>At the weekend, I usually go there with my brother and my dad. We ride our bikes around the lake, and sometimes we play football on the grass. In the evening, we watch the sunset over the water.<br><br>I love this park because it is quiet and green, so I can relax there after a busy week at school. If you visit it, you will love it too!",
+       "text": "The music academy is a big building near my school. It is white, with tall windows and a red door. Inside, there is a huge hall to give concerts. Students go there to learn the piano and the violin. I like it because the music is beautiful. I want to study there one day.",
        "notes": [
-        "Content 4/4: all three points with detail. 98 words.",
-        "Clear for the reader 3/4: clear and friendly, and the ending speaks to the reader, but it is not very exciting.",
-        "Organisation 2/3: three clear paragraphs, but the title is just the name, and the linking is mostly 'and' and 'so'.",
-        "Language 3/4: accurate, with a relative clause ('which is ten minutes from my flat') and 'If you visit it, you will love it'."
+        "Task achievement and content 2/2: all four bullets: the special feature is the huge hall, and its use is 'to give concerts'.",
+        "Organisation and layout 1/2: a logical order and 'Inside' helps, but only 'and' and 'because' join the ideas.",
+        "Grammar range and accuracy 2/2: accurate present simple and two infinitives of purpose ('to give', 'to learn').",
+        "Vocabulary and spelling 1/2: good words (huge, concerts, violin), but 'big' and 'beautiful' are simple. Try 'grand' or 'tall'.",
+        "Writing conventions 2/2: complete sentences with capital letters and full stops."
        ],
        "marks": {
-        "content": 4,
-        "reader": 3,
-        "organisation": 2,
-        "language": 3
+        "content": 2,
+        "organisation": 1,
+        "grammar": 2,
+        "vocabulary": 1,
+        "conventions": 2
        }
       },
       {
        "level": "Excellent",
-       "text": "<b>My Secret Garden in the City</b><br><br>In the middle of our busy city, there is a little park that feels like a secret garden. It is hidden behind the old library, and it has a pond full of orange fish.<br><br>Every Sunday morning, my grandma and I walk there together. While she does her exercises, I read my book under a big mango tree. Afterwards, we buy warm bread from a stall by the gate.<br><br>This park is my favourite place because it is peaceful. When I am there, I forget about homework and noise. If you need a calm place, you should visit it soon!",
+       "text": "The history museum is my favourite building in our city. It stands next to the river, and it looks like a huge stone boat. It has round windows and a shiny glass roof. The best part is the glass lift. Visitors use it to go up to the top and see the whole city. I like the museum because I always learn something new there.",
        "notes": [
-        "Content 4/4: all three points, with rich detail (hidden behind the old library, a pond full of orange fish). 100 words.",
-        "Clear for the reader 4/4: the 'secret garden' idea and the advice at the end keep the reader interested.",
-        "Organisation 3/3: an interesting title, three paragraphs and good linking (while, afterwards, when).",
-        "Language 4/4: varied, accurate sentences, a relative clause, and advice with 'you should'."
+        "Task achievement and content 2/2: all four bullets are clear: the special feature is the glass lift, and visitors use it to go up and see the city.",
+        "Organisation and layout 2/2: one clear paragraph in a logical order, linked with 'and' and 'because'. 'The best part is' introduces the special feature.",
+        "Grammar range and accuracy 2/2: accurate present simple, 'looks like' and an infinitive of purpose ('to go up').",
+        "Vocabulary and spelling 2/2: varied words (stone, shiny, round, glass lift, whole), all spelt right.",
+        "Writing conventions 2/2: complete sentences with capital letters and full stops."
        ],
        "marks": {
-        "content": 4,
-        "reader": 4,
-        "organisation": 3,
-        "language": 4
+        "content": 2,
+        "organisation": 2,
+        "grammar": 2,
+        "vocabulary": 2,
+        "conventions": 2
        }
       }
      ]
@@ -1191,69 +1243,76 @@
     {
      "id": "t2b",
      "task": 2,
-     "title": "An amazing animal",
-     "prompt": "Your class is making a book called 'Amazing Animals'. Write about an animal that you think is amazing (90 to 110 words). Give your writing a suitable title.",
+     "title": "An amazing space machine",
+     "prompt": "Write about a machine that helps people explore space. Write 6 to 8 sentences. Use describing words and linking words.",
      "bullets": [
-      "Describe the animal and where it lives.",
-      "Explain how its special features help it to survive.",
-      "Give your opinion: why do you think it is amazing?"
+      "What is it and where is it?",
+      "What does it look like?",
+      "What is one special feature, and what is it used for?",
+      "Why do you like it?"
      ],
-     "min": 90,
-     "max": 110,
-     "needTitle": true,
+     "min": 40,
+     "max": 70,
+     "needTitle": false,
      "starters": [
-      "The ... is a ... that lives in ...",
-      "It has ..., so it can ...",
-      "In my opinion, ...",
-      "I think it is amazing because ..."
+      "My favourite space machine is ...",
+      "It looks like ...",
+      "It has a ... to ...",
+      "I like it because ..."
      ],
      "models": [
       {
        "level": "Developing",
-       "text": "<b>Arctic Fox</b><br><br>The Arctic fox is a small animal. It live in very cold places near the North Pole. It is white in winter and brown in summer.<br><br>It has thick fur, so it is not cold. It has small ears and a big tail. It eats birds and fish and other small animals.<br><br>I think it is amazing. It is very cute and I like it very much. I want to see one in the zoo one day.",
+       "text": "A rocket is a big machine. It go up into space from the ground. It is white and very tall. It have big engines at the bottom. I like it because it is fast",
        "notes": [
-        "Content 2/4: describes the fox, but does not explain how the white fur helps it survive, and the opinion ('very cute') has no clear reason. 77 words, so it is a little short.",
-        "Clear for the reader 2/4: easy to follow, but it reads like a list of facts, so it is not very interesting.",
-        "Organisation 2/3: a title and three paragraphs, but the linking is very simple (and, so).",
-        "Language 2/4: many short sentences starting 'It has' or 'It is', and 'It live' should be 'It lives'."
+        "Task achievement and content 1/2: it says what it is and what it looks like, but it does not say what the engines are used for, and the reason is short. Only 33 words.",
+        "Organisation and layout 1/2: the order is clear, but 'because' is the only linking word.",
+        "Grammar range and accuracy 1/2: 'It go' should be 'It goes', and 'It have' should be 'It has'.",
+        "Vocabulary and spelling 1/2: the words are spelt right, but they are simple (big, tall, fast).",
+        "Writing conventions 1/2: the last sentence has no full stop."
        ],
        "marks": {
-        "content": 2,
-        "reader": 2,
-        "organisation": 2,
-        "language": 2
+        "content": 1,
+        "organisation": 1,
+        "grammar": 1,
+        "vocabulary": 1,
+        "conventions": 1
        }
       },
       {
        "level": "Secure",
-       "text": "<b>The Amazing Arctic Fox</b><br><br>The Arctic fox is a small, beautiful animal that lives in the far north, where it is very cold and snowy. It is about the size of a cat.<br><br>The Arctic fox has many special features. Its thick fur keeps it warm, even when it is minus 50 degrees. In winter its fur is white, so it can hide in the snow. In summer it turns brown.<br><br>I think the Arctic fox is amazing because it can survive in such a difficult place. It is also very clever. It can hear small animals moving under the snow!",
+       "text": "A satellite is a space machine. It goes around the Earth, high above the clouds. It is small and silver, and it has two long wings. The wings are solar panels to make electricity from sunlight. It also send messages to our phones. I like satellites because they help people talk to each other.",
        "notes": [
-        "Content 4/4: all three points, with facts and a clear reason for the opinion. 97 words.",
-        "Clear for the reader 3/4: clear and interesting for the class book, and the last fact is a nice surprise.",
-        "Organisation 2/3: a good title and three paragraphs, but the second paragraph is a bit like a list, with simple links (so, also).",
-        "Language 3/4: accurate, with relative clauses ('that lives', 'where it is very cold') and the phrase 'such a difficult place'."
+        "Task achievement and content 2/2: all four bullets: the special feature is the solar panels, and they are used to make electricity.",
+        "Organisation and layout 2/2: one paragraph in a logical order, joined with 'and', 'also' and 'because'.",
+        "Grammar range and accuracy 1/2: mostly accurate, with 'to make electricity', but 'It also send' should be 'It also sends'.",
+        "Vocabulary and spelling 1/2: good topic words (satellite, solar panels, electricity), but 'small' and 'long' are simple.",
+        "Writing conventions 2/2: complete sentences with capital letters and full stops."
        ],
        "marks": {
-        "content": 4,
-        "reader": 3,
+        "content": 2,
         "organisation": 2,
-        "language": 3
+        "grammar": 1,
+        "vocabulary": 1,
+        "conventions": 2
        }
       },
       {
        "level": "Excellent",
-       "text": "<b>A Clever Survivor of the Snow</b><br><br>Have you ever heard of the Arctic fox? This fluffy animal lives in the frozen lands near the North Pole, where winters are long and dark.<br><br>The Arctic fox has brilliant features that help it to survive. Its thick coat keeps it warm, and its furry feet work like slippers on the ice. In winter, its fur turns white, so it can hide from predators in the snow.<br><br>In my opinion, it is the most amazing animal on Earth. It can hear a mouse under the snow and then dive in to catch it. I would love to see one in the wild!",
+       "text": "My favourite space machine is the rover that explores Mars. It is far away on a red, rocky planet. It looks like a small car with six big wheels. It has a long metal arm with a drill to dig into rocks. Scientists study the rocks to learn about Mars. I like the rover because it is clever, and it never gets tired.",
        "notes": [
-        "Content 4/4: all three points, each explained with a clear example. 103 words.",
-        "Clear for the reader 4/4: the question at the start and the exclamation at the end speak directly to the reader.",
-        "Organisation 3/3: an interesting title, three paragraphs and good linking (where, and, so, then).",
-        "Language 4/4: a wide range: a question with 'Have you ever', 'the most amazing', 'work like slippers', and topic words (predators, survive)."
+        "Task achievement and content 2/2: all four bullets are clear: the special feature is the arm with a drill, used to dig into rocks.",
+        "Organisation and layout 2/2: one clear paragraph in a logical order, joined with 'that', 'and' and 'because'.",
+        "Grammar range and accuracy 2/2: accurate present simple, 'looks like' and two infinitives of purpose ('to dig', 'to learn').",
+        "Vocabulary and spelling 2/2: varied topic words (rover, rocky, drill, scientists), all spelt right.",
+        "Writing conventions 2/2: complete sentences with capital letters and full stops."
        ],
        "marks": {
-        "content": 4,
-        "reader": 4,
-        "organisation": 3,
-        "language": 4
+        "content": 2,
+        "organisation": 2,
+        "grammar": 2,
+        "vocabulary": 2,
+        "conventions": 2
        }
       }
      ]
@@ -1261,69 +1320,76 @@
     {
      "id": "t2c",
      "task": 2,
-     "title": "Our sports day",
-     "prompt": "Your school website wants articles about a sports day or a sports event you took part in. Write about it (90 to 110 words). Give your writing a suitable title.",
+     "title": "A useful thing in my kitchen",
+     "prompt": "Write about a useful thing in your kitchen at home. Write 6 to 8 sentences. Use describing words and linking words.",
      "bullets": [
-      "Describe the event and where it happened.",
-      "Explain what you did on the day.",
-      "Say how you felt and what you thought of the event."
+      "What is it and where is it?",
+      "What does it look like?",
+      "What is one special feature, and what is it used for?",
+      "Why do you like it?"
      ],
-     "min": 90,
-     "max": 110,
-     "needTitle": true,
+     "min": 40,
+     "max": 70,
+     "needTitle": false,
      "starters": [
-      "Last ..., our school had ...",
-      "In the morning, I ...",
-      "After lunch, ...",
-      "I felt ... In my opinion, ..."
+      "The most useful thing in our kitchen is ...",
+      "It is ... and ...",
+      "It has a ... to ...",
+      "I like it because ..."
      ],
      "models": [
       {
        "level": "Developing",
-       "text": "<b>Sports Day</b><br><br>Last Friday was sports day at my school. It was at the big stadium near my house. There was many students and parents.<br><br>I run in the 100 metres race and I do the long jump. I was third in the race. My friend was first. Then we eat lunch together.<br><br>I was happy and tired. It was fun. I like sports day very much. It was a good day and I want to do it again next year with my class.",
+       "text": "The fridge is in our kitchen. It is big and grey. It has a freezer to keep ice cream cold. i like it because it keep my food fresh and good",
        "notes": [
-        "Content 3/4: covers all three points, but with few details, and the opinion is simple ('It was fun'). 82 words, so it is a little short.",
-        "Clear for the reader 2/4: the reader understands what happened, but it is hard to picture the day.",
-        "Organisation 2/3: a title and three paragraphs; 'Then' helps a little, but there are few other linking words.",
-        "Language 1/4: many past tense mistakes: 'I run' should be 'I ran', 'I do' should be 'I did', 'we eat' should be 'we ate', and 'There was many' should be 'There were many'."
+        "Task achievement and content 1/2: all four bullets are there, but each one is very short. Only 31 words, so it needs more detail.",
+        "Organisation and layout 1/2: the order is clear, but 'and' and 'because' are the only linking words.",
+        "Grammar range and accuracy 1/2: 'to keep ice cream cold' is good, but 'it keep' should be 'it keeps'.",
+        "Vocabulary and spelling 1/2: the words are spelt right, but they are simple (big, good).",
+        "Writing conventions 1/2: 'i' must always be a capital 'I', and the last sentence has no full stop."
        ],
        "marks": {
-        "content": 3,
-        "reader": 2,
-        "organisation": 2,
-        "language": 1
+        "content": 1,
+        "organisation": 1,
+        "grammar": 1,
+        "vocabulary": 1,
+        "conventions": 1
        }
       },
       {
        "level": "Secure",
-       "text": "<b>Our Super Sports Day</b><br><br>Last Friday, our school had its sports day at the city stadium. The weather was sunny and hot, and lots of parents came to watch and cheer.<br><br>In the morning, I ran in the 100-metre race and came third. After lunch, I took part in the tug of war with my class. We pulled really hard, and in the end we beat class 5B2!<br><br>I felt tired but very happy. I think sports day is the best day of the school year, because everyone works as a team and has fun together.",
+       "text": "Our rice cooker is in the kitchen, next to the fridge. It is white and round, with a black lid. It has a small button to keep the rice warm. Mum uses it to cook rice every evening. It is very easy to use. I like it because the rice is always soft and hot.",
        "notes": [
-        "Content 4/4: all three points with good detail and a clear opinion. 92 words.",
-        "Clear for the reader 3/4: the reader can picture the day, but it could be more exciting.",
-        "Organisation 3/3: a good title, three paragraphs and time words (In the morning, After lunch, in the end).",
-        "Language 3/4: accurate past simple and the phrase 'took part in', but the range is not very wide."
+        "Task achievement and content 2/2: all four bullets: the special feature is the button, used to keep the rice warm.",
+        "Organisation and layout 1/2: a logical order, but the sentences are short, and only 'because' links two ideas.",
+        "Grammar range and accuracy 2/2: accurate present simple and two infinitives of purpose ('to keep', 'to cook').",
+        "Vocabulary and spelling 1/2: everything is spelt right, but the describing words are simple (white, round, soft, hot).",
+        "Writing conventions 2/2: complete sentences with capital letters and full stops."
        ],
        "marks": {
-        "content": 4,
-        "reader": 3,
-        "organisation": 3,
-        "language": 3
+        "content": 2,
+        "organisation": 1,
+        "grammar": 2,
+        "vocabulary": 1,
+        "conventions": 2
        }
       },
       {
        "level": "Excellent",
-       "text": "<b>A Day of Teamwork and Cheering</b><br><br>Last Friday, the whole school travelled by bus to the city stadium for our sports day. The stands were full of excited parents waving flags, and music was playing everywhere.<br><br>First, I ran in the 200-metre race. I was last at the bend, but I didn't give up and finished second! After lunch, our class took part in the relay. When Minh dropped the baton, we all shouted, 'Keep going!'<br><br>I felt exhausted but proud at the end of the day. In my opinion, sports day teaches us that teamwork and kindness matter more than medals.",
+       "text": "The most useful thing in our kitchen is our blender. It sits on the shelf next to the sink. It is tall and made of clear glass, so you can see inside. At the bottom, it has sharp blades to crush fruit and ice. Every Sunday, Dad uses it to make cold mango smoothies. I like it because the smoothies are delicious and healthy.",
        "notes": [
-        "Content 4/4: all three points, with exciting detail and a thoughtful opinion. 96 words.",
-        "Clear for the reader 4/4: the story of the race and the relay keeps the reader interested.",
-        "Organisation 3/3: an interesting title, three paragraphs and clear time words (First, After lunch, When).",
-        "Language 4/4: a wide range: past continuous, 'didn't give up', direct speech and strong adjectives (exhausted, proud)."
+        "Task achievement and content 2/2: all four bullets are clear: the special feature is the sharp blades, used to crush fruit and ice.",
+        "Organisation and layout 2/2: one clear paragraph in a logical order, linked with 'so', 'At the bottom' and 'because'.",
+        "Grammar range and accuracy 2/2: accurate present simple, a superlative ('the most useful') and two infinitives of purpose.",
+        "Vocabulary and spelling 2/2: varied describing words (clear, sharp, cold, delicious, healthy), all spelt right.",
+        "Writing conventions 2/2: complete sentences with capital letters and full stops."
        ],
        "marks": {
-        "content": 4,
-        "reader": 4,
-        "organisation": 3,
-        "language": 4
+        "content": 2,
+        "organisation": 2,
+        "grammar": 2,
+        "vocabulary": 2,
+        "conventions": 2
        }
       }
      ]
@@ -1334,78 +1400,78 @@
  "notes": {
   "items": [
    {
-    "en": "Answer *all three* bullet points. Tick each one when you have written about it.",
-    "vi": "Viết đủ *cả ba* ý. Đánh dấu từng ý khi đã viết xong.",
+    "en": "Answer *all four* bullet points. Tick each one when you write about it.",
+    "vi": "Viết đủ *cả bốn* ý. Đánh dấu từng ý khi đã viết xong.",
     "example": [
-     "Bullet 1 (what to bring): *You need* a bowl and a spoon.",
-     "Bullet 3 (why): *This is important because* hot milk can burn you."
+     "Who: *My favourite person is* my aunt.",
+     "Why: *She is special to me because* she is kind."
     ]
    },
    {
-    "en": "Put instructions in order with *First, Next, Then, After that, Finally*.",
-    "vi": "Sắp xếp các bước theo thứ tự với *First, Next, Then, After that, Finally*.",
+    "en": "Use *describing words* to say what a person, place or thing is like.",
+    "vi": "Dùng *từ miêu tả* để nói một người, một nơi hay một đồ vật như thế nào.",
     "example": [
-     "*First*, wash the fruit. *Next*, cut it into pieces.",
-     "*Finally*, pour the smoothie into a glass."
+     "My uncle is *tall*, *funny* and *kind*.",
+     "The museum has a *huge* glass door."
     ]
    },
    {
-    "en": "Give friendly advice with *should, make sure you, don't forget to, never, mustn't*.",
-    "vi": "Đưa ra lời khuyên thân thiện với *should, make sure you, don't forget to, never, mustn't*.",
+    "en": "Join your ideas with *linking words*: and, but, because, so, also, when.",
+    "vi": "Nối các ý bằng *từ nối*: and, but, because, so, also, when.",
     "example": [
-     "*Don't forget to* close the cage door.",
-     "You *mustn't* give your dog chocolate."
+     "The lamp is small, *but* it is very bright.",
+     "He is clever. He is *also* very funny."
     ]
    },
    {
-    "en": "Give reasons and opinions with *because, so, I think, In my opinion*.",
-    "vi": "Nêu lý do và ý kiến với *because, so, I think, In my opinion*.",
+    "en": "Say what something is for with *to + verb*.",
+    "vi": "Nói một vật dùng để làm gì bằng *to + động từ*.",
     "example": [
-     "Hold the tablet at eye level, *so* he can see you.",
-     "*In my opinion*, sports day is the best day of the year."
+     "We use it *to cook* rice.",
+     "It has a long arm *to pick up* rocks."
     ]
    },
    {
-    "en": "Task 2: write a *title* and one *paragraph* for each bullet point.",
-    "vi": "Phần 2: viết *tiêu đề* và mỗi ý một *đoạn văn*.",
+    "en": "End with your *opinion* and a *reason*.",
+    "vi": "Kết bài bằng *ý kiến* của em và một *lý do*.",
     "example": [
-     "Title: *A Clever Survivor of the Snow*",
-     "Paragraph 1: describe. Paragraph 2: explain. Paragraph 3: your opinion."
+     "I like it *because* it is useful.",
+     "She is special to me *because* she always helps me."
     ]
    },
    {
-    "en": "*Count* your words and *proofread*: check verbs, spelling and British English.",
-    "vi": "*Đếm* số từ và *đọc lại soát lỗi*: kiểm tra động từ, chính tả và tiếng Anh-Anh.",
+    "en": "Write *6 to 8 sentences* in one paragraph. Check capital letters, full stops and verbs.",
+    "vi": "Viết *6 đến 8 câu* trong một đoạn văn. Kiểm tra chữ in hoa, dấu chấm và động từ.",
     "example": [
-     "Task 1: 35 to 45 words. Task 2: 90 to 110 words.",
-     "Yesterday I *went* (not goed). My *favourite* (not favorite) colour."
+     "*My* aunt *lives* in Hue.",
+     "He *has* a big dog. (not: he have)"
     ]
    }
   ],
   "check": [
    {
-    "sentence": "In both tasks, I must write about {all three|two|one} of the bullet points.",
-    "answer": "all three"
+    "sentence": "In Task 1 and Task 2, I write about {all four|two|three} bullet points.",
+    "answer": "all four"
    },
    {
-    "sentence": "'{Finally|First|Because}, wash the bowl and put it away' is the last step.",
-    "answer": "Finally"
+    "sentence": "My neighbour is very {friendly|huge|colourful}. She always says hello.",
+    "answer": "friendly"
    },
    {
-    "sentence": "{Don't forget to|Don't forget|Don't remember to} feed the fish every morning.",
-    "answer": "Don't forget to"
+    "sentence": "The lamp is small, {but|because|so} it is very bright.",
+    "answer": "but"
    },
    {
-    "sentence": "Turn off the tap, {so|because|but} you don't waste water.",
-    "answer": "so"
+    "sentence": "We use the box {to keep|keeping|keeps} our toys.",
+    "answer": "to keep"
    },
    {
-    "sentence": "In Task 2, I need a {title|greeting|signature} at the top.",
-    "answer": "title"
+    "sentence": "I like the museum {because|but|then} I learn a lot there.",
+    "answer": "because"
    },
    {
-    "sentence": "Task 1 needs {35 to 45|90 to 110|10 to 20} words.",
-    "answer": "35 to 45"
+    "sentence": "My uncle {has|have|having} a big red car.",
+    "answer": "has"
    }
   ]
  },
@@ -1414,143 +1480,46 @@
    {
     "dok": 1,
     "lo": [
-     "6Wor.02"
+     "4Wc.02"
     ],
     "v": [
      {
       "hint": {
-       "step": "Which word starts a list of steps?"
+       "step": "What kind of person makes people laugh?"
       },
-      "worked": "<b>First</b> starts the instructions.",
+      "worked": "He <b>makes everyone laugh</b>, so he is <b>funny</b>.",
       "type": "mcq",
-      "q": "Choose the best word for the FIRST step: '______, find a quiet place to sit.'",
+      "q": "'My uncle makes everyone laugh. He is very ______.' Choose the best word.",
       "opts": [
-       "First",
-       "Finally",
-       "However"
+       "funny",
+       "quiet",
+       "tired"
       ],
-      "at": 1,
+      "at": 0,
       "whys": [
        null,
-       "'Finally' is for the last step.",
-       "'However' shows an opposite idea."
+       "A quiet person does not say much. He makes everyone laugh.",
+       "'Tired' means he needs a rest. It is not about making people laugh."
       ],
       "letters": true
      },
      {
       "hint": {
-       "step": "Which word ends a list of steps?"
+       "step": "Think about the size of the hotel."
       },
-      "worked": "<b>Finally</b> shows the last step.",
+      "worked": "<b>Three hundred rooms</b> is very, very big, so the hotel is <b>huge</b>.",
       "type": "mcq",
-      "q": "Choose the best word for the LAST step: '______, put everything back in the box.'",
+      "q": "'The hotel has three hundred rooms. It is ______.' Choose the best word.",
       "opts": [
-       "Finally",
-       "First",
-       "Because"
-      ],
-      "at": 0,
-      "whys": [
-       null,
-       "'First' is for the first step.",
-       "'Because' gives a reason."
-      ],
-      "letters": true
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Wc.01",
-     "6Wca.04"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "Which word gives good advice?"
-      },
-      "worked": "'You <b>should</b> wear a helmet' gives good advice.",
-      "type": "mcq",
-      "q": "Choose the best advice: 'You ______ wear a helmet when you ride your bike.'",
-      "opts": [
-       "should",
-       "shouldn't",
-       "needn't"
-      ],
-      "at": 0,
-      "whys": [
-       null,
-       "A helmet keeps you safe, so this is bad advice.",
-       "'Needn't' means it isn't necessary, but a helmet is important."
-      ],
-      "letters": true
-     },
-     {
-      "hint": {
-       "step": "Which words tell someone to check something?"
-      },
-      "worked": "'<b>Make sure you</b> close the gate' is the right advice.",
-      "type": "mcq",
-      "q": "Choose the best advice: '______ close the gate, or the goats will run away.'",
-      "opts": [
-       "Make sure you",
-       "Don't forget you",
-       "You mustn't"
-      ],
-      "at": 1,
-      "whys": [
-       null,
-       "We say 'Don't forget *to* close', not 'Don't forget you close'.",
-       "'Mustn't' would mean you are NOT allowed to close it."
-      ],
-      "letters": true
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Wca.02"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "British English: -our at the end."
-      },
-      "worked": "British English spelling is <b>colour</b>.",
-      "type": "mcq",
-      "q": "Which word is spelled correctly in British English?",
-      "opts": [
-       "colour",
-       "color",
-       "coulor"
+       "huge",
+       "tiny",
+       "funny"
       ],
       "at": 2,
       "whys": [
        null,
-       "This is American spelling.",
-       "The letters 'ou' are in the wrong place."
-      ],
-      "letters": true
-     },
-     {
-      "hint": {
-       "step": "British English: -re at the end, like 'theatre'."
-      },
-      "worked": "British English spelling is <b>centre</b>.",
-      "type": "mcq",
-      "q": "Which word is spelled correctly in British English?",
-      "opts": [
-       "centre",
-       "center",
-       "sentre"
-      ],
-      "at": 1,
-      "whys": [
-       null,
-       "This is American spelling.",
-       "It starts with a 'c', not an 's'."
+       "Three hundred rooms is a lot, so it can't be tiny.",
+       "'Funny' is for people or jokes, not buildings."
       ],
       "letters": true
      }
@@ -1559,86 +1528,190 @@
    {
     "dok": 1,
     "lo": [
-     "6Wca.04"
+     "4Wor.02"
     ],
     "v": [
      {
       "hint": {
-       "step": "'Last summer' is the past. 'Teach' is irregular."
+       "step": "Are 'old' and 'can still run fast' the same kind of idea or different?"
       },
-      "worked": "The past simple of 'teach' is <b>taught</b>.",
-      "type": "tfill",
-      "q": "Write the correct form of the verb in brackets.",
-      "lines": [
-       "My grandma {0} (teach) me to cook last summer."
-      ],
-      "ans": [
-       [
-        "taught"
-       ]
-      ]
-     },
-     {
-      "hint": {
-       "step": "'Have you ever' needs the past participle."
-      },
-      "worked": "Present perfect: have + <b>seen</b>.",
-      "type": "tfill",
-      "q": "Write the correct form of the verb in brackets.",
-      "lines": [
-       "Have you ever {0} (see) a whale?"
-      ],
-      "ans": [
-       [
-        "seen"
-       ]
-      ]
-     }
-    ]
-   },
-   {
-    "dok": 1,
-    "lo": [
-     "6Wor.03"
-    ],
-    "v": [
-     {
-      "hint": {
-       "step": "A title is short, with capital letters."
-      },
-      "worked": "'My Brilliant Best Friend' is a clear, interesting title.",
+      "worked": "'Old' and 'can still run fast' are different ideas, so we use <b>but</b>.",
       "type": "mcq",
-      "q": "Which is the best title for a description of your best friend?",
+      "q": "'My grandpa is old, ______ he can still run fast.' Choose the best word.",
       "opts": [
-       "My Brilliant Best Friend",
-       "Dear Nhung,",
-       "she is nice and funny"
+       "but",
+       "because",
+       "so"
       ],
       "at": 2,
       "whys": [
        null,
-       "This is how you start a letter.",
-       "This is a sentence with no capital letters."
+       "Being old is not the reason he runs fast.",
+       "'So' shows a result, but old people don't run fast because they are old."
       ],
       "letters": true
      },
      {
       "hint": {
-       "step": "A title is short and makes people want to read."
+       "step": "Is the second part a reason?"
       },
-      "worked": "'Our Fantastic Sports Day' is short and interesting.",
+      "worked": "'It is very bright' is the reason, so we use <b>because</b>.",
       "type": "mcq",
-      "q": "Which is the best title for an article about a school sports day?",
+      "q": "'I love our garden lamp ______ it is very bright.' Choose the best word.",
       "opts": [
-       "Our Fantastic Sports Day",
-       "Hi everyone, how are you?",
-       "sports day was on friday"
+       "because",
+       "but",
+       "then"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "'But' joins two different ideas. Being bright is a reason to love it.",
+       "'Then' tells us what happens next."
+      ],
+      "letters": true
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "4Wca.04"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "What is the camera for? Use: to + verb."
+      },
+      "worked": "'A camera <b>to take</b> photos' tells us what the camera is for.",
+      "type": "mcq",
+      "q": "'The rover has a camera ______ photos.' Choose the best words.",
+      "opts": [
+       "to take",
+       "takes",
+       "taking"
       ],
       "at": 0,
       "whys": [
        null,
-       "This is a greeting, not a title.",
-       "This is a sentence, and 'Friday' needs a capital letter."
+       "'Has a camera takes' is not a correct sentence.",
+       "We don't say 'a camera taking photos' to give its use here."
+      ],
+      "letters": true
+     },
+     {
+      "hint": {
+       "step": "To say what something is for, use: to + verb."
+      },
+      "worked": "'We use the big box <b>to keep</b> our toys' tells us what the box is for.",
+      "type": "mcq",
+      "q": "'We use the big box ______ our toys.' Choose the best words.",
+      "opts": [
+       "to keep",
+       "keeping",
+       "kept"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "We don't say 'use the big box keeping our toys'. Use 'to' + verb to say what it is for.",
+       "'Kept' is the past, but the sentence says what the box is for."
+      ],
+      "letters": true
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "4Wca.03"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "Check the first word, the name and the end of the sentence."
+      },
+      "worked": "'<b>My</b> uncle has a dog called <b>Spot.</b>' has both capitals and a full stop.",
+      "type": "mcq",
+      "q": "Which sentence is written correctly?",
+      "opts": [
+       "My uncle has a dog called Spot.",
+       "my uncle has a dog called Spot.",
+       "My uncle has a dog called spot"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "The first word of a sentence needs a capital letter.",
+       "A pet's name needs a capital letter, and the sentence needs a full stop."
+      ],
+      "letters": true
+     },
+     {
+      "hint": {
+       "step": "Check the first word, the month, the place and the end."
+      },
+      "worked": "'<b>In July</b> we go to <b>Ha Long Bay.</b>' has all the capitals and a full stop.",
+      "type": "mcq",
+      "q": "Which sentence is written correctly?",
+      "opts": [
+       "In July we go to Ha Long Bay.",
+       "in July we go to Ha Long Bay.",
+       "In july we go to ha long bay"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "The first word of a sentence needs a capital letter.",
+       "Months and place names need capitals, and the sentence needs a full stop."
+      ],
+      "letters": true
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "4Wca.04"
+    ],
+    "v": [
+     {
+      "hint": {
+       "step": "British English writes 'our' in this word."
+      },
+      "worked": "In British English we write <b>favourite</b>.",
+      "type": "mcq",
+      "q": "Which word is spelt correctly in British English?",
+      "opts": [
+       "favourite",
+       "favorite",
+       "favourit"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "This is American spelling. British English adds a 'u'.",
+       "This word needs an 'e' at the end."
+      ],
+      "letters": true
+     },
+     {
+      "hint": {
+       "step": "Think of 'colour' and the ending '-ful'."
+      },
+      "worked": "'colour' + 'ful' = <b>colourful</b>.",
+      "type": "mcq",
+      "q": "Which word is spelt correctly in British English?",
+      "opts": [
+       "colourful",
+       "colorful",
+       "colourfull"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "This is American spelling. British English adds a 'u'.",
+       "'-ful' at the end of a word has only one 'l'."
       ],
       "letters": true
      }
@@ -1647,61 +1720,61 @@
    {
     "dok": 2,
     "lo": [
-     "6Wca.03"
+     "4Wca.03"
     ],
     "v": [
      {
       "hint": {
-       "step": "Look for a reason with 'because' or 'so'."
+       "step": "Look for things she does, like 'she plays' or 'she helps'."
       },
-      "worked": "There is no reason, so the third bullet point is missing.",
+      "worked": "Rory says who she is, what she is like and why, but not what she does every day.",
       "type": "mcq",
-      "q": "Task: say what to get ready, give the steps, explain why one step is important. Which bullet point is missing?",
+      "q": "The task asks: who the person is, what he or she is like, what he or she does, why the person is special. Which bullet point is missing from Rory's answer?",
       "opts": [
-       "a reason why one step matters",
-       "the things to get ready",
-       "the steps in the right order"
+       "what his sister does",
+       "why she is special to Rory",
+       "what his sister is like"
       ],
-      "at": 1,
+      "at": 2,
       "whys": [
        null,
-       "'You need a pencil, a ruler and some paper' is what to get ready.",
-       "'First... Next... Finally...' are the steps."
+       "'She is special to me because ...' is his reason.",
+       "'Clever and very kind' tells us what she is like."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
-       "id": "s9-t-ben",
+       "id": "s9-t-rory",
        "kind": "text",
-       "head": "An answer to Ben",
-       "html": "Hi Ben! You need a pencil, a ruler and some paper. First, draw a big circle. Next, draw two small circles for the eyes. Finally, colour it in. Have fun!"
+       "head": "Rory's answer",
+       "html": "My big sister is twelve years old. She is clever and very kind. She has long black hair and brown eyes. She is special to me because she always listens to me."
       }
      },
      {
       "hint": {
-       "step": "Look for a reason with 'because' or 'so'."
+       "step": "Look for describing words like funny, kind or tall."
       },
-      "worked": "No step has a reason, so the third bullet point is missing.",
+      "worked": "Esme has no describing words about her uncle, so 'what he is like' is missing.",
       "type": "mcq",
-      "q": "Task: say what Grandpa needs, give the steps, explain why one step is important. Which bullet point is missing?",
+      "q": "The task asks: who the person is, what he or she is like, what he or she does, why the person is special. Which bullet point is missing from Esme's answer?",
       "opts": [
-       "a reason why one step matters",
-       "the things Grandpa needs",
-       "the steps in the right order"
+       "what her uncle is like",
+       "what her uncle does",
+       "why he is special to Esme"
       ],
       "at": 2,
       "whys": [
        null,
-       "'you need your phone and the charger' is what he needs.",
-       "'First... Then...' are the steps."
+       "'He cooks noodles' and 'he takes me fishing' tell us what he does.",
+       "'He is special to me because ...' is her reason."
       ],
       "letters": true,
       "fig": {
        "k": "stim",
-       "id": "s9-t-grandpa",
+       "id": "s9-t-esme",
        "kind": "text",
-       "head": "An answer to Grandpa",
-       "html": "Dear Grandpa, you need your phone and the charger. First, plug the charger into the wall. Then connect the cable to your phone and wait. Watch the battery picture on the screen."
+       "head": "Esme's answer",
+       "html": "My uncle is a cook in a restaurant. He cooks noodles every day. On Sundays he takes me fishing. He is special to me because he teaches me new things."
       }
      }
     ]
@@ -1709,95 +1782,108 @@
    {
     "dok": 2,
     "lo": [
-     "6Wc.01",
-     "6Wc.03"
+     "4Wca.03"
     ],
     "v": [
      {
       "hint": {
-       "step": "Look for 'because' and a real reason."
+       "step": "Look for describing words about colours, shapes and size."
       },
-      "worked": "'<b>because</b> germs can make you ill' explains why washing is important.",
+      "worked": "Layla never says what the hotel looks like, for example its colour or size.",
       "type": "mcq",
-      "q": "Which sentence best explains why a step is important?",
+      "q": "The task asks: what it is and where, what it looks like, one special feature and its use, why you like it. Which bullet point is missing from Layla's answer?",
       "opts": [
-       "Wash your hands first, because germs can make you ill.",
-       "Wash your hands first, and then get a big bowl.",
-       "Washing your hands is easy and it takes one minute."
-      ],
-      "at": 0,
-      "whys": [
-       null,
-       "This gives the next step, not a reason.",
-       "This describes washing, but doesn't say why it matters."
-      ],
-      "letters": true
-     },
-     {
-      "hint": {
-       "step": "Look for 'so' and a real reason."
-      },
-      "worked": "'<b>so</b> it doesn't stop during the call' explains why charging is important.",
-      "type": "mcq",
-      "q": "Which sentence best explains why a step is important?",
-      "opts": [
-       "Charge the tablet first, so it doesn't stop during the call.",
-       "Charge the tablet first, and then open the video app.",
-       "Charging the tablet is quick and it is very easy."
+       "what the hotel looks like",
+       "a special feature and its use",
+       "why Layla likes the hotel"
       ],
       "at": 1,
       "whys": [
        null,
-       "This gives the next step, not a reason.",
-       "This describes charging, but doesn't say why it matters."
+       "'A big slide to go down into the pool' is the special feature and its use.",
+       "'I like it because ...' is her reason."
       ],
-      "letters": true
+      "letters": true,
+      "fig": {
+       "k": "stim",
+       "id": "s9-t-layla",
+       "kind": "text",
+       "head": "Layla's answer",
+       "html": "There is a tall hotel next to the beach in my town. It has a big slide to go down into the pool. I like it because my family has a holiday there every summer."
+      }
+     },
+     {
+      "hint": {
+       "step": "Does Hieu say WHERE the lamp is?"
+      },
+      "worked": "Hieu never says where the lamp is, for example 'in our garden'.",
+      "type": "mcq",
+      "q": "The task asks: what it is and where, what it looks like, one special feature and its use, why you like it. Which bullet point is missing from Hieu's answer?",
+      "opts": [
+       "what it is and where",
+       "what it looks like",
+       "why Hieu likes it"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "'Black and silver, with a tiny blue light' tells us what it looks like.",
+       "'I like it because ...' is his reason."
+      ],
+      "letters": true,
+      "fig": {
+       "k": "stim",
+       "id": "s9-t-hieu",
+       "kind": "text",
+       "head": "Hieu's answer",
+       "html": "The lamp is black and silver, with a tiny blue light. It has a solar panel to catch sunlight. I like it because it turns on by itself at night."
+      }
      }
     ]
    },
    {
     "dok": 2,
     "lo": [
-     "6Wca.03"
+     "4Wc.03"
     ],
     "v": [
      {
       "hint": {
-       "step": "Is 128 more or less than 110?"
+       "step": "A good last sentence gives your opinion and a reason."
       },
-      "worked": "128 is more than 110, so he should cut some less important details.",
+      "worked": "'She is special to me <b>because</b> she always listens' gives an opinion and a reason.",
       "type": "mcq",
-      "q": "Task 2 needs 90 to 110 words. Bao has written 128 words. What should he do?",
+      "q": "Which is the best last sentence for a text about your grandma?",
       "opts": [
-       "Cut some less important details.",
-       "Add one more paragraph.",
-       "Leave it, because longer is better."
+       "She is special to me because she always listens.",
+       "She has got short grey hair and brown eyes.",
+       "She lives in a small house near the river."
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
-       "More words would make it even longer.",
-       "He should stay inside 90 to 110 words."
+       "This describes what she looks like, but it gives no opinion or reason.",
+       "This says where she lives, but it gives no opinion or reason."
       ],
       "letters": true
      },
      {
       "hint": {
-       "step": "Is 26 more or less than 35?"
+       "step": "Which sentence says what you think and why?"
       },
-      "worked": "26 is less than 35, so she should add a reason or a useful detail.",
+      "worked": "'I like it <b>because</b> I learn something new' gives an opinion and a reason.",
       "type": "mcq",
-      "q": "Task 1 needs 35 to 45 words. Mai has written 26 words. What should she do?",
+      "q": "Which is the best last sentence for a text about a museum?",
       "opts": [
-       "Add a reason or a detail.",
-       "Take out one of her steps.",
-       "Add a title at the top."
+       "I like it because I learn something new.",
+       "It is next to a big hotel in the city centre.",
+       "It has a huge glass door and a red roof."
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
-       "Taking words out makes it even shorter.",
-       "Task 1 doesn't need a title, and it won't add enough words."
+       "This says where it is, but it gives no opinion or reason.",
+       "This describes what it looks like, but it gives no opinion."
       ],
       "letters": true
      }
@@ -1806,47 +1892,46 @@
    {
     "dok": 2,
     "lo": [
-     "6Wor.02",
-     "6Wor.03"
+     "4Wor.02"
     ],
     "v": [
      {
       "hint": {
-       "step": "Think: title, paragraphs, sentences."
+       "step": "Are the two ideas different or is one a reason?"
       },
-      "worked": "A title and three paragraphs, one for each point, is clear for the reader.",
+      "worked": "Small and bright are different ideas, so <b>but</b> joins them best.",
       "type": "mcq",
-      "q": "Task 2 has three bullet points: describe, explain, give your opinion. Which plan is best?",
+      "q": "'The lamp is small. It is very bright.' Which sentence joins the ideas best?",
       "opts": [
-       "a title, then one paragraph for each point",
-       "one long paragraph with no title",
-       "a title, then a list of single words"
+       "The lamp is small, but it is very bright.",
+       "The lamp is small because it is very bright.",
+       "The lamp is small, so it is very bright."
       ],
       "at": 1,
       "whys": [
        null,
-       "Task 2 needs a title, and paragraphs make it easier to read.",
-       "A list of words isn't a text: write full sentences."
+       "Being bright is not the reason it is small.",
+       "Being small does not make a lamp bright."
       ],
       "letters": true
      },
      {
       "hint": {
-       "step": "Look for a linking word that shows a contrast."
+       "step": "Is 'She is very patient' a reason?"
       },
-      "worked": "'<b>but</b>' links two different ideas in one sentence.",
+      "worked": "Being patient is the reason, so <b>because</b> joins the ideas best.",
       "type": "mcq",
-      "q": "Which sentence links two ideas best?",
+      "q": "'I love my coach. She is very patient.' Which sentence joins the ideas best?",
       "opts": [
-       "The Arctic fox is small, but it is very strong.",
-       "The Arctic fox is small. The Arctic fox is strong.",
-       "The Arctic fox is small, strong, it is fox."
+       "I love my coach because she is very patient.",
+       "I love my coach, but she is very patient.",
+       "I love my coach, then she is very patient."
       ],
-      "at": 0,
+      "at": 1,
       "whys": [
        null,
-       "This repeats 'The Arctic fox' and has no linking word.",
-       "This sentence is not correct English."
+       "'But' is for different ideas. Being patient is a reason to love her.",
+       "'Then' is for what happens next, not a reason."
       ],
       "letters": true
      }
@@ -1855,47 +1940,46 @@
    {
     "dok": 2,
     "lo": [
-     "6Wc.03",
-     "6Wc.02"
+     "4Wc.02"
     ],
     "v": [
      {
       "hint": {
-       "step": "A good ending gives your opinion or a hope."
+       "step": "Look for 'It has ... to + verb'."
       },
-      "worked": "It sums up why you admire her and gives a hope for the future.",
+      "worked": "'It has a long arm <b>to pick up</b> rocks' gives a feature and what it is for.",
       "type": "mcq",
-      "q": "Which is the best last sentence for a text about a person you admire?",
+      "q": "The task asks for one special feature and its use. Which sentence is best for a rover?",
       "opts": [
-       "That's why I hope to be as kind as her one day.",
-       "She has got a blue car and a small cat.",
-       "First, open the box and take the toy out."
+       "It has a long arm to pick up rocks.",
+       "It is on Mars, far away from Earth.",
+       "I like it because it is very clever."
       ],
-      "at": 2,
+      "at": 0,
       "whys": [
        null,
-       "This is a small detail, not a strong ending.",
-       "This is an instruction, not about the person."
+       "This says where it is, not a special feature and its use.",
+       "This is an opinion, not a special feature and its use."
       ],
       "letters": true
      },
      {
       "hint": {
-       "step": "A good ending gives your opinion."
+       "step": "Look for 'It has ... to + verb'."
       },
-      "worked": "'<b>In my opinion</b>, it's the best night of the year' gives a clear opinion to finish.",
+      "worked": "'It has a button <b>to keep</b> rice warm' gives a feature and what it is for.",
       "type": "mcq",
-      "q": "Which is the best last sentence for a description of a festival?",
+      "q": "The task asks for one special feature and its use. Which sentence is best for a rice cooker?",
       "opts": [
-       "In my opinion, it's the best night of the year.",
-       "The festival is in the street near my house.",
-       "Next, buy a lantern from the shop."
+       "It has a button to keep rice warm.",
+       "It is white and round, with a black lid.",
+       "It is in the kitchen, next to the fridge."
       ],
-      "at": 0,
+      "at": 2,
       "whys": [
        null,
-       "This describes the place; it belongs at the start.",
-       "This is an instruction, not a description."
+       "This says what it looks like, not what a feature is for.",
+       "This says where it is, not a special feature and its use."
       ],
       "letters": true
      }
@@ -1907,143 +1991,199 @@
   "secs": 60,
   "items": [
    [
-    "The first step starts with ___",
-    [
-     "First",
-     "Finally",
-     "However"
-    ]
-   ],
-   [
-    "The last step starts with ___",
-    [
-     "Finally",
-     "First",
-     "Next"
-    ]
-   ],
-   [
-    "Which word gives a reason?",
+    "A word that gives a reason?",
     [
      "because",
-     "then",
-     "next"
+     "but",
+     "then"
     ]
    ],
    [
-    "Which word shows a result?",
+    "A word for two different ideas?",
     [
-     "so",
-     "first",
-     "although"
+     "but",
+     "because",
+     "also"
     ]
    ],
    [
-    "Which word shows an opposite idea?",
+    "A word that adds one more idea?",
     [
-     "however",
-     "next",
+     "also",
+     "but",
      "because"
     ]
    ],
    [
-    "Which word adds another idea?",
+    "He makes us laugh. He is ___.",
     [
-     "also",
-     "finally",
-     "but"
+     "funny",
+     "quiet",
+     "huge"
     ]
    ],
    [
-    "Don't forget ___ your coat.",
+    "She helps everyone. She is ___.",
     [
-     "to bring",
-     "bring",
-     "bringing"
+     "kind",
+     "noisy",
+     "tiny"
     ]
    ],
    [
-    "Make sure you ___ the door.",
+    "Nobody talks here. It is ___.",
     [
-     "lock",
-     "to lock",
-     "locking"
+     "quiet",
+     "noisy",
+     "funny"
     ]
    ],
    [
-    "Good advice: You ___ drink water.",
+    "Very, very big means ___.",
     [
-     "should",
-     "mustn't",
-     "needn't"
+     "huge",
+     "tiny",
+     "quiet"
     ]
    ],
    [
-    "Rule: You ___ run near the pool.",
+    "Lots of bright colours means ___.",
     [
-     "mustn't",
-     "should",
-     "can"
+     "colourful",
+     "useful",
+     "quiet"
     ]
    ],
    [
-    "Not necessary: You ___ bring food.",
+    "Good for doing a job means ___.",
     [
-     "needn't",
-     "must",
-     "should"
+     "useful",
+     "funny",
+     "friendly"
     ]
    ],
    [
-    "Task 1 length?",
+    "Quick to learn means ___.",
     [
-     "35 to 45 words",
-     "90 to 110 words",
-     "10 to 20 words"
+     "clever",
+     "tired",
+     "noisy"
     ]
    ],
    [
-    "Task 2 length?",
+    "We use it ___ rice.",
     [
-     "90 to 110 words",
-     "35 to 45 words",
-     "200 words"
+     "to cook",
+     "cooks",
+     "cooked"
     ]
    ],
    [
-    "Which task needs a title?",
+    "It has wheels ___ fast.",
     [
-     "Task 2",
-     "Task 1",
-     "neither"
+     "to move",
+     "moves",
+     "moved"
     ]
    ],
    [
-    "How many bullet points in each task?",
+    "We use the tub ___ rain.",
     [
-     "three",
-     "two",
-     "five"
+     "to catch",
+     "catches",
+     "caught"
     ]
    ],
    [
-    "British spelling:",
+    "It has a lid ___ food hot.",
+    [
+     "to keep",
+     "keeps",
+     "kept"
+    ]
+   ],
+   [
+    "My dad ___ dinner every day.",
+    [
+     "cooks",
+     "cook",
+     "cooking"
+    ]
+   ],
+   [
+    "She ___ two cats.",
+    [
+     "has",
+     "have",
+     "having"
+    ]
+   ],
+   [
+    "My grandma ___ very kind.",
+    [
+     "is",
+     "are",
+     "be"
+    ]
+   ],
+   [
+    "He ___ the guitar on Sundays.",
+    [
+     "plays",
+     "play",
+     "playing"
+    ]
+   ],
+   [
+    "They ___ next door.",
+    [
+     "live",
+     "lives",
+     "living"
+    ]
+   ],
+   [
+    "Spell it right:",
+    [
+     "beautiful",
+     "beautifull",
+     "beatiful"
+    ]
+   ],
+   [
+    "Spell it right in British English:",
     [
      "favourite",
      "favorite",
-     "favrite"
+     "favourit"
     ]
    ],
    [
-    "British spelling:",
+    "Spell it right in British English:",
     [
      "colour",
      "color",
-     "culour"
+     "coulor"
     ]
    ],
    [
-    "British spelling:",
+    "Spell it right:",
+    [
+     "friendly",
+     "freindly",
+     "frendly"
+    ]
+   ],
+   [
+    "Spell it right:",
+    [
+     "funny",
+     "funy",
+     "funnie"
+    ]
+   ],
+   [
+    "Spell it right in British English:",
     [
      "centre",
      "center",
@@ -2051,269 +2191,213 @@
     ]
    ],
    [
-    "British spelling:",
+    "A sentence starts with a ___.",
     [
-     "theatre",
-     "theater",
-     "theeter"
+     "capital letter",
+     "full stop",
+     "comma"
     ]
    ],
    [
-    "British spelling:",
+    "A sentence ends with a ___.",
     [
-     "practise (verb)",
-     "practize",
-     "praktise"
+     "full stop",
+     "capital letter",
+     "comma"
     ]
    ],
    [
-    "Correct spelling:",
+    "Which is always a capital?",
     [
-     "beautiful",
-     "beatiful",
-     "beautifull"
+     "I",
+     "the",
+     "and"
     ]
    ],
    [
-    "Correct spelling:",
+    "Which needs a capital letter?",
     [
-     "because",
-     "becose",
-     "becaus"
+     "Monday",
+     "dog",
+     "garden"
     ]
    ],
    [
-    "Correct spelling:",
+    "Which needs a capital letter?",
     [
-     "friend",
-     "freind",
-     "frend"
+     "Hanoi",
+     "river",
+     "school"
     ]
    ],
    [
-    "Correct spelling:",
+    "How many sentences should you write?",
     [
-     "really",
-     "realy",
-     "relly"
+     "6 to 8",
+     "2 to 3",
+     "15 to 20"
     ]
    ],
    [
-    "Correct spelling:",
+    "How many bullet points are there?",
     [
-     "different",
-     "diffrent",
-     "diferent"
+     "four",
+     "two",
+     "six"
     ]
    ],
    [
-    "Correct spelling:",
+    "How many paragraphs do you write?",
     [
-     "important",
-     "importent",
-     "impotant"
+     "one",
+     "three",
+     "five"
     ]
    ],
    [
-    "Yesterday I ___ to the zoo.",
+    "Task 1 describes a ___.",
     [
-     "went",
-     "go",
-     "goed"
+     "person",
+     "recipe",
+     "story"
     ]
    ],
    [
-    "Last week we ___ a cake.",
+    "Task 2 describes a place or ___.",
     [
-     "made",
-     "make",
-     "maked"
+     "thing",
+     "song",
+     "game"
     ]
    ],
    [
-    "She ___ her bike every day.",
+    "Your last sentence gives your ___.",
     [
-     "rides",
-     "ride",
-     "riding"
-    ]
-   ],
-   [
-    "I have ___ finished my homework.",
-    [
-     "already",
-     "yet",
-     "ever"
-    ]
-   ],
-   [
-    "There ___ many people there.",
-    [
-     "were",
-     "was",
-     "is"
-    ]
-   ],
-   [
-    "A good title has ___",
-    [
-     "capital letters",
-     "no words",
-     "a greeting"
-    ]
-   ],
-   [
-    "Dear Grandma, is a ___",
-    [
-     "greeting",
-     "title",
-     "paragraph"
-    ]
-   ],
-   [
-    "One paragraph is about ___",
-    [
-     "one main idea",
-     "every idea",
-     "the title"
-    ]
-   ],
-   [
-    "To proofread means to ___",
-    [
-     "check for mistakes",
-     "copy the text",
-     "draw pictures"
-    ]
-   ],
-   [
-    "Opinion starter:",
-    [
-     "In my opinion",
-     "First of all",
-     "After that"
-    ]
-   ],
-   [
-    "Opinion starter:",
-    [
-     "I think",
-     "Next",
-     "Then"
-    ]
-   ],
-   [
-    "Time word for a story:",
-    [
-     "After lunch",
-     "Because",
-     "However"
-    ]
-   ],
-   [
-    "Wash it, ___ it is clean.",
-    [
-     "so",
-     "but",
-     "or"
-    ]
-   ],
-   [
-    "Close the lid, ___ it will spill.",
-    [
-     "or",
-     "so",
-     "because"
-    ]
-   ],
-   [
-    "Hold it at eye level, ___ he sees you.",
-    [
-     "so",
-     "but",
-     "or"
-    ]
-   ],
-   [
-    "Advice starter:",
-    [
-     "You should",
-     "I went",
-     "There is"
-    ]
-   ],
-   [
-    "'Cut', 'wash' and 'pour' are ___ verbs",
-    [
-     "instruction",
      "opinion",
-     "feeling"
+     "address",
+     "age"
     ]
    ],
    [
-    "'Cut the bread.' This is ___",
+    "'Why is it special?' needs a ___.",
     [
-     "an instruction",
-     "an opinion",
-     "a title"
-    ]
-   ],
-   [
-    "'It was amazing!' This is ___",
-    [
-     "an opinion",
-     "an instruction",
-     "a greeting"
-    ]
-   ],
-   [
-    "Missing a bullet point loses ___ marks",
-    [
-     "content",
-     "spelling",
+     "reason",
+     "date",
      "title"
     ]
    ],
    [
-    "Finish a description with your ___",
+    "What is it for? Use ___ + verb.",
     [
-     "opinion",
-     "address",
-     "shopping list"
+     "to",
+     "and",
+     "but"
     ]
    ],
    [
-    "Join: small ___ strong",
+    "He is tall ___ strong.",
     [
+     "and",
      "but",
-     "so",
      "because"
     ]
    ],
    [
-    "The fox is fast. It is ___ clever.",
+    "It is old, ___ it works well.",
     [
-     "also",
+     "but",
+     "because",
+     "and"
+    ]
+   ],
+   [
+    "I like her ___ she is kind.",
+    [
+     "because",
      "but",
      "so"
     ]
    ],
    [
-    "Best adjective for an exciting race:",
+    "It was raining, ___ we stayed in.",
     [
-     "thrilling",
+     "so",
+     "but",
+     "because"
+    ]
+   ],
+   [
+    "___ I visit, she cooks soup.",
+    [
+     "When",
+     "But",
+     "Also"
+    ]
+   ],
+   [
+    "A describing word for a person?",
+    [
+     "patient",
+     "kitchen",
+     "slowly"
+    ]
+   ],
+   [
+    "A describing word for a building?",
+    [
+     "tall",
+     "teach",
+     "always"
+    ]
+   ],
+   [
+    "The opposite of huge?",
+    [
+     "tiny",
+     "tall",
+     "wide"
+    ]
+   ],
+   [
+    "The opposite of noisy?",
+    [
+     "quiet",
+     "loud",
+     "busy"
+    ]
+   ],
+   [
+    "The opposite of kind?",
+    [
+     "unkind",
      "nice",
-     "OK"
+     "gentle"
+    ]
+   ],
+   [
+    "She is ___ person in my family.",
+    [
+     "the kindest",
+     "kinder",
+     "kind"
+    ]
+   ],
+   [
+    "It is ___ than our old fridge.",
+    [
+     "bigger",
+     "biggest",
+     "big"
     ]
    ]
   ]
  },
  "selfcheck": {
   "goals": [
-   "write instructions in order with First, Next and Finally",
-   "give advice with should, make sure you and don't forget to",
-   "explain a reason or an opinion with because, so and In my opinion",
-   "plan a Task 2 text with a title and three paragraphs, then proofread it"
+   "describe a person with words like kind, funny and friendly",
+   "join my ideas with and, but, because, so and also",
+   "say what a thing is for with to + verb",
+   "write 6 to 8 sentences and check capitals, full stops and verbs"
   ],
   "again": [
    "c",

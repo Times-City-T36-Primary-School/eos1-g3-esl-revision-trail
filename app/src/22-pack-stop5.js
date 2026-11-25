@@ -496,7 +496,7 @@
          },
          "worked": "Vy says \"<b>So I'm making little mango cakes</b>.\"",
          "type": "mcq",
-         "q": "You will hear Huy and Vy talking about a class party. What is Vy going to make?",
+         "q": "You will hear Huy and Vy talking about a class party. What will Vy make?",
          "opts": [
           "mango cakes",
           "chocolate biscuits",
@@ -2617,7 +2617,7 @@
            [
             "bm_lewis",
             "Elliot",
-            "Do you want to play in the park after school, Aisha?"
+            "Would you like to play in the park after school, Aisha?"
            ],
            [
             "bf_lily",
@@ -3781,7 +3781,7 @@
         [
          "bm_fable",
          "Kenji",
-         "Why don't you come on the bus with me?"
+         "Come on the bus with me, then!"
         ],
         [
          "bf_lily",

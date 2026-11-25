@@ -92,7 +92,7 @@
     "ex": "My *first name* is Grace."
    },
    "surname": {
-    "emoji": "👨‍👩‍👧",
+    "emoji": "🏷️",
     "vi": "họ",
     "def": "Your family name. It often comes after your own name.",
     "ex": "Nam's *surname* is Tran."
@@ -101,7 +101,7 @@
     "emoji": "🔤",
     "vi": "đánh vần",
     "def": "To say the letters of a word one by one, in the right order.",
-    "ex": "Can you *spell* your surname, please?"
+    "ex": "How do you *spell* your surname?"
    },
    "usually": {
     "emoji": "🔁",
@@ -448,7 +448,7 @@
         "There aren't any noodles today.",
         "Tuan had rice yesterday, so he wants something different."
        ],
-       "hint": "Tuan asks for one thing, Dad offers another. What do they agree on?",
+       "hint": "Tuan asks for one thing, Dad offers another. Which one does Tuan get?",
        "worked": "Tuan asks \"Can I have *a sandwich*?\" and Dad says \"OK. A cheese sandwich for you.\"",
        "stim": {
         "id": "s4-ch-2a",
@@ -1632,7 +1632,7 @@
            [
             "bm_fable",
             "Nam",
-            "What's your phone number, Coach?"
+            "Can I have your phone number, Coach?"
            ],
            [
             "bm_daniel",
@@ -2380,7 +2380,7 @@
            [
             "bm_daniel",
             "Grandpa",
-            "When can you see the vet?"
+            "So what time is your visit?"
            ],
            [
             "bf_alice",
@@ -2656,7 +2656,7 @@
            [
             "bm_george",
             "Guide",
-            "H-A-S-S-A-N. Thank you. How old are you, Amira?"
+            "H-A-S-S-A-N. Thank you. Can you tell me your age, Amira?"
            ],
            [
             "bf_lily",
@@ -2841,7 +2841,7 @@
            [
             "bm_george",
             "Guide",
-            "H-A-S-S-A-N. Thank you. How old are you, Amira?"
+            "H-A-S-S-A-N. Thank you. Can you tell me your age, Amira?"
            ],
            [
             "bf_lily",
@@ -3041,7 +3041,7 @@
            [
             "bm_george",
             "Guide",
-            "H-A-S-S-A-N. Thank you. How old are you, Amira?"
+            "H-A-S-S-A-N. Thank you. Can you tell me your age, Amira?"
            ],
            [
             "bf_lily",
@@ -3211,7 +3211,7 @@
         [
          "bf_isabella",
          "Helper",
-         "And your surname? Can you spell it, please?"
+         "And your surname? How do you spell it?"
         ],
         [
          "bf_lily",
@@ -3221,7 +3221,7 @@
         [
          "bf_isabella",
          "Helper",
-         "M-O-S-S. Thank you. How old are you, Grace?"
+         "M-O-S-S. Thank you. Can you tell me your age, Grace?"
         ],
         [
          "bf_lily",
@@ -3327,7 +3327,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "P-H-A-M. Thanks. How old are you, Tuan?"
+         "P-H-A-M. Thanks. Can you tell me your age, Tuan?"
         ],
         [
          "bm_fable",
@@ -3337,7 +3337,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "And what's your phone number, please?"
+         "And can I have a phone number?"
         ],
         [
          "bm_fable",
@@ -3433,7 +3433,7 @@
         [
          "bf_isabella",
          "Helper",
-         "And your surname? Can you spell it, please?"
+         "And your surname? How do you spell it?"
         ],
         [
          "bf_lily",
@@ -3443,7 +3443,7 @@
         [
          "bf_isabella",
          "Helper",
-         "M-O-S-S. Thank you. How old are you, Grace?"
+         "M-O-S-S. Thank you. Can you tell me your age, Grace?"
         ],
         [
          "bf_lily",
@@ -3550,7 +3550,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "P-H-A-M. Thanks. How old are you, Tuan?"
+         "P-H-A-M. Thanks. Can you tell me your age, Tuan?"
         ],
         [
          "bm_fable",
@@ -3560,7 +3560,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "And what's your phone number, please?"
+         "And can I have a phone number?"
         ],
         [
          "bm_fable",
@@ -3659,7 +3659,7 @@
         [
          "bf_isabella",
          "Helper",
-         "And your surname? Can you spell it, please?"
+         "And your surname? How do you spell it?"
         ],
         [
          "bf_lily",
@@ -3669,7 +3669,7 @@
         [
          "bf_isabella",
          "Helper",
-         "M-O-S-S. Thank you. How old are you, Grace?"
+         "M-O-S-S. Thank you. Can you tell me your age, Grace?"
         ],
         [
          "bf_lily",
@@ -3779,7 +3779,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "P-H-A-M. Thanks. How old are you, Tuan?"
+         "P-H-A-M. Thanks. Can you tell me your age, Tuan?"
         ],
         [
          "bm_fable",
@@ -3789,7 +3789,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "And what's your phone number, please?"
+         "And can I have a phone number?"
         ],
         [
          "bm_fable",
@@ -3885,7 +3885,7 @@
         [
          "bf_isabella",
          "Helper",
-         "And your surname? Can you spell it, please?"
+         "And your surname? How do you spell it?"
         ],
         [
          "bf_lily",
@@ -3895,7 +3895,7 @@
         [
          "bf_isabella",
          "Helper",
-         "M-O-S-S. Thank you. How old are you, Grace?"
+         "M-O-S-S. Thank you. Can you tell me your age, Grace?"
         ],
         [
          "bf_lily",
@@ -4022,7 +4022,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "P-H-A-M. Thanks. How old are you, Tuan?"
+         "P-H-A-M. Thanks. Can you tell me your age, Tuan?"
         ],
         [
          "bm_fable",
@@ -4032,7 +4032,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "And what's your phone number, please?"
+         "And can I have a phone number?"
         ],
         [
          "bm_fable",
@@ -4128,7 +4128,7 @@
         [
          "bf_isabella",
          "Helper",
-         "And your surname? Can you spell it, please?"
+         "And your surname? How do you spell it?"
         ],
         [
          "bf_lily",
@@ -4138,7 +4138,7 @@
         [
          "bf_isabella",
          "Helper",
-         "M-O-S-S. Thank you. How old are you, Grace?"
+         "M-O-S-S. Thank you. Can you tell me your age, Grace?"
         ],
         [
          "bf_lily",
@@ -4247,7 +4247,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "P-H-A-M. Thanks. How old are you, Tuan?"
+         "P-H-A-M. Thanks. Can you tell me your age, Tuan?"
         ],
         [
          "bm_fable",
@@ -4257,7 +4257,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "And what's your phone number, please?"
+         "And can I have a phone number?"
         ],
         [
          "bm_fable",

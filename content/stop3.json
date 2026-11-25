@@ -114,7 +114,7 @@
     "emoji": "📭",
     "vi": "không có gì",
     "def": "Not one thing. Zero things.",
-    "ex": "The box is empty. There's *nothing* in it."
+    "ex": "My piggy bank is empty. There's *nothing* in it."
    },
    "before": {
     "emoji": "⏮️",
@@ -204,7 +204,7 @@
     },
     "kind": "text",
     "head": "Rhys writes about the bird house",
-    "html": "Last Sunday Dad and I made a bird house. *Before* we started, we read the plan. Dad cut the wood *while* I painted the roof. *Then* we put it together. Dad worked *more carefully* than me! *After* we finished, we put it in our tree. *When* the first bird came, I shouted. My sister shouted *the loudest*! The bird flew away *faster* than a rocket.",
+    "html": "Last Sunday Dad and I made a bird house. *Before* we started, we read the plan. Dad cut the wood *while* I painted the roof. *Then* we put it together. Dad measured *more carefully* than me! *After* we finished, we put it in our tree. *When* the first bird came, I shouted. My sister shouted *the loudest*! The bird flew away *faster* than a rocket.",
     "audio": null,
     "steps": [
      {
@@ -326,7 +326,7 @@
      "v": [
       {
        "type": "mcq",
-       "q": "The box is empty. There's ________ in it.",
+       "q": "My piggy bank is empty. There's ________ in it.",
        "opts": [
         "nothing",
         "something",
@@ -335,11 +335,11 @@
        "at": 0,
        "whys": [
         null,
-        "The box is empty, so there isn't a thing in it.",
+        "The piggy bank is empty, so there isn't a thing in it.",
         "We don't use 'anything' after 'There's'. We use it after 'There isn't'."
        ],
-       "hint": "Is the box full or empty? Then check the word after 'There's'.",
-       "worked": "Empty box = 'There's nothing in it'.",
+       "hint": "Is the piggy bank full or empty? Then check the word after 'There's'.",
+       "worked": "Empty piggy bank = 'There's nothing in it'.",
        "stim": null
       },
       {
@@ -388,7 +388,7 @@
       },
       {
        "type": "mcq",
-       "q": "Dad worked ________ than me.",
+       "q": "Dad measured ________ than me.",
        "opts": [
         "more carefully",
         "carefully",
@@ -652,14 +652,14 @@
          "type": "tfill",
          "q": "Write the missing word.",
          "lines": [
-          "The box is empty. There's {0} in it."
+          "My piggy bank is empty. There's {0} in it."
          ],
          "ans": [
           [
            "nothing"
           ]
          ],
-         "hint": "Read the first sentence. Is there a thing in the box?",
+         "hint": "Read the first sentence. Is there a thing in the piggy bank?",
          "worked": "Empty = not one thing: 'There's nothing in it'.",
          "stim": null
         },
@@ -1902,7 +1902,7 @@
     ]
    ],
    [
-    "There are ___ eggs in the box.",
+    "I need ___ eggs for the cake.",
     [
      "a few",
      "a little",

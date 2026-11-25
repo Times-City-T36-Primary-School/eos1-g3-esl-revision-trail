@@ -268,7 +268,7 @@
         "hint": {
          "step": "Owen says 'No' to two foods. Which food does he ask for?"
         },
-        "worked": "Owen asks 'Can I have rice and fish?' and then says 'Rice and fish, please!'",
+        "worked": "Owen asks 'Can I have some dumplings?' and then says 'Dumplings, please!'",
         "type": "mcq",
         "q": "What is Owen going to have for lunch?",
         "opts": [
@@ -276,35 +276,35 @@
           "html": "",
           "fig": {
            "k": "pico",
-           "pic": "🍚🐟",
-           "tag": "rice and fish"
+           "pic": "🥟",
+           "tag": "dumplings"
           },
-          "alt": "rice and fish picture"
+          "alt": "dumplings picture"
          },
          {
           "html": "",
           "fig": {
            "k": "pico",
-           "pic": "🍜",
-           "tag": "noodles"
+           "pic": "🍔",
+           "tag": "burger"
           },
-          "alt": "noodles picture"
+          "alt": "burger picture"
          },
          {
           "html": "",
           "fig": {
            "k": "pico",
-           "pic": "🥪",
-           "tag": "sandwich"
+           "pic": "🌭",
+           "tag": "hot dog"
           },
-          "alt": "sandwich picture"
+          "alt": "hot dog picture"
          }
         ],
         "at": 1,
         "whys": [
          null,
-         "Owen had noodles for breakfast, so he says 'No, thanks.'",
-         "Aunt says he loves sandwiches, but Owen says 'Not today.'"
+         "Owen had a burger yesterday, so he says 'No, thanks.'",
+         "Aunt says he loves hot dogs, but Owen says 'Not today.'"
         ],
         "letters": true,
         "sub": "Tap one picture.",
@@ -317,22 +317,22 @@
           [
            "bf_isabella",
            "Aunt",
-           "Would you like some noodles for lunch, Owen?"
+           "Would you like a burger for lunch, Owen?"
           ],
           [
            "bm_lewis",
            "Owen",
-           "No, thanks. I had noodles for breakfast. Can I have rice and fish?"
+           "No, thanks. I had a burger yesterday. Can I have some dumplings?"
           ],
           [
            "bf_isabella",
            "Aunt",
-           "Not a sandwich? You love sandwiches."
+           "Not a hot dog? You love hot dogs."
           ],
           [
            "bm_lewis",
            "Owen",
-           "Not today. Rice and fish, please!"
+           "Not today. Dumplings, please!"
           ]
          ]
         }
@@ -349,11 +349,11 @@
       "v": [
        {
         "hint": {
-         "step": "Dad usually comes at one time, but today he is later. How much later?"
+         "step": "The bus usually goes at one time, but Owen asks for a different bus. Which one do they choose?"
         },
-        "worked": "Dad usually comes at twelve o'clock. Today he is 'coming half an hour later', so he comes at half past twelve.",
+        "worked": "Owen asks 'Can we get the bus at half past twelve?' and Aunt says 'Half past twelve, then.'",
         "type": "mcq",
-        "q": "What time is Owen's dad going to come today?",
+        "q": "What time are Owen and his aunt going to get the bus home?",
         "opts": [
          {
           "html": "",
@@ -386,8 +386,8 @@
         "at": 2,
         "whys": [
          null,
-         "Twelve o'clock is when Dad usually comes on Saturday. Today is different.",
-         "One o'clock is when the market closes, not when Dad comes."
+         "Twelve o'clock is when the bus usually goes. Owen asks for a later bus.",
+         "Aunt says one o'clock, but Owen says that is too late."
         ],
         "letters": true,
         "sub": "Tap one picture.",
@@ -400,17 +400,27 @@
           [
            "bf_isabella",
            "Aunt",
-           "Is your dad coming at twelve o'clock, like every Saturday?"
+           "Our bus home usually goes at twelve o'clock, Owen."
           ],
           [
            "bm_lewis",
            "Owen",
-           "Not today. He's playing football, so he's coming half an hour later."
+           "Can we get the bus at half past twelve? I want to watch the band."
           ],
           [
            "bf_isabella",
            "Aunt",
-           "Good. The market closes at one o'clock, so we've got time for a drink!"
+           "Not the bus at one o'clock? Then we can see more."
+          ],
+          [
+           "bm_lewis",
+           "Owen",
+           "No, that's too late. Mum's making lunch for us!"
+          ],
+          [
+           "bf_isabella",
+           "Aunt",
+           "OK. Half past twelve, then."
           ]
          ]
         }
@@ -422,7 +432,7 @@
    {
     "n": 2,
     "title": "Part 2",
-    "instr": "For each question, choose the correct answer. You will hear each conversation twice.",
+    "instr": "For each question, choose the correct answer. Each conversation is played twice.",
     "items": [
      {
       "num": 6,
@@ -437,7 +447,7 @@
         },
         "worked": "Luna says 'do you know what I liked most? There were two rainbows, one on top of the other!'",
         "type": "mcq",
-        "q": "You will hear two friends talking about a rainbow. What did Luna like most about it?",
+        "q": "You will hear Seb and Luna talking about a rainbow. What did Luna like most about it?",
         "opts": [
          "There were two rainbows.",
          "Its colours were very bright.",
@@ -454,7 +464,7 @@
          "k": "stim",
          "id": "sm-summit-l2-q6",
          "kind": "audio",
-         "head": "You will hear two friends talking about a rainbow.",
+         "head": "You will hear Seb and Luna talking about a rainbow.",
          "lines": [
           [
            "bm_fable",
@@ -500,7 +510,7 @@
         },
         "worked": "Tam says 'I'm a bit shy, so I want to feel braver. Dad says karate can help.'",
         "type": "mcq",
-        "q": "You will hear a girl and a boy talking about a karate class. Why is Tam starting karate?",
+        "q": "You will hear Emily and Tam talking about a karate class. Why is Tam starting karate?",
         "opts": [
          "He wants to feel braver.",
          "He wants to win medals.",
@@ -517,7 +527,7 @@
          "k": "stim",
          "id": "sm-summit-l2-q7",
          "kind": "audio",
-         "head": "You will hear a girl and a boy talking about a karate class.",
+         "head": "You will hear Emily and Tam talking about a karate class.",
          "lines": [
           [
            "bf_lily",
@@ -567,7 +577,7 @@
         },
         "worked": "Seb says 'Let's look in the lost property box first' and Luna says 'Good idea.'",
         "type": "mcq",
-        "q": "You will hear two friends talking about a lost scarf. Where do they agree to look first?",
+        "q": "You will hear Luna and Seb talking about a lost scarf. Where do they agree to look first?",
         "opts": [
          "in the lost property box",
          "in their classroom",
@@ -584,7 +594,7 @@
          "k": "stim",
          "id": "sm-summit-l2-q8",
          "kind": "audio",
-         "head": "You will hear two friends talking about a lost scarf.",
+         "head": "You will hear Luna and Seb talking about a lost scarf.",
          "lines": [
           [
            "bf_alice",
@@ -631,28 +641,28 @@
       "v": [
        {
         "hint": {
-         "step": "Tam changes his mind. Listen for 'I'm going to make'."
+         "step": "Tam changes his mind. Listen for 'I'll do'."
         },
-        "worked": "Tam says 'Mars is too small. I'm going to make Jupiter. It's the biggest.'",
+        "worked": "Tam says 'Venus is hard to make.' Then he says 'I'll do Neptune. It's blue.'",
         "type": "mcq",
-        "q": "You will hear two friends talking about a class model of the planets. Which planet is Tam going to make?",
+        "q": "You will hear Emily and Tam talking about a class model of the planets. Which planet is Tam going to make?",
         "opts": [
-         "Jupiter",
-         "Saturn",
-         "Mars"
+         "Neptune",
+         "Earth",
+         "Venus"
         ],
         "at": 0,
         "whys": [
          null,
-         "Tam wanted Saturn first, but Luna is already making it.",
-         "Emily says Mars, but Tam thinks it is too small. Emily makes Mars."
+         "Tam wanted Earth first, but Luna is already making it.",
+         "Emily says Venus, but Tam thinks it is hard to make. Emily makes Venus."
         ],
         "letters": true,
         "fig": {
          "k": "stim",
          "id": "sm-summit-l2-q9",
          "kind": "audio",
-         "head": "You will hear two friends talking about a class model of the planets.",
+         "head": "You will hear Emily and Tam talking about a class model of the planets.",
          "lines": [
           [
            "bf_lily",
@@ -662,22 +672,22 @@
           [
            "bm_lewis",
            "Tam",
-           "First I wanted Saturn, because of the rings. But Luna's already making it."
+           "First I wanted Earth, because it's our home. But Luna's already making it."
           ],
           [
            "bf_lily",
            "Emily",
-           "So what about Mars? You've got lots of red paint."
+           "So what about Venus? It's the hottest planet."
           ],
           [
            "bm_lewis",
            "Tam",
-           "Mars is too small. I'm going to make Jupiter. It's the biggest, and I can use an old football!"
+           "Venus is hard to make. It's covered in yellow clouds. I'll do Neptune. It's blue, and I can paint an old ball!"
           ],
           [
            "bf_lily",
            "Emily",
-           "Great idea. Then I'll make Mars!"
+           "Great idea. Then I'll make Venus!"
           ]
          ]
         }
@@ -697,7 +707,7 @@
         },
         "worked": "Seb says 'I like pancakes, but I'm more interested in the pancake race.'",
         "type": "mcq",
-        "q": "You will hear two friends talking about a pancake breakfast. What is Seb most interested in?",
+        "q": "You will hear Seb and Luna talking about a pancake breakfast. What is Seb most interested in?",
         "opts": [
          "watching the pancake race",
          "eating lots of pancakes",
@@ -714,7 +724,7 @@
          "k": "stim",
          "id": "sm-summit-l2-q10",
          "kind": "audio",
-         "head": "You will hear two friends talking about a pancake breakfast.",
+         "head": "You will hear Seb and Luna talking about a pancake breakfast.",
          "lines": [
           [
            "bm_fable",
@@ -757,32 +767,30 @@
       "num": 11,
       "dok": 1,
       "lo": [
-       "4Ld.04"
+       "4Ld.04",
+       "4Ld.02"
       ],
       "v": [
        {
         "hint": {
-         "step": "Two ages are said. Which one is Nora's age NOW?"
+         "step": "Nora spells her surname. Write each letter you hear."
         },
-        "worked": "Nora says 'I'm eight.' She will be nine in March, so nine is not her age now.",
+        "worked": "Nora says her surname is Fowler and spells it 'F-O-W-L-E-R'.",
         "type": "tfill",
         "q": "Write the missing information for question 11.",
         "lines": [
-         "Age: {0}"
+         "Surname: {0}"
         ],
         "ans": [
          [
-          "8",
-          "eight",
-          "8 years old",
-          "eight years old"
+          "fowler"
          ]
         ],
         "fig": {
          "k": "stim",
          "id": "sm-summit-l3",
          "kind": "audio",
-         "head": "<b>JUNIOR COOKING CLASS</b><br>First name: <b>Nora</b> (example)<br>(11) Age: ________<br>(12) Address: 15 ________ Street<br>(13) Mum's phone number: ________<br>(14) Day of the class: ________<br>(15) Food Nora can't eat: ________",
+         "head": "<b>JUNIOR COOKING CLASS</b><br>First name: <b>Nora</b> (example)<br>(11) Surname: ________<br>(12) Age: ________<br>(13) Mum's phone number: ________<br>(14) Day of the class: ________<br>(15) Food Nora can't eat: ________",
          "lines": [
           [
            "bm_daniel",
@@ -807,7 +815,27 @@
           [
            "bm_daniel",
            "Cook",
-           "Thank you, Nora. How old are you?"
+           "Thank you, Nora. And what's your surname?"
+          ],
+          [
+           "bf_lily",
+           "Nora",
+           "Fowler."
+          ],
+          [
+           "bm_daniel",
+           "Cook",
+           "How do you spell that?"
+          ],
+          [
+           "bf_lily",
+           "Nora",
+           "F-O-W-L-E-R."
+          ],
+          [
+           "bm_daniel",
+           "Cook",
+           "Lovely. Can you tell me your age?"
           ],
           [
            "bf_lily",
@@ -817,37 +845,17 @@
           [
            "bm_daniel",
            "Cook",
-           "So you're eight now. Good. And where do you live?"
+           "So you're eight now. Good. Now, I need a phone number. Can I have your mum's?"
           ],
           [
            "bf_lily",
            "Nora",
-           "At number fifteen, Willow Street."
+           "Yes. It's zero nine eight three, six two seven, four one five."
           ],
           [
            "bm_daniel",
            "Cook",
-           "How do you spell Willow?"
-          ],
-          [
-           "bf_lily",
-           "Nora",
-           "W-I-L-L-O-W."
-          ],
-          [
-           "bm_daniel",
-           "Cook",
-           "Thanks. Now, what's your mum's phone number?"
-          ],
-          [
-           "bf_lily",
-           "Nora",
-           "It's zero nine eight three, six two seven, four one five."
-          ],
-          [
-           "bm_daniel",
-           "Cook",
-           "Lovely. We have classes on Saturday and Sunday. Which day would you like?"
+           "Thanks. We have classes on Saturday and Sunday. Which day would you like?"
           ],
           [
            "bf_lily",
@@ -888,30 +896,32 @@
       "num": 12,
       "dok": 1,
       "lo": [
-       "4Ld.04",
-       "4Ld.02"
+       "4Ld.04"
       ],
       "v": [
        {
         "hint": {
-         "step": "Nora spells the street name. Write each letter you hear."
+         "step": "Two ages are said. Which one is Nora's age NOW?"
         },
-        "worked": "Nora lives at 'number fifteen, Willow Street' and spells it 'W-I-L-L-O-W'.",
+        "worked": "Nora says 'I'm eight.' She will be nine in March, so nine is not her age now.",
         "type": "tfill",
         "q": "Write the missing information for question 12.",
         "lines": [
-         "Address: 15 {0} Street"
+         "Age: {0}"
         ],
         "ans": [
          [
-          "willow"
+          "8",
+          "eight",
+          "8 years old",
+          "eight years old"
          ]
         ],
         "fig": {
          "k": "stim",
          "id": "sm-summit-l3",
          "kind": "audio",
-         "head": "<b>JUNIOR COOKING CLASS</b><br>First name: <b>Nora</b> (example)<br>(11) Age: ________<br>(12) Address: 15 ________ Street<br>(13) Mum's phone number: ________<br>(14) Day of the class: ________<br>(15) Food Nora can't eat: ________",
+         "head": "<b>JUNIOR COOKING CLASS</b><br>First name: <b>Nora</b> (example)<br>(11) Surname: ________<br>(12) Age: ________<br>(13) Mum's phone number: ________<br>(14) Day of the class: ________<br>(15) Food Nora can't eat: ________",
          "lines": [
           [
            "bm_daniel",
@@ -936,7 +946,27 @@
           [
            "bm_daniel",
            "Cook",
-           "Thank you, Nora. How old are you?"
+           "Thank you, Nora. And what's your surname?"
+          ],
+          [
+           "bf_lily",
+           "Nora",
+           "Fowler."
+          ],
+          [
+           "bm_daniel",
+           "Cook",
+           "How do you spell that?"
+          ],
+          [
+           "bf_lily",
+           "Nora",
+           "F-O-W-L-E-R."
+          ],
+          [
+           "bm_daniel",
+           "Cook",
+           "Lovely. Can you tell me your age?"
           ],
           [
            "bf_lily",
@@ -946,37 +976,17 @@
           [
            "bm_daniel",
            "Cook",
-           "So you're eight now. Good. And where do you live?"
+           "So you're eight now. Good. Now, I need a phone number. Can I have your mum's?"
           ],
           [
            "bf_lily",
            "Nora",
-           "At number fifteen, Willow Street."
+           "Yes. It's zero nine eight three, six two seven, four one five."
           ],
           [
            "bm_daniel",
            "Cook",
-           "How do you spell Willow?"
-          ],
-          [
-           "bf_lily",
-           "Nora",
-           "W-I-L-L-O-W."
-          ],
-          [
-           "bm_daniel",
-           "Cook",
-           "Thanks. Now, what's your mum's phone number?"
-          ],
-          [
-           "bf_lily",
-           "Nora",
-           "It's zero nine eight three, six two seven, four one five."
-          ],
-          [
-           "bm_daniel",
-           "Cook",
-           "Lovely. We have classes on Saturday and Sunday. Which day would you like?"
+           "Thanks. We have classes on Saturday and Sunday. Which day would you like?"
           ],
           [
            "bf_lily",
@@ -1047,7 +1057,7 @@
          "k": "stim",
          "id": "sm-summit-l3",
          "kind": "audio",
-         "head": "<b>JUNIOR COOKING CLASS</b><br>First name: <b>Nora</b> (example)<br>(11) Age: ________<br>(12) Address: 15 ________ Street<br>(13) Mum's phone number: ________<br>(14) Day of the class: ________<br>(15) Food Nora can't eat: ________",
+         "head": "<b>JUNIOR COOKING CLASS</b><br>First name: <b>Nora</b> (example)<br>(11) Surname: ________<br>(12) Age: ________<br>(13) Mum's phone number: ________<br>(14) Day of the class: ________<br>(15) Food Nora can't eat: ________",
          "lines": [
           [
            "bm_daniel",
@@ -1072,7 +1082,27 @@
           [
            "bm_daniel",
            "Cook",
-           "Thank you, Nora. How old are you?"
+           "Thank you, Nora. And what's your surname?"
+          ],
+          [
+           "bf_lily",
+           "Nora",
+           "Fowler."
+          ],
+          [
+           "bm_daniel",
+           "Cook",
+           "How do you spell that?"
+          ],
+          [
+           "bf_lily",
+           "Nora",
+           "F-O-W-L-E-R."
+          ],
+          [
+           "bm_daniel",
+           "Cook",
+           "Lovely. Can you tell me your age?"
           ],
           [
            "bf_lily",
@@ -1082,37 +1112,17 @@
           [
            "bm_daniel",
            "Cook",
-           "So you're eight now. Good. And where do you live?"
+           "So you're eight now. Good. Now, I need a phone number. Can I have your mum's?"
           ],
           [
            "bf_lily",
            "Nora",
-           "At number fifteen, Willow Street."
+           "Yes. It's zero nine eight three, six two seven, four one five."
           ],
           [
            "bm_daniel",
            "Cook",
-           "How do you spell Willow?"
-          ],
-          [
-           "bf_lily",
-           "Nora",
-           "W-I-L-L-O-W."
-          ],
-          [
-           "bm_daniel",
-           "Cook",
-           "Thanks. Now, what's your mum's phone number?"
-          ],
-          [
-           "bf_lily",
-           "Nora",
-           "It's zero nine eight three, six two seven, four one five."
-          ],
-          [
-           "bm_daniel",
-           "Cook",
-           "Lovely. We have classes on Saturday and Sunday. Which day would you like?"
+           "Thanks. We have classes on Saturday and Sunday. Which day would you like?"
           ],
           [
            "bf_lily",
@@ -1179,7 +1189,7 @@
          "k": "stim",
          "id": "sm-summit-l3",
          "kind": "audio",
-         "head": "<b>JUNIOR COOKING CLASS</b><br>First name: <b>Nora</b> (example)<br>(11) Age: ________<br>(12) Address: 15 ________ Street<br>(13) Mum's phone number: ________<br>(14) Day of the class: ________<br>(15) Food Nora can't eat: ________",
+         "head": "<b>JUNIOR COOKING CLASS</b><br>First name: <b>Nora</b> (example)<br>(11) Surname: ________<br>(12) Age: ________<br>(13) Mum's phone number: ________<br>(14) Day of the class: ________<br>(15) Food Nora can't eat: ________",
          "lines": [
           [
            "bm_daniel",
@@ -1204,7 +1214,27 @@
           [
            "bm_daniel",
            "Cook",
-           "Thank you, Nora. How old are you?"
+           "Thank you, Nora. And what's your surname?"
+          ],
+          [
+           "bf_lily",
+           "Nora",
+           "Fowler."
+          ],
+          [
+           "bm_daniel",
+           "Cook",
+           "How do you spell that?"
+          ],
+          [
+           "bf_lily",
+           "Nora",
+           "F-O-W-L-E-R."
+          ],
+          [
+           "bm_daniel",
+           "Cook",
+           "Lovely. Can you tell me your age?"
           ],
           [
            "bf_lily",
@@ -1214,37 +1244,17 @@
           [
            "bm_daniel",
            "Cook",
-           "So you're eight now. Good. And where do you live?"
+           "So you're eight now. Good. Now, I need a phone number. Can I have your mum's?"
           ],
           [
            "bf_lily",
            "Nora",
-           "At number fifteen, Willow Street."
+           "Yes. It's zero nine eight three, six two seven, four one five."
           ],
           [
            "bm_daniel",
            "Cook",
-           "How do you spell Willow?"
-          ],
-          [
-           "bf_lily",
-           "Nora",
-           "W-I-L-L-O-W."
-          ],
-          [
-           "bm_daniel",
-           "Cook",
-           "Thanks. Now, what's your mum's phone number?"
-          ],
-          [
-           "bf_lily",
-           "Nora",
-           "It's zero nine eight three, six two seven, four one five."
-          ],
-          [
-           "bm_daniel",
-           "Cook",
-           "Lovely. We have classes on Saturday and Sunday. Which day would you like?"
+           "Thanks. We have classes on Saturday and Sunday. Which day would you like?"
           ],
           [
            "bf_lily",
@@ -1308,7 +1318,7 @@
          "k": "stim",
          "id": "sm-summit-l3",
          "kind": "audio",
-         "head": "<b>JUNIOR COOKING CLASS</b><br>First name: <b>Nora</b> (example)<br>(11) Age: ________<br>(12) Address: 15 ________ Street<br>(13) Mum's phone number: ________<br>(14) Day of the class: ________<br>(15) Food Nora can't eat: ________",
+         "head": "<b>JUNIOR COOKING CLASS</b><br>First name: <b>Nora</b> (example)<br>(11) Surname: ________<br>(12) Age: ________<br>(13) Mum's phone number: ________<br>(14) Day of the class: ________<br>(15) Food Nora can't eat: ________",
          "lines": [
           [
            "bm_daniel",
@@ -1333,7 +1343,27 @@
           [
            "bm_daniel",
            "Cook",
-           "Thank you, Nora. How old are you?"
+           "Thank you, Nora. And what's your surname?"
+          ],
+          [
+           "bf_lily",
+           "Nora",
+           "Fowler."
+          ],
+          [
+           "bm_daniel",
+           "Cook",
+           "How do you spell that?"
+          ],
+          [
+           "bf_lily",
+           "Nora",
+           "F-O-W-L-E-R."
+          ],
+          [
+           "bm_daniel",
+           "Cook",
+           "Lovely. Can you tell me your age?"
           ],
           [
            "bf_lily",
@@ -1343,37 +1373,17 @@
           [
            "bm_daniel",
            "Cook",
-           "So you're eight now. Good. And where do you live?"
+           "So you're eight now. Good. Now, I need a phone number. Can I have your mum's?"
           ],
           [
            "bf_lily",
            "Nora",
-           "At number fifteen, Willow Street."
+           "Yes. It's zero nine eight three, six two seven, four one five."
           ],
           [
            "bm_daniel",
            "Cook",
-           "How do you spell Willow?"
-          ],
-          [
-           "bf_lily",
-           "Nora",
-           "W-I-L-L-O-W."
-          ],
-          [
-           "bm_daniel",
-           "Cook",
-           "Thanks. Now, what's your mum's phone number?"
-          ],
-          [
-           "bf_lily",
-           "Nora",
-           "It's zero nine eight three, six two seven, four one five."
-          ],
-          [
-           "bm_daniel",
-           "Cook",
-           "Lovely. We have classes on Saturday and Sunday. Which day would you like?"
+           "Thanks. We have classes on Saturday and Sunday. Which day would you like?"
           ],
           [
            "bf_lily",
@@ -1468,21 +1478,21 @@
       "v": [
        {
         "hint": {
-         "step": "Which sentence in the message asks Tam to do a job?"
+         "step": "Who is going to take the violin to school?"
         },
-        "worked": "Mum writes 'Please buy a little rice and a few eggs on your way home.'",
+        "worked": "Mum writes 'I'll bring it to school before your music lesson.'",
         "type": "mcq",
         "q": "Why did Mum write to Tam?",
         "opts": [
-         "to ask him to buy some food",
-         "to invite him to Grandma's house",
-         "to tell him what Grandma is cooking"
+         "to tell him she is bringing his violin",
+         "to ask him to come home for his violin",
+         "to tell him his music lesson is at a new time"
         ],
         "at": 2,
         "whys": [
          null,
-         "Grandma is coming to Tam's home. Tam isn't going to Grandma's house.",
-         "The message doesn't say what Grandma is cooking. Grandma is a visitor."
+         "Mum is going to come to school. Tam doesn't need to go home.",
+         "The message says the lesson is at 11, but it doesn't say the time has changed."
         ],
         "letters": true,
         "fig": {
@@ -1490,7 +1500,7 @@
          "id": "sm-summit-r1-q2",
          "kind": "text",
          "head": "Text message",
-         "html": "<b>MESSAGE FROM MUM</b><br>Hi Tam! Grandma is coming for supper tonight. Please buy a little rice and a few eggs on your way home. Love, Mum"
+         "html": "<b>MESSAGE FROM MUM</b><br>Hi Tam! You left your violin on the kitchen table. I'll bring it to school before your music lesson at 11. Love, Mum"
         }
        }
       ]
@@ -1507,19 +1517,19 @@
         "hint": {
          "step": "Read the heading. What does 'Help our planet' tell you about the reason?"
         },
-        "worked": "The heading says 'HELP OUR PLANET'. Turning off lights and unplugging chargers saves energy.",
+        "worked": "The heading says 'HELP OUR PLANET'. The hotel doesn't sell plastic bottles, so there is less plastic.",
         "type": "mcq",
         "q": "Why is this notice in the hotel rooms?",
         "opts": [
-         "The hotel wants to save energy.",
-         "The lights in the rooms are broken.",
-         "Guests must charge their phones in the rooms."
+         "The hotel wants to use less plastic.",
+         "The water in the rooms is not safe to drink.",
+         "Guests must buy a bottle at the hotel shop."
         ],
         "at": 1,
         "whys": [
          null,
-         "The notice doesn't say the lights are broken. It asks you to turn them off.",
-         "The notice asks you to unplug your charger, not to charge your phone."
+         "The notice says the water is free on every floor. It doesn't say it is unsafe.",
+         "The notice says the hotel doesn't sell plastic bottles."
         ],
         "letters": true,
         "fig": {
@@ -1527,7 +1537,7 @@
          "id": "sm-summit-r1-q3",
          "kind": "text",
          "head": "Notice",
-         "html": "<b>HILLTOP HOTEL: HELP OUR PLANET!</b><br>💡 Please turn off the lights and unplug your charger when you leave your room."
+         "html": "<b>HILLTOP HOTEL: HELP OUR PLANET!</b><br>🥤 We don't sell plastic bottles. Please fill your own bottle with free water on every floor."
         }
        }
       ]
@@ -1544,19 +1554,19 @@
         "hint": {
          "step": "Compare the numbers. Which number is the biggest? Which is the smallest?"
         },
-        "worked": "Banana cake sold 9 and lemon cake sold 14. 9 is fewer than 14.",
+        "worked": "9 children come by bike and 14 walk. 9 is fewer than 14.",
         "type": "mcq",
         "q": "What does the table show?",
         "opts": [
-         "People bought fewer banana cakes than lemon cakes.",
-         "The lemon cake was the most popular cake.",
-         "More banana cakes were sold than chocolate cakes."
+         "Fewer children come by bike than on foot.",
+         "Walking is the most popular way.",
+         "More children come by bike than by bus."
         ],
         "at": 0,
         "whys": [
          null,
-         "Chocolate cake sold 21. That is more than lemon cake (14).",
-         "Banana cake sold 9 and chocolate cake sold 21. This is the wrong way round."
+         "21 children come by bus. That is more than the 14 who walk.",
+         "9 children come by bike and 21 by bus. This is the wrong way round."
         ],
         "letters": true,
         "fig": {
@@ -1564,7 +1574,7 @@
          "id": "sm-summit-r1-q4",
          "kind": "text",
          "head": "Table",
-         "html": "<b>SPORTS CLUB BAKE SALE</b><br><table><tr><th>Cake</th><th>Number sold</th></tr><tr><td>Lemon cake</td><td>14</td></tr><tr><td>Chocolate cake</td><td>21</td></tr><tr><td>Banana cake</td><td>9</td></tr></table>"
+         "html": "<b>HOW CLASS 3A GETS TO SCHOOL</b><br><table><tr><th>Way</th><th>Children</th></tr><tr><td>🚶 Walk</td><td>14</td></tr><tr><td>🚌 Bus</td><td>21</td></tr><tr><td>🚲 Bike</td><td>9</td></tr></table>"
         }
        }
       ]
@@ -1651,21 +1661,21 @@
       "v": [
        {
         "hint": {
-         "step": "Look at 'would like to do'. Which reply uses the same pattern?"
+         "step": "Look at 'would like to go'. Which reply uses the same pattern?"
         },
-        "worked": "'What would you <b>like to do</b>?' → 'I'd <b>like to visit</b> my cousins.'",
+        "worked": "'Where would you <b>like to go</b>?' → 'I'd <b>like to go</b> to the water park.'",
         "type": "mcq",
-        "q": "\"What would you like to do in the school holidays?\"",
+        "q": "\"Where would you like to go for your birthday?\"",
         "opts": [
-         "I'd like to visit my cousins.",
-         "I visited my cousins last summer.",
-         "My cousins live near the sea."
+         "I'd like to go to the water park.",
+         "I went to the water park last year.",
+         "The water park is near my house."
         ],
         "at": 2,
         "whys": [
          null,
-         "The question is about the coming holidays, but this answer is about last summer.",
-         "This answer says where your cousins live. The question asks what you want to do."
+         "The question is about your next birthday, but this answer is about last year.",
+         "This answer says where the water park is. The question asks where you want to go."
         ],
         "letters": true
        }
@@ -1709,21 +1719,21 @@
       "v": [
        {
         "hint": {
-         "step": "Your friend is worried. Which reply gives a possible place?"
+         "step": "Your friend needs to find someone. Which reply gives a possible place?"
         },
-        "worked": "'She <b>might</b> be in the garden.' We use 'might' when we are not sure.",
+        "worked": "'She <b>might</b> be in the hall.' We use 'might' when we are not sure.",
         "type": "mcq",
-        "q": "\"I can't find my kitten anywhere!\"",
+        "q": "\"Do you know where Mrs Ha is? I need to give her my book.\"",
         "opts": [
-         "Don't worry. She might be in the garden.",
-         "Don't worry. She had to go in the garden.",
-         "Really? I've got a kitten too."
+         "She might be in the hall.",
+         "She had to go to the hall yesterday.",
+         "Yes, I know her very well."
         ],
         "at": 2,
         "whys": [
          null,
-         "'Had to' means someone made her go. Nobody knows where the kitten is.",
-         "This reply doesn't help your friend with the problem."
+         "This is about yesterday. Your friend wants to find Mrs Ha now.",
+         "This answers 'Do you know her?', but your friend wants to know where she is."
         ],
         "letters": true
        }
@@ -1738,20 +1748,20 @@
       "v": [
        {
         "hint": {
-         "step": "Look at the question word 'Who' and the word 'carefully'."
+         "step": "Look at the question word 'Who' and the word 'earlier'."
         },
-        "worked": "'Who reads <b>more carefully</b>?' → 'My brother does. He reads <b>more carefully</b> than me.'",
+        "worked": "'Who gets up <b>earlier</b>?' → 'My sister does. She gets up <b>earlier</b> than me.'",
         "type": "mcq",
-        "q": "\"Who reads more carefully, you or your brother?\"",
+        "q": "\"Who gets up earlier, you or your sister?\"",
         "opts": [
-         "My brother does. He reads more carefully than me.",
-         "My brother does. He reads more quickly than me.",
-         "Yes, he does. He reads very carefully."
+         "My sister does. She gets up earlier than me.",
+         "My sister does. She gets up later than me.",
+         "Yes, she does. She gets up very early."
         ],
         "at": 0,
         "whys": [
          null,
-         "The question is about reading carefully, not quickly.",
+         "If she gets up later, she doesn't get up earlier. The two parts don't match.",
          "'Who' questions don't have a yes or no answer."
         ],
         "letters": true
@@ -1767,21 +1777,21 @@
       "v": [
        {
         "hint": {
-         "step": "Your friend is ill. Which reply gives good advice?"
+         "step": "Is this good news or bad news? Choose a reply that fits."
         },
-        "worked": "'<b>Drink</b> some warm water and <b>rest</b>.' The imperatives give good advice to someone who is ill.",
+        "worked": "A new puppy is good news, so we say '<b>How lovely!</b>' and ask a friendly question.",
         "type": "mcq",
-        "q": "\"I've got a bad cold and a sore throat.\"",
+        "q": "\"I've just got a new puppy!\"",
         "opts": [
-         "Oh dear! Drink some warm water and rest.",
-         "Oh dear! Don't stay at home today.",
-         "Great! Let's go swimming after school."
+         "How lovely! What's its name?",
+         "Oh dear! I'm sorry to hear that.",
+         "Never mind. Maybe next time."
         ],
         "at": 1,
         "whys": [
          null,
-         "When you are ill, you should stay at home and rest.",
-         "Your friend is ill. 'Great!' is not a kind reply, and swimming is not good for a cold."
+         "A new puppy is good news. 'Oh dear' is for bad news.",
+         "'Never mind' is for something that went wrong. Your friend is happy."
         ],
         "letters": true
        }
@@ -1805,9 +1815,9 @@
         "hint": {
          "step": "Find the verb. Is the sentence positive or negative?"
         },
-        "worked": "'The moon <b>looks</b>' is positive present simple, so the tag is '<b>doesn't it</b>?'",
+        "worked": "'Your new coat <b>looks</b>' is positive present simple, so the tag is '<b>doesn't it</b>?'",
         "type": "mcq",
-        "q": "The moon looks really bright tonight, ________?",
+        "q": "Your new coat looks really warm, ________?",
         "opts": [
          "doesn't it",
          "isn't it",
@@ -1834,19 +1844,19 @@
         "hint": {
          "step": "The sentence is negative. Which helping verb does it use?"
         },
-        "worked": "'You <b>haven't</b> seen ...' is negative, so the tag is positive: '<b>have you</b>?'",
+        "worked": "'Mai <b>hasn't</b> seen ...' is negative, so the tag is positive: '<b>has she</b>?'",
         "type": "mcq",
-        "q": "You haven't seen my blue pencil case, ________?",
+        "q": "Mai hasn't seen my blue pencil case, ________?",
         "opts": [
-         "have you",
-         "haven't you",
-         "did you"
+         "has she",
+         "hasn't she",
+         "did she"
         ],
         "at": 0,
         "whys": [
          null,
-         "The sentence is already negative (haven't), so the tag must be positive.",
-         "The verb is 'haven't seen', so the tag uses 'have', not 'did'."
+         "The sentence is already negative (hasn't), so the tag must be positive.",
+         "The verb is 'hasn't seen', so the tag uses 'has', not 'did'."
         ],
         "letters": true
        }
@@ -1862,11 +1872,11 @@
       "v": [
        {
         "hint": {
-         "step": "Can you count salt? Then choose the word for things you can't count."
+         "step": "Can you count help? Then choose the word for things you can't count."
         },
-        "worked": "We can't count salt, so we say '<b>a little</b> salt'.",
+        "worked": "We can't count help, so we say '<b>a little</b> help'.",
         "type": "mcq",
-        "q": "Please put a ________ salt on my boiled egg.",
+        "q": "Can you give me a ________ help with this heavy bag?",
         "opts": [
          "little",
          "few",
@@ -1875,7 +1885,7 @@
         "at": 1,
         "whys": [
          null,
-         "'A few' is for things you can count, like 'a few eggs'. You can't count salt.",
+         "'A few' is for things you can count, like 'a few bags'. You can't count help.",
          "'Many' is for things you can count. Also, we don't say 'a many'."
         ],
         "letters": true
@@ -1891,11 +1901,11 @@
       "v": [
        {
         "hint": {
-         "step": "Look for 'not' or 'n't' in the sentence."
+         "step": "Look for a negative word like 'not' or 'never' in the sentence."
         },
-        "worked": "'There <b>wasn't anything</b>.' We use 'anything' after a negative verb.",
+        "worked": "'He <b>never</b> tells me <b>anything</b>.' We use 'anything' after a negative word like 'never'.",
         "type": "mcq",
-        "q": "I looked in the fridge, but there wasn't ________ to eat.",
+        "q": "My brother never tells me ________ about his school day.",
         "opts": [
          "anything",
          "something",
@@ -1904,8 +1914,8 @@
         "at": 2,
         "whys": [
          null,
-         "We use 'something' in positive sentences. This sentence has 'wasn't'.",
-         "'Wasn't' is already negative. We don't say 'wasn't nothing'."
+         "We use 'something' in positive sentences. 'Never' makes this sentence negative.",
+         "'Never' is already negative. We don't say 'never ... nothing'."
         ],
         "letters": true
        }
@@ -1921,11 +1931,11 @@
       "v": [
        {
         "hint": {
-         "step": "These are two instructions in order. Which word can come straight before an instruction like 'put'?"
+         "step": "These are two instructions in order. Which word can come straight before an instruction like 'write'?"
         },
-        "worked": "'Rinse the seeds, <b>then</b> put them on wet cotton wool.' 'Then' joins two steps in order.",
+        "worked": "'Read the question carefully, <b>then</b> write your answer.' 'Then' joins two steps in order.",
         "type": "mcq",
-        "q": "Rinse the cress seeds, ________ put them on wet cotton wool.",
+        "q": "Read the question carefully, ________ write your answer.",
         "opts": [
          "then",
          "while",
@@ -1952,13 +1962,13 @@
         "hint": {
          "step": "Which form comes after 'enjoy'?"
         },
-        "worked": "We say 'enjoy + -ing': she <b>enjoys jumping</b>.",
+        "worked": "We say 'enjoy + -ing': she <b>enjoys singing</b>.",
         "type": "mcq",
-        "q": "My little sister really enjoys ________ in puddles.",
+        "q": "Our teacher really enjoys ________ songs with us.",
         "opts": [
-         "jumping",
-         "to jump",
-         "jump"
+         "singing",
+         "to sing",
+         "sing"
         ],
         "at": 0,
         "whys": [
@@ -1987,11 +1997,11 @@
       "v": [
        {
         "hint": {
-         "step": "Can you count trees? Choose the word for countable nouns."
+         "step": "Can you count beehives? Choose the word for countable nouns."
         },
-        "worked": "'Trees' is a plural countable noun, so we say '<b>a few</b> cacao trees'.",
+        "worked": "'Beehives' is a plural countable noun, so we say '<b>a few</b> wooden beehives'.",
         "type": "mcq",
-        "q": "Gap (18): She showed us ________ cacao trees with big yellow pods.",
+        "q": "Gap (18): She showed us ________ wooden beehives under the fruit trees.",
         "opts": [
          "a few",
          "a little",
@@ -2000,7 +2010,7 @@
         "at": 2,
         "whys": [
          null,
-         "'A little' is for things you can't count. You can count trees.",
+         "'A little' is for things you can't count. You can count beehives.",
          "'Much' is for things you can't count, like 'much water'."
         ],
         "letters": true,
@@ -2009,7 +2019,7 @@
          "id": "sm-summit-r4",
          "kind": "text",
          "head": "A class trip",
-         "html": "<b>Our Trip to a Cacao Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a cacao farm outside the city. (0) <b>Every</b> child wore a sun hat, because the day was very hot.<br><br>The farmer met us at the gate. She showed us (18) ________ cacao trees with big yellow pods. She cut one pod open (19) ________ us the beans inside. The beans were white and sticky!<br><br>Next, we went into the farm kitchen. We (20) ________ wash our hands before we touched anything, because that is the rule in the kitchen.<br><br>(21) ________ the farmer roasted the beans, the whole room smelled of chocolate. Then we crushed the beans to make a paste. I crushed my beans (22) ________ than my friends, so my paste was very smooth.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a small bar of chocolate with vanilla in it!<br><br>I have (24) ________ eaten half of my bar. I'm keeping the rest for my mum. I hope to visit the farm again next year!"
+         "html": "<b>Our Trip to a Bee Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a bee farm outside the city. (0) <b>Every</b> child wore a hat with a net, because bees can sting.<br><br>The farmer met us at the gate. She showed us (18) ________ wooden beehives under the fruit trees. She lifted one lid (19) ________ us the bees inside. There were thousands of them!<br><br>We (20) ________ walk slowly near the hives, because that is the rule on the farm. Fast arms can make the bees angry.<br><br>Next, we went into a small wooden house. (21) ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet. Then we poured the honey into little jars. I filled my jar (22) ________ than my friends, so I didn't spill a drop.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a tiny candle made from beeswax!<br><br>I have (24) ________ put my candle on my bedroom shelf. I hope to visit the farm again next year!"
         }
        }
       ]
@@ -2023,11 +2033,11 @@
       "v": [
        {
         "hint": {
-         "step": "Ask 'Why did she cut it open?' Which answer gives the reason?"
+         "step": "Ask 'Why did she lift the lid?' Which answer gives the reason?"
         },
-        "worked": "She cut the pod open <b>to show</b> us the beans. 'To + verb' tells us why.",
+        "worked": "She lifted the lid <b>to show</b> us the bees. 'To + verb' tells us why.",
         "type": "mcq",
-        "q": "Gap (19): She cut one pod open ________ us the beans inside.",
+        "q": "Gap (19): She lifted one lid ________ us the bees inside.",
         "opts": [
          "to show",
          "showing",
@@ -2036,8 +2046,8 @@
         "at": 0,
         "whys": [
          null,
-         "We need a reason here: WHY did she cut the pod open? Use 'to + verb'.",
-         "We can't put two verbs together like 'cut ... show'. Use 'to + verb' for a reason."
+         "We need a reason here: WHY did she lift the lid? Use 'to + verb'.",
+         "We can't put two verbs together like 'lifted ... show'. Use 'to + verb' for a reason."
         ],
         "letters": true,
         "fig": {
@@ -2045,7 +2055,7 @@
          "id": "sm-summit-r4",
          "kind": "text",
          "head": "A class trip",
-         "html": "<b>Our Trip to a Cacao Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a cacao farm outside the city. (0) <b>Every</b> child wore a sun hat, because the day was very hot.<br><br>The farmer met us at the gate. She showed us (18) ________ cacao trees with big yellow pods. She cut one pod open (19) ________ us the beans inside. The beans were white and sticky!<br><br>Next, we went into the farm kitchen. We (20) ________ wash our hands before we touched anything, because that is the rule in the kitchen.<br><br>(21) ________ the farmer roasted the beans, the whole room smelled of chocolate. Then we crushed the beans to make a paste. I crushed my beans (22) ________ than my friends, so my paste was very smooth.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a small bar of chocolate with vanilla in it!<br><br>I have (24) ________ eaten half of my bar. I'm keeping the rest for my mum. I hope to visit the farm again next year!"
+         "html": "<b>Our Trip to a Bee Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a bee farm outside the city. (0) <b>Every</b> child wore a hat with a net, because bees can sting.<br><br>The farmer met us at the gate. She showed us (18) ________ wooden beehives under the fruit trees. She lifted one lid (19) ________ us the bees inside. There were thousands of them!<br><br>We (20) ________ walk slowly near the hives, because that is the rule on the farm. Fast arms can make the bees angry.<br><br>Next, we went into a small wooden house. (21) ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet. Then we poured the honey into little jars. I filled my jar (22) ________ than my friends, so I didn't spill a drop.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a tiny candle made from beeswax!<br><br>I have (24) ________ put my candle on my bedroom shelf. I hope to visit the farm again next year!"
         }
        }
       ]
@@ -2059,11 +2069,11 @@
       "v": [
        {
         "hint": {
-         "step": "Read to the end of the sentence. Is washing hands a rule or just a possibility?"
+         "step": "Read to the end of the sentence. Is walking slowly a rule or just a possibility?"
         },
         "worked": "The text says 'because that is the rule', so we use '<b>had to</b>' for something we must do.",
         "type": "mcq",
-        "q": "Gap (20): We ________ wash our hands before we touched anything.",
+        "q": "Gap (20): We ________ walk slowly near the hives.",
         "opts": [
          "had to",
          "might",
@@ -2072,7 +2082,7 @@
         "at": 1,
         "whys": [
          null,
-         "'Might' means maybe. But the text says washing hands is the rule, so it is not maybe.",
+         "'Might' means maybe. But the text says walking slowly is the rule, so it is not maybe.",
          "'Could' means it was possible. A rule is something you must do."
         ],
         "letters": true,
@@ -2081,7 +2091,7 @@
          "id": "sm-summit-r4",
          "kind": "text",
          "head": "A class trip",
-         "html": "<b>Our Trip to a Cacao Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a cacao farm outside the city. (0) <b>Every</b> child wore a sun hat, because the day was very hot.<br><br>The farmer met us at the gate. She showed us (18) ________ cacao trees with big yellow pods. She cut one pod open (19) ________ us the beans inside. The beans were white and sticky!<br><br>Next, we went into the farm kitchen. We (20) ________ wash our hands before we touched anything, because that is the rule in the kitchen.<br><br>(21) ________ the farmer roasted the beans, the whole room smelled of chocolate. Then we crushed the beans to make a paste. I crushed my beans (22) ________ than my friends, so my paste was very smooth.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a small bar of chocolate with vanilla in it!<br><br>I have (24) ________ eaten half of my bar. I'm keeping the rest for my mum. I hope to visit the farm again next year!"
+         "html": "<b>Our Trip to a Bee Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a bee farm outside the city. (0) <b>Every</b> child wore a hat with a net, because bees can sting.<br><br>The farmer met us at the gate. She showed us (18) ________ wooden beehives under the fruit trees. She lifted one lid (19) ________ us the bees inside. There were thousands of them!<br><br>We (20) ________ walk slowly near the hives, because that is the rule on the farm. Fast arms can make the bees angry.<br><br>Next, we went into a small wooden house. (21) ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet. Then we poured the honey into little jars. I filled my jar (22) ________ than my friends, so I didn't spill a drop.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a tiny candle made from beeswax!<br><br>I have (24) ________ put my candle on my bedroom shelf. I hope to visit the farm again next year!"
         }
        }
       ]
@@ -2097,9 +2107,9 @@
         "hint": {
          "step": "The sentence has two parts with a comma in the middle. Which word can join them?"
         },
-        "worked": "'<b>When</b> the farmer roasted the beans, the room smelled of chocolate.' 'When' joins the two parts.",
+        "worked": "'<b>When</b> the farmer cut open the honeycomb, the room smelled sweet.' 'When' joins the two parts.",
         "type": "mcq",
-        "q": "Gap (21): ________ the farmer roasted the beans, the whole room smelled of chocolate.",
+        "q": "Gap (21): ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet.",
         "opts": [
          "When",
          "Then",
@@ -2117,7 +2127,7 @@
          "id": "sm-summit-r4",
          "kind": "text",
          "head": "A class trip",
-         "html": "<b>Our Trip to a Cacao Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a cacao farm outside the city. (0) <b>Every</b> child wore a sun hat, because the day was very hot.<br><br>The farmer met us at the gate. She showed us (18) ________ cacao trees with big yellow pods. She cut one pod open (19) ________ us the beans inside. The beans were white and sticky!<br><br>Next, we went into the farm kitchen. We (20) ________ wash our hands before we touched anything, because that is the rule in the kitchen.<br><br>(21) ________ the farmer roasted the beans, the whole room smelled of chocolate. Then we crushed the beans to make a paste. I crushed my beans (22) ________ than my friends, so my paste was very smooth.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a small bar of chocolate with vanilla in it!<br><br>I have (24) ________ eaten half of my bar. I'm keeping the rest for my mum. I hope to visit the farm again next year!"
+         "html": "<b>Our Trip to a Bee Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a bee farm outside the city. (0) <b>Every</b> child wore a hat with a net, because bees can sting.<br><br>The farmer met us at the gate. She showed us (18) ________ wooden beehives under the fruit trees. She lifted one lid (19) ________ us the bees inside. There were thousands of them!<br><br>We (20) ________ walk slowly near the hives, because that is the rule on the farm. Fast arms can make the bees angry.<br><br>Next, we went into a small wooden house. (21) ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet. Then we poured the honey into little jars. I filled my jar (22) ________ than my friends, so I didn't spill a drop.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a tiny candle made from beeswax!<br><br>I have (24) ________ put my candle on my bedroom shelf. I hope to visit the farm again next year!"
         }
        }
       ]
@@ -2135,7 +2145,7 @@
         },
         "worked": "We compare with 'than', so we need '<b>more carefully</b> than my friends'.",
         "type": "mcq",
-        "q": "Gap (22): I crushed my beans ________ than my friends, so my paste was very smooth.",
+        "q": "Gap (22): I filled my jar ________ than my friends, so I didn't spill a drop.",
         "opts": [
          "more carefully",
          "most carefully",
@@ -2153,7 +2163,7 @@
          "id": "sm-summit-r4",
          "kind": "text",
          "head": "A class trip",
-         "html": "<b>Our Trip to a Cacao Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a cacao farm outside the city. (0) <b>Every</b> child wore a sun hat, because the day was very hot.<br><br>The farmer met us at the gate. She showed us (18) ________ cacao trees with big yellow pods. She cut one pod open (19) ________ us the beans inside. The beans were white and sticky!<br><br>Next, we went into the farm kitchen. We (20) ________ wash our hands before we touched anything, because that is the rule in the kitchen.<br><br>(21) ________ the farmer roasted the beans, the whole room smelled of chocolate. Then we crushed the beans to make a paste. I crushed my beans (22) ________ than my friends, so my paste was very smooth.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a small bar of chocolate with vanilla in it!<br><br>I have (24) ________ eaten half of my bar. I'm keeping the rest for my mum. I hope to visit the farm again next year!"
+         "html": "<b>Our Trip to a Bee Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a bee farm outside the city. (0) <b>Every</b> child wore a hat with a net, because bees can sting.<br><br>The farmer met us at the gate. She showed us (18) ________ wooden beehives under the fruit trees. She lifted one lid (19) ________ us the bees inside. There were thousands of them!<br><br>We (20) ________ walk slowly near the hives, because that is the rule on the farm. Fast arms can make the bees angry.<br><br>Next, we went into a small wooden house. (21) ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet. Then we poured the honey into little jars. I filled my jar (22) ________ than my friends, so I didn't spill a drop.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a tiny candle made from beeswax!<br><br>I have (24) ________ put my candle on my bedroom shelf. I hope to visit the farm again next year!"
         }
        }
       ]
@@ -2169,7 +2179,7 @@
         "hint": {
          "step": "Read the NEXT sentence. Did the children get a present?"
         },
-        "worked": "The next sentence says 'It was a small bar of chocolate', so she gave them <b>something</b> special.",
+        "worked": "The next sentence says 'It was a tiny candle', so she gave them <b>something</b> special.",
         "type": "mcq",
         "q": "Gap (23): At the end, the farmer gave each of us ________ special to take home.",
         "opts": [
@@ -2181,7 +2191,7 @@
         "whys": [
          null,
          "We use 'anything' in questions and negative sentences. This sentence is positive.",
-         "Read the next sentence. She gave them a chocolate bar, so she didn't give them nothing."
+         "Read the next sentence. She gave them a candle, so she didn't give them nothing."
         ],
         "letters": true,
         "fig": {
@@ -2189,7 +2199,7 @@
          "id": "sm-summit-r4",
          "kind": "text",
          "head": "A class trip",
-         "html": "<b>Our Trip to a Cacao Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a cacao farm outside the city. (0) <b>Every</b> child wore a sun hat, because the day was very hot.<br><br>The farmer met us at the gate. She showed us (18) ________ cacao trees with big yellow pods. She cut one pod open (19) ________ us the beans inside. The beans were white and sticky!<br><br>Next, we went into the farm kitchen. We (20) ________ wash our hands before we touched anything, because that is the rule in the kitchen.<br><br>(21) ________ the farmer roasted the beans, the whole room smelled of chocolate. Then we crushed the beans to make a paste. I crushed my beans (22) ________ than my friends, so my paste was very smooth.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a small bar of chocolate with vanilla in it!<br><br>I have (24) ________ eaten half of my bar. I'm keeping the rest for my mum. I hope to visit the farm again next year!"
+         "html": "<b>Our Trip to a Bee Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a bee farm outside the city. (0) <b>Every</b> child wore a hat with a net, because bees can sting.<br><br>The farmer met us at the gate. She showed us (18) ________ wooden beehives under the fruit trees. She lifted one lid (19) ________ us the bees inside. There were thousands of them!<br><br>We (20) ________ walk slowly near the hives, because that is the rule on the farm. Fast arms can make the bees angry.<br><br>Next, we went into a small wooden house. (21) ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet. Then we poured the honey into little jars. I filled my jar (22) ________ than my friends, so I didn't spill a drop.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a tiny candle made from beeswax!<br><br>I have (24) ________ put my candle on my bedroom shelf. I hope to visit the farm again next year!"
         }
        }
       ]
@@ -2205,9 +2215,9 @@
         "hint": {
          "step": "The sentence is positive and in the present perfect. Which time word fits before 'eaten'?"
         },
-        "worked": "'I have <b>already</b> eaten half of my bar.' 'Already' means it happened sooner than expected.",
+        "worked": "'I have <b>already</b> put my candle on my shelf.' 'Already' means it has happened.",
         "type": "mcq",
-        "q": "Gap (24): I have ________ eaten half of my bar.",
+        "q": "Gap (24): I have ________ put my candle on my bedroom shelf.",
         "opts": [
          "already",
          "yet",
@@ -2216,8 +2226,8 @@
         "at": 2,
         "whys": [
          null,
-         "'Yet' comes at the end of questions and negative sentences, like 'I haven't eaten it yet.'",
-         "'Ever' is used in questions, like 'Have you ever eaten cacao?'"
+         "'Yet' comes at the end of questions and negative sentences, like 'I haven't put it there yet.'",
+         "'Ever' is used in questions, like 'Have you ever seen a beehive?'"
         ],
         "letters": true,
         "fig": {
@@ -2225,7 +2235,7 @@
          "id": "sm-summit-r4",
          "kind": "text",
          "head": "A class trip",
-         "html": "<b>Our Trip to a Cacao Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a cacao farm outside the city. (0) <b>Every</b> child wore a sun hat, because the day was very hot.<br><br>The farmer met us at the gate. She showed us (18) ________ cacao trees with big yellow pods. She cut one pod open (19) ________ us the beans inside. The beans were white and sticky!<br><br>Next, we went into the farm kitchen. We (20) ________ wash our hands before we touched anything, because that is the rule in the kitchen.<br><br>(21) ________ the farmer roasted the beans, the whole room smelled of chocolate. Then we crushed the beans to make a paste. I crushed my beans (22) ________ than my friends, so my paste was very smooth.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a small bar of chocolate with vanilla in it!<br><br>I have (24) ________ eaten half of my bar. I'm keeping the rest for my mum. I hope to visit the farm again next year!"
+         "html": "<b>Our Trip to a Bee Farm</b><br>by Vinh, Class 3C<br><br>Last Friday, our class visited a bee farm outside the city. (0) <b>Every</b> child wore a hat with a net, because bees can sting.<br><br>The farmer met us at the gate. She showed us (18) ________ wooden beehives under the fruit trees. She lifted one lid (19) ________ us the bees inside. There were thousands of them!<br><br>We (20) ________ walk slowly near the hives, because that is the rule on the farm. Fast arms can make the bees angry.<br><br>Next, we went into a small wooden house. (21) ________ the farmer cut open a piece of honeycomb, the whole room smelled sweet. Then we poured the honey into little jars. I filled my jar (22) ________ than my friends, so I didn't spill a drop.<br><br>At the end, the farmer gave each of us (23) ________ special to take home. It was a tiny candle made from beeswax!<br><br>I have (24) ________ put my candle on my bedroom shelf. I hope to visit the farm again next year!"
         }
        }
       ]
@@ -2249,7 +2259,7 @@
         "hint": {
          "step": "Find WHERE each child eats. Who says they love something there?"
         },
-        "worked": "Chi eats on the balcony and says 'I love watching the birds in the tree next to it.'",
+        "worked": "Chi eats in Grandma's garden and says 'I love watching the birds in the tree next to us.'",
         "type": "mcq",
         "q": "Who enjoys something about the place where they eat breakfast?",
         "opts": [
@@ -2269,7 +2279,7 @@
          "id": "sm-summit-r5",
          "kind": "text",
          "head": "Three children",
-         "html": "<b>My favourite breakfast</b><br><br><b>Chi</b><br>My favourite breakfast is sticky rice with mango. My grandma makes it for me every Sunday. We eat it on the balcony of our flat, and I love watching the birds in the tree next to it. On school days, I have to eat quickly, so I just have a banana. I never want to change my Sunday breakfast. It's perfect!<br><br><b>Yusuf</b><br>I love eggs for breakfast. My dad can cook them in lots of ways, but my favourite is a cheese omelette. On Saturdays, I help my dad to cook. I have to be careful, because the pan gets very hot. I think a hot breakfast is better than a cold one. It keeps me full until lunch, so I'm never hungry in class.<br><br><b>Matilda</b><br>I usually have cereal with milk for breakfast, but I'm bored of it now. I'd like to try something new, like papaya with yoghurt. My cousin eats that every day. My school bus comes at seven o'clock, so I haven't got much time. Mum puts a little clock on the kitchen table. It helps me to eat fast and not miss the bus!"
+         "html": "<b>My favourite breakfast</b><br><br><b>Chi</b><br>My favourite breakfast is sticky rice with mango. My grandma makes it for me every Sunday. We eat it in Grandma's garden, and I love watching the birds in the tree next to us. On school days, I have to eat quickly, so I just have a banana. I never want to change my Sunday breakfast. It's perfect!<br><br><b>Yusuf</b><br>I love eggs for breakfast. My dad can cook them in lots of ways, but my favourite is a cheese omelette. On Saturdays, I help my dad to cook. I have to be careful, because the pan gets very hot. I think a hot breakfast is better than a cold one. It keeps me full until lunch, so I'm never hungry in class.<br><br><b>Matilda</b><br>I usually have cereal with milk for breakfast, but I'm bored of it now. I'd like to try something new, like noodle soup. My cousin eats that every day. My school bus comes at seven o'clock, so I haven't got much time. Mum puts a little clock on the kitchen table. It helps me to eat fast and not miss the bus!"
         }
        }
       ]
@@ -2306,7 +2316,7 @@
          "id": "sm-summit-r5",
          "kind": "text",
          "head": "Three children",
-         "html": "<b>My favourite breakfast</b><br><br><b>Chi</b><br>My favourite breakfast is sticky rice with mango. My grandma makes it for me every Sunday. We eat it on the balcony of our flat, and I love watching the birds in the tree next to it. On school days, I have to eat quickly, so I just have a banana. I never want to change my Sunday breakfast. It's perfect!<br><br><b>Yusuf</b><br>I love eggs for breakfast. My dad can cook them in lots of ways, but my favourite is a cheese omelette. On Saturdays, I help my dad to cook. I have to be careful, because the pan gets very hot. I think a hot breakfast is better than a cold one. It keeps me full until lunch, so I'm never hungry in class.<br><br><b>Matilda</b><br>I usually have cereal with milk for breakfast, but I'm bored of it now. I'd like to try something new, like papaya with yoghurt. My cousin eats that every day. My school bus comes at seven o'clock, so I haven't got much time. Mum puts a little clock on the kitchen table. It helps me to eat fast and not miss the bus!"
+         "html": "<b>My favourite breakfast</b><br><br><b>Chi</b><br>My favourite breakfast is sticky rice with mango. My grandma makes it for me every Sunday. We eat it in Grandma's garden, and I love watching the birds in the tree next to us. On school days, I have to eat quickly, so I just have a banana. I never want to change my Sunday breakfast. It's perfect!<br><br><b>Yusuf</b><br>I love eggs for breakfast. My dad can cook them in lots of ways, but my favourite is a cheese omelette. On Saturdays, I help my dad to cook. I have to be careful, because the pan gets very hot. I think a hot breakfast is better than a cold one. It keeps me full until lunch, so I'm never hungry in class.<br><br><b>Matilda</b><br>I usually have cereal with milk for breakfast, but I'm bored of it now. I'd like to try something new, like noodle soup. My cousin eats that every day. My school bus comes at seven o'clock, so I haven't got much time. Mum puts a little clock on the kitchen table. It helps me to eat fast and not miss the bus!"
         }
        }
       ]
@@ -2323,7 +2333,7 @@
         "hint": {
          "step": "Look for a child who is bored and wants to try something."
         },
-        "worked": "Matilda is 'bored of' cereal and says 'I'd like to try something new, like papaya with yoghurt.'",
+        "worked": "Matilda is 'bored of' cereal and says 'I'd like to try something new, like noodle soup.'",
         "type": "mcq",
         "q": "Who would like a different breakfast?",
         "opts": [
@@ -2343,7 +2353,7 @@
          "id": "sm-summit-r5",
          "kind": "text",
          "head": "Three children",
-         "html": "<b>My favourite breakfast</b><br><br><b>Chi</b><br>My favourite breakfast is sticky rice with mango. My grandma makes it for me every Sunday. We eat it on the balcony of our flat, and I love watching the birds in the tree next to it. On school days, I have to eat quickly, so I just have a banana. I never want to change my Sunday breakfast. It's perfect!<br><br><b>Yusuf</b><br>I love eggs for breakfast. My dad can cook them in lots of ways, but my favourite is a cheese omelette. On Saturdays, I help my dad to cook. I have to be careful, because the pan gets very hot. I think a hot breakfast is better than a cold one. It keeps me full until lunch, so I'm never hungry in class.<br><br><b>Matilda</b><br>I usually have cereal with milk for breakfast, but I'm bored of it now. I'd like to try something new, like papaya with yoghurt. My cousin eats that every day. My school bus comes at seven o'clock, so I haven't got much time. Mum puts a little clock on the kitchen table. It helps me to eat fast and not miss the bus!"
+         "html": "<b>My favourite breakfast</b><br><br><b>Chi</b><br>My favourite breakfast is sticky rice with mango. My grandma makes it for me every Sunday. We eat it in Grandma's garden, and I love watching the birds in the tree next to us. On school days, I have to eat quickly, so I just have a banana. I never want to change my Sunday breakfast. It's perfect!<br><br><b>Yusuf</b><br>I love eggs for breakfast. My dad can cook them in lots of ways, but my favourite is a cheese omelette. On Saturdays, I help my dad to cook. I have to be careful, because the pan gets very hot. I think a hot breakfast is better than a cold one. It keeps me full until lunch, so I'm never hungry in class.<br><br><b>Matilda</b><br>I usually have cereal with milk for breakfast, but I'm bored of it now. I'd like to try something new, like noodle soup. My cousin eats that every day. My school bus comes at seven o'clock, so I haven't got much time. Mum puts a little clock on the kitchen table. It helps me to eat fast and not miss the bus!"
         }
        }
       ]
@@ -2380,7 +2390,7 @@
          "id": "sm-summit-r5",
          "kind": "text",
          "head": "Three children",
-         "html": "<b>My favourite breakfast</b><br><br><b>Chi</b><br>My favourite breakfast is sticky rice with mango. My grandma makes it for me every Sunday. We eat it on the balcony of our flat, and I love watching the birds in the tree next to it. On school days, I have to eat quickly, so I just have a banana. I never want to change my Sunday breakfast. It's perfect!<br><br><b>Yusuf</b><br>I love eggs for breakfast. My dad can cook them in lots of ways, but my favourite is a cheese omelette. On Saturdays, I help my dad to cook. I have to be careful, because the pan gets very hot. I think a hot breakfast is better than a cold one. It keeps me full until lunch, so I'm never hungry in class.<br><br><b>Matilda</b><br>I usually have cereal with milk for breakfast, but I'm bored of it now. I'd like to try something new, like papaya with yoghurt. My cousin eats that every day. My school bus comes at seven o'clock, so I haven't got much time. Mum puts a little clock on the kitchen table. It helps me to eat fast and not miss the bus!"
+         "html": "<b>My favourite breakfast</b><br><br><b>Chi</b><br>My favourite breakfast is sticky rice with mango. My grandma makes it for me every Sunday. We eat it in Grandma's garden, and I love watching the birds in the tree next to us. On school days, I have to eat quickly, so I just have a banana. I never want to change my Sunday breakfast. It's perfect!<br><br><b>Yusuf</b><br>I love eggs for breakfast. My dad can cook them in lots of ways, but my favourite is a cheese omelette. On Saturdays, I help my dad to cook. I have to be careful, because the pan gets very hot. I think a hot breakfast is better than a cold one. It keeps me full until lunch, so I'm never hungry in class.<br><br><b>Matilda</b><br>I usually have cereal with milk for breakfast, but I'm bored of it now. I'd like to try something new, like noodle soup. My cousin eats that every day. My school bus comes at seven o'clock, so I haven't got much time. Mum puts a little clock on the kitchen table. It helps me to eat fast and not miss the bus!"
         }
        }
       ]
@@ -2417,7 +2427,7 @@
          "id": "sm-summit-r5",
          "kind": "text",
          "head": "Three children",
-         "html": "<b>My favourite breakfast</b><br><br><b>Chi</b><br>My favourite breakfast is sticky rice with mango. My grandma makes it for me every Sunday. We eat it on the balcony of our flat, and I love watching the birds in the tree next to it. On school days, I have to eat quickly, so I just have a banana. I never want to change my Sunday breakfast. It's perfect!<br><br><b>Yusuf</b><br>I love eggs for breakfast. My dad can cook them in lots of ways, but my favourite is a cheese omelette. On Saturdays, I help my dad to cook. I have to be careful, because the pan gets very hot. I think a hot breakfast is better than a cold one. It keeps me full until lunch, so I'm never hungry in class.<br><br><b>Matilda</b><br>I usually have cereal with milk for breakfast, but I'm bored of it now. I'd like to try something new, like papaya with yoghurt. My cousin eats that every day. My school bus comes at seven o'clock, so I haven't got much time. Mum puts a little clock on the kitchen table. It helps me to eat fast and not miss the bus!"
+         "html": "<b>My favourite breakfast</b><br><br><b>Chi</b><br>My favourite breakfast is sticky rice with mango. My grandma makes it for me every Sunday. We eat it in Grandma's garden, and I love watching the birds in the tree next to us. On school days, I have to eat quickly, so I just have a banana. I never want to change my Sunday breakfast. It's perfect!<br><br><b>Yusuf</b><br>I love eggs for breakfast. My dad can cook them in lots of ways, but my favourite is a cheese omelette. On Saturdays, I help my dad to cook. I have to be careful, because the pan gets very hot. I think a hot breakfast is better than a cold one. It keeps me full until lunch, so I'm never hungry in class.<br><br><b>Matilda</b><br>I usually have cereal with milk for breakfast, but I'm bored of it now. I'd like to try something new, like noodle soup. My cousin eats that every day. My school bus comes at seven o'clock, so I haven't got much time. Mum puts a little clock on the kitchen table. It helps me to eat fast and not miss the bus!"
         }
        }
       ]

@@ -69,39 +69,49 @@
   [
    "bf_isabella",
    "Aunt",
-   "Would you like some noodles for lunch, Owen?"
+   "Would you like a burger for lunch, Owen?"
   ],
   [
    "bm_lewis",
    "Owen",
-   "No, thanks. I had noodles for breakfast. Can I have rice and fish?"
+   "No, thanks. I had a burger yesterday. Can I have some dumplings?"
   ],
   [
    "bf_isabella",
    "Aunt",
-   "Not a sandwich? You love sandwiches."
+   "Not a hot dog? You love hot dogs."
   ],
   [
    "bm_lewis",
    "Owen",
-   "Not today. Rice and fish, please!"
+   "Not today. Dumplings, please!"
   ]
  ],
  "sm-summit-l1-q5": [
   [
    "bf_isabella",
    "Aunt",
-   "Is your dad coming at twelve o'clock, like every Saturday?"
+   "Our bus home usually goes at twelve o'clock, Owen."
   ],
   [
    "bm_lewis",
    "Owen",
-   "Not today. He's playing football, so he's coming half an hour later."
+   "Can we get the bus at half past twelve? I want to watch the band."
   ],
   [
    "bf_isabella",
    "Aunt",
-   "Good. The market closes at one o'clock, so we've got time for a drink!"
+   "Not the bus at one o'clock? Then we can see more."
+  ],
+  [
+   "bm_lewis",
+   "Owen",
+   "No, that's too late. Mum's making lunch for us!"
+  ],
+  [
+   "bf_isabella",
+   "Aunt",
+   "OK. Half past twelve, then."
   ]
  ],
  "sm-summit-l2-q6": [
@@ -204,22 +214,22 @@
   [
    "bm_lewis",
    "Tam",
-   "First I wanted Saturn, because of the rings. But Luna's already making it."
+   "First I wanted Earth, because it's our home. But Luna's already making it."
   ],
   [
    "bf_lily",
    "Emily",
-   "So what about Mars? You've got lots of red paint."
+   "So what about Venus? It's the hottest planet."
   ],
   [
    "bm_lewis",
    "Tam",
-   "Mars is too small. I'm going to make Jupiter. It's the biggest, and I can use an old football!"
+   "Venus is hard to make. It's covered in yellow clouds. I'll do Neptune. It's blue, and I can paint an old ball!"
   ],
   [
    "bf_lily",
    "Emily",
-   "Great idea. Then I'll make Mars!"
+   "Great idea. Then I'll make Venus!"
   ]
  ],
  "sm-summit-l2-q10": [
@@ -273,7 +283,27 @@
   [
    "bm_daniel",
    "Cook",
-   "Thank you, Nora. How old are you?"
+   "Thank you, Nora. And what's your surname?"
+  ],
+  [
+   "bf_lily",
+   "Nora",
+   "Fowler."
+  ],
+  [
+   "bm_daniel",
+   "Cook",
+   "How do you spell that?"
+  ],
+  [
+   "bf_lily",
+   "Nora",
+   "F-O-W-L-E-R."
+  ],
+  [
+   "bm_daniel",
+   "Cook",
+   "Lovely. Can you tell me your age?"
   ],
   [
    "bf_lily",
@@ -283,37 +313,17 @@
   [
    "bm_daniel",
    "Cook",
-   "So you're eight now. Good. And where do you live?"
+   "So you're eight now. Good. Now, I need a phone number. Can I have your mum's?"
   ],
   [
    "bf_lily",
    "Nora",
-   "At number fifteen, Willow Street."
+   "Yes. It's zero nine eight three, six two seven, four one five."
   ],
   [
    "bm_daniel",
    "Cook",
-   "How do you spell Willow?"
-  ],
-  [
-   "bf_lily",
-   "Nora",
-   "W-I-L-L-O-W."
-  ],
-  [
-   "bm_daniel",
-   "Cook",
-   "Thanks. Now, what's your mum's phone number?"
-  ],
-  [
-   "bf_lily",
-   "Nora",
-   "It's zero nine eight three, six two seven, four one five."
-  ],
-  [
-   "bm_daniel",
-   "Cook",
-   "Lovely. We have classes on Saturday and Sunday. Which day would you like?"
+   "Thanks. We have classes on Saturday and Sunday. Which day would you like?"
   ],
   [
    "bf_lily",

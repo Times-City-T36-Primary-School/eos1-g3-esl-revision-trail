@@ -2,7 +2,7 @@
    Made by scripts/convert.py from content/stop4.json (written from the exam-style guide only; no real paper seen). */
 (function (T) {
   'use strict';
-  window.T_ART = Object.assign(window.T_ART || {}, {"e-s4-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"o&#x27;clock\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕐</text></svg>", "e-s4-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"half past\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕧</text></svg>", "e-s4-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"quarter past\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕒</text></svg>", "e-s4-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"phone number\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📞</text></svg>", "e-s4-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"age\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🎂</text></svg>", "e-s4-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"form\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📋</text></svg>", "e-s4-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"first name\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🙋</text></svg>", "e-s4-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"surname\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">👨‍👩‍👧</text></svg>", "e-s4-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"spell\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔤</text></svg>", "e-s4-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"usually\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔁</text></svg>", "e-s4-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"today\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📅</text></svg>", "e-s4-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"instead\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔄</text></svg>", "e-s4-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"change your mind\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💭</text></svg>"});
+  window.T_ART = Object.assign(window.T_ART || {}, {"e-s4-0": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"o&#x27;clock\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕐</text></svg>", "e-s4-1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"half past\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕧</text></svg>", "e-s4-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"quarter past\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🕒</text></svg>", "e-s4-3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"phone number\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📞</text></svg>", "e-s4-4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"age\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🎂</text></svg>", "e-s4-5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"form\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📋</text></svg>", "e-s4-6": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"first name\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🙋</text></svg>", "e-s4-7": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"surname\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🏷️</text></svg>", "e-s4-8": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"spell\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔤</text></svg>", "e-s4-9": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"usually\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔁</text></svg>", "e-s4-10": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"today\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">📅</text></svg>", "e-s4-11": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"instead\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">🔄</text></svg>", "e-s4-12": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" class=\"art art--emoji\" role=\"img\" aria-label=\"change your mind\"><text x=\"48\" y=\"52\" font-size=\"58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif\">💭</text></svg>"});
   T.packs[4] = {
  "n": 4,
  "title": "Listening: pictures and a form",
@@ -101,7 +101,7 @@
    "spell": {
     "art": "e-s4-8",
     "vi": "đánh vần",
-    "def": "To say the letters of a word one by one, in the right order. Example: Can you *spell* your surname, please?"
+    "def": "To say the letters of a word one by one, in the right order. Example: How do you *spell* your surname?"
    },
    "usually": {
     "art": "e-s4-9",
@@ -467,7 +467,7 @@
        "v": [
         {
          "hint": {
-          "step": "Tuan asks for one thing, Dad offers another. What do they agree on?"
+          "step": "Tuan asks for one thing, Dad offers another. Which one does Tuan get?"
          },
          "worked": "Tuan asks \"Can I have <b>a sandwich</b>?\" and Dad says \"OK. A cheese sandwich for you.\"",
          "type": "mcq",
@@ -2060,7 +2060,7 @@
            [
             "bm_fable",
             "Nam",
-            "What's your phone number, Coach?"
+            "Can I have your phone number, Coach?"
            ],
            [
             "bm_daniel",
@@ -3024,7 +3024,7 @@
            [
             "bm_daniel",
             "Grandpa",
-            "When can you see the vet?"
+            "So what time is your visit?"
            ],
            [
             "bf_alice",
@@ -3348,7 +3348,7 @@
            [
             "bm_george",
             "Guide",
-            "H-A-S-S-A-N. Thank you. How old are you, Amira?"
+            "H-A-S-S-A-N. Thank you. Can you tell me your age, Amira?"
            ],
            [
             "bf_lily",
@@ -3540,7 +3540,7 @@
            [
             "bm_george",
             "Guide",
-            "H-A-S-S-A-N. Thank you. How old are you, Amira?"
+            "H-A-S-S-A-N. Thank you. Can you tell me your age, Amira?"
            ],
            [
             "bf_lily",
@@ -3747,7 +3747,7 @@
            [
             "bm_george",
             "Guide",
-            "H-A-S-S-A-N. Thank you. How old are you, Amira?"
+            "H-A-S-S-A-N. Thank you. Can you tell me your age, Amira?"
            ],
            [
             "bf_lily",
@@ -3920,7 +3920,7 @@
         [
          "bf_isabella",
          "Helper",
-         "And your surname? Can you spell it, please?"
+         "And your surname? How do you spell it?"
         ],
         [
          "bf_lily",
@@ -3930,7 +3930,7 @@
         [
          "bf_isabella",
          "Helper",
-         "M-O-S-S. Thank you. How old are you, Grace?"
+         "M-O-S-S. Thank you. Can you tell me your age, Grace?"
         ],
         [
          "bf_lily",
@@ -4039,7 +4039,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "P-H-A-M. Thanks. How old are you, Tuan?"
+         "P-H-A-M. Thanks. Can you tell me your age, Tuan?"
         ],
         [
          "bm_fable",
@@ -4049,7 +4049,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "And what's your phone number, please?"
+         "And can I have a phone number?"
         ],
         [
          "bm_fable",
@@ -4148,7 +4148,7 @@
         [
          "bf_isabella",
          "Helper",
-         "And your surname? Can you spell it, please?"
+         "And your surname? How do you spell it?"
         ],
         [
          "bf_lily",
@@ -4158,7 +4158,7 @@
         [
          "bf_isabella",
          "Helper",
-         "M-O-S-S. Thank you. How old are you, Grace?"
+         "M-O-S-S. Thank you. Can you tell me your age, Grace?"
         ],
         [
          "bf_lily",
@@ -4268,7 +4268,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "P-H-A-M. Thanks. How old are you, Tuan?"
+         "P-H-A-M. Thanks. Can you tell me your age, Tuan?"
         ],
         [
          "bm_fable",
@@ -4278,7 +4278,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "And what's your phone number, please?"
+         "And can I have a phone number?"
         ],
         [
          "bm_fable",
@@ -4380,7 +4380,7 @@
         [
          "bf_isabella",
          "Helper",
-         "And your surname? Can you spell it, please?"
+         "And your surname? How do you spell it?"
         ],
         [
          "bf_lily",
@@ -4390,7 +4390,7 @@
         [
          "bf_isabella",
          "Helper",
-         "M-O-S-S. Thank you. How old are you, Grace?"
+         "M-O-S-S. Thank you. Can you tell me your age, Grace?"
         ],
         [
          "bf_lily",
@@ -4503,7 +4503,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "P-H-A-M. Thanks. How old are you, Tuan?"
+         "P-H-A-M. Thanks. Can you tell me your age, Tuan?"
         ],
         [
          "bm_fable",
@@ -4513,7 +4513,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "And what's your phone number, please?"
+         "And can I have a phone number?"
         ],
         [
          "bm_fable",
@@ -4612,7 +4612,7 @@
         [
          "bf_isabella",
          "Helper",
-         "And your surname? Can you spell it, please?"
+         "And your surname? How do you spell it?"
         ],
         [
          "bf_lily",
@@ -4622,7 +4622,7 @@
         [
          "bf_isabella",
          "Helper",
-         "M-O-S-S. Thank you. How old are you, Grace?"
+         "M-O-S-S. Thank you. Can you tell me your age, Grace?"
         ],
         [
          "bf_lily",
@@ -4752,7 +4752,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "P-H-A-M. Thanks. How old are you, Tuan?"
+         "P-H-A-M. Thanks. Can you tell me your age, Tuan?"
         ],
         [
          "bm_fable",
@@ -4762,7 +4762,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "And what's your phone number, please?"
+         "And can I have a phone number?"
         ],
         [
          "bm_fable",
@@ -4861,7 +4861,7 @@
         [
          "bf_isabella",
          "Helper",
-         "And your surname? Can you spell it, please?"
+         "And your surname? How do you spell it?"
         ],
         [
          "bf_lily",
@@ -4871,7 +4871,7 @@
         [
          "bf_isabella",
          "Helper",
-         "M-O-S-S. Thank you. How old are you, Grace?"
+         "M-O-S-S. Thank you. Can you tell me your age, Grace?"
         ],
         [
          "bf_lily",
@@ -4983,7 +4983,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "P-H-A-M. Thanks. How old are you, Tuan?"
+         "P-H-A-M. Thanks. Can you tell me your age, Tuan?"
         ],
         [
          "bm_fable",
@@ -4993,7 +4993,7 @@
         [
          "bm_daniel",
          "Organiser",
-         "And what's your phone number, please?"
+         "And can I have a phone number?"
         ],
         [
          "bm_fable",

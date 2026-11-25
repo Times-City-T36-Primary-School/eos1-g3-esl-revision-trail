@@ -50,7 +50,7 @@
   ],
   "items": {
    "kind": {
-    "emoji": "🤗",
+    "emoji": "😊",
     "vi": "tốt bụng",
     "def": "Nice to other people and happy to help them.",
     "ex": "My grandma is very *kind* to everyone."
@@ -172,7 +172,7 @@
     "audio": null,
     "steps": [
      {
-      "en": "First, Hieu says what it is and where it is: a solar lamp next to the front door.",
+      "en": "First, Hieu names the thing and says where we can find it: a solar lamp next to the front door.",
       "vi": "Đầu tiên, Hieu nói đó là gì và ở đâu: một chiếc đèn năng lượng mặt trời cạnh cửa trước."
      },
      {

@@ -442,7 +442,7 @@
         },
         {
          "type": "mcq",
-         "q": "Have you finished your homework ________?",
+         "q": "Have you finished your painting ________?",
          "opts": [
           "yet",
           "never",
@@ -455,7 +455,7 @@
           "'always' says how often. It doesn't go at the end here."
          ],
          "hint": "Which time word goes at the END of a question?",
-         "worked": "'yet' goes at the end of questions: 'Have you finished your homework yet?'",
+         "worked": "'yet' goes at the end of questions: 'Have you finished your painting yet?'",
          "stim": null
         }
        ]
@@ -976,7 +976,7 @@
        "v": [
         {
          "type": "mcq",
-         "q": "\"Have you done your homework yet?\" Choose the best reply.",
+         "q": "\"Have you tidied your room yet?\" Choose the best reply.",
          "opts": [
           "Yes, I've already finished it.",
           "Yes, I'm going to start it.",
@@ -989,7 +989,7 @@
           "'No' and 'I finished it' don't match."
          ],
          "hint": "The question is about up to now. Check that 'Yes' or 'No' matches the rest of the reply.",
-         "worked": "'Have you done it yet?' 'Yes, I've already finished it.' Yes and already match.",
+         "worked": "'Have you tidied it yet?' 'Yes, I've already finished it.' Yes and already match.",
          "stim": null
         },
         {
