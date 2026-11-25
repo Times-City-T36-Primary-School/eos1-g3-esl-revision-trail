@@ -398,7 +398,7 @@
         },
         {
          "hint": {
-          "step": "Look for 'to + verb'. Does Ivan say what something is for?"
+          "step": "Find one sentence for each bullet point. Which bullet point is left over?"
          },
          "worked": "Ivan does not say one special feature or what it is for, for example 'It has bells to tell the time'.",
          "type": "mcq",
@@ -550,7 +550,7 @@
          },
          "worked": "'She is very patient' is the reason, so we use <b>because</b>.",
          "type": "tfill",
-         "q": "Type the missing linking word (and, but or because).",
+         "q": "Type the missing linking word (but, so or because).",
          "lines": [
           "I like my coach {0} she is very patient."
          ],
@@ -566,7 +566,7 @@
          },
          "worked": "'Old' and 'still goes fast' are different ideas, so we use <b>but</b>.",
          "type": "tfill",
-         "q": "Type the missing linking word (and, but or because).",
+         "q": "Type the missing linking word (but, so or because).",
          "lines": [
           "Our car is very old, {0} it still goes fast."
          ],
@@ -642,7 +642,7 @@
        "v": [
         {
          "hint": {
-          "step": "Look for a reason with 'because'."
+          "step": "Find one sentence for each of the four bullet points. Which bullet point has no sentence?"
          },
          "worked": "Joe never says why his grandma is special, so the last bullet point is missing.",
          "type": "mcq",
@@ -669,7 +669,7 @@
         },
         {
          "hint": {
-          "step": "Look for describing words like kind, funny or friendly."
+          "step": "Tick each bullet point when you find it in Sara's answer. Which one has no tick?"
          },
          "worked": "Sara has no describing words, so 'what he is like' is missing.",
          "type": "mcq",
@@ -704,7 +704,7 @@
        "v": [
         {
          "hint": {
-          "step": "Look for 'to + verb'. Does Hannah say what something is for?"
+          "step": "Read the four bullet points one by one and look for each one in Hannah's answer."
          },
          "worked": "Hannah does not say one special feature or what it is used for.",
          "type": "mcq",
@@ -731,7 +731,7 @@
         },
         {
          "hint": {
-          "step": "Look for an opinion and 'because'."
+          "step": "Go through the bullet points in order. Which one can you NOT find in Bach's answer?"
          },
          "worked": "Bach never says why he likes the kite, so the last bullet point is missing.",
          "type": "mcq",
@@ -947,10 +947,10 @@
      "max": 70,
      "needTitle": false,
      "starters": [
-      "My grandma is ...",
-      "She is very ...",
-      "Every morning she ...",
-      "She is special to me because ..."
+      "My grandma / grandpa is ...",
+      "He / She is very ...",
+      "Every morning he / she ...",
+      "He / She is special to me because ..."
      ],
      "models": [
       {
@@ -1025,20 +1025,20 @@
      "needTitle": false,
      "starters": [
       "My ... coach is ...",
-      "She is ... and ...",
-      "At the club, she ...",
-      "She is important to me because ..."
+      "He / She is ... and ...",
+      "At the club, he / she ...",
+      "He / She is important to me because ..."
      ],
      "models": [
       {
        "level": "Developing",
-       "text": "My football coach is a young man. He is tall and strong. He teach us to kick and pass the ball. We play at the club every saturday. I like him because he is funy.",
+       "text": "My football coach is a young man. He is tall and strong. He teach us to kick and pass the ball. we play at the club every saturday. I like him because he is funy.",
        "notes": [
         "Task achievement and content 1/2: all four bullets are there, but the reason 'he is funny' is very short and not explained. Only 35 words.",
         "Organisation and layout 1/2: the ideas are in order, but there is only one linking word ('because').",
         "Grammar range and accuracy 1/2: 'He teach' should be 'He teaches'. With he or she, the verb needs -s or -es.",
         "Vocabulary and spelling 1/2: 'funy' should be 'funny'. The describing words (tall, strong) are simple.",
-        "Writing conventions 1/2: 'saturday' needs a capital S, because days of the week always start with a capital letter."
+        "Writing conventions 1/2: two capital letters are missing: 'we' starts a sentence, so it needs a capital W, and days of the week need a capital S: 'Saturday'."
        ],
        "marks": {
         "content": 1,
@@ -1068,12 +1068,12 @@
       },
       {
        "level": "Excellent",
-       "text": "My skateboarding coach is a cheerful young woman at our neighbourhood club. She is brave, patient and always smiling. Every Sunday she shows us how to turn and jump safely. When I fall, she helps me stand up and try again. She is important to me because she makes me feel brave. Now I am not scared any more.",
+       "text": "My skateboarding coach is a cheerful young woman at our neighbourhood club. She is calm, patient and always smiling. Every Sunday she shows us how to turn and jump safely. When I fall, she helps me stand up and try again. She is important to me because she makes me feel brave. Now I am not scared any more.",
        "notes": [
         "Task achievement and content 2/2: all four bullets are clear, and the reason is developed: she makes me feel brave, and now I am not scared.",
         "Organisation and layout 2/2: one clear paragraph in a logical order, linked with 'When' and 'because', and 'Now' shows the change.",
         "Grammar range and accuracy 2/2: accurate present simple with varied patterns: 'shows us how to turn', 'helps me stand up'.",
-        "Vocabulary and spelling 2/2: lively, varied words (cheerful, patient, safely, scared), all spelt right.",
+        "Vocabulary and spelling 2/2: lively, varied words (cheerful, calm, patient, safely, scared), all spelt right.",
         "Writing conventions 2/2: complete sentences with capital letters and full stops."
        ],
        "marks": {
@@ -1102,9 +1102,9 @@
      "needTitle": false,
      "starters": [
       "My neighbour is ...",
-      "He is ... and ...",
-      "He often ...",
-      "I like him because ..."
+      "He / She is ... and ...",
+      "He / She often ...",
+      "I like him / her because ..."
      ],
      "models": [
       {
@@ -1188,7 +1188,7 @@
        "level": "Developing",
        "text": "The big hotel is in the centre of my city. It is very tall and it have blue windows. It has a pool on the roof. I like it because it is beautifull",
        "notes": [
-        "Task achievement and content 1/2: it says what and where, what it looks like and why, but it does not say what the pool is used for. Only 34 words.",
+        "Task achievement and content 1/2: it says what and where, what it looks like and why, but it does not say what the pool is used for. Only 33 words.",
         "Organisation and layout 1/2: the order is good, but 'and' and 'because' are the only linking words.",
         "Grammar range and accuracy 1/2: 'it have' should be 'it has'. There is no 'to + verb' to say what the pool is for.",
         "Vocabulary and spelling 1/2: 'beautifull' should be 'beautiful'. The describing words (big, tall) are simple.",
@@ -1204,12 +1204,12 @@
       },
       {
        "level": "Secure",
-       "text": "The music academy is a big building near my school. It is white, with tall windows and a red door. Inside, there is a huge hall to give concerts. Students go there to learn the piano and the violin. I like it because the music is beautiful. I want to study there one day.",
+       "text": "The music academy is a big building near my school. It is white, with tall windows and a red door. Inside, there is a huge hall, and musicians use it to give concerts. Students go there to learn the piano and the violin. I like it because the music is beautiful. I want to study there one day.",
        "notes": [
-        "Task achievement and content 2/2: all four bullets: the special feature is the huge hall, and its use is 'to give concerts'.",
+        "Task achievement and content 2/2: all four bullets: the special feature is the huge hall, and musicians use it 'to give concerts'.",
         "Organisation and layout 1/2: a logical order and 'Inside' helps, but only 'and' and 'because' join the ideas.",
         "Grammar range and accuracy 2/2: accurate present simple and two infinitives of purpose ('to give', 'to learn').",
-        "Vocabulary and spelling 1/2: good words (huge, concerts, violin), but 'big' and 'beautiful' are simple. Try 'grand' or 'tall'.",
+        "Vocabulary and spelling 1/2: good words (huge, concerts, violin), but 'big' and 'beautiful' are simple. Try 'grand' or 'modern'.",
         "Writing conventions 2/2: complete sentences with capital letters and full stops."
        ],
        "marks": {
@@ -1222,10 +1222,10 @@
       },
       {
        "level": "Excellent",
-       "text": "The history museum is my favourite building in our city. It stands next to the river, and it looks like a huge stone boat. It has round windows and a shiny glass roof. The best part is the glass lift. Visitors use it to go up to the top and see the whole city. I like the museum because I always learn something new there.",
+       "text": "The history museum is my favourite building in our city. It stands next to the river, and it looks like a huge stone boat. It has round windows and a shiny glass roof. The best part is the glass lift. Visitors use it to go up to the top, so they can see the whole city. I like the museum because I always learn something new there.",
        "notes": [
         "Task achievement and content 2/2: all four bullets are clear: the special feature is the glass lift, and visitors use it to go up and see the city.",
-        "Organisation and layout 2/2: one clear paragraph in a logical order, linked with 'and' and 'because'. 'The best part is' introduces the special feature.",
+        "Organisation and layout 2/2: one clear paragraph in a logical order, linked with 'and', 'so' and 'because'. 'The best part is' introduces the special feature.",
         "Grammar range and accuracy 2/2: accurate present simple, 'looks like' and an infinitive of purpose ('to go up').",
         "Vocabulary and spelling 2/2: varied words (stone, shiny, round, glass lift, whole), all spelt right.",
         "Writing conventions 2/2: complete sentences with capital letters and full stops."
@@ -1265,7 +1265,7 @@
        "level": "Developing",
        "text": "A rocket is a big machine. It go up into space from the ground. It is white and very tall. It have big engines at the bottom. I like it because it is fast",
        "notes": [
-        "Task achievement and content 1/2: it says what it is and what it looks like, but it does not say what the engines are used for, and the reason is short. Only 33 words.",
+        "Task achievement and content 1/2: it says what it is and what it looks like, but it does not say what the engines are used for, and the reason is short. Only 34 words.",
         "Organisation and layout 1/2: the order is clear, but 'because' is the only linking word.",
         "Grammar range and accuracy 1/2: 'It go' should be 'It goes', and 'It have' should be 'It has'.",
         "Vocabulary and spelling 1/2: the words are spelt right, but they are simple (big, tall, fast).",
@@ -1299,10 +1299,10 @@
       },
       {
        "level": "Excellent",
-       "text": "My favourite space machine is the rover that explores Mars. It is far away on a red, rocky planet. It looks like a small car with six big wheels. It has a long metal arm with a drill to dig into rocks. Scientists study the rocks to learn about Mars. I like the rover because it is clever, and it never gets tired.",
+       "text": "My favourite space machine is the rover that explores Mars. It is far away on a red, rocky planet. It looks like a small car with six big wheels. It has a long metal arm with a drill to dig into rocks. Then scientists study the rocks to learn about Mars. I like the rover because it is clever, and it never gets tired.",
        "notes": [
         "Task achievement and content 2/2: all four bullets are clear: the special feature is the arm with a drill, used to dig into rocks.",
-        "Organisation and layout 2/2: one clear paragraph in a logical order, joined with 'that', 'and' and 'because'.",
+        "Organisation and layout 2/2: one clear paragraph in a logical order, joined with 'and', 'Then' and 'because'.",
         "Grammar range and accuracy 2/2: accurate present simple, 'looks like' and two infinitives of purpose ('to dig', 'to learn').",
         "Vocabulary and spelling 2/2: varied topic words (rover, rocky, drill, scientists), all spelt right.",
         "Writing conventions 2/2: complete sentences with capital letters and full stops."
@@ -1595,7 +1595,7 @@
       "whys": [
        null,
        "'Has a camera takes' is not a correct sentence.",
-       "We don't say 'a camera taking photos' to give its use here."
+       "'A camera taking photos' does not say what the camera is for. Use 'to' + verb."
       ],
       "letters": true
      },
@@ -1725,7 +1725,7 @@
     "v": [
      {
       "hint": {
-       "step": "Look for things she does, like 'she plays' or 'she helps'."
+       "step": "Tick each bullet point when you find it in Rory's answer. Which one has no tick?"
       },
       "worked": "Rory says who she is, what she is like and why, but not what she does every day.",
       "type": "mcq",
@@ -1752,7 +1752,7 @@
      },
      {
       "hint": {
-       "step": "Look for describing words like funny, kind or tall."
+       "step": "Find one sentence for each bullet point. Which bullet point has no sentence?"
       },
       "worked": "Esme has no describing words about her uncle, so 'what he is like' is missing.",
       "type": "mcq",
@@ -1787,7 +1787,7 @@
     "v": [
      {
       "hint": {
-       "step": "Look for describing words about colours, shapes and size."
+       "step": "Read the four bullet points one by one and look for each one in Layla's answer."
       },
       "worked": "Layla never says what the hotel looks like, for example its colour or size.",
       "type": "mcq",
@@ -1809,12 +1809,12 @@
        "id": "s9-t-layla",
        "kind": "text",
        "head": "Layla's answer",
-       "html": "There is a tall hotel next to the beach in my town. It has a big slide to go down into the pool. I like it because my family has a holiday there every summer."
+       "html": "There is a hotel next to the beach in my town. It has a big slide to go down into the pool. I like it because my family has a holiday there every summer."
       }
      },
      {
       "hint": {
-       "step": "Does Hieu say WHERE the lamp is?"
+       "step": "Go through the bullet points in order. Which one can you NOT find in Hieu's answer?"
       },
       "worked": "Hieu never says where the lamp is, for example 'in our garden'.",
       "type": "mcq",
@@ -1925,13 +1925,13 @@
       "opts": [
        "I love my coach because she is very patient.",
        "I love my coach, but she is very patient.",
-       "I love my coach, then she is very patient."
+       "I love my coach, so she is very patient."
       ],
       "at": 1,
       "whys": [
        null,
        "'But' is for different ideas. Being patient is a reason to love her.",
-       "'Then' is for what happens next, not a reason."
+       "'So' shows a result, but she is not patient because you love her."
       ],
       "letters": true
      }
@@ -2307,7 +2307,7 @@
     [
      "but",
      "because",
-     "and"
+     "so"
     ]
    ],
    [

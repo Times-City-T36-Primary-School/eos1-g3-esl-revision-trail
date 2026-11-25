@@ -1453,7 +1453,7 @@
     "v": [
      {
       "type": "mcq",
-      "q": "Our block of flats has twenty floors. It is ________ building in our street.",
+      "q": "Our new hospital has twenty floors. It is ________ building in our town.",
       "opts": [
        "the tallest",
        "taller",
@@ -1462,11 +1462,11 @@
       "at": 1,
       "whys": [
        null,
-       "Taller compares two buildings, with than. Look at 'in our street'.",
-       "Tall does not compare. Look at 'in our street'."
+       "Taller compares two buildings, with than. Look at 'in our town'.",
+       "Tall does not compare. Look at 'in our town'."
       ],
-      "hint": "Is the block compared with one building or with all the buildings in our street?",
-      "worked": "The block is compared with all the buildings in the street, so it is *the tallest* building.",
+      "hint": "Is the hospital compared with one building or with all the buildings in our town?",
+      "worked": "The hospital is compared with all the buildings in the town, so it is *the tallest* building.",
       "stim": null
      },
      {

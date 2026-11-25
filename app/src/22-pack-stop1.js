@@ -324,7 +324,7 @@
          "whys": [
           null,
           "The worst is for the very last day, the most terrible one of all.",
-          "Bad is day one. Day two was more bad than that."
+          "Bad is day one. Day two is compared with day one, so we need a comparing word."
          ],
          "letters": true
         }
@@ -702,7 +702,7 @@
          },
          "worked": "Bad → <b>worse</b> → the worst. Tuesday was <b>worse</b> than Monday.",
          "type": "tfill",
-         "q": "Type the missing word.",
+         "q": "Make a comparing word from bad. Type it.",
          "lines": [
           "The weather was bad on Monday. On Tuesday it was {0}. It rained all day!"
          ],
@@ -718,7 +718,7 @@
          },
          "worked": "Good → <b>better</b> → the best. Jade's drawing is <b>better</b>.",
          "type": "tfill",
-         "q": "Type the missing word.",
+         "q": "Make a comparing word from good. Type it.",
          "lines": [
           "Linh's drawing is good, but Jade's drawing is {0}."
          ],
@@ -1430,7 +1430,7 @@
     "en": "Two special words: *good, better, the best* and *bad, worse, the worst*.",
     "vi": "Hai từ đặc biệt: *good, better, the best* và *bad, worse, the worst*.",
     "example": [
-     "My drawing is *better* than last week.",
+     "My drawing is *better* than my brother's.",
      "That was *the worst* storm of the year."
     ]
    },
@@ -1461,8 +1461,8 @@
     "answer": "hotter"
    },
    {
-    "sentence": "This is the {most beautiful|more beautiful|beautiful} flower in the garden.",
-    "answer": "most beautiful"
+    "sentence": "This is {the most beautiful|more beautiful|beautiful} flower in the garden.",
+    "answer": "the most beautiful"
    },
    {
     "sentence": "Jade's cake is {better|best|good} than my cake.",
@@ -1584,21 +1584,21 @@
     "v": [
      {
       "hint": {
-       "step": "Is Fansipan compared with one mountain or with all the mountains in Vietnam?"
+       "step": "Is the hospital compared with one building or with all the buildings in our town?"
       },
-      "worked": "Fansipan is the top one of all the mountains in Vietnam: <b>the highest</b>.",
+      "worked": "The hospital is compared with all the buildings in the town, so it is <b>the tallest</b> building.",
       "type": "mcq",
-      "q": "Fansipan is ________ mountain in Vietnam.",
+      "q": "Our new hospital has twenty floors. It is ________ building in our town.",
       "opts": [
-       "the highest",
-       "higher",
-       "high"
+       "the tallest",
+       "taller",
+       "tall"
       ],
       "at": 1,
       "whys": [
        null,
-       "Higher compares two mountains, with than.",
-       "High does not compare. Look at 'in Vietnam'."
+       "Taller compares two buildings, with than. Look at 'in our town'.",
+       "Tall does not compare. Look at 'in our town'."
       ],
       "letters": true
      },
@@ -1680,7 +1680,7 @@
     "v": [
      {
       "hint": {
-       "step": "Bread is not a drink. What do we call a whole bread from the shop?"
+       "step": "Bread is not a drink. What do we call one whole piece of bread from the shop?"
       },
       "worked": "We buy <b>a loaf of bread</b>.",
       "type": "mcq",
@@ -1777,7 +1777,7 @@
        "id": "s1-t-house",
        "kind": "text",
        "head": "Anya's story",
-       "html": "<b>Our trip to the upside-down house</b><br>by Anya<br><br>Last Friday my class visited a very strange house. Everything in it was upside down!<br><br>The (6) ________ was on the ground, and the floor was high above our heads.<br><br>In the kitchen, the chairs were on the ceiling. They were (7) ________, made from brown wood.<br><br>Under the house there was a (8) ________. It pointed down to the ground, so the smoke from a fire can't go up it!<br><br>Walking on the ceiling was (9) ________ than walking on a normal floor. I nearly fell over!<br><br>My legs were tired after the visit, but it was (10) ________ school trip of the year. I want to go back with my family!"
+       "html": "<b>Our trip to the upside-down house</b><br>by Anya<br><br>Last Friday my class visited a very strange house. Everything in it was upside down!<br><br>The (6) ________ was on the ground, and the floor was high above our heads.<br><br>In the kitchen, the chairs were on the ceiling. They were (7) ________, made from brown wood.<br><br>Under the house there was a (8) ________. It pointed down to the ground, so the smoke from a fire couldn't go up it!<br><br>Walking on the ceiling was (9) ________ than walking on a normal floor. I nearly fell over!<br><br>My legs were tired after the visit, but it was (10) ________ school trip of the year. I want to go back with my family!"
       }
      }
     ]
@@ -1839,7 +1839,7 @@
        "id": "s1-t-house",
        "kind": "text",
        "head": "Anya's story",
-       "html": "<b>Our trip to the upside-down house</b><br>by Anya<br><br>Last Friday my class visited a very strange house. Everything in it was upside down!<br><br>The (6) ________ was on the ground, and the floor was high above our heads.<br><br>In the kitchen, the chairs were on the ceiling. They were (7) ________, made from brown wood.<br><br>Under the house there was a (8) ________. It pointed down to the ground, so the smoke from a fire can't go up it!<br><br>Walking on the ceiling was (9) ________ than walking on a normal floor. I nearly fell over!<br><br>My legs were tired after the visit, but it was (10) ________ school trip of the year. I want to go back with my family!"
+       "html": "<b>Our trip to the upside-down house</b><br>by Anya<br><br>Last Friday my class visited a very strange house. Everything in it was upside down!<br><br>The (6) ________ was on the ground, and the floor was high above our heads.<br><br>In the kitchen, the chairs were on the ceiling. They were (7) ________, made from brown wood.<br><br>Under the house there was a (8) ________. It pointed down to the ground, so the smoke from a fire couldn't go up it!<br><br>Walking on the ceiling was (9) ________ than walking on a normal floor. I nearly fell over!<br><br>My legs were tired after the visit, but it was (10) ________ school trip of the year. I want to go back with my family!"
       }
      }
     ]
@@ -1881,7 +1881,7 @@
       "hint": {
        "step": "Read the next sentence. Which part of a house is for smoke from a fire?"
       },
-      "worked": "'The smoke from a fire can't go up it.' Smoke goes up a <b>chimney</b>.",
+      "worked": "'The smoke from a fire couldn't go up it.' Smoke goes up a <b>chimney</b>.",
       "type": "mcq",
       "q": "Read Anya's story. Choose the word for gap (8).",
       "opts": [
@@ -1901,7 +1901,7 @@
        "id": "s1-t-house",
        "kind": "text",
        "head": "Anya's story",
-       "html": "<b>Our trip to the upside-down house</b><br>by Anya<br><br>Last Friday my class visited a very strange house. Everything in it was upside down!<br><br>The (6) ________ was on the ground, and the floor was high above our heads.<br><br>In the kitchen, the chairs were on the ceiling. They were (7) ________, made from brown wood.<br><br>Under the house there was a (8) ________. It pointed down to the ground, so the smoke from a fire can't go up it!<br><br>Walking on the ceiling was (9) ________ than walking on a normal floor. I nearly fell over!<br><br>My legs were tired after the visit, but it was (10) ________ school trip of the year. I want to go back with my family!"
+       "html": "<b>Our trip to the upside-down house</b><br>by Anya<br><br>Last Friday my class visited a very strange house. Everything in it was upside down!<br><br>The (6) ________ was on the ground, and the floor was high above our heads.<br><br>In the kitchen, the chairs were on the ceiling. They were (7) ________, made from brown wood.<br><br>Under the house there was a (8) ________. It pointed down to the ground, so the smoke from a fire couldn't go up it!<br><br>Walking on the ceiling was (9) ________ than walking on a normal floor. I nearly fell over!<br><br>My legs were tired after the visit, but it was (10) ________ school trip of the year. I want to go back with my family!"
       }
      }
     ]
@@ -1963,7 +1963,7 @@
        "id": "s1-t-house",
        "kind": "text",
        "head": "Anya's story",
-       "html": "<b>Our trip to the upside-down house</b><br>by Anya<br><br>Last Friday my class visited a very strange house. Everything in it was upside down!<br><br>The (6) ________ was on the ground, and the floor was high above our heads.<br><br>In the kitchen, the chairs were on the ceiling. They were (7) ________, made from brown wood.<br><br>Under the house there was a (8) ________. It pointed down to the ground, so the smoke from a fire can't go up it!<br><br>Walking on the ceiling was (9) ________ than walking on a normal floor. I nearly fell over!<br><br>My legs were tired after the visit, but it was (10) ________ school trip of the year. I want to go back with my family!"
+       "html": "<b>Our trip to the upside-down house</b><br>by Anya<br><br>Last Friday my class visited a very strange house. Everything in it was upside down!<br><br>The (6) ________ was on the ground, and the floor was high above our heads.<br><br>In the kitchen, the chairs were on the ceiling. They were (7) ________, made from brown wood.<br><br>Under the house there was a (8) ________. It pointed down to the ground, so the smoke from a fire couldn't go up it!<br><br>Walking on the ceiling was (9) ________ than walking on a normal floor. I nearly fell over!<br><br>My legs were tired after the visit, but it was (10) ________ school trip of the year. I want to go back with my family!"
       }
      }
     ]
@@ -2025,7 +2025,7 @@
        "id": "s1-t-house",
        "kind": "text",
        "head": "Anya's story",
-       "html": "<b>Our trip to the upside-down house</b><br>by Anya<br><br>Last Friday my class visited a very strange house. Everything in it was upside down!<br><br>The (6) ________ was on the ground, and the floor was high above our heads.<br><br>In the kitchen, the chairs were on the ceiling. They were (7) ________, made from brown wood.<br><br>Under the house there was a (8) ________. It pointed down to the ground, so the smoke from a fire can't go up it!<br><br>Walking on the ceiling was (9) ________ than walking on a normal floor. I nearly fell over!<br><br>My legs were tired after the visit, but it was (10) ________ school trip of the year. I want to go back with my family!"
+       "html": "<b>Our trip to the upside-down house</b><br>by Anya<br><br>Last Friday my class visited a very strange house. Everything in it was upside down!<br><br>The (6) ________ was on the ground, and the floor was high above our heads.<br><br>In the kitchen, the chairs were on the ceiling. They were (7) ________, made from brown wood.<br><br>Under the house there was a (8) ________. It pointed down to the ground, so the smoke from a fire couldn't go up it!<br><br>Walking on the ceiling was (9) ________ than walking on a normal floor. I nearly fell over!<br><br>My legs were tired after the visit, but it was (10) ________ school trip of the year. I want to go back with my family!"
       }
      }
     ]
@@ -2100,7 +2100,7 @@
     ]
    ],
    [
-    "Rain and wind all week: the ___ weather!",
+    "Rain all week: the ___ week ever!",
     [
      "worst",
      "worse",
@@ -2303,7 +2303,7 @@
     "A house with one floor",
     [
      "bungalow",
-     "flat",
+     "balcony",
      "chimney"
     ]
    ],

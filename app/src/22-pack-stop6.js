@@ -310,7 +310,7 @@
          "whys": [
           null,
           "'No need to bring a ball' means you don't need one.",
-          "New players are welcome, but the other players come too."
+          "The sign says new players are welcome. It doesn't say other players can't play."
          ],
          "letters": true,
          "fig": {
@@ -777,7 +777,7 @@
          "hint": {
           "step": "Find the question 'can you ...?'. What does Nadia want?"
          },
-         "worked": "'Can you <b>bring your torch to my house</b> tonight?' A torch is something.",
+         "worked": "'Can you <b>bring your torch to my house</b> tonight?' So Holly must bring something: her torch.",
          "type": "mcq",
          "q": "What does Nadia ask Holly to do?",
          "opts": [
@@ -1432,7 +1432,8 @@
        "mode": "your",
        "lo": [
         "4Rm.01",
-        "4Uv.03"
+        "4Uv.03",
+        "4Us.07"
        ],
        "v": [
         {
@@ -1457,7 +1458,7 @@
         },
         {
          "hint": {
-          "step": "'Why' asks for a reason. 'To + verb' can give a reason."
+          "step": "'Why' asks for a reason. Which reply gives one?"
          },
          "worked": "'<b>Why</b>?' needs a reason: '<b>To look at the stars</b>.'",
          "type": "mcq",
@@ -1481,7 +1482,8 @@
        "mode": "your",
        "lo": [
         "4Rm.01",
-        "4Ug.10"
+        "4Ug.10",
+        "4Us.06"
        ],
        "v": [
         {
@@ -1506,9 +1508,9 @@
         },
         {
          "hint": {
-          "step": "'Would you like to ...?' asks about a plan. Look for 'I'd like to ...'."
+          "step": "Saturday is in the future. Which reply answers 'What would you like to do?'"
          },
-         "worked": "'<b>What would you like to do?</b>' → '<b>I'd like to go</b> ...'",
+         "worked": "'<b>What would you like to do?</b>' asks about a plan, so '<b>I'd like to go</b> to the sports centre' fits.",
          "type": "mcq",
          "q": "Sami says: 'What would you like to do on Saturday?' What is the best reply?",
          "opts": [
@@ -1530,7 +1532,8 @@
        "mode": "your",
        "lo": [
         "4Rm.01",
-        "4Uv.04"
+        "4Uv.04",
+        "4Ug.01"
        ],
        "v": [
         {
@@ -1568,7 +1571,7 @@
          "at": 2,
          "whys": [
           null,
-          "If it isn't cold, you don't need a coat.",
+          "'No, it isn't' says it's not cold, but then you need a coat. The two parts don't match.",
           "The question uses 'is', so the answer is 'Yes, it is'."
          ],
          "letters": true
@@ -1794,11 +1797,11 @@
       "hint": {
        "step": "Find the question 'Do you want to ...?'."
       },
-      "worked": "'I've got two tickets... <b>Do you want to come?</b>'",
+      "worked": "'I've got two tickets for the planetarium <b>on Sunday</b>. <b>Do you want to come?</b>' Alice wants Iris to go with her.",
       "type": "mcq",
       "q": "What does Alice want?",
       "opts": [
-       "She wants Iris to come out with her.",
+       "She wants Iris to go with her on Sunday.",
        "She wants Iris to buy two tickets.",
        "She wants Iris to give her a ticket."
       ],
@@ -2195,21 +2198,21 @@
      },
      {
       "hint": {
-       "step": "Check that the second sentence agrees with the first."
+       "step": "Look at 'can't she?'. Use the same verb in your answer. Then check the second sentence."
       },
-      "worked": "'<b>Sure</b>' + '<b>I've got lots of colours</b>' go together.",
+      "worked": "'<b>can't she?</b>' → '<b>Yes, she can</b>.' And '<b>She swims every week</b>' agrees with yes.",
       "type": "mcq",
-      "q": "Trang says: 'Can you bring some pens for our poster?' What is the best reply?",
+      "q": "Trang says: 'Your sister can swim, can't she?' What is the best reply?",
       "opts": [
-       "Sure. I've got lots of colours.",
-       "Sure. I haven't got any pens.",
-       "Sorry, I made one last year."
+       "Yes, she can. She swims every week.",
+       "Yes, she does. She swims every week.",
+       "No, she can't. She swims every week."
       ],
       "at": 2,
       "whys": [
        null,
-       "If you haven't got any pens, you can't bring them.",
-       "Trang asks about now, not last year."
+       "'can't she?' needs 'can', not 'does'.",
+       "If she swims every week, she CAN swim, so the answer is 'yes'."
       ],
       "letters": true
      }
@@ -2279,9 +2282,9 @@
    [
     "'Don't run' means ...",
     [
-     "walk",
+     "you can't run",
      "run fast",
-     "jump"
+     "you must run"
     ]
    ],
    [
@@ -2303,7 +2306,7 @@
    [
     "'Under 5s free': who pays?",
     [
-     "older people",
+     "children over 5",
      "babies",
      "nobody"
     ]

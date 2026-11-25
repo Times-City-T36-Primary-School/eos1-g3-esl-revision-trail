@@ -231,11 +231,11 @@
          "hint": {
           "step": "Find the words for WHO and HOW OFTEN."
          },
-         "worked": "'I <b>help Dad</b> in the kitchen <b>every evening</b>' means she cooks with him every day.",
+         "worked": "'I <b>help Dad</b> in the kitchen <b>every evening</b>' means she helps him to cook every day.",
          "type": "mcq",
          "q": "Lan says: 'I help Dad in the kitchen every evening.' Which sentence means the same?",
          "opts": [
-          "Lan cooks with her dad every day.",
+          "Every day, Lan helps her dad to cook.",
           "Lan's dad cooks once a week.",
           "Lan cooks alone every evening."
          ],
@@ -360,7 +360,7 @@
          "at": 0,
          "whys": [
           null,
-          "She painted all day because she enjoys it, so she isn't bored.",
+          "Her '!' shows good news. Nothing in her words sounds bored.",
           "Nothing bad happened, so she isn't angry."
          ],
          "letters": true
@@ -567,21 +567,21 @@
         },
         {
          "hint": {
-          "step": "'I wish' shows something a person wants to change."
+          "step": "'I'd like' shows something a person wants. What is the problem now?"
          },
-         "worked": "'<b>I wish</b> the skate park <b>was nearer</b>' = he would like it to be closer.",
+         "worked": "'<b>I'd like a skate park</b> in my street' = there isn't one near his home now.",
          "type": "mcq",
-         "q": "Ollie says: 'I wish the skate park was nearer my home.' What does he mean?",
+         "q": "Ollie says: 'I'd like a skate park in my street.' What does he mean?",
          "opts": [
-          "He'd like the park to be closer.",
-          "The park is very near his home.",
-          "He doesn't like the skate park."
+          "There isn't a skate park near his home.",
+          "There is a skate park in his street.",
+          "He doesn't like skate parks."
          ],
          "at": 2,
          "whys": [
           null,
-          "'I wish ... was nearer' tells you it is far now.",
-          "He wants to go there more easily, so he likes it."
+          "He would like one in his street, so there isn't one there now.",
+          "He wants a skate park, so he likes them."
          ],
          "letters": true
         }
@@ -1039,9 +1039,9 @@
         },
         {
          "hint": {
-          "step": "Look for words that show a wish, like 'I wish' or 'I'd like'."
+          "step": "Find what each child says about the weather at home. Who wants it to change?"
          },
-         "worked": "Poppy's city is hot and humid, and she says '<b>I wish it was cooler at home too</b>'.",
+         "worked": "Poppy's city is hot and humid, and she says '<b>I'd love some cooler weather at home too</b>'.",
          "type": "mcq",
          "q": "Who would like the weather to be different where they live?",
          "opts": [
@@ -1061,7 +1061,7 @@
           "id": "s8-p5-weather",
           "kind": "text",
           "head": "Part 5: three children",
-          "html": "<b>My favourite weather</b><br><br><b>Poppy</b><br>My favourite weather is cool and windy. My grandma lives in the mountains in the north. In December it's freezing there, and sometimes there's ice on the windows. I wear my thick wool hat, and Grandma makes hot soup for me. Then we paint pictures together. In my city it's always hot and humid. I wish it was cooler at home too.<br><br><b>Son</b><br>I love the rainy season! The sky goes dark, and then the rain is very heavy. I watch the lightning from my window. My little sister is scared of the thunder, so I sit with her and hold her hand. When the rain stops, I go outside with my friends. We jump in the big puddles. Mum isn't happy about my wet clothes!<br><br><b>Daisy</b><br>I like warm, sunny days best, because I can work in the garden with my dad. We grow beans and tomatoes. When it's very hot and dry, we have to water the plants every morning and every evening. I don't like the rainy season much, because it's too wet to go outside. But Dad says the rain is good for our garden, so I don't mind."
+          "html": "<b>My favourite weather</b><br><br><b>Poppy</b><br>My favourite weather is cool and windy. My grandma lives in the mountains in the north. In December it's freezing there, and sometimes there's ice on the windows. I wear my thick wool hat, and Grandma makes hot soup for me. Then we paint pictures together. In my city it's always hot and humid. I'd love some cooler weather at home too.<br><br><b>Son</b><br>I love the rainy season! The sky goes dark, and then the rain is very heavy. I watch the lightning from my window. My little sister is scared of the thunder, so I sit with her and hold her hand. When the rain stops, I go outside with my friends. We jump in the big puddles. Mum isn't happy about my wet clothes!<br><br><b>Daisy</b><br>I like warm, sunny days best, because I can work in the garden with my dad. We grow beans and tomatoes. When it's very hot and dry, we have to water the plants every morning and every evening. I don't like the rainy season much, because it's too wet to go outside. But Dad says the rain is good for our garden, so I don't mind."
          }
         }
        ]
@@ -1124,7 +1124,7 @@
           "id": "s8-p5-weather",
           "kind": "text",
           "head": "Part 5: three children",
-          "html": "<b>My favourite weather</b><br><br><b>Poppy</b><br>My favourite weather is cool and windy. My grandma lives in the mountains in the north. In December it's freezing there, and sometimes there's ice on the windows. I wear my thick wool hat, and Grandma makes hot soup for me. Then we paint pictures together. In my city it's always hot and humid. I wish it was cooler at home too.<br><br><b>Son</b><br>I love the rainy season! The sky goes dark, and then the rain is very heavy. I watch the lightning from my window. My little sister is scared of the thunder, so I sit with her and hold her hand. When the rain stops, I go outside with my friends. We jump in the big puddles. Mum isn't happy about my wet clothes!<br><br><b>Daisy</b><br>I like warm, sunny days best, because I can work in the garden with my dad. We grow beans and tomatoes. When it's very hot and dry, we have to water the plants every morning and every evening. I don't like the rainy season much, because it's too wet to go outside. But Dad says the rain is good for our garden, so I don't mind."
+          "html": "<b>My favourite weather</b><br><br><b>Poppy</b><br>My favourite weather is cool and windy. My grandma lives in the mountains in the north. In December it's freezing there, and sometimes there's ice on the windows. I wear my thick wool hat, and Grandma makes hot soup for me. Then we paint pictures together. In my city it's always hot and humid. I'd love some cooler weather at home too.<br><br><b>Son</b><br>I love the rainy season! The sky goes dark, and then the rain is very heavy. I watch the lightning from my window. My little sister is scared of the thunder, so I sit with her and hold her hand. When the rain stops, I go outside with my friends. We jump in the big puddles. Mum isn't happy about my wet clothes!<br><br><b>Daisy</b><br>I like warm, sunny days best, because I can work in the garden with my dad. We grow beans and tomatoes. When it's very hot and dry, we have to water the plants every morning and every evening. I don't like the rainy season much, because it's too wet to go outside. But Dad says the rain is good for our garden, so I don't mind."
          }
         }
        ]
@@ -1187,7 +1187,7 @@
           "id": "s8-p5-weather",
           "kind": "text",
           "head": "Part 5: three children",
-          "html": "<b>My favourite weather</b><br><br><b>Poppy</b><br>My favourite weather is cool and windy. My grandma lives in the mountains in the north. In December it's freezing there, and sometimes there's ice on the windows. I wear my thick wool hat, and Grandma makes hot soup for me. Then we paint pictures together. In my city it's always hot and humid. I wish it was cooler at home too.<br><br><b>Son</b><br>I love the rainy season! The sky goes dark, and then the rain is very heavy. I watch the lightning from my window. My little sister is scared of the thunder, so I sit with her and hold her hand. When the rain stops, I go outside with my friends. We jump in the big puddles. Mum isn't happy about my wet clothes!<br><br><b>Daisy</b><br>I like warm, sunny days best, because I can work in the garden with my dad. We grow beans and tomatoes. When it's very hot and dry, we have to water the plants every morning and every evening. I don't like the rainy season much, because it's too wet to go outside. But Dad says the rain is good for our garden, so I don't mind."
+          "html": "<b>My favourite weather</b><br><br><b>Poppy</b><br>My favourite weather is cool and windy. My grandma lives in the mountains in the north. In December it's freezing there, and sometimes there's ice on the windows. I wear my thick wool hat, and Grandma makes hot soup for me. Then we paint pictures together. In my city it's always hot and humid. I'd love some cooler weather at home too.<br><br><b>Son</b><br>I love the rainy season! The sky goes dark, and then the rain is very heavy. I watch the lightning from my window. My little sister is scared of the thunder, so I sit with her and hold her hand. When the rain stops, I go outside with my friends. We jump in the big puddles. Mum isn't happy about my wet clothes!<br><br><b>Daisy</b><br>I like warm, sunny days best, because I can work in the garden with my dad. We grow beans and tomatoes. When it's very hot and dry, we have to water the plants every morning and every evening. I don't like the rainy season much, because it's too wet to go outside. But Dad says the rain is good for our garden, so I don't mind."
          }
         }
        ]
@@ -1597,7 +1597,7 @@
     "en": "Part 5: read the question first and find its *key word* (enjoys, careful, would like, helps).",
     "vi": "Phần 5: đọc câu hỏi trước và tìm *từ khóa* (enjoys, careful, would like, helps).",
     "example": [
-     "Who *would like* a change? Look for *I wish* or *I'd like*.",
+     "Who *would like* a change? Look for *I'd like*, *I'd love* or *I want*.",
      "Who *helps* someone? Look for a person who needs help."
     ]
    },
@@ -1803,21 +1803,21 @@
     "v": [
      {
       "hint": {
-       "step": "Find 'at the same time'."
+       "step": "Find 'at the same time'. The reason comes after 'because'."
       },
-      "worked": "'Grandad says <b>only two people</b> can go in at the same time.'",
+      "worked": "Only two people can go in '<b>because the floor is not very big</b>'.",
       "type": "mcq",
-      "q": "How many people can go in the tree house at the same time?",
+      "q": "Why can only two people go in the tree house at the same time?",
       "opts": [
-       "two",
-       "three",
-       "four"
+       "The floor inside the tree house is small.",
+       "The rope ladder is not very strong.",
+       "Ollie likes to read there on his own."
       ],
       "at": 0,
       "whys": [
        null,
-       "Three is the number of weekends they worked.",
-       "Four is the number of walls."
+       "The article doesn't say the ladder is weak. Read the sentence with 'because'.",
+       "Ollie reads comics there, but that isn't the reason Grandad gives."
       ],
       "letters": true,
       "fig": {
@@ -1990,7 +1990,7 @@
     "v": [
      {
       "hint": {
-       "step": "Look for 'I'd like' or 'next'. Then check what it is about."
+       "step": "Two children say what they would like. Check what each one wants."
       },
       "worked": "Lan says '<b>Next, I'd like to grow bok choy</b>'.",
       "type": "mcq",
@@ -2004,7 +2004,7 @@
       "whys": [
        null,
        "Adam grows mint and chillies now. He doesn't say he wants a new plant.",
-       "Poppy's wish is to visit Grandma more often, not to grow something new."
+       "Poppy would like to visit Grandma more often, not to grow something new."
       ],
       "letters": true,
       "fig": {
@@ -2012,7 +2012,7 @@
        "id": "s8-t-grow",
        "kind": "text",
        "head": "Part 5: three children",
-       "html": "<b>Growing our own food</b><br><br><b>Lan</b><br>My dad and I grow cress at home. First, we put cotton wool in a yoghurt pot. Then we add the seeds and a little water. After a week, the cress is ready, and I put it in my sandwiches. Yum! Dad cooks every evening, and I always help him. Next, I'd like to grow bok choy, because Dad uses it in his soup.<br><br><b>Adam</b><br>We live in a flat, so we haven't got a garden. But we've got some pots by the kitchen window. We grow mint and chillies. I water them every day after school. I don't eat the chillies, because they're too hot for me! My sister loves them, though. Growing food in a flat isn't easy, but our kitchen smells great.<br><br><b>Poppy</b><br>My grandma has a big vegetable garden in the mountains. Every summer I stay with her for two weeks. We pick beans, carrots and potatoes. I don't usually like carrots, but Grandma's carrots are delicious! They taste sweeter than carrots from the shop. Her house is far from our city, so I can't help her every week. I wish I could visit more often."
+       "html": "<b>Growing our own food</b><br><br><b>Lan</b><br>My dad and I grow cress at home. First, we put cotton wool in a yoghurt pot. Then we add the seeds and a little water. After a week, the cress is ready, and I put it in my sandwiches. Yum! Dad cooks every evening, and I always help him. Next, I'd like to grow bok choy, because Dad uses it in his soup.<br><br><b>Adam</b><br>We live in a flat, so we haven't got a garden. But we've got some pots by the kitchen window. We grow mint and chillies. I water them every day after school. I don't eat the chillies, because they're too hot for me! My sister loves them, though. Growing food in a flat isn't easy, but our kitchen smells great.<br><br><b>Poppy</b><br>My grandma has a big vegetable garden in the mountains. Every summer I stay with her for two weeks. We pick beans, carrots and potatoes. I don't usually like carrots, but Grandma's carrots are delicious! They taste sweeter than carrots from the shop. Her house is far from our city, so I can't help her every week. I'd love to visit her more often."
       }
      },
      {
@@ -2075,7 +2075,7 @@
        "id": "s8-t-grow",
        "kind": "text",
        "head": "Part 5: three children",
-       "html": "<b>Growing our own food</b><br><br><b>Lan</b><br>My dad and I grow cress at home. First, we put cotton wool in a yoghurt pot. Then we add the seeds and a little water. After a week, the cress is ready, and I put it in my sandwiches. Yum! Dad cooks every evening, and I always help him. Next, I'd like to grow bok choy, because Dad uses it in his soup.<br><br><b>Adam</b><br>We live in a flat, so we haven't got a garden. But we've got some pots by the kitchen window. We grow mint and chillies. I water them every day after school. I don't eat the chillies, because they're too hot for me! My sister loves them, though. Growing food in a flat isn't easy, but our kitchen smells great.<br><br><b>Poppy</b><br>My grandma has a big vegetable garden in the mountains. Every summer I stay with her for two weeks. We pick beans, carrots and potatoes. I don't usually like carrots, but Grandma's carrots are delicious! They taste sweeter than carrots from the shop. Her house is far from our city, so I can't help her every week. I wish I could visit more often."
+       "html": "<b>Growing our own food</b><br><br><b>Lan</b><br>My dad and I grow cress at home. First, we put cotton wool in a yoghurt pot. Then we add the seeds and a little water. After a week, the cress is ready, and I put it in my sandwiches. Yum! Dad cooks every evening, and I always help him. Next, I'd like to grow bok choy, because Dad uses it in his soup.<br><br><b>Adam</b><br>We live in a flat, so we haven't got a garden. But we've got some pots by the kitchen window. We grow mint and chillies. I water them every day after school. I don't eat the chillies, because they're too hot for me! My sister loves them, though. Growing food in a flat isn't easy, but our kitchen smells great.<br><br><b>Poppy</b><br>My grandma has a big vegetable garden in the mountains. Every summer I stay with her for two weeks. We pick beans, carrots and potatoes. I don't usually like carrots, but Grandma's carrots are delicious! They taste sweeter than carrots from the shop. Her house is far from our city, so I can't help her every week. I'd love to visit her more often."
       }
      },
      {
@@ -2120,7 +2120,7 @@
       },
       "worked": "Grandma's carrots '<b>taste sweeter than carrots from the shop</b>'.",
       "type": "mcq",
-      "q": "Who thinks food they grow tastes better?",
+      "q": "Who thinks some vegetables taste better than others?",
       "opts": [
        "Poppy",
        "Lan",
@@ -2138,7 +2138,7 @@
        "id": "s8-t-grow",
        "kind": "text",
        "head": "Part 5: three children",
-       "html": "<b>Growing our own food</b><br><br><b>Lan</b><br>My dad and I grow cress at home. First, we put cotton wool in a yoghurt pot. Then we add the seeds and a little water. After a week, the cress is ready, and I put it in my sandwiches. Yum! Dad cooks every evening, and I always help him. Next, I'd like to grow bok choy, because Dad uses it in his soup.<br><br><b>Adam</b><br>We live in a flat, so we haven't got a garden. But we've got some pots by the kitchen window. We grow mint and chillies. I water them every day after school. I don't eat the chillies, because they're too hot for me! My sister loves them, though. Growing food in a flat isn't easy, but our kitchen smells great.<br><br><b>Poppy</b><br>My grandma has a big vegetable garden in the mountains. Every summer I stay with her for two weeks. We pick beans, carrots and potatoes. I don't usually like carrots, but Grandma's carrots are delicious! They taste sweeter than carrots from the shop. Her house is far from our city, so I can't help her every week. I wish I could visit more often."
+       "html": "<b>Growing our own food</b><br><br><b>Lan</b><br>My dad and I grow cress at home. First, we put cotton wool in a yoghurt pot. Then we add the seeds and a little water. After a week, the cress is ready, and I put it in my sandwiches. Yum! Dad cooks every evening, and I always help him. Next, I'd like to grow bok choy, because Dad uses it in his soup.<br><br><b>Adam</b><br>We live in a flat, so we haven't got a garden. But we've got some pots by the kitchen window. We grow mint and chillies. I water them every day after school. I don't eat the chillies, because they're too hot for me! My sister loves them, though. Growing food in a flat isn't easy, but our kitchen smells great.<br><br><b>Poppy</b><br>My grandma has a big vegetable garden in the mountains. Every summer I stay with her for two weeks. We pick beans, carrots and potatoes. I don't usually like carrots, but Grandma's carrots are delicious! They taste sweeter than carrots from the shop. Her house is far from our city, so I can't help her every week. I'd love to visit her more often."
       }
      },
      {
@@ -2201,16 +2201,16 @@
        "id": "s8-t-grow",
        "kind": "text",
        "head": "Part 5: three children",
-       "html": "<b>Growing our own food</b><br><br><b>Lan</b><br>My dad and I grow cress at home. First, we put cotton wool in a yoghurt pot. Then we add the seeds and a little water. After a week, the cress is ready, and I put it in my sandwiches. Yum! Dad cooks every evening, and I always help him. Next, I'd like to grow bok choy, because Dad uses it in his soup.<br><br><b>Adam</b><br>We live in a flat, so we haven't got a garden. But we've got some pots by the kitchen window. We grow mint and chillies. I water them every day after school. I don't eat the chillies, because they're too hot for me! My sister loves them, though. Growing food in a flat isn't easy, but our kitchen smells great.<br><br><b>Poppy</b><br>My grandma has a big vegetable garden in the mountains. Every summer I stay with her for two weeks. We pick beans, carrots and potatoes. I don't usually like carrots, but Grandma's carrots are delicious! They taste sweeter than carrots from the shop. Her house is far from our city, so I can't help her every week. I wish I could visit more often."
+       "html": "<b>Growing our own food</b><br><br><b>Lan</b><br>My dad and I grow cress at home. First, we put cotton wool in a yoghurt pot. Then we add the seeds and a little water. After a week, the cress is ready, and I put it in my sandwiches. Yum! Dad cooks every evening, and I always help him. Next, I'd like to grow bok choy, because Dad uses it in his soup.<br><br><b>Adam</b><br>We live in a flat, so we haven't got a garden. But we've got some pots by the kitchen window. We grow mint and chillies. I water them every day after school. I don't eat the chillies, because they're too hot for me! My sister loves them, though. Growing food in a flat isn't easy, but our kitchen smells great.<br><br><b>Poppy</b><br>My grandma has a big vegetable garden in the mountains. Every summer I stay with her for two weeks. We pick beans, carrots and potatoes. I don't usually like carrots, but Grandma's carrots are delicious! They taste sweeter than carrots from the shop. Her house is far from our city, so I can't help her every week. I'd love to visit her more often."
       }
      },
      {
       "hint": {
-       "step": "Who is the word 'careful' about? Also look for a safe thing someone does."
+       "step": "In one text, Mum says 'be careful'. Who is she talking to? Then look for a child who does something safe."
       },
       "worked": "Jamal says '<b>I always stay inside when there's lightning</b>, because it can be dangerous'.",
       "type": "mcq",
-      "q": "Who is careful at some times?",
+      "q": "Who does something to keep safe?",
       "opts": [
        "Jamal",
        "Quan",
@@ -2242,9 +2242,9 @@
     "v": [
      {
       "hint": {
-       "step": "Look for 'I wish'. What does the child want?"
+       "step": "Look for words that show what a child wants. Then check who it is about."
       },
-      "worked": "Poppy says '<b>I wish I could visit more often</b>'.",
+      "worked": "Poppy says '<b>I'd love to visit her more often</b>'. 'Her' is Grandma.",
       "type": "mcq",
       "q": "Who would like to see someone in the family more often?",
       "opts": [
@@ -2264,7 +2264,7 @@
        "id": "s8-t-grow",
        "kind": "text",
        "head": "Part 5: three children",
-       "html": "<b>Growing our own food</b><br><br><b>Lan</b><br>My dad and I grow cress at home. First, we put cotton wool in a yoghurt pot. Then we add the seeds and a little water. After a week, the cress is ready, and I put it in my sandwiches. Yum! Dad cooks every evening, and I always help him. Next, I'd like to grow bok choy, because Dad uses it in his soup.<br><br><b>Adam</b><br>We live in a flat, so we haven't got a garden. But we've got some pots by the kitchen window. We grow mint and chillies. I water them every day after school. I don't eat the chillies, because they're too hot for me! My sister loves them, though. Growing food in a flat isn't easy, but our kitchen smells great.<br><br><b>Poppy</b><br>My grandma has a big vegetable garden in the mountains. Every summer I stay with her for two weeks. We pick beans, carrots and potatoes. I don't usually like carrots, but Grandma's carrots are delicious! They taste sweeter than carrots from the shop. Her house is far from our city, so I can't help her every week. I wish I could visit more often."
+       "html": "<b>Growing our own food</b><br><br><b>Lan</b><br>My dad and I grow cress at home. First, we put cotton wool in a yoghurt pot. Then we add the seeds and a little water. After a week, the cress is ready, and I put it in my sandwiches. Yum! Dad cooks every evening, and I always help him. Next, I'd like to grow bok choy, because Dad uses it in his soup.<br><br><b>Adam</b><br>We live in a flat, so we haven't got a garden. But we've got some pots by the kitchen window. We grow mint and chillies. I water them every day after school. I don't eat the chillies, because they're too hot for me! My sister loves them, though. Growing food in a flat isn't easy, but our kitchen smells great.<br><br><b>Poppy</b><br>My grandma has a big vegetable garden in the mountains. Every summer I stay with her for two weeks. We pick beans, carrots and potatoes. I don't usually like carrots, but Grandma's carrots are delicious! They taste sweeter than carrots from the shop. Her house is far from our city, so I can't help her every week. I'd love to visit her more often."
       }
      },
      {
@@ -2350,7 +2350,7 @@
     ]
    ],
    [
-    "'I wish' shows something you ___",
+    "'I'd love to' shows something you ___",
     [
      "want",
      "have",

@@ -173,7 +173,7 @@
     "esl": true,
     "kind": "text",
     "head": "A chat in the playground",
-    "html": "Ivy: Have you finished your planet poster *yet*?<br>Finn: Yes, I've *already* finished it. I *enjoy drawing* planets!<br>Ivy: Your poster is really good, *isn't it*? I haven't started mine *yet*.<br>Finn: You *might* need some help. I can help you *after* school.<br>Ivy: Thanks! I *have to* give it to the teacher on Friday.",
+    "html": "Ivy: Have you finished your planet poster *yet*?<br>Finn: Yes, I've *already* finished it. I *enjoy drawing* planets!<br>Ivy: Space is a fun topic, *isn't it*? I haven't started mine *yet*.<br>Finn: You *might* need some help. I can help you *after* school.<br>Ivy: Thanks! I *have to* give it to the teacher on Friday.",
     "steps": [
      {
       "en": "*already* goes in positive sentences. *yet* goes at the end of questions and 'not' sentences.",
@@ -310,9 +310,9 @@
          "hint": {
           "step": "Find 'hasn't'. Which word goes at the end of a 'not' sentence?"
          },
-         "worked": "'hasn't finished' is negative, so it ends with <b>yet</b>.",
+         "worked": "'hasn't started' is negative, so it ends with <b>yet</b>.",
          "type": "mcq",
-         "q": "Finn hasn't finished his poster ________.",
+         "q": "Ivy hasn't started her poster ________.",
          "opts": [
           "yet",
           "already",
@@ -570,13 +570,13 @@
         },
         {
          "hint": {
-          "step": "The piggy bank is empty. Which word means 'not anything'?"
+          "step": "Tom ate ALL his dinner. Which word means 'not anything'?"
          },
-         "worked": "The piggy bank is empty, so there is <b>nothing</b> in it.",
+         "worked": "Tom ate it all, so he left <b>nothing</b> on his plate.",
          "type": "tfill",
          "q": "Write some, any or nothing.",
          "lines": [
-          "My piggy bank is empty. There is {0} in it."
+          "Tom ate all his dinner. He left {0} on his plate."
          ],
          "ans": [
           [
@@ -2281,7 +2281,7 @@
     ]
    ],
    [
-    "My piggy bank is empty. There's ___ in it.",
+    "The TV is off, so I'm watching ___.",
     [
      "nothing",
      "anything",
@@ -2389,7 +2389,7 @@
     [
      "yet",
      "already",
-     "ever"
+     "always"
     ]
    ],
    [
@@ -2637,7 +2637,7 @@
     [
      "anything",
      "nothing",
-     "any"
+     "many"
     ]
    ]
   ]

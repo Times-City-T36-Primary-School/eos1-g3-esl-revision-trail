@@ -526,20 +526,20 @@
         },
         {
          "type": "mcq",
-         "q": "Ollie says: 'I'd like to live nearer the skate park.' What does he mean?",
+         "q": "Ollie says: 'I'd like a skate park in my street.' What does he mean?",
          "opts": [
-          "The skate park is far from his home.",
-          "The skate park is next to his home.",
-          "He doesn't like going to the skate park."
+          "There isn't a skate park near his home.",
+          "There is a skate park in his street.",
+          "He doesn't like skate parks."
          ],
          "at": 2,
          "whys": [
           null,
-          "He wants to live nearer, so the park is not next to his home now.",
-          "He wants to be nearer the park, so he likes going there."
+          "He would like one in his street, so there isn't one there now.",
+          "He wants a skate park, so he likes them."
          ],
          "hint": "'I'd like' shows something a person wants. What is the problem now?",
-         "worked": "'*I'd like to live nearer* the skate park' = the park is far from his home now.",
+         "worked": "'*I'd like a skate park* in my street' = there isn't one near his home now.",
          "stim": null
         }
        ]

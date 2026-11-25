@@ -523,11 +523,11 @@
         },
         {
          "hint": {
-          "step": "He doesn't like computers. Has he used one?"
+          "step": "Read the second sentence. Does he know how to use a computer?"
          },
-         "worked": "'He doesn't like them' tells us: he has never used a computer.",
+         "worked": "'He doesn't know how' tells us: he has <b>never</b> used a computer.",
          "type": "mcq",
-         "q": "My grandpa has ________ used a computer. He doesn't like them.",
+         "q": "My grandpa has ________ used a computer. He doesn't know how!",
          "opts": [
           "never",
           "yet",
@@ -1160,7 +1160,8 @@
       {
        "mode": "your",
        "lo": [
-        "4Us.07"
+        "4Us.07",
+        "4Ug.03"
        ],
        "v": [
         {
@@ -1838,13 +1839,13 @@
       "opts": [
        "Yes, it is. Let's go outside!",
        "Yes, I do. It's very warm.",
-       "No, it isn't. I love the sun!"
+       "No, it isn't. It's warm and sunny!"
       ],
       "at": 0,
       "whys": [
        null,
        "The question has 'is', so we answer 'Yes, it is', not 'I do'.",
-       "'No, it isn't' does not match 'I love the sun!'"
+       "'No, it isn't' does not match 'It's warm and sunny!'"
       ],
       "letters": true
      },
@@ -2013,7 +2014,7 @@
     [
      "yet",
      "already",
-     "ever"
+     "always"
     ]
    ],
    [
@@ -2260,8 +2261,8 @@
     "Has the bus come ___?",
     [
      "yet",
-     "never",
-     "ever"
+     "always",
+     "sometimes"
     ]
    ],
    [

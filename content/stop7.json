@@ -528,15 +528,15 @@
          "type": "tfill",
          "q": "Write some, any or nothing.",
          "lines": [
-          "The fridge is empty. There is {0} in it."
+          "Tom ate all his dinner. He left {0} on his plate."
          ],
          "ans": [
           [
            "nothing"
           ]
          ],
-         "hint": "The fridge is empty. Which word means 'not anything'?",
-         "worked": "The fridge is empty, so there is *nothing* in it.",
+         "hint": "Tom ate ALL his dinner. Which word means 'not anything'?",
+         "worked": "Tom ate it all, so he left *nothing* on his plate.",
          "stim": null
         }
        ]
@@ -2080,7 +2080,7 @@
     ]
    ],
    [
-    "The box is empty. There's ___ in it.",
+    "The TV is off, so I'm watching ___.",
     [
      "nothing",
      "anything",

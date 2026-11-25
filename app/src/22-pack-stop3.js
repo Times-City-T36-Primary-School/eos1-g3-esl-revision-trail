@@ -719,13 +719,13 @@
         },
         {
          "hint": {
-          "step": "Look at 'child' and 'has': it is one child. Which word goes before a singular noun?"
+          "step": "Look at 'child' and 'has': it is one child. Which word means all of them, one by one?"
          },
-         "worked": "All the children, one by one: 'Every child' (or 'Each child').",
+         "worked": "We all wear one, so: '<b>Every</b> child has one' (or '<b>Each</b> child').",
          "type": "tfill",
          "q": "Write the missing word.",
          "lines": [
-          "{0} child in our class has a blue hat."
+          "We all wear a blue hat. {0} child in our class has one."
          ],
          "ans": [
           [
@@ -851,7 +851,7 @@
          "hint": {
           "step": "Which linking word starts the second step?"
          },
-         "worked": "Step 1, then step 2: 'Then we put it in the oven' ('Next' is also correct).",
+         "worked": "Step 1, then step 2: '<b>Then</b> we put it in the oven' ('Next' or 'After that' is also correct).",
          "type": "tfill",
          "q": "Write the missing word.",
          "lines": [
@@ -860,7 +860,10 @@
          "ans": [
           [
            "then",
-           "next"
+           "next",
+           "later",
+           "after that",
+           "and then"
           ]
          ]
         },
@@ -872,7 +875,7 @@
          "type": "tfill",
          "q": "Write the missing word.",
          "lines": [
-          "Max writes neatly, but Ella writes {0} neatly than Max."
+          "Max writes neatly, but Ella writes {0} neatly than Max. Her letters are perfect!"
          ],
          "ans": [
           [
@@ -912,11 +915,11 @@
        "v": [
         {
          "hint": {
-          "step": "Is this a club rule, or a maybe?"
+          "step": "Read the first sentence. Is it a rule, or a maybe?"
          },
          "worked": "A club rule uses 'have to': 'we have to put the balls away'.",
          "type": "mcq",
-         "q": "At our sports club, we ________ put the balls away after training.",
+         "q": "It's a club rule. We ________ put the balls away after training.",
          "opts": [
           "have to",
           "might",
@@ -1012,7 +1015,7 @@
          },
          "worked": "'not' sentence + any: 'I didn't find anything'.",
          "type": "mcq",
-         "q": "I looked in my bag, but I didn't find ________ .",
+         "q": "I looked in my bag, but I didn't find ________.",
          "opts": [
           "anything",
           "something",
@@ -1708,7 +1711,7 @@
       },
       "worked": "'Of all the girls' = the top one: 'Hana jumps the highest'.",
       "type": "mcq",
-      "q": "Of all the girls in my team, Hana jumps ________ .",
+      "q": "Of all the girls in my team, Hana jumps ________.",
       "opts": [
        "the highest",
        "higher",
@@ -2059,7 +2062,7 @@
     [
      "could",
      "had to",
-     "don't have to"
+     "has to"
     ]
    ],
    [
@@ -2303,7 +2306,7 @@
     ]
    ],
    [
-    "Thu sings ___ in our class.",
+    "Thu sings ___ of all the children.",
     [
      "the best",
      "better",

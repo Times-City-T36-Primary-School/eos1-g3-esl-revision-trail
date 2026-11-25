@@ -349,7 +349,7 @@
       "v": [
        {
         "hint": {
-         "step": "The bus usually goes at one time, but Owen asks for a different bus. Which one does he want?"
+         "step": "The bus usually goes at one time, but Owen asks for a different bus. Listen to his question."
         },
         "worked": "Owen asks 'Can we get the bus at half past twelve?' The one o'clock bus is too late, because Mum's making lunch.",
         "type": "mcq",
@@ -830,7 +830,7 @@
           [
            "bm_daniel",
            "Cook",
-           "Lovely. How old are you?"
+           "Lovely. And your age, please?"
           ],
           [
            "bf_lily",
@@ -961,7 +961,7 @@
           [
            "bm_daniel",
            "Cook",
-           "Lovely. How old are you?"
+           "Lovely. And your age, please?"
           ],
           [
            "bf_lily",
@@ -1099,7 +1099,7 @@
           [
            "bm_daniel",
            "Cook",
-           "Lovely. How old are you?"
+           "Lovely. And your age, please?"
           ],
           [
            "bf_lily",
@@ -1231,7 +1231,7 @@
           [
            "bm_daniel",
            "Cook",
-           "Lovely. How old are you?"
+           "Lovely. And your age, please?"
           ],
           [
            "bf_lily",
@@ -1360,7 +1360,7 @@
           [
            "bm_daniel",
            "Cook",
-           "Lovely. How old are you?"
+           "Lovely. And your age, please?"
           ],
           [
            "bf_lily",
@@ -1775,21 +1775,21 @@
       "v": [
        {
         "hint": {
-         "step": "Check two things: is your friend talking about the past or the future, and what will the weather be like?"
+         "step": "Check two things: is Grandma here yet, and which idea makes her room nicer?"
         },
-        "worked": "The trip is <b>tomorrow</b> and it will be <b>hot and sunny</b>, so the advice '<b>Don't forget to take a hat</b>' fits.",
+        "worked": "Grandma comes <b>tomorrow</b>, and you want her room to be <b>nice</b>, so the advice '<b>Put some flowers by her bed</b>' fits.",
         "type": "mcq",
-        "q": "\"We're going to the beach tomorrow. It's going to be really hot and sunny.\"",
+        "q": "\"My grandma is coming to stay with us tomorrow. I want to make her room nice.\"",
         "opts": [
-         "Have fun! Don't forget to take a hat.",
-         "Have fun! Don't forget your warm coat.",
-         "Did you have a good time at the beach?"
+         "Put some flowers by her bed. She'll love them!",
+         "Put your old toys all over her bed.",
+         "Did your grandma like her room?"
         ],
         "at": 1,
         "whys": [
          null,
-         "It's going to be hot and sunny, so you don't need a warm coat.",
-         "Your friend is going tomorrow, so you can't ask about it in the past."
+         "Old toys all over the bed don't make a room nice for Grandma.",
+         "Grandma is coming tomorrow, so you can't ask about it in the past."
         ],
         "letters": true
        }
