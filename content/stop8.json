@@ -1,0 +1,2508 @@
+{
+ "n": 8,
+ "title": "Who says it? and longer texts",
+ "blurb": {
+  "en": "Match each idea to the right child, then read longer articles for facts and feelings.",
+  "vi": "Nối mỗi ý với đúng bạn nhỏ, rồi đọc bài viết dài hơn để tìm thông tin và cảm xúc."
+ },
+ "words": {
+  "sets": [
+   {
+    "id": "A",
+    "title": {
+     "en": "Reading words",
+     "vi": "Từ về bài đọc"
+    },
+    "keys": [
+     "article",
+     "title",
+     "paragraph",
+     "quotation"
+    ]
+   },
+   {
+    "id": "B",
+    "title": {
+     "en": "Finding the answer",
+     "vi": "Tìm câu trả lời"
+    },
+    "keys": [
+     "same meaning",
+     "key word",
+     "detail",
+     "trap"
+    ]
+   },
+   {
+    "id": "C",
+    "title": {
+     "en": "Thinking words",
+     "vi": "Từ về suy nghĩ"
+    },
+    "keys": [
+     "feelings",
+     "opinion",
+     "reason",
+     "surprised",
+     "predict"
+    ]
+   }
+  ],
+  "items": {
+   "article": {
+    "emoji": "📰",
+    "vi": "bài báo, bài viết",
+    "def": "A piece of writing about real people or events, in a magazine or newspaper.",
+    "ex": "We read an *article* about a boy and his tree house."
+   },
+   "title": {
+    "emoji": "🏷️",
+    "vi": "tiêu đề",
+    "def": "The name of a text. It is at the top and tells you the topic.",
+    "ex": "The *title* of the story is 'A cleaner beach'."
+   },
+   "paragraph": {
+    "emoji": "📄",
+    "vi": "đoạn văn",
+    "def": "A short part of a text. It starts on a new line and has one main idea.",
+    "ex": "The answer to question 3 is in the third *paragraph*."
+   },
+   "quotation": {
+    "emoji": "💬",
+    "vi": "lời trích dẫn",
+    "def": "The exact words a person said. They are inside speech marks.",
+    "ex": "\"I was really proud,\" said Lan. This *quotation* shows her feelings."
+   },
+   "same meaning": {
+    "emoji": "🔁",
+    "vi": "cùng nghĩa",
+    "def": "Two sentences that use different words but say the same idea.",
+    "ex": "'I hardly ever see stars' and 'I almost never see stars' have the *same meaning*."
+   },
+   "key word": {
+    "emoji": "🔑",
+    "vi": "từ khóa",
+    "def": "An important word in the question. It helps you find the answer.",
+    "ex": "In 'Who is careful?', the *key word* is 'careful'."
+   },
+   "detail": {
+    "emoji": "🔍",
+    "vi": "chi tiết",
+    "def": "A small piece of information, like a time, a place or a number.",
+    "ex": "Check every *detail*: they went to the market on Friday evening."
+   },
+   "trap": {
+    "emoji": "🪤",
+    "vi": "cái bẫy",
+    "def": "A wrong answer that looks right because it uses words from the text.",
+    "ex": "Daisy says 'rain', but she doesn't like it. That option is a *trap*."
+   },
+   "feelings": {
+    "emoji": "😊",
+    "vi": "cảm xúc",
+    "def": "How someone feels: for example happy, nervous, proud or disappointed.",
+    "ex": "Read what Jamal did to find his *feelings*."
+   },
+   "opinion": {
+    "emoji": "💭",
+    "vi": "ý kiến",
+    "def": "What a person thinks about something. Look for 'I think' or 'I love'.",
+    "ex": "Adam's *opinion* is that teamwork is better than winning."
+   },
+   "reason": {
+    "emoji": "🤔",
+    "vi": "lý do",
+    "def": "Why something happens. It often comes after 'because' or before 'so'.",
+    "ex": "The *reason* is that the floor is small."
+   },
+   "surprised": {
+    "emoji": "😮",
+    "vi": "ngạc nhiên",
+    "def": "How you feel when something happens that you didn't expect.",
+    "ex": "Jamal was *surprised* that the moon changes so much."
+   },
+   "predict": {
+    "emoji": "🔮",
+    "vi": "đoán trước",
+    "def": "To say what will probably happen next, using clues in the text.",
+    "ex": "Can you *predict* what the class will do next month?"
+   }
+  }
+ },
+ "see": {
+  "scenes": [
+   {
+    "id": "s1",
+    "title": {
+     "en": "Same word, different meaning",
+     "vi": "Cùng từ, khác nghĩa"
+    },
+    "kind": "text",
+    "head": "Part 5: two children talk about cold weather",
+    "html": "<b>Poppy</b><br>My grandma's village is *freezing* in winter. *I love* wearing my wool hat and gloves there!<br><br><b>Adam</b><br>It was *cold* at football yesterday. My hands hurt, and *I wanted to go home*.",
+    "audio": null,
+    "steps": [
+     {
+      "en": "The question is: *Who enjoys cold weather?* The key word is *enjoys*.",
+      "vi": "Câu hỏi là: *Ai thích thời tiết lạnh?* Từ khóa là *enjoys* (thích)."
+     },
+     {
+      "en": "Adam says *cold*. But he *wanted to go home*. He did not enjoy it.",
+      "vi": "Adam nói *cold* (lạnh). Nhưng bạn ấy *muốn về nhà*. Bạn ấy không thích."
+     },
+     {
+      "en": "Poppy says *freezing*, not cold. But she says *I love* it. So the answer is Poppy.",
+      "vi": "Poppy nói *freezing* (rất lạnh), không nói cold. Nhưng bạn ấy nói *I love* (mình rất thích). Vậy đáp án là Poppy."
+     },
+     {
+      "en": "Look for the same MEANING, not the same word.",
+      "vi": "Hãy tìm cùng Ý NGHĨA, không phải cùng một từ."
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "title": {
+     "en": "Read an article in order",
+     "vi": "Đọc bài viết theo thứ tự"
+    },
+    "kind": "text",
+    "head": "Part 6: the start of an article",
+    "html": "<b>A kite in the sky</b><br><br>Son loves kites. Last week, he made a kite with his grandpa. *First*, they cut some paper. *Then* they glued it to thin sticks.<br><br>On Sunday, Son took the kite to a field near the river. *At first*, it didn't fly, and Son felt *sad*. *Then* the wind came, and the kite went up high. *\"It touched the clouds!\"* said Son.",
+    "audio": null,
+    "steps": [
+     {
+      "en": "The *title* tells you the topic: a kite.",
+      "vi": "*Tiêu đề* cho bạn biết chủ đề: một con diều."
+     },
+     {
+      "en": "*First*, *then* and *at first* show the order. The questions follow the same order.",
+      "vi": "*First*, *then* và *at first* cho biết thứ tự. Các câu hỏi cũng theo thứ tự đó."
+     },
+     {
+      "en": "The words in speech marks are a *quotation*. They show how Son felt at the end: very happy.",
+      "vi": "Những từ trong ngoặc kép là *lời trích dẫn*. Chúng cho thấy cảm xúc của Son lúc cuối: rất vui."
+     }
+    ]
+   },
+   {
+    "id": "s3",
+    "title": {
+     "en": "What will happen next?",
+     "vi": "Điều gì sẽ xảy ra tiếp theo?"
+    },
+    "kind": "text",
+    "head": "Part 6: the end of the article",
+    "html": "Now Son *wants to make* a bigger kite. Grandpa *is going to* buy red paper *next weekend*. Son *is already drawing* a dragon for it.",
+    "audio": null,
+    "steps": [
+     {
+      "en": "*Wants to*, *is going to* and *next weekend* talk about the future.",
+      "vi": "*Wants to*, *is going to* và *next weekend* nói về tương lai."
+     },
+     {
+      "en": "A question like *What will Son probably do next?* needs these clues.",
+      "vi": "Câu hỏi như *Son có thể sẽ làm gì tiếp theo?* cần những gợi ý này."
+     },
+     {
+      "en": "Here the answer is: make a bigger kite. Flying the first kite happened before, so it is not 'next'.",
+      "vi": "Ở đây đáp án là: làm một con diều to hơn. Thả con diều đầu tiên đã xảy ra rồi, nên đó không phải là 'tiếp theo'."
+     }
+    ]
+   }
+  ],
+  "challenge": {
+   "end": {
+    "en": "Well done! You can match meanings, find feelings and predict what happens next.",
+    "vi": "Giỏi lắm! Bạn biết tìm ý giống nhau, tìm cảm xúc và đoán điều xảy ra tiếp theo."
+   },
+   "result": "You found the same meaning, the right person, the feelings and what happens next.",
+   "rounds": [
+    {
+     "lo": [
+      "4Rd.03",
+      "4Rm.01"
+     ],
+     "v": [
+      {
+       "type": "mcq",
+       "q": "Lan says: 'I help Dad in the kitchen every evening.' Which sentence means the same?",
+       "opts": [
+        "Lan cooks with her dad every day.",
+        "Lan's dad cooks once a week.",
+        "Lan cooks alone every evening."
+       ],
+       "at": 0,
+       "whys": [
+        null,
+        "She says 'every evening', so it is every day, not once a week.",
+        "She says 'I help Dad', so she doesn't cook on her own."
+       ],
+       "hint": "Find the words for WHO and HOW OFTEN.",
+       "worked": "'I *help Dad* in the kitchen *every evening*' means she cooks with him every day.",
+       "stim": null
+      },
+      {
+       "type": "mcq",
+       "q": "Quan says: 'I've already got a book about stars.' Which sentence means the same?",
+       "opts": [
+        "Quan has a book about stars now.",
+        "Quan wants to buy a star book.",
+        "Quan is writing a book about the stars."
+       ],
+       "at": 2,
+       "whys": [
+        null,
+        "'Already got' means he has it now, so he doesn't need to buy it.",
+        "He has got a book. He doesn't say he is writing one."
+       ],
+       "hint": "What does 'already' tell you: now or later?",
+       "worked": "'I've *already got* a book' means he has it now.",
+       "stim": null
+      }
+     ]
+    },
+    {
+     "lo": [
+      "4Rm.01",
+      "4Rd.03"
+     ],
+     "v": [
+      {
+       "type": "mcq",
+       "q": "Kira: 'I swim in the sea.' Tia: 'I dance at the centre.' Jamal: 'I watch the rain from my window.' Who goes into the water?",
+       "opts": [
+        "Kira",
+        "Tia",
+        "Jamal"
+       ],
+       "at": 1,
+       "whys": [
+        null,
+        "Tia dances at the centre, not in the water.",
+        "Jamal watches the rain from inside. He doesn't go into the water."
+       ],
+       "hint": "Rain is water too. Who is IN the water?",
+       "worked": "Kira says '*I swim in the sea*'.",
+       "stim": null
+      },
+      {
+       "type": "mcq",
+       "q": "Ollie: 'My dog runs in the rain.' Daisy: 'My rabbit hides when it thunders.' Quan: 'My fish don't hear the storm.' Who has a pet that gets scared?",
+       "opts": [
+        "Daisy",
+        "Ollie",
+        "Quan"
+       ],
+       "at": 1,
+       "whys": [
+        null,
+        "Ollie's dog runs in the rain, so it isn't scared.",
+        "Quan's fish don't hear the storm, so they aren't scared."
+       ],
+       "hint": "What does an animal do when it is scared?",
+       "worked": "Daisy's rabbit '*hides* when it thunders'. Animals hide when they are scared.",
+       "stim": null
+      }
+     ]
+    },
+    {
+     "lo": [
+      "4Rm.01",
+      "4Rm.02"
+     ],
+     "v": [
+      {
+       "type": "mcq",
+       "q": "Son: 'At first I didn't want to go to the club, but now I love it.' How does Son feel now?",
+       "opts": [
+        "He really enjoys going to the club.",
+        "He doesn't want to go.",
+        "He is bored at the club."
+       ],
+       "at": 2,
+       "whys": [
+        null,
+        "That was 'at first'. Now his feelings are different.",
+        "He says 'I love it', so he isn't bored."
+       ],
+       "hint": "Find the word 'now' and read after it.",
+       "worked": "'*Now I love it*' means he enjoys the club.",
+       "stim": null
+      },
+      {
+       "type": "mcq",
+       "q": "Poppy: 'I painted all day, and Grandma put my picture on her wall!' How does Poppy probably feel?",
+       "opts": [
+        "proud",
+        "bored",
+        "angry"
+       ],
+       "at": 0,
+       "whys": [
+        null,
+        "She painted all day because she enjoys it, so she isn't bored.",
+        "Nothing bad happened, so she isn't angry."
+       ],
+       "hint": "What does the '!' tell you? Is it good news or bad news?",
+       "worked": "Grandma put her picture '*on her wall*'. That is good news, so Poppy feels proud.",
+       "stim": null
+      }
+     ]
+    },
+    {
+     "lo": [
+      "4Rm.01",
+      "4Rd.03"
+     ],
+     "v": [
+      {
+       "type": "mcq",
+       "q": "Adam: 'We lost today. Next week we're going to practise passing every day.' What will Adam's team do next?",
+       "opts": [
+        "practise passing",
+        "play another big match",
+        "stop playing football"
+       ],
+       "at": 2,
+       "whys": [
+        null,
+        "Adam doesn't talk about another match.",
+        "They are going to practise, so they aren't stopping."
+       ],
+       "hint": "Find 'going to'. It shows the future.",
+       "worked": "'Next week we're *going to practise passing*.'",
+       "stim": null
+      },
+      {
+       "type": "mcq",
+       "q": "Tia: 'My brother's photos are great. I'd like to try it too.' What will Tia probably do?",
+       "opts": [
+        "take some photos",
+        "draw her brother",
+        "give her brother a camera"
+       ],
+       "at": 0,
+       "whys": [
+        null,
+        "Tia talks about photos, not drawing.",
+        "She wants to try taking photos herself."
+       ],
+       "hint": "What does 'it' mean in 'try it too'?",
+       "worked": "'I'd like to *try it* too': 'it' means taking photos.",
+       "stim": null
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "practise": [
+  {
+   "id": "s8r",
+   "title": "Learn it",
+   "blurb": {
+    "en": "Find the same meaning, choose the right child and read a short article.",
+    "vi": "Tìm câu cùng nghĩa, chọn đúng bạn nhỏ và đọc một bài viết ngắn."
+   },
+   "levels": [
+    {
+     "title": {
+      "en": "Same idea, different words",
+      "vi": "Cùng ý, khác từ"
+     },
+     "rounds": [
+      {
+       "lo": [
+        "4Rd.03",
+        "4Rm.01"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Son says: 'I hardly ever stay inside when it's sunny.' What does he mean?",
+         "opts": [
+          "He is almost always outside on sunny days.",
+          "He stays inside on most sunny days.",
+          "He never goes outside when it's sunny."
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "'Hardly ever stay inside' means he almost never stays in.",
+          "This is the opposite. He goes outside a lot."
+         ],
+         "hint": "'Hardly ever' means almost never. Read the sentence again with 'almost never'.",
+         "worked": "'*Hardly ever* stay inside' = he almost never stays in, so he is outside.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "Tia says: 'I've never been on a plane.' What does she mean?",
+         "opts": [
+          "She has not flown in a plane before.",
+          "She went on a plane once last year.",
+          "She goes on a plane every holiday."
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "'Never' means not one time.",
+          "'Never' means not one time, so not every holiday."
+         ],
+         "hint": "How many times is 'never'?",
+         "worked": "'I've *never* been on a plane' = she has not flown before.",
+         "stim": null
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Rd.03",
+        "4Rm.01"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Kira says: 'I'm really keen on surfing.' What does she mean?",
+         "opts": [
+          "She likes surfing a lot.",
+          "She is afraid of surfing.",
+          "She is not good at swimming."
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'Keen on' is a happy word. It doesn't mean afraid.",
+          "She doesn't talk about how well she swims."
+         ],
+         "hint": "Is 'keen on' a good feeling or a bad feeling?",
+         "worked": "'*Keen on*' means you like something a lot.",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "Jamal says: 'Storms don't scare me now.' What does he mean?",
+         "opts": [
+          "He isn't afraid of storms any more.",
+          "He was never afraid of storms before.",
+          "He is very scared of storms today."
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "'Now' tells you he WAS scared before.",
+          "This is the opposite: storms don't scare him."
+         ],
+         "hint": "What does the word 'now' tell you about before?",
+         "worked": "'Storms *don't scare me now*' = he isn't afraid any more, but he was before.",
+         "stim": null
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Rd.03",
+        "4Rm.01"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Daisy says: 'Working in the garden is more fun than watching TV.' What does she mean?",
+         "opts": [
+          "She enjoys gardening more than TV.",
+          "She enjoys TV more than gardening.",
+          "She doesn't like gardening or TV."
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "This is the other way round. The garden is 'more fun'.",
+          "She says gardening is fun."
+         ],
+         "hint": "Which thing comes before 'more fun than'?",
+         "worked": "'Working in the garden is *more fun than* watching TV.'",
+         "stim": null
+        },
+        {
+         "type": "mcq",
+         "q": "Ollie says: 'I wish the skate park was nearer my home.' What does he mean?",
+         "opts": [
+          "He'd like the park to be closer.",
+          "The park is very near his home.",
+          "He doesn't like the skate park."
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'I wish ... was nearer' tells you it is far now.",
+          "He wants to go there more easily, so he likes it."
+         ],
+         "hint": "'I wish' shows something a person wants to change.",
+         "worked": "'*I wish* the skate park *was nearer*' = he would like it to be closer.",
+         "stim": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Who says it?",
+      "vi": "Ai nói điều đó?"
+     },
+     "rounds": [
+      {
+       "lo": [
+        "4Rm.01",
+        "4Rd.01"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Who is learning to do something better?",
+         "opts": [
+          "Tia",
+          "Kira",
+          "Son"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "Kira surfs, but she doesn't say she is getting better.",
+          "Son's little sister is learning. Son is the teacher!"
+         ],
+         "hint": "Look for words like 'better' or 'learn'. Who is the learner?",
+         "worked": "Tia says '*I'm getting better* every week'.",
+         "stim": {
+          "id": "s8-r-after",
+          "kind": "text",
+          "head": "Three children: after school",
+          "html": "<b>After school</b><br><br><b>Kira</b><br>After school I go to the beach and surf for an hour. Then I'm really hungry, so Mum gives me a big snack.<br><br><b>Tia</b><br>I go to dance class on Tuesdays and Thursdays. My teacher is strict, but I'm getting better every week.<br><br><b>Son</b><br>I play football in the street with my friends. My little sister wants to play too, so I teach her. We stop when it's time for dinner.",
+          "bank": null
+         }
+        },
+        {
+         "type": "mcq",
+         "q": "Who would like another pet?",
+         "opts": [
+          "Quan",
+          "Ollie",
+          "Daisy"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Ollie talks about his dog, but he doesn't want another pet.",
+          "Daisy's dad isn't happy, but Daisy doesn't ask for a new pet."
+         ],
+         "hint": "Look for 'I'd like' or 'I want'.",
+         "worked": "Quan has fish and says '*I'd like a cat too*'.",
+         "stim": {
+          "id": "s8-r-pets",
+          "kind": "text",
+          "head": "Three children: our pets",
+          "html": "<b>Our pets</b><br><br><b>Ollie</b><br>I've got a dog. He's big and very friendly. I walk him every morning before school, even when it's raining.<br><br><b>Daisy</b><br>My rabbit lives in the garden. She eats the carrots from our vegetable garden. Dad isn't happy about that!<br><br><b>Quan</b><br>I've got two goldfish. They're quiet and easy to look after. I'd like a cat too, but Mum says no.",
+          "bank": null
+         }
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Rm.01",
+        "4Rd.01"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Who helps a younger child?",
+         "opts": [
+          "Son",
+          "Kira",
+          "Tia"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "Mum helps Kira. Kira doesn't help a younger child.",
+          "Tia's teacher helps her. Tia doesn't help anyone."
+         ],
+         "hint": "First find a younger child in the texts. Then find who helps.",
+         "worked": "Son's '*little sister* wants to play too, so *I teach her*'.",
+         "stim": {
+          "id": "s8-r-after",
+          "kind": "text",
+          "head": "Three children: after school",
+          "html": "<b>After school</b><br><br><b>Kira</b><br>After school I go to the beach and surf for an hour. Then I'm really hungry, so Mum gives me a big snack.<br><br><b>Tia</b><br>I go to dance class on Tuesdays and Thursdays. My teacher is strict, but I'm getting better every week.<br><br><b>Son</b><br>I play football in the street with my friends. My little sister wants to play too, so I teach her. We stop when it's time for dinner.",
+          "bank": null
+         }
+        },
+        {
+         "type": "mcq",
+         "q": "Whose pet makes a problem for someone?",
+         "opts": [
+          "Daisy",
+          "Ollie",
+          "Quan"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "Ollie walks his dog in the rain, but the dog doesn't make a problem.",
+          "Mum says no to a cat. The fish don't make a problem."
+         ],
+         "hint": "Who is not happy about a pet? Why?",
+         "worked": "Daisy's rabbit '*eats the carrots*' and '*Dad isn't happy* about that'.",
+         "stim": {
+          "id": "s8-r-pets",
+          "kind": "text",
+          "head": "Three children: our pets",
+          "html": "<b>Our pets</b><br><br><b>Ollie</b><br>I've got a dog. He's big and very friendly. I walk him every morning before school, even when it's raining.<br><br><b>Daisy</b><br>My rabbit lives in the garden. She eats the carrots from our vegetable garden. Dad isn't happy about that!<br><br><b>Quan</b><br>I've got two goldfish. They're quiet and easy to look after. I'd like a cat too, but Mum says no.",
+          "bank": null
+         }
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Rm.01",
+        "4Rd.01"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Who is hungry after their activity?",
+         "opts": [
+          "Kira",
+          "Tia",
+          "Son"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Tia talks about her strict teacher, not about food.",
+          "Son stops for dinner because of the time, not because he is hungry."
+         ],
+         "hint": "Look for food words. Then check WHY the food comes.",
+         "worked": "Kira says '*I'm really hungry*, so Mum gives me a big snack'.",
+         "stim": {
+          "id": "s8-r-after",
+          "kind": "text",
+          "head": "Three children: after school",
+          "html": "<b>After school</b><br><br><b>Kira</b><br>After school I go to the beach and surf for an hour. Then I'm really hungry, so Mum gives me a big snack.<br><br><b>Tia</b><br>I go to dance class on Tuesdays and Thursdays. My teacher is strict, but I'm getting better every week.<br><br><b>Son</b><br>I play football in the street with my friends. My little sister wants to play too, so I teach her. We stop when it's time for dinner.",
+          "bank": null
+         }
+        },
+        {
+         "type": "mcq",
+         "q": "Who does a job for their pet every day?",
+         "opts": [
+          "Ollie",
+          "Daisy",
+          "Quan"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "Daisy's rabbit eats from the garden by itself.",
+          "Quan says his fish are easy to look after, but not what he does each day."
+         ],
+         "hint": "Find a time word like 'every morning'.",
+         "worked": "Ollie says '*I walk him every morning* before school'.",
+         "stim": {
+          "id": "s8-r-pets",
+          "kind": "text",
+          "head": "Three children: our pets",
+          "html": "<b>Our pets</b><br><br><b>Ollie</b><br>I've got a dog. He's big and very friendly. I walk him every morning before school, even when it's raining.<br><br><b>Daisy</b><br>My rabbit lives in the garden. She eats the carrots from our vegetable garden. Dad isn't happy about that!<br><br><b>Quan</b><br>I've got two goldfish. They're quiet and easy to look after. I'd like a cat too, but Mum says no.",
+          "bank": null
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Read a short article",
+      "vi": "Đọc một bài viết ngắn"
+     },
+     "rounds": [
+      {
+       "lo": [
+        "4Rm.01",
+        "4Rm.02"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Why did Tia feel sick before the show?",
+         "opts": [
+          "She was very nervous about the show.",
+          "She was ill that week.",
+          "The music was too loud."
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "The article doesn't say she was ill.",
+          "The music helped her. She 'forgot about all the people'."
+         ],
+         "hint": "Find 'felt sick' and read to the end of the sentence.",
+         "worked": "'Tia felt sick *because she was so nervous*.'",
+         "stim": {
+          "id": "s8-r-show",
+          "kind": "text",
+          "head": "A short article",
+          "html": "<b>Tia's first dance show</b><br><br>Tia has gone to dance class for a year. Last Friday, her class danced in a show at the community centre.<br><br>Before the show, Tia felt sick because she was so nervous. But when the music started, she forgot about all the people. Everybody clapped at the end.<br><br>\"I want to do it again!\" said Tia. Her teacher is already planning another show for the summer.",
+          "bank": null
+         }
+        },
+        {
+         "type": "mcq",
+         "q": "Why was Kira angry?",
+         "opts": [
+          "Plastic can hurt sea animals.",
+          "Her friends didn't want to surf.",
+          "The storm broke her surfboard."
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Her friends helped her. They didn't say no.",
+          "The article doesn't talk about her surfboard."
+         ],
+         "hint": "Find 'angry'. The reason comes after 'because'.",
+         "worked": "'She was angry, *because plastic is dangerous for sea animals*.'",
+         "stim": {
+          "id": "s8-r-beach",
+          "kind": "text",
+          "head": "A short article",
+          "html": "<b>A cleaner beach</b><br><br>Kira lives next to the sea. Last month, after a big storm, she saw lots of plastic bottles on the beach. She was angry, because plastic is dangerous for sea animals.<br><br>So she asked her surfing friends to help. On Sunday, twelve children collected twenty bags of rubbish.<br><br>\"The beach looks beautiful again,\" said Kira. Now the children want to clean the beach every month.",
+          "bank": null
+         }
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Rm.01",
+        "4Rm.02"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "How did Tia feel after the show?",
+         "opts": [
+          "happy and excited",
+          "sick and nervous",
+          "tired and very bored"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "That was BEFORE the show.",
+          "She says 'I want to do it again!', so she isn't bored."
+         ],
+         "hint": "Read Tia's words in speech marks at the end.",
+         "worked": "'*I want to do it again!*' shows she was happy and excited.",
+         "stim": {
+          "id": "s8-r-show",
+          "kind": "text",
+          "head": "A short article",
+          "html": "<b>Tia's first dance show</b><br><br>Tia has gone to dance class for a year. Last Friday, her class danced in a show at the community centre.<br><br>Before the show, Tia felt sick because she was so nervous. But when the music started, she forgot about all the people. Everybody clapped at the end.<br><br>\"I want to do it again!\" said Tia. Her teacher is already planning another show for the summer.",
+          "bank": null
+         }
+        },
+        {
+         "type": "mcq",
+         "q": "How did Kira feel at the end?",
+         "opts": [
+          "pleased",
+          "angry",
+          "scared"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "She was angry at the start, when she saw the bottles.",
+          "Nothing in the article shows she was scared."
+         ],
+         "hint": "Read Kira's words in speech marks.",
+         "worked": "'*The beach looks beautiful again*' shows Kira was pleased.",
+         "stim": {
+          "id": "s8-r-beach",
+          "kind": "text",
+          "head": "A short article",
+          "html": "<b>A cleaner beach</b><br><br>Kira lives next to the sea. Last month, after a big storm, she saw lots of plastic bottles on the beach. She was angry, because plastic is dangerous for sea animals.<br><br>So she asked her surfing friends to help. On Sunday, twelve children collected twenty bags of rubbish.<br><br>\"The beach looks beautiful again,\" said Kira. Now the children want to clean the beach every month.",
+          "bank": null
+         }
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Rm.01",
+        "4Rm.02"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "What will probably happen next?",
+         "opts": [
+          "Tia will dance in a summer show.",
+          "Tia will stop going to dance class.",
+          "Tia will teach the dance class."
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Tia wants to 'do it again', so she won't stop.",
+          "Her teacher is planning the show. Tia doesn't teach."
+         ],
+         "hint": "Look at the last sentence for a future word.",
+         "worked": "'Her teacher is *already planning another show for the summer*.'",
+         "stim": {
+          "id": "s8-r-show",
+          "kind": "text",
+          "head": "A short article",
+          "html": "<b>Tia's first dance show</b><br><br>Tia has gone to dance class for a year. Last Friday, her class danced in a show at the community centre.<br><br>Before the show, Tia felt sick because she was so nervous. But when the music started, she forgot about all the people. Everybody clapped at the end.<br><br>\"I want to do it again!\" said Tia. Her teacher is already planning another show for the summer.",
+          "bank": null
+         }
+        },
+        {
+         "type": "mcq",
+         "q": "What will the children probably do next?",
+         "opts": [
+          "clean the beach every month",
+          "surf in the next big storm",
+          "sell the plastic bottles"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "Storms make the beach dirty. The article doesn't say they surf in storms.",
+          "They put the rubbish in bags. They don't sell it."
+         ],
+         "hint": "Find 'Now the children want to ...'.",
+         "worked": "'Now the children *want to clean the beach every month*.'",
+         "stim": {
+          "id": "s8-r-beach",
+          "kind": "text",
+          "head": "A short article",
+          "html": "<b>A cleaner beach</b><br><br>Kira lives next to the sea. Last month, after a big storm, she saw lots of plastic bottles on the beach. She was angry, because plastic is dangerous for sea animals.<br><br>So she asked her surfing friends to help. On Sunday, twelve children collected twenty bags of rubbish.<br><br>\"The beach looks beautiful again,\" said Kira. Now the children want to clean the beach every month.",
+          "bank": null
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s8a",
+   "title": "Exam style",
+   "blurb": {
+    "en": "Read three children's texts, then a longer article, like Parts 5 and 6.",
+    "vi": "Đọc bài của ba bạn nhỏ, rồi đọc một bài viết dài hơn, giống Phần 5 và 6."
+   },
+   "levels": [
+    {
+     "title": {
+      "en": "Part 5: who is it?",
+      "vi": "Phần 5: đó là ai?"
+     },
+     "rounds": [
+      {
+       "lo": [
+        "4Rm.01",
+        "4Rd.03"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Who can do their sport close to home?",
+         "opts": [
+          "Kira",
+          "Adam",
+          "Ollie"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "Adam's club is 'thirty minutes from my flat by bus'.",
+          "The skate park is next to his GRANDMA's house, not his own home."
+         ],
+         "hint": "All three say where they go. Check WHOSE home it is near.",
+         "worked": "Kira says '*My family lives next to the sea*, so I can surf after school'.",
+         "stim": {
+          "id": "s8-p5-sport",
+          "kind": "text",
+          "head": "Part 5: three children",
+          "html": "<b>Our favourite sports</b><br><br><b>Adam</b><br>I play football for a club every Saturday. The club is at the sports centre in the city. It's thirty minutes from my flat by bus. Next season I'd like to try a new position: goalkeeper! Last month our team lost a big match, and I was very sad. But our coach said, 'You all helped each other.' Now I think playing well together is better than winning.<br><br><b>Kira</b><br>Surfing is my favourite sport. My family lives next to the sea, so I can surf after school. I tried swimming and tennis before, but surfing is much more exciting. I fell off my board a lot at first. Now I can stand up for a long time, and I'm not scared of big waves any more. I really want to win a surfing competition one day.<br><br><b>Ollie</b><br>I go skateboarding every Sunday. The skate park is next to my grandma's house, so we have lunch with her after. I usually skate alone, and I don't like competitions. I just want to have fun. I can do four tricks now, and I'm learning a new one. Next year I'd like to try rugby with my cousin. It looks really exciting!",
+          "bank": null
+         }
+        },
+        {
+         "type": "mcq",
+         "q": "Who would like the weather to be different where they live?",
+         "opts": [
+          "Poppy",
+          "Son",
+          "Daisy"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Son loves the rainy season. He doesn't want a change.",
+          "Daisy doesn't like the rain much, but she says 'I don't mind'."
+         ],
+         "hint": "Look for words that show a wish, like 'I wish' or 'I'd like'.",
+         "worked": "Poppy's city is hot and humid, and she says '*I wish it was cooler at home too*'.",
+         "stim": {
+          "id": "s8-p5-weather",
+          "kind": "text",
+          "head": "Part 5: three children",
+          "html": "<b>My favourite weather</b><br><br><b>Poppy</b><br>My favourite weather is cool and windy. My grandma lives in the mountains in the north. In December it's freezing there, and sometimes there's ice on the windows. I wear my thick wool hat, and Grandma makes hot soup for me. Then we paint pictures together. In my city it's always hot and humid. I wish it was cooler at home too.<br><br><b>Son</b><br>I love the rainy season! The sky goes dark, and then the rain is very heavy. I watch the lightning from my window. My little sister is scared of the thunder, so I sit with her and hold her hand. When the rain stops, I go outside with my friends. We jump in the big puddles. Mum isn't happy about my wet clothes!<br><br><b>Daisy</b><br>I like warm, sunny days best, because I can work in the garden with my dad. We grow beans and tomatoes. When it's very hot and dry, we have to water the plants every morning and every evening. I don't like the rainy season much, because it's too wet to go outside. But Dad says the rain is good for our garden, so I don't mind.",
+          "bank": null
+         }
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Rm.01",
+        "4Rd.03"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Who would like to play a new sport?",
+         "opts": [
+          "Ollie",
+          "Adam",
+          "Kira"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "Adam wants a new position, but it is still football.",
+          "Kira tried swimming and tennis before. Now she only talks about surfing."
+         ],
+         "hint": "Two children use the word 'new' or 'try'. Which one means a new SPORT?",
+         "worked": "Ollie says '*Next year I'd like to try rugby*'. Rugby is a new sport for him.",
+         "stim": {
+          "id": "s8-p5-sport",
+          "kind": "text",
+          "head": "Part 5: three children",
+          "html": "<b>Our favourite sports</b><br><br><b>Adam</b><br>I play football for a club every Saturday. The club is at the sports centre in the city. It's thirty minutes from my flat by bus. Next season I'd like to try a new position: goalkeeper! Last month our team lost a big match, and I was very sad. But our coach said, 'You all helped each other.' Now I think playing well together is better than winning.<br><br><b>Kira</b><br>Surfing is my favourite sport. My family lives next to the sea, so I can surf after school. I tried swimming and tennis before, but surfing is much more exciting. I fell off my board a lot at first. Now I can stand up for a long time, and I'm not scared of big waves any more. I really want to win a surfing competition one day.<br><br><b>Ollie</b><br>I go skateboarding every Sunday. The skate park is next to my grandma's house, so we have lunch with her after. I usually skate alone, and I don't like competitions. I just want to have fun. I can do four tricks now, and I'm learning a new one. Next year I'd like to try rugby with my cousin. It looks really exciting!",
+          "bank": null
+         }
+        },
+        {
+         "type": "mcq",
+         "q": "Who looks after someone when the weather is bad?",
+         "opts": [
+          "Son",
+          "Poppy",
+          "Daisy"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "Grandma looks after Poppy. Poppy doesn't look after anyone.",
+          "Daisy looks after plants, not a person, and on hot days."
+         ],
+         "hint": "'Someone' means a person. Who helps a person?",
+         "worked": "Son's sister is scared of the thunder, so '*I sit with her and hold her hand*'.",
+         "stim": {
+          "id": "s8-p5-weather",
+          "kind": "text",
+          "head": "Part 5: three children",
+          "html": "<b>My favourite weather</b><br><br><b>Poppy</b><br>My favourite weather is cool and windy. My grandma lives in the mountains in the north. In December it's freezing there, and sometimes there's ice on the windows. I wear my thick wool hat, and Grandma makes hot soup for me. Then we paint pictures together. In my city it's always hot and humid. I wish it was cooler at home too.<br><br><b>Son</b><br>I love the rainy season! The sky goes dark, and then the rain is very heavy. I watch the lightning from my window. My little sister is scared of the thunder, so I sit with her and hold her hand. When the rain stops, I go outside with my friends. We jump in the big puddles. Mum isn't happy about my wet clothes!<br><br><b>Daisy</b><br>I like warm, sunny days best, because I can work in the garden with my dad. We grow beans and tomatoes. When it's very hot and dry, we have to water the plants every morning and every evening. I don't like the rainy season much, because it's too wet to go outside. But Dad says the rain is good for our garden, so I don't mind.",
+          "bank": null
+         }
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Rm.01",
+        "4Rd.03"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Who thinks working as a team is more important than winning?",
+         "opts": [
+          "Adam",
+          "Kira",
+          "Ollie"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "Kira 'really wants to win', so winning is important to her.",
+          "Ollie doesn't like competitions, but he skates alone, not in a team."
+         ],
+         "hint": "Two children talk about winning or competitions. Who talks about a team?",
+         "worked": "Adam says '*playing well together is better than winning*'.",
+         "stim": {
+          "id": "s8-p5-sport",
+          "kind": "text",
+          "head": "Part 5: three children",
+          "html": "<b>Our favourite sports</b><br><br><b>Adam</b><br>I play football for a club every Saturday. The club is at the sports centre in the city. It's thirty minutes from my flat by bus. Next season I'd like to try a new position: goalkeeper! Last month our team lost a big match, and I was very sad. But our coach said, 'You all helped each other.' Now I think playing well together is better than winning.<br><br><b>Kira</b><br>Surfing is my favourite sport. My family lives next to the sea, so I can surf after school. I tried swimming and tennis before, but surfing is much more exciting. I fell off my board a lot at first. Now I can stand up for a long time, and I'm not scared of big waves any more. I really want to win a surfing competition one day.<br><br><b>Ollie</b><br>I go skateboarding every Sunday. The skate park is next to my grandma's house, so we have lunch with her after. I usually skate alone, and I don't like competitions. I just want to have fun. I can do four tricks now, and I'm learning a new one. Next year I'd like to try rugby with my cousin. It looks really exciting!",
+          "bank": null
+         }
+        },
+        {
+         "type": "mcq",
+         "q": "Who has more work to do when it is hot?",
+         "opts": [
+          "Daisy",
+          "Poppy",
+          "Son"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "Poppy says her city is hot, but she doesn't talk about work.",
+          "Son talks about the rainy season, not about hot days."
+         ],
+         "hint": "Find the hot words. Then check what that person has to do.",
+         "worked": "Daisy says when it's '*very hot and dry, we have to water the plants* every morning and every evening'.",
+         "stim": {
+          "id": "s8-p5-weather",
+          "kind": "text",
+          "head": "Part 5: three children",
+          "html": "<b>My favourite weather</b><br><br><b>Poppy</b><br>My favourite weather is cool and windy. My grandma lives in the mountains in the north. In December it's freezing there, and sometimes there's ice on the windows. I wear my thick wool hat, and Grandma makes hot soup for me. Then we paint pictures together. In my city it's always hot and humid. I wish it was cooler at home too.<br><br><b>Son</b><br>I love the rainy season! The sky goes dark, and then the rain is very heavy. I watch the lightning from my window. My little sister is scared of the thunder, so I sit with her and hold her hand. When the rain stops, I go outside with my friends. We jump in the big puddles. Mum isn't happy about my wet clothes!<br><br><b>Daisy</b><br>I like warm, sunny days best, because I can work in the garden with my dad. We grow beans and tomatoes. When it's very hot and dry, we have to water the plants every morning and every evening. I don't like the rainy season much, because it's too wet to go outside. But Dad says the rain is good for our garden, so I don't mind.",
+          "bank": null
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Part 6: facts and reasons",
+      "vi": "Phần 6: thông tin và lý do"
+     },
+     "rounds": [
+      {
+       "lo": [
+        "4Rd.01",
+        "4Rm.02"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Why did Son want a book swap?",
+         "opts": [
+          "His shelf was full of old books.",
+          "He wanted to sell all his books.",
+          "His teacher asked him to start one."
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "Each person brought one book and took one home. Nobody sold books.",
+          "It was Son's idea. He asked his teacher."
+         ],
+         "hint": "The reason is in the first paragraph.",
+         "worked": "'The shelf in his bedroom was *full of old books*. He had nowhere to put new ones.'",
+         "stim": {
+          "id": "s8-p6-books",
+          "kind": "text",
+          "head": "Part 6: an article",
+          "html": "<b>A book swap for the neighbourhood</b><br><br>Son is eight years old. He lives with his family in a busy neighbourhood in the city. He loves reading, but the shelf in his bedroom was full of old books. He had nowhere to put new ones.<br><br>One day, Son had an idea. He asked his class teacher, \"Can we have a book swap?\" She liked the idea very much. The class decided to have a book swap at the community centre on a Saturday.<br><br>First, the children made leaflets. They took them to the shops, the sports club and the surgery. Then they collected boxes of books from their families.<br><br>On Saturday morning, Son was worried. It was raining, and the hall was empty. But at ten o'clock, lots of people arrived with books under their arms. Children, parents and grandparents came. Each person brought one old book and took a different book home.<br><br>The children also sold drinks and biscuits. They raised money to buy new books for a small school in the countryside.<br><br>The book swap was a big success. Now the community centre wants to have a book swap every month, and Son is already making a new leaflet.",
+          "bank": null
+         }
+        },
+        {
+         "type": "mcq",
+         "q": "Why did the children look at the moon every evening?",
+         "opts": [
+          "It was their homework.",
+          "Their teacher wanted some photos.",
+          "There was a moon party at school."
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "They had to DRAW the moon, not take photos.",
+          "The article doesn't say anything about a party."
+         ],
+         "hint": "Read the first paragraph. What kind of task was it?",
+         "worked": "The class 'had an unusual *homework task*': look at the moon and draw it.",
+         "stim": {
+          "id": "s8-p6-moon",
+          "kind": "text",
+          "head": "Part 6: an article",
+          "html": "<b>A month of moon drawings</b><br><br>In October, the children in Class 3B had an unusual homework task. Every evening for a month, they had to look at the moon and draw it in a diary.<br><br>Jamal was excited. He loves the sky, but he had never looked at the moon carefully. Every night after dinner, he stood at the window with his pencil and his diary.<br><br>In the first week, the moon was very thin. Then it got bigger and rounder every night. \"I didn't know the moon changes so much!\" said Jamal.<br><br>But one week was difficult. There were a lot of clouds, so Jamal couldn't see the moon for three nights. He was disappointed. His mum found some pictures of the moon in a book, so he could finish his diary.<br><br>At the end of the month, the children brought their diaries to school. They put all the drawings on a long wall in the corridor. Now everyone can see how the moon changes. Children from other classes come to look at them too.<br><br>The teacher was very pleased with the class. Next month, the children are going to learn about the planets. Jamal can't wait.",
+          "bank": null
+         }
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Rd.01",
+        "4Rm.02"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Where did the children take the leaflets?",
+         "opts": [
+          "to shops, a club and a surgery",
+          "to every house in their street",
+          "to the community centre only"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "The article doesn't say they went to every house.",
+          "The book swap was at the community centre, but the leaflets went to other places."
+         ],
+         "hint": "Find the word 'leaflets' in paragraph 3.",
+         "worked": "'They took them to *the shops, the sports club and the surgery*.'",
+         "stim": {
+          "id": "s8-p6-books",
+          "kind": "text",
+          "head": "Part 6: an article",
+          "html": "<b>A book swap for the neighbourhood</b><br><br>Son is eight years old. He lives with his family in a busy neighbourhood in the city. He loves reading, but the shelf in his bedroom was full of old books. He had nowhere to put new ones.<br><br>One day, Son had an idea. He asked his class teacher, \"Can we have a book swap?\" She liked the idea very much. The class decided to have a book swap at the community centre on a Saturday.<br><br>First, the children made leaflets. They took them to the shops, the sports club and the surgery. Then they collected boxes of books from their families.<br><br>On Saturday morning, Son was worried. It was raining, and the hall was empty. But at ten o'clock, lots of people arrived with books under their arms. Children, parents and grandparents came. Each person brought one old book and took a different book home.<br><br>The children also sold drinks and biscuits. They raised money to buy new books for a small school in the countryside.<br><br>The book swap was a big success. Now the community centre wants to have a book swap every month, and Son is already making a new leaflet.",
+          "bank": null
+         }
+        },
+        {
+         "type": "mcq",
+         "q": "What did the moon look like in the first week?",
+         "opts": [
+          "It was a very thin shape.",
+          "It was big and round.",
+          "It was behind clouds."
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "It got bigger and rounder LATER.",
+          "The clouds came in a different week."
+         ],
+         "hint": "Find 'In the first week'.",
+         "worked": "'In the first week, *the moon was very thin*.'",
+         "stim": {
+          "id": "s8-p6-moon",
+          "kind": "text",
+          "head": "Part 6: an article",
+          "html": "<b>A month of moon drawings</b><br><br>In October, the children in Class 3B had an unusual homework task. Every evening for a month, they had to look at the moon and draw it in a diary.<br><br>Jamal was excited. He loves the sky, but he had never looked at the moon carefully. Every night after dinner, he stood at the window with his pencil and his diary.<br><br>In the first week, the moon was very thin. Then it got bigger and rounder every night. \"I didn't know the moon changes so much!\" said Jamal.<br><br>But one week was difficult. There were a lot of clouds, so Jamal couldn't see the moon for three nights. He was disappointed. His mum found some pictures of the moon in a book, so he could finish his diary.<br><br>At the end of the month, the children brought their diaries to school. They put all the drawings on a long wall in the corridor. Now everyone can see how the moon changes. Children from other classes come to look at them too.<br><br>The teacher was very pleased with the class. Next month, the children are going to learn about the planets. Jamal can't wait.",
+          "bank": null
+         }
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Rd.01",
+        "4Rm.02"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "Why did the children sell drinks and biscuits?",
+         "opts": [
+          "to buy books for another school",
+          "to buy new books for their class",
+          "to pay for the community centre"
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "The books were for a school in the countryside, not their own class.",
+          "The article doesn't say they paid for the hall."
+         ],
+         "hint": "Find 'sold drinks and biscuits'. Read the next sentence.",
+         "worked": "'They raised money to *buy new books for a small school in the countryside*.'",
+         "stim": {
+          "id": "s8-p6-books",
+          "kind": "text",
+          "head": "Part 6: an article",
+          "html": "<b>A book swap for the neighbourhood</b><br><br>Son is eight years old. He lives with his family in a busy neighbourhood in the city. He loves reading, but the shelf in his bedroom was full of old books. He had nowhere to put new ones.<br><br>One day, Son had an idea. He asked his class teacher, \"Can we have a book swap?\" She liked the idea very much. The class decided to have a book swap at the community centre on a Saturday.<br><br>First, the children made leaflets. They took them to the shops, the sports club and the surgery. Then they collected boxes of books from their families.<br><br>On Saturday morning, Son was worried. It was raining, and the hall was empty. But at ten o'clock, lots of people arrived with books under their arms. Children, parents and grandparents came. Each person brought one old book and took a different book home.<br><br>The children also sold drinks and biscuits. They raised money to buy new books for a small school in the countryside.<br><br>The book swap was a big success. Now the community centre wants to have a book swap every month, and Son is already making a new leaflet.",
+          "bank": null
+         }
+        },
+        {
+         "type": "mcq",
+         "q": "Why couldn't Jamal see the moon for three nights?",
+         "opts": [
+          "There were too many clouds.",
+          "He went to bed very early.",
+          "His window was much too small."
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "The article doesn't say he went to bed early.",
+          "He stood at the window every night. The problem was the sky."
+         ],
+         "hint": "Find 'three nights'. Look before it for the reason.",
+         "worked": "'There were *a lot of clouds*, so Jamal couldn't see the moon for three nights.'",
+         "stim": {
+          "id": "s8-p6-moon",
+          "kind": "text",
+          "head": "Part 6: an article",
+          "html": "<b>A month of moon drawings</b><br><br>In October, the children in Class 3B had an unusual homework task. Every evening for a month, they had to look at the moon and draw it in a diary.<br><br>Jamal was excited. He loves the sky, but he had never looked at the moon carefully. Every night after dinner, he stood at the window with his pencil and his diary.<br><br>In the first week, the moon was very thin. Then it got bigger and rounder every night. \"I didn't know the moon changes so much!\" said Jamal.<br><br>But one week was difficult. There were a lot of clouds, so Jamal couldn't see the moon for three nights. He was disappointed. His mum found some pictures of the moon in a book, so he could finish his diary.<br><br>At the end of the month, the children brought their diaries to school. They put all the drawings on a long wall in the corridor. Now everyone can see how the moon changes. Children from other classes come to look at them too.<br><br>The teacher was very pleased with the class. Next month, the children are going to learn about the planets. Jamal can't wait.",
+          "bank": null
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Part 6: feelings and what comes next",
+      "vi": "Phần 6: cảm xúc và điều xảy ra tiếp theo"
+     },
+     "rounds": [
+      {
+       "lo": [
+        "4Rm.01",
+        "4Rm.02"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "How did Son feel on Saturday morning, and why?",
+         "opts": [
+          "worried, because nobody was there",
+          "excited, because it was raining",
+          "happy, because the hall was full"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "The rain didn't make him excited. He was worried.",
+          "The hall was EMPTY in the morning. It was full later."
+         ],
+         "hint": "Find 'Saturday morning'. What feeling word is there?",
+         "worked": "'On Saturday morning, Son was *worried*. It was raining, and *the hall was empty*.'",
+         "stim": {
+          "id": "s8-p6-books",
+          "kind": "text",
+          "head": "Part 6: an article",
+          "html": "<b>A book swap for the neighbourhood</b><br><br>Son is eight years old. He lives with his family in a busy neighbourhood in the city. He loves reading, but the shelf in his bedroom was full of old books. He had nowhere to put new ones.<br><br>One day, Son had an idea. He asked his class teacher, \"Can we have a book swap?\" She liked the idea very much. The class decided to have a book swap at the community centre on a Saturday.<br><br>First, the children made leaflets. They took them to the shops, the sports club and the surgery. Then they collected boxes of books from their families.<br><br>On Saturday morning, Son was worried. It was raining, and the hall was empty. But at ten o'clock, lots of people arrived with books under their arms. Children, parents and grandparents came. Each person brought one old book and took a different book home.<br><br>The children also sold drinks and biscuits. They raised money to buy new books for a small school in the countryside.<br><br>The book swap was a big success. Now the community centre wants to have a book swap every month, and Son is already making a new leaflet.",
+          "bank": null
+         }
+        },
+        {
+         "type": "mcq",
+         "q": "What surprised Jamal?",
+         "opts": [
+          "how much the moon changed",
+          "how dark the sky was at night",
+          "how many planets there are"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "The article doesn't talk about how dark the sky was.",
+          "The class will learn about planets NEXT month."
+         ],
+         "hint": "Find Jamal's words in speech marks: 'I didn't know ...'.",
+         "worked": "\"I didn't know *the moon changes so much*!\" said Jamal.",
+         "stim": {
+          "id": "s8-p6-moon",
+          "kind": "text",
+          "head": "Part 6: an article",
+          "html": "<b>A month of moon drawings</b><br><br>In October, the children in Class 3B had an unusual homework task. Every evening for a month, they had to look at the moon and draw it in a diary.<br><br>Jamal was excited. He loves the sky, but he had never looked at the moon carefully. Every night after dinner, he stood at the window with his pencil and his diary.<br><br>In the first week, the moon was very thin. Then it got bigger and rounder every night. \"I didn't know the moon changes so much!\" said Jamal.<br><br>But one week was difficult. There were a lot of clouds, so Jamal couldn't see the moon for three nights. He was disappointed. His mum found some pictures of the moon in a book, so he could finish his diary.<br><br>At the end of the month, the children brought their diaries to school. They put all the drawings on a long wall in the corridor. Now everyone can see how the moon changes. Children from other classes come to look at them too.<br><br>The teacher was very pleased with the class. Next month, the children are going to learn about the planets. Jamal can't wait.",
+          "bank": null
+         }
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Rm.01",
+        "4Rm.02"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "What do we learn about the book swap?",
+         "opts": [
+          "Many people from the area came.",
+          "Only children could take part.",
+          "Few people came because of the rain."
+         ],
+         "at": 2,
+         "whys": [
+          null,
+          "'Children, parents and grandparents came.'",
+          "It was raining, but 'lots of people arrived'."
+         ],
+         "hint": "Read paragraph 4 again. Who came?",
+         "worked": "'*Lots of people arrived* ... Children, parents and grandparents came.'",
+         "stim": {
+          "id": "s8-p6-books",
+          "kind": "text",
+          "head": "Part 6: an article",
+          "html": "<b>A book swap for the neighbourhood</b><br><br>Son is eight years old. He lives with his family in a busy neighbourhood in the city. He loves reading, but the shelf in his bedroom was full of old books. He had nowhere to put new ones.<br><br>One day, Son had an idea. He asked his class teacher, \"Can we have a book swap?\" She liked the idea very much. The class decided to have a book swap at the community centre on a Saturday.<br><br>First, the children made leaflets. They took them to the shops, the sports club and the surgery. Then they collected boxes of books from their families.<br><br>On Saturday morning, Son was worried. It was raining, and the hall was empty. But at ten o'clock, lots of people arrived with books under their arms. Children, parents and grandparents came. Each person brought one old book and took a different book home.<br><br>The children also sold drinks and biscuits. They raised money to buy new books for a small school in the countryside.<br><br>The book swap was a big success. Now the community centre wants to have a book swap every month, and Son is already making a new leaflet.",
+          "bank": null
+         }
+        },
+        {
+         "type": "mcq",
+         "q": "How did Jamal feel when he couldn't see the moon?",
+         "opts": [
+          "disappointed",
+          "scared",
+          "pleased"
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "Clouds aren't dangerous. The article says how he felt, and it isn't 'scared'.",
+          "He wanted to see the moon, so he wasn't pleased."
+         ],
+         "hint": "Find 'three nights'. The next sentence has a feeling word.",
+         "worked": "'Jamal couldn't see the moon for three nights. *He was disappointed*.'",
+         "stim": {
+          "id": "s8-p6-moon",
+          "kind": "text",
+          "head": "Part 6: an article",
+          "html": "<b>A month of moon drawings</b><br><br>In October, the children in Class 3B had an unusual homework task. Every evening for a month, they had to look at the moon and draw it in a diary.<br><br>Jamal was excited. He loves the sky, but he had never looked at the moon carefully. Every night after dinner, he stood at the window with his pencil and his diary.<br><br>In the first week, the moon was very thin. Then it got bigger and rounder every night. \"I didn't know the moon changes so much!\" said Jamal.<br><br>But one week was difficult. There were a lot of clouds, so Jamal couldn't see the moon for three nights. He was disappointed. His mum found some pictures of the moon in a book, so he could finish his diary.<br><br>At the end of the month, the children brought their diaries to school. They put all the drawings on a long wall in the corridor. Now everyone can see how the moon changes. Children from other classes come to look at them too.<br><br>The teacher was very pleased with the class. Next month, the children are going to learn about the planets. Jamal can't wait.",
+          "bank": null
+         }
+        }
+       ]
+      },
+      {
+       "lo": [
+        "4Rm.01",
+        "4Rm.02"
+       ],
+       "v": [
+        {
+         "type": "mcq",
+         "q": "What will probably happen next?",
+         "opts": [
+          "There will be more book swaps.",
+          "Son will stop reading old books.",
+          "The class will sell more biscuits."
+         ],
+         "at": 1,
+         "whys": [
+          null,
+          "Son loves reading. The article doesn't say he will stop.",
+          "The article doesn't say they will sell biscuits again."
+         ],
+         "hint": "Read the last paragraph. Look for future words.",
+         "worked": "'The community centre *wants to have a book swap every month*.'",
+         "stim": {
+          "id": "s8-p6-books",
+          "kind": "text",
+          "head": "Part 6: an article",
+          "html": "<b>A book swap for the neighbourhood</b><br><br>Son is eight years old. He lives with his family in a busy neighbourhood in the city. He loves reading, but the shelf in his bedroom was full of old books. He had nowhere to put new ones.<br><br>One day, Son had an idea. He asked his class teacher, \"Can we have a book swap?\" She liked the idea very much. The class decided to have a book swap at the community centre on a Saturday.<br><br>First, the children made leaflets. They took them to the shops, the sports club and the surgery. Then they collected boxes of books from their families.<br><br>On Saturday morning, Son was worried. It was raining, and the hall was empty. But at ten o'clock, lots of people arrived with books under their arms. Children, parents and grandparents came. Each person brought one old book and took a different book home.<br><br>The children also sold drinks and biscuits. They raised money to buy new books for a small school in the countryside.<br><br>The book swap was a big success. Now the community centre wants to have a book swap every month, and Son is already making a new leaflet.",
+          "bank": null
+         }
+        },
+        {
+         "type": "mcq",
+         "q": "What will the class do next month?",
+         "opts": [
+          "learn about the planets",
+          "draw the moon again",
+          "put up more drawings"
+         ],
+         "at": 0,
+         "whys": [
+          null,
+          "The moon diary is finished. The article doesn't say they will do it again.",
+          "They have ALREADY put their drawings on the corridor wall."
+         ],
+         "hint": "Find 'Next month'.",
+         "worked": "'*Next month*, the children are going to *learn about the planets*.'",
+         "stim": {
+          "id": "s8-p6-moon",
+          "kind": "text",
+          "head": "Part 6: an article",
+          "html": "<b>A month of moon drawings</b><br><br>In October, the children in Class 3B had an unusual homework task. Every evening for a month, they had to look at the moon and draw it in a diary.<br><br>Jamal was excited. He loves the sky, but he had never looked at the moon carefully. Every night after dinner, he stood at the window with his pencil and his diary.<br><br>In the first week, the moon was very thin. Then it got bigger and rounder every night. \"I didn't know the moon changes so much!\" said Jamal.<br><br>But one week was difficult. There were a lot of clouds, so Jamal couldn't see the moon for three nights. He was disappointed. His mum found some pictures of the moon in a book, so he could finish his diary.<br><br>At the end of the month, the children brought their diaries to school. They put all the drawings on a long wall in the corridor. Now everyone can see how the moon changes. Children from other classes come to look at them too.<br><br>The teacher was very pleased with the class. Next month, the children are going to learn about the planets. Jamal can't wait.",
+          "bank": null
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": {
+  "items": [
+   {
+    "en": "Part 5: read the question first and find its *key word* (enjoys, careful, would like, helps).",
+    "vi": "Phần 5: đọc câu hỏi trước và tìm *từ khóa* (enjoys, careful, would like, helps).",
+    "example": [
+     "Who *would like* a change? Look for *I wish* or *I'd like*.",
+     "Who *helps* someone? Look for a person who needs help."
+    ]
+   },
+   {
+    "en": "The same word is not always the right answer. Check the *meaning*.",
+    "vi": "Cùng một từ không phải lúc nào cũng là đáp án đúng. Hãy kiểm tra *ý nghĩa*.",
+    "example": [
+     "Daisy says 'rain', but she *doesn't like* it.",
+     "Adam says 'new', but it is a new *position*, not a new sport."
+    ]
+   },
+   {
+    "en": "The question uses *different words* for the same idea.",
+    "vi": "Câu hỏi dùng *từ khác* để nói cùng một ý.",
+    "example": [
+     "'I can *hardly ever* see stars' = 'Stars are *difficult* to see.'",
+     "'My family lives *next to* the sea' = 'She lives *close to* the beach.'"
+    ]
+   },
+   {
+    "en": "Part 6: the questions follow the *order* of the article. Find the right paragraph.",
+    "vi": "Phần 6: các câu hỏi theo *thứ tự* của bài viết. Hãy tìm đúng đoạn văn.",
+    "example": [
+     "Question 1 is near the *start*.",
+     "The last question is near the *end*, or about the *whole* article."
+    ]
+   },
+   {
+    "en": "Find *feelings* in words like nervous, proud, disappointed, and in the *quotation*.",
+    "vi": "Tìm *cảm xúc* trong các từ như nervous, proud, disappointed, và trong *lời trích dẫn*.",
+    "example": [
+     "*At first* he was scared. *Now* he thinks storms are exciting.",
+     "\"*I was really proud*,\" said Lan."
+    ]
+   },
+   {
+    "en": "For *What will happen next?*, look for future words at the end: *going to*, *want to*, *next month*.",
+    "vi": "Với câu *Điều gì sẽ xảy ra tiếp theo?*, hãy tìm từ chỉ tương lai ở cuối bài: *going to*, *want to*, *next month*.",
+    "example": [
+     "*Next month*, the class *is going to* learn about planets.",
+     "They *want to* clean the beach every month."
+    ]
+   }
+  ],
+  "check": [
+   {
+    "sentence": "In Part 5, I read the {question|title|pictures} first and find the key word.",
+    "answer": "question"
+   },
+   {
+    "sentence": "Daisy says 'rain', but she doesn't like it. The same word is {not always|always|never} the answer.",
+    "answer": "not always"
+   },
+   {
+    "sentence": "'Hardly ever' means {almost never|very often|every day}.",
+    "answer": "almost never"
+   },
+   {
+    "sentence": "In Part 6, the answer to question 2 usually comes {after|before} the answer to question 1.",
+    "answer": "after"
+   },
+   {
+    "sentence": "\"I was really proud,\" said Lan. This is a {quotation|title|paragraph}.",
+    "answer": "quotation"
+   },
+   {
+    "sentence": "'Next month, we {are going to|went to|go} visit a farm.' This is about the future.",
+    "answer": "are going to"
+   }
+  ]
+ },
+ "test": {
+  "items": [
+   {
+    "dok": 1,
+    "lo": [
+     "4Rd.01"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "Where is the tree house?",
+      "opts": [
+       "in a mango tree in his grandparents' garden",
+       "in a tall tree next to the skate park",
+       "in a big tree near the hills"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "The article doesn't say the tree is next to the skate park.",
+       "Ollie can SEE the hills far away. The tree isn't near them."
+      ],
+      "hint": "The answer is in the first paragraph.",
+      "worked": "'It is *in a big mango tree in his grandparents' garden*.'",
+      "stim": {
+       "id": "s8-t-tree",
+       "kind": "text",
+       "head": "Part 6: an article",
+       "html": "<b>A home in a tree</b><br><br>Ollie is nine years old. Last summer, he built a tree house with his grandad. It is in a big mango tree in his grandparents' garden. Ollie loves climbing trees, so it was a perfect project for him.<br><br>They worked on it for three weekends. First, they made a strong floor with wood. Then they built four walls and a roof. The roof is green, so it is hard to see the tree house from the street.<br><br>The tree house is small, but it has a little window and a round door. There is a rope ladder to climb up. Grandad says only two people can go in at the same time, because the floor is not very big.<br><br>Ollie's favourite thing is the window. He can see birds in the tree, and on clear days he can see the hills far away.<br><br>Grandma made some cushions from old wool and cloth. Now Ollie climbs up after skateboarding. He reads comics there and eats mangoes from the tree.<br><br>Next summer, Ollie and Grandad want to build a small table inside. \"Then I can do my homework up there too,\" Ollie says.",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "q": "What was new for Lan and her dad this year?",
+      "opts": [
+       "They had a table at the fair.",
+       "There was a food fair in their area.",
+       "Lan cooked food on her own."
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "The fair happens 'every year'. It isn't new.",
+       "Dad cut the vegetables, so she didn't cook on her own."
+      ],
+      "hint": "Find 'for the first time' in paragraph 1.",
+      "worked": "'This year, Lan and her dad *had a table for the first time*.'",
+      "stim": {
+       "id": "s8-t-rolls",
+       "kind": "text",
+       "head": "Part 6: an article",
+       "html": "<b>Lan's spring rolls</b><br><br>Every year, there is a food fair in Lan's neighbourhood. Families cook food from their home towns and sell it at small tables. This year, Lan and her dad had a table for the first time.<br><br>They decided to make fresh spring rolls. On Friday evening, they went to the market to buy rice paper, vegetables and herbs. They also used some cress from Lan's yoghurt pots.<br><br>On Saturday, they got up at six o'clock. Dad cut the vegetables, and Lan rolled the spring rolls. Her first rolls were too fat, but after a few tries, they looked perfect.<br><br>The fair started at ten. At first, only a few people stopped at their table. Then a girl from Lan's class bought four rolls and told all her friends. By twelve o'clock, there were no spring rolls left!<br><br>\"I was tired, but I was really proud,\" said Lan.<br><br>The money from the fair went to the neighbourhood sports club. The club needs new nets for its football pitch. Lan and her dad are already planning next year's food. They want to make mango sticky rice.",
+       "bank": null
+      }
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "4Rd.01"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "What did Ollie and Grandad make first?",
+      "opts": [
+       "a strong floor",
+       "four walls",
+       "the green roof"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "They built the walls AFTER the floor.",
+       "The roof came last, after the walls."
+      ],
+      "hint": "Find the word 'First' in paragraph 2.",
+      "worked": "'*First*, they made *a strong floor* with wood.'",
+      "stim": {
+       "id": "s8-t-tree",
+       "kind": "text",
+       "head": "Part 6: an article",
+       "html": "<b>A home in a tree</b><br><br>Ollie is nine years old. Last summer, he built a tree house with his grandad. It is in a big mango tree in his grandparents' garden. Ollie loves climbing trees, so it was a perfect project for him.<br><br>They worked on it for three weekends. First, they made a strong floor with wood. Then they built four walls and a roof. The roof is green, so it is hard to see the tree house from the street.<br><br>The tree house is small, but it has a little window and a round door. There is a rope ladder to climb up. Grandad says only two people can go in at the same time, because the floor is not very big.<br><br>Ollie's favourite thing is the window. He can see birds in the tree, and on clear days he can see the hills far away.<br><br>Grandma made some cushions from old wool and cloth. Now Ollie climbs up after skateboarding. He reads comics there and eats mangoes from the tree.<br><br>Next summer, Ollie and Grandad want to build a small table inside. \"Then I can do my homework up there too,\" Ollie says.",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "q": "When did Lan and her dad go to the market?",
+      "opts": [
+       "on Friday evening",
+       "early on Saturday",
+       "at ten on Saturday"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "Early on Saturday, at six o'clock, they got up to cook.",
+       "The fair started at ten."
+      ],
+      "hint": "Find the word 'market'.",
+      "worked": "'*On Friday evening*, they went to the market.'",
+      "stim": {
+       "id": "s8-t-rolls",
+       "kind": "text",
+       "head": "Part 6: an article",
+       "html": "<b>Lan's spring rolls</b><br><br>Every year, there is a food fair in Lan's neighbourhood. Families cook food from their home towns and sell it at small tables. This year, Lan and her dad had a table for the first time.<br><br>They decided to make fresh spring rolls. On Friday evening, they went to the market to buy rice paper, vegetables and herbs. They also used some cress from Lan's yoghurt pots.<br><br>On Saturday, they got up at six o'clock. Dad cut the vegetables, and Lan rolled the spring rolls. Her first rolls were too fat, but after a few tries, they looked perfect.<br><br>The fair started at ten. At first, only a few people stopped at their table. Then a girl from Lan's class bought four rolls and told all her friends. By twelve o'clock, there were no spring rolls left!<br><br>\"I was tired, but I was really proud,\" said Lan.<br><br>The money from the fair went to the neighbourhood sports club. The club needs new nets for its football pitch. Lan and her dad are already planning next year's food. They want to make mango sticky rice.",
+       "bank": null
+      }
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "4Rd.01"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "How many people can go in the tree house at the same time?",
+      "opts": [
+       "two",
+       "three",
+       "four"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Three is the number of weekends they worked.",
+       "Four is the number of walls."
+      ],
+      "hint": "Find 'at the same time'.",
+      "worked": "'Grandad says *only two people* can go in at the same time.'",
+      "stim": {
+       "id": "s8-t-tree",
+       "kind": "text",
+       "head": "Part 6: an article",
+       "html": "<b>A home in a tree</b><br><br>Ollie is nine years old. Last summer, he built a tree house with his grandad. It is in a big mango tree in his grandparents' garden. Ollie loves climbing trees, so it was a perfect project for him.<br><br>They worked on it for three weekends. First, they made a strong floor with wood. Then they built four walls and a roof. The roof is green, so it is hard to see the tree house from the street.<br><br>The tree house is small, but it has a little window and a round door. There is a rope ladder to climb up. Grandad says only two people can go in at the same time, because the floor is not very big.<br><br>Ollie's favourite thing is the window. He can see birds in the tree, and on clear days he can see the hills far away.<br><br>Grandma made some cushions from old wool and cloth. Now Ollie climbs up after skateboarding. He reads comics there and eats mangoes from the tree.<br><br>Next summer, Ollie and Grandad want to build a small table inside. \"Then I can do my homework up there too,\" Ollie says.",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "q": "What was Lan's job on Saturday morning?",
+      "opts": [
+       "rolling the spring rolls",
+       "cutting the vegetables",
+       "buying the rice paper"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "Dad cut the vegetables.",
+       "They bought the rice paper on Friday."
+      ],
+      "hint": "Read paragraph 3. Who did what?",
+      "worked": "'Dad cut the vegetables, and *Lan rolled the spring rolls*.'",
+      "stim": {
+       "id": "s8-t-rolls",
+       "kind": "text",
+       "head": "Part 6: an article",
+       "html": "<b>Lan's spring rolls</b><br><br>Every year, there is a food fair in Lan's neighbourhood. Families cook food from their home towns and sell it at small tables. This year, Lan and her dad had a table for the first time.<br><br>They decided to make fresh spring rolls. On Friday evening, they went to the market to buy rice paper, vegetables and herbs. They also used some cress from Lan's yoghurt pots.<br><br>On Saturday, they got up at six o'clock. Dad cut the vegetables, and Lan rolled the spring rolls. Her first rolls were too fat, but after a few tries, they looked perfect.<br><br>The fair started at ten. At first, only a few people stopped at their table. Then a girl from Lan's class bought four rolls and told all her friends. By twelve o'clock, there were no spring rolls left!<br><br>\"I was tired, but I was really proud,\" said Lan.<br><br>The money from the fair went to the neighbourhood sports club. The club needs new nets for its football pitch. Lan and her dad are already planning next year's food. They want to make mango sticky rice.",
+       "bank": null
+      }
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "4Rd.01"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "What can Ollie see from the window?",
+      "opts": [
+       "birds and the hills",
+       "the street and shops",
+       "the skate park"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "The tree house is hard to see FROM the street. The article doesn't talk about shops.",
+       "The article doesn't say he can see the skate park."
+      ],
+      "hint": "Find 'window' in paragraph 4.",
+      "worked": "'He can see *birds* in the tree, and on clear days he can see *the hills* far away.'",
+      "stim": {
+       "id": "s8-t-tree",
+       "kind": "text",
+       "head": "Part 6: an article",
+       "html": "<b>A home in a tree</b><br><br>Ollie is nine years old. Last summer, he built a tree house with his grandad. It is in a big mango tree in his grandparents' garden. Ollie loves climbing trees, so it was a perfect project for him.<br><br>They worked on it for three weekends. First, they made a strong floor with wood. Then they built four walls and a roof. The roof is green, so it is hard to see the tree house from the street.<br><br>The tree house is small, but it has a little window and a round door. There is a rope ladder to climb up. Grandad says only two people can go in at the same time, because the floor is not very big.<br><br>Ollie's favourite thing is the window. He can see birds in the tree, and on clear days he can see the hills far away.<br><br>Grandma made some cushions from old wool and cloth. Now Ollie climbs up after skateboarding. He reads comics there and eats mangoes from the tree.<br><br>Next summer, Ollie and Grandad want to build a small table inside. \"Then I can do my homework up there too,\" Ollie says.",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "q": "What happened by twelve o'clock?",
+      "opts": [
+       "All the spring rolls were sold.",
+       "Only a few people stopped at the table.",
+       "A girl bought four spring rolls."
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "That happened 'at first', soon after ten.",
+       "That happened earlier, before twelve."
+      ],
+      "hint": "Find 'By twelve o'clock'.",
+      "worked": "'By twelve o'clock, *there were no spring rolls left*!'",
+      "stim": {
+       "id": "s8-t-rolls",
+       "kind": "text",
+       "head": "Part 6: an article",
+       "html": "<b>Lan's spring rolls</b><br><br>Every year, there is a food fair in Lan's neighbourhood. Families cook food from their home towns and sell it at small tables. This year, Lan and her dad had a table for the first time.<br><br>They decided to make fresh spring rolls. On Friday evening, they went to the market to buy rice paper, vegetables and herbs. They also used some cress from Lan's yoghurt pots.<br><br>On Saturday, they got up at six o'clock. Dad cut the vegetables, and Lan rolled the spring rolls. Her first rolls were too fat, but after a few tries, they looked perfect.<br><br>The fair started at ten. At first, only a few people stopped at their table. Then a girl from Lan's class bought four rolls and told all her friends. By twelve o'clock, there were no spring rolls left!<br><br>\"I was tired, but I was really proud,\" said Lan.<br><br>The money from the fair went to the neighbourhood sports club. The club needs new nets for its football pitch. Lan and her dad are already planning next year's food. They want to make mango sticky rice.",
+       "bank": null
+      }
+     }
+    ]
+   },
+   {
+    "dok": 1,
+    "lo": [
+     "4Rd.01"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "What do Ollie and Grandad want to build next?",
+      "opts": [
+       "a small table",
+       "a bigger window",
+       "a rope ladder"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Ollie loves the window. He doesn't say he wants a bigger one.",
+       "There is ALREADY a rope ladder."
+      ],
+      "hint": "Find 'Next summer'.",
+      "worked": "'Next summer, Ollie and Grandad want to build *a small table* inside.'",
+      "stim": {
+       "id": "s8-t-tree",
+       "kind": "text",
+       "head": "Part 6: an article",
+       "html": "<b>A home in a tree</b><br><br>Ollie is nine years old. Last summer, he built a tree house with his grandad. It is in a big mango tree in his grandparents' garden. Ollie loves climbing trees, so it was a perfect project for him.<br><br>They worked on it for three weekends. First, they made a strong floor with wood. Then they built four walls and a roof. The roof is green, so it is hard to see the tree house from the street.<br><br>The tree house is small, but it has a little window and a round door. There is a rope ladder to climb up. Grandad says only two people can go in at the same time, because the floor is not very big.<br><br>Ollie's favourite thing is the window. He can see birds in the tree, and on clear days he can see the hills far away.<br><br>Grandma made some cushions from old wool and cloth. Now Ollie climbs up after skateboarding. He reads comics there and eats mangoes from the tree.<br><br>Next summer, Ollie and Grandad want to build a small table inside. \"Then I can do my homework up there too,\" Ollie says.",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "q": "What will the money from the fair pay for?",
+      "opts": [
+       "new nets for a football pitch",
+       "a new table for the food fair",
+       "mango sticky rice next year"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "The article doesn't talk about buying a table.",
+       "Mango sticky rice is their food plan, not what the money is for."
+      ],
+      "hint": "Find 'The money from the fair'.",
+      "worked": "The sports club '*needs new nets for its football pitch*'.",
+      "stim": {
+       "id": "s8-t-rolls",
+       "kind": "text",
+       "head": "Part 6: an article",
+       "html": "<b>Lan's spring rolls</b><br><br>Every year, there is a food fair in Lan's neighbourhood. Families cook food from their home towns and sell it at small tables. This year, Lan and her dad had a table for the first time.<br><br>They decided to make fresh spring rolls. On Friday evening, they went to the market to buy rice paper, vegetables and herbs. They also used some cress from Lan's yoghurt pots.<br><br>On Saturday, they got up at six o'clock. Dad cut the vegetables, and Lan rolled the spring rolls. Her first rolls were too fat, but after a few tries, they looked perfect.<br><br>The fair started at ten. At first, only a few people stopped at their table. Then a girl from Lan's class bought four rolls and told all her friends. By twelve o'clock, there were no spring rolls left!<br><br>\"I was tired, but I was really proud,\" said Lan.<br><br>The money from the fair went to the neighbourhood sports club. The club needs new nets for its football pitch. Lan and her dad are already planning next year's food. They want to make mango sticky rice.",
+       "bank": null
+      }
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "4Rm.01",
+     "4Rd.03"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "Who would like to grow a different plant?",
+      "opts": [
+       "Lan",
+       "Adam",
+       "Poppy"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "Adam grows mint and chillies now. He doesn't say he wants a new plant.",
+       "Poppy's wish is to visit Grandma more often, not to grow something new."
+      ],
+      "hint": "Look for 'I'd like' or 'next'. Then check what it is about.",
+      "worked": "Lan says '*Next, I'd like to grow bok choy*'.",
+      "stim": {
+       "id": "s8-t-grow",
+       "kind": "text",
+       "head": "Part 5: three children",
+       "html": "<b>Growing our own food</b><br><br><b>Lan</b><br>My dad and I grow cress at home. First, we put cotton wool in a yoghurt pot. Then we add the seeds and a little water. After a week, the cress is ready, and I put it in my sandwiches. Yum! Dad cooks every evening, and I always help him. Next, I'd like to grow bok choy, because Dad uses it in his soup.<br><br><b>Adam</b><br>We live in a flat, so we haven't got a garden. But we've got some pots by the kitchen window. We grow mint and chillies. I water them every day after school. I don't eat the chillies, because they're too hot for me! My sister loves them, though. Growing food in a flat isn't easy, but our kitchen smells great.<br><br><b>Poppy</b><br>My grandma has a big vegetable garden in the mountains. Every summer I stay with her for two weeks. We pick beans, carrots and potatoes. I don't usually like carrots, but Grandma's carrots are delicious! They taste sweeter than carrots from the shop. Her house is far from our city, so I can't help her every week. I wish I could visit more often.",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "q": "Who saw something special while they were away from home?",
+      "opts": [
+       "Quan",
+       "Tia",
+       "Jamal"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Tia watches the sunset on the beach 'near our home'.",
+       "Jamal was 'at home with my mum'."
+      ],
+      "hint": "Check WHERE each child was.",
+      "worked": "Quan saw a constellation when he '*stayed on my uncle's farm*'.",
+      "stim": {
+       "id": "s8-t-sky",
+       "kind": "text",
+       "head": "Part 5: three children",
+       "html": "<b>Something amazing in the sky</b><br><br><b>Quan</b><br>Last summer I stayed on my uncle's farm. There are no big lights there, so the sky is very dark at night. One evening my uncle showed me a constellation. It's a group of stars, and it looks like a big spoon! In the city, I can hardly ever see stars. Now I want to learn the names of more constellations. I've already got a book about them.<br><br><b>Tia</b><br>Every evening my family walks on the beach near our home. We watch the sunset together. The sky turns orange, pink and purple. My big brother takes photos from the rocks, and Mum always tells him to be careful. I like to draw the sunset with my coloured pencils. My best picture is on my bedroom wall. I never get bored of sunsets!<br><br><b>Jamal</b><br>Last month I saw lightning in a big storm. I was at home with my mum. The lightning was very bright, and the thunder was really loud. At first I was scared, so I hid under my blanket. Then Mum explained how lightning happens. Now I think storms are exciting! But I always stay inside when there's lightning, because it can be dangerous.",
+       "bank": null
+      }
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "4Rm.01",
+     "4Rd.03"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "Who doesn't enjoy eating something they grow?",
+      "opts": [
+       "Adam",
+       "Lan",
+       "Poppy"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Lan puts her cress in sandwiches and says 'Yum!'.",
+       "Poppy doesn't usually like carrots, but she says Grandma's carrots are delicious."
+      ],
+      "hint": "Two children say they don't like something. Read to the end of the sentence.",
+      "worked": "Adam says '*I don't eat the chillies*, because they're too hot for me!'",
+      "stim": {
+       "id": "s8-t-grow",
+       "kind": "text",
+       "head": "Part 5: three children",
+       "html": "<b>Growing our own food</b><br><br><b>Lan</b><br>My dad and I grow cress at home. First, we put cotton wool in a yoghurt pot. Then we add the seeds and a little water. After a week, the cress is ready, and I put it in my sandwiches. Yum! Dad cooks every evening, and I always help him. Next, I'd like to grow bok choy, because Dad uses it in his soup.<br><br><b>Adam</b><br>We live in a flat, so we haven't got a garden. But we've got some pots by the kitchen window. We grow mint and chillies. I water them every day after school. I don't eat the chillies, because they're too hot for me! My sister loves them, though. Growing food in a flat isn't easy, but our kitchen smells great.<br><br><b>Poppy</b><br>My grandma has a big vegetable garden in the mountains. Every summer I stay with her for two weeks. We pick beans, carrots and potatoes. I don't usually like carrots, but Grandma's carrots are delicious! They taste sweeter than carrots from the shop. Her house is far from our city, so I can't help her every week. I wish I could visit more often.",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "q": "Whose feelings about something changed?",
+      "opts": [
+       "Jamal",
+       "Quan",
+       "Tia"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "Quan wants to learn more, but he doesn't say he felt differently before.",
+       "Tia 'never gets bored' of sunsets. Her feeling stays the same."
+      ],
+      "hint": "Look for 'At first' and 'Now'.",
+      "worked": "'*At first I was scared* ... *Now I think storms are exciting*!'",
+      "stim": {
+       "id": "s8-t-sky",
+       "kind": "text",
+       "head": "Part 5: three children",
+       "html": "<b>Something amazing in the sky</b><br><br><b>Quan</b><br>Last summer I stayed on my uncle's farm. There are no big lights there, so the sky is very dark at night. One evening my uncle showed me a constellation. It's a group of stars, and it looks like a big spoon! In the city, I can hardly ever see stars. Now I want to learn the names of more constellations. I've already got a book about them.<br><br><b>Tia</b><br>Every evening my family walks on the beach near our home. We watch the sunset together. The sky turns orange, pink and purple. My big brother takes photos from the rocks, and Mum always tells him to be careful. I like to draw the sunset with my coloured pencils. My best picture is on my bedroom wall. I never get bored of sunsets!<br><br><b>Jamal</b><br>Last month I saw lightning in a big storm. I was at home with my mum. The lightning was very bright, and the thunder was really loud. At first I was scared, so I hid under my blanket. Then Mum explained how lightning happens. Now I think storms are exciting! But I always stay inside when there's lightning, because it can be dangerous.",
+       "bank": null
+      }
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "4Rm.01",
+     "4Rd.03"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "Who thinks food they grow tastes better?",
+      "opts": [
+       "Poppy",
+       "Lan",
+       "Adam"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Lan likes her cress, but she doesn't compare it with other food.",
+       "Adam says the kitchen smells great. That is about smell, not taste."
+      ],
+      "hint": "Look for a word that compares, like 'better' or 'sweeter'.",
+      "worked": "Grandma's carrots '*taste sweeter than carrots from the shop*'.",
+      "stim": {
+       "id": "s8-t-grow",
+       "kind": "text",
+       "head": "Part 5: three children",
+       "html": "<b>Growing our own food</b><br><br><b>Lan</b><br>My dad and I grow cress at home. First, we put cotton wool in a yoghurt pot. Then we add the seeds and a little water. After a week, the cress is ready, and I put it in my sandwiches. Yum! Dad cooks every evening, and I always help him. Next, I'd like to grow bok choy, because Dad uses it in his soup.<br><br><b>Adam</b><br>We live in a flat, so we haven't got a garden. But we've got some pots by the kitchen window. We grow mint and chillies. I water them every day after school. I don't eat the chillies, because they're too hot for me! My sister loves them, though. Growing food in a flat isn't easy, but our kitchen smells great.<br><br><b>Poppy</b><br>My grandma has a big vegetable garden in the mountains. Every summer I stay with her for two weeks. We pick beans, carrots and potatoes. I don't usually like carrots, but Grandma's carrots are delicious! They taste sweeter than carrots from the shop. Her house is far from our city, so I can't help her every week. I wish I could visit more often.",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "q": "Who does something with their family every day?",
+      "opts": [
+       "Tia",
+       "Quan",
+       "Jamal"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Quan's uncle showed him the stars on one evening of the holiday.",
+       "Jamal was with his mum during ONE storm last month."
+      ],
+      "hint": "Find a time word like 'every evening'.",
+      "worked": "'*Every evening my family walks* on the beach near our home.'",
+      "stim": {
+       "id": "s8-t-sky",
+       "kind": "text",
+       "head": "Part 5: three children",
+       "html": "<b>Something amazing in the sky</b><br><br><b>Quan</b><br>Last summer I stayed on my uncle's farm. There are no big lights there, so the sky is very dark at night. One evening my uncle showed me a constellation. It's a group of stars, and it looks like a big spoon! In the city, I can hardly ever see stars. Now I want to learn the names of more constellations. I've already got a book about them.<br><br><b>Tia</b><br>Every evening my family walks on the beach near our home. We watch the sunset together. The sky turns orange, pink and purple. My big brother takes photos from the rocks, and Mum always tells him to be careful. I like to draw the sunset with my coloured pencils. My best picture is on my bedroom wall. I never get bored of sunsets!<br><br><b>Jamal</b><br>Last month I saw lightning in a big storm. I was at home with my mum. The lightning was very bright, and the thunder was really loud. At first I was scared, so I hid under my blanket. Then Mum explained how lightning happens. Now I think storms are exciting! But I always stay inside when there's lightning, because it can be dangerous.",
+       "bank": null
+      }
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "4Rm.01",
+     "4Rd.03"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "Who looks after plants every day?",
+      "opts": [
+       "Adam",
+       "Lan",
+       "Poppy"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Lan helps her dad COOK every evening. That isn't looking after plants.",
+       "Poppy can't help her grandma every week."
+      ],
+      "hint": "Two texts say 'every'. Check what the child does every day.",
+      "worked": "Adam says '*I water them every day* after school'.",
+      "stim": {
+       "id": "s8-t-grow",
+       "kind": "text",
+       "head": "Part 5: three children",
+       "html": "<b>Growing our own food</b><br><br><b>Lan</b><br>My dad and I grow cress at home. First, we put cotton wool in a yoghurt pot. Then we add the seeds and a little water. After a week, the cress is ready, and I put it in my sandwiches. Yum! Dad cooks every evening, and I always help him. Next, I'd like to grow bok choy, because Dad uses it in his soup.<br><br><b>Adam</b><br>We live in a flat, so we haven't got a garden. But we've got some pots by the kitchen window. We grow mint and chillies. I water them every day after school. I don't eat the chillies, because they're too hot for me! My sister loves them, though. Growing food in a flat isn't easy, but our kitchen smells great.<br><br><b>Poppy</b><br>My grandma has a big vegetable garden in the mountains. Every summer I stay with her for two weeks. We pick beans, carrots and potatoes. I don't usually like carrots, but Grandma's carrots are delicious! They taste sweeter than carrots from the shop. Her house is far from our city, so I can't help her every week. I wish I could visit more often.",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "q": "Who is careful at some times?",
+      "opts": [
+       "Jamal",
+       "Quan",
+       "Tia"
+      ],
+      "at": 0,
+      "whys": [
+       null,
+       "Quan talks about the dark sky, but not about being careful.",
+       "Mum tells Tia's BROTHER to be careful, not Tia."
+      ],
+      "hint": "Who is the word 'careful' about? Also look for a safe thing someone does.",
+      "worked": "Jamal says '*I always stay inside when there's lightning*, because it can be dangerous'.",
+      "stim": {
+       "id": "s8-t-sky",
+       "kind": "text",
+       "head": "Part 5: three children",
+       "html": "<b>Something amazing in the sky</b><br><br><b>Quan</b><br>Last summer I stayed on my uncle's farm. There are no big lights there, so the sky is very dark at night. One evening my uncle showed me a constellation. It's a group of stars, and it looks like a big spoon! In the city, I can hardly ever see stars. Now I want to learn the names of more constellations. I've already got a book about them.<br><br><b>Tia</b><br>Every evening my family walks on the beach near our home. We watch the sunset together. The sky turns orange, pink and purple. My big brother takes photos from the rocks, and Mum always tells him to be careful. I like to draw the sunset with my coloured pencils. My best picture is on my bedroom wall. I never get bored of sunsets!<br><br><b>Jamal</b><br>Last month I saw lightning in a big storm. I was at home with my mum. The lightning was very bright, and the thunder was really loud. At first I was scared, so I hid under my blanket. Then Mum explained how lightning happens. Now I think storms are exciting! But I always stay inside when there's lightning, because it can be dangerous.",
+       "bank": null
+      }
+     }
+    ]
+   },
+   {
+    "dok": 2,
+    "lo": [
+     "4Rm.01",
+     "4Rd.03"
+    ],
+    "v": [
+     {
+      "type": "mcq",
+      "q": "Who would like to see someone in the family more often?",
+      "opts": [
+       "Poppy",
+       "Lan",
+       "Adam"
+      ],
+      "at": 2,
+      "whys": [
+       null,
+       "Lan's 'I'd like' is about growing bok choy, and she sees her dad every evening.",
+       "Adam talks about his sister, but he doesn't want to see her more."
+      ],
+      "hint": "Look for 'I wish'. What does the child want?",
+      "worked": "Poppy says '*I wish I could visit more often*'.",
+      "stim": {
+       "id": "s8-t-grow",
+       "kind": "text",
+       "head": "Part 5: three children",
+       "html": "<b>Growing our own food</b><br><br><b>Lan</b><br>My dad and I grow cress at home. First, we put cotton wool in a yoghurt pot. Then we add the seeds and a little water. After a week, the cress is ready, and I put it in my sandwiches. Yum! Dad cooks every evening, and I always help him. Next, I'd like to grow bok choy, because Dad uses it in his soup.<br><br><b>Adam</b><br>We live in a flat, so we haven't got a garden. But we've got some pots by the kitchen window. We grow mint and chillies. I water them every day after school. I don't eat the chillies, because they're too hot for me! My sister loves them, though. Growing food in a flat isn't easy, but our kitchen smells great.<br><br><b>Poppy</b><br>My grandma has a big vegetable garden in the mountains. Every summer I stay with her for two weeks. We pick beans, carrots and potatoes. I don't usually like carrots, but Grandma's carrots are delicious! They taste sweeter than carrots from the shop. Her house is far from our city, so I can't help her every week. I wish I could visit more often.",
+       "bank": null
+      }
+     },
+     {
+      "type": "mcq",
+      "q": "Who already has something to help them learn more?",
+      "opts": [
+       "Quan",
+       "Tia",
+       "Jamal"
+      ],
+      "at": 1,
+      "whys": [
+       null,
+       "Tia's picture is on her wall, but it doesn't help her learn.",
+       "Mum explained lightning to Jamal, but he doesn't say he has anything."
+      ],
+      "hint": "Look for the word 'already'.",
+      "worked": "Quan says '*I've already got a book* about them'.",
+      "stim": {
+       "id": "s8-t-sky",
+       "kind": "text",
+       "head": "Part 5: three children",
+       "html": "<b>Something amazing in the sky</b><br><br><b>Quan</b><br>Last summer I stayed on my uncle's farm. There are no big lights there, so the sky is very dark at night. One evening my uncle showed me a constellation. It's a group of stars, and it looks like a big spoon! In the city, I can hardly ever see stars. Now I want to learn the names of more constellations. I've already got a book about them.<br><br><b>Tia</b><br>Every evening my family walks on the beach near our home. We watch the sunset together. The sky turns orange, pink and purple. My big brother takes photos from the rocks, and Mum always tells him to be careful. I like to draw the sunset with my coloured pencils. My best picture is on my bedroom wall. I never get bored of sunsets!<br><br><b>Jamal</b><br>Last month I saw lightning in a big storm. I was at home with my mum. The lightning was very bright, and the thunder was really loud. At first I was scared, so I hid under my blanket. Then Mum explained how lightning happens. Now I think storms are exciting! But I always stay inside when there's lightning, because it can be dangerous.",
+       "bank": null
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "lightning": {
+  "secs": 60,
+  "items": [
+   [
+    "'Hardly ever' means ___",
+    [
+     "almost never",
+     "very often",
+     "always"
+    ]
+   ],
+   [
+    "'Keen on' means ___",
+    [
+     "likes a lot",
+     "is afraid of",
+     "never does"
+    ]
+   ],
+   [
+    "A 'nervous' person feels ___",
+    [
+     "worried",
+     "sleepy",
+     "hungry"
+    ]
+   ],
+   [
+    "'Delicious' food tastes ___",
+    [
+     "very good",
+     "very bad",
+     "too hot"
+    ]
+   ],
+   [
+    "'At first' tells you about the ___",
+    [
+     "start",
+     "end",
+     "title"
+    ]
+   ],
+   [
+    "'In the end' tells you about the ___",
+    [
+     "end",
+     "start",
+     "title"
+    ]
+   ],
+   [
+    "'I wish' shows something you ___",
+    [
+     "want",
+     "have",
+     "hate"
+    ]
+   ],
+   [
+    "Speech marks show what someone ___",
+    [
+     "said",
+     "ate",
+     "drew"
+    ]
+   ],
+   [
+    "The title tells you the ___",
+    [
+     "topic",
+     "ending",
+     "date"
+    ]
+   ],
+   [
+    "Part 6 questions follow the text's ___",
+    [
+     "order",
+     "title",
+     "pictures"
+    ]
+   ],
+   [
+    "'Proud' is a ___ word",
+    [
+     "feeling",
+     "time",
+     "place"
+    ]
+   ],
+   [
+    "'Next month' is in the ___",
+    [
+     "future",
+     "past",
+     "present"
+    ]
+   ],
+   [
+    "'Is going to' talks about the ___",
+    [
+     "future",
+     "past",
+     "present"
+    ]
+   ],
+   [
+    "'Disappointed' is the opposite of ___",
+    [
+     "pleased",
+     "sad",
+     "upset"
+    ]
+   ],
+   [
+    "Same word in the text means right answer?",
+    [
+     "not always",
+     "always",
+     "never"
+    ]
+   ],
+   [
+    "A 'scared' person feels ___",
+    [
+     "afraid",
+     "brave",
+     "bored"
+    ]
+   ],
+   [
+    "'Close to' means ___",
+    [
+     "near",
+     "far from",
+     "inside"
+    ]
+   ],
+   [
+    "'Far from' is the opposite of ___",
+    [
+     "near",
+     "behind",
+     "under"
+    ]
+   ],
+   [
+    "'I don't mind' means it's ___",
+    [
+     "OK for me",
+     "terrible",
+     "my favourite"
+    ]
+   ],
+   [
+    "A 'strict' teacher has lots of ___",
+    [
+     "rules",
+     "sweets",
+     "holidays"
+    ]
+   ],
+   [
+    "'Exciting' is the opposite of ___",
+    [
+     "boring",
+     "fun",
+     "great"
+    ]
+   ],
+   [
+    "'I never get bored' means I'm always ___",
+    [
+     "interested",
+     "tired",
+     "sleepy"
+    ]
+   ],
+   [
+    "A 'reason' answers the question ___",
+    [
+     "Why?",
+     "Where?",
+     "When?"
+    ]
+   ],
+   [
+    "'Because' gives a ___",
+    [
+     "reason",
+     "place",
+     "time"
+    ]
+   ],
+   [
+    "'So' tells you the ___",
+    [
+     "result",
+     "name",
+     "place"
+    ]
+   ],
+   [
+    "'Every evening' means ___",
+    [
+     "each evening",
+     "one evening",
+     "no evenings"
+    ]
+   ],
+   [
+    "'I've already got it' means I ___ it",
+    [
+     "have",
+     "want",
+     "lost"
+    ]
+   ],
+   [
+    "'Now I love it.' Did the feeling change?",
+    [
+     "yes",
+     "no",
+     "we don't know"
+    ]
+   ],
+   [
+    "'At first I was scared.' Later I was ___",
+    [
+     "not scared",
+     "more scared",
+     "asleep"
+    ]
+   ],
+   [
+    "A 'quotation' shows a person's ___",
+    [
+     "words",
+     "age",
+     "picture"
+    ]
+   ],
+   [
+    "'Surprised' means you didn't ___ it",
+    [
+     "expect",
+     "like",
+     "hear"
+    ]
+   ],
+   [
+    "'Freezing' means very ___",
+    [
+     "cold",
+     "hot",
+     "wet"
+    ]
+   ],
+   [
+    "'Humid' air is warm and ___",
+    [
+     "wet",
+     "dry",
+     "icy"
+    ]
+   ],
+   [
+    "A 'constellation' is a group of ___",
+    [
+     "stars",
+     "clouds",
+     "planets"
+    ]
+   ],
+   [
+    "We see the 'sunset' in the ___",
+    [
+     "evening",
+     "morning",
+     "afternoon"
+    ]
+   ],
+   [
+    "'Raise money' means ___ money",
+    [
+     "collect",
+     "lose",
+     "spend"
+    ]
+   ],
+   [
+    "A 'leaflet' is a small ___",
+    [
+     "piece of paper",
+     "box",
+     "shop"
+    ]
+   ],
+   [
+    "Your 'neighbourhood' is the area ___",
+    [
+     "near your home",
+     "in your school",
+     "far away"
+    ]
+   ],
+   [
+    "'Look after' means ___",
+    [
+     "take care of",
+     "look behind",
+     "look for"
+    ]
+   ],
+   [
+    "'Find out' means ___",
+    [
+     "learn",
+     "lose",
+     "hide"
+    ]
+   ],
+   [
+    "'I'd like' means ___",
+    [
+     "I want",
+     "I have",
+     "I had"
+    ]
+   ],
+   [
+    "'Most important' means it matters ___",
+    [
+     "the most",
+     "the least",
+     "a little"
+    ]
+   ],
+   [
+    "'Better than' compares ___ things",
+    [
+     "two",
+     "ten",
+     "no"
+    ]
+   ],
+   [
+    "The main idea is about the ___ text",
+    [
+     "whole",
+     "first",
+     "last"
+    ]
+   ],
+   [
+    "'Probably' means ___",
+    [
+     "likely",
+     "never",
+     "not at all"
+    ]
+   ],
+   [
+    "'I can't wait' means I'm very ___",
+    [
+     "excited",
+     "bored",
+     "slow"
+    ]
+   ],
+   [
+    "'Tired' people want to ___",
+    [
+     "rest",
+     "run",
+     "shout"
+    ]
+   ],
+   [
+    "'Brave' is the opposite of ___",
+    [
+     "scared",
+     "kind",
+     "tall"
+    ]
+   ],
+   [
+    "'Hide' means go where nobody can ___ you",
+    [
+     "see",
+     "feed",
+     "pay"
+    ]
+   ],
+   [
+    "'Who ...?' answers in Part 5 are ___",
+    [
+     "names",
+     "numbers",
+     "places"
+    ]
+   ]
+  ]
+ },
+ "selfcheck": {
+  "goals": [
+   "find the key word in a 'Who ...?' question",
+   "choose the child whose meaning matches, not just the words",
+   "find facts and reasons in an article in text order",
+   "find feelings in an article and predict what happens next"
+  ],
+  "again": [
+   "c",
+   "r",
+   "a",
+   "a"
+  ]
+ }
+}
