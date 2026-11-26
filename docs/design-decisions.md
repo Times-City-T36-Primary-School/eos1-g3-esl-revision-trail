@@ -30,3 +30,20 @@ Asked by Jovan ("improve these two apps"). Four specialist reviewers (listening,
 | Play-through content fixes | Answer positions re-mixed in every stop (no A/B/C patterns); clearer word pictures; 24 Lightning items that tested exam strategy replaced with English questions; shorter Stop 4 form questions. |
 | Engine | Letters A to J on 8-option questions; question kept in view beside long texts; word box and typing box stay visible above the letter pad on phones; letter pad fits a phone; Lightning cannot be won by random tapping; one compact letter row per gap; writing desk wording per grade, child-friendly Grade 3 rubric rows with Vietnamese, must mark before moving on; flip cards show bold words; Summit clock always visible; listening messages for typed listening answers; shorter test instructions with Vietnamese; many small phone layout fixes. |
 | Item security | Re-check after the review: 0 copied runs, 0 shared names; 5 new near-copies or reused situations found and rewritten. |
+
+## Colour-coded look (26 November 2026)
+
+Asked by Jovan ("colour themes for pictures and images"). A watercolour storybook look was tried first and turned down as not suitable for learning. Chosen in an interview, one question at a time, then approved from a preview:
+
+| Choice | Decision |
+| --- | --- |
+| Direction | Colour-coded skills: white pages, one calm colour per exam skill, so children always know which skill they practise. |
+| Skill colours | Words and grammar (Stops 1, 2, 3, 7) orange; Listening (4, 5) blue; Reading (6, 8) teal; Writing (9) purple; the Summit and home navy. Each colour reads at 5:1 or more with white text. A colour key sits under the map. |
+| Map | Same trail, order and shape; each stop circle and its badge in the skill colour; gold ring when done. |
+| Pictures | Flat colour Fluent Emoji (`img/emoji-c/`). |
+| Zip | Same shape and moods, flat colour: soft blue, white face, coral cheeks. |
+| Font | Andika (made for children learning to read; Vietnamese included), inside the page so it works offline. |
+| Right and wrong | Always green with a tick and red with a cross, never a skill colour. The next step on a stop page is in the stop colour, not green. |
+| Movement | Calm and quick: the ink wobble (99-cartoon.css) is removed; pages slide in once; nothing moves while children read; off when the device asks for less motion. |
+| Tests | The Mini tests and the Summit keep the exam-paper look (Arial, black on white, line drawings), like the real paper. |
+| Grades | Grade 3 and Grade 4 only; Grade 5 is unchanged. |
